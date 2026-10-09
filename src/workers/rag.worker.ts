@@ -64,9 +64,11 @@ async function initData(customBase?: string) {
   // 3. Fetch MiniSearch keyword index
   const msRes = await fetch(resolvePath('minisearch-index.json'));
   const msData = await msRes.json();
+  const STOPWORDS = new Set(['a', 'an', 'the', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is', 'it', 'how', 'what', 'why', 'who', 'with', 'from', 'by']);
   miniSearch = MiniSearch.loadJSON(JSON.stringify(msData), {
     fields: ['title', 'chapter', 'section', 'text'],
-    storeFields: ['id', 'parentId', 'title', 'type', 'chapter', 'projectId', 'section', 'page', 'videoId', 'timestamp', 'timeFormatted', 'parentText']
+    storeFields: ['id', 'parentId', 'title', 'type', 'chapter', 'projectId', 'section', 'page', 'videoId', 'timestamp', 'timeFormatted', 'parentText'],
+    processTerm: (term) => STOPWORDS.has(term.toLowerCase()) ? null : term.toLowerCase()
   });
 
   isIndexLoaded = true;
@@ -204,9 +206,9 @@ self.onmessage = async (e: MessageEvent) => {
       });
 
       // 3. Calibrated Abstention Rule
-      // If query is completely off-topic (vector similarity < 0.30 and weak/no keyword score)
-      const hasMeaningfulVector = queryVec && maxSimilarity >= 0.30;
-      const hasMeaningfulKeyword = keywordHits.length > 0 && maxKeywordScore >= 1.8;
+      // If query is completely off-topic (vector similarity < 0.28 and weak keyword score < 40)
+      const hasMeaningfulVector = queryVec && maxSimilarity >= 0.28;
+      const hasMeaningfulKeyword = keywordHits.length > 0 && maxKeywordScore >= 40.0;
 
       if (!hasMeaningfulVector && !hasMeaningfulKeyword) {
         self.postMessage({

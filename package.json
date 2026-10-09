@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "ingest": "node scripts/fetch_transcripts.mjs && python scripts/parse_pdf_to_json.py && node scripts/ingest.mjs",
-    "test:retrieval": "node scripts/test_retrieval.mjs"
+    "test:retrieval": "node scripts/test_retrieval.mjs",
+    "test:rag": "node scripts/test_rag.mjs"
   },
   "dependencies": {
     "@mlc-ai/web-llm": "^0.2.85",

@@ -446,9 +446,11 @@ async function runIngestion() {
 
   // 4. Build MiniSearch Inverted Index
   console.log("Building MiniSearch keyword index with structure fields...");
+  const STOPWORDS = new Set(['a', 'an', 'the', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is', 'it', 'how', 'what', 'why', 'who', 'with', 'from', 'by']);
   const miniSearch = new MiniSearch({
     fields: ['title', 'chapter', 'section', 'text'],
-    storeFields: ['id', 'parentId', 'title', 'type', 'chapter', 'projectId', 'section', 'page', 'videoId', 'timestamp', 'timeFormatted', 'parentText']
+    storeFields: ['id', 'parentId', 'title', 'type', 'chapter', 'projectId', 'section', 'page', 'videoId', 'timestamp', 'timeFormatted', 'parentText'],
+    processTerm: (term) => STOPWORDS.has(term.toLowerCase()) ? null : term.toLowerCase()
   });
 
   miniSearch.addAll(allChunks);
