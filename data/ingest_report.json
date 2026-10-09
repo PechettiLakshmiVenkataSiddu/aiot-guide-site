@@ -1,8 +1,8 @@
 {
   "version": "6e0c2df4b0554cec",
   "totalChunks": 565,
-  "newlyEmbedded": 565,
-  "cacheHits": 0,
+  "newlyEmbedded": 0,
+  "cacheHits": 565,
   "sections": {
     "hardware": 10,
     "wiring": 10,
@@ -11,5 +11,5 @@
     "video": 384,
     "general": 131
   },
-  "generatedAt": "2026-10-09T12:08:48.152Z"
+  "generatedAt": "2026-10-09T12:23:37.438Z"
 }

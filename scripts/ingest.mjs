@@ -186,6 +186,10 @@ function createChildChunks(parentText, parentId, maxChars = 450) {
   return childChunks.length > 0 ? childChunks : [parentText.slice(0, maxChars)];
 }
 
+export function chunkText(text, maxChars = 450) {
+  return createChildChunks(text, 'legacy', maxChars);
+}
+
 // Video transcript chunker (~60s windows)
 export function chunkTranscript(segments, windowSeconds = 60, maxChunksPerVideo = 16) {
   if (!segments || segments.length === 0) return [];

@@ -121,8 +121,9 @@ async function runE2E() {
 
   // 5. Navigate to Progress Tab
   console.log("5. Verifying Progress Page...");
-  if (navButtons.length >= 5) {
-    await navButtons[4].click(); // Progress is fifth
+  const currentNav = await page.$$('nav button');
+  if (currentNav.length >= 5) {
+    await currentNav[4].click(); // Progress is fifth
     await new Promise(r => setTimeout(r, 600));
     const progressScreenshot = path.join(ARTIFACT_DIR, 'screenshot_progress.png');
     await page.screenshot({ path: progressScreenshot });
