@@ -33,21 +33,29 @@ function cosineSimilarity(a: ArrayLike<number>, b: ArrayLike<number>, dim = 384)
   return dot;
 }
 
-async function initData() {
+let baseUrl = typeof import.meta !== 'undefined' && import.meta.env?.BASE_URL ? import.meta.env.BASE_URL : './';
+
+function resolvePath(filename: string): string {
+  const b = baseUrl.replace(/\/+$/, '');
+  return `${b}/rag-index/${filename}`;
+}
+
+async function initData(customBase?: string) {
+  if (customBase) baseUrl = customBase;
   if (isIndexLoaded) return;
   self.postMessage({ type: 'STATUS', message: 'Loading knowledge index...' });
 
   // 1. Fetch chunks
-  const chunksRes = await fetch('/rag-index/chunks.json');
+  const chunksRes = await fetch(resolvePath('chunks.json'));
   chunks = await chunksRes.json();
 
   // 2. Fetch binary embeddings
-  const binRes = await fetch('/rag-index/embeddings.bin');
+  const binRes = await fetch(resolvePath('embeddings.bin'));
   const binArrayBuffer = await binRes.arrayBuffer();
   embeddings = new Float32Array(binArrayBuffer);
 
   // 3. Fetch MiniSearch keyword index
-  const msRes = await fetch('/rag-index/minisearch-index.json');
+  const msRes = await fetch(resolvePath('minisearch-index.json'));
   const msData = await msRes.json();
   miniSearch = MiniSearch.loadJSON(JSON.stringify(msData), {
     fields: ['title', 'chapter', 'text'],
@@ -70,10 +78,10 @@ async function initData() {
 }
 
 self.onmessage = async (e: MessageEvent) => {
-  const { action, query, projectId, topK = 4 } = e.data;
+  const { action, query, projectId, topK = 4, base } = e.data;
 
   if (action === 'INIT') {
-    initData().catch(err => {
+    initData(base).catch(err => {
       self.postMessage({ type: 'ERROR', message: err.message });
     });
     return;
@@ -82,7 +90,7 @@ self.onmessage = async (e: MessageEvent) => {
   if (action === 'SEARCH') {
     try {
       if (!isIndexLoaded) {
-        await initData();
+        await initData(base);
       }
 
       self.postMessage({ type: 'SEARCHING' });
@@ -145,7 +153,8 @@ self.onmessage = async (e: MessageEvent) => {
 
       self.postMessage({
         type: 'SEARCH_RESULTS',
-        results: topResults
+        results: topResults,
+        query
       });
     } catch (err: any) {
       self.postMessage({ type: 'ERROR', message: err.message || 'Search failed' });

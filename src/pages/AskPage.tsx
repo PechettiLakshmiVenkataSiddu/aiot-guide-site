@@ -84,8 +84,12 @@ export const AskPage: React.FC<AskPageProps> = ({
         'What are the rules for Japanese business email etiquette?'
       ];
 
-  const handleSearchResults = useCallback(async (results: SearchResultItem[]) => {
+  const lastSubmittedQueryRef = useRef<string>('');
+  const handleSearchResultsRef = useRef<(results: SearchResultItem[], searchQ?: string) => void>(() => {});
+
+  const handleSearchResults = useCallback(async (results: SearchResultItem[], searchQ?: string) => {
     setIsSearching(false);
+    const activeQ = searchQ || lastSubmittedQueryRef.current || query;
 
     if (deepMode && webGpuSupported && results.length > 0) {
       setLlmLoading(true);
@@ -111,7 +115,7 @@ export const AskPage: React.FC<AskPageProps> = ({
           }
         ]);
 
-        await webLLM.generateAnswer(query, passages, (token) => {
+        await webLLM.generateAnswer(activeQ, passages, (token) => {
           setMessages(prev =>
             prev.map(m => (m.id === assistantMsgId ? { ...m, content: m.content + token } : m))
           );
@@ -150,9 +154,15 @@ export const AskPage: React.FC<AskPageProps> = ({
     }
   }, [deepMode, webGpuSupported, playFeedback, query]);
 
+  // Keep ref up to date with latest handleSearchResults
+  useEffect(() => {
+    handleSearchResultsRef.current = handleSearchResults;
+  });
+
   const handleSearch = useCallback((searchQuery: string) => {
     if (!searchQuery.trim() || isSearching) return;
     playFeedback('tap', 'tap');
+    lastSubmittedQueryRef.current = searchQuery;
 
     const userMsg: ChatMessage = {
       id: `user-${Date.now()}`,
@@ -173,7 +183,7 @@ export const AskPage: React.FC<AskPageProps> = ({
     setQuery('');
   }, [isSearching, playFeedback, scopedProjectId]);
 
-  // Initialize Web Worker and check WebGPU
+  // Initialize Web Worker and check WebGPU safely once on mount
   useEffect(() => {
     webLLM.checkWebGPUSupport().then(setWebGpuSupported);
 
@@ -184,13 +194,13 @@ export const AskPage: React.FC<AskPageProps> = ({
     workerRef.current = worker;
 
     worker.onmessage = (e: MessageEvent) => {
-      const { type, results, message } = e.data;
+      const { type, results, message, query: resQuery } = e.data;
       if (type === 'STATUS') {
         setWorkerStatus(message);
       } else if (type === 'READY') {
         setWorkerStatus('Ready');
       } else if (type === 'SEARCH_RESULTS') {
-        handleSearchResults(results);
+        handleSearchResultsRef.current(results, resQuery);
       } else if (type === 'ERROR') {
         setIsSearching(false);
         setLlmLoading(false);
@@ -206,12 +216,12 @@ export const AskPage: React.FC<AskPageProps> = ({
       }
     };
 
-    worker.postMessage({ action: 'INIT' });
+    worker.postMessage({ action: 'INIT', base: import.meta.env.BASE_URL });
 
     return () => {
       worker.terminate();
     };
-  }, [handleSearchResults, playFeedback]);
+  }, [playFeedback]);
 
   // Handle Initial Query if supplied from another page
   const hasExecutedInitial = useRef(false);
