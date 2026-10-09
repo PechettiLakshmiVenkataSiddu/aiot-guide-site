@@ -34,6 +34,8 @@ interface SearchResultItem {
     timestamp?: number;
     timeFormatted?: string;
     text: string;
+    parentText?: string;
+    section?: string;
   };
   score: number;
   similarity: number;
@@ -85,11 +87,36 @@ export const AskPage: React.FC<AskPageProps> = ({
       ];
 
   const lastSubmittedQueryRef = useRef<string>('');
-  const handleSearchResultsRef = useRef<(results: SearchResultItem[], searchQ?: string) => void>(() => {});
+  const handleSearchResultsRef = useRef<(results: SearchResultItem[], searchQ?: string, isAbstaining?: boolean, suggestedProjects?: { id: string; title: string }[]) => void>(() => {});
 
-  const handleSearchResults = useCallback(async (results: SearchResultItem[], searchQ?: string) => {
+  const handleSearchResults = useCallback(async (
+    results: SearchResultItem[],
+    searchQ?: string,
+    isAbstaining?: boolean,
+    suggestedProjects?: { id: string; title: string }[]
+  ) => {
     setIsSearching(false);
     const activeQ = searchQ || lastSubmittedQueryRef.current || query;
+
+    if (isAbstaining || results.length === 0) {
+      playFeedback('step-done', 'tap');
+      const suggestionsText = suggestedProjects && suggestedProjects.length > 0
+        ? `\n\n💡 You might want to explore these related guide projects:\n` +
+          suggestedProjects.map(p => `• ${p.title}`).join('\n')
+        : '';
+
+      setMessages(prev => [
+        ...prev,
+        {
+          id: `msg-${Date.now()}`,
+          role: 'assistant',
+          content: `Not found in the guide or videos.${suggestionsText}`,
+          results: [],
+          isDeepAnswer: false
+        }
+      ]);
+      return;
+    }
 
     if (deepMode && webGpuSupported && results.length > 0) {
       setLlmLoading(true);
@@ -101,7 +128,7 @@ export const AskPage: React.FC<AskPageProps> = ({
         });
         setLlmLoading(false);
 
-        const passages = results.map(r => `${r.chunk.title}: ${r.chunk.text}`);
+        const passages = results.map(r => `${r.chunk.title}: ${r.chunk.parentText || r.chunk.text}`);
         const assistantMsgId = `msg-${Date.now()}`;
 
         setMessages(prev => [
@@ -139,7 +166,7 @@ export const AskPage: React.FC<AskPageProps> = ({
       playFeedback('step-done', 'step-done');
       const textSummary = results.length > 0
         ? `I found ${results.length} relevant reference passages in the master guide and video transcripts:`
-        : "No relevant matching passages were found in the AIoT Guide or video transcripts.";
+        : "Not found in the guide or videos.";
 
       setMessages(prev => [
         ...prev,
@@ -194,13 +221,13 @@ export const AskPage: React.FC<AskPageProps> = ({
     workerRef.current = worker;
 
     worker.onmessage = (e: MessageEvent) => {
-      const { type, results, message, query: resQuery } = e.data;
+      const { type, results, message, query: resQuery, isAbstaining, suggestedProjects } = e.data;
       if (type === 'STATUS') {
         setWorkerStatus(message);
       } else if (type === 'READY') {
         setWorkerStatus('Ready');
       } else if (type === 'SEARCH_RESULTS') {
-        handleSearchResultsRef.current(results, resQuery);
+        handleSearchResultsRef.current(results, resQuery, isAbstaining, suggestedProjects);
       } else if (type === 'ERROR') {
         setIsSearching(false);
         setLlmLoading(false);

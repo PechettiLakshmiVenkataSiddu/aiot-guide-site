@@ -23,7 +23,7 @@ function sha256(str) {
 function cleanPdfText(text) {
   if (!text) return '';
   return text
-    .replace(/\x0c/g, '\n')
+    .split(String.fromCharCode(12)).join('\n')
     .replace(/ﬁ/g, 'fi')
     .replace(/ﬂ/g, 'fl')
     .replace(/’/g, "'")
