@@ -30,7 +30,7 @@ export const Header: React.FC = () => {
   return (
     <>
       <header className="sticky top-0 z-40 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80 px-4 py-3">
-        <div className="max-w-md mx-auto flex items-center justify-between">
+        <div className="max-w-md md:max-w-3xl lg:max-w-4xl mx-auto flex items-center justify-between">
           {/* Brand */}
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-500 to-emerald-400 flex items-center justify-center p-0.5 shadow-[0_0_12px_rgba(0,242,254,0.4)]">
@@ -204,6 +204,15 @@ export const Header: React.FC = () => {
                 >
                   Test Sound & Haptic Pulse
                 </button>
+
+                {/* Diagnostics Link */}
+                <a
+                  href="#debug"
+                  onClick={() => setSettingsOpen(false)}
+                  className="w-full mt-2 py-2 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors border border-slate-700"
+                >
+                  <span>Open System Diagnostics (/debug)</span>
+                </a>
               </div>
 
               {/* Security & Static Footnote */}
