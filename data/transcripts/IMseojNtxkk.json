@@ -1,0 +1,5114 @@
+[
+  {
+    "text": "Was wäre, wenn dein Codeitor nicht nur",
+    "duration": 3920,
+    "offset": 320,
+    "lang": "de"
+  },
+  {
+    "text": "Befehle vorschlägt, sondern mitdenkt wie",
+    "duration": 3840,
+    "offset": 2320,
+    "lang": "de"
+  },
+  {
+    "text": "ein Programmierer? Also, wenn du das",
+    "duration": 3400,
+    "offset": 4240,
+    "lang": "de"
+  },
+  {
+    "text": "Gefühl hast, dass du bei deiner App",
+    "duration": 3399,
+    "offset": 6160,
+    "lang": "de"
+  },
+  {
+    "text": "nicht weiterkommst, dann zeige ich dir",
+    "duration": 6200,
+    "offset": 7640,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt deinen neuen Coentwickler.",
+    "duration": 4281,
+    "offset": 9559,
+    "lang": "de"
+  },
+  {
+    "text": "KI Editoren sind überall, aber können",
+    "duration": 4121,
+    "offset": 14519,
+    "lang": "de"
+  },
+  {
+    "text": "Sie wirklich mitdenken wie ein echter",
+    "duration": 3400,
+    "offset": 16760,
+    "lang": "de"
+  },
+  {
+    "text": "Programmierer?",
+    "duration": 3760,
+    "offset": 18640,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, viele Anfänger, die fühlen sich ja",
+    "duration": 3879,
+    "offset": 20160,
+    "lang": "de"
+  },
+  {
+    "text": "meistens beim Coden so ein bisschen",
+    "duration": 3959,
+    "offset": 22400,
+    "lang": "de"
+  },
+  {
+    "text": "alleinelassen, denn man hat zwar",
+    "duration": 3521,
+    "offset": 24039,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwie ein Editor, der irg einem",
+    "duration": 3121,
+    "offset": 26359,
+    "lang": "de"
+  },
+  {
+    "text": "helfen soll, aber trotzdem wird man",
+    "duration": 4160,
+    "offset": 27560,
+    "lang": "de"
+  },
+  {
+    "text": "natürlich mit Fehlern konfrontiert und",
+    "duration": 3800,
+    "offset": 29480,
+    "lang": "de"
+  },
+  {
+    "text": "man weiß auch nicht so richtig, ob das,",
+    "duration": 3760,
+    "offset": 31720,
+    "lang": "de"
+  },
+  {
+    "text": "was man da am Anfang gebaut hat, auch",
+    "duration": 3799,
+    "offset": 33280,
+    "lang": "de"
+  },
+  {
+    "text": "wirklich irgendwie sicher ist und auch",
+    "duration": 4079,
+    "offset": 35480,
+    "lang": "de"
+  },
+  {
+    "text": "so funktioniert, wie es funktionieren",
+    "duration": 5521,
+    "offset": 37079,
+    "lang": "de"
+  },
+  {
+    "text": "sollte. Ja, und da helfen natürlich KE",
+    "duration": 4840,
+    "offset": 39559,
+    "lang": "de"
+  },
+  {
+    "text": "Editoren, ne, die wollen natürlich dir",
+    "duration": 3760,
+    "offset": 42600,
+    "lang": "de"
+  },
+  {
+    "text": "sagen: \"Hey, lieber Programmieranfänger,",
+    "duration": 4000,
+    "offset": 44399,
+    "lang": "de"
+  },
+  {
+    "text": "du schaffst das.\" und ich möchte dir",
+    "duration": 4640,
+    "offset": 46360,
+    "lang": "de"
+  },
+  {
+    "text": "heute live zeigen einmal Curser, das ist",
+    "duration": 6041,
+    "offset": 48399,
+    "lang": "de"
+  },
+  {
+    "text": "ein K Editor und wir werden ein äh",
+    "duration": 6800,
+    "offset": 51000,
+    "lang": "de"
+  },
+  {
+    "text": "Minippiel Vibe coden und dann eben dabei",
+    "duration": 5799,
+    "offset": 54440,
+    "lang": "de"
+  },
+  {
+    "text": "klären, ja, wie viel Anleitung braucht",
+    "duration": 5079,
+    "offset": 57800,
+    "lang": "de"
+  },
+  {
+    "text": "Curser eigentlich, was tut es von allein",
+    "duration": 4960,
+    "offset": 60239,
+    "lang": "de"
+  },
+  {
+    "text": "und wo scheitert es.",
+    "duration": 3721,
+    "offset": 62879,
+    "lang": "de"
+  },
+  {
+    "text": "Dafür gehen wir jetzt bei mir an den",
+    "duration": 3401,
+    "offset": 65199,
+    "lang": "de"
+  },
+  {
+    "text": "Rechner und ja, einmal zeige ich dir",
+    "duration": 5320,
+    "offset": 66600,
+    "lang": "de"
+  },
+  {
+    "text": "ganz kurz Cursor. Das ist Cursor. Ähm,",
+    "duration": 4839,
+    "offset": 68600,
+    "lang": "de"
+  },
+  {
+    "text": "also falls du es noch nicht kennst, du",
+    "duration": 3600,
+    "offset": 71920,
+    "lang": "de"
+  },
+  {
+    "text": "kannst dir das kostenfrei installieren.",
+    "duration": 5081,
+    "offset": 73439,
+    "lang": "de"
+  },
+  {
+    "text": "Die haben eine einwürchtige ähm",
+    "duration": 5680,
+    "offset": 75520,
+    "lang": "de"
+  },
+  {
+    "text": "Probelizenz, also das funktioniert auf",
+    "duration": 5480,
+    "offset": 78520,
+    "lang": "de"
+  },
+  {
+    "text": "jeden Fall und damit kannst du auf jeden",
+    "duration": 5800,
+    "offset": 81200,
+    "lang": "de"
+  },
+  {
+    "text": "Fall loslegen. Ähm, installiert das",
+    "duration": 4360,
+    "offset": 84000,
+    "lang": "de"
+  },
+  {
+    "text": "einfach. Wir werden da jetzt nämlich",
+    "duration": 4159,
+    "offset": 87000,
+    "lang": "de"
+  },
+  {
+    "text": "drinne arbeiten. Also, ne, wie gesagt,",
+    "duration": 6000,
+    "offset": 88360,
+    "lang": "de"
+  },
+  {
+    "text": "Cursor ist eine ja sogenannte IDI, also",
+    "duration": 4920,
+    "offset": 91159,
+    "lang": "de"
+  },
+  {
+    "text": "eine Entwicklungsumgebung",
+    "duration": 5079,
+    "offset": 94360,
+    "lang": "de"
+  },
+  {
+    "text": "mit einer integrierten KI, die ähm ja",
+    "duration": 5241,
+    "offset": 96079,
+    "lang": "de"
+  },
+  {
+    "text": "auf verschiedenste Modelle Zugriff hat.",
+    "duration": 3121,
+    "offset": 99439,
+    "lang": "de"
+  },
+  {
+    "text": "Also, wenn ich hier mal reingucke in",
+    "duration": 3520,
+    "offset": 101320,
+    "lang": "de"
+  },
+  {
+    "text": "Auto, wenn ich mal Auto wegklicke, ähm",
+    "duration": 3559,
+    "offset": 102560,
+    "lang": "de"
+  },
+  {
+    "text": "dann sehen wir hier, wir haben ein",
+    "duration": 3360,
+    "offset": 104840,
+    "lang": "de"
+  },
+  {
+    "text": "Composer, das ist so das Standardmodell.",
+    "duration": 4841,
+    "offset": 106119,
+    "lang": "de"
+  },
+  {
+    "text": "Dann haben sie ein Cloud 45 Sonnet jetzt",
+    "duration": 5760,
+    "offset": 108200,
+    "lang": "de"
+  },
+  {
+    "text": "zum jetzigen Zeitpunkt GPT5, also die",
+    "duration": 5079,
+    "offset": 110960,
+    "lang": "de"
+  },
+  {
+    "text": "modernsten Modelle, die so auf dem Markt",
+    "duration": 3799,
+    "offset": 113960,
+    "lang": "de"
+  },
+  {
+    "text": "gerade gibt und die haben auch ihr",
+    "duration": 4760,
+    "offset": 116039,
+    "lang": "de"
+  },
+  {
+    "text": "eigenes Codingmell rausgebracht, mit dem",
+    "duration": 5400,
+    "offset": 117759,
+    "lang": "de"
+  },
+  {
+    "text": "man gut arbeiten kann. So, aber wie du",
+    "duration": 3960,
+    "offset": 120799,
+    "lang": "de"
+  },
+  {
+    "text": "siehst, das ja schon mal ganz grob die",
+    "duration": 4280,
+    "offset": 123159,
+    "lang": "de"
+  },
+  {
+    "text": "Übersicht. Ähm, wir sehen hier links ist",
+    "duration": 4280,
+    "offset": 124759,
+    "lang": "de"
+  },
+  {
+    "text": "der Dateibereich, da sind jetzt noch",
+    "duration": 3800,
+    "offset": 127439,
+    "lang": "de"
+  },
+  {
+    "text": "keine Dateien drinne. Ähm, Cursor wird",
+    "duration": 4521,
+    "offset": 129039,
+    "lang": "de"
+  },
+  {
+    "text": "uns Dateien nachher selbst erstellen und",
+    "duration": 4801,
+    "offset": 131239,
+    "lang": "de"
+  },
+  {
+    "text": "dann haben wir in der Mitte den Bereich,",
+    "duration": 4920,
+    "offset": 133560,
+    "lang": "de"
+  },
+  {
+    "text": "in dem wir dann auch tatsächlich ja",
+    "duration": 4559,
+    "offset": 136040,
+    "lang": "de"
+  },
+  {
+    "text": "programmieren können, wobei wir beim",
+    "duration": 4800,
+    "offset": 138480,
+    "lang": "de"
+  },
+  {
+    "text": "Vibecoden ja weniger selber Code tippen,",
+    "duration": 4441,
+    "offset": 140599,
+    "lang": "de"
+  },
+  {
+    "text": "sondern von der KI den Code eintippen",
+    "duration": 3800,
+    "offset": 143280,
+    "lang": "de"
+  },
+  {
+    "text": "lassen. Das erkläre ich gleich. Ja, und",
+    "duration": 3880,
+    "offset": 145040,
+    "lang": "de"
+  },
+  {
+    "text": "dann halt eben den wichtigsten Bereich",
+    "duration": 3960,
+    "offset": 147080,
+    "lang": "de"
+  },
+  {
+    "text": "in dem heutigen Zeitalter, sage ich mal,",
+    "duration": 4039,
+    "offset": 148920,
+    "lang": "de"
+  },
+  {
+    "text": "und zwar der Chatbereich, ne? Ich kann",
+    "duration": 3120,
+    "offset": 151040,
+    "lang": "de"
+  },
+  {
+    "text": "hier in diesem Chatbereich meinen",
+    "duration": 3401,
+    "offset": 152959,
+    "lang": "de"
+  },
+  {
+    "text": "sogenannten Prompt eingeben. Also ich",
+    "duration": 4240,
+    "offset": 154160,
+    "lang": "de"
+  },
+  {
+    "text": "gebe der KI die Anweisung, was sie genau",
+    "duration": 4159,
+    "offset": 156360,
+    "lang": "de"
+  },
+  {
+    "text": "bauen soll und dann wird die KI mit mir",
+    "duration": 4559,
+    "offset": 158400,
+    "lang": "de"
+  },
+  {
+    "text": "das eben durchgehen. Und das ist im",
+    "duration": 4881,
+    "offset": 160519,
+    "lang": "de"
+  },
+  {
+    "text": "Prinzip genau das, was auch Vibecoding",
+    "duration": 5640,
+    "offset": 162959,
+    "lang": "de"
+  },
+  {
+    "text": "ausmacht, denn wir programmieren wie als",
+    "duration": 5080,
+    "offset": 165400,
+    "lang": "de"
+  },
+  {
+    "text": "wenn wir ja neben einem Kollegen sitzen",
+    "duration": 3681,
+    "offset": 168599,
+    "lang": "de"
+  },
+  {
+    "text": "würden oder der Kollege, der halt remote",
+    "duration": 3839,
+    "offset": 170480,
+    "lang": "de"
+  },
+  {
+    "text": "sitzt, programmiert für uns und wir",
+    "duration": 4039,
+    "offset": 172280,
+    "lang": "de"
+  },
+  {
+    "text": "sagen ihm nur im Prinzip, was er zu tun",
+    "duration": 4121,
+    "offset": 174319,
+    "lang": "de"
+  },
+  {
+    "text": "hat. Ja, so und das heißt, wir müssen",
+    "duration": 4280,
+    "offset": 176319,
+    "lang": "de"
+  },
+  {
+    "text": "ihm sagen: \"Hey, was soll was ist zu",
+    "duration": 4560,
+    "offset": 178440,
+    "lang": "de"
+  },
+  {
+    "text": "tun? den Stil, also ne, soll die, soll",
+    "duration": 3801,
+    "offset": 180599,
+    "lang": "de"
+  },
+  {
+    "text": "das eine App sein, soll es ein Spiel",
+    "duration": 3120,
+    "offset": 183000,
+    "lang": "de"
+  },
+  {
+    "text": "sein, wenn ja, wie soll das Ganze",
+    "duration": 4000,
+    "offset": 184400,
+    "lang": "de"
+  },
+  {
+    "text": "aussehen? Ja, also in welchem Design?",
+    "duration": 3720,
+    "offset": 186120,
+    "lang": "de"
+  },
+  {
+    "text": "Wir müssen auch ein paar Grenzen klar",
+    "duration": 5000,
+    "offset": 188400,
+    "lang": "de"
+  },
+  {
+    "text": "machen, ähm dass halt eben quasi nicht",
+    "duration": 5560,
+    "offset": 189840,
+    "lang": "de"
+  },
+  {
+    "text": "die KI einfach selber losrennt, sondern",
+    "duration": 3160,
+    "offset": 193400,
+    "lang": "de"
+  },
+  {
+    "text": "wir müssen dir schon ganz klare",
+    "duration": 2800,
+    "offset": 195400,
+    "lang": "de"
+  },
+  {
+    "text": "Anweisung geben, damit sie jetzt nicht",
+    "duration": 3800,
+    "offset": 196560,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwie übertreibt oder halt eben zu",
+    "duration": 4440,
+    "offset": 198200,
+    "lang": "de"
+  },
+  {
+    "text": "schnell in Fehler fällt. So, und dabei",
+    "duration": 4400,
+    "offset": 200360,
+    "lang": "de"
+  },
+  {
+    "text": "ist es ganz wichtig, dass wir halt eben",
+    "duration": 4080,
+    "offset": 202640,
+    "lang": "de"
+  },
+  {
+    "text": "in kleinen Schritten bauen und auch",
+    "duration": 3880,
+    "offset": 204760,
+    "lang": "de"
+  },
+  {
+    "text": "immer wieder testen, das was dort eben",
+    "duration": 4000,
+    "offset": 206720,
+    "lang": "de"
+  },
+  {
+    "text": "gebaut wird.",
+    "duration": 4040,
+    "offset": 208640,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, also das ist erstmal die Oberschob",
+    "duration": 3799,
+    "offset": 210720,
+    "lang": "de"
+  },
+  {
+    "text": "Oberfläche von Curser, in der werden wir",
+    "duration": 4119,
+    "offset": 212680,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt unser kleines Minigame, den Code",
+    "duration": 5280,
+    "offset": 214519,
+    "lang": "de"
+  },
+  {
+    "text": "Typer bauen. Ja, aber ganz kurz,",
+    "duration": 5561,
+    "offset": 216799,
+    "lang": "de"
+  },
+  {
+    "text": "abonniere jetzt Vibe Venture. Also klick",
+    "duration": 4281,
+    "offset": 219799,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt auf den Abonnieren Button, damit",
+    "duration": 5159,
+    "offset": 222360,
+    "lang": "de"
+  },
+  {
+    "text": "du ja jederzeit praktische KI und Coding",
+    "duration": 5799,
+    "offset": 224080,
+    "lang": "de"
+  },
+  {
+    "text": "Tipps und Sessions mitnehmen kannst. Du",
+    "duration": 4201,
+    "offset": 227519,
+    "lang": "de"
+  },
+  {
+    "text": "hilfst damit einmal natürlich, dass die",
+    "duration": 4161,
+    "offset": 229879,
+    "lang": "de"
+  },
+  {
+    "text": "Videos mehr Menschen erreichen und die",
+    "duration": 4200,
+    "offset": 231720,
+    "lang": "de"
+  },
+  {
+    "text": "Community wächst und wir natürlich dann",
+    "duration": 3839,
+    "offset": 234040,
+    "lang": "de"
+  },
+  {
+    "text": "auch mehr praxisorientierten Content",
+    "duration": 4200,
+    "offset": 235920,
+    "lang": "de"
+  },
+  {
+    "text": "produzieren können. Also vielen Dank,",
+    "duration": 4481,
+    "offset": 237879,
+    "lang": "de"
+  },
+  {
+    "text": "dass du Teil davon bist. Ja, und das",
+    "duration": 4679,
+    "offset": 240120,
+    "lang": "de"
+  },
+  {
+    "text": "damit starten wir direkt ins Coding",
+    "duration": 4159,
+    "offset": 242360,
+    "lang": "de"
+  },
+  {
+    "text": "rein. Ich blende mich jetzt auch mal",
+    "duration": 3961,
+    "offset": 244799,
+    "lang": "de"
+  },
+  {
+    "text": "ganz kurz aus und wir gehen jetzt hier",
+    "duration": 3720,
+    "offset": 246519,
+    "lang": "de"
+  },
+  {
+    "text": "in den Prompt rein und da müssen wir",
+    "duration": 3839,
+    "offset": 248760,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt eben was eintippen. Also, ich sage",
+    "duration": 4521,
+    "offset": 250239,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt folgendes. Also, ich habe hier",
+    "duration": 3521,
+    "offset": 252599,
+    "lang": "de"
+  },
+  {
+    "text": "schon mal ein Projekt angelegt. Das",
+    "duration": 2999,
+    "offset": 254760,
+    "lang": "de"
+  },
+  {
+    "text": "heißt einfach, ich habe einen neuen",
+    "duration": 3560,
+    "offset": 256120,
+    "lang": "de"
+  },
+  {
+    "text": "neuen neuen Ordner geöffnet auf meiner",
+    "duration": 4401,
+    "offset": 257759,
+    "lang": "de"
+  },
+  {
+    "text": "Festplatte und dann kann ich hier direkt",
+    "duration": 4000,
+    "offset": 259680,
+    "lang": "de"
+  },
+  {
+    "text": "loslegen. Also, ich brauche hier gar",
+    "duration": 3360,
+    "offset": 262160,
+    "lang": "de"
+  },
+  {
+    "text": "kein großes Setup aufmachen. Ich öffne",
+    "duration": 3959,
+    "offset": 263680,
+    "lang": "de"
+  },
+  {
+    "text": "einfach einen leeren Ordner.",
+    "duration": 3200,
+    "offset": 265520,
+    "lang": "de"
+  },
+  {
+    "text": "Also, wie du siehst, ich habe hier",
+    "duration": 3081,
+    "offset": 267639,
+    "lang": "de"
+  },
+  {
+    "text": "einfach einen äh null leeren Ordner",
+    "duration": 4880,
+    "offset": 268720,
+    "lang": "de"
+  },
+  {
+    "text": "angelegt und diesen Ordner dann über",
+    "duration": 5759,
+    "offset": 270720,
+    "lang": "de"
+  },
+  {
+    "text": "Open Folder ganz einfach geöffnet und",
+    "duration": 4480,
+    "offset": 273600,
+    "lang": "de"
+  },
+  {
+    "text": "damit können wir dann loslegen. Also das",
+    "duration": 2720,
+    "offset": 276479,
+    "lang": "de"
+  },
+  {
+    "text": "erste, was wir jetzt prompten, ist",
+    "duration": 3360,
+    "offset": 278080,
+    "lang": "de"
+  },
+  {
+    "text": "einmal natürlich so ganz grobe Setup.",
+    "duration": 5201,
+    "offset": 279199,
+    "lang": "de"
+  },
+  {
+    "text": "Also ich sage ihm erstmal",
+    "duration": 5759,
+    "offset": 281440,
+    "lang": "de"
+  },
+  {
+    "text": "wir bauen ein",
+    "duration": 8359,
+    "offset": 284400,
+    "lang": "de"
+  },
+  {
+    "text": "Mini Game und dann den Namen Code Typer.",
+    "duration": 7121,
+    "offset": 287199,
+    "lang": "de"
+  },
+  {
+    "text": "Das Ziel. Dann mache ich jetzt eine neue",
+    "duration": 4081,
+    "offset": 292759,
+    "lang": "de"
+  },
+  {
+    "text": "Zeile und sage das Ziel.",
+    "duration": 4000,
+    "offset": 294320,
+    "lang": "de"
+  },
+  {
+    "text": "Und dann weißt damit weißt du auch was",
+    "duration": 4560,
+    "offset": 296840,
+    "lang": "de"
+  },
+  {
+    "text": "wir eigentlich bauen. Ähm einmal ähm",
+    "duration": 7560,
+    "offset": 298320,
+    "lang": "de"
+  },
+  {
+    "text": "Wörter und Code Snippets",
+    "duration": 6920,
+    "offset": 301400,
+    "lang": "de"
+  },
+  {
+    "text": "erscheinen. Erscheinen auf dem",
+    "duration": 5440,
+    "offset": 305880,
+    "lang": "de"
+  },
+  {
+    "text": "Bildschirm.",
+    "duration": 3000,
+    "offset": 308320,
+    "lang": "de"
+  },
+  {
+    "text": "Ja. Und wir messen",
+    "duration": 6160,
+    "offset": 311960,
+    "lang": "de"
+  },
+  {
+    "text": "und der User und der User, also der",
+    "duration": 7440,
+    "offset": 315240,
+    "lang": "de"
+  },
+  {
+    "text": "Spieler, der äh muss diese schnell über",
+    "duration": 6639,
+    "offset": 318120,
+    "lang": "de"
+  },
+  {
+    "text": "die Tastatur",
+    "duration": 4440,
+    "offset": 322680,
+    "lang": "de"
+  },
+  {
+    "text": "eingeben.",
+    "duration": 3921,
+    "offset": 324759,
+    "lang": "de"
+  },
+  {
+    "text": "Also, wenn du dich hier vertippst",
+    "duration": 2760,
+    "offset": 327120,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwie sowas, ist das überhaupt nicht",
+    "duration": 3359,
+    "offset": 328680,
+    "lang": "de"
+  },
+  {
+    "text": "schlimm. Äh, mit den meisten Vertippern",
+    "duration": 4800,
+    "offset": 329880,
+    "lang": "de"
+  },
+  {
+    "text": "kommt die KI tatsächlich klar. Das n mal",
+    "duration": 6160,
+    "offset": 332039,
+    "lang": "de"
+  },
+  {
+    "text": "schon mal so zu dazu. Und genau. Ähm,",
+    "duration": 4959,
+    "offset": 334680,
+    "lang": "de"
+  },
+  {
+    "text": "so, dann geht's aber weiter. Das ist das",
+    "duration": 6840,
+    "offset": 338199,
+    "lang": "de"
+  },
+  {
+    "text": "Ziel. Ähm, der User bekommt für jedes",
+    "duration": 8680,
+    "offset": 339639,
+    "lang": "de"
+  },
+  {
+    "text": "richtige Wort, für jedes richtige Wort",
+    "duration": 4880,
+    "offset": 345039,
+    "lang": "de"
+  },
+  {
+    "text": "Punkte.",
+    "duration": 3041,
+    "offset": 348319,
+    "lang": "de"
+  },
+  {
+    "text": "Und ich möchte gerne dann auch den",
+    "duration": 4840,
+    "offset": 349919,
+    "lang": "de"
+  },
+  {
+    "text": "Geschwindigkeit ermitteln. Ähm, die Tipp",
+    "duration": 4920,
+    "offset": 351360,
+    "lang": "de"
+  },
+  {
+    "text": "Geschwindigkeit",
+    "duration": 4160,
+    "offset": 354759,
+    "lang": "de"
+  },
+  {
+    "text": "Geschwindigkeit",
+    "duration": 4880,
+    "offset": 356280,
+    "lang": "de"
+  },
+  {
+    "text": "soll auch",
+    "duration": 4840,
+    "offset": 358919,
+    "lang": "de"
+  },
+  {
+    "text": "ermittelt äh werden. Ich würde sagen,",
+    "duration": 4039,
+    "offset": 361160,
+    "lang": "de"
+  },
+  {
+    "text": "lass uns das vielleicht erstmal auf Zeit",
+    "duration": 7160,
+    "offset": 363759,
+    "lang": "de"
+  },
+  {
+    "text": "machen. Ähm, Spiel auf Zeit 60 Sekunden.",
+    "duration": 7081,
+    "offset": 365199,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, und dann hat der User halt eben",
+    "duration": 3120,
+    "offset": 370919,
+    "lang": "de"
+  },
+  {
+    "text": "dementsprechend der Spieler hat 60",
+    "duration": 4720,
+    "offset": 372280,
+    "lang": "de"
+  },
+  {
+    "text": "Sekunden Zeit, um das Ganze abzu zu",
+    "duration": 5321,
+    "offset": 374039,
+    "lang": "de"
+  },
+  {
+    "text": "absolvieren. Ähm, und weitere",
+    "duration": 4000,
+    "offset": 377000,
+    "lang": "de"
+  },
+  {
+    "text": "Erweiterungen machen wir dann danach",
+    "duration": 4399,
+    "offset": 379360,
+    "lang": "de"
+  },
+  {
+    "text": "erst. So und jetzt ist ganz wichtig so",
+    "duration": 4720,
+    "offset": 381000,
+    "lang": "de"
+  },
+  {
+    "text": "und jetzt ist vielleicht ganz wichtig an",
+    "duration": 3801,
+    "offset": 383759,
+    "lang": "de"
+  },
+  {
+    "text": "der Stelle müssen wir natürlich auch",
+    "duration": 4240,
+    "offset": 385720,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt schon mal ja kleine also einmal",
+    "duration": 3680,
+    "offset": 387560,
+    "lang": "de"
+  },
+  {
+    "text": "haben wir die Spielidee beschrieben,",
+    "duration": 2280,
+    "offset": 389960,
+    "lang": "de"
+  },
+  {
+    "text": "aber jetzt müssen wir auch ein bisschen",
+    "duration": 3000,
+    "offset": 391240,
+    "lang": "de"
+  },
+  {
+    "text": "was der Technik beschreiben und das ist",
+    "duration": 4399,
+    "offset": 392240,
+    "lang": "de"
+  },
+  {
+    "text": "auch das, wo meistens ja die die ersten",
+    "duration": 3799,
+    "offset": 394240,
+    "lang": "de"
+  },
+  {
+    "text": "Programmieranfänger, die vielleicht noch",
+    "duration": 3521,
+    "offset": 396639,
+    "lang": "de"
+  },
+  {
+    "text": "nie programmiert haben in dieser Zeit,",
+    "duration": 3440,
+    "offset": 398039,
+    "lang": "de"
+  },
+  {
+    "text": "ähm erstmal scheitern, weil sie wissen",
+    "duration": 2640,
+    "offset": 400160,
+    "lang": "de"
+  },
+  {
+    "text": "ja gar nicht, ja, welche Technologie",
+    "duration": 3241,
+    "offset": 401479,
+    "lang": "de"
+  },
+  {
+    "text": "brauche ich denn hier an der Stelle, ne?",
+    "duration": 3360,
+    "offset": 402800,
+    "lang": "de"
+  },
+  {
+    "text": "Und das werden wir jetzt dementsprechend",
+    "duration": 3520,
+    "offset": 404720,
+    "lang": "de"
+  },
+  {
+    "text": "auch mit aber in den Prompt einfügen.",
+    "duration": 4000,
+    "offset": 406160,
+    "lang": "de"
+  },
+  {
+    "text": "Und das bedeutet einfach für dich, dass",
+    "duration": 3600,
+    "offset": 408240,
+    "lang": "de"
+  },
+  {
+    "text": "du dort ja quasi so ein bisschen",
+    "duration": 3720,
+    "offset": 410160,
+    "lang": "de"
+  },
+  {
+    "text": "Recherche vorher machen musst. Äh die",
+    "duration": 3479,
+    "offset": 411840,
+    "lang": "de"
+  },
+  {
+    "text": "Recherche kannst du natürlich auch mit",
+    "duration": 4920,
+    "offset": 413880,
+    "lang": "de"
+  },
+  {
+    "text": "Hilfe von KI durchführen. So, also jetzt",
+    "duration": 4841,
+    "offset": 415319,
+    "lang": "de"
+  },
+  {
+    "text": "ganz wichtig, schreibe ich jetzt also",
+    "duration": 7119,
+    "offset": 418800,
+    "lang": "de"
+  },
+  {
+    "text": "mal rein: Hey, HTML, JavaScript und CSS.",
+    "duration": 7000,
+    "offset": 420160,
+    "lang": "de"
+  },
+  {
+    "text": "Und das war's dann eigentlich schon.",
+    "duration": 3000,
+    "offset": 425919,
+    "lang": "de"
+  },
+  {
+    "text": "Jetzt kann ich das ganze mal abschicken",
+    "duration": 3120,
+    "offset": 427160,
+    "lang": "de"
+  },
+  {
+    "text": "und wir gucken mal, was daraus dann die",
+    "duration": 3201,
+    "offset": 428919,
+    "lang": "de"
+  },
+  {
+    "text": "KI macht und dann kann ich nämlich schon",
+    "duration": 4440,
+    "offset": 430280,
+    "lang": "de"
+  },
+  {
+    "text": "mal erklären. Also, ne, je klarer die",
+    "duration": 5280,
+    "offset": 432120,
+    "lang": "de"
+  },
+  {
+    "text": "Idee, die du dort hast, je genauer du",
+    "duration": 4479,
+    "offset": 434720,
+    "lang": "de"
+  },
+  {
+    "text": "den Prompt erstellen kannst, desto",
+    "duration": 2960,
+    "offset": 437400,
+    "lang": "de"
+  },
+  {
+    "text": "besser werden natürlich auch die",
+    "duration": 3041,
+    "offset": 439199,
+    "lang": "de"
+  },
+  {
+    "text": "Ergebnisse. Ich habe das jetzt relativ",
+    "duration": 4720,
+    "offset": 440360,
+    "lang": "de"
+  },
+  {
+    "text": "klein gehalten. Wichtig ist halt genau",
+    "duration": 5280,
+    "offset": 442240,
+    "lang": "de"
+  },
+  {
+    "text": "die KI, also Curser erstellt sich jetzt",
+    "duration": 4200,
+    "offset": 445080,
+    "lang": "de"
+  },
+  {
+    "text": "hier einmal einen Plan. Das kann man",
+    "duration": 3239,
+    "offset": 447520,
+    "lang": "de"
+  },
+  {
+    "text": "ganz gut zeigen. Ich mache das mal ein",
+    "duration": 2960,
+    "offset": 449280,
+    "lang": "de"
+  },
+  {
+    "text": "bisschen größer. Dann siehst du nämlich",
+    "duration": 3641,
+    "offset": 450759,
+    "lang": "de"
+  },
+  {
+    "text": "einmal erstellen der Grundstruktur. Das",
+    "duration": 4399,
+    "offset": 452240,
+    "lang": "de"
+  },
+  {
+    "text": "heißt, der erstellt das, was wir damals",
+    "duration": 4359,
+    "offset": 454400,
+    "lang": "de"
+  },
+  {
+    "text": "vor KI Zeiten quasi selber machen",
+    "duration": 3840,
+    "offset": 456639,
+    "lang": "de"
+  },
+  {
+    "text": "mussten. Ja, das bedeutet, du musst es",
+    "duration": 3560,
+    "offset": 458759,
+    "lang": "de"
+  },
+  {
+    "text": "wissen, wie einmal eine HTML Struktur",
+    "duration": 3961,
+    "offset": 460479,
+    "lang": "de"
+  },
+  {
+    "text": "funktioniert, dass du eine HTML Datei",
+    "duration": 4681,
+    "offset": 462319,
+    "lang": "de"
+  },
+  {
+    "text": "überbrauchst. Ähm, diese natürlich dann",
+    "duration": 4319,
+    "offset": 464440,
+    "lang": "de"
+  },
+  {
+    "text": "entsprechend befüllen mit, ja, er hat",
+    "duration": 3039,
+    "offset": 467000,
+    "lang": "de"
+  },
+  {
+    "text": "hier ein Spielbereich Timer",
+    "duration": 3761,
+    "offset": 468759,
+    "lang": "de"
+  },
+  {
+    "text": "Scoreanzeige. Dann hat er ein CSS für",
+    "duration": 4600,
+    "offset": 470039,
+    "lang": "de"
+  },
+  {
+    "text": "modernes ansprechendes Design gewählt",
+    "duration": 4239,
+    "offset": 472520,
+    "lang": "de"
+  },
+  {
+    "text": "und JavaScript Logic. Zack, er ist hier",
+    "duration": 3516,
+    "offset": 474639,
+    "lang": "de"
+  },
+  {
+    "text": "gerade auch schon fertig geworden.",
+    "duration": 2400,
+    "offset": 476759,
+    "lang": "de"
+  },
+  {
+    "text": "[gelächter]",
+    "duration": 2884,
+    "offset": 478155,
+    "lang": "de"
+  },
+  {
+    "text": "Ähm, eine JavaScript Logik, die muss er",
+    "duration": 3801,
+    "offset": 479159,
+    "lang": "de"
+  },
+  {
+    "text": "da einfügen und dann halt auch diese",
+    "duration": 4961,
+    "offset": 481039,
+    "lang": "de"
+  },
+  {
+    "text": "Berechnung für eben Wörter pro Minute.",
+    "duration": 4400,
+    "offset": 482960,
+    "lang": "de"
+  },
+  {
+    "text": "Dann sieht man, er hat jetzt die Dateien",
+    "duration": 3800,
+    "offset": 486000,
+    "lang": "de"
+  },
+  {
+    "text": "angelegt, die Index HTML Script und die",
+    "duration": 5080,
+    "offset": 487360,
+    "lang": "de"
+  },
+  {
+    "text": "Style CSS und sagt jetzt hier auch schon",
+    "duration": 5839,
+    "offset": 489800,
+    "lang": "de"
+  },
+  {
+    "text": "zack, ich bin fertig und Spielablauf und",
+    "duration": 5159,
+    "offset": 492440,
+    "lang": "de"
+  },
+  {
+    "text": "so weiter und so fort. Das heißt, ich",
+    "duration": 4161,
+    "offset": 495639,
+    "lang": "de"
+  },
+  {
+    "text": "kann jetzt diese App schon direkt im",
+    "duration": 3600,
+    "offset": 497599,
+    "lang": "de"
+  },
+  {
+    "text": "Browser testen und wir haben jetzt",
+    "duration": 2359,
+    "offset": 499800,
+    "lang": "de"
+  },
+  {
+    "text": "gerade, ich habe es noch nicht mal",
+    "duration": 2680,
+    "offset": 501199,
+    "lang": "de"
+  },
+  {
+    "text": "geschafft, den Plan durchzulesen und er",
+    "duration": 2801,
+    "offset": 502159,
+    "lang": "de"
+  },
+  {
+    "text": "ist hier schon fertig mit dem",
+    "duration": 3201,
+    "offset": 503879,
+    "lang": "de"
+  },
+  {
+    "text": "Programmieren. Und dann würde ich sagen,",
+    "duration": 3679,
+    "offset": 504960,
+    "lang": "de"
+  },
+  {
+    "text": "schauen wir mal in den Ordner rein.",
+    "duration": 3000,
+    "offset": 507080,
+    "lang": "de"
+  },
+  {
+    "text": "Also, wir kümmern uns jetzt erstmal",
+    "duration": 2721,
+    "offset": 508639,
+    "lang": "de"
+  },
+  {
+    "text": "nicht um die Entwicklungsbewegung, da",
+    "duration": 3040,
+    "offset": 510080,
+    "lang": "de"
+  },
+  {
+    "text": "können wir immer noch gleich reingucken,",
+    "duration": 3520,
+    "offset": 511360,
+    "lang": "de"
+  },
+  {
+    "text": "was der da so alles da dr nebenan hier",
+    "duration": 3599,
+    "offset": 513120,
+    "lang": "de"
+  },
+  {
+    "text": "gemacht hat. ähm, sondern wir gehen",
+    "duration": 3599,
+    "offset": 514880,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt mal in den Ordner, den ich für ihn",
+    "duration": 3081,
+    "offset": 516719,
+    "lang": "de"
+  },
+  {
+    "text": "angelegt habe und dann sehen wir nämlich",
+    "duration": 2920,
+    "offset": 518479,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt haben wir wirklich tatsächliche",
+    "duration": 3520,
+    "offset": 519800,
+    "lang": "de"
+  },
+  {
+    "text": "Dateien da drinne. Die KI hat uns diese",
+    "duration": 4281,
+    "offset": 521399,
+    "lang": "de"
+  },
+  {
+    "text": "Dateien erstellt und er sagt uns auch",
+    "duration": 4000,
+    "offset": 523320,
+    "lang": "de"
+  },
+  {
+    "text": "schon, ne, das ist ganz wichtig, öffne",
+    "duration": 4279,
+    "offset": 525680,
+    "lang": "de"
+  },
+  {
+    "text": "in Index HTML im Browser, um zu spielen.",
+    "duration": 3880,
+    "offset": 527320,
+    "lang": "de"
+  },
+  {
+    "text": "Und dann machen wir das da einfach. Ich",
+    "duration": 3801,
+    "offset": 529959,
+    "lang": "de"
+  },
+  {
+    "text": "öffne die Index HTML im Browser. So,",
+    "duration": 4639,
+    "offset": 531200,
+    "lang": "de"
+  },
+  {
+    "text": "tippe hier also bereit. Du hast 60",
+    "duration": 3400,
+    "offset": 533760,
+    "lang": "de"
+  },
+  {
+    "text": "Sekunden Zeit, so viele Wörter wie",
+    "duration": 3761,
+    "offset": 535839,
+    "lang": "de"
+  },
+  {
+    "text": "möglich zu tippen. Spiel starten. Wow,",
+    "duration": 3960,
+    "offset": 537160,
+    "lang": "de"
+  },
+  {
+    "text": "das ist natürlich heftig.",
+    "duration": 5520,
+    "offset": 539600,
+    "lang": "de"
+  },
+  {
+    "text": "Document.getelement Get Element äh by",
+    "duration": 6560,
+    "offset": 541120,
+    "lang": "de"
+  },
+  {
+    "text": "ID. Ich mache mal eine kleine kurze",
+    "duration": 4600,
+    "offset": 545120,
+    "lang": "de"
+  },
+  {
+    "text": "Runde. Ah, jetzt sind er fertig. Gut,",
+    "duration": 4320,
+    "offset": 547680,
+    "lang": "de"
+  },
+  {
+    "text": "dann dann aktiviert er das gleich. Eine",
+    "duration": 3760,
+    "offset": 549720,
+    "lang": "de"
+  },
+  {
+    "text": "Runde müssen wir jetzt leider mal einmal",
+    "duration": 4000,
+    "offset": 552000,
+    "lang": "de"
+  },
+  {
+    "text": "spielen. Vor Klammer auf, Klammer auf.",
+    "duration": 4720,
+    "offset": 553480,
+    "lang": "de"
+  },
+  {
+    "text": "Na zu [gelächter]",
+    "duration": 3200,
+    "offset": 556000,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwie hat er jetzt hier einen",
+    "duration": 2400,
+    "offset": 558200,
+    "lang": "de"
+  },
+  {
+    "text": "Fehler, weil er hier oben auch noch was",
+    "duration": 2759,
+    "offset": 559200,
+    "lang": "de"
+  },
+  {
+    "text": "eintipp hat. Das müssen wir noch mal",
+    "duration": 2919,
+    "offset": 560600,
+    "lang": "de"
+  },
+  {
+    "text": "gleich gucken. Also, wenn ich jetzt hier",
+    "duration": 3120,
+    "offset": 561959,
+    "lang": "de"
+  },
+  {
+    "text": "vor",
+    "duration": 3560,
+    "offset": 563519,
+    "lang": "de"
+  },
+  {
+    "text": "Klammer äh Klammer auf eingebe, dann",
+    "duration": 3401,
+    "offset": 565079,
+    "lang": "de"
+  },
+  {
+    "text": "kommt da irgendwie die Klammer auf mit",
+    "duration": 3521,
+    "offset": 567079,
+    "lang": "de"
+  },
+  {
+    "text": "da rein. Also hier sehen wir auf jeden",
+    "duration": 3919,
+    "offset": 568480,
+    "lang": "de"
+  },
+  {
+    "text": "Fall schon mal gleich einen Fehler, den",
+    "duration": 3760,
+    "offset": 570600,
+    "lang": "de"
+  },
+  {
+    "text": "wir ja im ersten Schritt direkt einmal",
+    "duration": 3201,
+    "offset": 572399,
+    "lang": "de"
+  },
+  {
+    "text": "lösen müssten. Also, ich habe jetzt zwar",
+    "duration": 2680,
+    "offset": 574360,
+    "lang": "de"
+  },
+  {
+    "text": "noch ein paar Sekunden Zeit, aber",
+    "duration": 2720,
+    "offset": 575600,
+    "lang": "de"
+  },
+  {
+    "text": "dadurch, das sieht irgendwie komisch",
+    "duration": 2919,
+    "offset": 577040,
+    "lang": "de"
+  },
+  {
+    "text": "aus, das irritiert mich gerade und",
+    "duration": 3480,
+    "offset": 578320,
+    "lang": "de"
+  },
+  {
+    "text": "deswegen würde ich ihm auch sagen, da",
+    "duration": 3681,
+    "offset": 579959,
+    "lang": "de"
+  },
+  {
+    "text": "müssen wir jetzt gleich erstmal direkt",
+    "duration": 3800,
+    "offset": 581800,
+    "lang": "de"
+  },
+  {
+    "text": "in die Problemlösung rein. Und das ist",
+    "duration": 4040,
+    "offset": 583640,
+    "lang": "de"
+  },
+  {
+    "text": "auch genau der Punkt, wo viele Anfänger",
+    "duration": 4320,
+    "offset": 585600,
+    "lang": "de"
+  },
+  {
+    "text": "ja dann im Prinzip scheitern. Aber lass",
+    "duration": 3399,
+    "offset": 587680,
+    "lang": "de"
+  },
+  {
+    "text": "uns das noch mal hier zu Ende laufen",
+    "duration": 2520,
+    "offset": 589920,
+    "lang": "de"
+  },
+  {
+    "text": "lassen. Wenn die Zeit hier abgelaufen",
+    "duration": 3361,
+    "offset": 591079,
+    "lang": "de"
+  },
+  {
+    "text": "ist, dann sagt er uns: \"Okay, ich habe",
+    "duration": 5240,
+    "offset": 592440,
+    "lang": "de"
+  },
+  {
+    "text": "hier jetzt die Zeit 0 Punkte 28 WPM,",
+    "duration": 5760,
+    "offset": 594440,
+    "lang": "de"
+  },
+  {
+    "text": "also Wörter pro Minute einer.\" Okay,",
+    "duration": 4200,
+    "offset": 597680,
+    "lang": "de"
+  },
+  {
+    "text": "hier ist dann plötzlich gar nichts mehr.",
+    "duration": 2920,
+    "offset": 600200,
+    "lang": "de"
+  },
+  {
+    "text": "Das heißt, wir sind noch nicht ganz",
+    "duration": 3240,
+    "offset": 601880,
+    "lang": "de"
+  },
+  {
+    "text": "fertig. Wir müssen hier nur ein Ticken",
+    "duration": 4279,
+    "offset": 603120,
+    "lang": "de"
+  },
+  {
+    "text": "nacharbeiten. Und da ist es eben ganz",
+    "duration": 4279,
+    "offset": 605120,
+    "lang": "de"
+  },
+  {
+    "text": "wichtig, wenn wir einmal das gesehen",
+    "duration": 4041,
+    "offset": 607399,
+    "lang": "de"
+  },
+  {
+    "text": "haben. Ähm, wir können natürlich den",
+    "duration": 3921,
+    "offset": 609399,
+    "lang": "de"
+  },
+  {
+    "text": "Code prüfen. Das gucken wir uns aber zum",
+    "duration": 3560,
+    "offset": 611440,
+    "lang": "de"
+  },
+  {
+    "text": "Schluss an. Ähm, das wäre jetzt, sage",
+    "duration": 3639,
+    "offset": 613320,
+    "lang": "de"
+  },
+  {
+    "text": "ich mal, so der Programmiererweg wäre zu",
+    "duration": 3360,
+    "offset": 615000,
+    "lang": "de"
+  },
+  {
+    "text": "sagen natürlich gucke ich schon mal",
+    "duration": 2921,
+    "offset": 616959,
+    "lang": "de"
+  },
+  {
+    "text": "rein, was hat er denn hier eigentlich",
+    "duration": 3039,
+    "offset": 618360,
+    "lang": "de"
+  },
+  {
+    "text": "alles gebaut und das ist eine ganze",
+    "duration": 3240,
+    "offset": 619880,
+    "lang": "de"
+  },
+  {
+    "text": "Menge. Deswegen kann man sich dann auch",
+    "duration": 4041,
+    "offset": 621399,
+    "lang": "de"
+  },
+  {
+    "text": "hier quasi über äh den Curser kann man",
+    "duration": 4159,
+    "offset": 623120,
+    "lang": "de"
+  },
+  {
+    "text": "sich auch hier dieses diese Chatfenster",
+    "duration": 3440,
+    "offset": 625440,
+    "lang": "de"
+  },
+  {
+    "text": "wegbenden lassen und sieht dann halt",
+    "duration": 4041,
+    "offset": 627279,
+    "lang": "de"
+  },
+  {
+    "text": "auch, was die KI dort alles programmiert",
+    "duration": 4440,
+    "offset": 628880,
+    "lang": "de"
+  },
+  {
+    "text": "hat. Das gleiche gilt natürlich auch",
+    "duration": 4720,
+    "offset": 631320,
+    "lang": "de"
+  },
+  {
+    "text": "nicht für die HTML, sondern auch für das",
+    "duration": 4880,
+    "offset": 633320,
+    "lang": "de"
+  },
+  {
+    "text": "Script, also für das JavaScript. Und",
+    "duration": 3680,
+    "offset": 636040,
+    "lang": "de"
+  },
+  {
+    "text": "dann sehen wir auch, okay, hier sind",
+    "duration": 3000,
+    "offset": 638200,
+    "lang": "de"
+  },
+  {
+    "text": "schon mal Wörter, hier sind Code",
+    "duration": 2880,
+    "offset": 639720,
+    "lang": "de"
+  },
+  {
+    "text": "Snippets, das sind die ganzen Dinge, die",
+    "duration": 3400,
+    "offset": 641200,
+    "lang": "de"
+  },
+  {
+    "text": "man dort eingeben kann und dann halt",
+    "duration": 4160,
+    "offset": 642600,
+    "lang": "de"
+  },
+  {
+    "text": "eben das gesamte Spiel. Der hatte also",
+    "duration": 4280,
+    "offset": 644600,
+    "lang": "de"
+  },
+  {
+    "text": "eine ganze Menge schon gebaut und da ist",
+    "duration": 3519,
+    "offset": 646760,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt offensichtlich ein Fehler drin.",
+    "duration": 4160,
+    "offset": 648880,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, also auch hier vor der Zeit, bei der",
+    "duration": 4680,
+    "offset": 650279,
+    "lang": "de"
+  },
+  {
+    "text": "man jetzt im Prinzip ja programmieren",
+    "duration": 3880,
+    "offset": 653040,
+    "lang": "de"
+  },
+  {
+    "text": "können musste, äh wäre hier es jetzt",
+    "duration": 3880,
+    "offset": 654959,
+    "lang": "de"
+  },
+  {
+    "text": "notwendig gewesen, dass du jetzt weißt,",
+    "duration": 4200,
+    "offset": 656920,
+    "lang": "de"
+  },
+  {
+    "text": "an welcher Stelle könnte dieses Problem",
+    "duration": 3800,
+    "offset": 658839,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt stattgefunden haben, was wir da",
+    "duration": 4680,
+    "offset": 661120,
+    "lang": "de"
+  },
+  {
+    "text": "gerade gefunden haben. Ja, und das ist",
+    "duration": 4521,
+    "offset": 662639,
+    "lang": "de"
+  },
+  {
+    "text": "halt heutzutage wieder ein bisschen",
+    "duration": 3000,
+    "offset": 665800,
+    "lang": "de"
+  },
+  {
+    "text": "anders. Ich kann jetzt auch hier wieder",
+    "duration": 3720,
+    "offset": 667160,
+    "lang": "de"
+  },
+  {
+    "text": "auf die KI setzen, ne? Also, der erste",
+    "duration": 3680,
+    "offset": 668800,
+    "lang": "de"
+  },
+  {
+    "text": "Schritt war im Prinzip zu sagen, okay,",
+    "duration": 3720,
+    "offset": 670880,
+    "lang": "de"
+  },
+  {
+    "text": "ich erstelle das Grundgerüst, probiere",
+    "duration": 4200,
+    "offset": 672480,
+    "lang": "de"
+  },
+  {
+    "text": "das Spiel aus, jetzt finde ich Fehler",
+    "duration": 4720,
+    "offset": 674600,
+    "lang": "de"
+  },
+  {
+    "text": "oder fehlende Features und ja, damit",
+    "duration": 4680,
+    "offset": 676680,
+    "lang": "de"
+  },
+  {
+    "text": "arbeite ich jetzt im Prinzip weiter. Da",
+    "duration": 3680,
+    "offset": 679320,
+    "lang": "de"
+  },
+  {
+    "text": "ich jetzt überhaupt nicht weiß, was der",
+    "duration": 3800,
+    "offset": 681360,
+    "lang": "de"
+  },
+  {
+    "text": "da jetzt genau gebaut hat, ne? Nicht,",
+    "duration": 3880,
+    "offset": 683000,
+    "lang": "de"
+  },
+  {
+    "text": "dass ich das gut finde, aber ich lasse",
+    "duration": 3960,
+    "offset": 685160,
+    "lang": "de"
+  },
+  {
+    "text": "das jetzt erstmal so, dass er das gebaut",
+    "duration": 3920,
+    "offset": 686880,
+    "lang": "de"
+  },
+  {
+    "text": "hat. Ich gehe noch mal in meinen Chat",
+    "duration": 4279,
+    "offset": 689120,
+    "lang": "de"
+  },
+  {
+    "text": "rein und sage als allererstes schon mal",
+    "duration": 4159,
+    "offset": 690800,
+    "lang": "de"
+  },
+  {
+    "text": "und das ganz wichtig, bevor du jetzt",
+    "duration": 3601,
+    "offset": 693399,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwie weitermachst, ist ich behalte",
+    "duration": 3961,
+    "offset": 694959,
+    "lang": "de"
+  },
+  {
+    "text": "alle Änderungen bei, ne? Weil",
+    "duration": 3079,
+    "offset": 697000,
+    "lang": "de"
+  },
+  {
+    "text": "grundsätzlich hat das schon mal",
+    "duration": 2400,
+    "offset": 698920,
+    "lang": "de"
+  },
+  {
+    "text": "funktioniert. Es gibt noch ein paar",
+    "duration": 3041,
+    "offset": 700079,
+    "lang": "de"
+  },
+  {
+    "text": "Fehler, aber ich behalte erstmal alle",
+    "duration": 3480,
+    "offset": 701320,
+    "lang": "de"
+  },
+  {
+    "text": "Änderungen bei und damit sind die schon",
+    "duration": 3480,
+    "offset": 703120,
+    "lang": "de"
+  },
+  {
+    "text": "mal gespeichert. So und jetzt müssen wir",
+    "duration": 3080,
+    "offset": 704800,
+    "lang": "de"
+  },
+  {
+    "text": "natürlich beschreiben, was war denn da",
+    "duration": 5120,
+    "offset": 706600,
+    "lang": "de"
+  },
+  {
+    "text": "falsch, ne? Also nach Eingabe",
+    "duration": 8120,
+    "offset": 707880,
+    "lang": "de"
+  },
+  {
+    "text": "des ersten Wortes",
+    "duration": 7760,
+    "offset": 711720,
+    "lang": "de"
+  },
+  {
+    "text": "das äh das zweite Wort gezeigt, ne? das",
+    "duration": 7279,
+    "offset": 716000,
+    "lang": "de"
+  },
+  {
+    "text": "zweite Wort gezeigt.",
+    "duration": 3799,
+    "offset": 719480,
+    "lang": "de"
+  },
+  {
+    "text": "Ähm beim Eintippen",
+    "duration": 4481,
+    "offset": 723399,
+    "lang": "de"
+  },
+  {
+    "text": "wurde",
+    "duration": 5159,
+    "offset": 725920,
+    "lang": "de"
+  },
+  {
+    "text": "das eingetippte Wort, ne? Also, man muss",
+    "duration": 4519,
+    "offset": 727880,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt hier so ein bisschen drauf achten,",
+    "duration": 3200,
+    "offset": 731079,
+    "lang": "de"
+  },
+  {
+    "text": "dass man da auch die richtigen Sachen",
+    "duration": 3401,
+    "offset": 732399,
+    "lang": "de"
+  },
+  {
+    "text": "reinschreibt. Bei eintippen wurde das",
+    "duration": 6680,
+    "offset": 734279,
+    "lang": "de"
+  },
+  {
+    "text": "eingetippte Wort ähm in der Vorgabe",
+    "duration": 7440,
+    "offset": 735800,
+    "lang": "de"
+  },
+  {
+    "text": "gezeigt. Und jetzt kann ich ihm sagen,",
+    "duration": 7000,
+    "offset": 740959,
+    "lang": "de"
+  },
+  {
+    "text": "analysiere das, analysiere das",
+    "duration": 8640,
+    "offset": 743240,
+    "lang": "de"
+  },
+  {
+    "text": "und suche die Ursache.",
+    "duration": 6440,
+    "offset": 747959,
+    "lang": "de"
+  },
+  {
+    "text": "Das gehen wir jetzt mal mit. Und der",
+    "duration": 4160,
+    "offset": 751880,
+    "lang": "de"
+  },
+  {
+    "text": "braucht jetzt natürlich, ne? Also hier",
+    "duration": 4081,
+    "offset": 754399,
+    "lang": "de"
+  },
+  {
+    "text": "ist ganz wichtig, du sagst der KI, was",
+    "duration": 5120,
+    "offset": 756040,
+    "lang": "de"
+  },
+  {
+    "text": "schief läuft, quasi so wie ja, wenn du",
+    "duration": 3840,
+    "offset": 758480,
+    "lang": "de"
+  },
+  {
+    "text": "es einem Kollegen jetzt erklären",
+    "duration": 2359,
+    "offset": 761160,
+    "lang": "de"
+  },
+  {
+    "text": "würdest. Also, stell dir einfach vor,",
+    "duration": 2079,
+    "offset": 762320,
+    "lang": "de"
+  },
+  {
+    "text": "ja, du hast vielleicht diesen",
+    "duration": 3081,
+    "offset": 763519,
+    "lang": "de"
+  },
+  {
+    "text": "Entwicklerkollegen, der gefühlt",
+    "duration": 4961,
+    "offset": 764399,
+    "lang": "de"
+  },
+  {
+    "text": "eigentlich alles weiß, ja, aber der halt",
+    "duration": 4599,
+    "offset": 766600,
+    "lang": "de"
+  },
+  {
+    "text": "trotzdem auch mal Fehler machen kann. So",
+    "duration": 2919,
+    "offset": 769360,
+    "lang": "de"
+  },
+  {
+    "text": "und du musst ihm dann beschreiben, hey",
+    "duration": 2361,
+    "offset": 771199,
+    "lang": "de"
+  },
+  {
+    "text": "guck mal, wenn ich das eingegeben habe,",
+    "duration": 2761,
+    "offset": 772279,
+    "lang": "de"
+  },
+  {
+    "text": "dann passiert da irgendwie was, was",
+    "duration": 3240,
+    "offset": 773560,
+    "lang": "de"
+  },
+  {
+    "text": "nicht sein soll. So, also gucken wir",
+    "duration": 3799,
+    "offset": 775040,
+    "lang": "de"
+  },
+  {
+    "text": "mal, was hat er gefunden? Er sagt auch",
+    "duration": 3880,
+    "offset": 776800,
+    "lang": "de"
+  },
+  {
+    "text": "er ist nur dabei, aber er sagt zumindest",
+    "duration": 3041,
+    "offset": 778839,
+    "lang": "de"
+  },
+  {
+    "text": "analysiere das Problem mit der",
+    "duration": 4000,
+    "offset": 780680,
+    "lang": "de"
+  },
+  {
+    "text": "Wortanzeige und Code. Ursache gefunden",
+    "duration": 5199,
+    "offset": 781880,
+    "lang": "de"
+  },
+  {
+    "text": "in Handle input wird GameState correct",
+    "duration": 4360,
+    "offset": 784680,
+    "lang": "de"
+  },
+  {
+    "text": "chars bei jeder Eingabe falsch erhöht",
+    "duration": 4401,
+    "offset": 787079,
+    "lang": "de"
+  },
+  {
+    "text": "analysiere und behebe das. Okay. Problem",
+    "duration": 5880,
+    "offset": 789040,
+    "lang": "de"
+  },
+  {
+    "text": "Händel. Ja. Prüfe Update Word Display",
+    "duration": 5320,
+    "offset": 791480,
+    "lang": "de"
+  },
+  {
+    "text": "auf mögliche Probleme. Überarbeite",
+    "duration": 3640,
+    "offset": 794920,
+    "lang": "de"
+  },
+  {
+    "text": "WordPlay. Also erzählt mir jetzt so",
+    "duration": 3960,
+    "offset": 796800,
+    "lang": "de"
+  },
+  {
+    "text": "quasi, was er da tut. Ähm, wir können",
+    "duration": 3839,
+    "offset": 798560,
+    "lang": "de"
+  },
+  {
+    "text": "uns das auch angucken. Das ist ganz",
+    "duration": 4000,
+    "offset": 800760,
+    "lang": "de"
+  },
+  {
+    "text": "schön. Äh, wir können uns das Genau, wir",
+    "duration": 3601,
+    "offset": 802399,
+    "lang": "de"
+  },
+  {
+    "text": "können uns das hier auch direkt hier",
+    "duration": 3639,
+    "offset": 804760,
+    "lang": "de"
+  },
+  {
+    "text": "drinne, glaube ich, angucken.",
+    "duration": 3839,
+    "offset": 806000,
+    "lang": "de"
+  },
+  {
+    "text": "Also, und das ist vielleicht auch ganz",
+    "duration": 3401,
+    "offset": 808399,
+    "lang": "de"
+  },
+  {
+    "text": "wichtig, falls du jetzt auch, also wenn",
+    "duration": 3560,
+    "offset": 809839,
+    "lang": "de"
+  },
+  {
+    "text": "du die Ambition hast auch Programmieren",
+    "duration": 2920,
+    "offset": 811800,
+    "lang": "de"
+  },
+  {
+    "text": "zu lernen, nicht nur jetzt einfach",
+    "duration": 3800,
+    "offset": 813399,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwas da äh runterzuschreiben und",
+    "duration": 3880,
+    "offset": 814720,
+    "lang": "de"
+  },
+  {
+    "text": "fertig zu werden, sonder auch zu sagen,",
+    "duration": 2801,
+    "offset": 817199,
+    "lang": "de"
+  },
+  {
+    "text": "so, okay, ein bisschen was will ich auch",
+    "duration": 3200,
+    "offset": 818600,
+    "lang": "de"
+  },
+  {
+    "text": "verstehen für den Fall, dass ich mal",
+    "duration": 2959,
+    "offset": 820000,
+    "lang": "de"
+  },
+  {
+    "text": "nicht weiterkomme, dann kannst du auch",
+    "duration": 3200,
+    "offset": 821800,
+    "lang": "de"
+  },
+  {
+    "text": "immer die Änderungen hier öffnen und",
+    "duration": 3481,
+    "offset": 822959,
+    "lang": "de"
+  },
+  {
+    "text": "dann siehst du, ah okay, er hat hier",
+    "duration": 4000,
+    "offset": 825000,
+    "lang": "de"
+  },
+  {
+    "text": "eben Dinge reingestellt, ne? Da sieht",
+    "duration": 4600,
+    "offset": 826440,
+    "lang": "de"
+  },
+  {
+    "text": "man es nämlich, ne? Input LDF hat da",
+    "duration": 4199,
+    "offset": 829000,
+    "lang": "de"
+  },
+  {
+    "text": "eingefügt. Ähm, da hat er irgendwie eine",
+    "duration": 3799,
+    "offset": 831040,
+    "lang": "de"
+  },
+  {
+    "text": "Zeile komplett abgeändert. Also, die",
+    "duration": 3080,
+    "offset": 833199,
+    "lang": "de"
+  },
+  {
+    "text": "grünen Zeilen sind im Prinzip neu",
+    "duration": 3601,
+    "offset": 834839,
+    "lang": "de"
+  },
+  {
+    "text": "hinzugefügt und die roten Zeilen sind,",
+    "duration": 4041,
+    "offset": 836279,
+    "lang": "de"
+  },
+  {
+    "text": "das hat er jetzt weggeworfen. Dit kannst",
+    "duration": 3720,
+    "offset": 838440,
+    "lang": "de"
+  },
+  {
+    "text": "du halt gut erklären erkennen, was er da",
+    "duration": 4000,
+    "offset": 840320,
+    "lang": "de"
+  },
+  {
+    "text": "getan hat. Okay, aber er hat jetzt",
+    "duration": 4359,
+    "offset": 842160,
+    "lang": "de"
+  },
+  {
+    "text": "erstmal gesagt, er ist fertig. Also was",
+    "duration": 3720,
+    "offset": 844320,
+    "lang": "de"
+  },
+  {
+    "text": "sagt er denn hier? Problem 1, falsche",
+    "duration": 4240,
+    "offset": 846519,
+    "lang": "de"
+  },
+  {
+    "text": "Zeichenzählung. Okay. Problem 2, unklare",
+    "duration": 4880,
+    "offset": 848040,
+    "lang": "de"
+  },
+  {
+    "text": "Anzeige in Update WordPlay. Und dann die",
+    "duration": 3801,
+    "offset": 850759,
+    "lang": "de"
+  },
+  {
+    "text": "Lösung, Zeichenzählung korrigiert,",
+    "duration": 4120,
+    "offset": 852920,
+    "lang": "de"
+  },
+  {
+    "text": "Anzeige vereinfacht. Das Spiel sollte",
+    "duration": 3959,
+    "offset": 854560,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt korrekt funktionieren. Also",
+    "duration": 3000,
+    "offset": 857040,
+    "lang": "de"
+  },
+  {
+    "text": "probieren wir das Ganze mal aus. Ich",
+    "duration": 2961,
+    "offset": 858519,
+    "lang": "de"
+  },
+  {
+    "text": "mache jetzt noch nicht keep all, ne?",
+    "duration": 2719,
+    "offset": 860040,
+    "lang": "de"
+  },
+  {
+    "text": "Also ich sage jetzt noch nicht okay,",
+    "duration": 3479,
+    "offset": 861480,
+    "lang": "de"
+  },
+  {
+    "text": "behalte das bei, sondern ich sage jetzt",
+    "duration": 5041,
+    "offset": 862759,
+    "lang": "de"
+  },
+  {
+    "text": "erstmal, ich prüfe das nach. Okay, ich",
+    "duration": 5320,
+    "offset": 864959,
+    "lang": "de"
+  },
+  {
+    "text": "lade das neu. Dann sagen wir bereit.",
+    "duration": 5279,
+    "offset": 867800,
+    "lang": "de"
+  },
+  {
+    "text": "Spiel starten. Und jetzt muss ich asynk",
+    "duration": 7441,
+    "offset": 870279,
+    "lang": "de"
+  },
+  {
+    "text": "eingeben. Sam. Okay, super. Noch mal.",
+    "duration": 7320,
+    "offset": 873079,
+    "lang": "de"
+  },
+  {
+    "text": "Super, jetzt habe ich mich vertippt.",
+    "duration": 3880,
+    "offset": 877720,
+    "lang": "de"
+  },
+  {
+    "text": "Also, der Fehler scheint jetzt in",
+    "duration": 2880,
+    "offset": 880399,
+    "lang": "de"
+  },
+  {
+    "text": "Ordnung zu sein. Es gab jetzt einen",
+    "duration": 4039,
+    "offset": 881600,
+    "lang": "de"
+  },
+  {
+    "text": "neuen Fehler. Konst",
+    "duration": 4240,
+    "offset": 883279,
+    "lang": "de"
+  },
+  {
+    "text": "Objekt.",
+    "duration": 4000,
+    "offset": 885639,
+    "lang": "de"
+  },
+  {
+    "text": "Also, ich glaube, er möchte dort, dass",
+    "duration": 5081,
+    "offset": 887519,
+    "lang": "de"
+  },
+  {
+    "text": "ich das quasi ähm Ah, ich glaube, nee,",
+    "duration": 4320,
+    "offset": 889639,
+    "lang": "de"
+  },
+  {
+    "text": "das ist klar, hat irgendwie was mit der",
+    "duration": 3720,
+    "offset": 892600,
+    "lang": "de"
+  },
+  {
+    "text": "Leerzeichenzählung zu tun. Also",
+    "duration": 3641,
+    "offset": 893959,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwas stimmt da noch nicht ganz,",
+    "duration": 2920,
+    "offset": 896320,
+    "lang": "de"
+  },
+  {
+    "text": "weil er mir sagt, dass ich dass ich",
+    "duration": 3599,
+    "offset": 897600,
+    "lang": "de"
+  },
+  {
+    "text": "falsch liege, obwohl ich ja eigentlich",
+    "duration": 5000,
+    "offset": 899240,
+    "lang": "de"
+  },
+  {
+    "text": "das richtig eingegeben habe. Ja, okay.",
+    "duration": 4481,
+    "offset": 901199,
+    "lang": "de"
+  },
+  {
+    "text": "Also irgendwie funktioniert's noch nicht",
+    "duration": 2640,
+    "offset": 904240,
+    "lang": "de"
+  },
+  {
+    "text": "so ganz. Ich gehe das jetzt trotzdem",
+    "duration": 3480,
+    "offset": 905680,
+    "lang": "de"
+  },
+  {
+    "text": "noch mal schnell durch.",
+    "duration": 3759,
+    "offset": 906880,
+    "lang": "de"
+  },
+  {
+    "text": "Also er sagt mir, dass das jetzt z.B.",
+    "duration": 3440,
+    "offset": 909160,
+    "lang": "de"
+  },
+  {
+    "text": "falsch ist, obwohl ich jetzt sagen würde",
+    "duration": 3361,
+    "offset": 910639,
+    "lang": "de"
+  },
+  {
+    "text": "auch als Programmierer sagen würde:",
+    "duration": 3320,
+    "offset": 912600,
+    "lang": "de"
+  },
+  {
+    "text": "\"Hey, das ist aber eigentlich richtig.\"",
+    "duration": 3920,
+    "offset": 914000,
+    "lang": "de"
+  },
+  {
+    "text": "Das heißt, was ist da jetzt noch falsch?",
+    "duration": 3479,
+    "offset": 915920,
+    "lang": "de"
+  },
+  {
+    "text": "Das lassen wir jetzt mal. Ich kopiere",
+    "duration": 4479,
+    "offset": 917920,
+    "lang": "de"
+  },
+  {
+    "text": "mir das noch mal raus",
+    "duration": 4601,
+    "offset": 919399,
+    "lang": "de"
+  },
+  {
+    "text": "und äh ja, die Zeit ist jetzt nämlich",
+    "duration": 8601,
+    "offset": 922399,
+    "lang": "de"
+  },
+  {
+    "text": "abgelaufen und sage ihm äh beim Beispiel",
+    "duration": 7000,
+    "offset": 924000,
+    "lang": "de"
+  },
+  {
+    "text": "mit Leerzeichen",
+    "duration": 4521,
+    "offset": 931279,
+    "lang": "de"
+  },
+  {
+    "text": "würde ich jetzt mal sagen,",
+    "duration": 6641,
+    "offset": 933279,
+    "lang": "de"
+  },
+  {
+    "text": "äh funktioniert es noch nicht.",
+    "duration": 4120,
+    "offset": 935800,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, also da habe ich ihm jetzt das",
+    "duration": 3519,
+    "offset": 942440,
+    "lang": "de"
+  },
+  {
+    "text": "Beispiel mal reingegeben.",
+    "duration": 5200,
+    "offset": 943759,
+    "lang": "de"
+  },
+  {
+    "text": "Keine Ahnung, warum.",
+    "duration": 5360,
+    "offset": 945959,
+    "lang": "de"
+  },
+  {
+    "text": "So, aber auch hier der wichtige Punkt.",
+    "duration": 4721,
+    "offset": 948959,
+    "lang": "de"
+  },
+  {
+    "text": "Ich habe ihm jetzt an der Stelle quasi",
+    "duration": 4440,
+    "offset": 951319,
+    "lang": "de"
+  },
+  {
+    "text": "noch mal einen weiteren Hinweis gegeben,",
+    "duration": 3480,
+    "offset": 953680,
+    "lang": "de"
+  },
+  {
+    "text": "dass es halt noch mal immer noch",
+    "duration": 4080,
+    "offset": 955759,
+    "lang": "de"
+  },
+  {
+    "text": "existiert das Problem und dass es halt",
+    "duration": 4400,
+    "offset": 957160,
+    "lang": "de"
+  },
+  {
+    "text": "eben etwas detaillierter ist, weil die",
+    "duration": 2680,
+    "offset": 959839,
+    "lang": "de"
+  },
+  {
+    "text": "ersten paar Punkte haben ja",
+    "duration": 2920,
+    "offset": 961560,
+    "lang": "de"
+  },
+  {
+    "text": "funktioniert.",
+    "duration": 3361,
+    "offset": 962519,
+    "lang": "de"
+  },
+  {
+    "text": "Also schicken wir das mal ab und gucken",
+    "duration": 4039,
+    "offset": 964480,
+    "lang": "de"
+  },
+  {
+    "text": "mal, was er denn dann noch haben möchte.",
+    "duration": 3920,
+    "offset": 965880,
+    "lang": "de"
+  },
+  {
+    "text": "Und vielleicht halt eben hier auch genau",
+    "duration": 3880,
+    "offset": 968519,
+    "lang": "de"
+  },
+  {
+    "text": "der auch noch mal der Unterschied. Jetzt",
+    "duration": 4080,
+    "offset": 969800,
+    "lang": "de"
+  },
+  {
+    "text": "habe ich auch nicht auf Accept gedrückt,",
+    "duration": 3240,
+    "offset": 972399,
+    "lang": "de"
+  },
+  {
+    "text": "sondern habe die Änderungen, die vorhin",
+    "duration": 4040,
+    "offset": 973880,
+    "lang": "de"
+  },
+  {
+    "text": "versucht hatte, halt eben noch nicht",
+    "duration": 4120,
+    "offset": 975639,
+    "lang": "de"
+  },
+  {
+    "text": "akzeptiert. Hier sehen wir bei Review",
+    "duration": 2960,
+    "offset": 977920,
+    "lang": "de"
+  },
+  {
+    "text": "File, also wenn ich die Dateien",
+    "duration": 3560,
+    "offset": 979759,
+    "lang": "de"
+  },
+  {
+    "text": "aufmache, ähm dann sehe ich genau, ich",
+    "duration": 4280,
+    "offset": 980880,
+    "lang": "de"
+  },
+  {
+    "text": "mache die Scripture erstmal auf, dann",
+    "duration": 3721,
+    "offset": 983319,
+    "lang": "de"
+  },
+  {
+    "text": "sehen wir nämlich, dass er hier",
+    "duration": 3560,
+    "offset": 985160,
+    "lang": "de"
+  },
+  {
+    "text": "Änderungen durchgeführt hat und ich kann",
+    "duration": 4520,
+    "offset": 987040,
+    "lang": "de"
+  },
+  {
+    "text": "auch jetzt quasi pro Zeile sagen ähm ob",
+    "duration": 5160,
+    "offset": 988720,
+    "lang": "de"
+  },
+  {
+    "text": "ich die Zeile behalten möchte oder ob",
+    "duration": 4240,
+    "offset": 991560,
+    "lang": "de"
+  },
+  {
+    "text": "ich ähm ob ich die Änderung, die er",
+    "duration": 3800,
+    "offset": 993880,
+    "lang": "de"
+  },
+  {
+    "text": "gemacht hat, eben nicht akzeptiere. Das",
+    "duration": 3039,
+    "offset": 995800,
+    "lang": "de"
+  },
+  {
+    "text": "kann ich wirklich sehr sehr fein",
+    "duration": 3399,
+    "offset": 997680,
+    "lang": "de"
+  },
+  {
+    "text": "granular machen. Ähm braucht man nicht",
+    "duration": 4360,
+    "offset": 998839,
+    "lang": "de"
+  },
+  {
+    "text": "immer, aber es gibt Momente, wo du das",
+    "duration": 5161,
+    "offset": 1001079,
+    "lang": "de"
+  },
+  {
+    "text": "eben genau machen möchtest, ne?",
+    "duration": 4161,
+    "offset": 1003199,
+    "lang": "de"
+  },
+  {
+    "text": "Und du siehst, ich habe jetzt ein",
+    "duration": 3000,
+    "offset": 1006240,
+    "lang": "de"
+  },
+  {
+    "text": "relativ, das ist jetzt kein komplexes",
+    "duration": 4680,
+    "offset": 1007360,
+    "lang": "de"
+  },
+  {
+    "text": "Spiel, aber doch irgendwie schon so eine",
+    "duration": 4480,
+    "offset": 1009240,
+    "lang": "de"
+  },
+  {
+    "text": "hat schon eine gewisse Komplexität. Wir",
+    "duration": 3719,
+    "offset": 1012040,
+    "lang": "de"
+  },
+  {
+    "text": "das dadurch, dass wir dieses Keyboard",
+    "duration": 4119,
+    "offset": 1013720,
+    "lang": "de"
+  },
+  {
+    "text": "eintippen haben, da wir was gemessen",
+    "duration": 4601,
+    "offset": 1015759,
+    "lang": "de"
+  },
+  {
+    "text": "werden, da siehst du schon, okay, die KI",
+    "duration": 4920,
+    "offset": 1017839,
+    "lang": "de"
+  },
+  {
+    "text": "kann schon dort relativ schnell daneben",
+    "duration": 4079,
+    "offset": 1020360,
+    "lang": "de"
+  },
+  {
+    "text": "liegen, ne? Und da ist halt eben",
+    "duration": 3601,
+    "offset": 1022759,
+    "lang": "de"
+  },
+  {
+    "text": "wirklich jetzt wichtig, dass wir ständig",
+    "duration": 4081,
+    "offset": 1024439,
+    "lang": "de"
+  },
+  {
+    "text": "hin und her kommunizieren und auch",
+    "duration": 4319,
+    "offset": 1026360,
+    "lang": "de"
+  },
+  {
+    "text": "selber versuchen äh das Problem zu",
+    "duration": 3840,
+    "offset": 1028520,
+    "lang": "de"
+  },
+  {
+    "text": "lösen, indem wir erstmal analysieren,",
+    "duration": 3441,
+    "offset": 1030679,
+    "lang": "de"
+  },
+  {
+    "text": "sagen, okay, was könnte das denn das",
+    "duration": 3479,
+    "offset": 1032360,
+    "lang": "de"
+  },
+  {
+    "text": "Problem sein, ne? Da muss man immer",
+    "duration": 4000,
+    "offset": 1034120,
+    "lang": "de"
+  },
+  {
+    "text": "tiefer reingehen. So, damit du mir jetzt",
+    "duration": 3561,
+    "offset": 1035839,
+    "lang": "de"
+  },
+  {
+    "text": "nicht beim Warten zugucken musst, habe",
+    "duration": 3040,
+    "offset": 1038120,
+    "lang": "de"
+  },
+  {
+    "text": "ich das jetzt mal ganz kurz übersprungen",
+    "duration": 4159,
+    "offset": 1039400,
+    "lang": "de"
+  },
+  {
+    "text": "und habe jetzt einfach gesagt, okay, er",
+    "duration": 3919,
+    "offset": 1041160,
+    "lang": "de"
+  },
+  {
+    "text": "ist jetzt fertig. Wir gucken uns das mal",
+    "duration": 3721,
+    "offset": 1043559,
+    "lang": "de"
+  },
+  {
+    "text": "an. Enter Enterhändler, also Enter prüft",
+    "duration": 4521,
+    "offset": 1045079,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt bei normalisierten Werten.",
+    "duration": 5160,
+    "offset": 1047280,
+    "lang": "de"
+  },
+  {
+    "text": "Probieren wir es noch mal aus.",
+    "duration": 6920,
+    "offset": 1049600,
+    "lang": "de"
+  },
+  {
+    "text": "Bereit. Spiel starten. Ähm null",
+    "duration": 6160,
+    "offset": 1052440,
+    "lang": "de"
+  },
+  {
+    "text": "Shift. Und jetzt kommt nämlich schon",
+    "duration": 5960,
+    "offset": 1056520,
+    "lang": "de"
+  },
+  {
+    "text": "wieder der Punkt mit den Leerzeichen",
+    "duration": 5800,
+    "offset": 1058600,
+    "lang": "de"
+  },
+  {
+    "text": "X.",
+    "duration": 4439,
+    "offset": 1062480,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, Leerzeichen X. Oh, noch mal",
+    "duration": 5440,
+    "offset": 1064400,
+    "lang": "de"
+  },
+  {
+    "text": "Lehrzeichen null. Zack, zack. Okay.",
+    "duration": 4521,
+    "offset": 1066919,
+    "lang": "de"
+  },
+  {
+    "text": "Return",
+    "duration": 2640,
+    "offset": 1069840,
+    "lang": "de"
+  },
+  {
+    "text": "Value. Ich habe jetzt mal zwei",
+    "duration": 2720,
+    "offset": 1071440,
+    "lang": "de"
+  },
+  {
+    "text": "Lehrzeichen gemacht. Also jetzt scheint",
+    "duration": 3920,
+    "offset": 1072480,
+    "lang": "de"
+  },
+  {
+    "text": "dieser Fehler behoben zu sein. Also er",
+    "duration": 5759,
+    "offset": 1074160,
+    "lang": "de"
+  },
+  {
+    "text": "hat einfach hier zwei Anläufe gebraucht.",
+    "duration": 4519,
+    "offset": 1076400,
+    "lang": "de"
+  },
+  {
+    "text": "Jetzt habe ich mich irgendwie noch mal",
+    "duration": 4481,
+    "offset": 1079919,
+    "lang": "de"
+  },
+  {
+    "text": "vertippt. Jason.Pps.",
+    "duration": 5681,
+    "offset": 1080919,
+    "lang": "de"
+  },
+  {
+    "text": "So, also sehr schöne Fingertippübung und",
+    "duration": 3880,
+    "offset": 1084400,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt hat er Ah, nee, genau. Ich habe",
+    "duration": 4079,
+    "offset": 1086600,
+    "lang": "de"
+  },
+  {
+    "text": "mich jetzt tatsächlich selber vertippt.",
+    "duration": 4480,
+    "offset": 1088280,
+    "lang": "de"
+  },
+  {
+    "text": "Sehr schön, das hat funktioniert. Also,",
+    "duration": 4681,
+    "offset": 1090679,
+    "lang": "de"
+  },
+  {
+    "text": "damit ist unser Spiel fürs erste fertig.",
+    "duration": 4159,
+    "offset": 1092760,
+    "lang": "de"
+  },
+  {
+    "text": "Ich ma noch mal Jason.Pps. Pass. Er",
+    "duration": 3840,
+    "offset": 1095360,
+    "lang": "de"
+  },
+  {
+    "text": "wiederholt sich hier ein bisschen. Ich",
+    "duration": 4721,
+    "offset": 1096919,
+    "lang": "de"
+  },
+  {
+    "text": "habe es wieder Passer geschrieben. So,",
+    "duration": 4040,
+    "offset": 1099200,
+    "lang": "de"
+  },
+  {
+    "text": "also ne, ich spiele das jetzt nicht zu",
+    "duration": 3360,
+    "offset": 1101640,
+    "lang": "de"
+  },
+  {
+    "text": "Ende. So, wir haben aber gesehen, dass",
+    "duration": 4600,
+    "offset": 1103240,
+    "lang": "de"
+  },
+  {
+    "text": "wenn das Spiel quasi äh jetzt abgelaufen",
+    "duration": 5240,
+    "offset": 1105000,
+    "lang": "de"
+  },
+  {
+    "text": "ist, die 60 Sekunden,",
+    "duration": 5560,
+    "offset": 1107840,
+    "lang": "de"
+  },
+  {
+    "text": "dass er da dann plötzlich ja, im Prinzip",
+    "duration": 4640,
+    "offset": 1110240,
+    "lang": "de"
+  },
+  {
+    "text": "nichts mehr anzeigt. Das wäre jetzt",
+    "duration": 2840,
+    "offset": 1113400,
+    "lang": "de"
+  },
+  {
+    "text": "cool, wenn wir hier am Ende noch mal",
+    "duration": 3279,
+    "offset": 1114880,
+    "lang": "de"
+  },
+  {
+    "text": "eine kleine Anzeige haben und das machen",
+    "duration": 4000,
+    "offset": 1116240,
+    "lang": "de"
+  },
+  {
+    "text": "wir jetzt mal gleich noch mit. Also, das",
+    "duration": 3481,
+    "offset": 1118159,
+    "lang": "de"
+  },
+  {
+    "text": "heißt, der Fehler ist erstmal für uns",
+    "duration": 3040,
+    "offset": 1120240,
+    "lang": "de"
+  },
+  {
+    "text": "behoben. D sage ich, ich sag jetzt",
+    "duration": 3640,
+    "offset": 1121640,
+    "lang": "de"
+  },
+  {
+    "text": "erstmal keep all. Also, das kann man",
+    "duration": 4440,
+    "offset": 1123280,
+    "lang": "de"
+  },
+  {
+    "text": "schon mal akzeptieren und ja, jetzt",
+    "duration": 4279,
+    "offset": 1125280,
+    "lang": "de"
+  },
+  {
+    "text": "hängt so ein bisschen davon ab. Äh, du",
+    "duration": 3439,
+    "offset": 1127720,
+    "lang": "de"
+  },
+  {
+    "text": "siehst hier eine kleine Anzeige, das",
+    "duration": 3360,
+    "offset": 1129559,
+    "lang": "de"
+  },
+  {
+    "text": "sind 19,7%",
+    "duration": 3400,
+    "offset": 1131159,
+    "lang": "de"
+  },
+  {
+    "text": "und das bedeutet, dass es der Kontext",
+    "duration": 4841,
+    "offset": 1132919,
+    "lang": "de"
+  },
+  {
+    "text": "ist zu ja knapp 20% gefüllt. Wenn der",
+    "duration": 6480,
+    "offset": 1134559,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwo bei 60 oder 80% ist, dann fängt",
+    "duration": 5760,
+    "offset": 1137760,
+    "lang": "de"
+  },
+  {
+    "text": "die KI an mehr an zu halluzinieren und",
+    "duration": 4000,
+    "offset": 1141039,
+    "lang": "de"
+  },
+  {
+    "text": "weiß nicht mehr so richtig, was sie tun",
+    "duration": 3399,
+    "offset": 1143520,
+    "lang": "de"
+  },
+  {
+    "text": "soll. Da empfiehlt es sich entweder eine",
+    "duration": 4321,
+    "offset": 1145039,
+    "lang": "de"
+  },
+  {
+    "text": "neue Chatkonversation zu starten oder",
+    "duration": 4961,
+    "offset": 1146919,
+    "lang": "de"
+  },
+  {
+    "text": "mit dem Befehl/summarized",
+    "duration": 5199,
+    "offset": 1149360,
+    "lang": "de"
+  },
+  {
+    "text": "zu arbeiten, weil er sich dann quasi die",
+    "duration": 4880,
+    "offset": 1151880,
+    "lang": "de"
+  },
+  {
+    "text": "gesamte das was er gemacht hat quasi",
+    "duration": 3961,
+    "offset": 1154559,
+    "lang": "de"
+  },
+  {
+    "text": "kurz merkt in der Zusammenfassung und",
+    "duration": 2640,
+    "offset": 1156760,
+    "lang": "de"
+  },
+  {
+    "text": "dann kannst du halt wieder",
+    "duration": 2880,
+    "offset": 1158520,
+    "lang": "de"
+  },
+  {
+    "text": "weiterarbeiten. Nur so als kleinen Tipp",
+    "duration": 4759,
+    "offset": 1159400,
+    "lang": "de"
+  },
+  {
+    "text": "nebenbei, aber ich würde sagen, wir",
+    "duration": 5560,
+    "offset": 1161400,
+    "lang": "de"
+  },
+  {
+    "text": "machen jetzt folgendes. Ähm die",
+    "duration": 4801,
+    "offset": 1164159,
+    "lang": "de"
+  },
+  {
+    "text": "Auswertung",
+    "duration": 4199,
+    "offset": 1166960,
+    "lang": "de"
+  },
+  {
+    "text": "am Ende",
+    "duration": 5800,
+    "offset": 1168960,
+    "lang": "de"
+  },
+  {
+    "text": "wird noch nicht gezeigt.",
+    "duration": 5721,
+    "offset": 1171159,
+    "lang": "de"
+  },
+  {
+    "text": "So und da wäre natürlich wichtig äh was",
+    "duration": 8000,
+    "offset": 1174760,
+    "lang": "de"
+  },
+  {
+    "text": "wollen wir da sehen? Ähm soll zeigen",
+    "duration": 5880,
+    "offset": 1176880,
+    "lang": "de"
+  },
+  {
+    "text": "ähm Anzahl, also Anzahl",
+    "duration": 8240,
+    "offset": 1183000,
+    "lang": "de"
+  },
+  {
+    "text": "richtige Wörter, Anzahl richtige Wörter,",
+    "duration": 8161,
+    "offset": 1186679,
+    "lang": "de"
+  },
+  {
+    "text": "Anzahl falsche Wörter,",
+    "duration": 7080,
+    "offset": 1191240,
+    "lang": "de"
+  },
+  {
+    "text": "dann die ähm Vertipper, ne? Also Anzahl",
+    "duration": 5199,
+    "offset": 1194840,
+    "lang": "de"
+  },
+  {
+    "text": "der Vertipper an sich, also muss ich",
+    "duration": 3760,
+    "offset": 1198320,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwie was korrigieren oder nicht?",
+    "duration": 5201,
+    "offset": 1200039,
+    "lang": "de"
+  },
+  {
+    "text": "und dann ähm WPM, also die Wörter pro",
+    "duration": 6079,
+    "offset": 1202080,
+    "lang": "de"
+  },
+  {
+    "text": "Minute bzw. auch die Anschläge, also die",
+    "duration": 6160,
+    "offset": 1205240,
+    "lang": "de"
+  },
+  {
+    "text": "Tastaturanschläge pro Minute. Anschläge",
+    "duration": 5760,
+    "offset": 1208159,
+    "lang": "de"
+  },
+  {
+    "text": "pro Minute und dann natürlich auch ein",
+    "duration": 5040,
+    "offset": 1211400,
+    "lang": "de"
+  },
+  {
+    "text": "Neustart Bututton plus Neustart",
+    "duration": 5120,
+    "offset": 1213919,
+    "lang": "de"
+  },
+  {
+    "text": "Bututton, nicht plus minus, sondern plus",
+    "duration": 5920,
+    "offset": 1216440,
+    "lang": "de"
+  },
+  {
+    "text": "Neustart Button und das gehen wir ihm",
+    "duration": 5201,
+    "offset": 1219039,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt noch mal mit. Und damit sind wir",
+    "duration": 3360,
+    "offset": 1222360,
+    "lang": "de"
+  },
+  {
+    "text": "dann aber auch eigentlich schon fast",
+    "duration": 3600,
+    "offset": 1224240,
+    "lang": "de"
+  },
+  {
+    "text": "beim Ende des des Tutorials, weil wenn",
+    "duration": 3319,
+    "offset": 1225720,
+    "lang": "de"
+  },
+  {
+    "text": "er jetzt gleich durch ist, würde ich",
+    "duration": 2199,
+    "offset": 1227840,
+    "lang": "de"
+  },
+  {
+    "text": "sagen, haben wir schon mal ein ganz",
+    "duration": 2921,
+    "offset": 1229039,
+    "lang": "de"
+  },
+  {
+    "text": "rundes Spiel, ne? Also, du hast auf",
+    "duration": 3241,
+    "offset": 1230039,
+    "lang": "de"
+  },
+  {
+    "text": "jeden Fall gesehen, okay, wir müssen der",
+    "duration": 3360,
+    "offset": 1231960,
+    "lang": "de"
+  },
+  {
+    "text": "KI sagen, was schief läuft. Wir müssen",
+    "duration": 5040,
+    "offset": 1233280,
+    "lang": "de"
+  },
+  {
+    "text": "da manchmal ins Detail reingehen und ja,",
+    "duration": 5120,
+    "offset": 1235320,
+    "lang": "de"
+  },
+  {
+    "text": "auch wenn das eben ein ja, wenn man sich",
+    "duration": 3880,
+    "offset": 1238320,
+    "lang": "de"
+  },
+  {
+    "text": "wenn sich das anfühlt wie ein Kollege,",
+    "duration": 3960,
+    "offset": 1240440,
+    "lang": "de"
+  },
+  {
+    "text": "kann auch die KI quasi falsch liegen.",
+    "duration": 3560,
+    "offset": 1242200,
+    "lang": "de"
+  },
+  {
+    "text": "Und eigentlich ist es halt auch so ein",
+    "duration": 2880,
+    "offset": 1244400,
+    "lang": "de"
+  },
+  {
+    "text": "bisschen wie einen Kollege, der halt",
+    "duration": 4200,
+    "offset": 1245760,
+    "lang": "de"
+  },
+  {
+    "text": "eben auch mal falsch liegen kann. Ja,",
+    "duration": 3879,
+    "offset": 1247280,
+    "lang": "de"
+  },
+  {
+    "text": "und während der hier noch weiter am",
+    "duration": 3360,
+    "offset": 1249960,
+    "lang": "de"
+  },
+  {
+    "text": "Rödeln ist, ähm kann man ja zumindest",
+    "duration": 3961,
+    "offset": 1251159,
+    "lang": "de"
+  },
+  {
+    "text": "schon mal sagen, okay, kann also Curser",
+    "duration": 4479,
+    "offset": 1253320,
+    "lang": "de"
+  },
+  {
+    "text": "wie so eine Art Kollege denken, der",
+    "duration": 4640,
+    "offset": 1255120,
+    "lang": "de"
+  },
+  {
+    "text": "selbständig arbeitet. Ich würde sagen,",
+    "duration": 3760,
+    "offset": 1257799,
+    "lang": "de"
+  },
+  {
+    "text": "selbständig oder eigenverantwortlich",
+    "duration": 4080,
+    "offset": 1259760,
+    "lang": "de"
+  },
+  {
+    "text": "arbeiten kriegt das Ding noch nicht hin,",
+    "duration": 3881,
+    "offset": 1261559,
+    "lang": "de"
+  },
+  {
+    "text": "aber es ist schon sehr sehr mächtig",
+    "duration": 3400,
+    "offset": 1263840,
+    "lang": "de"
+  },
+  {
+    "text": "geworden, weil ich kann ihn hier quasi",
+    "duration": 4280,
+    "offset": 1265440,
+    "lang": "de"
+  },
+  {
+    "text": "mehrere Minuten lang arbeiten lassen.",
+    "duration": 4160,
+    "offset": 1267240,
+    "lang": "de"
+  },
+  {
+    "text": "Ähm, ich muss ihm nur beschreiben, was",
+    "duration": 3040,
+    "offset": 1269720,
+    "lang": "de"
+  },
+  {
+    "text": "genau falsch ist oder was er genau",
+    "duration": 4159,
+    "offset": 1271400,
+    "lang": "de"
+  },
+  {
+    "text": "machen soll und dann legt er los. Also,",
+    "duration": 4320,
+    "offset": 1272760,
+    "lang": "de"
+  },
+  {
+    "text": "ich würde sagen, es ist schon sehr, sehr",
+    "duration": 3961,
+    "offset": 1275559,
+    "lang": "de"
+  },
+  {
+    "text": "gute Hilfe. Insbesondere dann, wenn du",
+    "duration": 3880,
+    "offset": 1277080,
+    "lang": "de"
+  },
+  {
+    "text": "noch nicht so viel Erfahrung hast, ist",
+    "duration": 3800,
+    "offset": 1279520,
+    "lang": "de"
+  },
+  {
+    "text": "es eine gute Hilfe, aber wenn du dann",
+    "duration": 4040,
+    "offset": 1280960,
+    "lang": "de"
+  },
+  {
+    "text": "mehr Erfahrungen hast, wenn du mehr",
+    "duration": 4680,
+    "offset": 1283320,
+    "lang": "de"
+  },
+  {
+    "text": "Expertise aufgebaut hast, dann ist das",
+    "duration": 5200,
+    "offset": 1285000,
+    "lang": "de"
+  },
+  {
+    "text": "richtig richtig geil, weil du dann eben",
+    "duration": 5720,
+    "offset": 1288000,
+    "lang": "de"
+  },
+  {
+    "text": "wirklich loslegen kannst und ähm du",
+    "duration": 4719,
+    "offset": 1290200,
+    "lang": "de"
+  },
+  {
+    "text": "kannst auch selber mal in den Code",
+    "duration": 2680,
+    "offset": 1293720,
+    "lang": "de"
+  },
+  {
+    "text": "reingucken und das ist auch noch ein",
+    "duration": 3841,
+    "offset": 1294919,
+    "lang": "de"
+  },
+  {
+    "text": "Punkt, der jetzt im Prinzip offen ist.",
+    "duration": 4000,
+    "offset": 1296400,
+    "lang": "de"
+  },
+  {
+    "text": "Okay, bevor wir jetzt das testen, was er",
+    "duration": 4360,
+    "offset": 1298760,
+    "lang": "de"
+  },
+  {
+    "text": "hier gebaut hat, würde ich sagen, dass",
+    "duration": 4159,
+    "offset": 1300400,
+    "lang": "de"
+  },
+  {
+    "text": "wir uns erst einmal kurz den Code",
+    "duration": 3120,
+    "offset": 1303120,
+    "lang": "de"
+  },
+  {
+    "text": "angucken, denn ja, auch wenn du",
+    "duration": 3321,
+    "offset": 1304559,
+    "lang": "de"
+  },
+  {
+    "text": "Programmieranfänger bist, dann solltest",
+    "duration": 3080,
+    "offset": 1306240,
+    "lang": "de"
+  },
+  {
+    "text": "du dir auf jeden Fall mal diesen Code",
+    "duration": 3600,
+    "offset": 1307880,
+    "lang": "de"
+  },
+  {
+    "text": "anschauen und ja, wenn du es lernen",
+    "duration": 3719,
+    "offset": 1309320,
+    "lang": "de"
+  },
+  {
+    "text": "welch möchtest, dann ist es natürlich",
+    "duration": 3400,
+    "offset": 1311480,
+    "lang": "de"
+  },
+  {
+    "text": "notwendig, dass du mal den Code eben",
+    "duration": 4000,
+    "offset": 1313039,
+    "lang": "de"
+  },
+  {
+    "text": "betrachtest. Ähm, ich nehme mal den Chat",
+    "duration": 3760,
+    "offset": 1314880,
+    "lang": "de"
+  },
+  {
+    "text": "hier raus und wir gucken mal kurz in die",
+    "duration": 4281,
+    "offset": 1317039,
+    "lang": "de"
+  },
+  {
+    "text": "verschiedenen Dateien rein und ja, da",
+    "duration": 4120,
+    "offset": 1318640,
+    "lang": "de"
+  },
+  {
+    "text": "sehen wir nämlich schon, dass es hier",
+    "duration": 3120,
+    "offset": 1321320,
+    "lang": "de"
+  },
+  {
+    "text": "eine ganze Menge gibt. Also alleine",
+    "duration": 3680,
+    "offset": 1322760,
+    "lang": "de"
+  },
+  {
+    "text": "schon in dieser Index HTML, ja, gut, das",
+    "duration": 5440,
+    "offset": 1324440,
+    "lang": "de"
+  },
+  {
+    "text": "sind 80 knapp 80 ähm Silent Code. Er hat",
+    "duration": 4479,
+    "offset": 1326440,
+    "lang": "de"
+  },
+  {
+    "text": "ja auch ein paar neue Punkte",
+    "duration": 3320,
+    "offset": 1329880,
+    "lang": "de"
+  },
+  {
+    "text": "hinzugefügt, also auch das, was wir",
+    "duration": 4360,
+    "offset": 1330919,
+    "lang": "de"
+  },
+  {
+    "text": "quasi auch jetzt gerade bemängelt haben.",
+    "duration": 3599,
+    "offset": 1333200,
+    "lang": "de"
+  },
+  {
+    "text": "Hey, wir wollen die richtigen Wörter und",
+    "duration": 3280,
+    "offset": 1335279,
+    "lang": "de"
+  },
+  {
+    "text": "die falschen Wörter haben. Das hat er",
+    "duration": 4120,
+    "offset": 1336799,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt hier eingefügt. Was hier natürlich",
+    "duration": 4201,
+    "offset": 1338559,
+    "lang": "de"
+  },
+  {
+    "text": "wichtig ist, wenn du in Code reinguckst,",
+    "duration": 2921,
+    "offset": 1340919,
+    "lang": "de"
+  },
+  {
+    "text": "da musst du natürlich schon irgendwie",
+    "duration": 2640,
+    "offset": 1342760,
+    "lang": "de"
+  },
+  {
+    "text": "die Syntax verstehen, ne? Also ohne",
+    "duration": 3920,
+    "offset": 1343840,
+    "lang": "de"
+  },
+  {
+    "text": "Syntax wirst du hier natürlich relativ",
+    "duration": 4879,
+    "offset": 1345400,
+    "lang": "de"
+  },
+  {
+    "text": "schnell ähm ja einfach nur chinesische",
+    "duration": 5600,
+    "offset": 1347760,
+    "lang": "de"
+  },
+  {
+    "text": "Zeichen sehen. Ähm denn du weißt nicht,",
+    "duration": 5241,
+    "offset": 1350279,
+    "lang": "de"
+  },
+  {
+    "text": "was hier halt eben steht. Wenn du das",
+    "duration": 3799,
+    "offset": 1353360,
+    "lang": "de"
+  },
+  {
+    "text": "lernen willst, dann gibt's halt eben",
+    "duration": 3560,
+    "offset": 1355520,
+    "lang": "de"
+  },
+  {
+    "text": "dementsprechend Kurse dafür. Äh da komme",
+    "duration": 3760,
+    "offset": 1357159,
+    "lang": "de"
+  },
+  {
+    "text": "ich aber gleich nur drauf zurück. Das",
+    "duration": 3599,
+    "offset": 1359080,
+    "lang": "de"
+  },
+  {
+    "text": "gleiche gilt aber auch für JavaScript,",
+    "duration": 3321,
+    "offset": 1360919,
+    "lang": "de"
+  },
+  {
+    "text": "ne? Das ist jetzt eben eine ganz andere",
+    "duration": 4120,
+    "offset": 1362679,
+    "lang": "de"
+  },
+  {
+    "text": "Sprache und hier haben reden wir auch",
+    "duration": 5120,
+    "offset": 1364240,
+    "lang": "de"
+  },
+  {
+    "text": "nicht nur von 80 Zeitland Code, sondern",
+    "duration": 5961,
+    "offset": 1366799,
+    "lang": "de"
+  },
+  {
+    "text": "von ja schon fast 400 Zeilen, also 350",
+    "duration": 5840,
+    "offset": 1369360,
+    "lang": "de"
+  },
+  {
+    "text": "Zeilen Code, die man erstmal verstanden",
+    "duration": 4360,
+    "offset": 1372760,
+    "lang": "de"
+  },
+  {
+    "text": "haben muss, ne? Und es geht jetzt hier",
+    "duration": 3359,
+    "offset": 1375200,
+    "lang": "de"
+  },
+  {
+    "text": "nicht darum, dass du dir den Code von",
+    "duration": 3559,
+    "offset": 1377120,
+    "lang": "de"
+  },
+  {
+    "text": "oben nach unten durchliest, sondern wenn",
+    "duration": 4441,
+    "offset": 1378559,
+    "lang": "de"
+  },
+  {
+    "text": "du ihn verstehen willst, dann gibt es da",
+    "duration": 4041,
+    "offset": 1380679,
+    "lang": "de"
+  },
+  {
+    "text": "natürlich auch einen kleinen Trick. Den",
+    "duration": 3080,
+    "offset": 1383000,
+    "lang": "de"
+  },
+  {
+    "text": "werden wir jetzt gleich auch direkt mal",
+    "duration": 2959,
+    "offset": 1384720,
+    "lang": "de"
+  },
+  {
+    "text": "benutzen,",
+    "duration": 3680,
+    "offset": 1386080,
+    "lang": "de"
+  },
+  {
+    "text": "während wir das ganze Spiel dann einmal",
+    "duration": 4521,
+    "offset": 1387679,
+    "lang": "de"
+  },
+  {
+    "text": "testen. Also, dann gibt's noch die Style",
+    "duration": 5279,
+    "offset": 1389760,
+    "lang": "de"
+  },
+  {
+    "text": "CSS, das ist das sogenannte Design. Ähm,",
+    "duration": 4719,
+    "offset": 1392200,
+    "lang": "de"
+  },
+  {
+    "text": "da sind alle Designelemente drinne,",
+    "duration": 3441,
+    "offset": 1395039,
+    "lang": "de"
+  },
+  {
+    "text": "damit das Spiel so aussieht, wie es",
+    "duration": 3721,
+    "offset": 1396919,
+    "lang": "de"
+  },
+  {
+    "text": "aussieht. Und genau, was haben wir denn",
+    "duration": 3480,
+    "offset": 1398480,
+    "lang": "de"
+  },
+  {
+    "text": "hier? Also auch hier hat er",
+    "duration": 3480,
+    "offset": 1400640,
+    "lang": "de"
+  },
+  {
+    "text": "verschiedenste Regeln eingefügt und es",
+    "duration": 4199,
+    "offset": 1401960,
+    "lang": "de"
+  },
+  {
+    "text": "ist auch gar nicht mal ohne, denn auch",
+    "duration": 4439,
+    "offset": 1404120,
+    "lang": "de"
+  },
+  {
+    "text": "hier haben wir fast 250 Zeilen Code und",
+    "duration": 4241,
+    "offset": 1406159,
+    "lang": "de"
+  },
+  {
+    "text": "das alles jetzt hier innerhalb von, sage",
+    "duration": 4720,
+    "offset": 1408559,
+    "lang": "de"
+  },
+  {
+    "text": "ich mal, 20 Minuten runter programmiert.",
+    "duration": 4720,
+    "offset": 1410400,
+    "lang": "de"
+  },
+  {
+    "text": "Das alles zu verstehen, dafür muss man",
+    "duration": 4041,
+    "offset": 1413279,
+    "lang": "de"
+  },
+  {
+    "text": "erstmal gute Expertise aufbauen, aber",
+    "duration": 4159,
+    "offset": 1415120,
+    "lang": "de"
+  },
+  {
+    "text": "wir haben ja KI, also das heißt, ich",
+    "duration": 3359,
+    "offset": 1417320,
+    "lang": "de"
+  },
+  {
+    "text": "mache mir jetzt mal eine neue",
+    "duration": 3441,
+    "offset": 1419279,
+    "lang": "de"
+  },
+  {
+    "text": "Chatkonversation, die lasse ich mal bei",
+    "duration": 4240,
+    "offset": 1420679,
+    "lang": "de"
+  },
+  {
+    "text": "und sage: \"Hey, erkläre mir mal den",
+    "duration": 4559,
+    "offset": 1422720,
+    "lang": "de"
+  },
+  {
+    "text": "Code.",
+    "duration": 9640,
+    "offset": 1424919,
+    "lang": "de"
+  },
+  {
+    "text": "kläre mir den Code dieser Anwendung.",
+    "duration": 7280,
+    "offset": 1427279,
+    "lang": "de"
+  },
+  {
+    "text": "Ähm inklusive Code schnipseln.",
+    "duration": 5520,
+    "offset": 1434840,
+    "lang": "de"
+  },
+  {
+    "text": "Okay. Und wenn ich das jetzt erstmal",
+    "duration": 3601,
+    "offset": 1443039,
+    "lang": "de"
+  },
+  {
+    "text": "habe, dann äh lassen wir den jetzt mal",
+    "duration": 3679,
+    "offset": 1444480,
+    "lang": "de"
+  },
+  {
+    "text": "laufen. Der wird uns jetzt der wird sich",
+    "duration": 2800,
+    "offset": 1446640,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt den Code angucken und",
+    "duration": 2801,
+    "offset": 1448159,
+    "lang": "de"
+  },
+  {
+    "text": "dementsprechend sagen: \"Okay, ich",
+    "duration": 3200,
+    "offset": 1449440,
+    "lang": "de"
+  },
+  {
+    "text": "schreib das jetzt mal runter und",
+    "duration": 3520,
+    "offset": 1450960,
+    "lang": "de"
+  },
+  {
+    "text": "währenddessen testen wir mal das, was er",
+    "duration": 4440,
+    "offset": 1452640,
+    "lang": "de"
+  },
+  {
+    "text": "da zum Schluss gemacht hat. ähm ob er",
+    "duration": 4079,
+    "offset": 1454480,
+    "lang": "de"
+  },
+  {
+    "text": "das mit unserer Anweisungsliste",
+    "duration": 4440,
+    "offset": 1457080,
+    "lang": "de"
+  },
+  {
+    "text": "hinbekommen hat. Also tippe hier. Zack.",
+    "duration": 5881,
+    "offset": 1458559,
+    "lang": "de"
+  },
+  {
+    "text": "Consol lock. Ich spiele noch mal durch.",
+    "duration": 4320,
+    "offset": 1461520,
+    "lang": "de"
+  },
+  {
+    "text": "Mein Tippen ist schon auf jeden Fall",
+    "duration": 4320,
+    "offset": 1464440,
+    "lang": "de"
+  },
+  {
+    "text": "etwas eingerostet. Ist natürlich die die",
+    "duration": 5000,
+    "offset": 1465840,
+    "lang": "de"
+  },
+  {
+    "text": "Ironie dieses Spiels ist ja, dass wir",
+    "duration": 3080,
+    "offset": 1468760,
+    "lang": "de"
+  },
+  {
+    "text": "eigentlich ja nicht mehr viel",
+    "duration": 2760,
+    "offset": 1470840,
+    "lang": "de"
+  },
+  {
+    "text": "programmieren tippen beim Programmieren",
+    "duration": 3880,
+    "offset": 1471840,
+    "lang": "de"
+  },
+  {
+    "text": "tippen müssen, aber es ist natürlich",
+    "duration": 4520,
+    "offset": 1473600,
+    "lang": "de"
+  },
+  {
+    "text": "trotzdem schön für die Fingerfertigkeit,",
+    "duration": 4679,
+    "offset": 1475720,
+    "lang": "de"
+  },
+  {
+    "text": "wenn man äh",
+    "duration": 4320,
+    "offset": 1478120,
+    "lang": "de"
+  },
+  {
+    "text": "eben gut tippen kann. Ja, und jetzt",
+    "duration": 3280,
+    "offset": 1480399,
+    "lang": "de"
+  },
+  {
+    "text": "nachdem ich fertig war, ich habe es",
+    "duration": 2599,
+    "offset": 1482440,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt mal übersprungen, hatte",
+    "duration": 2401,
+    "offset": 1483679,
+    "lang": "de"
+  },
+  {
+    "text": "tatsächlich die immer noch nicht",
+    "duration": 2801,
+    "offset": 1485039,
+    "lang": "de"
+  },
+  {
+    "text": "gezeigt, also irgendwas ist hier noch",
+    "duration": 4240,
+    "offset": 1486080,
+    "lang": "de"
+  },
+  {
+    "text": "nicht ganz richtig. M als nächster",
+    "duration": 4480,
+    "offset": 1487840,
+    "lang": "de"
+  },
+  {
+    "text": "kleiner Tipp, damit du jetzt auch sagst,",
+    "duration": 3359,
+    "offset": 1490320,
+    "lang": "de"
+  },
+  {
+    "text": "okay, was ist denn, wenn bei mir das",
+    "duration": 2880,
+    "offset": 1492320,
+    "lang": "de"
+  },
+  {
+    "text": "passiert? Dann kann man natürlich auch",
+    "duration": 5281,
+    "offset": 1493679,
+    "lang": "de"
+  },
+  {
+    "text": "mal in die Entwicklerkonsole schauen.",
+    "duration": 6199,
+    "offset": 1495200,
+    "lang": "de"
+  },
+  {
+    "text": "Die rufst du auf über entweder hier über",
+    "duration": 5800,
+    "offset": 1498960,
+    "lang": "de"
+  },
+  {
+    "text": "Rechtsklick untersuchen oder dann öffnet",
+    "duration": 4801,
+    "offset": 1501399,
+    "lang": "de"
+  },
+  {
+    "text": "sich hier meistens entweder ein Fenster",
+    "duration": 3880,
+    "offset": 1504760,
+    "lang": "de"
+  },
+  {
+    "text": "direkt auf. So, ist ein bisschen unschön",
+    "duration": 5240,
+    "offset": 1506200,
+    "lang": "de"
+  },
+  {
+    "text": "hier gerade bei mir.",
+    "duration": 4440,
+    "offset": 1508640,
+    "lang": "de"
+  },
+  {
+    "text": "Genau. Und meistens siehst du dann",
+    "duration": 2959,
+    "offset": 1511440,
+    "lang": "de"
+  },
+  {
+    "text": "entweder unter der Konsole siehst du",
+    "duration": 2560,
+    "offset": 1513080,
+    "lang": "de"
+  },
+  {
+    "text": "hier eine Meldung. Hier ist es alles",
+    "duration": 2961,
+    "offset": 1514399,
+    "lang": "de"
+  },
+  {
+    "text": "leer. Deswegen können wir damit jetzt",
+    "duration": 3279,
+    "offset": 1515640,
+    "lang": "de"
+  },
+  {
+    "text": "nichts anfangen. Wir müssen jetzt",
+    "duration": 3439,
+    "offset": 1517360,
+    "lang": "de"
+  },
+  {
+    "text": "eigentlich sagen, okay, du bist noch",
+    "duration": 4841,
+    "offset": 1518919,
+    "lang": "de"
+  },
+  {
+    "text": "nicht ganz fertig. Die Auswertung, die",
+    "duration": 5521,
+    "offset": 1520799,
+    "lang": "de"
+  },
+  {
+    "text": "Auswertung",
+    "duration": 6120,
+    "offset": 1523760,
+    "lang": "de"
+  },
+  {
+    "text": "wird am Ende noch immer noch nicht",
+    "duration": 8959,
+    "offset": 1526320,
+    "lang": "de"
+  },
+  {
+    "text": "gezeigt. Immer noch nicht gezeigt.",
+    "duration": 10880,
+    "offset": 1529880,
+    "lang": "de"
+  },
+  {
+    "text": "äh und analysiere und löse das Problem.",
+    "duration": 7000,
+    "offset": 1535279,
+    "lang": "de"
+  },
+  {
+    "text": "So, dann lassen wir ihn da noch mal",
+    "duration": 3600,
+    "offset": 1540760,
+    "lang": "de"
+  },
+  {
+    "text": "nebenbei laufen und ja, während der",
+    "duration": 4321,
+    "offset": 1542279,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt hier ähm das Problem löst, können",
+    "duration": 3400,
+    "offset": 1544360,
+    "lang": "de"
+  },
+  {
+    "text": "wir jetzt sagen: \"Hey, wir gucken lassen",
+    "duration": 3120,
+    "offset": 1546600,
+    "lang": "de"
+  },
+  {
+    "text": "uns den wir gucken uns den Code mal an.",
+    "duration": 3600,
+    "offset": 1547760,
+    "lang": "de"
+  },
+  {
+    "text": "Gehen wir noch mal zurück. Äh, ich habe",
+    "duration": 3240,
+    "offset": 1549720,
+    "lang": "de"
+  },
+  {
+    "text": "ihm hier gerade die Anfrage gegeben,",
+    "duration": 4840,
+    "offset": 1551360,
+    "lang": "de"
+  },
+  {
+    "text": "dass er mir das mal prüfen soll.\"",
+    "duration": 5319,
+    "offset": 1552960,
+    "lang": "de"
+  },
+  {
+    "text": "Wow, das ist eine ganze Menge. Okay, er",
+    "duration": 3199,
+    "offset": 1556200,
+    "lang": "de"
+  },
+  {
+    "text": "hat hier wirklich Okay, der hat jetzt",
+    "duration": 2681,
+    "offset": 1558279,
+    "lang": "de"
+  },
+  {
+    "text": "den ganzen Code ausgegeben, was jetzt",
+    "duration": 3801,
+    "offset": 1559399,
+    "lang": "de"
+  },
+  {
+    "text": "nicht so clever ist, aber okay. Also,",
+    "duration": 5400,
+    "offset": 1560960,
+    "lang": "de"
+  },
+  {
+    "text": "Erklärung des Code Typer Codes. Die",
+    "duration": 4440,
+    "offset": 1563200,
+    "lang": "de"
+  },
+  {
+    "text": "eigene Tippgeschwindigkeit App für",
+    "duration": 2640,
+    "offset": 1566360,
+    "lang": "de"
+  },
+  {
+    "text": "Programmierer. In 60 Sekunden werden",
+    "duration": 3480,
+    "offset": 1567640,
+    "lang": "de"
+  },
+  {
+    "text": "JavaScript Wörter und Codes getippt. Es",
+    "duration": 4000,
+    "offset": 1569000,
+    "lang": "de"
+  },
+  {
+    "text": "werden Statistiken wie WPM und für",
+    "duration": 4679,
+    "offset": 1571120,
+    "lang": "de"
+  },
+  {
+    "text": "Tipper erfasst. Die HTML Datei definiert",
+    "duration": 5000,
+    "offset": 1573000,
+    "lang": "de"
+  },
+  {
+    "text": "die Struktur mit drei Bereichen. Ja,",
+    "duration": 5521,
+    "offset": 1575799,
+    "lang": "de"
+  },
+  {
+    "text": "okay. Wichtige Elemente. Ja, Header,",
+    "duration": 5399,
+    "offset": 1578000,
+    "lang": "de"
+  },
+  {
+    "text": "Anzeige von Zeitpunkten, WPM,",
+    "duration": 3839,
+    "offset": 1581320,
+    "lang": "de"
+  },
+  {
+    "text": "Worddisplay zeigt die korrekte getippte",
+    "duration": 3321,
+    "offset": 1583399,
+    "lang": "de"
+  },
+  {
+    "text": "Zeichen in grün, aktuelles Zeichen",
+    "duration": 3240,
+    "offset": 1585159,
+    "lang": "de"
+  },
+  {
+    "text": "hervorgehoben, Input Feld und so weiter",
+    "duration": 3640,
+    "offset": 1586720,
+    "lang": "de"
+  },
+  {
+    "text": "und so fort. Dann gibt er mir die ganze",
+    "duration": 4241,
+    "offset": 1588399,
+    "lang": "de"
+  },
+  {
+    "text": "JavaScript Datei zurück, aber beschreibt",
+    "duration": 4000,
+    "offset": 1590360,
+    "lang": "de"
+  },
+  {
+    "text": "auch hier gleich, was das ist. Das ist",
+    "duration": 3440,
+    "offset": 1592640,
+    "lang": "de"
+  },
+  {
+    "text": "also das ist schon ganz gut. Er sagt",
+    "duration": 3080,
+    "offset": 1594360,
+    "lang": "de"
+  },
+  {
+    "text": "hier, guck mal, hier sind die Wörter und",
+    "duration": 4360,
+    "offset": 1596080,
+    "lang": "de"
+  },
+  {
+    "text": "Code Snippets, also Words Array mit",
+    "duration": 4760,
+    "offset": 1597440,
+    "lang": "de"
+  },
+  {
+    "text": "JavaScript Schlüsselwörtern und so",
+    "duration": 3719,
+    "offset": 1600440,
+    "lang": "de"
+  },
+  {
+    "text": "weiter und so fort. Also, ne? Du kannst",
+    "duration": 4599,
+    "offset": 1602200,
+    "lang": "de"
+  },
+  {
+    "text": "dir auch quasi das ganze einmal",
+    "duration": 4841,
+    "offset": 1604159,
+    "lang": "de"
+  },
+  {
+    "text": "anschauen, was er denn gebaut hat. Du",
+    "duration": 3641,
+    "offset": 1606799,
+    "lang": "de"
+  },
+  {
+    "text": "kannst ihn Fragen dazu stellen und",
+    "duration": 3520,
+    "offset": 1609000,
+    "lang": "de"
+  },
+  {
+    "text": "erklärt dir das natürlich auch. Ich sehe",
+    "duration": 3719,
+    "offset": 1610440,
+    "lang": "de"
+  },
+  {
+    "text": "auf jeden Fall schon mal, ich habe",
+    "duration": 3440,
+    "offset": 1612520,
+    "lang": "de"
+  },
+  {
+    "text": "gerade mal eine klein kurze Runde",
+    "duration": 3640,
+    "offset": 1614159,
+    "lang": "de"
+  },
+  {
+    "text": "gespielt und jetzt haben wir tatsächlich",
+    "duration": 3599,
+    "offset": 1615960,
+    "lang": "de"
+  },
+  {
+    "text": "Spiel beendet und damit haben wir",
+    "duration": 5041,
+    "offset": 1617799,
+    "lang": "de"
+  },
+  {
+    "text": "eigentlich die ganze Runde einmal also",
+    "duration": 5801,
+    "offset": 1619559,
+    "lang": "de"
+  },
+  {
+    "text": "die Erkenntnisse einmal wir können mit",
+    "duration": 5199,
+    "offset": 1622840,
+    "lang": "de"
+  },
+  {
+    "text": "Curser und Vibecoding ja quasi",
+    "duration": 4960,
+    "offset": 1625360,
+    "lang": "de"
+  },
+  {
+    "text": "programmieren. Es fühlt sich an als wenn",
+    "duration": 4281,
+    "offset": 1628039,
+    "lang": "de"
+  },
+  {
+    "text": "wir mit einer anderen Person eigentlich",
+    "duration": 3440,
+    "offset": 1630320,
+    "lang": "de"
+  },
+  {
+    "text": "so eine Art Perp Programming machen",
+    "duration": 3560,
+    "offset": 1632320,
+    "lang": "de"
+  },
+  {
+    "text": "würden, weil wir halt eben ganz genau",
+    "duration": 4200,
+    "offset": 1633760,
+    "lang": "de"
+  },
+  {
+    "text": "sagen: \"Hey, das will ich haben, dann",
+    "duration": 3840,
+    "offset": 1635880,
+    "lang": "de"
+  },
+  {
+    "text": "das klappt nicht.\" Oder erklär mir mal",
+    "duration": 3040,
+    "offset": 1637960,
+    "lang": "de"
+  },
+  {
+    "text": "den Code. Also, ich habe verschiedene",
+    "duration": 4160,
+    "offset": 1639720,
+    "lang": "de"
+  },
+  {
+    "text": "Bereiche. wohl KI mich eben unterstützen",
+    "duration": 4799,
+    "offset": 1641000,
+    "lang": "de"
+  },
+  {
+    "text": "kann. Wichtig ist halt, das ist keine",
+    "duration": 4399,
+    "offset": 1643880,
+    "lang": "de"
+  },
+  {
+    "text": "Zauberei, sondern du musst halt eben die",
+    "duration": 5240,
+    "offset": 1645799,
+    "lang": "de"
+  },
+  {
+    "text": "KI passend führen. Ja, also du äh",
+    "duration": 4681,
+    "offset": 1648279,
+    "lang": "de"
+  },
+  {
+    "text": "lieferst lieferst das Tempo, du musst",
+    "duration": 3921,
+    "offset": 1651039,
+    "lang": "de"
+  },
+  {
+    "text": "eben die Vorschläge geben und auch die",
+    "duration": 4719,
+    "offset": 1652960,
+    "lang": "de"
+  },
+  {
+    "text": "Details. Ähm und ja, du hast auch die",
+    "duration": 4680,
+    "offset": 1654960,
+    "lang": "de"
+  },
+  {
+    "text": "Grenzen gerade gesehen, ne? Also, wenn",
+    "duration": 4321,
+    "offset": 1657679,
+    "lang": "de"
+  },
+  {
+    "text": "es um Logike geht, ne? Kleinere",
+    "duration": 4159,
+    "offset": 1659640,
+    "lang": "de"
+  },
+  {
+    "text": "Fehlerchen haben wir direkt gehabt auch",
+    "duration": 3480,
+    "offset": 1662000,
+    "lang": "de"
+  },
+  {
+    "text": "bei dieser kleinen bei diesem kleinen",
+    "duration": 3480,
+    "offset": 1663799,
+    "lang": "de"
+  },
+  {
+    "text": "Spiel. Ja, und das hängt natürlich dann",
+    "duration": 3559,
+    "offset": 1665480,
+    "lang": "de"
+  },
+  {
+    "text": "meistens immer daran, entweder macht man",
+    "duration": 3441,
+    "offset": 1667279,
+    "lang": "de"
+  },
+  {
+    "text": "den Prompt zu groß, also man will zu",
+    "duration": 3120,
+    "offset": 1669039,
+    "lang": "de"
+  },
+  {
+    "text": "viel auf einmal, dann passieren die",
+    "duration": 3319,
+    "offset": 1670720,
+    "lang": "de"
+  },
+  {
+    "text": "Fehler oder man vergisst halt eben",
+    "duration": 3880,
+    "offset": 1672159,
+    "lang": "de"
+  },
+  {
+    "text": "einfach Dinge zu erwähnen und dann äh",
+    "duration": 4201,
+    "offset": 1674039,
+    "lang": "de"
+  },
+  {
+    "text": "ja, nimmt die KI einfach Sachen an und",
+    "duration": 3841,
+    "offset": 1676039,
+    "lang": "de"
+  },
+  {
+    "text": "dann macht sie dann die anderen Fehler.",
+    "duration": 3039,
+    "offset": 1678240,
+    "lang": "de"
+  },
+  {
+    "text": "Also auch da musst du ganz genau",
+    "duration": 3639,
+    "offset": 1679880,
+    "lang": "de"
+  },
+  {
+    "text": "aufpassen, was du der KI mitgibst, was",
+    "duration": 4441,
+    "offset": 1681279,
+    "lang": "de"
+  },
+  {
+    "text": "sie bauen soll. Ja, und eben das waren",
+    "duration": 3921,
+    "offset": 1683519,
+    "lang": "de"
+  },
+  {
+    "text": "auch so ein paar, sag mal, Extremfälle",
+    "duration": 3040,
+    "offset": 1685720,
+    "lang": "de"
+  },
+  {
+    "text": "hatten wir jetzt noch nicht. Wenn du",
+    "duration": 4239,
+    "offset": 1687440,
+    "lang": "de"
+  },
+  {
+    "text": "aber größere größere Anwendungen baust,",
+    "duration": 4919,
+    "offset": 1688760,
+    "lang": "de"
+  },
+  {
+    "text": "dann wirst du natürlich auch komplexere",
+    "duration": 4281,
+    "offset": 1691679,
+    "lang": "de"
+  },
+  {
+    "text": "Logiken haben, komplexere Zustände in",
+    "duration": 4281,
+    "offset": 1693679,
+    "lang": "de"
+  },
+  {
+    "text": "deinen Anwendungen. Ähm, dann kommt auch",
+    "duration": 3920,
+    "offset": 1695960,
+    "lang": "de"
+  },
+  {
+    "text": "irgendwann Security dazu, ne? Also, wenn",
+    "duration": 3880,
+    "offset": 1697960,
+    "lang": "de"
+  },
+  {
+    "text": "du das ganze Ding natürlich irgendwann",
+    "duration": 4120,
+    "offset": 1699880,
+    "lang": "de"
+  },
+  {
+    "text": "mal online stellen willst mit Highscore,",
+    "duration": 3880,
+    "offset": 1701840,
+    "lang": "de"
+  },
+  {
+    "text": "Login, User Details, dann kommen",
+    "duration": 3799,
+    "offset": 1704000,
+    "lang": "de"
+  },
+  {
+    "text": "natürlich andere Themen rein. Äh, das",
+    "duration": 4079,
+    "offset": 1705720,
+    "lang": "de"
+  },
+  {
+    "text": "heißt auch da kannst du KI zwar",
+    "duration": 3921,
+    "offset": 1707799,
+    "lang": "de"
+  },
+  {
+    "text": "einsetzen, aber jetzt nicht als Ersatz",
+    "duration": 4000,
+    "offset": 1709799,
+    "lang": "de"
+  },
+  {
+    "text": "sehen, sondern eben nur als Helfer. Das",
+    "duration": 3199,
+    "offset": 1711720,
+    "lang": "de"
+  },
+  {
+    "text": "bedeutet, du musst dich natürlich",
+    "duration": 2961,
+    "offset": 1713799,
+    "lang": "de"
+  },
+  {
+    "text": "trotzdem in diesen Themen dann irgendwie",
+    "duration": 3441,
+    "offset": 1714919,
+    "lang": "de"
+  },
+  {
+    "text": "reinarbeiten",
+    "duration": 3159,
+    "offset": 1716760,
+    "lang": "de"
+  },
+  {
+    "text": "und für dich bedeutet das jetzt quasi",
+    "duration": 3439,
+    "offset": 1718360,
+    "lang": "de"
+  },
+  {
+    "text": "ein ganz klares Fundament, weil du mit",
+    "duration": 4760,
+    "offset": 1719919,
+    "lang": "de"
+  },
+  {
+    "text": "Curser und Vibecoding quasi ja kleinere",
+    "duration": 4961,
+    "offset": 1721799,
+    "lang": "de"
+  },
+  {
+    "text": "Miniapps bauen kannst und damit deine",
+    "duration": 5000,
+    "offset": 1724679,
+    "lang": "de"
+  },
+  {
+    "text": "Erfahrungen aufbaust.",
+    "duration": 4680,
+    "offset": 1726760,
+    "lang": "de"
+  },
+  {
+    "text": "Ja, und äh wenn du mit KI wirklich",
+    "duration": 3281,
+    "offset": 1729679,
+    "lang": "de"
+  },
+  {
+    "text": "programmieren lernen willst, sowas wie",
+    "duration": 4079,
+    "offset": 1731440,
+    "lang": "de"
+  },
+  {
+    "text": "das hier, was wir gerade gemacht haben,",
+    "duration": 4680,
+    "offset": 1732960,
+    "lang": "de"
+  },
+  {
+    "text": "ähm und ja und du in quasi in kurzer",
+    "duration": 4040,
+    "offset": 1735519,
+    "lang": "de"
+  },
+  {
+    "text": "Zeit sichtbare Ergebnisse wie dieses",
+    "duration": 4000,
+    "offset": 1737640,
+    "lang": "de"
+  },
+  {
+    "text": "Minigame erreichen möchtest, dann klicke",
+    "duration": 3561,
+    "offset": 1739559,
+    "lang": "de"
+  },
+  {
+    "text": "jetzt unten auf den Link in der",
+    "duration": 3080,
+    "offset": 1741640,
+    "lang": "de"
+  },
+  {
+    "text": "Beschreibung oder gehe auf",
+    "duration": 4039,
+    "offset": 1743120,
+    "lang": "de"
+  },
+  {
+    "text": "vieventure.de/start",
+    "duration": 4240,
+    "offset": 1744720,
+    "lang": "de"
+  },
+  {
+    "text": "und sichere dir deinen kostenlosen",
+    "duration": 4400,
+    "offset": 1747159,
+    "lang": "de"
+  },
+  {
+    "text": "Starteraccount. Ja, weil der Anfänger",
+    "duration": 5160,
+    "offset": 1748960,
+    "lang": "de"
+  },
+  {
+    "text": "freundliche Vibenture KI Crashc dir nur",
+    "duration": 4921,
+    "offset": 1751559,
+    "lang": "de"
+  },
+  {
+    "text": "in 20 Minuten die Grundlagen so erklärt,",
+    "duration": 4640,
+    "offset": 1754120,
+    "lang": "de"
+  },
+  {
+    "text": "dass du sofort praxisorientiert loslegen",
+    "duration": 4480,
+    "offset": 1756480,
+    "lang": "de"
+  },
+  {
+    "text": "kannst und eigene Miniprojekte umsetzen",
+    "duration": 4720,
+    "offset": 1758760,
+    "lang": "de"
+  },
+  {
+    "text": "kannst. Außerdem bekommst du den Vibe",
+    "duration": 4400,
+    "offset": 1760960,
+    "lang": "de"
+  },
+  {
+    "text": "Venture Coding Crash Kurs, mit dem du",
+    "duration": 4120,
+    "offset": 1763480,
+    "lang": "de"
+  },
+  {
+    "text": "deine erste kleine App baust und ja,",
+    "duration": 3919,
+    "offset": 1765360,
+    "lang": "de"
+  },
+  {
+    "text": "Variablen, Schleifen und diese ganzen",
+    "duration": 2959,
+    "offset": 1767600,
+    "lang": "de"
+  },
+  {
+    "text": "Themen, die wir jetzt gerade auch hier",
+    "duration": 3601,
+    "offset": 1769279,
+    "lang": "de"
+  },
+  {
+    "text": "gesehen haben, verstehen kannst und dann",
+    "duration": 5120,
+    "offset": 1770559,
+    "lang": "de"
+  },
+  {
+    "text": "halt wirklich auch die Logik hinter",
+    "duration": 5440,
+    "offset": 1772880,
+    "lang": "de"
+  },
+  {
+    "text": "deiner App verstehen kannst. Ja, und du",
+    "duration": 4720,
+    "offset": 1775679,
+    "lang": "de"
+  },
+  {
+    "text": "hältst Zugang zur exklusiven Vibenture",
+    "duration": 3760,
+    "offset": 1778320,
+    "lang": "de"
+  },
+  {
+    "text": "Community",
+    "duration": 3280,
+    "offset": 1780399,
+    "lang": "de"
+  },
+  {
+    "text": "in der du schnellen Austausch,",
+    "duration": 3479,
+    "offset": 1782080,
+    "lang": "de"
+  },
+  {
+    "text": "Motivation und natürlich auch Feedback",
+    "duration": 4201,
+    "offset": 1783679,
+    "lang": "de"
+  },
+  {
+    "text": "zu deinen Projekten bekommst, damit du",
+    "duration": 4161,
+    "offset": 1785559,
+    "lang": "de"
+  },
+  {
+    "text": "auch wieder nie wieder alleine",
+    "duration": 4279,
+    "offset": 1787880,
+    "lang": "de"
+  },
+  {
+    "text": "festhängst. Und als Geschenk bekommst du",
+    "duration": 5679,
+    "offset": 1789720,
+    "lang": "de"
+  },
+  {
+    "text": "15 Kira II AI Credits. Kira ist nämlich",
+    "duration": 5520,
+    "offset": 1792159,
+    "lang": "de"
+  },
+  {
+    "text": "unser eigener Onlineeditor, der dir eben",
+    "duration": 4201,
+    "offset": 1795399,
+    "lang": "de"
+  },
+  {
+    "text": "nicht nur beim Programmieren hilft,",
+    "duration": 3081,
+    "offset": 1797679,
+    "lang": "de"
+  },
+  {
+    "text": "sondern natürlich auch beim",
+    "duration": 3959,
+    "offset": 1799600,
+    "lang": "de"
+  },
+  {
+    "text": "Programmieren deine die die Antworten",
+    "duration": 5560,
+    "offset": 1800760,
+    "lang": "de"
+  },
+  {
+    "text": "auf deine Programmierfragen beantwortet.",
+    "duration": 4681,
+    "offset": 1803559,
+    "lang": "de"
+  },
+  {
+    "text": "Also, du bleibst damit komplett im Flow",
+    "duration": 4079,
+    "offset": 1806320,
+    "lang": "de"
+  },
+  {
+    "text": "ohne Hürden. Also jetzt klicken und wir",
+    "duration": 6880,
+    "offset": 1808240,
+    "lang": "de"
+  },
+  {
+    "text": "sehen uns auf vienture.de. Okay.",
+    "duration": 4721,
+    "offset": 1810399,
+    "lang": "de"
+  }
+]

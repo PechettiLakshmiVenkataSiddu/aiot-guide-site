@@ -1,0 +1,458 @@
+[
+  {
+    "text": "in this video I'm going to introduce you",
+    "duration": 8561,
+    "offset": 399,
+    "lang": "en"
+  },
+  {
+    "text": "to the mqtt protocol mqtt stands for mq",
+    "duration": 9200,
+    "offset": 2760,
+    "lang": "en"
+  },
+  {
+    "text": "Telemetry transport it is a nice",
+    "duration": 5719,
+    "offset": 8960,
+    "lang": "en"
+  },
+  {
+    "text": "lightweight publish And subscribe system",
+    "duration": 4520,
+    "offset": 11960,
+    "lang": "en"
+  },
+  {
+    "text": "where you can publish and receive",
+    "duration": 3561,
+    "offset": 14679,
+    "lang": "en"
+  },
+  {
+    "text": "messages as a",
+    "duration": 4600,
+    "offset": 16480,
+    "lang": "en"
+  },
+  {
+    "text": "client and it makes it really easy to",
+    "duration": 5080,
+    "offset": 18240,
+    "lang": "en"
+  },
+  {
+    "text": "establish a communication between",
+    "duration": 4359,
+    "offset": 21080,
+    "lang": "en"
+  },
+  {
+    "text": "multiple",
+    "duration": 5199,
+    "offset": 23320,
+    "lang": "en"
+  },
+  {
+    "text": "devices it is a simple messaging",
+    "duration": 5680,
+    "offset": 25439,
+    "lang": "en"
+  },
+  {
+    "text": "protocol designed for constrained",
+    "duration": 5040,
+    "offset": 28519,
+    "lang": "en"
+  },
+  {
+    "text": "devices and with low",
+    "duration": 5801,
+    "offset": 31119,
+    "lang": "en"
+  },
+  {
+    "text": "bandwidth so it's the perfect solution",
+    "duration": 6480,
+    "offset": 33559,
+    "lang": "en"
+  },
+  {
+    "text": "for Internet of Things",
+    "duration": 6040,
+    "offset": 36920,
+    "lang": "en"
+  },
+  {
+    "text": "applications here's a quick highlevel",
+    "duration": 7401,
+    "offset": 40039,
+    "lang": "en"
+  },
+  {
+    "text": "overview of what mqtt allows you to do",
+    "duration": 8560,
+    "offset": 42960,
+    "lang": "en"
+  },
+  {
+    "text": "you can send a command to control an",
+    "duration": 6880,
+    "offset": 47440,
+    "lang": "en"
+  },
+  {
+    "text": "output or you can read data from a",
+    "duration": 6160,
+    "offset": 51520,
+    "lang": "en"
+  },
+  {
+    "text": "sensor and publish",
+    "duration": 7120,
+    "offset": 54320,
+    "lang": "en"
+  },
+  {
+    "text": "it in mqtt there are a few basic",
+    "duration": 6439,
+    "offset": 57680,
+    "lang": "en"
+  },
+  {
+    "text": "concepts that you need to understand",
+    "duration": 9039,
+    "offset": 61440,
+    "lang": "en"
+  },
+  {
+    "text": "publish And subscribe messages topics",
+    "duration": 9401,
+    "offset": 64119,
+    "lang": "en"
+  },
+  {
+    "text": "broker the first concept is the publish",
+    "duration": 6761,
+    "offset": 70479,
+    "lang": "en"
+  },
+  {
+    "text": "And subscribe system what does that mean",
+    "duration": 5959,
+    "offset": 73520,
+    "lang": "en"
+  },
+  {
+    "text": "this means that a device can publish",
+    "duration": 6199,
+    "offset": 77240,
+    "lang": "en"
+  },
+  {
+    "text": "messages to your other devices or your",
+    "duration": 6241,
+    "offset": 79479,
+    "lang": "en"
+  },
+  {
+    "text": "device can subscribe to a particular",
+    "duration": 4720,
+    "offset": 83439,
+    "lang": "en"
+  },
+  {
+    "text": "topic to receive those",
+    "duration": 4960,
+    "offset": 85720,
+    "lang": "en"
+  },
+  {
+    "text": "messages for example",
+    "duration": 5441,
+    "offset": 88159,
+    "lang": "en"
+  },
+  {
+    "text": "device one publishes on a",
+    "duration": 6079,
+    "offset": 90680,
+    "lang": "en"
+  },
+  {
+    "text": "topic device two is subscribed to the",
+    "duration": 6559,
+    "offset": 93600,
+    "lang": "en"
+  },
+  {
+    "text": "same topic as device one is publishing",
+    "duration": 8601,
+    "offset": 96759,
+    "lang": "en"
+  },
+  {
+    "text": "in so device two receives the",
+    "duration": 8721,
+    "offset": 100159,
+    "lang": "en"
+  },
+  {
+    "text": "message messages are the information",
+    "duration": 6560,
+    "offset": 105360,
+    "lang": "en"
+  },
+  {
+    "text": "that you want to exchange between your",
+    "duration": 6159,
+    "offset": 108880,
+    "lang": "en"
+  },
+  {
+    "text": "devices whether it's a command or",
+    "duration": 6119,
+    "offset": 111920,
+    "lang": "en"
+  },
+  {
+    "text": "data with the publish subscribe system",
+    "duration": 5281,
+    "offset": 115039,
+    "lang": "en"
+  },
+  {
+    "text": "you can do pretty much anything you",
+    "duration": 4040,
+    "offset": 118039,
+    "lang": "en"
+  },
+  {
+    "text": "could ever wanted in your home",
+    "duration": 3399,
+    "offset": 120320,
+    "lang": "en"
+  },
+  {
+    "text": "automation",
+    "duration": 5880,
+    "offset": 122079,
+    "lang": "en"
+  },
+  {
+    "text": "projects another important concept is",
+    "duration": 7561,
+    "offset": 123719,
+    "lang": "en"
+  },
+  {
+    "text": "topics topics are the way you register",
+    "duration": 7321,
+    "offset": 127959,
+    "lang": "en"
+  },
+  {
+    "text": "interest for incoming messages or how",
+    "duration": 6280,
+    "offset": 131280,
+    "lang": "en"
+  },
+  {
+    "text": "you specify where you want to publish",
+    "duration": 3120,
+    "offset": 135280,
+    "lang": "en"
+  },
+  {
+    "text": "your",
+    "duration": 3720,
+    "offset": 137560,
+    "lang": "en"
+  },
+  {
+    "text": "message topics are represented with",
+    "duration": 5600,
+    "offset": 138400,
+    "lang": "en"
+  },
+  {
+    "text": "strings separated by",
+    "duration": 7000,
+    "offset": 141280,
+    "lang": "en"
+  },
+  {
+    "text": "slashes the slashes indicate the topic",
+    "duration": 7360,
+    "offset": 144000,
+    "lang": "en"
+  },
+  {
+    "text": "level here an example on how you would",
+    "duration": 6800,
+    "offset": 148280,
+    "lang": "en"
+  },
+  {
+    "text": "create a topic for a lamp in your home",
+    "duration": 5280,
+    "offset": 151360,
+    "lang": "en"
+  },
+  {
+    "text": "office",
+    "duration": 6040,
+    "offset": 155080,
+    "lang": "en"
+  },
+  {
+    "text": "home/office SL",
+    "duration": 4480,
+    "offset": 156640,
+    "lang": "en"
+  },
+  {
+    "text": "lamp for example if you would like to",
+    "duration": 5560,
+    "offset": 162440,
+    "lang": "en"
+  },
+  {
+    "text": "turn on a lamp in your home office you",
+    "duration": 5721,
+    "offset": 165319,
+    "lang": "en"
+  },
+  {
+    "text": "would publish a message to a topic using",
+    "duration": 8200,
+    "offset": 168000,
+    "lang": "en"
+  },
+  {
+    "text": "no thread saying on and your ESP 266",
+    "duration": 8040,
+    "offset": 171040,
+    "lang": "en"
+  },
+  {
+    "text": "would be subscribed to that same topic",
+    "duration": 6000,
+    "offset": 176200,
+    "lang": "en"
+  },
+  {
+    "text": "so it would receive the on message and",
+    "duration": 5680,
+    "offset": 179080,
+    "lang": "en"
+  },
+  {
+    "text": "finally turn on the",
+    "duration": 6360,
+    "offset": 182200,
+    "lang": "en"
+  },
+  {
+    "text": "lamp please note that topics are case",
+    "duration": 8520,
+    "offset": 184760,
+    "lang": "en"
+  },
+  {
+    "text": "sensitive which makes these topics",
+    "duration": 4720,
+    "offset": 188560,
+    "lang": "en"
+  },
+  {
+    "text": "different you also need to be aware of",
+    "duration": 6759,
+    "offset": 195040,
+    "lang": "en"
+  },
+  {
+    "text": "the term broker the broker is primarily",
+    "duration": 7160,
+    "offset": 197920,
+    "lang": "en"
+  },
+  {
+    "text": "responsible for receiving all messages",
+    "duration": 6401,
+    "offset": 201799,
+    "lang": "en"
+  },
+  {
+    "text": "filtering the messages decide who's",
+    "duration": 6239,
+    "offset": 205080,
+    "lang": "en"
+  },
+  {
+    "text": "interested in it and then publishing the",
+    "duration": 6080,
+    "offset": 208200,
+    "lang": "en"
+  },
+  {
+    "text": "message to all subscribed",
+    "duration": 5361,
+    "offset": 211319,
+    "lang": "en"
+  },
+  {
+    "text": "clients there are several Brokers you",
+    "duration": 5480,
+    "offset": 214280,
+    "lang": "en"
+  },
+  {
+    "text": "can use we're going to use the mosquito",
+    "duration": 5680,
+    "offset": 216680,
+    "lang": "en"
+  },
+  {
+    "text": "broker which you will install in the",
+    "duration": 5199,
+    "offset": 219760,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry",
+    "duration": 2599,
+    "offset": 222360,
+    "lang": "en"
+  },
+  {
+    "text": "Pi in the next units we will experiment",
+    "duration": 7920,
+    "offset": 225239,
+    "lang": "en"
+  },
+  {
+    "text": "with mqtt and node rev to see how",
+    "duration": 6959,
+    "offset": 229000,
+    "lang": "en"
+  },
+  {
+    "text": "everything works in reality with",
+    "duration": 5000,
+    "offset": 233159,
+    "lang": "en"
+  },
+  {
+    "text": "practical examples thank you for",
+    "duration": 5200,
+    "offset": 235959,
+    "lang": "en"
+  },
+  {
+    "text": "watching",
+    "duration": 3000,
+    "offset": 238159,
+    "lang": "en"
+  }
+]

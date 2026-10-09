@@ -1,0 +1,2486 @@
+[
+  {
+    "text": "welcome everybody to my mqtt beginners",
+    "duration": 3600,
+    "offset": 160,
+    "lang": "en"
+  },
+  {
+    "text": "guide",
+    "duration": 3199,
+    "offset": 3120,
+    "lang": "en"
+  },
+  {
+    "text": "with an example python implementation",
+    "duration": 4879,
+    "offset": 3760,
+    "lang": "en"
+  },
+  {
+    "text": "the video will cover two parts",
+    "duration": 4721,
+    "offset": 6319,
+    "lang": "en"
+  },
+  {
+    "text": "first a very short theoretical",
+    "duration": 4160,
+    "offset": 8639,
+    "lang": "en"
+  },
+  {
+    "text": "introduction and i promise i keep it",
+    "duration": 2960,
+    "offset": 11040,
+    "lang": "en"
+  },
+  {
+    "text": "very short",
+    "duration": 3681,
+    "offset": 12799,
+    "lang": "en"
+  },
+  {
+    "text": "and second a practical example of an",
+    "duration": 3359,
+    "offset": 14000,
+    "lang": "en"
+  },
+  {
+    "text": "mqtt",
+    "duration": 3680,
+    "offset": 16480,
+    "lang": "en"
+  },
+  {
+    "text": "implementation with python if you",
+    "duration": 5201,
+    "offset": 17359,
+    "lang": "en"
+  },
+  {
+    "text": "directly want to get your hands dirty of",
+    "duration": 4080,
+    "offset": 20160,
+    "lang": "en"
+  },
+  {
+    "text": "course you can skip the theoretical",
+    "duration": 3520,
+    "offset": 22560,
+    "lang": "en"
+  },
+  {
+    "text": "introduction and directly",
+    "duration": 4879,
+    "offset": 24240,
+    "lang": "en"
+  },
+  {
+    "text": "skip to minute seven but i recommend to",
+    "duration": 3760,
+    "offset": 26080,
+    "lang": "en"
+  },
+  {
+    "text": "stay",
+    "duration": 4161,
+    "offset": 29119,
+    "lang": "en"
+  },
+  {
+    "text": "before we start two things first",
+    "duration": 5920,
+    "offset": 29840,
+    "lang": "en"
+  },
+  {
+    "text": "you can find the whole code which i show",
+    "duration": 3279,
+    "offset": 33280,
+    "lang": "en"
+  },
+  {
+    "text": "later",
+    "duration": 2959,
+    "offset": 35760,
+    "lang": "en"
+  },
+  {
+    "text": "here on github and i'll put a link into",
+    "duration": 3680,
+    "offset": 36559,
+    "lang": "en"
+  },
+  {
+    "text": "the description",
+    "duration": 5041,
+    "offset": 38719,
+    "lang": "en"
+  },
+  {
+    "text": "and second i published everything i tell",
+    "duration": 3761,
+    "offset": 40239,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 2400,
+    "offset": 43760,
+    "lang": "en"
+  },
+  {
+    "text": "in this video also on medium.com which",
+    "duration": 4320,
+    "offset": 44000,
+    "lang": "en"
+  },
+  {
+    "text": "is kind of a blog",
+    "duration": 4239,
+    "offset": 46160,
+    "lang": "en"
+  },
+  {
+    "text": "you will find all the theoretical",
+    "duration": 4000,
+    "offset": 48320,
+    "lang": "en"
+  },
+  {
+    "text": "examples which i tell you now",
+    "duration": 4800,
+    "offset": 50399,
+    "lang": "en"
+  },
+  {
+    "text": "written down here as well as the",
+    "duration": 5040,
+    "offset": 52320,
+    "lang": "en"
+  },
+  {
+    "text": "examples of the code i'll show",
+    "duration": 5601,
+    "offset": 55199,
+    "lang": "en"
+  },
+  {
+    "text": "in some minutes and i'll also put the",
+    "duration": 4960,
+    "offset": 57360,
+    "lang": "en"
+  },
+  {
+    "text": "link into the description",
+    "duration": 2880,
+    "offset": 60800,
+    "lang": "en"
+  },
+  {
+    "text": "alright so let's start with the",
+    "duration": 5440,
+    "offset": 62320,
+    "lang": "en"
+  },
+  {
+    "text": "theoretical explanation of mqtt",
+    "duration": 7280,
+    "offset": 63680,
+    "lang": "en"
+  },
+  {
+    "text": "mqtt is an open and simple client server",
+    "duration": 4320,
+    "offset": 67760,
+    "lang": "en"
+  },
+  {
+    "text": "publish subscribe",
+    "duration": 3280,
+    "offset": 70960,
+    "lang": "en"
+  },
+  {
+    "text": "message transfer protocol designed for",
+    "duration": 4079,
+    "offset": 72080,
+    "lang": "en"
+  },
+  {
+    "text": "machine to machine communication",
+    "duration": 3760,
+    "offset": 74240,
+    "lang": "en"
+  },
+  {
+    "text": "between different devices and",
+    "duration": 4161,
+    "offset": 76159,
+    "lang": "en"
+  },
+  {
+    "text": "environments of high latency and low",
+    "duration": 6799,
+    "offset": 78000,
+    "lang": "en"
+  },
+  {
+    "text": "network bandwidth what the hell",
+    "duration": 7200,
+    "offset": 80320,
+    "lang": "en"
+  },
+  {
+    "text": "let's break it down a little bit so",
+    "duration": 4481,
+    "offset": 84799,
+    "lang": "en"
+  },
+  {
+    "text": "first of all machine to machine",
+    "duration": 2720,
+    "offset": 87520,
+    "lang": "en"
+  },
+  {
+    "text": "communication",
+    "duration": 4799,
+    "offset": 89280,
+    "lang": "en"
+  },
+  {
+    "text": "what does that mean basically it means",
+    "duration": 6800,
+    "offset": 90240,
+    "lang": "en"
+  },
+  {
+    "text": "the need of one machine or let's call it",
+    "duration": 4720,
+    "offset": 94079,
+    "lang": "en"
+  },
+  {
+    "text": "better device",
+    "duration": 4399,
+    "offset": 97040,
+    "lang": "en"
+  },
+  {
+    "text": "to communicate with or talk to another",
+    "duration": 4721,
+    "offset": 98799,
+    "lang": "en"
+  },
+  {
+    "text": "machine or device",
+    "duration": 5201,
+    "offset": 101439,
+    "lang": "en"
+  },
+  {
+    "text": "and actually this happens all the time",
+    "duration": 3599,
+    "offset": 103520,
+    "lang": "en"
+  },
+  {
+    "text": "already",
+    "duration": 4159,
+    "offset": 106640,
+    "lang": "en"
+  },
+  {
+    "text": "especially in the iot context so imagine",
+    "duration": 6241,
+    "offset": 107119,
+    "lang": "en"
+  },
+  {
+    "text": "you're you're having a smart home right",
+    "duration": 4000,
+    "offset": 110799,
+    "lang": "en"
+  },
+  {
+    "text": "and perhaps you have an",
+    "duration": 5119,
+    "offset": 113360,
+    "lang": "en"
+  },
+  {
+    "text": "outside temperature sensor",
+    "duration": 6000,
+    "offset": 114799,
+    "lang": "en"
+  },
+  {
+    "text": "which informs your heating devices",
+    "duration": 4240,
+    "offset": 118479,
+    "lang": "en"
+  },
+  {
+    "text": "whenever the outside temperature is",
+    "duration": 3441,
+    "offset": 120799,
+    "lang": "en"
+  },
+  {
+    "text": "below a certain degree to",
+    "duration": 3921,
+    "offset": 122719,
+    "lang": "en"
+  },
+  {
+    "text": "turn on the radiators or something same",
+    "duration": 3999,
+    "offset": 124240,
+    "lang": "en"
+  },
+  {
+    "text": "time of course",
+    "duration": 3440,
+    "offset": 126640,
+    "lang": "en"
+  },
+  {
+    "text": "with your smartphone you want to know",
+    "duration": 4161,
+    "offset": 128239,
+    "lang": "en"
+  },
+  {
+    "text": "how cold it is outside and get informed",
+    "duration": 3840,
+    "offset": 130080,
+    "lang": "en"
+  },
+  {
+    "text": "at the same time you want to control",
+    "duration": 2960,
+    "offset": 132400,
+    "lang": "en"
+  },
+  {
+    "text": "your heating devices",
+    "duration": 4000,
+    "offset": 133920,
+    "lang": "en"
+  },
+  {
+    "text": "from your smartphone perhaps",
+    "duration": 4239,
+    "offset": 135360,
+    "lang": "en"
+  },
+  {
+    "text": "additionally you want to switch on and",
+    "duration": 2640,
+    "offset": 137920,
+    "lang": "en"
+  },
+  {
+    "text": "off your lights",
+    "duration": 3601,
+    "offset": 139599,
+    "lang": "en"
+  },
+  {
+    "text": "in your house with your smartphone or",
+    "duration": 4319,
+    "offset": 140560,
+    "lang": "en"
+  },
+  {
+    "text": "even better automated so whenever you",
+    "duration": 3520,
+    "offset": 143200,
+    "lang": "en"
+  },
+  {
+    "text": "leave the house to turn them on",
+    "duration": 4241,
+    "offset": 144879,
+    "lang": "en"
+  },
+  {
+    "text": "to turn them off sorry automatically at",
+    "duration": 3920,
+    "offset": 146720,
+    "lang": "en"
+  },
+  {
+    "text": "the same time you can control your",
+    "duration": 2720,
+    "offset": 149120,
+    "lang": "en"
+  },
+  {
+    "text": "vacuum cleaner",
+    "duration": 3360,
+    "offset": 150640,
+    "lang": "en"
+  },
+  {
+    "text": "with your smartphone or even get",
+    "duration": 3920,
+    "offset": 151840,
+    "lang": "en"
+  },
+  {
+    "text": "information from your fridge whenever",
+    "duration": 3120,
+    "offset": 154000,
+    "lang": "en"
+  },
+  {
+    "text": "something is missing so",
+    "duration": 4640,
+    "offset": 155760,
+    "lang": "en"
+  },
+  {
+    "text": "the need is already present that devices",
+    "duration": 7040,
+    "offset": 157120,
+    "lang": "en"
+  },
+  {
+    "text": "talk to each other frequently and mqtt",
+    "duration": 6240,
+    "offset": 160400,
+    "lang": "en"
+  },
+  {
+    "text": "is a protocol which enables which is a",
+    "duration": 3120,
+    "offset": 164160,
+    "lang": "en"
+  },
+  {
+    "text": "perfect",
+    "duration": 3440,
+    "offset": 166640,
+    "lang": "en"
+  },
+  {
+    "text": "match for especially those iot contexts",
+    "duration": 6080,
+    "offset": 167280,
+    "lang": "en"
+  },
+  {
+    "text": "to enable machines to talk to each other",
+    "duration": 5040,
+    "offset": 170080,
+    "lang": "en"
+  },
+  {
+    "text": "alright so machine to machine",
+    "duration": 3120,
+    "offset": 173360,
+    "lang": "en"
+  },
+  {
+    "text": "communication",
+    "duration": 5119,
+    "offset": 175120,
+    "lang": "en"
+  },
+  {
+    "text": "check next environments of high latency",
+    "duration": 5280,
+    "offset": 176480,
+    "lang": "en"
+  },
+  {
+    "text": "and low network",
+    "duration": 5441,
+    "offset": 180239,
+    "lang": "en"
+  },
+  {
+    "text": "bandwidth so mqtt is a very lightweight",
+    "duration": 5920,
+    "offset": 181760,
+    "lang": "en"
+  },
+  {
+    "text": "protocol it's very efficient",
+    "duration": 4639,
+    "offset": 185680,
+    "lang": "en"
+  },
+  {
+    "text": "and has a small footprint at the same",
+    "duration": 3120,
+    "offset": 187680,
+    "lang": "en"
+  },
+  {
+    "text": "time",
+    "duration": 3681,
+    "offset": 190319,
+    "lang": "en"
+  },
+  {
+    "text": "it has different levels of quality of",
+    "duration": 4240,
+    "offset": 190800,
+    "lang": "en"
+  },
+  {
+    "text": "services which",
+    "duration": 4080,
+    "offset": 194000,
+    "lang": "en"
+  },
+  {
+    "text": "ensures that messages between",
+    "duration": 6640,
+    "offset": 195040,
+    "lang": "en"
+  },
+  {
+    "text": "devices are actually delivered even if",
+    "duration": 5840,
+    "offset": 198080,
+    "lang": "en"
+  },
+  {
+    "text": "the environments are unstable like",
+    "duration": 5040,
+    "offset": 201680,
+    "lang": "en"
+  },
+  {
+    "text": "unwired connections via wi-fi",
+    "duration": 6399,
+    "offset": 203920,
+    "lang": "en"
+  },
+  {
+    "text": "bluetooth satellite and so on mqtt is",
+    "duration": 4159,
+    "offset": 206720,
+    "lang": "en"
+  },
+  {
+    "text": "very",
+    "duration": 3041,
+    "offset": 210319,
+    "lang": "en"
+  },
+  {
+    "text": "resistant here which makes it a perfect",
+    "duration": 3681,
+    "offset": 210879,
+    "lang": "en"
+  },
+  {
+    "text": "match for iot",
+    "duration": 4640,
+    "offset": 213360,
+    "lang": "en"
+  },
+  {
+    "text": "scenarios all right environments of high",
+    "duration": 5440,
+    "offset": 214560,
+    "lang": "en"
+  },
+  {
+    "text": "latency and low network",
+    "duration": 5120,
+    "offset": 218000,
+    "lang": "en"
+  },
+  {
+    "text": "bandwidth check next",
+    "duration": 6640,
+    "offset": 220000,
+    "lang": "en"
+  },
+  {
+    "text": "client server publish subscribe so this",
+    "duration": 4560,
+    "offset": 223120,
+    "lang": "en"
+  },
+  {
+    "text": "is actually a very",
+    "duration": 4560,
+    "offset": 226640,
+    "lang": "en"
+  },
+  {
+    "text": "powerful feature of mqtt let's recap on",
+    "duration": 5680,
+    "offset": 227680,
+    "lang": "en"
+  },
+  {
+    "text": "on the picture before like imagine",
+    "duration": 3440,
+    "offset": 231200,
+    "lang": "en"
+  },
+  {
+    "text": "you're having a smart",
+    "duration": 4079,
+    "offset": 233360,
+    "lang": "en"
+  },
+  {
+    "text": "home having a lot of devices talking to",
+    "duration": 4080,
+    "offset": 234640,
+    "lang": "en"
+  },
+  {
+    "text": "each other",
+    "duration": 3520,
+    "offset": 237439,
+    "lang": "en"
+  },
+  {
+    "text": "being connected with each other it will",
+    "duration": 3280,
+    "offset": 238720,
+    "lang": "en"
+  },
+  {
+    "text": "get chaotic",
+    "duration": 3280,
+    "offset": 240959,
+    "lang": "en"
+  },
+  {
+    "text": "and no one will have an overview anymore",
+    "duration": 4720,
+    "offset": 242000,
+    "lang": "en"
+  },
+  {
+    "text": "which device is talking to which device",
+    "duration": 5601,
+    "offset": 244239,
+    "lang": "en"
+  },
+  {
+    "text": "how frequently about which topics and so",
+    "duration": 3599,
+    "offset": 246720,
+    "lang": "en"
+  },
+  {
+    "text": "on so",
+    "duration": 4880,
+    "offset": 249840,
+    "lang": "en"
+  },
+  {
+    "text": "it will get chaotic so how will mqtt",
+    "duration": 8961,
+    "offset": 250319,
+    "lang": "en"
+  },
+  {
+    "text": "solve this actually mqtt comes",
+    "duration": 8320,
+    "offset": 254720,
+    "lang": "en"
+  },
+  {
+    "text": "with the mqtt broker which is a server",
+    "duration": 6240,
+    "offset": 259280,
+    "lang": "en"
+  },
+  {
+    "text": "which structures communication into",
+    "duration": 3920,
+    "offset": 263040,
+    "lang": "en"
+  },
+  {
+    "text": "different topics",
+    "duration": 4000,
+    "offset": 265520,
+    "lang": "en"
+  },
+  {
+    "text": "here an example we have a topic",
+    "duration": 3920,
+    "offset": 266960,
+    "lang": "en"
+  },
+  {
+    "text": "temperature",
+    "duration": 4399,
+    "offset": 269520,
+    "lang": "en"
+  },
+  {
+    "text": "and a topic position the different",
+    "duration": 4560,
+    "offset": 270880,
+    "lang": "en"
+  },
+  {
+    "text": "devices can now",
+    "duration": 4961,
+    "offset": 273919,
+    "lang": "en"
+  },
+  {
+    "text": "publish information to these topics",
+    "duration": 6240,
+    "offset": 275440,
+    "lang": "en"
+  },
+  {
+    "text": "so imagine having your outside",
+    "duration": 4000,
+    "offset": 278880,
+    "lang": "en"
+  },
+  {
+    "text": "temperatures and",
+    "duration": 3840,
+    "offset": 281680,
+    "lang": "en"
+  },
+  {
+    "text": "sensor publishing information to the",
+    "duration": 3920,
+    "offset": 282880,
+    "lang": "en"
+  },
+  {
+    "text": "temperature topic",
+    "duration": 3520,
+    "offset": 285520,
+    "lang": "en"
+  },
+  {
+    "text": "at the same time your heating devices",
+    "duration": 3760,
+    "offset": 286800,
+    "lang": "en"
+  },
+  {
+    "text": "can publish",
+    "duration": 3920,
+    "offset": 289040,
+    "lang": "en"
+  },
+  {
+    "text": "their current temperature to this topic",
+    "duration": 3600,
+    "offset": 290560,
+    "lang": "en"
+  },
+  {
+    "text": "and as well as your",
+    "duration": 2880,
+    "offset": 292960,
+    "lang": "en"
+  },
+  {
+    "text": "smartphone can publish to the",
+    "duration": 3680,
+    "offset": 294160,
+    "lang": "en"
+  },
+  {
+    "text": "temperature topic to control",
+    "duration": 4240,
+    "offset": 295840,
+    "lang": "en"
+  },
+  {
+    "text": "the temperature for example to say all",
+    "duration": 3840,
+    "offset": 297840,
+    "lang": "en"
+  },
+  {
+    "text": "heating devices please",
+    "duration": 5280,
+    "offset": 300080,
+    "lang": "en"
+  },
+  {
+    "text": "22 degrees so devices can not only",
+    "duration": 5920,
+    "offset": 301680,
+    "lang": "en"
+  },
+  {
+    "text": "publish information to this topic at the",
+    "duration": 3200,
+    "offset": 305360,
+    "lang": "en"
+  },
+  {
+    "text": "same time",
+    "duration": 3920,
+    "offset": 307600,
+    "lang": "en"
+  },
+  {
+    "text": "interested devices can subscribe to the",
+    "duration": 3680,
+    "offset": 308560,
+    "lang": "en"
+  },
+  {
+    "text": "topic",
+    "duration": 3040,
+    "offset": 311520,
+    "lang": "en"
+  },
+  {
+    "text": "for example the smartphone can subscribe",
+    "duration": 4399,
+    "offset": 312240,
+    "lang": "en"
+  },
+  {
+    "text": "to the temperature topic",
+    "duration": 4320,
+    "offset": 314560,
+    "lang": "en"
+  },
+  {
+    "text": "because it's interested in the outside",
+    "duration": 3201,
+    "offset": 316639,
+    "lang": "en"
+  },
+  {
+    "text": "temperature",
+    "duration": 3520,
+    "offset": 318880,
+    "lang": "en"
+  },
+  {
+    "text": "at the same time the heating devices can",
+    "duration": 4799,
+    "offset": 319840,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe to the temperature topic",
+    "duration": 4400,
+    "offset": 322400,
+    "lang": "en"
+  },
+  {
+    "text": "to be informed whenever whenever the",
+    "duration": 4321,
+    "offset": 324639,
+    "lang": "en"
+  },
+  {
+    "text": "smartphone sends a control message to",
+    "duration": 4399,
+    "offset": 326800,
+    "lang": "en"
+  },
+  {
+    "text": "regulate the temperature",
+    "duration": 4959,
+    "offset": 328960,
+    "lang": "en"
+  },
+  {
+    "text": "let's have a look on the position topic",
+    "duration": 3041,
+    "offset": 331199,
+    "lang": "en"
+  },
+  {
+    "text": "so",
+    "duration": 3840,
+    "offset": 333919,
+    "lang": "en"
+  },
+  {
+    "text": "for example the smartphone can publish",
+    "duration": 4959,
+    "offset": 334240,
+    "lang": "en"
+  },
+  {
+    "text": "its actual position",
+    "duration": 5201,
+    "offset": 337759,
+    "lang": "en"
+  },
+  {
+    "text": "for example if the user leaves his house",
+    "duration": 6241,
+    "offset": 339199,
+    "lang": "en"
+  },
+  {
+    "text": "the position is located outside at the",
+    "duration": 4959,
+    "offset": 342960,
+    "lang": "en"
+  },
+  {
+    "text": "same time for example the vacuum cleaner",
+    "duration": 5199,
+    "offset": 345440,
+    "lang": "en"
+  },
+  {
+    "text": "can publish its position to say in which",
+    "duration": 3280,
+    "offset": 347919,
+    "lang": "en"
+  },
+  {
+    "text": "room",
+    "duration": 5201,
+    "offset": 350639,
+    "lang": "en"
+  },
+  {
+    "text": "is actually cleaning on the other hand",
+    "duration": 6801,
+    "offset": 351199,
+    "lang": "en"
+  },
+  {
+    "text": "other devices can subscribe if they are",
+    "duration": 4000,
+    "offset": 355840,
+    "lang": "en"
+  },
+  {
+    "text": "interested in the position for example",
+    "duration": 3360,
+    "offset": 358000,
+    "lang": "en"
+  },
+  {
+    "text": "the heating devices",
+    "duration": 4160,
+    "offset": 359840,
+    "lang": "en"
+  },
+  {
+    "text": "and the light bulbs to turn off whenever",
+    "duration": 5200,
+    "offset": 361360,
+    "lang": "en"
+  },
+  {
+    "text": "the user leaves his home",
+    "duration": 4800,
+    "offset": 364000,
+    "lang": "en"
+  },
+  {
+    "text": "the security camera can turn on whenever",
+    "duration": 4320,
+    "offset": 366560,
+    "lang": "en"
+  },
+  {
+    "text": "the user leaves a home",
+    "duration": 5600,
+    "offset": 368800,
+    "lang": "en"
+  },
+  {
+    "text": "at the same time the robot the vacuum",
+    "duration": 4319,
+    "offset": 370880,
+    "lang": "en"
+  },
+  {
+    "text": "cleaner can",
+    "duration": 3359,
+    "offset": 374400,
+    "lang": "en"
+  },
+  {
+    "text": "can subscribe to the position topic to",
+    "duration": 4641,
+    "offset": 375199,
+    "lang": "en"
+  },
+  {
+    "text": "start whenever the user is not at home",
+    "duration": 4801,
+    "offset": 377759,
+    "lang": "en"
+  },
+  {
+    "text": "to not annoy him",
+    "duration": 6320,
+    "offset": 379840,
+    "lang": "en"
+  },
+  {
+    "text": "that's how mqtt structures communication",
+    "duration": 4160,
+    "offset": 382560,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 2640,
+    "offset": 386160,
+    "lang": "en"
+  },
+  {
+    "text": "and decouples the devices from each",
+    "duration": 3280,
+    "offset": 386720,
+    "lang": "en"
+  },
+  {
+    "text": "other",
+    "duration": 4160,
+    "offset": 388800,
+    "lang": "en"
+  },
+  {
+    "text": "the mqtt broker here acts as a server",
+    "duration": 3600,
+    "offset": 390000,
+    "lang": "en"
+  },
+  {
+    "text": "while as",
+    "duration": 3359,
+    "offset": 392960,
+    "lang": "en"
+  },
+  {
+    "text": "all devices publishing or subscribing",
+    "duration": 3680,
+    "offset": 393600,
+    "lang": "en"
+  },
+  {
+    "text": "information",
+    "duration": 3521,
+    "offset": 396319,
+    "lang": "en"
+  },
+  {
+    "text": "will act as a client alright client",
+    "duration": 3600,
+    "offset": 397280,
+    "lang": "en"
+  },
+  {
+    "text": "server publish",
+    "duration": 4880,
+    "offset": 399840,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe check now let's have a look on",
+    "duration": 4319,
+    "offset": 400880,
+    "lang": "en"
+  },
+  {
+    "text": "how",
+    "duration": 3280,
+    "offset": 404720,
+    "lang": "en"
+  },
+  {
+    "text": "simple mqtt is and we'll get our hands",
+    "duration": 4400,
+    "offset": 405199,
+    "lang": "en"
+  },
+  {
+    "text": "dirty with python",
+    "duration": 5039,
+    "offset": 408000,
+    "lang": "en"
+  },
+  {
+    "text": "we'll run a free mqtt broker server",
+    "duration": 5440,
+    "offset": 409599,
+    "lang": "en"
+  },
+  {
+    "text": "and write some clients to publish and",
+    "duration": 3761,
+    "offset": 413039,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe messages to",
+    "duration": 4000,
+    "offset": 415039,
+    "lang": "en"
+  },
+  {
+    "text": "within pi's and then you can see how",
+    "duration": 3679,
+    "offset": 416800,
+    "lang": "en"
+  },
+  {
+    "text": "simple it is",
+    "duration": 4160,
+    "offset": 419039,
+    "lang": "en"
+  },
+  {
+    "text": "all right to get started we need two",
+    "duration": 3521,
+    "offset": 420479,
+    "lang": "en"
+  },
+  {
+    "text": "things",
+    "duration": 4081,
+    "offset": 423199,
+    "lang": "en"
+  },
+  {
+    "text": "one an mqtt broker of server",
+    "duration": 6960,
+    "offset": 424000,
+    "lang": "en"
+  },
+  {
+    "text": "and an mqtt client so for the mqtt",
+    "duration": 5120,
+    "offset": 427280,
+    "lang": "en"
+  },
+  {
+    "text": "broker or server",
+    "duration": 3679,
+    "offset": 430960,
+    "lang": "en"
+  },
+  {
+    "text": "there are some free ones available",
+    "duration": 5680,
+    "offset": 432400,
+    "lang": "en"
+  },
+  {
+    "text": "online so just type in mqtt",
+    "duration": 7601,
+    "offset": 434639,
+    "lang": "en"
+  },
+  {
+    "text": "eclipse and you'll find the free",
+    "duration": 10720,
+    "offset": 438080,
+    "lang": "en"
+  },
+  {
+    "text": "server here mqtt mqtt.eclipseprojects.io",
+    "duration": 9440,
+    "offset": 442240,
+    "lang": "en"
+  },
+  {
+    "text": "and this is basically already an mqtt",
+    "duration": 5040,
+    "offset": 448800,
+    "lang": "en"
+  },
+  {
+    "text": "broker you can connect to on a free",
+    "duration": 3600,
+    "offset": 451680,
+    "lang": "en"
+  },
+  {
+    "text": "basis",
+    "duration": 4560,
+    "offset": 453840,
+    "lang": "en"
+  },
+  {
+    "text": "next is we need a client in python",
+    "duration": 6400,
+    "offset": 455280,
+    "lang": "en"
+  },
+  {
+    "text": "and for this we'll use a payo mqtt",
+    "duration": 7919,
+    "offset": 458400,
+    "lang": "en"
+  },
+  {
+    "text": "library so just type in payo mqtt",
+    "duration": 4639,
+    "offset": 461680,
+    "lang": "en"
+  },
+  {
+    "text": "and you'll find a good documentation on",
+    "duration": 3120,
+    "offset": 466479,
+    "lang": "en"
+  },
+  {
+    "text": "what you need",
+    "duration": 2961,
+    "offset": 468479,
+    "lang": "en"
+  },
+  {
+    "text": "basically you can install it quickly",
+    "duration": 4081,
+    "offset": 469599,
+    "lang": "en"
+  },
+  {
+    "text": "with pip",
+    "duration": 8080,
+    "offset": 471440,
+    "lang": "en"
+  },
+  {
+    "text": "let's do it pip install payo mqtt",
+    "duration": 9519,
+    "offset": 473680,
+    "lang": "en"
+  },
+  {
+    "text": "hit enter and i already installed it",
+    "duration": 5119,
+    "offset": 479520,
+    "lang": "en"
+  },
+  {
+    "text": "before",
+    "duration": 4720,
+    "offset": 483199,
+    "lang": "en"
+  },
+  {
+    "text": "so what we are gonna do today is we",
+    "duration": 7280,
+    "offset": 484639,
+    "lang": "en"
+  },
+  {
+    "text": "create two publishers two mqtt",
+    "duration": 5521,
+    "offset": 487919,
+    "lang": "en"
+  },
+  {
+    "text": "publishers",
+    "duration": 5680,
+    "offset": 491919,
+    "lang": "en"
+  },
+  {
+    "text": "um faking the inside temperature from uh",
+    "duration": 6319,
+    "offset": 493440,
+    "lang": "en"
+  },
+  {
+    "text": "from a heating device",
+    "duration": 5361,
+    "offset": 497599,
+    "lang": "en"
+  },
+  {
+    "text": "and one faking the outside temperature",
+    "duration": 5521,
+    "offset": 499759,
+    "lang": "en"
+  },
+  {
+    "text": "from an outside temperature sensor",
+    "duration": 5840,
+    "offset": 502960,
+    "lang": "en"
+  },
+  {
+    "text": "and then we are writing a receiver or",
+    "duration": 6080,
+    "offset": 505280,
+    "lang": "en"
+  },
+  {
+    "text": "a subscriber to subscribe so smash",
+    "duration": 4880,
+    "offset": 508800,
+    "lang": "en"
+  },
+  {
+    "text": "messages from the mqtt broker",
+    "duration": 6080,
+    "offset": 511360,
+    "lang": "en"
+  },
+  {
+    "text": "let's first start with the publisher",
+    "duration": 3760,
+    "offset": 513680,
+    "lang": "en"
+  },
+  {
+    "text": "let's create a new file here",
+    "duration": 4921,
+    "offset": 518839,
+    "lang": "en"
+  },
+  {
+    "text": "somehow wait a second new file like this",
+    "duration": 6319,
+    "offset": 525200,
+    "lang": "en"
+  },
+  {
+    "text": "mqtt publish one",
+    "duration": 6241,
+    "offset": 528399,
+    "lang": "en"
+  },
+  {
+    "text": "py and first do the imports",
+    "duration": 6081,
+    "offset": 531519,
+    "lang": "en"
+  },
+  {
+    "text": "let's delete this",
+    "duration": 2960,
+    "offset": 534640,
+    "lang": "en"
+  },
+  {
+    "text": "so from pay ho mqtt we",
+    "duration": 7199,
+    "offset": 544320,
+    "lang": "en"
+  },
+  {
+    "text": "import the client as mqtt",
+    "duration": 7680,
+    "offset": 547760,
+    "lang": "en"
+  },
+  {
+    "text": "we do some imports from random to later",
+    "duration": 6721,
+    "offset": 551519,
+    "lang": "en"
+  },
+  {
+    "text": "publish randomized numbers and we import",
+    "duration": 7040,
+    "offset": 555440,
+    "lang": "en"
+  },
+  {
+    "text": "time to do this on a regular basis",
+    "duration": 7120,
+    "offset": 558240,
+    "lang": "en"
+  },
+  {
+    "text": "next thing is basically to connect to",
+    "duration": 3680,
+    "offset": 562480,
+    "lang": "en"
+  },
+  {
+    "text": "the broker",
+    "duration": 12479,
+    "offset": 565360,
+    "lang": "en"
+  },
+  {
+    "text": "and create the client",
+    "duration": 11679,
+    "offset": 566160,
+    "lang": "en"
+  },
+  {
+    "text": "so with only three lines of code we",
+    "duration": 5599,
+    "offset": 578800,
+    "lang": "en"
+  },
+  {
+    "text": "connected to our mqtt broker",
+    "duration": 5440,
+    "offset": 581680,
+    "lang": "en"
+  },
+  {
+    "text": "this one and we just pasted it over this",
+    "duration": 3361,
+    "offset": 584399,
+    "lang": "en"
+  },
+  {
+    "text": "ul",
+    "duration": 3200,
+    "offset": 587120,
+    "lang": "en"
+  },
+  {
+    "text": "i i'll also put it into the description",
+    "duration": 4079,
+    "offset": 587760,
+    "lang": "en"
+  },
+  {
+    "text": "of the video",
+    "duration": 4079,
+    "offset": 590320,
+    "lang": "en"
+  },
+  {
+    "text": "next the thing is we create a client",
+    "duration": 5601,
+    "offset": 591839,
+    "lang": "en"
+  },
+  {
+    "text": "with the payo mqtt client library here",
+    "duration": 6081,
+    "offset": 594399,
+    "lang": "en"
+  },
+  {
+    "text": "and give the client a name in this this",
+    "duration": 4160,
+    "offset": 597440,
+    "lang": "en"
+  },
+  {
+    "text": "time i just named it",
+    "duration": 4400,
+    "offset": 600480,
+    "lang": "en"
+  },
+  {
+    "text": "temperature inside and then from the",
+    "duration": 4160,
+    "offset": 601600,
+    "lang": "en"
+  },
+  {
+    "text": "client",
+    "duration": 3360,
+    "offset": 604880,
+    "lang": "en"
+  },
+  {
+    "text": "which we named temperature inside we can",
+    "duration": 3280,
+    "offset": 605760,
+    "lang": "en"
+  },
+  {
+    "text": "connect",
+    "duration": 5279,
+    "offset": 608240,
+    "lang": "en"
+  },
+  {
+    "text": "to our broker which we specified before",
+    "duration": 4479,
+    "offset": 609040,
+    "lang": "en"
+  },
+  {
+    "text": "to finish our first mqtt publisher all",
+    "duration": 3760,
+    "offset": 613680,
+    "lang": "en"
+  },
+  {
+    "text": "we need now",
+    "duration": 4160,
+    "offset": 616320,
+    "lang": "en"
+  },
+  {
+    "text": "is from this client publish",
+    "duration": 16399,
+    "offset": 617440,
+    "lang": "en"
+  },
+  {
+    "text": "messages to this broker so let's do this",
+    "duration": 13359,
+    "offset": 620480,
+    "lang": "en"
+  },
+  {
+    "text": "so all we do here with these four lines",
+    "duration": 3519,
+    "offset": 638320,
+    "lang": "en"
+  },
+  {
+    "text": "of code is",
+    "duration": 4720,
+    "offset": 640320,
+    "lang": "en"
+  },
+  {
+    "text": "we'll generate a random number between",
+    "duration": 5120,
+    "offset": 641839,
+    "lang": "en"
+  },
+  {
+    "text": "20 and 21 which will",
+    "duration": 6320,
+    "offset": 645040,
+    "lang": "en"
+  },
+  {
+    "text": "basically fake the inside temperature",
+    "duration": 7841,
+    "offset": 646959,
+    "lang": "en"
+  },
+  {
+    "text": "we'll publish this random number",
+    "duration": 6560,
+    "offset": 651360,
+    "lang": "en"
+  },
+  {
+    "text": "two and this is important the topic",
+    "duration": 5920,
+    "offset": 654800,
+    "lang": "en"
+  },
+  {
+    "text": "called temperature which we specify here",
+    "duration": 3200,
+    "offset": 657920,
+    "lang": "en"
+  },
+  {
+    "text": "from",
+    "duration": 2160,
+    "offset": 660720,
+    "lang": "en"
+  },
+  {
+    "text": "our client which we call temperature",
+    "duration": 4240,
+    "offset": 661120,
+    "lang": "en"
+  },
+  {
+    "text": "inside and then we just print it out to",
+    "duration": 3840,
+    "offset": 662880,
+    "lang": "en"
+  },
+  {
+    "text": "the console so just",
+    "duration": 4719,
+    "offset": 665360,
+    "lang": "en"
+  },
+  {
+    "text": "published the random number to topic",
+    "duration": 4559,
+    "offset": 666720,
+    "lang": "en"
+  },
+  {
+    "text": "temperature",
+    "duration": 3281,
+    "offset": 670079,
+    "lang": "en"
+  },
+  {
+    "text": "we sleep one second and then do the same",
+    "duration": 3921,
+    "offset": 671279,
+    "lang": "en"
+  },
+  {
+    "text": "again until forever",
+    "duration": 4880,
+    "offset": 673360,
+    "lang": "en"
+  },
+  {
+    "text": "let's try to run it",
+    "duration": 5920,
+    "offset": 675200,
+    "lang": "en"
+  },
+  {
+    "text": "mqtt",
+    "duration": 2880,
+    "offset": 678240,
+    "lang": "en"
+  },
+  {
+    "text": "publish one dot py",
+    "duration": 6960,
+    "offset": 681360,
+    "lang": "en"
+  },
+  {
+    "text": "and i made an error somewhere yes here",
+    "duration": 6240,
+    "offset": 684560,
+    "lang": "en"
+  },
+  {
+    "text": "so you don't need to specify the http",
+    "duration": 6160,
+    "offset": 688320,
+    "lang": "en"
+  },
+  {
+    "text": "it's fine if you just do it like this",
+    "duration": 7200,
+    "offset": 690800,
+    "lang": "en"
+  },
+  {
+    "text": "and let's rerun it and",
+    "duration": 5680,
+    "offset": 694480,
+    "lang": "en"
+  },
+  {
+    "text": "it seems to work so it's telling me just",
+    "duration": 4000,
+    "offset": 698000,
+    "lang": "en"
+  },
+  {
+    "text": "published then the random number",
+    "duration": 5280,
+    "offset": 700160,
+    "lang": "en"
+  },
+  {
+    "text": "to topic temperature all the time",
+    "duration": 6959,
+    "offset": 702000,
+    "lang": "en"
+  },
+  {
+    "text": "each second yeah basically it seems as",
+    "duration": 5360,
+    "offset": 705440,
+    "lang": "en"
+  },
+  {
+    "text": "if it's working we can't verify",
+    "duration": 5880,
+    "offset": 708959,
+    "lang": "en"
+  },
+  {
+    "text": "because we don't we can't see inside the",
+    "duration": 5599,
+    "offset": 710800,
+    "lang": "en"
+  },
+  {
+    "text": "broker",
+    "duration": 3560,
+    "offset": 714839,
+    "lang": "en"
+  },
+  {
+    "text": "we need to look on the other side on the",
+    "duration": 3521,
+    "offset": 716399,
+    "lang": "en"
+  },
+  {
+    "text": "subscriber to actually",
+    "duration": 3841,
+    "offset": 718399,
+    "lang": "en"
+  },
+  {
+    "text": "see if we can subscribe these messages",
+    "duration": 5520,
+    "offset": 719920,
+    "lang": "en"
+  },
+  {
+    "text": "from the broker topic temperature",
+    "duration": 5760,
+    "offset": 722240,
+    "lang": "en"
+  },
+  {
+    "text": "but before we do so first let's finish",
+    "duration": 4639,
+    "offset": 725440,
+    "lang": "en"
+  },
+  {
+    "text": "off also our second publisher",
+    "duration": 5680,
+    "offset": 728000,
+    "lang": "en"
+  },
+  {
+    "text": "the outside temperature so",
+    "duration": 6241,
+    "offset": 730079,
+    "lang": "en"
+  },
+  {
+    "text": "for our second publisher the outside",
+    "duration": 4399,
+    "offset": 733680,
+    "lang": "en"
+  },
+  {
+    "text": "temperature we can copy over the",
+    "duration": 2800,
+    "offset": 736320,
+    "lang": "en"
+  },
+  {
+    "text": "complete code",
+    "duration": 5481,
+    "offset": 738079,
+    "lang": "en"
+  },
+  {
+    "text": "just create a new file here mqtt",
+    "duration": 7519,
+    "offset": 739120,
+    "lang": "en"
+  },
+  {
+    "text": "publish2.py paste it over",
+    "duration": 5640,
+    "offset": 743560,
+    "lang": "en"
+  },
+  {
+    "text": "and we keep everything exactly the same",
+    "duration": 3760,
+    "offset": 746639,
+    "lang": "en"
+  },
+  {
+    "text": "just we",
+    "duration": 4079,
+    "offset": 749200,
+    "lang": "en"
+  },
+  {
+    "text": "renamed the client here to temperature",
+    "duration": 4321,
+    "offset": 750399,
+    "lang": "en"
+  },
+  {
+    "text": "outside",
+    "duration": 3841,
+    "offset": 753279,
+    "lang": "en"
+  },
+  {
+    "text": "and we'll use another temperature",
+    "duration": 4960,
+    "offset": 754720,
+    "lang": "en"
+  },
+  {
+    "text": "between 20 and 21 degrees",
+    "duration": 5600,
+    "offset": 757120,
+    "lang": "en"
+  },
+  {
+    "text": "we'll use rand range to create a",
+    "duration": 5920,
+    "offset": 759680,
+    "lang": "en"
+  },
+  {
+    "text": "temperature between 0 and 10 degrees",
+    "duration": 5119,
+    "offset": 762720,
+    "lang": "en"
+  },
+  {
+    "text": "which is quite of common in the winter",
+    "duration": 4000,
+    "offset": 765600,
+    "lang": "en"
+  },
+  {
+    "text": "in germany",
+    "duration": 4081,
+    "offset": 767839,
+    "lang": "en"
+  },
+  {
+    "text": "all right rest stays the same we connect",
+    "duration": 3840,
+    "offset": 769600,
+    "lang": "en"
+  },
+  {
+    "text": "to our broker",
+    "duration": 3680,
+    "offset": 771920,
+    "lang": "en"
+  },
+  {
+    "text": "we spin up a client with the name",
+    "duration": 4160,
+    "offset": 773440,
+    "lang": "en"
+  },
+  {
+    "text": "temperature outside and we connect from",
+    "duration": 3840,
+    "offset": 775600,
+    "lang": "en"
+  },
+  {
+    "text": "the client to the broker",
+    "duration": 4479,
+    "offset": 777600,
+    "lang": "en"
+  },
+  {
+    "text": "we generate a random number between 0",
+    "duration": 3920,
+    "offset": 779440,
+    "lang": "en"
+  },
+  {
+    "text": "and 10",
+    "duration": 4641,
+    "offset": 782079,
+    "lang": "en"
+  },
+  {
+    "text": "and publish this to the temperature",
+    "duration": 8719,
+    "offset": 783360,
+    "lang": "en"
+  },
+  {
+    "text": "topic let's try to run it",
+    "duration": 5359,
+    "offset": 786720,
+    "lang": "en"
+  },
+  {
+    "text": "and you see it generates a random number",
+    "duration": 4239,
+    "offset": 799600,
+    "lang": "en"
+  },
+  {
+    "text": "between 0 and 10",
+    "duration": 4320,
+    "offset": 801680,
+    "lang": "en"
+  },
+  {
+    "text": "and just prints out to the console that",
+    "duration": 4081,
+    "offset": 803839,
+    "lang": "en"
+  },
+  {
+    "text": "it published it successfully to",
+    "duration": 5120,
+    "offset": 806000,
+    "lang": "en"
+  },
+  {
+    "text": "the topic on the broker but as mentioned",
+    "duration": 5840,
+    "offset": 807920,
+    "lang": "en"
+  },
+  {
+    "text": "to be able to really see that we can",
+    "duration": 4640,
+    "offset": 811120,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe and read it out of the topic",
+    "duration": 3199,
+    "offset": 813760,
+    "lang": "en"
+  },
+  {
+    "text": "from the other side",
+    "duration": 3840,
+    "offset": 815760,
+    "lang": "en"
+  },
+  {
+    "text": "we need to create a subscriber so let's",
+    "duration": 3201,
+    "offset": 816959,
+    "lang": "en"
+  },
+  {
+    "text": "do",
+    "duration": 3840,
+    "offset": 819600,
+    "lang": "en"
+  },
+  {
+    "text": "this all right",
+    "duration": 6320,
+    "offset": 820160,
+    "lang": "en"
+  },
+  {
+    "text": "time for our subscriber so let's create",
+    "duration": 6839,
+    "offset": 823440,
+    "lang": "en"
+  },
+  {
+    "text": "a new file mqtt",
+    "duration": 7680,
+    "offset": 826480,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe dot py and again we can copy",
+    "duration": 5881,
+    "offset": 830279,
+    "lang": "en"
+  },
+  {
+    "text": "over a lot of things here",
+    "duration": 4880,
+    "offset": 834160,
+    "lang": "en"
+  },
+  {
+    "text": "basically the first six lines ah we",
+    "duration": 6479,
+    "offset": 836160,
+    "lang": "en"
+  },
+  {
+    "text": "don't need this random stuff anymore",
+    "duration": 7599,
+    "offset": 839040,
+    "lang": "en"
+  },
+  {
+    "text": "like this so we import the",
+    "duration": 7041,
+    "offset": 842639,
+    "lang": "en"
+  },
+  {
+    "text": "payo mqtt client we again",
+    "duration": 6320,
+    "offset": 846639,
+    "lang": "en"
+  },
+  {
+    "text": "connect to the broker and then this time",
+    "duration": 7040,
+    "offset": 849680,
+    "lang": "en"
+  },
+  {
+    "text": "our client should fake our smartphone",
+    "duration": 6000,
+    "offset": 852959,
+    "lang": "en"
+  },
+  {
+    "text": "from which we subscribe to the",
+    "duration": 4239,
+    "offset": 856720,
+    "lang": "en"
+  },
+  {
+    "text": "temperature from outside and inside to",
+    "duration": 3921,
+    "offset": 858959,
+    "lang": "en"
+  },
+  {
+    "text": "have all the",
+    "duration": 3761,
+    "offset": 860959,
+    "lang": "en"
+  },
+  {
+    "text": "relevant information available on our",
+    "duration": 3519,
+    "offset": 862880,
+    "lang": "en"
+  },
+  {
+    "text": "phone and we again",
+    "duration": 5280,
+    "offset": 864720,
+    "lang": "en"
+  },
+  {
+    "text": "connect to the mqtt broker so",
+    "duration": 6240,
+    "offset": 866399,
+    "lang": "en"
+  },
+  {
+    "text": "until here no change but now it's",
+    "duration": 4480,
+    "offset": 870000,
+    "lang": "en"
+  },
+  {
+    "text": "getting interested",
+    "duration": 5681,
+    "offset": 872639,
+    "lang": "en"
+  },
+  {
+    "text": "so we need to subscribe to a topic",
+    "duration": 5120,
+    "offset": 874480,
+    "lang": "en"
+  },
+  {
+    "text": "within a loop",
+    "duration": 7519,
+    "offset": 878320,
+    "lang": "en"
+  },
+  {
+    "text": "so let's first of all create this loop",
+    "duration": 6239,
+    "offset": 879600,
+    "lang": "en"
+  },
+  {
+    "text": "so we start the loop here",
+    "duration": 7359,
+    "offset": 888160,
+    "lang": "en"
+  },
+  {
+    "text": "and end it here and wait 30 30 seconds",
+    "duration": 5041,
+    "offset": 891839,
+    "lang": "en"
+  },
+  {
+    "text": "before we end the loop",
+    "duration": 4241,
+    "offset": 895519,
+    "lang": "en"
+  },
+  {
+    "text": "from the client here and from within the",
+    "duration": 4800,
+    "offset": 896880,
+    "lang": "en"
+  },
+  {
+    "text": "loop now we can subscribe",
+    "duration": 5280,
+    "offset": 899760,
+    "lang": "en"
+  },
+  {
+    "text": "to messages of a certain topic",
+    "duration": 6320,
+    "offset": 901680,
+    "lang": "en"
+  },
+  {
+    "text": "let's do this",
+    "duration": 2960,
+    "offset": 905040,
+    "lang": "en"
+  },
+  {
+    "text": "so basically with only one line of code",
+    "duration": 5281,
+    "offset": 911519,
+    "lang": "en"
+  },
+  {
+    "text": "we can subscribe already to the topic",
+    "duration": 6081,
+    "offset": 914079,
+    "lang": "en"
+  },
+  {
+    "text": "temperature but and this means we",
+    "duration": 4399,
+    "offset": 916800,
+    "lang": "en"
+  },
+  {
+    "text": "already",
+    "duration": 4000,
+    "offset": 920160,
+    "lang": "en"
+  },
+  {
+    "text": "receive messages but we will not see",
+    "duration": 3361,
+    "offset": 921199,
+    "lang": "en"
+  },
+  {
+    "text": "them",
+    "duration": 2960,
+    "offset": 924160,
+    "lang": "en"
+  },
+  {
+    "text": "because to be able to see them to do",
+    "duration": 4320,
+    "offset": 924560,
+    "lang": "en"
+  },
+  {
+    "text": "something with a message",
+    "duration": 4800,
+    "offset": 927120,
+    "lang": "en"
+  },
+  {
+    "text": "we need a on message callback function",
+    "duration": 4079,
+    "offset": 928880,
+    "lang": "en"
+  },
+  {
+    "text": "to define",
+    "duration": 9919,
+    "offset": 931920,
+    "lang": "en"
+  },
+  {
+    "text": "so let's do it",
+    "duration": 8880,
+    "offset": 932959,
+    "lang": "en"
+  },
+  {
+    "text": "so what we do here so here we have our",
+    "duration": 4240,
+    "offset": 948560,
+    "lang": "en"
+  },
+  {
+    "text": "loop",
+    "duration": 3839,
+    "offset": 951680,
+    "lang": "en"
+  },
+  {
+    "text": "with in the loop which which runs for 30",
+    "duration": 3520,
+    "offset": 952800,
+    "lang": "en"
+  },
+  {
+    "text": "seconds",
+    "duration": 3521,
+    "offset": 955519,
+    "lang": "en"
+  },
+  {
+    "text": "within the loop we subscribe to our",
+    "duration": 4720,
+    "offset": 956320,
+    "lang": "en"
+  },
+  {
+    "text": "temperature topic",
+    "duration": 5520,
+    "offset": 959040,
+    "lang": "en"
+  },
+  {
+    "text": "and whenever we receive a message",
+    "duration": 6080,
+    "offset": 961040,
+    "lang": "en"
+  },
+  {
+    "text": "while subscribing we execute this",
+    "duration": 3199,
+    "offset": 964560,
+    "lang": "en"
+  },
+  {
+    "text": "function",
+    "duration": 4079,
+    "offset": 967120,
+    "lang": "en"
+  },
+  {
+    "text": "on message and onmessage is defined as",
+    "duration": 4241,
+    "offset": 967759,
+    "lang": "en"
+  },
+  {
+    "text": "following",
+    "duration": 3841,
+    "offset": 971199,
+    "lang": "en"
+  },
+  {
+    "text": "so whenever a message comes in",
+    "duration": 6880,
+    "offset": 972000,
+    "lang": "en"
+  },
+  {
+    "text": "we just print out receive message",
+    "duration": 6479,
+    "offset": 975040,
+    "lang": "en"
+  },
+  {
+    "text": "and then we print out the payload of the",
+    "duration": 3600,
+    "offset": 978880,
+    "lang": "en"
+  },
+  {
+    "text": "message",
+    "duration": 4560,
+    "offset": 981519,
+    "lang": "en"
+  },
+  {
+    "text": "and decode it that's it let's see if it",
+    "duration": 6000,
+    "offset": 982480,
+    "lang": "en"
+  },
+  {
+    "text": "works",
+    "duration": 2401,
+    "offset": 986079,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe dot py",
+    "duration": 6440,
+    "offset": 992040,
+    "lang": "en"
+  },
+  {
+    "text": "and we see we'll get certain messages",
+    "duration": 5681,
+    "offset": 995199,
+    "lang": "en"
+  },
+  {
+    "text": "which were published before",
+    "duration": 6560,
+    "offset": 998480,
+    "lang": "en"
+  },
+  {
+    "text": "perhaps let's turn it around let's",
+    "duration": 4160,
+    "offset": 1000880,
+    "lang": "en"
+  },
+  {
+    "text": "run our subscriber here and then run the",
+    "duration": 6640,
+    "offset": 1005360,
+    "lang": "en"
+  },
+  {
+    "text": "publishers in a separate comment line",
+    "duration": 6720,
+    "offset": 1008880,
+    "lang": "en"
+  },
+  {
+    "text": "so let me prepare it quickly",
+    "duration": 3600,
+    "offset": 1012000,
+    "lang": "en"
+  },
+  {
+    "text": "so let's first run our sub subscriber",
+    "duration": 3920,
+    "offset": 1022800,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 5120,
+    "offset": 1026240,
+    "lang": "en"
+  },
+  {
+    "text": "and then quickly run our producers",
+    "duration": 4640,
+    "offset": 1026720,
+    "lang": "en"
+  },
+  {
+    "text": "[Music]",
+    "duration": 3279,
+    "offset": 1031530,
+    "lang": "en"
+  },
+  {
+    "text": "publish two dot py",
+    "duration": 6480,
+    "offset": 1035439,
+    "lang": "en"
+  },
+  {
+    "text": "and one dot py and go back to our",
+    "duration": 3441,
+    "offset": 1039839,
+    "lang": "en"
+  },
+  {
+    "text": "subscriber and we see",
+    "duration": 3520,
+    "offset": 1041919,
+    "lang": "en"
+  },
+  {
+    "text": "our two publishers are running with",
+    "duration": 4159,
+    "offset": 1043280,
+    "lang": "en"
+  },
+  {
+    "text": "outside and inside temperature",
+    "duration": 4561,
+    "offset": 1045439,
+    "lang": "en"
+  },
+  {
+    "text": "and in our subscriber we are directly",
+    "duration": 4561,
+    "offset": 1047439,
+    "lang": "en"
+  },
+  {
+    "text": "getting it out of the temperature topic",
+    "duration": 4320,
+    "offset": 1050000,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 2320,
+    "offset": 1052000,
+    "lang": "en"
+  },
+  {
+    "text": "basically that's it already with my",
+    "duration": 3919,
+    "offset": 1055120,
+    "lang": "en"
+  },
+  {
+    "text": "quick demo so this runs",
+    "duration": 4880,
+    "offset": 1057120,
+    "lang": "en"
+  },
+  {
+    "text": "now for 30 second and then it reaches",
+    "duration": 3281,
+    "offset": 1059039,
+    "lang": "en"
+  },
+  {
+    "text": "loop",
+    "duration": 2960,
+    "offset": 1062000,
+    "lang": "en"
+  },
+  {
+    "text": "blue band and that's it that's the",
+    "duration": 4880,
+    "offset": 1062320,
+    "lang": "en"
+  },
+  {
+    "text": "purpose we got our hands dirty",
+    "duration": 4880,
+    "offset": 1064960,
+    "lang": "en"
+  },
+  {
+    "text": "got some experience with some basic mqtt",
+    "duration": 3680,
+    "offset": 1067200,
+    "lang": "en"
+  },
+  {
+    "text": "functions",
+    "duration": 3600,
+    "offset": 1069840,
+    "lang": "en"
+  },
+  {
+    "text": "publishing and subscribing hope you",
+    "duration": 4480,
+    "offset": 1070880,
+    "lang": "en"
+  },
+  {
+    "text": "liked it",
+    "duration": 7359,
+    "offset": 1073440,
+    "lang": "en"
+  },
+  {
+    "text": "thank you for watching see you soon",
+    "duration": 5439,
+    "offset": 1075360,
+    "lang": "en"
+  }
+]

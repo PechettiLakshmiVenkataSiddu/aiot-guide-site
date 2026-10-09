@@ -1,0 +1,212 @@
+{
+  "successful": [
+    {
+      "url": "https://www.youtube.com/watch?v=8AWEPx5cHWQ",
+      "videoId": "8AWEPx5cHWQ",
+      "segmentCount": 1937
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IMseojNtxkk",
+      "videoId": "IMseojNtxkk",
+      "segmentCount": 852
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_v_fgW2SkkQ",
+      "videoId": "_v_fgW2SkkQ",
+      "segmentCount": 177
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sal78ACtGTc",
+      "videoId": "sal78ACtGTc",
+      "segmentCount": 351
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=lG7Uxts9SXs",
+      "videoId": "lG7Uxts9SXs",
+      "segmentCount": 1390
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BpJCAafw2qE",
+      "videoId": "BpJCAafw2qE",
+      "segmentCount": 628
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aimSGOAUI8Y",
+      "videoId": "aimSGOAUI8Y",
+      "segmentCount": 395
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EIxdz-2rhLs",
+      "videoId": "EIxdz-2rhLs",
+      "segmentCount": 76
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3AR432bguOY",
+      "videoId": "3AR432bguOY",
+      "segmentCount": 113
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oXlwWbU8l2o",
+      "videoId": "oXlwWbU8l2o",
+      "segmentCount": 1868
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4",
+      "videoId": "tK9Oc6AEnR4",
+      "segmentCount": 742
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5OdVJbNCSso",
+      "videoId": "5OdVJbNCSso",
+      "segmentCount": 4143
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ktjafK4SgWM",
+      "videoId": "ktjafK4SgWM",
+      "segmentCount": 17269
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z_ikDlimN6A",
+      "videoId": "Z_ikDlimN6A",
+      "segmentCount": 36080
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "videoId": "3c-iBn73dDE",
+      "segmentCount": 3533
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DM65_JyGxCo",
+      "videoId": "DM65_JyGxCo",
+      "segmentCount": 334
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=idQb2pB-h2Q",
+      "videoId": "idQb2pB-h2Q",
+      "segmentCount": 1354
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JRCJ6RtE3xU",
+      "videoId": "JRCJ6RtE3xU",
+      "segmentCount": 752
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kuyCd53AOtg",
+      "videoId": "kuyCd53AOtg",
+      "segmentCount": 414
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zQDzNNt6xd4",
+      "videoId": "zQDzNNt6xd4",
+      "segmentCount": 1441
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HD9FnjVwU8g",
+      "videoId": "HD9FnjVwU8g",
+      "segmentCount": 403
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=spUNpyF58BY",
+      "videoId": "spUNpyF58BY",
+      "segmentCount": 327
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PWG7NlUDVaA",
+      "videoId": "PWG7NlUDVaA",
+      "segmentCount": 4073
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ByGJQzlzxQg",
+      "videoId": "ByGJQzlzxQg",
+      "segmentCount": 90
+    }
+  ],
+  "fallbackUsed": [],
+  "failed": [
+    {
+      "url": "https://www.youtube.com/watch?v=DwATCOaB8XM",
+      "videoId": "DwATCOaB8XM",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (DwATCOaB8XM)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BO7DVnN9ctk",
+      "videoId": "BO7DVnN9ctk",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (BO7DVnN9ctk)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qqqAePVAOKo",
+      "videoId": "qqqAePVAOKo",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (qqqAePVAOKo)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GqFAlmDt62Y",
+      "videoId": "GqFAlmDt62Y",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (GqFAlmDt62Y)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FHDxaFI_3_k",
+      "videoId": "FHDxaFI_3_k",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (FHDxaFI_3_k)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_k4EBkFq8LA",
+      "videoId": "_k4EBkFq8LA",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (_k4EBkFq8LA)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rExc-V_qHzI",
+      "videoId": "rExc-V_qHzI",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (rExc-V_qHzI)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oLNBBGlKYkE",
+      "videoId": "oLNBBGlKYkE",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (oLNBBGlKYkE)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BjEgkfose7s",
+      "videoId": "BjEgkfose7s",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (BjEgkfose7s)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iKlVpfFBBNQ",
+      "videoId": "iKlVpfFBBNQ",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (iKlVpfFBBNQ)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zYmjJEqkCBQ",
+      "videoId": "zYmjJEqkCBQ",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (zYmjJEqkCBQ)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0RS9W8MtZe4",
+      "videoId": "0RS9W8MtZe4",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (0RS9W8MtZe4)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rnkXxJQbORY",
+      "videoId": "rnkXxJQbORY",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (rnkXxJQbORY)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IXpyNkF3Xh8",
+      "videoId": "IXpyNkF3Xh8",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (IXpyNkF3Xh8)"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jlpt_n4_listening_practice",
+      "videoId": "jlpt_n4_lis",
+      "reason": "[YoutubeTranscript] 🚨 Transcript is disabled on this video (jlpt_n4_lis)"
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLd5-Wp_4tLqYZxS5j3g6kbeOfVXlTkr3N",
+      "videoId": null,
+      "reason": "Channel or playlist URL, not a single video ID"
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
+      "videoId": null,
+      "reason": "Channel or playlist URL, not a single video ID"
+    }
+  ]
+}

@@ -1,0 +1,2372 @@
+[
+  {
+    "text": "مرحباً بالجميع. هذا",
+    "duration": 2510,
+    "offset": 17379,
+    "lang": "ar"
+  },
+  {
+    "text": "دليل خطوة بخطوة يوضح",
+    "duration": 2431,
+    "offset": 18927,
+    "lang": "ar"
+  },
+  {
+    "text": "كيفية إعداد \"TensorFlow Lite\"",
+    "duration": 2508,
+    "offset": 20397,
+    "lang": "ar"
+  },
+  {
+    "text": "لاكتشاف الأشياء على",
+    "duration": 2393,
+    "offset": 21944,
+    "lang": "ar"
+  },
+  {
+    "text": "جهاز \"Raspberry Pi\". في",
+    "duration": 2148,
+    "offset": 23375,
+    "lang": "ar"
+  },
+  {
+    "text": "نهاية هذا الدليل،",
+    "duration": 1960,
+    "offset": 24553,
+    "lang": "ar"
+  },
+  {
+    "text": "ستكون قادراً على",
+    "duration": 1899,
+    "offset": 25543,
+    "lang": "ar"
+  },
+  {
+    "text": "تشغيل نماذج اكتشاف",
+    "duration": 2019,
+    "offset": 26472,
+    "lang": "ar"
+  },
+  {
+    "text": "الأشياء لتحديد",
+    "duration": 1810,
+    "offset": 27521,
+    "lang": "ar"
+  },
+  {
+    "text": "وتعيين الكائنات في",
+    "duration": 2019,
+    "offset": 28361,
+    "lang": "ar"
+  },
+  {
+    "text": "الصور أو الفيديوهات",
+    "duration": 2079,
+    "offset": 29410,
+    "lang": "ar"
+  },
+  {
+    "text": "أو البث المباشر",
+    "duration": 1839,
+    "offset": 30519,
+    "lang": "ar"
+  },
+  {
+    "text": "للكاميرا على جهازك. \"",
+    "duration": 2188,
+    "offset": 31388,
+    "lang": "ar"
+  },
+  {
+    "text": "TensorFlow Lite\" هو جزء من \"",
+    "duration": 2355,
+    "offset": 32576,
+    "lang": "ar"
+  },
+  {
+    "text": "TensorFlow\" العادي، تم",
+    "duration": 2201,
+    "offset": 33931,
+    "lang": "ar"
+  },
+  {
+    "text": "تحسينه لتشغيل نماذج",
+    "duration": 2394,
+    "offset": 35170,
+    "lang": "ar"
+  },
+  {
+    "text": "تعلم آلي خفيفة الوزن",
+    "duration": 2432,
+    "offset": 36603,
+    "lang": "ar"
+  },
+  {
+    "text": "على الأجهزة ذات",
+    "duration": 2084,
+    "offset": 38074,
+    "lang": "ar"
+  },
+  {
+    "text": "الموارد المحدودة مثل",
+    "duration": 2471,
+    "offset": 39197,
+    "lang": "ar"
+  },
+  {
+    "text": "\"Pi\". تتمتع نماذج \"TensorFlow",
+    "duration": 2549,
+    "offset": 40707,
+    "lang": "ar"
+  },
+  {
+    "text": "Lite\" بوقت استنتاج أسرع",
+    "duration": 2445,
+    "offset": 42294,
+    "lang": "ar"
+  },
+  {
+    "text": "وتتطلب طاقة معالجة",
+    "duration": 2294,
+    "offset": 43777,
+    "lang": "ar"
+  },
+  {
+    "text": "أقل، لذا فهي تعمل",
+    "duration": 2179,
+    "offset": 45109,
+    "lang": "ar"
+  },
+  {
+    "text": "بسرعات أعلى من",
+    "duration": 1989,
+    "offset": 46326,
+    "lang": "ar"
+  },
+  {
+    "text": "النماذج العادية. يتبع",
+    "duration": 2539,
+    "offset": 47353,
+    "lang": "ar"
+  },
+  {
+    "text": "هذا الفيديو دليلي",
+    "duration": 2189,
+    "offset": 48929,
+    "lang": "ar"
+  },
+  {
+    "text": "المكتوب على \"GitHub\"",
+    "duration": 2115,
+    "offset": 50155,
+    "lang": "ar"
+  },
+  {
+    "text": "لإعداد \"TensorFlow Lite\"،",
+    "duration": 2189,
+    "offset": 51308,
+    "lang": "ar"
+  },
+  {
+    "text": "والرابط موجود في وصف",
+    "duration": 2375,
+    "offset": 52534,
+    "lang": "ar"
+  },
+  {
+    "text": "الفيديو أدناه. ستعمل",
+    "duration": 2638,
+    "offset": 53946,
+    "lang": "ar"
+  },
+  {
+    "text": "عملية الإعداد لكل من \"",
+    "duration": 3229,
+    "offset": 55641,
+    "lang": "ar"
+  },
+  {
+    "text": "Raspberry Pi 3\" و \"Raspberry Pi 4\"",
+    "duration": 3000,
+    "offset": 57870,
+    "lang": "ar"
+  },
+  {
+    "text": "بنظام \"Raspbian Stretch\" أو \"",
+    "duration": 3057,
+    "offset": 59927,
+    "lang": "ar"
+  },
+  {
+    "text": "Raspbian Buster\". إذا واجهت",
+    "duration": 2645,
+    "offset": 61984,
+    "lang": "ar"
+  },
+  {
+    "text": "أي أخطاء أثناء متابعة",
+    "duration": 2315,
+    "offset": 63662,
+    "lang": "ar"
+  },
+  {
+    "text": "هذا الفيديو، تحقق من",
+    "duration": 2247,
+    "offset": 65011,
+    "lang": "ar"
+  },
+  {
+    "text": "الملحق في دليل \"GitHub\"",
+    "duration": 2179,
+    "offset": 66292,
+    "lang": "ar"
+  },
+  {
+    "text": "الخاص بي، حيث سأدرج",
+    "duration": 2180,
+    "offset": 67505,
+    "lang": "ar"
+  },
+  {
+    "text": "الأخطاء الشائعة",
+    "duration": 1977,
+    "offset": 68719,
+    "lang": "ar"
+  },
+  {
+    "text": "وحلولها. يمكنك أيضاً",
+    "duration": 2290,
+    "offset": 69730,
+    "lang": "ar"
+  },
+  {
+    "text": "محاولة البحث عن الخطأ",
+    "duration": 2271,
+    "offset": 71052,
+    "lang": "ar"
+  },
+  {
+    "text": "في \"Google\"، أو طرحه في",
+    "duration": 2108,
+    "offset": 72355,
+    "lang": "ar"
+  },
+  {
+    "text": "قسم التعليقات",
+    "duration": 1814,
+    "offset": 73496,
+    "lang": "ar"
+  },
+  {
+    "text": "بالفيديو، أو مراسلتي",
+    "duration": 2238,
+    "offset": 74343,
+    "lang": "ar"
+  },
+  {
+    "text": "على حساب \"Edge Electronics\"",
+    "duration": 2108,
+    "offset": 75613,
+    "lang": "ar"
+  },
+  {
+    "text": "على \"Twitter\". عادةً ما",
+    "duration": 2340,
+    "offset": 76754,
+    "lang": "ar"
+  },
+  {
+    "text": "أرد بسرعة أكبر على \"",
+    "duration": 2602,
+    "offset": 78140,
+    "lang": "ar"
+  },
+  {
+    "text": "Twitter\". حسناً، لنبدأ في",
+    "duration": 3062,
+    "offset": 79742,
+    "lang": "ar"
+  },
+  {
+    "text": "إعداد \"TensorFlow Lite\".",
+    "duration": 2606,
+    "offset": 81860,
+    "lang": "ar"
+  },
+  {
+    "text": "الخطوة الأولى هي",
+    "duration": 2390,
+    "offset": 83566,
+    "lang": "ar"
+  },
+  {
+    "text": "تحديث جهاز \"Raspberry Pi\".",
+    "duration": 2623,
+    "offset": 85002,
+    "lang": "ar"
+  },
+  {
+    "text": "افتح \"Terminal\" وأدخل",
+    "duration": 3369,
+    "offset": 86725,
+    "lang": "ar"
+  },
+  {
+    "text": "الأمر ` sudo apt-get update`.",
+    "duration": 3686,
+    "offset": 89173,
+    "lang": "ar"
+  },
+  {
+    "text": "بعد ذلك، أدخل الأمر `",
+    "duration": 4122,
+    "offset": 94608,
+    "lang": "ar"
+  },
+  {
+    "text": "sudo apt-get upgrade`. لقد قمت",
+    "duration": 3546,
+    "offset": 97814,
+    "lang": "ar"
+  },
+  {
+    "text": "بتحديث جهاز \"Pi\" الخاص",
+    "duration": 2343,
+    "offset": 100397,
+    "lang": "ar"
+  },
+  {
+    "text": "بي للتو، لذا لا توجد",
+    "duration": 2306,
+    "offset": 101776,
+    "lang": "ar"
+  },
+  {
+    "text": "تحديثات للتنزيل.",
+    "duration": 2089,
+    "offset": 103119,
+    "lang": "ar"
+  },
+  {
+    "text": "اعتماداً على المدة",
+    "duration": 2185,
+    "offset": 104308,
+    "lang": "ar"
+  },
+  {
+    "text": "التي مرت منذ آخر",
+    "duration": 2011,
+    "offset": 105528,
+    "lang": "ar"
+  },
+  {
+    "text": "تحديث لجهازك، قد",
+    "duration": 2046,
+    "offset": 106574,
+    "lang": "ar"
+  },
+  {
+    "text": "يستغرق هذا الأمر ما",
+    "duration": 2220,
+    "offset": 107655,
+    "lang": "ar"
+  },
+  {
+    "text": "بين دقيقة وساعة. إذا",
+    "duration": 2333,
+    "offset": 108910,
+    "lang": "ar"
+  },
+  {
+    "text": "كنت تستخدم كاميرا \"Pi\"،",
+    "duration": 2440,
+    "offset": 110280,
+    "lang": "ar"
+  },
+  {
+    "text": "تأكد من تفعيل واجهة",
+    "duration": 2293,
+    "offset": 111757,
+    "lang": "ar"
+  },
+  {
+    "text": "الكاميرا بالانتقال",
+    "duration": 2293,
+    "offset": 113087,
+    "lang": "ar"
+  },
+  {
+    "text": "إلى قائمة إعدادات \"",
+    "duration": 2255,
+    "offset": 114417,
+    "lang": "ar"
+  },
+  {
+    "text": "Raspberry Pi\"، ثم النقر على",
+    "duration": 2404,
+    "offset": 115672,
+    "lang": "ar"
+  },
+  {
+    "text": "تبويب الواجهات،",
+    "duration": 2071,
+    "offset": 117113,
+    "lang": "ar"
+  },
+  {
+    "text": "والتحقق من تحديد زر",
+    "duration": 2293,
+    "offset": 118221,
+    "lang": "ar"
+  },
+  {
+    "text": "التفعيل. إذا لم تكن",
+    "duration": 2355,
+    "offset": 119550,
+    "lang": "ar"
+  },
+  {
+    "text": "مفعلة، قم بتفعيلها",
+    "duration": 2323,
+    "offset": 120944,
+    "lang": "ar"
+  },
+  {
+    "text": "الآن ثم أعد تشغيل",
+    "duration": 2206,
+    "offset": 122306,
+    "lang": "ar"
+  },
+  {
+    "text": "جهازك. بعد ذلك، سنقوم",
+    "duration": 2620,
+    "offset": 123551,
+    "lang": "ar"
+  },
+  {
+    "text": "بتنزيل مستودع \"GitHub\"",
+    "duration": 2302,
+    "offset": 125209,
+    "lang": "ar"
+  },
+  {
+    "text": "الكامل لهذا الدليل،",
+    "duration": 2378,
+    "offset": 126550,
+    "lang": "ar"
+  },
+  {
+    "text": "والذي يحتوي على كود \"",
+    "duration": 2416,
+    "offset": 127967,
+    "lang": "ar"
+  },
+  {
+    "text": "Python\" الذي سنستخدمه",
+    "duration": 2264,
+    "offset": 129383,
+    "lang": "ar"
+  },
+  {
+    "text": "لتشغيل \"TensorFlow Lite\"",
+    "duration": 2149,
+    "offset": 130685,
+    "lang": "ar"
+  },
+  {
+    "text": "وبرمجية نصية تسهل",
+    "duration": 2226,
+    "offset": 131872,
+    "lang": "ar"
+  },
+  {
+    "text": "التثبيت. لتنزيل",
+    "duration": 2827,
+    "offset": 133136,
+    "lang": "ar"
+  },
+  {
+    "text": "المستودع، اكتب ` git",
+    "duration": 4170,
+    "offset": 135059,
+    "lang": "ar"
+  },
+  {
+    "text": "clone` متبوعاً برابط \"https",
+    "duration": 4746,
+    "offset": 138325,
+    "lang": "ar"
+  },
+  {
+    "text": "github.com/Edge Electronics/",
+    "duration": 3690,
+    "offset": 142167,
+    "lang": "ar"
+  },
+  {
+    "text": "tensorflow-lite-object-detection-on-android",
+    "duration": 5130,
+    "offset": 144857,
+    "lang": "ar"
+  },
+  {
+    "text": "\". \"-and-raspberry-pi.git\". أعدكم",
+    "duration": 6569,
+    "offset": 148987,
+    "lang": "ar"
+  },
+  {
+    "text": "بأن هذا سيكون الأمر",
+    "duration": 2215,
+    "offset": 154590,
+    "lang": "ar"
+  },
+  {
+    "text": "الطويل الوحيد الذي",
+    "duration": 2180,
+    "offset": 155839,
+    "lang": "ar"
+  },
+  {
+    "text": "يتعين علينا كتابته.",
+    "duration": 2215,
+    "offset": 157054,
+    "lang": "ar"
+  },
+  {
+    "text": "بمجرد كتابته، اضغط",
+    "duration": 2483,
+    "offset": 158369,
+    "lang": "ar"
+  },
+  {
+    "text": "على \"Enter\" لاستنساخ",
+    "duration": 2352,
+    "offset": 159896,
+    "lang": "ar"
+  },
+  {
+    "text": "المستودع. سيؤدي هذا",
+    "duration": 3961,
+    "offset": 161292,
+    "lang": "ar"
+  },
+  {
+    "text": "إلى تنزيل كل شيء في",
+    "duration": 2372,
+    "offset": 164294,
+    "lang": "ar"
+  },
+  {
+    "text": "مجلد يسمى \"TensorFlow Lite",
+    "duration": 2372,
+    "offset": 165706,
+    "lang": "ar"
+  },
+  {
+    "text": "object detection on Android and",
+    "duration": 2251,
+    "offset": 167118,
+    "lang": "ar"
+  },
+  {
+    "text": "Raspberry Pi\". هذا الاسم",
+    "duration": 2486,
+    "offset": 168410,
+    "lang": "ar"
+  },
+  {
+    "text": "طويل بعض الشيء",
+    "duration": 2256,
+    "offset": 169944,
+    "lang": "ar"
+  },
+  {
+    "text": "للتعامل معه، لذا",
+    "duration": 2449,
+    "offset": 171248,
+    "lang": "ar"
+  },
+  {
+    "text": "سنقوم بإعادة تسمية",
+    "duration": 2642,
+    "offset": 172745,
+    "lang": "ar"
+  },
+  {
+    "text": "المجلد إلى \"TFLite1\"",
+    "duration": 2400,
+    "offset": 174436,
+    "lang": "ar"
+  },
+  {
+    "text": "بكتابة ` mv TensorFlow` ثم",
+    "duration": 2642,
+    "offset": 175885,
+    "lang": "ar"
+  },
+  {
+    "text": "الضغط على زر \"Tab\"",
+    "duration": 2352,
+    "offset": 177575,
+    "lang": "ar"
+  },
+  {
+    "text": "لإكمال المسار، ثم",
+    "duration": 2545,
+    "offset": 178976,
+    "lang": "ar"
+  },
+  {
+    "text": "مسافة ` TFLite 1`. ثم ادخل",
+    "duration": 3004,
+    "offset": 180570,
+    "lang": "ar"
+  },
+  {
+    "text": "إلى المجلد باستخدام `",
+    "duration": 3321,
+    "offset": 182635,
+    "lang": "ar"
+  },
+  {
+    "text": "CD TFLite 1`. سنعمل داخل",
+    "duration": 2628,
+    "offset": 185017,
+    "lang": "ar"
+  },
+  {
+    "text": "هذا المجلد لبقية هذا",
+    "duration": 2431,
+    "offset": 186684,
+    "lang": "ar"
+  },
+  {
+    "text": "الدليل. بعد ذلك،",
+    "duration": 2204,
+    "offset": 188154,
+    "lang": "ar"
+  },
+  {
+    "text": "نحتاج إلى إنشاء بيئة",
+    "duration": 2484,
+    "offset": 189398,
+    "lang": "ar"
+  },
+  {
+    "text": "افتراضية لاحتواء حزم",
+    "duration": 2523,
+    "offset": 190922,
+    "lang": "ar"
+  },
+  {
+    "text": "\"TensorFlow Lite\" بداخلها.",
+    "duration": 2324,
+    "offset": 192485,
+    "lang": "ar"
+  },
+  {
+    "text": "سيسمح لنا استخدام",
+    "duration": 2085,
+    "offset": 193909,
+    "lang": "ar"
+  },
+  {
+    "text": "بيئة افتراضية بتجنب",
+    "duration": 2222,
+    "offset": 195028,
+    "lang": "ar"
+  },
+  {
+    "text": "تعارض الإصدارات مع",
+    "duration": 2154,
+    "offset": 196284,
+    "lang": "ar"
+  },
+  {
+    "text": "إصدارات TensorFlow أو",
+    "duration": 2018,
+    "offset": 197471,
+    "lang": "ar"
+  },
+  {
+    "text": "المكتبات الأخرى",
+    "duration": 1984,
+    "offset": 198523,
+    "lang": "ar"
+  },
+  {
+    "text": "المثبتة مسبقًا. قم",
+    "duration": 2268,
+    "offset": 199541,
+    "lang": "ar"
+  },
+  {
+    "text": "بتثبيت virtualenv عن طريق",
+    "duration": 3009,
+    "offset": 200863,
+    "lang": "ar"
+  },
+  {
+    "text": "إصدار الأمر sudo pip3 install",
+    "duration": 3118,
+    "offset": 202927,
+    "lang": "ar"
+  },
+  {
+    "text": "virtualenv. بمجرد اكتمال",
+    "duration": 7663,
+    "offset": 205099,
+    "lang": "ar"
+  },
+  {
+    "text": "التثبيت، أنشئ بيئة",
+    "duration": 2979,
+    "offset": 211820,
+    "lang": "ar"
+  },
+  {
+    "text": "افتراضية جديدة تسمى",
+    "duration": 3095,
+    "offset": 213857,
+    "lang": "ar"
+  },
+  {
+    "text": "TFLite1-env عن طريق إصدار",
+    "duration": 3095,
+    "offset": 216010,
+    "lang": "ar"
+  },
+  {
+    "text": "الأمر python3-m venv TFLite1-env.",
+    "duration": 3212,
+    "offset": 218163,
+    "lang": "ar"
+  },
+  {
+    "text": "يؤدي هذا إلى إنشاء",
+    "duration": 2571,
+    "offset": 221146,
+    "lang": "ar"
+  },
+  {
+    "text": "مجلد يسمى TFLite1-env",
+    "duration": 2381,
+    "offset": 222764,
+    "lang": "ar"
+  },
+  {
+    "text": "سيحتوي على جميع حزم",
+    "duration": 2667,
+    "offset": 224192,
+    "lang": "ar"
+  },
+  {
+    "text": "بايثون لهذه البيئة.",
+    "duration": 2667,
+    "offset": 225906,
+    "lang": "ar"
+  },
+  {
+    "text": "قم بتنشيط البيئة عن",
+    "duration": 3184,
+    "offset": 227771,
+    "lang": "ar"
+  },
+  {
+    "text": "طريق إصدار الأمر source",
+    "duration": 3309,
+    "offset": 230017,
+    "lang": "ar"
+  },
+  {
+    "text": "TFLite1-env/bin/activate. بمجرد",
+    "duration": 3930,
+    "offset": 232388,
+    "lang": "ar"
+  },
+  {
+    "text": "تنشيطها، سترى TFLite1-env",
+    "duration": 2836,
+    "offset": 235367,
+    "lang": "ar"
+  },
+  {
+    "text": "تظهر بين قوسين أمام",
+    "duration": 2737,
+    "offset": 237253,
+    "lang": "ar"
+  },
+  {
+    "text": "موجه الأوامر الخاص بك",
+    "duration": 2935,
+    "offset": 239040,
+    "lang": "ar"
+  },
+  {
+    "text": ". إذا قمت بإغلاق نافذة",
+    "duration": 3030,
+    "offset": 240975,
+    "lang": "ar"
+  },
+  {
+    "text": "الجهاز ثم إعادة فتحها",
+    "duration": 2981,
+    "offset": 243056,
+    "lang": "ar"
+  },
+  {
+    "text": "، فستحتاج إلى إعادة",
+    "duration": 2779,
+    "offset": 245037,
+    "lang": "ar"
+  },
+  {
+    "text": "تنشيط هذه البيئة",
+    "duration": 2524,
+    "offset": 246867,
+    "lang": "ar"
+  },
+  {
+    "text": "بالانتقال إلى مجلد",
+    "duration": 2728,
+    "offset": 248442,
+    "lang": "ar"
+  },
+  {
+    "text": "TFLite1 ثم إعادة إصدار",
+    "duration": 2728,
+    "offset": 250221,
+    "lang": "ar"
+  },
+  {
+    "text": "الأمر source TFLite1-env/bin/",
+    "duration": 2728,
+    "offset": 251999,
+    "lang": "ar"
+  },
+  {
+    "text": "activate. الآن سنقوم",
+    "duration": 3214,
+    "offset": 253727,
+    "lang": "ar"
+  },
+  {
+    "text": "بتثبيت TensorFlow و OpenCV.",
+    "duration": 2935,
+    "offset": 255998,
+    "lang": "ar"
+  },
+  {
+    "text": "لتسهيل الأمور، كتبت",
+    "duration": 2390,
+    "offset": 258033,
+    "lang": "ar"
+  },
+  {
+    "text": "نص برمجي (script) سيقوم",
+    "duration": 2352,
+    "offset": 259461,
+    "lang": "ar"
+  },
+  {
+    "text": "تلقائيًا بتنزيل",
+    "duration": 2120,
+    "offset": 260852,
+    "lang": "ar"
+  },
+  {
+    "text": "وتثبيت جميع الحزم",
+    "duration": 2236,
+    "offset": 262010,
+    "lang": "ar"
+  },
+  {
+    "text": "والتبعيات. قم بتشغيل",
+    "duration": 2769,
+    "offset": 263285,
+    "lang": "ar"
+  },
+  {
+    "text": "النص البرمجي عن طريق",
+    "duration": 3036,
+    "offset": 265109,
+    "lang": "ar"
+  },
+  {
+    "text": "إصدار الأمر bash",
+    "duration": 2430,
+    "offset": 267200,
+    "lang": "ar"
+  },
+  {
+    "text": "get_pi_requirements.sh. سيؤدي",
+    "duration": 4017,
+    "offset": 268685,
+    "lang": "ar"
+  },
+  {
+    "text": "هذا إلى تنزيل حوالي 400",
+    "duration": 2395,
+    "offset": 271738,
+    "lang": "ar"
+  },
+  {
+    "text": "ميجابايت من ملفات",
+    "duration": 2145,
+    "offset": 273169,
+    "lang": "ar"
+  },
+  {
+    "text": "التثبيت، لذا سيستغرق",
+    "duration": 2359,
+    "offset": 274350,
+    "lang": "ar"
+  },
+  {
+    "text": "الأمر بعض الوقت. خذ",
+    "duration": 2290,
+    "offset": 275745,
+    "lang": "ar"
+  },
+  {
+    "text": "استراحة أو تناول",
+    "duration": 2146,
+    "offset": 277074,
+    "lang": "ar"
+  },
+  {
+    "text": "مشروبًا أثناء",
+    "duration": 1955,
+    "offset": 278258,
+    "lang": "ar"
+  },
+  {
+    "text": "التنزيل. عندما ينتهي",
+    "duration": 7953,
+    "offset": 279251,
+    "lang": "ar"
+  },
+  {
+    "text": "كل شيء، فهذا يعني أنه",
+    "duration": 2829,
+    "offset": 286253,
+    "lang": "ar"
+  },
+  {
+    "text": "تم تثبيت كل من TensorFlow و",
+    "duration": 2877,
+    "offset": 288130,
+    "lang": "ar"
+  },
+  {
+    "text": "OpenCV. يقوم النص",
+    "duration": 2067,
+    "offset": 290056,
+    "lang": "ar"
+  },
+  {
+    "text": "البرمجي تلقائيًا",
+    "duration": 2150,
+    "offset": 291160,
+    "lang": "ar"
+  },
+  {
+    "text": "بتثبيت أحدث إصدار من",
+    "duration": 2372,
+    "offset": 292347,
+    "lang": "ar"
+  },
+  {
+    "text": "TensorFlow. إذا كنت ترغب في",
+    "duration": 2617,
+    "offset": 293757,
+    "lang": "ar"
+  },
+  {
+    "text": "استخدام إصدار مختلف،",
+    "duration": 2561,
+    "offset": 295415,
+    "lang": "ar"
+  },
+  {
+    "text": "فما عليك سوى استخدام",
+    "duration": 2520,
+    "offset": 297017,
+    "lang": "ar"
+  },
+  {
+    "text": "pip3 install tensorflow == ثم ضع",
+    "duration": 2479,
+    "offset": 298578,
+    "lang": "ar"
+  },
+  {
+    "text": "الإصدار الذي تريد",
+    "duration": 2314,
+    "offset": 300098,
+    "lang": "ar"
+  },
+  {
+    "text": "تثبيته. سيقوم هذا",
+    "duration": 2278,
+    "offset": 301453,
+    "lang": "ar"
+  },
+  {
+    "text": "باستبدال التثبيت",
+    "duration": 2175,
+    "offset": 302769,
+    "lang": "ar"
+  },
+  {
+    "text": "الحالي بالإصدار",
+    "duration": 2098,
+    "offset": 303982,
+    "lang": "ar"
+  },
+  {
+    "text": "المحدد. بعد ذلك،",
+    "duration": 2715,
+    "offset": 305118,
+    "lang": "ar"
+  },
+  {
+    "text": "سنقوم بإعداد نموذج",
+    "duration": 2352,
+    "offset": 306873,
+    "lang": "ar"
+  },
+  {
+    "text": "الكشف الذي سيتم",
+    "duration": 2114,
+    "offset": 308264,
+    "lang": "ar"
+  },
+  {
+    "text": "استخدامه مع TensorFlow Lite.",
+    "duration": 2511,
+    "offset": 309418,
+    "lang": "ar"
+  },
+  {
+    "text": "يمكنك إما تنزيل نموذج",
+    "duration": 2541,
+    "offset": 311029,
+    "lang": "ar"
+  },
+  {
+    "text": "TFLite تجريبي مقدم من",
+    "duration": 2304,
+    "offset": 312610,
+    "lang": "ar"
+  },
+  {
+    "text": "Google أو استخدام نموذج",
+    "duration": 2462,
+    "offset": 313954,
+    "lang": "ar"
+  },
+  {
+    "text": "قمت بتدريبه بنفسك.",
+    "duration": 2305,
+    "offset": 315456,
+    "lang": "ar"
+  },
+  {
+    "text": "يرتبط نموذج الكشف",
+    "duration": 2621,
+    "offset": 317150,
+    "lang": "ar"
+  },
+  {
+    "text": "بملفين. ملف detect.tflite،",
+    "duration": 2933,
+    "offset": 318822,
+    "lang": "ar"
+  },
+  {
+    "text": "الذي يحتوي على مخطط",
+    "duration": 2868,
+    "offset": 320808,
+    "lang": "ar"
+  },
+  {
+    "text": "الكشف للنموذج، وملف",
+    "duration": 2922,
+    "offset": 322729,
+    "lang": "ar"
+  },
+  {
+    "text": "labelmap.txt، الذي يوفر",
+    "duration": 2708,
+    "offset": 324704,
+    "lang": "ar"
+  },
+  {
+    "text": "التصنيفات. طريقتي",
+    "duration": 2543,
+    "offset": 326465,
+    "lang": "ar"
+  },
+  {
+    "text": "المفضلة للحفاظ على",
+    "duration": 2213,
+    "offset": 328044,
+    "lang": "ar"
+  },
+  {
+    "text": "تنظيمها هي إنشاء مجلد",
+    "duration": 2392,
+    "offset": 329293,
+    "lang": "ar"
+  },
+  {
+    "text": "باسم النموذج",
+    "duration": 1821,
+    "offset": 330721,
+    "lang": "ar"
+  },
+  {
+    "text": "والاحتفاظ بكلا",
+    "duration": 1964,
+    "offset": 331578,
+    "lang": "ar"
+  },
+  {
+    "text": "الملفين في ذلك المجلد",
+    "duration": 2392,
+    "offset": 332578,
+    "lang": "ar"
+  },
+  {
+    "text": ". نموذج Google التجريبي",
+    "duration": 6551,
+    "offset": 333970,
+    "lang": "ar"
+  },
+  {
+    "text": "هو نموذج SSD MobileNet كمي",
+    "duration": 2549,
+    "offset": 339564,
+    "lang": "ar"
+  },
+  {
+    "text": "تم تدريبه من مجموعة",
+    "duration": 2506,
+    "offset": 341156,
+    "lang": "ar"
+  },
+  {
+    "text": "بيانات MS Coco وتحويله",
+    "duration": 2506,
+    "offset": 342705,
+    "lang": "ar"
+  },
+  {
+    "text": "للتشغيل على TensorFlow Lite.",
+    "duration": 2635,
+    "offset": 344254,
+    "lang": "ar"
+  },
+  {
+    "text": "يمكن للنموذج",
+    "duration": 1809,
+    "offset": 345989,
+    "lang": "ar"
+  },
+  {
+    "text": "التجريبي اكتشاف",
+    "duration": 2021,
+    "offset": 346833,
+    "lang": "ar"
+  },
+  {
+    "text": "وتحديد ما يصل إلى 80",
+    "duration": 2197,
+    "offset": 347889,
+    "lang": "ar"
+  },
+  {
+    "text": "كائنًا شائعًا. يعني",
+    "duration": 2312,
+    "offset": 349121,
+    "lang": "ar"
+  },
+  {
+    "text": "الجزء الكمي أنه",
+    "duration": 2038,
+    "offset": 350470,
+    "lang": "ar"
+  },
+  {
+    "text": "يستخدم قيم أعداد",
+    "duration": 2112,
+    "offset": 351545,
+    "lang": "ar"
+  },
+  {
+    "text": "صحيحة 8-بت بدلاً من",
+    "duration": 2223,
+    "offset": 352694,
+    "lang": "ar"
+  },
+  {
+    "text": "قيم الفاصلة العائمة 32",
+    "duration": 2445,
+    "offset": 353954,
+    "lang": "ar"
+  },
+  {
+    "text": "-بت في الشبكة العصبية.",
+    "duration": 2446,
+    "offset": 355399,
+    "lang": "ar"
+  },
+  {
+    "text": "يسمح هذا للنموذج",
+    "duration": 1903,
+    "offset": 356945,
+    "lang": "ar"
+  },
+  {
+    "text": "بالعمل بشكل أسرع عن",
+    "duration": 2054,
+    "offset": 357878,
+    "lang": "ar"
+  },
+  {
+    "text": "طريق تقليل زمن وصول",
+    "duration": 2054,
+    "offset": 358962,
+    "lang": "ar"
+  },
+  {
+    "text": "الذاكرة والاستفادة",
+    "duration": 2055,
+    "offset": 360046,
+    "lang": "ar"
+  },
+  {
+    "text": "من التحسينات داخل",
+    "duration": 1963,
+    "offset": 361131,
+    "lang": "ar"
+  },
+  {
+    "text": "وحدة المعالجة",
+    "duration": 1752,
+    "offset": 362125,
+    "lang": "ar"
+  },
+  {
+    "text": "المركزية. يؤدي",
+    "duration": 1914,
+    "offset": 362908,
+    "lang": "ar"
+  },
+  {
+    "text": "استخدام نموذج كمي إلى",
+    "duration": 2474,
+    "offset": 363860,
+    "lang": "ar"
+  },
+  {
+    "text": "تسريع الكشف مع حدوث",
+    "duration": 2323,
+    "offset": 365372,
+    "lang": "ar"
+  },
+  {
+    "text": "انخفاض طفيف فقط في",
+    "duration": 2248,
+    "offset": 366733,
+    "lang": "ar"
+  },
+  {
+    "text": "الدقة. يمكنك العثور",
+    "duration": 2820,
+    "offset": 368019,
+    "lang": "ar"
+  },
+  {
+    "text": "على رابط للنموذج في",
+    "duration": 2257,
+    "offset": 369875,
+    "lang": "ar"
+  },
+  {
+    "text": "صفحة نظرة عامة على",
+    "duration": 2186,
+    "offset": 371168,
+    "lang": "ar"
+  },
+  {
+    "text": "اكتشاف كائنات TFLite،",
+    "duration": 2221,
+    "offset": 372390,
+    "lang": "ar"
+  },
+  {
+    "text": "والتي تجدها في وصف",
+    "duration": 2186,
+    "offset": 373647,
+    "lang": "ar"
+  },
+  {
+    "text": "الفيديو أدناه. افتح",
+    "duration": 2290,
+    "offset": 374868,
+    "lang": "ar"
+  },
+  {
+    "text": "الصفحة، وانقر بزر",
+    "duration": 2020,
+    "offset": 376189,
+    "lang": "ar"
+  },
+  {
+    "text": "الماوس الأيمن، وقم",
+    "duration": 2084,
+    "offset": 377241,
+    "lang": "ar"
+  },
+  {
+    "text": "بتنزيل النموذج",
+    "duration": 1861,
+    "offset": 378357,
+    "lang": "ar"
+  },
+  {
+    "text": "الأولي والتصنيفات،",
+    "duration": 2115,
+    "offset": 379250,
+    "lang": "ar"
+  },
+  {
+    "text": "ثم انسخ عنوان الرابط.",
+    "duration": 2212,
+    "offset": 380397,
+    "lang": "ar"
+  },
+  {
+    "text": "بعد ذلك، عُد إلى",
+    "duration": 2211,
+    "offset": 381709,
+    "lang": "ar"
+  },
+  {
+    "text": "جهازك الطرفي، واكتب",
+    "duration": 2505,
+    "offset": 382962,
+    "lang": "ar"
+  },
+  {
+    "text": "wget، وألصق عنوان",
+    "duration": 2171,
+    "offset": 384508,
+    "lang": "ar"
+  },
+  {
+    "text": "الرابط، ثم اضغط على",
+    "duration": 2463,
+    "offset": 385720,
+    "lang": "ar"
+  },
+  {
+    "text": "زر الإدخال. سيؤدي هذا",
+    "duration": 2709,
+    "offset": 387225,
+    "lang": "ar"
+  },
+  {
+    "text": "إلى تنزيل النموذج",
+    "duration": 2456,
+    "offset": 388979,
+    "lang": "ar"
+  },
+  {
+    "text": "مباشرةً إلى مجلد TFLite 1",
+    "duration": 2774,
+    "offset": 390481,
+    "lang": "ar"
+  },
+  {
+    "text": ". قم بفك ضغط النموذج",
+    "duration": 3165,
+    "offset": 392255,
+    "lang": "ar"
+  },
+  {
+    "text": "في مجلد يسمى",
+    "duration": 2346,
+    "offset": 394481,
+    "lang": "ar"
+  },
+  {
+    "text": "sample_tflite_model عن طريق",
+    "duration": 3019,
+    "offset": 395888,
+    "lang": "ar"
+  },
+  {
+    "text": "كتابة unzip coco، ثم اضغط",
+    "duration": 3264,
+    "offset": 397968,
+    "lang": "ar"
+  },
+  {
+    "text": "على زر tab لإكمال مسار",
+    "duration": 3264,
+    "offset": 400293,
+    "lang": "ar"
+  },
+  {
+    "text": "الملف، ثم-d space",
+    "duration": 2530,
+    "offset": 402618,
+    "lang": "ar"
+  },
+  {
+    "text": "sample_tflite_model. حسناً،",
+    "duration": 3403,
+    "offset": 404209,
+    "lang": "ar"
+  },
+  {
+    "text": "أصبح النموذج",
+    "duration": 1873,
+    "offset": 406650,
+    "lang": "ar"
+  },
+  {
+    "text": "التجريبي الآن جاهزاً",
+    "duration": 2442,
+    "offset": 407561,
+    "lang": "ar"
+  },
+  {
+    "text": "للاستخدام. يمكنك",
+    "duration": 3961,
+    "offset": 409041,
+    "lang": "ar"
+  },
+  {
+    "text": "أيضاً تدريب نموذجك",
+    "duration": 2354,
+    "offset": 412042,
+    "lang": "ar"
+  },
+  {
+    "text": "الخاص لاكتشاف كائنات",
+    "duration": 2514,
+    "offset": 413436,
+    "lang": "ar"
+  },
+  {
+    "text": "مخصصة. إذا أردت",
+    "duration": 2060,
+    "offset": 414989,
+    "lang": "ar"
+  },
+  {
+    "text": "تجربته، فقد أنشأت",
+    "duration": 2112,
+    "offset": 416083,
+    "lang": "ar"
+  },
+  {
+    "text": "دليلاً مكتوباً على",
+    "duration": 2181,
+    "offset": 417230,
+    "lang": "ar"
+  },
+  {
+    "text": "GitHub يوضح لك كيفية",
+    "duration": 2077,
+    "offset": 418446,
+    "lang": "ar"
+  },
+  {
+    "text": "تدريب نموذج اكتشاف",
+    "duration": 2182,
+    "offset": 419557,
+    "lang": "ar"
+  },
+  {
+    "text": "وتحويله إلى TensorFlow Lite.",
+    "duration": 2321,
+    "offset": 420773,
+    "lang": "ar"
+  },
+  {
+    "text": "سأقوم أيضاً بإنشاء",
+    "duration": 2189,
+    "offset": 422194,
+    "lang": "ar"
+  },
+  {
+    "text": "سلسلة من مقاطع",
+    "duration": 1909,
+    "offset": 423418,
+    "lang": "ar"
+  },
+  {
+    "text": "الفيديو التي تشرح",
+    "duration": 2119,
+    "offset": 424362,
+    "lang": "ar"
+  },
+  {
+    "text": "العملية خطوة بخطوة.",
+    "duration": 2225,
+    "offset": 425516,
+    "lang": "ar"
+  },
+  {
+    "text": "سأضع روابط الأدلة في",
+    "duration": 2522,
+    "offset": 426841,
+    "lang": "ar"
+  },
+  {
+    "text": "وصف هذا الفيديو. إذا",
+    "duration": 2534,
+    "offset": 428404,
+    "lang": "ar"
+  },
+  {
+    "text": "قمت بتدريب نموذجك",
+    "duration": 2281,
+    "offset": 429978,
+    "lang": "ar"
+  },
+  {
+    "text": "الخاص باستخدام دليلي",
+    "duration": 2521,
+    "offset": 431299,
+    "lang": "ar"
+  },
+  {
+    "text": "، فيجب أن يكون لديك",
+    "duration": 2361,
+    "offset": 432820,
+    "lang": "ar"
+  },
+  {
+    "text": "مجلد يسمى TFLite model أو",
+    "duration": 2401,
+    "offset": 434221,
+    "lang": "ar"
+  },
+  {
+    "text": "ما يشابهه يحتوي على",
+    "duration": 2401,
+    "offset": 435662,
+    "lang": "ar"
+  },
+  {
+    "text": "ملف detect.tflite وملف",
+    "duration": 2161,
+    "offset": 437103,
+    "lang": "ar"
+  },
+  {
+    "text": "خريطة التسميات.",
+    "duration": 2121,
+    "offset": 438304,
+    "lang": "ar"
+  },
+  {
+    "text": "لاستخدامه، ما عليك",
+    "duration": 2676,
+    "offset": 439525,
+    "lang": "ar"
+  },
+  {
+    "text": "سوى نقله إلى Raspberry Pi",
+    "duration": 2726,
+    "offset": 441250,
+    "lang": "ar"
+  },
+  {
+    "text": "باستخدام محرك أقراص",
+    "duration": 2775,
+    "offset": 443026,
+    "lang": "ar"
+  },
+  {
+    "text": "USB، ثم نقل المجلد إلى",
+    "duration": 2824,
+    "offset": 444850,
+    "lang": "ar"
+  },
+  {
+    "text": "مجلد home pi TFLite1. بمجرد",
+    "duration": 3082,
+    "offset": 446724,
+    "lang": "ar"
+  },
+  {
+    "text": "نقله إلى مجلد TFLite1،",
+    "duration": 2796,
+    "offset": 448858,
+    "lang": "ar"
+  },
+  {
+    "text": "يصبح نموذجك المخصص",
+    "duration": 2795,
+    "offset": 450707,
+    "lang": "ar"
+  },
+  {
+    "text": "جاهزاً. حسناً، حان",
+    "duration": 3840,
+    "offset": 452555,
+    "lang": "ar"
+  },
+  {
+    "text": "الوقت لرؤية نموذج",
+    "duration": 2269,
+    "offset": 455434,
+    "lang": "ar"
+  },
+  {
+    "text": "الاكتشاف أثناء العمل.",
+    "duration": 2547,
+    "offset": 456742,
+    "lang": "ar"
+  },
+  {
+    "text": "لتشغيل برنامج اكتشاف",
+    "duration": 3498,
+    "offset": 458389,
+    "lang": "ar"
+  },
+  {
+    "text": "كاميرا الويب في الوقت",
+    "duration": 3564,
+    "offset": 460952,
+    "lang": "ar"
+  },
+  {
+    "text": "الفعلي، استخدم python3",
+    "duration": 3301,
+    "offset": 463582,
+    "lang": "ar"
+  },
+  {
+    "text": "TFLite_detection_webcam.py--modeldir =",
+    "duration": 3498,
+    "offset": 465949,
+    "lang": "ar"
+  },
+  {
+    "text": "sample_tflite_model. يعمل هذا",
+    "duration": 3020,
+    "offset": 468513,
+    "lang": "ar"
+  },
+  {
+    "text": "البرنامج النصي مع",
+    "duration": 2291,
+    "offset": 470573,
+    "lang": "ar"
+  },
+  {
+    "text": "كاميرا Pi أو كاميرا",
+    "duration": 2331,
+    "offset": 471905,
+    "lang": "ar"
+  },
+  {
+    "text": "ويب USB عادية. إذا كان",
+    "duration": 2483,
+    "offset": 473277,
+    "lang": "ar"
+  },
+  {
+    "text": "لمجلد النموذج الخاص",
+    "duration": 2370,
+    "offset": 474798,
+    "lang": "ar"
+  },
+  {
+    "text": "بك اسم مختلف عن",
+    "duration": 2028,
+    "offset": 476207,
+    "lang": "ar"
+  },
+  {
+    "text": "sample_tflite_model، فاستخدم",
+    "duration": 2371,
+    "offset": 477273,
+    "lang": "ar"
+  },
+  {
+    "text": "ذلك الاسم بدلاً منه.",
+    "duration": 2371,
+    "offset": 478682,
+    "lang": "ar"
+  },
+  {
+    "text": "مرحباً يا شباب. بمجرد",
+    "duration": 2650,
+    "offset": 481928,
+    "lang": "ar"
+  },
+  {
+    "text": "بدء تشغيل البرنامج،",
+    "duration": 2222,
+    "offset": 483612,
+    "lang": "ar"
+  },
+  {
+    "text": "ستظهر نافذة تحتوي على",
+    "duration": 2323,
+    "offset": 484868,
+    "lang": "ar"
+  },
+  {
+    "text": "بث كاميرا الويب",
+    "duration": 1951,
+    "offset": 486225,
+    "lang": "ar"
+  },
+  {
+    "text": "المباشر ونتائج",
+    "duration": 1917,
+    "offset": 487209,
+    "lang": "ar"
+  },
+  {
+    "text": "الاكتشاف المرسومة",
+    "duration": 2120,
+    "offset": 488160,
+    "lang": "ar"
+  },
+  {
+    "text": "على الإطار. كما ترون،",
+    "duration": 2358,
+    "offset": 489314,
+    "lang": "ar"
+  },
+  {
+    "text": "أحصل على حوالي 4.4 إطار",
+    "duration": 2328,
+    "offset": 490706,
+    "lang": "ar"
+  },
+  {
+    "text": "في الثانية مع Raspberry Pi 4",
+    "duration": 2328,
+    "offset": 492068,
+    "lang": "ar"
+  },
+  {
+    "text": "، وهذا أسرع بحوالي 3",
+    "duration": 2193,
+    "offset": 493396,
+    "lang": "ar"
+  },
+  {
+    "text": "إطارات في الثانية مما",
+    "duration": 2328,
+    "offset": 494623,
+    "lang": "ar"
+  },
+  {
+    "text": "كنت أحصل عليه مع",
+    "duration": 1988,
+    "offset": 495985,
+    "lang": "ar"
+  },
+  {
+    "text": "TensorFlow العادي. لذا،",
+    "duration": 2377,
+    "offset": 497007,
+    "lang": "ar"
+  },
+  {
+    "text": "فهو تحسن جيد جداً.",
+    "duration": 2840,
+    "offset": 498442,
+    "lang": "ar"
+  },
+  {
+    "text": "وداعاً. لقد كتبت",
+    "duration": 4481,
+    "offset": 500382,
+    "lang": "ar"
+  },
+  {
+    "text": "أيضاً برامج نصية",
+    "duration": 2065,
+    "offset": 503898,
+    "lang": "ar"
+  },
+  {
+    "text": "لإجراء الاكتشاف على",
+    "duration": 2278,
+    "offset": 504998,
+    "lang": "ar"
+  },
+  {
+    "text": "مقاطع الفيديو والصور.",
+    "duration": 2385,
+    "offset": 506311,
+    "lang": "ar"
+  },
+  {
+    "text": "أولاً، سأعرض كيفية",
+    "duration": 2264,
+    "offset": 507796,
+    "lang": "ar"
+  },
+  {
+    "text": "عمل برنامج اكتشاف",
+    "duration": 2190,
+    "offset": 509097,
+    "lang": "ar"
+  },
+  {
+    "text": "الفيديو TFLite باستخدام",
+    "duration": 2413,
+    "offset": 510324,
+    "lang": "ar"
+  },
+  {
+    "text": "نموذج الاكتشاف",
+    "duration": 2004,
+    "offset": 511774,
+    "lang": "ar"
+  },
+  {
+    "text": "المخصص للطيور",
+    "duration": 1930,
+    "offset": 512815,
+    "lang": "ar"
+  },
+  {
+    "text": "والسناجب والراكون",
+    "duration": 2227,
+    "offset": 513782,
+    "lang": "ar"
+  },
+  {
+    "text": "كمثال. بدلاً من",
+    "duration": 2199,
+    "offset": 515046,
+    "lang": "ar"
+  },
+  {
+    "text": "استخدام sample_tflite_model",
+    "duration": 2502,
+    "offset": 516289,
+    "lang": "ar"
+  },
+  {
+    "text": "لوسيط دليل النموذج،",
+    "duration": 2589,
+    "offset": 517835,
+    "lang": "ar"
+  },
+  {
+    "text": "أستخدم مجلدي المخصص",
+    "duration": 2589,
+    "offset": 519469,
+    "lang": "ar"
+  },
+  {
+    "text": "بدلاً منه. لتحديد ملف",
+    "duration": 2784,
+    "offset": 521103,
+    "lang": "ar"
+  },
+  {
+    "text": "الفيديو المراد",
+    "duration": 2264,
+    "offset": 522934,
+    "lang": "ar"
+  },
+  {
+    "text": "معالجته، استخدم وسيط",
+    "duration": 2779,
+    "offset": 524245,
+    "lang": "ar"
+  },
+  {
+    "text": "--video. عند بدء تشغيل",
+    "duration": 2345,
+    "offset": 526024,
+    "lang": "ar"
+  },
+  {
+    "text": "البرنامج، سيمر عبر كل",
+    "duration": 2414,
+    "offset": 527405,
+    "lang": "ar"
+  },
+  {
+    "text": "إطار من الفيديو ويرسم",
+    "duration": 2414,
+    "offset": 528855,
+    "lang": "ar"
+  },
+  {
+    "text": "نتائج الاكتشاف. هذا",
+    "duration": 2316,
+    "offset": 530305,
+    "lang": "ar"
+  },
+  {
+    "text": "فيديو لمنصة طعام",
+    "duration": 2003,
+    "offset": 531655,
+    "lang": "ar"
+  },
+  {
+    "text": "الطيور في منزل والدي",
+    "duration": 2237,
+    "offset": 532691,
+    "lang": "ar"
+  },
+  {
+    "text": "في مونتانا. كما ترون،",
+    "duration": 2360,
+    "offset": 533962,
+    "lang": "ar"
+  },
+  {
+    "text": "يتميز نموذج الاكتشاف",
+    "duration": 2322,
+    "offset": 535356,
+    "lang": "ar"
+  },
+  {
+    "text": "المخصص بدقة عالية في",
+    "duration": 2287,
+    "offset": 536712,
+    "lang": "ar"
+  },
+  {
+    "text": "تحديد مواقع الطيور",
+    "duration": 2182,
+    "offset": 538034,
+    "lang": "ar"
+  },
+  {
+    "text": "والتعرف عليها. يمكنك",
+    "duration": 2797,
+    "offset": 539251,
+    "lang": "ar"
+  },
+  {
+    "text": "الضغط على Q لإيقاف",
+    "duration": 2402,
+    "offset": 541092,
+    "lang": "ar"
+  },
+  {
+    "text": "البرنامج في أي وقت.",
+    "duration": 2490,
+    "offset": 542538,
+    "lang": "ar"
+  },
+  {
+    "text": "يمكنك استخدام نص",
+    "duration": 2340,
+    "offset": 547818,
+    "lang": "ar"
+  },
+  {
+    "text": "برمجي للكشف عن الصور",
+    "duration": 2653,
+    "offset": 549202,
+    "lang": "ar"
+  },
+  {
+    "text": "TFLite على صورة واحدة أو",
+    "duration": 2698,
+    "offset": 550900,
+    "lang": "ar"
+  },
+  {
+    "text": "مجلد مليء بالصور.",
+    "duration": 2385,
+    "offset": 552643,
+    "lang": "ar"
+  },
+  {
+    "text": "وضعت مجلدًا باسم Critters",
+    "duration": 2857,
+    "offset": 554128,
+    "lang": "ar"
+  },
+  {
+    "text": "في دليل TFLite 1 يحتوي",
+    "duration": 2571,
+    "offset": 556033,
+    "lang": "ar"
+  },
+  {
+    "text": "على صور طيور وسناجب",
+    "duration": 2667,
+    "offset": 557652,
+    "lang": "ar"
+  },
+  {
+    "text": "وراكون. عند استدعاء",
+    "duration": 3629,
+    "offset": 559366,
+    "lang": "ar"
+  },
+  {
+    "text": "نص الصورة، أستخدم أمر",
+    "duration": 2851,
+    "offset": 562042,
+    "lang": "ar"
+  },
+  {
+    "text": "--image للإشارة إلى ذلك",
+    "duration": 2708,
+    "offset": 563893,
+    "lang": "ar"
+  },
+  {
+    "text": "المجلد Critters. يمكنك",
+    "duration": 2624,
+    "offset": 565649,
+    "lang": "ar"
+  },
+  {
+    "text": "أيضًا استخدام--image فقط",
+    "duration": 2873,
+    "offset": 567321,
+    "lang": "ar"
+  },
+  {
+    "text": "لتحديد صورة واحدة.",
+    "duration": 2585,
+    "offset": 569242,
+    "lang": "ar"
+  },
+  {
+    "text": "سيقوم البرنامج",
+    "duration": 1972,
+    "offset": 570927,
+    "lang": "ar"
+  },
+  {
+    "text": "بإجراء الكشف على",
+    "duration": 2081,
+    "offset": 571935,
+    "lang": "ar"
+  },
+  {
+    "text": "الصور واحدة تلو",
+    "duration": 2009,
+    "offset": 573052,
+    "lang": "ar"
+  },
+  {
+    "text": "الأخرى. اضغط على أي",
+    "duration": 2273,
+    "offset": 574097,
+    "lang": "ar"
+  },
+  {
+    "text": "مفتاح للانتقال إلى",
+    "duration": 2197,
+    "offset": 575405,
+    "lang": "ar"
+  },
+  {
+    "text": "الصورة التالية أو",
+    "duration": 2127,
+    "offset": 576637,
+    "lang": "ar"
+  },
+  {
+    "text": "اضغط على Q للإنهاء.",
+    "duration": 2162,
+    "offset": 577799,
+    "lang": "ar"
+  },
+  {
+    "text": "إذن، هذا كل شيء. الآن،",
+    "duration": 3189,
+    "offset": 583232,
+    "lang": "ar"
+  },
+  {
+    "text": "أصبح لديك TensorFlow Lite",
+    "duration": 2211,
+    "offset": 585458,
+    "lang": "ar"
+  },
+  {
+    "text": "معدًا للكشف عن",
+    "duration": 1954,
+    "offset": 586705,
+    "lang": "ar"
+  },
+  {
+    "text": "الأشياء على Raspberry Pi",
+    "duration": 2247,
+    "offset": 587696,
+    "lang": "ar"
+  },
+  {
+    "text": "الخاص بك. في الفيديو",
+    "duration": 2355,
+    "offset": 588980,
+    "lang": "ar"
+  },
+  {
+    "text": "القادم، سأوضح لك كيف",
+    "duration": 2301,
+    "offset": 590370,
+    "lang": "ar"
+  },
+  {
+    "text": "يمكنك الحصول على دفعة",
+    "duration": 2371,
+    "offset": 591706,
+    "lang": "ar"
+  },
+  {
+    "text": "هائلة في سرعة الكشف",
+    "duration": 2230,
+    "offset": 593113,
+    "lang": "ar"
+  },
+  {
+    "text": "باستخدام مسرع Coral USB",
+    "duration": 2230,
+    "offset": 594379,
+    "lang": "ar"
+  },
+  {
+    "text": "من Google. مع المسرع،",
+    "duration": 2110,
+    "offset": 595645,
+    "lang": "ar"
+  },
+  {
+    "text": "أحصل على معدلات",
+    "duration": 1866,
+    "offset": 596786,
+    "lang": "ar"
+  },
+  {
+    "text": "إطارات أسرع بخمس مرات",
+    "duration": 2208,
+    "offset": 597683,
+    "lang": "ar"
+  },
+  {
+    "text": "عند تشغيل الكشف عن",
+    "duration": 2021,
+    "offset": 598922,
+    "lang": "ar"
+  },
+  {
+    "text": "الأشياء في الوقت",
+    "duration": 1929,
+    "offset": 599974,
+    "lang": "ar"
+  },
+  {
+    "text": "الفعلي. سيوضح الفيديو",
+    "duration": 2435,
+    "offset": 600934,
+    "lang": "ar"
+  },
+  {
+    "text": "التالي خطوة بخطوة",
+    "duration": 2194,
+    "offset": 602406,
+    "lang": "ar"
+  },
+  {
+    "text": "كيفية إعداده وسيقدم",
+    "duration": 2343,
+    "offset": 603637,
+    "lang": "ar"
+  },
+  {
+    "text": "شرحًا موجزًا لكيفية",
+    "duration": 2342,
+    "offset": 605018,
+    "lang": "ar"
+  },
+  {
+    "text": "عمله. السرعة المحسنة",
+    "duration": 2409,
+    "offset": 606398,
+    "lang": "ar"
+  },
+  {
+    "text": "لـ TensorFlow Lite تجعله",
+    "duration": 2118,
+    "offset": 607844,
+    "lang": "ar"
+  },
+  {
+    "text": "أكثر فائدة لتطبيقات",
+    "duration": 2299,
+    "offset": 608998,
+    "lang": "ar"
+  },
+  {
+    "text": "الكشف الفوري مثل",
+    "duration": 2082,
+    "offset": 610333,
+    "lang": "ar"
+  },
+  {
+    "text": "الكاميرات الذكية أو",
+    "duration": 2299,
+    "offset": 611451,
+    "lang": "ar"
+  },
+  {
+    "text": "أنظمة الإنذار. إذا",
+    "duration": 2210,
+    "offset": 612786,
+    "lang": "ar"
+  },
+  {
+    "text": "كنت ترغب في رؤية مثال",
+    "duration": 2093,
+    "offset": 614025,
+    "lang": "ar"
+  },
+  {
+    "text": "ممتع لاستخدام TensorFlow",
+    "duration": 2036,
+    "offset": 615147,
+    "lang": "ar"
+  },
+  {
+    "text": "على Pi، تحقق من فيديو",
+    "duration": 2036,
+    "offset": 616212,
+    "lang": "ar"
+  },
+  {
+    "text": "كاشف الحيوانات",
+    "duration": 1777,
+    "offset": 617276,
+    "lang": "ar"
+  },
+  {
+    "text": "الأليفة الخاص بي حيث",
+    "duration": 2065,
+    "offset": 618082,
+    "lang": "ar"
+  },
+  {
+    "text": "أستخدم الكشف عن",
+    "duration": 1806,
+    "offset": 619175,
+    "lang": "ar"
+  },
+  {
+    "text": "الأشياء لتنبيهي إذا",
+    "duration": 2036,
+    "offset": 620010,
+    "lang": "ar"
+  },
+  {
+    "text": "كانت قطتي تريد الخروج",
+    "duration": 2122,
+    "offset": 621075,
+    "lang": "ar"
+  },
+  {
+    "text": ". سأنشر أيضًا المزيد",
+    "duration": 2112,
+    "offset": 622197,
+    "lang": "ar"
+  },
+  {
+    "text": "من مقاطع الفيديو",
+    "duration": 1868,
+    "offset": 623337,
+    "lang": "ar"
+  },
+  {
+    "text": "لمشاريع رؤية",
+    "duration": 1665,
+    "offset": 624234,
+    "lang": "ar"
+  },
+  {
+    "text": "الكمبيوتر باستخدام",
+    "duration": 2012,
+    "offset": 624928,
+    "lang": "ar"
+  },
+  {
+    "text": "TensorFlow، لذا ابقوا",
+    "duration": 1867,
+    "offset": 625969,
+    "lang": "ar"
+  },
+  {
+    "text": "متابعين. آمل أن",
+    "duration": 1896,
+    "offset": 626865,
+    "lang": "ar"
+  },
+  {
+    "text": "يساعدك هذا الفيديو في",
+    "duration": 2283,
+    "offset": 627794,
+    "lang": "ar"
+  },
+  {
+    "text": "البدء بمشاريعك",
+    "duration": 1889,
+    "offset": 629110,
+    "lang": "ar"
+  },
+  {
+    "text": "الخاصة باستخدام Raspberry",
+    "duration": 2284,
+    "offset": 630032,
+    "lang": "ar"
+  },
+  {
+    "text": "Pi. ترقبوا الفيديو",
+    "duration": 2256,
+    "offset": 631349,
+    "lang": "ar"
+  },
+  {
+    "text": "القادم الخاص بي حول",
+    "duration": 2370,
+    "offset": 632644,
+    "lang": "ar"
+  },
+  {
+    "text": "إعداد مسرع Coral USB.",
+    "duration": 2175,
+    "offset": 634053,
+    "lang": "ar"
+  },
+  {
+    "text": "شكرًا للمشاهدة وحظًا",
+    "duration": 2507,
+    "offset": 635328,
+    "lang": "ar"
+  },
+  {
+    "text": "سعيدًا في مشاريعكم.",
+    "duration": 2389,
+    "offset": 636875,
+    "lang": "ar"
+  }
+]

@@ -1,0 +1,3770 @@
+[
+  {
+    "text": "if you're interested in getting started",
+    "duration": 3480,
+    "offset": 30,
+    "lang": "en"
+  },
+  {
+    "text": "with the Raspberry Pi 4 but you don't",
+    "duration": 4110,
+    "offset": 1410,
+    "lang": "en"
+  },
+  {
+    "text": "know where to begin then this is the",
+    "duration": 5360,
+    "offset": 3510,
+    "lang": "en"
+  },
+  {
+    "text": "video for you stay tuned",
+    "duration": 3350,
+    "offset": 5520,
+    "lang": "en"
+  },
+  {
+    "text": "welcome to crosstalk Solutions my name",
+    "duration": 3931,
+    "offset": 9769,
+    "lang": "en"
+  },
+  {
+    "text": "is Chris and the Raspberry Pi is",
+    "duration": 4049,
+    "offset": 12000,
+    "lang": "en"
+  },
+  {
+    "text": "absolutely one of my favorite pieces of",
+    "duration": 4659,
+    "offset": 13700,
+    "lang": "en"
+  },
+  {
+    "text": "tech in the world in this video we're",
+    "duration": 3661,
+    "offset": 16049,
+    "lang": "en"
+  },
+  {
+    "text": "gonna go over everything that you need",
+    "duration": 2641,
+    "offset": 18359,
+    "lang": "en"
+  },
+  {
+    "text": "to know to get started with the",
+    "duration": 3479,
+    "offset": 19710,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi 4 including what hardware",
+    "duration": 3869,
+    "offset": 21000,
+    "lang": "en"
+  },
+  {
+    "text": "you should buy how to install the",
+    "duration": 3721,
+    "offset": 23189,
+    "lang": "en"
+  },
+  {
+    "text": "operating system and then some initial",
+    "duration": 3961,
+    "offset": 24869,
+    "lang": "en"
+  },
+  {
+    "text": "steps once the operating system has been",
+    "duration": 4709,
+    "offset": 26910,
+    "lang": "en"
+  },
+  {
+    "text": "installed first and foremost though what",
+    "duration": 4499,
+    "offset": 28830,
+    "lang": "en"
+  },
+  {
+    "text": "is a Raspberry Pi",
+    "duration": 4440,
+    "offset": 31619,
+    "lang": "en"
+  },
+  {
+    "text": "well basically Raspberry Pi is a single",
+    "duration": 5070,
+    "offset": 33329,
+    "lang": "en"
+  },
+  {
+    "text": "board computer now imagine a computer",
+    "duration": 4201,
+    "offset": 36059,
+    "lang": "en"
+  },
+  {
+    "text": "that has all the same components as a",
+    "duration": 4891,
+    "offset": 38399,
+    "lang": "en"
+  },
+  {
+    "text": "desktop PC but in a much smaller form",
+    "duration": 5760,
+    "offset": 40260,
+    "lang": "en"
+  },
+  {
+    "text": "factor the Raspberry Pi 4 is a huge step",
+    "duration": 3749,
+    "offset": 43290,
+    "lang": "en"
+  },
+  {
+    "text": "up from the previous generation",
+    "duration": 4469,
+    "offset": 46020,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi 3 adding onboard dual",
+    "duration": 5641,
+    "offset": 47039,
+    "lang": "en"
+  },
+  {
+    "text": "monitor support and the option to have",
+    "duration": 5371,
+    "offset": 50489,
+    "lang": "en"
+  },
+  {
+    "text": "up to 4 gigabytes of RAM all in all this",
+    "duration": 5789,
+    "offset": 52680,
+    "lang": "en"
+  },
+  {
+    "text": "is a small silent form factor computer",
+    "duration": 5519,
+    "offset": 55860,
+    "lang": "en"
+  },
+  {
+    "text": "that starts at just 35 bucks you can use",
+    "duration": 5101,
+    "offset": 58469,
+    "lang": "en"
+  },
+  {
+    "text": "the Raspberry Pi 4 for all different",
+    "duration": 4140,
+    "offset": 61379,
+    "lang": "en"
+  },
+  {
+    "text": "kinds of projects ranging from digital",
+    "duration": 4890,
+    "offset": 63570,
+    "lang": "en"
+  },
+  {
+    "text": "signage robotics retro gaming consoles",
+    "duration": 4651,
+    "offset": 65519,
+    "lang": "en"
+  },
+  {
+    "text": "you can use it for piehole which",
+    "duration": 3510,
+    "offset": 68460,
+    "lang": "en"
+  },
+  {
+    "text": "provides ad blocking for your entire",
+    "duration": 3930,
+    "offset": 70170,
+    "lang": "en"
+  },
+  {
+    "text": "network or one of my favorite uses for",
+    "duration": 4410,
+    "offset": 71970,
+    "lang": "en"
+  },
+  {
+    "text": "these devices is network monitoring now",
+    "duration": 4589,
+    "offset": 74100,
+    "lang": "en"
+  },
+  {
+    "text": "above all though it's an amazing",
+    "duration": 4770,
+    "offset": 76380,
+    "lang": "en"
+  },
+  {
+    "text": "learning tool for Linux for prototyping",
+    "duration": 4921,
+    "offset": 78689,
+    "lang": "en"
+  },
+  {
+    "text": "new ideas or for just creating something",
+    "duration": 4109,
+    "offset": 81150,
+    "lang": "en"
+  },
+  {
+    "text": "spectacular you're pretty much only",
+    "duration": 3810,
+    "offset": 83610,
+    "lang": "en"
+  },
+  {
+    "text": "limited to your imagination if you",
+    "duration": 4831,
+    "offset": 85259,
+    "lang": "en"
+  },
+  {
+    "text": "search Raspberry Pi projects on Google",
+    "duration": 4800,
+    "offset": 87420,
+    "lang": "en"
+  },
+  {
+    "text": "or YouTube you're gonna find an endless",
+    "duration": 4770,
+    "offset": 90090,
+    "lang": "en"
+  },
+  {
+    "text": "list of fun projects to try out another",
+    "duration": 4620,
+    "offset": 92220,
+    "lang": "en"
+  },
+  {
+    "text": "great resource is magpie which is the",
+    "duration": 4950,
+    "offset": 94860,
+    "lang": "en"
+  },
+  {
+    "text": "official Raspberry Pi magazine I'll have",
+    "duration": 4349,
+    "offset": 96840,
+    "lang": "en"
+  },
+  {
+    "text": "a link down below if you want to check",
+    "duration": 3839,
+    "offset": 99810,
+    "lang": "en"
+  },
+  {
+    "text": "out magpie it's completely free and each",
+    "duration": 4591,
+    "offset": 101189,
+    "lang": "en"
+  },
+  {
+    "text": "issue details tons of really cool",
+    "duration": 5701,
+    "offset": 103649,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi based projects but before",
+    "duration": 5339,
+    "offset": 105780,
+    "lang": "en"
+  },
+  {
+    "text": "you get to any of these cool projects",
+    "duration": 3629,
+    "offset": 109350,
+    "lang": "en"
+  },
+  {
+    "text": "you have to have a Raspberry Pi so the",
+    "duration": 3570,
+    "offset": 111119,
+    "lang": "en"
+  },
+  {
+    "text": "first thing we're gonna do is start off",
+    "duration": 3390,
+    "offset": 112979,
+    "lang": "en"
+  },
+  {
+    "text": "with one of my favorite Raspberry Pi",
+    "duration": 3750,
+    "offset": 114689,
+    "lang": "en"
+  },
+  {
+    "text": "kits which includes everything that you",
+    "duration": 4081,
+    "offset": 116369,
+    "lang": "en"
+  },
+  {
+    "text": "need to get started and that is the",
+    "duration": 4591,
+    "offset": 118439,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi Kanak it there are all",
+    "duration": 5610,
+    "offset": 120450,
+    "lang": "en"
+  },
+  {
+    "text": "kinds of options for Raspberry Pi cases",
+    "duration": 5190,
+    "offset": 123030,
+    "lang": "en"
+  },
+  {
+    "text": "and accessories here's one that I have",
+    "duration": 5429,
+    "offset": 126060,
+    "lang": "en"
+  },
+  {
+    "text": "here this is a Raspberry Pi 4 with a PI",
+    "duration": 5640,
+    "offset": 128220,
+    "lang": "en"
+  },
+  {
+    "text": "Moroney fan shim 2",
+    "duration": 4231,
+    "offset": 131489,
+    "lang": "en"
+  },
+  {
+    "text": "keep it cool as well as this really neat",
+    "duration": 4620,
+    "offset": 133860,
+    "lang": "en"
+  },
+  {
+    "text": "pie Marigny rainbow case so again this",
+    "duration": 4950,
+    "offset": 135720,
+    "lang": "en"
+  },
+  {
+    "text": "is just one option if you don't know",
+    "duration": 4140,
+    "offset": 138480,
+    "lang": "en"
+  },
+  {
+    "text": "where to start though a really really",
+    "duration": 4710,
+    "offset": 140670,
+    "lang": "en"
+  },
+  {
+    "text": "good place to start is with the cannikin",
+    "duration": 6420,
+    "offset": 142620,
+    "lang": "en"
+  },
+  {
+    "text": "raspberry pie starter kit now that makes",
+    "duration": 5340,
+    "offset": 145380,
+    "lang": "en"
+  },
+  {
+    "text": "it comes with everything that you see",
+    "duration": 3750,
+    "offset": 149040,
+    "lang": "en"
+  },
+  {
+    "text": "here and it's literally everything that",
+    "duration": 3840,
+    "offset": 150720,
+    "lang": "en"
+  },
+  {
+    "text": "you need to get going with raspberry pie",
+    "duration": 4680,
+    "offset": 152790,
+    "lang": "en"
+  },
+  {
+    "text": "the starter kit includes a Raspberry Pi",
+    "duration": 5490,
+    "offset": 154560,
+    "lang": "en"
+  },
+  {
+    "text": "4 and there's 3 different versions",
+    "duration": 5580,
+    "offset": 157470,
+    "lang": "en"
+  },
+  {
+    "text": "because raspberry pi 4 has 3 different",
+    "duration": 5490,
+    "offset": 160050,
+    "lang": "en"
+  },
+  {
+    "text": "versions of RAM that it can come with",
+    "duration": 4770,
+    "offset": 163050,
+    "lang": "en"
+  },
+  {
+    "text": "the one gigabyte raspberry pi fork",
+    "duration": 6090,
+    "offset": 165540,
+    "lang": "en"
+  },
+  {
+    "text": "anacott starter kit is $79.99 the 2",
+    "duration": 7020,
+    "offset": 167820,
+    "lang": "en"
+  },
+  {
+    "text": "gigabyte version is $89.99 and the 4",
+    "duration": 4800,
+    "offset": 171630,
+    "lang": "en"
+  },
+  {
+    "text": "gigabyte version that's what this one is",
+    "duration": 4619,
+    "offset": 174840,
+    "lang": "en"
+  },
+  {
+    "text": "here that's $99.99 now the links to all",
+    "duration": 4770,
+    "offset": 176430,
+    "lang": "en"
+  },
+  {
+    "text": "of this equipment is down below in the",
+    "duration": 3631,
+    "offset": 179459,
+    "lang": "en"
+  },
+  {
+    "text": "description those are Amazon affiliate",
+    "duration": 3720,
+    "offset": 181200,
+    "lang": "en"
+  },
+  {
+    "text": "links you don't have to buy through our",
+    "duration": 3780,
+    "offset": 183090,
+    "lang": "en"
+  },
+  {
+    "text": "affiliate but if you do it doesn't",
+    "duration": 4380,
+    "offset": 184920,
+    "lang": "en"
+  },
+  {
+    "text": "change your price at all it just gives",
+    "duration": 5220,
+    "offset": 186870,
+    "lang": "en"
+  },
+  {
+    "text": "us a small percentage back for our",
+    "duration": 4110,
+    "offset": 189300,
+    "lang": "en"
+  },
+  {
+    "text": "effort and creating these kinds of",
+    "duration": 2850,
+    "offset": 192090,
+    "lang": "en"
+  },
+  {
+    "text": "educational videos and certainly we",
+    "duration": 3690,
+    "offset": 193410,
+    "lang": "en"
+  },
+  {
+    "text": "appreciate any affiliate sales that we",
+    "duration": 3990,
+    "offset": 194940,
+    "lang": "en"
+  },
+  {
+    "text": "receive so in the starter kit you get",
+    "duration": 4020,
+    "offset": 197100,
+    "lang": "en"
+  },
+  {
+    "text": "your choice of raspberry pi depending on",
+    "duration": 3930,
+    "offset": 198930,
+    "lang": "en"
+  },
+  {
+    "text": "how much ram you want if you're just",
+    "duration": 3630,
+    "offset": 201120,
+    "lang": "en"
+  },
+  {
+    "text": "going to be using it for testing the 1",
+    "duration": 3720,
+    "offset": 202860,
+    "lang": "en"
+  },
+  {
+    "text": "gigabyte version is perfectly fine",
+    "duration": 3840,
+    "offset": 204750,
+    "lang": "en"
+  },
+  {
+    "text": "however if you're interested in using it",
+    "duration": 3930,
+    "offset": 206580,
+    "lang": "en"
+  },
+  {
+    "text": "for any sort of graphics or like a",
+    "duration": 3149,
+    "offset": 208590,
+    "lang": "en"
+  },
+  {
+    "text": "desktop environment",
+    "duration": 3150,
+    "offset": 210510,
+    "lang": "en"
+  },
+  {
+    "text": "I would definitely deck it out with all",
+    "duration": 4411,
+    "offset": 211739,
+    "lang": "en"
+  },
+  {
+    "text": "4 gigabytes of RAM the starter kit also",
+    "duration": 6740,
+    "offset": 213660,
+    "lang": "en"
+  },
+  {
+    "text": "comes with a case it comes with a 32 gig",
+    "duration": 6780,
+    "offset": 216150,
+    "lang": "en"
+  },
+  {
+    "text": "this is not the exact card that it comes",
+    "duration": 4839,
+    "offset": 220400,
+    "lang": "en"
+  },
+  {
+    "text": "with but it does come with a 32 gig ebo",
+    "duration": 5610,
+    "offset": 222930,
+    "lang": "en"
+  },
+  {
+    "text": "plus class 10 micro sd card it comes",
+    "duration": 5041,
+    "offset": 225239,
+    "lang": "en"
+  },
+  {
+    "text": "with these heat sinks that you can see I",
+    "duration": 3660,
+    "offset": 228540,
+    "lang": "en"
+  },
+  {
+    "text": "have already placed onto the Raspberry",
+    "duration": 4920,
+    "offset": 230280,
+    "lang": "en"
+  },
+  {
+    "text": "Pi it comes with a power switch now this",
+    "duration": 4470,
+    "offset": 232200,
+    "lang": "en"
+  },
+  {
+    "text": "is really handy it's something that I",
+    "duration": 2910,
+    "offset": 235200,
+    "lang": "en"
+  },
+  {
+    "text": "didn't think would be such a big deal",
+    "duration": 3599,
+    "offset": 236670,
+    "lang": "en"
+  },
+  {
+    "text": "but I actually use this power switch all",
+    "duration": 4800,
+    "offset": 238110,
+    "lang": "en"
+  },
+  {
+    "text": "the time rather than taking the USBC",
+    "duration": 4711,
+    "offset": 240269,
+    "lang": "en"
+  },
+  {
+    "text": "connector and pulling it in and out all",
+    "duration": 3930,
+    "offset": 242910,
+    "lang": "en"
+  },
+  {
+    "text": "the time anytime you want to reboot the",
+    "duration": 3360,
+    "offset": 244980,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi for which you're going to",
+    "duration": 3360,
+    "offset": 246840,
+    "lang": "en"
+  },
+  {
+    "text": "do a lot you can just click it on and",
+    "duration": 3929,
+    "offset": 248340,
+    "lang": "en"
+  },
+  {
+    "text": "off with this power switch it makes it",
+    "duration": 3720,
+    "offset": 250200,
+    "lang": "en"
+  },
+  {
+    "text": "much easier and there's less chance of",
+    "duration": 5190,
+    "offset": 252269,
+    "lang": "en"
+  },
+  {
+    "text": "damaging the USBC connection you also",
+    "duration": 6270,
+    "offset": 253920,
+    "lang": "en"
+  },
+  {
+    "text": "get a power supply or a power adapter a",
+    "duration": 7291,
+    "offset": 257459,
+    "lang": "en"
+  },
+  {
+    "text": "a micro SD card reader and HDMI to micro",
+    "duration": 6840,
+    "offset": 260190,
+    "lang": "en"
+  },
+  {
+    "text": "HDMI cable keep in mind that there are",
+    "duration": 5670,
+    "offset": 264750,
+    "lang": "en"
+  },
+  {
+    "text": "- micro HDMI ports on the Raspberry Pi 4",
+    "duration": 5640,
+    "offset": 267030,
+    "lang": "en"
+  },
+  {
+    "text": "and you only get one cables if you want",
+    "duration": 3840,
+    "offset": 270420,
+    "lang": "en"
+  },
+  {
+    "text": "to run dual monitors you will have to",
+    "duration": 5130,
+    "offset": 272670,
+    "lang": "en"
+  },
+  {
+    "text": "buy a second micro HDMI to HDMI cable",
+    "duration": 5970,
+    "offset": 274260,
+    "lang": "en"
+  },
+  {
+    "text": "and finally you also get the Quick Start",
+    "duration": 5040,
+    "offset": 277800,
+    "lang": "en"
+  },
+  {
+    "text": "Guide on Raspberry Pi which includes a",
+    "duration": 4590,
+    "offset": 280230,
+    "lang": "en"
+  },
+  {
+    "text": "troubleshooting guide as well as a lot",
+    "duration": 3570,
+    "offset": 282840,
+    "lang": "en"
+  },
+  {
+    "text": "of other useful information about the",
+    "duration": 4020,
+    "offset": 284820,
+    "lang": "en"
+  },
+  {
+    "text": "device such as the various components",
+    "duration": 4470,
+    "offset": 286410,
+    "lang": "en"
+  },
+  {
+    "text": "and a reference for what each of these",
+    "duration": 4860,
+    "offset": 288840,
+    "lang": "en"
+  },
+  {
+    "text": "GPIO pins does across the top of the",
+    "duration": 4770,
+    "offset": 290880,
+    "lang": "en"
+  },
+  {
+    "text": "board there's also a link here that you",
+    "duration": 4520,
+    "offset": 293700,
+    "lang": "en"
+  },
+  {
+    "text": "can see for more projects you can go to",
+    "duration": 6960,
+    "offset": 295650,
+    "lang": "en"
+  },
+  {
+    "text": "WWE kit comm slash Pi projects so let's",
+    "duration": 5980,
+    "offset": 298220,
+    "lang": "en"
+  },
+  {
+    "text": "take a closer look at the Raspberry Pi",
+    "duration": 4440,
+    "offset": 302610,
+    "lang": "en"
+  },
+  {
+    "text": "board itself there are a number of",
+    "duration": 5100,
+    "offset": 304200,
+    "lang": "en"
+  },
+  {
+    "text": "connectors so right here we have our",
+    "duration": 4080,
+    "offset": 307050,
+    "lang": "en"
+  },
+  {
+    "text": "Ethernet connector that is a Gigabit",
+    "duration": 5460,
+    "offset": 309300,
+    "lang": "en"
+  },
+  {
+    "text": "Ethernet port we have two USB 3.0 ports",
+    "duration": 7620,
+    "offset": 311130,
+    "lang": "en"
+  },
+  {
+    "text": "we have two USB 2.0 ports on this side",
+    "duration": 9480,
+    "offset": 314760,
+    "lang": "en"
+  },
+  {
+    "text": "we have a 3.5 millimeter audio jack we",
+    "duration": 10560,
+    "offset": 318750,
+    "lang": "en"
+  },
+  {
+    "text": "have dual HDMI or micro HDMI connectors",
+    "duration": 7470,
+    "offset": 324240,
+    "lang": "en"
+  },
+  {
+    "text": "so you can run dual monitors we have our",
+    "duration": 5850,
+    "offset": 329310,
+    "lang": "en"
+  },
+  {
+    "text": "USB type-c power connector right here in",
+    "duration": 6660,
+    "offset": 331710,
+    "lang": "en"
+  },
+  {
+    "text": "between the audio and the second micro",
+    "duration": 5850,
+    "offset": 335160,
+    "lang": "en"
+  },
+  {
+    "text": "HDMI this sort of long slender piece",
+    "duration": 4410,
+    "offset": 338370,
+    "lang": "en"
+  },
+  {
+    "text": "right here is a camera connector so you",
+    "duration": 3779,
+    "offset": 341010,
+    "lang": "en"
+  },
+  {
+    "text": "can connect up a Raspberry Pi camera",
+    "duration": 4770,
+    "offset": 342780,
+    "lang": "en"
+  },
+  {
+    "text": "then we have a DSi display connector for",
+    "duration": 4321,
+    "offset": 344789,
+    "lang": "en"
+  },
+  {
+    "text": "if you want to connect it out to for",
+    "duration": 3630,
+    "offset": 347550,
+    "lang": "en"
+  },
+  {
+    "text": "instance the official Raspberry Pi touch",
+    "duration": 3809,
+    "offset": 349110,
+    "lang": "en"
+  },
+  {
+    "text": "screen you can connect that right here",
+    "duration": 4920,
+    "offset": 351180,
+    "lang": "en"
+  },
+  {
+    "text": "across the top we have our 40 pin GPIO",
+    "duration": 5881,
+    "offset": 352919,
+    "lang": "en"
+  },
+  {
+    "text": "header then we have our four pin POA",
+    "duration": 4560,
+    "offset": 356100,
+    "lang": "en"
+  },
+  {
+    "text": "header right here it's these four little",
+    "duration": 3420,
+    "offset": 358800,
+    "lang": "en"
+  },
+  {
+    "text": "pins that are sticking up next to the",
+    "duration": 4050,
+    "offset": 360660,
+    "lang": "en"
+  },
+  {
+    "text": "GPIO header and that is so that you can",
+    "duration": 4800,
+    "offset": 362220,
+    "lang": "en"
+  },
+  {
+    "text": "put on a Power over Ethernet hat in",
+    "duration": 4650,
+    "offset": 364710,
+    "lang": "en"
+  },
+  {
+    "text": "order to power the Raspberry Pi 4",
+    "duration": 4769,
+    "offset": 367020,
+    "lang": "en"
+  },
+  {
+    "text": "through Ethernet rather than having to",
+    "duration": 4950,
+    "offset": 369360,
+    "lang": "en"
+  },
+  {
+    "text": "use the microUSB connector if you flip",
+    "duration": 5011,
+    "offset": 371789,
+    "lang": "en"
+  },
+  {
+    "text": "this over on the bottom right here is",
+    "duration": 4800,
+    "offset": 374310,
+    "lang": "en"
+  },
+  {
+    "text": "where we're gonna insert our micro SD",
+    "duration": 4350,
+    "offset": 376800,
+    "lang": "en"
+  },
+  {
+    "text": "card that contains the operating system",
+    "duration": 4410,
+    "offset": 379110,
+    "lang": "en"
+  },
+  {
+    "text": "flipping it back this way we have a few",
+    "duration": 4980,
+    "offset": 381150,
+    "lang": "en"
+  },
+  {
+    "text": "components to look out for this one in",
+    "duration": 5730,
+    "offset": 383520,
+    "lang": "en"
+  },
+  {
+    "text": "the top corner is the Wi-Fi and",
+    "duration": 5700,
+    "offset": 386130,
+    "lang": "en"
+  },
+  {
+    "text": "Bluetooth module the one under this big",
+    "duration": 5729,
+    "offset": 389250,
+    "lang": "en"
+  },
+  {
+    "text": "heatsink here is the CPU and then under",
+    "duration": 5519,
+    "offset": 391830,
+    "lang": "en"
+  },
+  {
+    "text": "this smaller rectangular heatsink right",
+    "duration": 5011,
+    "offset": 394979,
+    "lang": "en"
+  },
+  {
+    "text": "here this is going to be your RAM next",
+    "duration": 3530,
+    "offset": 397349,
+    "lang": "en"
+  },
+  {
+    "text": "we're going to plug",
+    "duration": 2929,
+    "offset": 399990,
+    "lang": "en"
+  },
+  {
+    "text": "all of the different components into our",
+    "duration": 4530,
+    "offset": 400879,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi for to get it ready to",
+    "duration": 4890,
+    "offset": 402919,
+    "lang": "en"
+  },
+  {
+    "text": "receive the operating system which we're",
+    "duration": 4020,
+    "offset": 405409,
+    "lang": "en"
+  },
+  {
+    "text": "gonna do next that'll end up on this",
+    "duration": 3750,
+    "offset": 407809,
+    "lang": "en"
+  },
+  {
+    "text": "little micro SD card so we're gonna put",
+    "duration": 4110,
+    "offset": 409429,
+    "lang": "en"
+  },
+  {
+    "text": "the micro sd card aside for the time",
+    "duration": 4080,
+    "offset": 411559,
+    "lang": "en"
+  },
+  {
+    "text": "being and we want to start by plugging",
+    "duration": 3900,
+    "offset": 413539,
+    "lang": "en"
+  },
+  {
+    "text": "in the keyboard and mouse",
+    "duration": 3150,
+    "offset": 415639,
+    "lang": "en"
+  },
+  {
+    "text": "now keyboard and mouse are going to plug",
+    "duration": 3421,
+    "offset": 417439,
+    "lang": "en"
+  },
+  {
+    "text": "into the USB ports I would recommend",
+    "duration": 4770,
+    "offset": 418789,
+    "lang": "en"
+  },
+  {
+    "text": "plugging them into the USB 2.0 ports",
+    "duration": 5190,
+    "offset": 420860,
+    "lang": "en"
+  },
+  {
+    "text": "that way you reserve the higher",
+    "duration": 5970,
+    "offset": 423559,
+    "lang": "en"
+  },
+  {
+    "text": "bandwidth of the USB 3.0 ports the blue",
+    "duration": 6149,
+    "offset": 426050,
+    "lang": "en"
+  },
+  {
+    "text": "ones for other devices that might be",
+    "duration": 4771,
+    "offset": 429529,
+    "lang": "en"
+  },
+  {
+    "text": "able to utilize the faster speeds such",
+    "duration": 4200,
+    "offset": 432199,
+    "lang": "en"
+  },
+  {
+    "text": "as an external hard drive flipping it to",
+    "duration": 3810,
+    "offset": 434300,
+    "lang": "en"
+  },
+  {
+    "text": "the side here we're going to plug in our",
+    "duration": 5341,
+    "offset": 436399,
+    "lang": "en"
+  },
+  {
+    "text": "micro HDMI now there are two HDMI ports",
+    "duration": 5429,
+    "offset": 438110,
+    "lang": "en"
+  },
+  {
+    "text": "if you're only going to be using one",
+    "duration": 5459,
+    "offset": 441740,
+    "lang": "en"
+  },
+  {
+    "text": "monitor you want to plug into hdmi zero",
+    "duration": 6720,
+    "offset": 443539,
+    "lang": "en"
+  },
+  {
+    "text": "which is the pork closer to power and it",
+    "duration": 5190,
+    "offset": 447199,
+    "lang": "en"
+  },
+  {
+    "text": "is actually labeled HDMI zero so that",
+    "duration": 5520,
+    "offset": 450259,
+    "lang": "en"
+  },
+  {
+    "text": "you can tell which one is which there we",
+    "duration": 5280,
+    "offset": 452389,
+    "lang": "en"
+  },
+  {
+    "text": "go so now we have keyboard and mouse and",
+    "duration": 4831,
+    "offset": 455779,
+    "lang": "en"
+  },
+  {
+    "text": "monitor plugged in next we're gonna plug",
+    "duration": 5400,
+    "offset": 457669,
+    "lang": "en"
+  },
+  {
+    "text": "in a network cable now this is optional",
+    "duration": 4529,
+    "offset": 460610,
+    "lang": "en"
+  },
+  {
+    "text": "so you don't have to plug in a network",
+    "duration": 4260,
+    "offset": 463069,
+    "lang": "en"
+  },
+  {
+    "text": "cable we're gonna plug it right into the",
+    "duration": 4800,
+    "offset": 465139,
+    "lang": "en"
+  },
+  {
+    "text": "Ethernet port right here now I say it's",
+    "duration": 5190,
+    "offset": 467329,
+    "lang": "en"
+  },
+  {
+    "text": "optional because there is Wireless you",
+    "duration": 4620,
+    "offset": 469939,
+    "lang": "en"
+  },
+  {
+    "text": "have this wireless chip on the board",
+    "duration": 4860,
+    "offset": 472519,
+    "lang": "en"
+  },
+  {
+    "text": "itself so you can technically connect to",
+    "duration": 4681,
+    "offset": 474559,
+    "lang": "en"
+  },
+  {
+    "text": "this to your wireless network and use it",
+    "duration": 4890,
+    "offset": 477379,
+    "lang": "en"
+  },
+  {
+    "text": "that way however in most cases Ethernet",
+    "duration": 4679,
+    "offset": 479240,
+    "lang": "en"
+  },
+  {
+    "text": "is going to be faster right so for at",
+    "duration": 3630,
+    "offset": 482269,
+    "lang": "en"
+  },
+  {
+    "text": "least the initial setup of a Raspberry",
+    "duration": 4710,
+    "offset": 483919,
+    "lang": "en"
+  },
+  {
+    "text": "Pi I typically try to use a hard wired",
+    "duration": 4890,
+    "offset": 485899,
+    "lang": "en"
+  },
+  {
+    "text": "Ethernet connection rather than rely on",
+    "duration": 4680,
+    "offset": 488629,
+    "lang": "en"
+  },
+  {
+    "text": "the onboard wireless finally we have our",
+    "duration": 4201,
+    "offset": 490789,
+    "lang": "en"
+  },
+  {
+    "text": "power switch this is the power switch",
+    "duration": 3840,
+    "offset": 493309,
+    "lang": "en"
+  },
+  {
+    "text": "you want to take your USB type-c power",
+    "duration": 4079,
+    "offset": 494990,
+    "lang": "en"
+  },
+  {
+    "text": "supply plug it in to the back end of the",
+    "duration": 3330,
+    "offset": 497149,
+    "lang": "en"
+  },
+  {
+    "text": "power switch what you're gonna see here",
+    "duration": 4140,
+    "offset": 499069,
+    "lang": "en"
+  },
+  {
+    "text": "is it will turn it has a red LED that is",
+    "duration": 5370,
+    "offset": 500479,
+    "lang": "en"
+  },
+  {
+    "text": "on when the power switch is on and it's",
+    "duration": 4440,
+    "offset": 503209,
+    "lang": "en"
+  },
+  {
+    "text": "off when the power switch is off so make",
+    "duration": 3511,
+    "offset": 505849,
+    "lang": "en"
+  },
+  {
+    "text": "sure that it's off and then we're gonna",
+    "duration": 4560,
+    "offset": 507649,
+    "lang": "en"
+  },
+  {
+    "text": "plug it into our Raspberry Pi power",
+    "duration": 5880,
+    "offset": 509360,
+    "lang": "en"
+  },
+  {
+    "text": "connector and now we are completely set",
+    "duration": 5070,
+    "offset": 512209,
+    "lang": "en"
+  },
+  {
+    "text": "up and ready to rock and roll the next",
+    "duration": 3750,
+    "offset": 515240,
+    "lang": "en"
+  },
+  {
+    "text": "thing that we want to do is prepare our",
+    "duration": 4351,
+    "offset": 517279,
+    "lang": "en"
+  },
+  {
+    "text": "micro SD card so you take your micro SD",
+    "duration": 4709,
+    "offset": 518990,
+    "lang": "en"
+  },
+  {
+    "text": "card you insert it into your computer in",
+    "duration": 4379,
+    "offset": 521630,
+    "lang": "en"
+  },
+  {
+    "text": "this case I'm using Windows to do all",
+    "duration": 5221,
+    "offset": 523699,
+    "lang": "en"
+  },
+  {
+    "text": "this but you can use Mac or even Linux",
+    "duration": 4651,
+    "offset": 526009,
+    "lang": "en"
+  },
+  {
+    "text": "to do all of this same sort of stuff you",
+    "duration": 3810,
+    "offset": 528920,
+    "lang": "en"
+  },
+  {
+    "text": "just have to sort of reconfigure the",
+    "duration": 3520,
+    "offset": 530660,
+    "lang": "en"
+  },
+  {
+    "text": "instructions a little bit for those",
+    "duration": 3790,
+    "offset": 532730,
+    "lang": "en"
+  },
+  {
+    "text": "forms if you're following along in",
+    "duration": 5460,
+    "offset": 534180,
+    "lang": "en"
+  },
+  {
+    "text": "Windows I have full instructions for all",
+    "duration": 5850,
+    "offset": 536520,
+    "lang": "en"
+  },
+  {
+    "text": "of this on the crosstalk solutions blog",
+    "duration": 4889,
+    "offset": 539640,
+    "lang": "en"
+  },
+  {
+    "text": "that will be linked down below so if you",
+    "duration": 4290,
+    "offset": 542370,
+    "lang": "en"
+  },
+  {
+    "text": "want to follow along and it's easier for",
+    "duration": 4321,
+    "offset": 544529,
+    "lang": "en"
+  },
+  {
+    "text": "you to read text rather than listen to",
+    "duration": 4890,
+    "offset": 546660,
+    "lang": "en"
+  },
+  {
+    "text": "me jabber on about it go to crosstalk",
+    "duration": 4980,
+    "offset": 548850,
+    "lang": "en"
+  },
+  {
+    "text": "Solutions comm click on blog and then",
+    "duration": 4590,
+    "offset": 551550,
+    "lang": "en"
+  },
+  {
+    "text": "click on the getting started with",
+    "duration": 6210,
+    "offset": 553830,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi for blog post okay so in",
+    "duration": 6480,
+    "offset": 556140,
+    "lang": "en"
+  },
+  {
+    "text": "this blog post we have download noobs",
+    "duration": 5430,
+    "offset": 560040,
+    "lang": "en"
+  },
+  {
+    "text": "and flash the microSD card that's the",
+    "duration": 3990,
+    "offset": 562620,
+    "lang": "en"
+  },
+  {
+    "text": "next step now noobs",
+    "duration": 4440,
+    "offset": 565470,
+    "lang": "en"
+  },
+  {
+    "text": "is the new out-of-the-box software",
+    "duration": 6360,
+    "offset": 566610,
+    "lang": "en"
+  },
+  {
+    "text": "package for Raspberry Pi and essentially",
+    "duration": 4679,
+    "offset": 569910,
+    "lang": "en"
+  },
+  {
+    "text": "noobs allows you to install not only",
+    "duration": 4710,
+    "offset": 572970,
+    "lang": "en"
+  },
+  {
+    "text": "raspbian but a number of other operating",
+    "duration": 4771,
+    "offset": 574589,
+    "lang": "en"
+  },
+  {
+    "text": "systems that you might want to play with",
+    "duration": 3390,
+    "offset": 577680,
+    "lang": "en"
+  },
+  {
+    "text": "for Raspberry Pi as well so it just",
+    "duration": 3390,
+    "offset": 579360,
+    "lang": "en"
+  },
+  {
+    "text": "gives you a little bit of extra exposure",
+    "duration": 3870,
+    "offset": 581070,
+    "lang": "en"
+  },
+  {
+    "text": "to what is possible with Raspberry Pi",
+    "duration": 4470,
+    "offset": 582750,
+    "lang": "en"
+  },
+  {
+    "text": "versus raspbian is just the straight-up",
+    "duration": 4260,
+    "offset": 584940,
+    "lang": "en"
+  },
+  {
+    "text": "operating system and you don't get that",
+    "duration": 3809,
+    "offset": 587220,
+    "lang": "en"
+  },
+  {
+    "text": "extra exposure once you have your",
+    "duration": 4290,
+    "offset": 589200,
+    "lang": "en"
+  },
+  {
+    "text": "microSD card inserted we need to format",
+    "duration": 5250,
+    "offset": 591029,
+    "lang": "en"
+  },
+  {
+    "text": "it if you have a brand new micro SD card",
+    "duration": 4950,
+    "offset": 593490,
+    "lang": "en"
+  },
+  {
+    "text": "that you just purchased you can likely",
+    "duration": 4471,
+    "offset": 596279,
+    "lang": "en"
+  },
+  {
+    "text": "skip this step you don't need to format",
+    "duration": 4530,
+    "offset": 598440,
+    "lang": "en"
+  },
+  {
+    "text": "it but since I have a an SD card that",
+    "duration": 3930,
+    "offset": 600750,
+    "lang": "en"
+  },
+  {
+    "text": "I've used before I'm going to format it",
+    "duration": 3420,
+    "offset": 602970,
+    "lang": "en"
+  },
+  {
+    "text": "and I'm going to format it using a",
+    "duration": 4409,
+    "offset": 604680,
+    "lang": "en"
+  },
+  {
+    "text": "program called SD card formatter here we",
+    "duration": 5370,
+    "offset": 606390,
+    "lang": "en"
+  },
+  {
+    "text": "have SD card formatter I want to select",
+    "duration": 5341,
+    "offset": 609089,
+    "lang": "en"
+  },
+  {
+    "text": "my micro sd card now incredibly",
+    "duration": 5640,
+    "offset": 611760,
+    "lang": "en"
+  },
+  {
+    "text": "important caveat here make sure you",
+    "duration": 5730,
+    "offset": 614430,
+    "lang": "en"
+  },
+  {
+    "text": "select the correct Drive letter if you",
+    "duration": 5280,
+    "offset": 617400,
+    "lang": "en"
+  },
+  {
+    "text": "select for instance like a USB storage",
+    "duration": 5580,
+    "offset": 620160,
+    "lang": "en"
+  },
+  {
+    "text": "Drive you can absolutely format it and",
+    "duration": 4920,
+    "offset": 622680,
+    "lang": "en"
+  },
+  {
+    "text": "you might lose all your family photos or",
+    "duration": 4710,
+    "offset": 625740,
+    "lang": "en"
+  },
+  {
+    "text": "something okay so make sure double and",
+    "duration": 4739,
+    "offset": 627600,
+    "lang": "en"
+  },
+  {
+    "text": "then triple check that you are",
+    "duration": 4980,
+    "offset": 630450,
+    "lang": "en"
+  },
+  {
+    "text": "formatting the correct card or the",
+    "duration": 5521,
+    "offset": 632339,
+    "lang": "en"
+  },
+  {
+    "text": "correct drive with SD card for matter",
+    "duration": 3930,
+    "offset": 635430,
+    "lang": "en"
+  },
+  {
+    "text": "this is unrecoverable",
+    "duration": 3840,
+    "offset": 637860,
+    "lang": "en"
+  },
+  {
+    "text": "if you do this and mess it up with that",
+    "duration": 4979,
+    "offset": 639360,
+    "lang": "en"
+  },
+  {
+    "text": "warning stated mine is the D Drive and",
+    "duration": 5040,
+    "offset": 641700,
+    "lang": "en"
+  },
+  {
+    "text": "we can see here that it's a 32 gig card",
+    "duration": 5190,
+    "offset": 644339,
+    "lang": "en"
+  },
+  {
+    "text": "it says 29 gigs capacity but that's just",
+    "duration": 4050,
+    "offset": 646740,
+    "lang": "en"
+  },
+  {
+    "text": "sort of a little bit of overhead in",
+    "duration": 3451,
+    "offset": 649529,
+    "lang": "en"
+  },
+  {
+    "text": "there it's actually a 32 gig card we're",
+    "duration": 3660,
+    "offset": 650790,
+    "lang": "en"
+  },
+  {
+    "text": "gonna do a quick format and I'm gonna",
+    "duration": 7229,
+    "offset": 652980,
+    "lang": "en"
+  },
+  {
+    "text": "call the volume label Raz high and we're",
+    "duration": 8960,
+    "offset": 654450,
+    "lang": "en"
+  },
+  {
+    "text": "going to say format",
+    "duration": 3201,
+    "offset": 660209,
+    "lang": "en"
+  },
+  {
+    "text": "and yes there we go so now we have R as",
+    "duration": 8250,
+    "offset": 663540,
+    "lang": "en"
+  },
+  {
+    "text": "PI all set up formatting was successful",
+    "duration": 4710,
+    "offset": 668640,
+    "lang": "en"
+  },
+  {
+    "text": "the next thing that you want to do is",
+    "duration": 4110,
+    "offset": 671790,
+    "lang": "en"
+  },
+  {
+    "text": "download noobs so there's a link to",
+    "duration": 4920,
+    "offset": 673350,
+    "lang": "en"
+  },
+  {
+    "text": "noobs in my blog post but here's the",
+    "duration": 4320,
+    "offset": 675900,
+    "lang": "en"
+  },
+  {
+    "text": "page as of the recording of this video",
+    "duration": 9330,
+    "offset": 678270,
+    "lang": "en"
+  },
+  {
+    "text": "the current version is version 3.2.40",
+    "duration": 9990,
+    "offset": 680220,
+    "lang": "en"
+  },
+  {
+    "text": "download it in torrent format once you",
+    "duration": 4890,
+    "offset": 687600,
+    "lang": "en"
+  },
+  {
+    "text": "have it downloaded you want to unzip",
+    "duration": 4530,
+    "offset": 690210,
+    "lang": "en"
+  },
+  {
+    "text": "that file and you're gonna see something",
+    "duration": 4740,
+    "offset": 692490,
+    "lang": "en"
+  },
+  {
+    "text": "like this so here is noobs so I'm in my",
+    "duration": 5100,
+    "offset": 694740,
+    "lang": "en"
+  },
+  {
+    "text": "noobs directory I have unzipped it and",
+    "duration": 4350,
+    "offset": 697230,
+    "lang": "en"
+  },
+  {
+    "text": "this is all of the these are all the",
+    "duration": 3360,
+    "offset": 699840,
+    "lang": "en"
+  },
+  {
+    "text": "files that were in that zipped archive",
+    "duration": 3480,
+    "offset": 701580,
+    "lang": "en"
+  },
+  {
+    "text": "so I just want to select all of these",
+    "duration": 4080,
+    "offset": 703200,
+    "lang": "en"
+  },
+  {
+    "text": "files we're gonna right-click we're",
+    "duration": 6000,
+    "offset": 705060,
+    "lang": "en"
+  },
+  {
+    "text": "gonna choose copy and then we're gonna",
+    "duration": 6270,
+    "offset": 707280,
+    "lang": "en"
+  },
+  {
+    "text": "go over to our newly formatted microSD",
+    "duration": 8100,
+    "offset": 711060,
+    "lang": "en"
+  },
+  {
+    "text": "card and we're gonna say paste this is",
+    "duration": 7890,
+    "offset": 713550,
+    "lang": "en"
+  },
+  {
+    "text": "now going to copy the entire noobs OS",
+    "duration": 4980,
+    "offset": 719160,
+    "lang": "en"
+  },
+  {
+    "text": "over to the microSD card once it has",
+    "duration": 4320,
+    "offset": 721440,
+    "lang": "en"
+  },
+  {
+    "text": "completed we're gonna take out the",
+    "duration": 3510,
+    "offset": 724140,
+    "lang": "en"
+  },
+  {
+    "text": "microSD card and plug it into our",
+    "duration": 4500,
+    "offset": 725760,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi Raspberry Pi is all plugged",
+    "duration": 5160,
+    "offset": 727650,
+    "lang": "en"
+  },
+  {
+    "text": "in we have our microSD card ready to",
+    "duration": 4440,
+    "offset": 730260,
+    "lang": "en"
+  },
+  {
+    "text": "rock and roll you basically just want to",
+    "duration": 5310,
+    "offset": 732810,
+    "lang": "en"
+  },
+  {
+    "text": "flip the Raspberry Pi over and stick the",
+    "duration": 7170,
+    "offset": 734700,
+    "lang": "en"
+  },
+  {
+    "text": "microSD card into the slot here it only",
+    "duration": 5970,
+    "offset": 738120,
+    "lang": "en"
+  },
+  {
+    "text": "fits one way so if it doesn't work one",
+    "duration": 3600,
+    "offset": 741870,
+    "lang": "en"
+  },
+  {
+    "text": "way flip it over and try it the other",
+    "duration": 4500,
+    "offset": 744090,
+    "lang": "en"
+  },
+  {
+    "text": "way and then once everything is plugged",
+    "duration": 5460,
+    "offset": 745470,
+    "lang": "en"
+  },
+  {
+    "text": "in and ready to go just hit your power",
+    "duration": 4560,
+    "offset": 748590,
+    "lang": "en"
+  },
+  {
+    "text": "button and we should pretty immediately",
+    "duration": 6840,
+    "offset": 750930,
+    "lang": "en"
+  },
+  {
+    "text": "see our screen come alive here there we",
+    "duration": 6600,
+    "offset": 753150,
+    "lang": "en"
+  },
+  {
+    "text": "go so we have Raspberry Pi now booting",
+    "duration": 3720,
+    "offset": 757770,
+    "lang": "en"
+  },
+  {
+    "text": "up on this screen I'm going to take the",
+    "duration": 3180,
+    "offset": 759750,
+    "lang": "en"
+  },
+  {
+    "text": "camera and I'm going to bring it in to",
+    "duration": 3360,
+    "offset": 761490,
+    "lang": "en"
+  },
+  {
+    "text": "zoom in on just the screen itself and",
+    "duration": 3810,
+    "offset": 762930,
+    "lang": "en"
+  },
+  {
+    "text": "talk you through the noobs installation",
+    "duration": 4320,
+    "offset": 764850,
+    "lang": "en"
+  },
+  {
+    "text": "process once your Raspberry Pi boots up",
+    "duration": 4140,
+    "offset": 766740,
+    "lang": "en"
+  },
+  {
+    "text": "with noobs installed this is the screen",
+    "duration": 3270,
+    "offset": 769170,
+    "lang": "en"
+  },
+  {
+    "text": "that you're going to come to and we can",
+    "duration": 3510,
+    "offset": 770880,
+    "lang": "en"
+  },
+  {
+    "text": "see that we have raspbian as our",
+    "duration": 4470,
+    "offset": 772440,
+    "lang": "en"
+  },
+  {
+    "text": "raspbian full as our recommended first",
+    "duration": 5460,
+    "offset": 774390,
+    "lang": "en"
+  },
+  {
+    "text": "choice now I see a bunch of different",
+    "duration": 5760,
+    "offset": 776910,
+    "lang": "en"
+  },
+  {
+    "text": "choices in here I see those because I",
+    "duration": 4920,
+    "offset": 779850,
+    "lang": "en"
+  },
+  {
+    "text": "have my network cable plugged in if you",
+    "duration": 3870,
+    "offset": 782670,
+    "lang": "en"
+  },
+  {
+    "text": "did not plug in a network cable and",
+    "duration": 4020,
+    "offset": 784770,
+    "lang": "en"
+  },
+  {
+    "text": "you're relying on Wireless then you may",
+    "duration": 5010,
+    "offset": 786540,
+    "lang": "en"
+  },
+  {
+    "text": "only see raspbian full in this list",
+    "duration": 4470,
+    "offset": 788790,
+    "lang": "en"
+  },
+  {
+    "text": "that's perfectly fine what you want to",
+    "duration": 4380,
+    "offset": 791550,
+    "lang": "en"
+  },
+  {
+    "text": "do is bring your mouse over here or hit",
+    "duration": 5040,
+    "offset": 793260,
+    "lang": "en"
+  },
+  {
+    "text": "you to get to wireless Wi-Fi networks",
+    "duration": 4740,
+    "offset": 795930,
+    "lang": "en"
+  },
+  {
+    "text": "and then you can select from a list of",
+    "duration": 4620,
+    "offset": 798300,
+    "lang": "en"
+  },
+  {
+    "text": "available Wi-Fi networks and connect",
+    "duration": 5100,
+    "offset": 800670,
+    "lang": "en"
+  },
+  {
+    "text": "your system just like any other PC that",
+    "duration": 4620,
+    "offset": 802920,
+    "lang": "en"
+  },
+  {
+    "text": "you would connect to wireless once you",
+    "duration": 4080,
+    "offset": 805770,
+    "lang": "en"
+  },
+  {
+    "text": "do that it will populate this the rest",
+    "duration": 4200,
+    "offset": 807540,
+    "lang": "en"
+  },
+  {
+    "text": "of these items because those are items",
+    "duration": 3600,
+    "offset": 809850,
+    "lang": "en"
+  },
+  {
+    "text": "that need to be downloaded so if I",
+    "duration": 3599,
+    "offset": 811740,
+    "lang": "en"
+  },
+  {
+    "text": "wanted to install for instance this one",
+    "duration": 4170,
+    "offset": 813450,
+    "lang": "en"
+  },
+  {
+    "text": "here that says data partition or I'd say",
+    "duration": 5060,
+    "offset": 815339,
+    "lang": "en"
+  },
+  {
+    "text": "this one here lack of right are PI for",
+    "duration": 6300,
+    "offset": 817620,
+    "lang": "en"
+  },
+  {
+    "text": "this one would require a download so",
+    "duration": 4991,
+    "offset": 820399,
+    "lang": "en"
+  },
+  {
+    "text": "that's why it doesn't show up until you",
+    "duration": 5250,
+    "offset": 823920,
+    "lang": "en"
+  },
+  {
+    "text": "actually enable a network or it can see",
+    "duration": 6000,
+    "offset": 825390,
+    "lang": "en"
+  },
+  {
+    "text": "the Internet I should say but we're just",
+    "duration": 3870,
+    "offset": 829170,
+    "lang": "en"
+  },
+  {
+    "text": "gonna install raspbian so I'm gonna",
+    "duration": 4110,
+    "offset": 831390,
+    "lang": "en"
+  },
+  {
+    "text": "check raspbian full and then we're gonna",
+    "duration": 5040,
+    "offset": 833040,
+    "lang": "en"
+  },
+  {
+    "text": "click install and then we're gonna say",
+    "duration": 5190,
+    "offset": 835500,
+    "lang": "en"
+  },
+  {
+    "text": "yes once the installation is completed",
+    "duration": 4860,
+    "offset": 838080,
+    "lang": "en"
+  },
+  {
+    "text": "just press ok and then the Raspberry Pi",
+    "duration": 3810,
+    "offset": 840690,
+    "lang": "en"
+  },
+  {
+    "text": "is going to reboot and you will come up",
+    "duration": 3360,
+    "offset": 842940,
+    "lang": "en"
+  },
+  {
+    "text": "with this screen here so we can see our",
+    "duration": 3839,
+    "offset": 844500,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi background and then we get",
+    "duration": 4950,
+    "offset": 846300,
+    "lang": "en"
+  },
+  {
+    "text": "the start of our welcome to Raspberry Pi",
+    "duration": 5281,
+    "offset": 848339,
+    "lang": "en"
+  },
+  {
+    "text": "wizard note here that I can see an IP",
+    "duration": 5130,
+    "offset": 851250,
+    "lang": "en"
+  },
+  {
+    "text": "address in this case I got 192 168 200",
+    "duration": 5700,
+    "offset": 853620,
+    "lang": "en"
+  },
+  {
+    "text": "201 I have that IP address because I'm",
+    "duration": 4260,
+    "offset": 856380,
+    "lang": "en"
+  },
+  {
+    "text": "plugged into Ethernet if you are",
+    "duration": 3180,
+    "offset": 859320,
+    "lang": "en"
+  },
+  {
+    "text": "connecting over Wi-Fi you may not have",
+    "duration": 3780,
+    "offset": 860640,
+    "lang": "en"
+  },
+  {
+    "text": "an IP address yet but we're going to",
+    "duration": 4080,
+    "offset": 862500,
+    "lang": "en"
+  },
+  {
+    "text": "connect to Wi-Fi in just a second or be",
+    "duration": 3780,
+    "offset": 864420,
+    "lang": "en"
+  },
+  {
+    "text": "given the option to connect to Wi-Fi in",
+    "duration": 4290,
+    "offset": 866580,
+    "lang": "en"
+  },
+  {
+    "text": "just a second so let's go ahead and say",
+    "duration": 4860,
+    "offset": 868200,
+    "lang": "en"
+  },
+  {
+    "text": "next to get started we're going to",
+    "duration": 3990,
+    "offset": 870870,
+    "lang": "en"
+  },
+  {
+    "text": "select our country in my case I am",
+    "duration": 4680,
+    "offset": 873060,
+    "lang": "en"
+  },
+  {
+    "text": "United States American English is fine",
+    "duration": 9030,
+    "offset": 874860,
+    "lang": "en"
+  },
+  {
+    "text": "and timezone is Los Angeles we're going",
+    "duration": 9630,
+    "offset": 877740,
+    "lang": "en"
+  },
+  {
+    "text": "to use us keyboard and click Next now we",
+    "duration": 6330,
+    "offset": 883890,
+    "lang": "en"
+  },
+  {
+    "text": "want to choose a strong password so the",
+    "duration": 5400,
+    "offset": 887370,
+    "lang": "en"
+  },
+  {
+    "text": "default PI user has a password of",
+    "duration": 4050,
+    "offset": 890220,
+    "lang": "en"
+  },
+  {
+    "text": "raspberry you can see that right here",
+    "duration": 4319,
+    "offset": 892770,
+    "lang": "en"
+  },
+  {
+    "text": "but we want to set our own password make",
+    "duration": 4319,
+    "offset": 894270,
+    "lang": "en"
+  },
+  {
+    "text": "sure you set it to something nice and",
+    "duration": 5301,
+    "offset": 897089,
+    "lang": "en"
+  },
+  {
+    "text": "strong but that you're gonna remember",
+    "duration": 3801,
+    "offset": 898589,
+    "lang": "en"
+  },
+  {
+    "text": "then we're gonna click Next and now it",
+    "duration": 6610,
+    "offset": 903110,
+    "lang": "en"
+  },
+  {
+    "text": "says set up screen the desktop should",
+    "duration": 4560,
+    "offset": 907350,
+    "lang": "en"
+  },
+  {
+    "text": "fill the entire screen tick the box",
+    "duration": 4470,
+    "offset": 909720,
+    "lang": "en"
+  },
+  {
+    "text": "below if your screen has a black border",
+    "duration": 4739,
+    "offset": 911910,
+    "lang": "en"
+  },
+  {
+    "text": "at the edges so mine does have a black",
+    "duration": 4019,
+    "offset": 914190,
+    "lang": "en"
+  },
+  {
+    "text": "border at the edges you can see that it",
+    "duration": 3930,
+    "offset": 916649,
+    "lang": "en"
+  },
+  {
+    "text": "doesn't quite make it all the way to the",
+    "duration": 4951,
+    "offset": 918209,
+    "lang": "en"
+  },
+  {
+    "text": "bevel around the monitor here so we're",
+    "duration": 4380,
+    "offset": 920579,
+    "lang": "en"
+  },
+  {
+    "text": "gonna check this box and we're going to",
+    "duration": 5400,
+    "offset": 923160,
+    "lang": "en"
+  },
+  {
+    "text": "say next and now we have the option to",
+    "duration": 4891,
+    "offset": 924959,
+    "lang": "en"
+  },
+  {
+    "text": "connect to our Wi-Fi",
+    "duration": 3060,
+    "offset": 928560,
+    "lang": "en"
+  },
+  {
+    "text": "Network here we can see all of the",
+    "duration": 4500,
+    "offset": 929850,
+    "lang": "en"
+  },
+  {
+    "text": "available Wi-Fi networks if you want to",
+    "duration": 4350,
+    "offset": 931620,
+    "lang": "en"
+  },
+  {
+    "text": "connect to Wi-Fi this is where you can",
+    "duration": 3539,
+    "offset": 934350,
+    "lang": "en"
+  },
+  {
+    "text": "select your network and click Next",
+    "duration": 4169,
+    "offset": 935970,
+    "lang": "en"
+  },
+  {
+    "text": "in my case though I'm already connected",
+    "duration": 4200,
+    "offset": 937889,
+    "lang": "en"
+  },
+  {
+    "text": "with Ethernet so I'm just gonna say skip",
+    "duration": 3781,
+    "offset": 940139,
+    "lang": "en"
+  },
+  {
+    "text": "now we're gonna update software so I'm",
+    "duration": 3420,
+    "offset": 942089,
+    "lang": "en"
+  },
+  {
+    "text": "going to show you how to manually update",
+    "duration": 3570,
+    "offset": 943920,
+    "lang": "en"
+  },
+  {
+    "text": "software as well because this little",
+    "duration": 4260,
+    "offset": 945509,
+    "lang": "en"
+  },
+  {
+    "text": "wizard tends to not work or at least it",
+    "duration": 4260,
+    "offset": 947490,
+    "lang": "en"
+  },
+  {
+    "text": "hasn't worked for me in the past so",
+    "duration": 4021,
+    "offset": 949769,
+    "lang": "en"
+  },
+  {
+    "text": "we'll do both mechanisms here we'll try",
+    "duration": 5009,
+    "offset": 951750,
+    "lang": "en"
+  },
+  {
+    "text": "to update the software here by just",
+    "duration": 6169,
+    "offset": 953790,
+    "lang": "en"
+  },
+  {
+    "text": "clicking next and if it gives an error",
+    "duration": 5551,
+    "offset": 956759,
+    "lang": "en"
+  },
+  {
+    "text": "then we will move on to the manual",
+    "duration": 4771,
+    "offset": 959959,
+    "lang": "en"
+  },
+  {
+    "text": "method",
+    "duration": 2420,
+    "offset": 962310,
+    "lang": "en"
+  },
+  {
+    "text": "all right looks like the updates did go",
+    "duration": 3509,
+    "offset": 973000,
+    "lang": "en"
+  },
+  {
+    "text": "perfectly fine that time so we're gonna",
+    "duration": 4651,
+    "offset": 974949,
+    "lang": "en"
+  },
+  {
+    "text": "say okay and now it says setup complete",
+    "duration": 4890,
+    "offset": 976509,
+    "lang": "en"
+  },
+  {
+    "text": "your Raspberry Pi is now set up and",
+    "duration": 3630,
+    "offset": 979600,
+    "lang": "en"
+  },
+  {
+    "text": "ready to go press restart to restart",
+    "duration": 3930,
+    "offset": 981399,
+    "lang": "en"
+  },
+  {
+    "text": "your pi now so the new settings will",
+    "duration": 3959,
+    "offset": 983230,
+    "lang": "en"
+  },
+  {
+    "text": "take effect or press later to close the",
+    "duration": 4380,
+    "offset": 985329,
+    "lang": "en"
+  },
+  {
+    "text": "wizard and restart the PI yourself so",
+    "duration": 3601,
+    "offset": 987189,
+    "lang": "en"
+  },
+  {
+    "text": "we're just gonna go ahead and restart",
+    "duration": 3690,
+    "offset": 989709,
+    "lang": "en"
+  },
+  {
+    "text": "now and then when this comes back we'll",
+    "duration": 4049,
+    "offset": 990790,
+    "lang": "en"
+  },
+  {
+    "text": "talk about how to run those updates",
+    "duration": 3630,
+    "offset": 993399,
+    "lang": "en"
+  },
+  {
+    "text": "manually just in case anyone else got an",
+    "duration": 5221,
+    "offset": 994839,
+    "lang": "en"
+  },
+  {
+    "text": "error and has to rerun updates on their",
+    "duration": 7831,
+    "offset": 997029,
+    "lang": "en"
+  },
+  {
+    "text": "own okay we are back and as you can see",
+    "duration": 7860,
+    "offset": 1000060,
+    "lang": "en"
+  },
+  {
+    "text": "now also the screen extends all the way",
+    "duration": 5010,
+    "offset": 1004860,
+    "lang": "en"
+  },
+  {
+    "text": "to the bevel of the monitor so it has",
+    "duration": 5099,
+    "offset": 1007920,
+    "lang": "en"
+  },
+  {
+    "text": "fixed that one issue let's go ahead and",
+    "duration": 5190,
+    "offset": 1009870,
+    "lang": "en"
+  },
+  {
+    "text": "open up this icon here this is sort of",
+    "duration": 5130,
+    "offset": 1013019,
+    "lang": "en"
+  },
+  {
+    "text": "the black box it's labeled terminal and",
+    "duration": 5969,
+    "offset": 1015060,
+    "lang": "en"
+  },
+  {
+    "text": "this is our linux command prompt so",
+    "duration": 4141,
+    "offset": 1018149,
+    "lang": "en"
+  },
+  {
+    "text": "we're gonna open this up a little bit",
+    "duration": 2701,
+    "offset": 1021029,
+    "lang": "en"
+  },
+  {
+    "text": "more here and let's talk about how to",
+    "duration": 4680,
+    "offset": 1022290,
+    "lang": "en"
+  },
+  {
+    "text": "manually run updates now again this",
+    "duration": 5429,
+    "offset": 1023730,
+    "lang": "en"
+  },
+  {
+    "text": "command that I'm about to tell you is in",
+    "duration": 5520,
+    "offset": 1026970,
+    "lang": "en"
+  },
+  {
+    "text": "that blog post so if you do have to run",
+    "duration": 4711,
+    "offset": 1029159,
+    "lang": "en"
+  },
+  {
+    "text": "the commands that I'm about to show you",
+    "duration": 3270,
+    "offset": 1032490,
+    "lang": "en"
+  },
+  {
+    "text": "and you need a reference for how exactly",
+    "duration": 3660,
+    "offset": 1033870,
+    "lang": "en"
+  },
+  {
+    "text": "they're typed go check out the blog post",
+    "duration": 3659,
+    "offset": 1035760,
+    "lang": "en"
+  },
+  {
+    "text": "okay so what we're gonna do here is",
+    "duration": 6240,
+    "offset": 1037530,
+    "lang": "en"
+  },
+  {
+    "text": "we're gonna say sudo apt - yet update",
+    "duration": 6390,
+    "offset": 1039419,
+    "lang": "en"
+  },
+  {
+    "text": "and we're gonna say enter what this does",
+    "duration": 3750,
+    "offset": 1043770,
+    "lang": "en"
+  },
+  {
+    "text": "is it goes out and sees if any new",
+    "duration": 3841,
+    "offset": 1045809,
+    "lang": "en"
+  },
+  {
+    "text": "packages are available to update and",
+    "duration": 7430,
+    "offset": 1047520,
+    "lang": "en"
+  },
+  {
+    "text": "then we're gonna say sudo apt - yet",
+    "duration": 8190,
+    "offset": 1049650,
+    "lang": "en"
+  },
+  {
+    "text": "upgrade oops",
+    "duration": 7719,
+    "offset": 1054950,
+    "lang": "en"
+  },
+  {
+    "text": "upgrade - why since we just updated",
+    "duration": 6390,
+    "offset": 1057840,
+    "lang": "en"
+  },
+  {
+    "text": "there shouldn't be anything that is",
+    "duration": 4231,
+    "offset": 1062669,
+    "lang": "en"
+  },
+  {
+    "text": "available to update so we are put right",
+    "duration": 4439,
+    "offset": 1064230,
+    "lang": "en"
+  },
+  {
+    "text": "back to the prompt but if you did have",
+    "duration": 4139,
+    "offset": 1066900,
+    "lang": "en"
+  },
+  {
+    "text": "updates to run it would have just run",
+    "duration": 4321,
+    "offset": 1068669,
+    "lang": "en"
+  },
+  {
+    "text": "through all of those updates in the",
+    "duration": 3601,
+    "offset": 1071039,
+    "lang": "en"
+  },
+  {
+    "text": "command line here all right so our",
+    "duration": 3480,
+    "offset": 1072990,
+    "lang": "en"
+  },
+  {
+    "text": "systems completely up to date let's do a",
+    "duration": 3600,
+    "offset": 1074640,
+    "lang": "en"
+  },
+  {
+    "text": "few housecleaning items though we're",
+    "duration": 3569,
+    "offset": 1076470,
+    "lang": "en"
+  },
+  {
+    "text": "going to come up here to the raspberry",
+    "duration": 3240,
+    "offset": 1078240,
+    "lang": "en"
+  },
+  {
+    "text": "icon we're gonna click on that we're",
+    "duration": 3721,
+    "offset": 1080039,
+    "lang": "en"
+  },
+  {
+    "text": "gonna choose preferences and then we're",
+    "duration": 4380,
+    "offset": 1081480,
+    "lang": "en"
+  },
+  {
+    "text": "gonna go to raspberry pie configuration",
+    "duration": 4680,
+    "offset": 1083760,
+    "lang": "en"
+  },
+  {
+    "text": "now on this first screen here there are",
+    "duration": 3809,
+    "offset": 1085860,
+    "lang": "en"
+  },
+  {
+    "text": "a couple things that we can do for",
+    "duration": 3359,
+    "offset": 1088440,
+    "lang": "en"
+  },
+  {
+    "text": "instance if we wanted to boot to the CLI",
+    "duration": 4201,
+    "offset": 1089669,
+    "lang": "en"
+  },
+  {
+    "text": "instead of to the desktop we can choose",
+    "duration": 3870,
+    "offset": 1091799,
+    "lang": "en"
+  },
+  {
+    "text": "to do that here we can give our",
+    "duration": 4049,
+    "offset": 1093870,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi a host name if we like and",
+    "duration": 5490,
+    "offset": 1095669,
+    "lang": "en"
+  },
+  {
+    "text": "we're going to uncheck this box that",
+    "duration": 6301,
+    "offset": 1097919,
+    "lang": "en"
+  },
+  {
+    "text": "says login as user PI this is our auto",
+    "duration": 5421,
+    "offset": 1101159,
+    "lang": "en"
+  },
+  {
+    "text": "login you can see right here so",
+    "duration": 4220,
+    "offset": 1104220,
+    "lang": "en"
+  },
+  {
+    "text": "a little bit more secure if we actually",
+    "duration": 3479,
+    "offset": 1106580,
+    "lang": "en"
+  },
+  {
+    "text": "have to type in the password every time",
+    "duration": 4229,
+    "offset": 1108440,
+    "lang": "en"
+  },
+  {
+    "text": "we log in and not let the system",
+    "duration": 5431,
+    "offset": 1110059,
+    "lang": "en"
+  },
+  {
+    "text": "automatically log us in as the PI user",
+    "duration": 4860,
+    "offset": 1112669,
+    "lang": "en"
+  },
+  {
+    "text": "let's now click on the interfaces tab",
+    "duration": 3480,
+    "offset": 1115490,
+    "lang": "en"
+  },
+  {
+    "text": "because you know having a raspberry pi",
+    "duration": 3211,
+    "offset": 1117529,
+    "lang": "en"
+  },
+  {
+    "text": "is great but it would be also great if",
+    "duration": 3510,
+    "offset": 1118970,
+    "lang": "en"
+  },
+  {
+    "text": "we could get to this remotely so we're",
+    "duration": 4740,
+    "offset": 1120740,
+    "lang": "en"
+  },
+  {
+    "text": "going to enable remote SSH access so",
+    "duration": 4919,
+    "offset": 1122480,
+    "lang": "en"
+  },
+  {
+    "text": "that we can get to the CLI and we're",
+    "duration": 5069,
+    "offset": 1125480,
+    "lang": "en"
+  },
+  {
+    "text": "going to enable remote VNC access so",
+    "duration": 6331,
+    "offset": 1127399,
+    "lang": "en"
+  },
+  {
+    "text": "that we can see the desktop here from a",
+    "duration": 5250,
+    "offset": 1130549,
+    "lang": "en"
+  },
+  {
+    "text": "different computer using VNC client",
+    "duration": 4470,
+    "offset": 1133730,
+    "lang": "en"
+  },
+  {
+    "text": "alright so with those both enabled we're",
+    "duration": 6090,
+    "offset": 1135799,
+    "lang": "en"
+  },
+  {
+    "text": "gonna say ok and now let's flip back",
+    "duration": 6030,
+    "offset": 1138200,
+    "lang": "en"
+  },
+  {
+    "text": "over to my main computer so that we can",
+    "duration": 4561,
+    "offset": 1141889,
+    "lang": "en"
+  },
+  {
+    "text": "connect to this system remotely our PI",
+    "duration": 4260,
+    "offset": 1144230,
+    "lang": "en"
+  },
+  {
+    "text": "is up and running now let's connect to",
+    "duration": 3359,
+    "offset": 1146450,
+    "lang": "en"
+  },
+  {
+    "text": "it remotely we're going to show you a",
+    "duration": 3750,
+    "offset": 1148490,
+    "lang": "en"
+  },
+  {
+    "text": "few ways to do this let's start by how",
+    "duration": 5071,
+    "offset": 1149809,
+    "lang": "en"
+  },
+  {
+    "text": "to connect to the Linux CLI so there's",
+    "duration": 4049,
+    "offset": 1152240,
+    "lang": "en"
+  },
+  {
+    "text": "two main ways that you can do this from",
+    "duration": 4169,
+    "offset": 1154880,
+    "lang": "en"
+  },
+  {
+    "text": "windows from Mac basically you can just",
+    "duration": 5640,
+    "offset": 1156289,
+    "lang": "en"
+  },
+  {
+    "text": "pull up a terminal window and say SSH PI",
+    "duration": 5581,
+    "offset": 1159049,
+    "lang": "en"
+  },
+  {
+    "text": "at IP address much like we're about to",
+    "duration": 4831,
+    "offset": 1161929,
+    "lang": "en"
+  },
+  {
+    "text": "do here with the Windows command prompt",
+    "duration": 4409,
+    "offset": 1164630,
+    "lang": "en"
+  },
+  {
+    "text": "so as of windows 10 and I think there",
+    "duration": 4440,
+    "offset": 1166760,
+    "lang": "en"
+  },
+  {
+    "text": "was some update I'm not sure exactly one",
+    "duration": 3811,
+    "offset": 1169039,
+    "lang": "en"
+  },
+  {
+    "text": "which one but there was an update where",
+    "duration": 4020,
+    "offset": 1171200,
+    "lang": "en"
+  },
+  {
+    "text": "now you can SSH natively in the windows",
+    "duration": 4530,
+    "offset": 1172850,
+    "lang": "en"
+  },
+  {
+    "text": "command prompt so much like you would do",
+    "duration": 4919,
+    "offset": 1175220,
+    "lang": "en"
+  },
+  {
+    "text": "from Mac terminal you can run the",
+    "duration": 7200,
+    "offset": 1177380,
+    "lang": "en"
+  },
+  {
+    "text": "command prompt and say SSH PI at and",
+    "duration": 6451,
+    "offset": 1180139,
+    "lang": "en"
+  },
+  {
+    "text": "then the IP address of your Raspberry Pi",
+    "duration": 3839,
+    "offset": 1184580,
+    "lang": "en"
+  },
+  {
+    "text": "in my case it's one eighty one sixty",
+    "duration": 5880,
+    "offset": 1186590,
+    "lang": "en"
+  },
+  {
+    "text": "eight dot 200 201 and it's gonna say are",
+    "duration": 5401,
+    "offset": 1188419,
+    "lang": "en"
+  },
+  {
+    "text": "you sure this is okay to connect to",
+    "duration": 3150,
+    "offset": 1192470,
+    "lang": "en"
+  },
+  {
+    "text": "we're gonna say yes it'll only ask this",
+    "duration": 5400,
+    "offset": 1193820,
+    "lang": "en"
+  },
+  {
+    "text": "question the first time and now we can",
+    "duration": 7200,
+    "offset": 1195620,
+    "lang": "en"
+  },
+  {
+    "text": "enter our password so there we go I am",
+    "duration": 5610,
+    "offset": 1199220,
+    "lang": "en"
+  },
+  {
+    "text": "now connected remotely to the Raspberry",
+    "duration": 5670,
+    "offset": 1202820,
+    "lang": "en"
+  },
+  {
+    "text": "Pi using Windows command line now we can",
+    "duration": 5640,
+    "offset": 1204830,
+    "lang": "en"
+  },
+  {
+    "text": "also do the same thing with putty and",
+    "duration": 3539,
+    "offset": 1208490,
+    "lang": "en"
+  },
+  {
+    "text": "putty is a great little program it's",
+    "duration": 3540,
+    "offset": 1210470,
+    "lang": "en"
+  },
+  {
+    "text": "free to download there's a link in the",
+    "duration": 3900,
+    "offset": 1212029,
+    "lang": "en"
+  },
+  {
+    "text": "blog post if you want to download putty",
+    "duration": 4259,
+    "offset": 1214010,
+    "lang": "en"
+  },
+  {
+    "text": "and the thing that I like about putty",
+    "duration": 3840,
+    "offset": 1215929,
+    "lang": "en"
+  },
+  {
+    "text": "over the windows command line is that",
+    "duration": 3780,
+    "offset": 1218269,
+    "lang": "en"
+  },
+  {
+    "text": "allows you to save your session so you",
+    "duration": 4260,
+    "offset": 1219769,
+    "lang": "en"
+  },
+  {
+    "text": "don't have to continuously remember what",
+    "duration": 3541,
+    "offset": 1222049,
+    "lang": "en"
+  },
+  {
+    "text": "the IP address is and that's for stuff",
+    "duration": 3390,
+    "offset": 1224029,
+    "lang": "en"
+  },
+  {
+    "text": "you can just save your session and be",
+    "duration": 3569,
+    "offset": 1225590,
+    "lang": "en"
+  },
+  {
+    "text": "done with it so in order to connect with",
+    "duration": 3301,
+    "offset": 1227419,
+    "lang": "en"
+  },
+  {
+    "text": "putty you want to first launch putty",
+    "duration": 3120,
+    "offset": 1229159,
+    "lang": "en"
+  },
+  {
+    "text": "after you've downloaded and then right",
+    "duration": 3660,
+    "offset": 1230720,
+    "lang": "en"
+  },
+  {
+    "text": "here in the hostname or IP address we're",
+    "duration": 5821,
+    "offset": 1232279,
+    "lang": "en"
+  },
+  {
+    "text": "going to type 192 168 200 201 or in your",
+    "duration": 5000,
+    "offset": 1234380,
+    "lang": "en"
+  },
+  {
+    "text": "case you'll type VI",
+    "duration": 4010,
+    "offset": 1238100,
+    "lang": "en"
+  },
+  {
+    "text": "the address of your own raspberry pi now",
+    "duration": 4350,
+    "offset": 1239380,
+    "lang": "en"
+  },
+  {
+    "text": "if you want to save this session you can",
+    "duration": 4050,
+    "offset": 1242110,
+    "lang": "en"
+  },
+  {
+    "text": "come down here and say raspberry pi or",
+    "duration": 4020,
+    "offset": 1243730,
+    "lang": "en"
+  },
+  {
+    "text": "something like that and then just click",
+    "duration": 4290,
+    "offset": 1246160,
+    "lang": "en"
+  },
+  {
+    "text": "Save and now you have this available to",
+    "duration": 5670,
+    "offset": 1247750,
+    "lang": "en"
+  },
+  {
+    "text": "be loaded at any time when you're in",
+    "duration": 4680,
+    "offset": 1250450,
+    "lang": "en"
+  },
+  {
+    "text": "order to connect though you just click",
+    "duration": 3720,
+    "offset": 1253420,
+    "lang": "en"
+  },
+  {
+    "text": "open down at the bottom and we're gonna",
+    "duration": 4680,
+    "offset": 1255130,
+    "lang": "en"
+  },
+  {
+    "text": "log in as PI if it's the first time",
+    "duration": 4290,
+    "offset": 1257140,
+    "lang": "en"
+  },
+  {
+    "text": "you've connected you also receive an",
+    "duration": 3480,
+    "offset": 1259810,
+    "lang": "en"
+  },
+  {
+    "text": "extra pop-up that says are you sure you",
+    "duration": 3300,
+    "offset": 1261430,
+    "lang": "en"
+  },
+  {
+    "text": "want to connect to this you know check",
+    "duration": 3180,
+    "offset": 1263290,
+    "lang": "en"
+  },
+  {
+    "text": "out the device fingerprint etcetera and",
+    "duration": 3870,
+    "offset": 1264730,
+    "lang": "en"
+  },
+  {
+    "text": "then you will get to the login so then",
+    "duration": 4350,
+    "offset": 1266470,
+    "lang": "en"
+  },
+  {
+    "text": "we're gonna login as user PI and then",
+    "duration": 6960,
+    "offset": 1268600,
+    "lang": "en"
+  },
+  {
+    "text": "our password and there we go so once",
+    "duration": 6630,
+    "offset": 1270820,
+    "lang": "en"
+  },
+  {
+    "text": "again we are now logged in this time",
+    "duration": 4020,
+    "offset": 1275560,
+    "lang": "en"
+  },
+  {
+    "text": "we're logged in with putty instead of",
+    "duration": 3840,
+    "offset": 1277450,
+    "lang": "en"
+  },
+  {
+    "text": "the Windows command line but what if you",
+    "duration": 4140,
+    "offset": 1279580,
+    "lang": "en"
+  },
+  {
+    "text": "want to connect to the desktop of the",
+    "duration": 5310,
+    "offset": 1281290,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi remotely to do that we're",
+    "duration": 5520,
+    "offset": 1283720,
+    "lang": "en"
+  },
+  {
+    "text": "gonna download VNC viewer which is",
+    "duration": 6120,
+    "offset": 1286600,
+    "lang": "en"
+  },
+  {
+    "text": "available at real VNC comm so here's the",
+    "duration": 5520,
+    "offset": 1289240,
+    "lang": "en"
+  },
+  {
+    "text": "VNC viewer after you download it and",
+    "duration": 3540,
+    "offset": 1292720,
+    "lang": "en"
+  },
+  {
+    "text": "installed it this is what you're going",
+    "duration": 3840,
+    "offset": 1294760,
+    "lang": "en"
+  },
+  {
+    "text": "to see and we can either just ant it",
+    "duration": 5190,
+    "offset": 1296260,
+    "lang": "en"
+  },
+  {
+    "text": "enter in our VNC server here or we can",
+    "duration": 5970,
+    "offset": 1298600,
+    "lang": "en"
+  },
+  {
+    "text": "say file new connection and then enter",
+    "duration": 7560,
+    "offset": 1301450,
+    "lang": "en"
+  },
+  {
+    "text": "in our IP address so 192 168 200 201 and",
+    "duration": 5910,
+    "offset": 1304570,
+    "lang": "en"
+  },
+  {
+    "text": "the name we're gonna call this is",
+    "duration": 5280,
+    "offset": 1309010,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi and the rest say ok and",
+    "duration": 5700,
+    "offset": 1310480,
+    "lang": "en"
+  },
+  {
+    "text": "then just double click on it this is",
+    "duration": 3780,
+    "offset": 1314290,
+    "lang": "en"
+  },
+  {
+    "text": "available anytime that you open up VNC",
+    "duration": 6150,
+    "offset": 1316180,
+    "lang": "en"
+  },
+  {
+    "text": "viewer so again checking the fingerprint",
+    "duration": 5370,
+    "offset": 1318070,
+    "lang": "en"
+  },
+  {
+    "text": "are you sure you want to connect to this",
+    "duration": 4730,
+    "offset": 1322330,
+    "lang": "en"
+  },
+  {
+    "text": "yes and now we can punch in our password",
+    "duration": 8610,
+    "offset": 1323440,
+    "lang": "en"
+  },
+  {
+    "text": "username PI and our own password now you",
+    "duration": 7000,
+    "offset": 1327060,
+    "lang": "en"
+  },
+  {
+    "text": "can click the box to remember password",
+    "duration": 3630,
+    "offset": 1332050,
+    "lang": "en"
+  },
+  {
+    "text": "if you like but that's going to be less",
+    "duration": 3630,
+    "offset": 1334060,
+    "lang": "en"
+  },
+  {
+    "text": "secure than if you type the password in",
+    "duration": 4640,
+    "offset": 1335680,
+    "lang": "en"
+  },
+  {
+    "text": "every time so we're gonna say ok and",
+    "duration": 5310,
+    "offset": 1337690,
+    "lang": "en"
+  },
+  {
+    "text": "there we go we are now connected to the",
+    "duration": 5590,
+    "offset": 1340320,
+    "lang": "en"
+  },
+  {
+    "text": "desktop of our Raspberry Pi and we can",
+    "duration": 4260,
+    "offset": 1343000,
+    "lang": "en"
+  },
+  {
+    "text": "go through and do all the same stuff",
+    "duration": 3450,
+    "offset": 1345910,
+    "lang": "en"
+  },
+  {
+    "text": "that we were doing over on the monitor",
+    "duration": 4740,
+    "offset": 1347260,
+    "lang": "en"
+  },
+  {
+    "text": "but from a remote computer instead so",
+    "duration": 4320,
+    "offset": 1349360,
+    "lang": "en"
+  },
+  {
+    "text": "where do you go from here with the",
+    "duration": 3660,
+    "offset": 1352000,
+    "lang": "en"
+  },
+  {
+    "text": "Raspberry Pi you're now able to connect",
+    "duration": 3420,
+    "offset": 1353680,
+    "lang": "en"
+  },
+  {
+    "text": "to it remotely everything should be",
+    "duration": 3750,
+    "offset": 1355660,
+    "lang": "en"
+  },
+  {
+    "text": "working great and honestly the sky's the",
+    "duration": 3870,
+    "offset": 1357100,
+    "lang": "en"
+  },
+  {
+    "text": "limit write whatever you want to do",
+    "duration": 3330,
+    "offset": 1359410,
+    "lang": "en"
+  },
+  {
+    "text": "whatever you want to learn you can now",
+    "duration": 3660,
+    "offset": 1360970,
+    "lang": "en"
+  },
+  {
+    "text": "do with this Raspberry Pi and it is a",
+    "duration": 4320,
+    "offset": 1362740,
+    "lang": "en"
+  },
+  {
+    "text": "really really excellent learning tool if",
+    "duration": 5220,
+    "offset": 1364630,
+    "lang": "en"
+  },
+  {
+    "text": "you want to expand your learning quite",
+    "duration": 5359,
+    "offset": 1367060,
+    "lang": "en"
+  },
+  {
+    "text": "significantly I would recommend invest",
+    "duration": 4909,
+    "offset": 1369850,
+    "lang": "en"
+  },
+  {
+    "text": "something like this so this is the free",
+    "duration": 4890,
+    "offset": 1372419,
+    "lang": "en"
+  },
+  {
+    "text": "nove ultimate starter kit for Raspberry",
+    "duration": 5971,
+    "offset": 1374759,
+    "lang": "en"
+  },
+  {
+    "text": "Pi this has detailed tutorials for how",
+    "duration": 4950,
+    "offset": 1377309,
+    "lang": "en"
+  },
+  {
+    "text": "to hook up all these cool little",
+    "duration": 3779,
+    "offset": 1380730,
+    "lang": "en"
+  },
+  {
+    "text": "different components here so you but get",
+    "duration": 4591,
+    "offset": 1382259,
+    "lang": "en"
+  },
+  {
+    "text": "a bunch of little servos and diodes and",
+    "duration": 5311,
+    "offset": 1384509,
+    "lang": "en"
+  },
+  {
+    "text": "speakers and you know joystick buttons",
+    "duration": 5009,
+    "offset": 1386850,
+    "lang": "en"
+  },
+  {
+    "text": "and this one I think has even like RFID",
+    "duration": 4949,
+    "offset": 1389820,
+    "lang": "en"
+  },
+  {
+    "text": "card readers and stuff not only that but",
+    "duration": 7440,
+    "offset": 1391859,
+    "lang": "en"
+  },
+  {
+    "text": "it comes with this 434 page PDF tutorial",
+    "duration": 6691,
+    "offset": 1394769,
+    "lang": "en"
+  },
+  {
+    "text": "written in three different languages so",
+    "duration": 5130,
+    "offset": 1399299,
+    "lang": "en"
+  },
+  {
+    "text": "if you want to learn Python C or Java",
+    "duration": 5490,
+    "offset": 1401460,
+    "lang": "en"
+  },
+  {
+    "text": "you just download this the PDF comes",
+    "duration": 3960,
+    "offset": 1404429,
+    "lang": "en"
+  },
+  {
+    "text": "along free and then you can start",
+    "duration": 3809,
+    "offset": 1406950,
+    "lang": "en"
+  },
+  {
+    "text": "building you know cool stuff with it and",
+    "duration": 4321,
+    "offset": 1408389,
+    "lang": "en"
+  },
+  {
+    "text": "this is really the best way to learn",
+    "duration": 3270,
+    "offset": 1410759,
+    "lang": "en"
+  },
+  {
+    "text": "because not only do you learn the",
+    "duration": 3299,
+    "offset": 1412710,
+    "lang": "en"
+  },
+  {
+    "text": "circuitry and how all this stuff fits",
+    "duration": 3780,
+    "offset": 1414029,
+    "lang": "en"
+  },
+  {
+    "text": "together so that you can take that",
+    "duration": 4290,
+    "offset": 1416009,
+    "lang": "en"
+  },
+  {
+    "text": "knowledge on to your own projects but it",
+    "duration": 4531,
+    "offset": 1417809,
+    "lang": "en"
+  },
+  {
+    "text": "also teaches you the coding right so it",
+    "duration": 4051,
+    "offset": 1420299,
+    "lang": "en"
+  },
+  {
+    "text": "teaches you how to create the Python",
+    "duration": 4529,
+    "offset": 1422340,
+    "lang": "en"
+  },
+  {
+    "text": "scripts and basically you can then use",
+    "duration": 4019,
+    "offset": 1424350,
+    "lang": "en"
+  },
+  {
+    "text": "those Python scripts that come as",
+    "duration": 4560,
+    "offset": 1426869,
+    "lang": "en"
+  },
+  {
+    "text": "examples in order to move those into",
+    "duration": 4831,
+    "offset": 1428369,
+    "lang": "en"
+  },
+  {
+    "text": "your own projects that you want to",
+    "duration": 3750,
+    "offset": 1431429,
+    "lang": "en"
+  },
+  {
+    "text": "develop yourself this one was pretty",
+    "duration": 3900,
+    "offset": 1433200,
+    "lang": "en"
+  },
+  {
+    "text": "interesting this was basically just how",
+    "duration": 5490,
+    "offset": 1435179,
+    "lang": "en"
+  },
+  {
+    "text": "can we make an led with this little",
+    "duration": 6929,
+    "offset": 1437100,
+    "lang": "en"
+  },
+  {
+    "text": "servo thing here dim from all the way",
+    "duration": 5161,
+    "offset": 1440669,
+    "lang": "en"
+  },
+  {
+    "text": "off to all the way bright and every",
+    "duration": 3240,
+    "offset": 1444029,
+    "lang": "en"
+  },
+  {
+    "text": "little stage in between and it's",
+    "duration": 5279,
+    "offset": 1445830,
+    "lang": "en"
+  },
+  {
+    "text": "basically taking an analog controller",
+    "duration": 6150,
+    "offset": 1447269,
+    "lang": "en"
+  },
+  {
+    "text": "here converting that analog controller",
+    "duration": 4831,
+    "offset": 1451109,
+    "lang": "en"
+  },
+  {
+    "text": "into a digital signal that the LED",
+    "duration": 4080,
+    "offset": 1453419,
+    "lang": "en"
+  },
+  {
+    "text": "understands so this was a pretty cool",
+    "duration": 3569,
+    "offset": 1455940,
+    "lang": "en"
+  },
+  {
+    "text": "little project just one of the like",
+    "duration": 3721,
+    "offset": 1457499,
+    "lang": "en"
+  },
+  {
+    "text": "hundred plus projects that are included",
+    "duration": 4410,
+    "offset": 1459509,
+    "lang": "en"
+  },
+  {
+    "text": "in this free nove ultimate starter kit",
+    "duration": 5039,
+    "offset": 1461220,
+    "lang": "en"
+  },
+  {
+    "text": "but honestly just start learning it's",
+    "duration": 3390,
+    "offset": 1463919,
+    "lang": "en"
+  },
+  {
+    "text": "such a great learning tool",
+    "duration": 2760,
+    "offset": 1466259,
+    "lang": "en"
+  },
+  {
+    "text": "I love Raspberry Pi fours and if there's",
+    "duration": 3350,
+    "offset": 1467309,
+    "lang": "en"
+  },
+  {
+    "text": "anything that you guys would like to see",
+    "duration": 3961,
+    "offset": 1469019,
+    "lang": "en"
+  },
+  {
+    "text": "is turn in terms of videos on the",
+    "duration": 4210,
+    "offset": 1470659,
+    "lang": "en"
+  },
+  {
+    "text": "channel about the Raspberry Pi 4 put",
+    "duration": 3480,
+    "offset": 1472980,
+    "lang": "en"
+  },
+  {
+    "text": "those down in the comments below alright",
+    "duration": 3331,
+    "offset": 1474869,
+    "lang": "en"
+  },
+  {
+    "text": "I hope you guys enjoyed this video if",
+    "duration": 3089,
+    "offset": 1476460,
+    "lang": "en"
+  },
+  {
+    "text": "you did enjoy this video make sure you",
+    "duration": 2729,
+    "offset": 1478200,
+    "lang": "en"
+  },
+  {
+    "text": "give me a thumbs up and if you'd like to",
+    "duration": 2820,
+    "offset": 1479549,
+    "lang": "en"
+  },
+  {
+    "text": "see more videos like this please click",
+    "duration": 3060,
+    "offset": 1480929,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe my name is Chris with",
+    "duration": 3481,
+    "offset": 1482369,
+    "lang": "en"
+  },
+  {
+    "text": "crosstalk solutions thank you so much",
+    "duration": 4160,
+    "offset": 1483989,
+    "lang": "en"
+  },
+  {
+    "text": "for watching",
+    "duration": 2299,
+    "offset": 1485850,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 2060,
+    "offset": 1488880,
+    "lang": "en"
+  }
+]

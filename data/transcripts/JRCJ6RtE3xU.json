@@ -1,0 +1,4514 @@
+[
+  {
+    "text": "hey there how's it going everybody in",
+    "duration": 2431,
+    "offset": 89,
+    "lang": "en"
+  },
+  {
+    "text": "this video we're going to be learning",
+    "duration": 2970,
+    "offset": 1380,
+    "lang": "en"
+  },
+  {
+    "text": "how to send emails with Python",
+    "duration": 3839,
+    "offset": 2520,
+    "lang": "en"
+  },
+  {
+    "text": "so we've sent emails and previous videos",
+    "duration": 3600,
+    "offset": 4350,
+    "lang": "en"
+  },
+  {
+    "text": "but in this video we're gonna look at",
+    "duration": 3151,
+    "offset": 6359,
+    "lang": "en"
+  },
+  {
+    "text": "this more in depth and see how to use",
+    "duration": 3359,
+    "offset": 7950,
+    "lang": "en"
+  },
+  {
+    "text": "best practices and we're also gonna look",
+    "duration": 3900,
+    "offset": 9510,
+    "lang": "en"
+  },
+  {
+    "text": "at how to do more advanced emails such",
+    "duration": 4500,
+    "offset": 11309,
+    "lang": "en"
+  },
+  {
+    "text": "as adding attachments or sending HTML",
+    "duration": 4020,
+    "offset": 13410,
+    "lang": "en"
+  },
+  {
+    "text": "messages so let's go ahead and get",
+    "duration": 3810,
+    "offset": 15809,
+    "lang": "en"
+  },
+  {
+    "text": "started so first of all you're going to",
+    "duration": 3870,
+    "offset": 17430,
+    "lang": "en"
+  },
+  {
+    "text": "want to have an email account to send",
+    "duration": 3330,
+    "offset": 19619,
+    "lang": "en"
+  },
+  {
+    "text": "emails in this video we're going to be",
+    "duration": 4170,
+    "offset": 21300,
+    "lang": "en"
+  },
+  {
+    "text": "using Gmail which most of you are likely",
+    "duration": 4830,
+    "offset": 22949,
+    "lang": "en"
+  },
+  {
+    "text": "familiar with but you can use any email",
+    "duration": 4680,
+    "offset": 25470,
+    "lang": "en"
+  },
+  {
+    "text": "service that you'd like but the setup",
+    "duration": 3871,
+    "offset": 27779,
+    "lang": "en"
+  },
+  {
+    "text": "might be slightly different from this",
+    "duration": 3120,
+    "offset": 30150,
+    "lang": "en"
+  },
+  {
+    "text": "video if you're using a different",
+    "duration": 3330,
+    "offset": 31650,
+    "lang": "en"
+  },
+  {
+    "text": "service now we're also going to see how",
+    "duration": 4410,
+    "offset": 33270,
+    "lang": "en"
+  },
+  {
+    "text": "we can use your localhost to send test",
+    "duration": 5220,
+    "offset": 34980,
+    "lang": "en"
+  },
+  {
+    "text": "emails if you don't have an actual email",
+    "duration": 5160,
+    "offset": 37680,
+    "lang": "en"
+  },
+  {
+    "text": "address setup yet but for now let's look",
+    "duration": 4470,
+    "offset": 40200,
+    "lang": "en"
+  },
+  {
+    "text": "at some stuff that we need to do to get",
+    "duration": 4350,
+    "offset": 42840,
+    "lang": "en"
+  },
+  {
+    "text": "an account ready so for example if",
+    "duration": 4740,
+    "offset": 44670,
+    "lang": "en"
+  },
+  {
+    "text": "you're using Gmail then there are a",
+    "duration": 3540,
+    "offset": 47190,
+    "lang": "en"
+  },
+  {
+    "text": "couple of settings that you need to",
+    "duration": 3300,
+    "offset": 49410,
+    "lang": "en"
+  },
+  {
+    "text": "change in order to send emails through",
+    "duration": 4559,
+    "offset": 50730,
+    "lang": "en"
+  },
+  {
+    "text": "python using this account so let me pull",
+    "duration": 6810,
+    "offset": 52710,
+    "lang": "en"
+  },
+  {
+    "text": "these up in my browser so one is this my",
+    "duration": 8070,
+    "offset": 55289,
+    "lang": "en"
+  },
+  {
+    "text": "account google.com ford slash less",
+    "duration": 6720,
+    "offset": 59520,
+    "lang": "en"
+  },
+  {
+    "text": "secure apps so first if you don't have",
+    "duration": 5041,
+    "offset": 63359,
+    "lang": "en"
+  },
+  {
+    "text": "two factor authentication setup then",
+    "duration": 3540,
+    "offset": 66240,
+    "lang": "en"
+  },
+  {
+    "text": "you're going to need to allow less",
+    "duration": 3600,
+    "offset": 68400,
+    "lang": "en"
+  },
+  {
+    "text": "secure applications like python to",
+    "duration": 4350,
+    "offset": 69780,
+    "lang": "en"
+  },
+  {
+    "text": "connect to your account and you can do",
+    "duration": 4470,
+    "offset": 72000,
+    "lang": "en"
+  },
+  {
+    "text": "that at this URL here and I'll have",
+    "duration": 3750,
+    "offset": 74130,
+    "lang": "en"
+  },
+  {
+    "text": "links to these pages in the description",
+    "duration": 4380,
+    "offset": 76470,
+    "lang": "en"
+  },
+  {
+    "text": "section below if you want to access",
+    "duration": 5879,
+    "offset": 77880,
+    "lang": "en"
+  },
+  {
+    "text": "these URLs now if you do have two-factor",
+    "duration": 4320,
+    "offset": 80850,
+    "lang": "en"
+  },
+  {
+    "text": "authentication which I would always",
+    "duration": 3900,
+    "offset": 83759,
+    "lang": "en"
+  },
+  {
+    "text": "recommend then instead you'll need to",
+    "duration": 5129,
+    "offset": 85170,
+    "lang": "en"
+  },
+  {
+    "text": "create an app password so that you can",
+    "duration": 4801,
+    "offset": 87659,
+    "lang": "en"
+  },
+  {
+    "text": "connect through Python and you will do",
+    "duration": 5210,
+    "offset": 90299,
+    "lang": "en"
+  },
+  {
+    "text": "that at this URL here my account",
+    "duration": 6960,
+    "offset": 92460,
+    "lang": "en"
+  },
+  {
+    "text": "google.com forge / app passwords so you",
+    "duration": 5801,
+    "offset": 95509,
+    "lang": "en"
+  },
+  {
+    "text": "can see that I have an app password here",
+    "duration": 4379,
+    "offset": 99420,
+    "lang": "en"
+  },
+  {
+    "text": "called Python test and this is what I",
+    "duration": 5040,
+    "offset": 101310,
+    "lang": "en"
+  },
+  {
+    "text": "use to connect to my account now I've",
+    "duration": 4680,
+    "offset": 103799,
+    "lang": "en"
+  },
+  {
+    "text": "placed that password into an environment",
+    "duration": 4500,
+    "offset": 106350,
+    "lang": "en"
+  },
+  {
+    "text": "variable so that I never need to add it",
+    "duration": 4591,
+    "offset": 108479,
+    "lang": "en"
+  },
+  {
+    "text": "directly into a Python script I think",
+    "duration": 3690,
+    "offset": 110850,
+    "lang": "en"
+  },
+  {
+    "text": "it's a good habit to never add your",
+    "duration": 3089,
+    "offset": 113070,
+    "lang": "en"
+  },
+  {
+    "text": "sensitive information directly to your",
+    "duration": 3719,
+    "offset": 114540,
+    "lang": "en"
+  },
+  {
+    "text": "script but instead you should use",
+    "duration": 3990,
+    "offset": 116159,
+    "lang": "en"
+  },
+  {
+    "text": "configuration files that don't get",
+    "duration": 3991,
+    "offset": 118259,
+    "lang": "en"
+  },
+  {
+    "text": "committed to source control or use",
+    "duration": 3961,
+    "offset": 120149,
+    "lang": "en"
+  },
+  {
+    "text": "environment variables so if you've never",
+    "duration": 3240,
+    "offset": 122250,
+    "lang": "en"
+  },
+  {
+    "text": "used environment variables to hide",
+    "duration": 3240,
+    "offset": 124110,
+    "lang": "en"
+  },
+  {
+    "text": "information like this then I do have a",
+    "duration": 3510,
+    "offset": 125490,
+    "lang": "en"
+  },
+  {
+    "text": "separate video that shows how to do that",
+    "duration": 2859,
+    "offset": 127350,
+    "lang": "en"
+  },
+  {
+    "text": "for Mac Linux",
+    "duration": 3400,
+    "offset": 129000,
+    "lang": "en"
+  },
+  {
+    "text": "and windows so I'll leave a link to",
+    "duration": 3631,
+    "offset": 130209,
+    "lang": "en"
+  },
+  {
+    "text": "those videos in the description section",
+    "duration": 3449,
+    "offset": 132400,
+    "lang": "en"
+  },
+  {
+    "text": "below if anyone would like to see how",
+    "duration": 3840,
+    "offset": 133840,
+    "lang": "en"
+  },
+  {
+    "text": "that's done ok so once you've got an",
+    "duration": 3661,
+    "offset": 135849,
+    "lang": "en"
+  },
+  {
+    "text": "email account and you have your security",
+    "duration": 4559,
+    "offset": 137680,
+    "lang": "en"
+  },
+  {
+    "text": "settings in order let's see how we can",
+    "duration": 4740,
+    "offset": 139510,
+    "lang": "en"
+  },
+  {
+    "text": "send some emails so I have an empty",
+    "duration": 4711,
+    "offset": 142239,
+    "lang": "en"
+  },
+  {
+    "text": "Python script pulled up here in sublime",
+    "duration": 5400,
+    "offset": 144250,
+    "lang": "en"
+  },
+  {
+    "text": "text and you can create an empty script",
+    "duration": 4500,
+    "offset": 146950,
+    "lang": "en"
+  },
+  {
+    "text": "in the editor of your choice",
+    "duration": 3869,
+    "offset": 149650,
+    "lang": "en"
+  },
+  {
+    "text": "now just one tip if you're writing a",
+    "duration": 4980,
+    "offset": 151450,
+    "lang": "en"
+  },
+  {
+    "text": "script to test these things then don't",
+    "duration": 5401,
+    "offset": 153519,
+    "lang": "en"
+  },
+  {
+    "text": "call your script email dot pi because",
+    "duration": 4500,
+    "offset": 156430,
+    "lang": "en"
+  },
+  {
+    "text": "that will conflict with the module built",
+    "duration": 4679,
+    "offset": 158920,
+    "lang": "en"
+  },
+  {
+    "text": "in to the standard library so I have",
+    "duration": 5880,
+    "offset": 160930,
+    "lang": "en"
+  },
+  {
+    "text": "mine called mail - demo dot pi ok so",
+    "duration": 4920,
+    "offset": 163599,
+    "lang": "en"
+  },
+  {
+    "text": "first let's connect to the mail server",
+    "duration": 4200,
+    "offset": 166810,
+    "lang": "en"
+  },
+  {
+    "text": "now there are two different classes that",
+    "duration": 4500,
+    "offset": 168519,
+    "lang": "en"
+  },
+  {
+    "text": "we can use to do this and both of those",
+    "duration": 4530,
+    "offset": 171010,
+    "lang": "en"
+  },
+  {
+    "text": "are going to be imported from the SMTP",
+    "duration": 4860,
+    "offset": 173019,
+    "lang": "en"
+  },
+  {
+    "text": "lib module so I'll just import that",
+    "duration": 5490,
+    "offset": 175540,
+    "lang": "en"
+  },
+  {
+    "text": "entire module so I'll say import SMTP",
+    "duration": 5790,
+    "offset": 177879,
+    "lang": "en"
+  },
+  {
+    "text": "lib so first I'm going to go ahead and",
+    "duration": 5159,
+    "offset": 181030,
+    "lang": "en"
+  },
+  {
+    "text": "connect using plain old SMTP so I'm",
+    "duration": 4201,
+    "offset": 183669,
+    "lang": "en"
+  },
+  {
+    "text": "going to use a context manager here and",
+    "duration": 4170,
+    "offset": 186189,
+    "lang": "en"
+  },
+  {
+    "text": "using a context manager well make sure",
+    "duration": 3720,
+    "offset": 187870,
+    "lang": "en"
+  },
+  {
+    "text": "that our connection is closed",
+    "duration": 3421,
+    "offset": 190359,
+    "lang": "en"
+  },
+  {
+    "text": "automatically without us needing to do",
+    "duration": 3899,
+    "offset": 191590,
+    "lang": "en"
+  },
+  {
+    "text": "it manually so I'm just going to say",
+    "duration": 7169,
+    "offset": 193780,
+    "lang": "en"
+  },
+  {
+    "text": "with SMTP Lib dot SMTP so we're using",
+    "duration": 8460,
+    "offset": 195489,
+    "lang": "en"
+  },
+  {
+    "text": "the SMTP class there and now we'll put",
+    "duration": 5040,
+    "offset": 200949,
+    "lang": "en"
+  },
+  {
+    "text": "in the mail server that we want to use",
+    "duration": 5000,
+    "offset": 203949,
+    "lang": "en"
+  },
+  {
+    "text": "if you're using Gmail then this will be",
+    "duration": 6240,
+    "offset": 205989,
+    "lang": "en"
+  },
+  {
+    "text": "smtp.gmail.com so make sure that's",
+    "duration": 6341,
+    "offset": 208949,
+    "lang": "en"
+  },
+  {
+    "text": "spelled correctly and now we're going to",
+    "duration": 5611,
+    "offset": 212229,
+    "lang": "en"
+  },
+  {
+    "text": "put in the port number that we want to",
+    "duration": 4500,
+    "offset": 215290,
+    "lang": "en"
+  },
+  {
+    "text": "connect to and if you're using plain old",
+    "duration": 5130,
+    "offset": 217840,
+    "lang": "en"
+  },
+  {
+    "text": "SMTP then that's going to be 587 and now",
+    "duration": 4979,
+    "offset": 219790,
+    "lang": "en"
+  },
+  {
+    "text": "we can give this connection a variable",
+    "duration": 2820,
+    "offset": 222970,
+    "lang": "en"
+  },
+  {
+    "text": "name and I'm just going to call this",
+    "duration": 4680,
+    "offset": 224769,
+    "lang": "en"
+  },
+  {
+    "text": "SMTP and now within this with statement",
+    "duration": 6919,
+    "offset": 225790,
+    "lang": "en"
+  },
+  {
+    "text": "we're going to say SMTP dot",
+    "duration": 7680,
+    "offset": 229449,
+    "lang": "en"
+  },
+  {
+    "text": "and the eh ello method just identifies",
+    "duration": 6161,
+    "offset": 232709,
+    "lang": "en"
+  },
+  {
+    "text": "ourselves with the mail server that",
+    "duration": 4051,
+    "offset": 237129,
+    "lang": "en"
+  },
+  {
+    "text": "we're using and I think this is actually",
+    "duration": 3539,
+    "offset": 238870,
+    "lang": "en"
+  },
+  {
+    "text": "gets called automatically in the",
+    "duration": 3269,
+    "offset": 241180,
+    "lang": "en"
+  },
+  {
+    "text": "background anyways but just in case I'm",
+    "duration": 3061,
+    "offset": 242409,
+    "lang": "en"
+  },
+  {
+    "text": "going to go ahead and run this",
+    "duration": 3600,
+    "offset": 244449,
+    "lang": "en"
+  },
+  {
+    "text": "explicitly here and now we want to",
+    "duration": 4859,
+    "offset": 245470,
+    "lang": "en"
+  },
+  {
+    "text": "encrypt our traffic so to encrypt our",
+    "duration": 7800,
+    "offset": 248049,
+    "lang": "en"
+  },
+  {
+    "text": "traffic we can say SMTP dot start TLS ok",
+    "duration": 8491,
+    "offset": 250329,
+    "lang": "en"
+  },
+  {
+    "text": "and now that we've encrypted to traffic",
+    "duration": 6091,
+    "offset": 255849,
+    "lang": "en"
+  },
+  {
+    "text": "we need to rerun the eh ello method",
+    "duration": 5250,
+    "offset": 258820,
+    "lang": "en"
+  },
+  {
+    "text": "again to re-identify our cell",
+    "duration": 4200,
+    "offset": 261940,
+    "lang": "en"
+  },
+  {
+    "text": "as an encrypted connection so I'm just",
+    "duration": 4950,
+    "offset": 264070,
+    "lang": "en"
+  },
+  {
+    "text": "going to copy this here and paste this",
+    "duration": 7080,
+    "offset": 266140,
+    "lang": "en"
+  },
+  {
+    "text": "in to run that again and now that we're",
+    "duration": 6750,
+    "offset": 269020,
+    "lang": "en"
+  },
+  {
+    "text": "encrypted we can go ahead and login to",
+    "duration": 5250,
+    "offset": 273220,
+    "lang": "en"
+  },
+  {
+    "text": "our mail server so I'm gonna say SMTP",
+    "duration": 3450,
+    "offset": 275770,
+    "lang": "en"
+  },
+  {
+    "text": "dot",
+    "duration": 3990,
+    "offset": 278470,
+    "lang": "en"
+  },
+  {
+    "text": "in and now we can put in up sorry that's",
+    "duration": 5940,
+    "offset": 279220,
+    "lang": "en"
+  },
+  {
+    "text": "going to be a method and now we can put",
+    "duration": 4860,
+    "offset": 282460,
+    "lang": "en"
+  },
+  {
+    "text": "in our email address and password that",
+    "duration": 4290,
+    "offset": 285160,
+    "lang": "en"
+  },
+  {
+    "text": "we want to login with now you can put",
+    "duration": 4260,
+    "offset": 287320,
+    "lang": "en"
+  },
+  {
+    "text": "this directly into the script but",
+    "duration": 3540,
+    "offset": 289450,
+    "lang": "en"
+  },
+  {
+    "text": "remember I said that I think it's a good",
+    "duration": 3330,
+    "offset": 291580,
+    "lang": "en"
+  },
+  {
+    "text": "idea to get into the habit of putting",
+    "duration": 4050,
+    "offset": 292990,
+    "lang": "en"
+  },
+  {
+    "text": "sensitive information into environment",
+    "duration": 3720,
+    "offset": 294910,
+    "lang": "en"
+  },
+  {
+    "text": "variables so that's where I currently",
+    "duration": 4470,
+    "offset": 297040,
+    "lang": "en"
+  },
+  {
+    "text": "have mine so at the top of my script I'm",
+    "duration": 4290,
+    "offset": 298630,
+    "lang": "en"
+  },
+  {
+    "text": "going to go ahead and grab these",
+    "duration": 3840,
+    "offset": 301510,
+    "lang": "en"
+  },
+  {
+    "text": "environment variables so I can do that",
+    "duration": 5550,
+    "offset": 302920,
+    "lang": "en"
+  },
+  {
+    "text": "with the OS module so above SMTP here",
+    "duration": 6450,
+    "offset": 305350,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to import OS and now here at",
+    "duration": 4950,
+    "offset": 308470,
+    "lang": "en"
+  },
+  {
+    "text": "the top of the file I'm going to create",
+    "duration": 3840,
+    "offset": 311800,
+    "lang": "en"
+  },
+  {
+    "text": "some variables using these environment",
+    "duration": 4080,
+    "offset": 313420,
+    "lang": "en"
+  },
+  {
+    "text": "variables so the first one I'm going to",
+    "duration": 4830,
+    "offset": 315640,
+    "lang": "en"
+  },
+  {
+    "text": "call email address and I'll set this",
+    "duration": 4980,
+    "offset": 317500,
+    "lang": "en"
+  },
+  {
+    "text": "equal to and to grab environment",
+    "duration": 5300,
+    "offset": 320470,
+    "lang": "en"
+  },
+  {
+    "text": "variables in Python we can say OS dot",
+    "duration": 4560,
+    "offset": 322480,
+    "lang": "en"
+  },
+  {
+    "text": "environment",
+    "duration": 4150,
+    "offset": 325770,
+    "lang": "en"
+  },
+  {
+    "text": "and I called my environment variable",
+    "duration": 6480,
+    "offset": 327040,
+    "lang": "en"
+  },
+  {
+    "text": "email underscore user and I'm gonna do",
+    "duration": 7770,
+    "offset": 329920,
+    "lang": "en"
+  },
+  {
+    "text": "the exact same thing for the password so",
+    "duration": 9540,
+    "offset": 333520,
+    "lang": "en"
+  },
+  {
+    "text": "I'll call this one email password and I",
+    "duration": 7320,
+    "offset": 337690,
+    "lang": "en"
+  },
+  {
+    "text": "call this environment variable email",
+    "duration": 4440,
+    "offset": 343060,
+    "lang": "en"
+  },
+  {
+    "text": "underscore pass so now I'm going to",
+    "duration": 4500,
+    "offset": 345010,
+    "lang": "en"
+  },
+  {
+    "text": "login to the gmail server using those",
+    "duration": 3570,
+    "offset": 347500,
+    "lang": "en"
+  },
+  {
+    "text": "credentials so I'm going to copy my",
+    "duration": 3750,
+    "offset": 349510,
+    "lang": "en"
+  },
+  {
+    "text": "email address and that is the first",
+    "duration": 5070,
+    "offset": 351070,
+    "lang": "en"
+  },
+  {
+    "text": "argument that we pass in to login and we",
+    "duration": 5130,
+    "offset": 353260,
+    "lang": "en"
+  },
+  {
+    "text": "pass in the password as the second",
+    "duration": 6090,
+    "offset": 356140,
+    "lang": "en"
+  },
+  {
+    "text": "argument okay so now that should log us",
+    "duration": 7170,
+    "offset": 358390,
+    "lang": "en"
+  },
+  {
+    "text": "in to our mail server now in my case I",
+    "duration": 5550,
+    "offset": 362230,
+    "lang": "en"
+  },
+  {
+    "text": "have two factor authentication so the",
+    "duration": 4530,
+    "offset": 365560,
+    "lang": "en"
+  },
+  {
+    "text": "email address is just simply my email",
+    "duration": 5190,
+    "offset": 367780,
+    "lang": "en"
+  },
+  {
+    "text": "address and the password here is the app",
+    "duration": 5190,
+    "offset": 370090,
+    "lang": "en"
+  },
+  {
+    "text": "password that I created through that app",
+    "duration": 4230,
+    "offset": 372970,
+    "lang": "en"
+  },
+  {
+    "text": "passwords page that I showed you earlier",
+    "duration": 4920,
+    "offset": 375280,
+    "lang": "en"
+  },
+  {
+    "text": "in the video okay so now let's create a",
+    "duration": 5850,
+    "offset": 377200,
+    "lang": "en"
+  },
+  {
+    "text": "simple message so we're going to see",
+    "duration": 4890,
+    "offset": 380200,
+    "lang": "en"
+  },
+  {
+    "text": "more organized ways to create messages",
+    "duration": 4320,
+    "offset": 383050,
+    "lang": "en"
+  },
+  {
+    "text": "and just a bit with other modules but if",
+    "duration": 3780,
+    "offset": 385090,
+    "lang": "en"
+  },
+  {
+    "text": "we want to create a simple message",
+    "duration": 3990,
+    "offset": 387370,
+    "lang": "en"
+  },
+  {
+    "text": "without importing anything else then we",
+    "duration": 4080,
+    "offset": 388870,
+    "lang": "en"
+  },
+  {
+    "text": "can do that so let's go ahead and do",
+    "duration": 4110,
+    "offset": 391360,
+    "lang": "en"
+  },
+  {
+    "text": "that first so first I'm going to create",
+    "duration": 4739,
+    "offset": 392950,
+    "lang": "en"
+  },
+  {
+    "text": "a subject for our message so I'll so",
+    "duration": 6140,
+    "offset": 395470,
+    "lang": "en"
+  },
+  {
+    "text": "a subject is equal to and I'll just say",
+    "duration": 8760,
+    "offset": 397689,
+    "lang": "en"
+  },
+  {
+    "text": "grab dinner this weekend and now I'll",
+    "duration": 7839,
+    "offset": 401610,
+    "lang": "en"
+  },
+  {
+    "text": "put in a body so for the body I'll say",
+    "duration": 8340,
+    "offset": 406449,
+    "lang": "en"
+  },
+  {
+    "text": "how about dinner at 6:00 p.m. this",
+    "duration": 9060,
+    "offset": 409449,
+    "lang": "en"
+  },
+  {
+    "text": "Saturday okay and now I can combine",
+    "duration": 6180,
+    "offset": 414789,
+    "lang": "en"
+  },
+  {
+    "text": "these into a single message now when",
+    "duration": 3900,
+    "offset": 418509,
+    "lang": "en"
+  },
+  {
+    "text": "you're constructing a plaintext",
+    "duration": 3750,
+    "offset": 420969,
+    "lang": "en"
+  },
+  {
+    "text": "email from scratch you need to add the",
+    "duration": 4740,
+    "offset": 422409,
+    "lang": "en"
+  },
+  {
+    "text": "subject as a header and then have a",
+    "duration": 4500,
+    "offset": 424719,
+    "lang": "en"
+  },
+  {
+    "text": "couple of blank lines and then put the",
+    "duration": 4230,
+    "offset": 427149,
+    "lang": "en"
+  },
+  {
+    "text": "body of the message so I'm going to do",
+    "duration": 4350,
+    "offset": 429219,
+    "lang": "en"
+  },
+  {
+    "text": "this using an F string so I'm going to",
+    "duration": 5100,
+    "offset": 431379,
+    "lang": "en"
+  },
+  {
+    "text": "say msg is equal to and now I'm going to",
+    "duration": 4560,
+    "offset": 433569,
+    "lang": "en"
+  },
+  {
+    "text": "create an EPS tring so we'll put an F",
+    "duration": 4530,
+    "offset": 436479,
+    "lang": "en"
+  },
+  {
+    "text": "there and now we need to put the subject",
+    "duration": 5370,
+    "offset": 438129,
+    "lang": "en"
+  },
+  {
+    "text": "as a header so I'll say subject and then",
+    "duration": 6210,
+    "offset": 441009,
+    "lang": "en"
+  },
+  {
+    "text": "put in our subject there and now we need",
+    "duration": 6120,
+    "offset": 443499,
+    "lang": "en"
+  },
+  {
+    "text": "a couple of blank lines and now we can",
+    "duration": 5100,
+    "offset": 447219,
+    "lang": "en"
+  },
+  {
+    "text": "put in the body of our message now I",
+    "duration": 4290,
+    "offset": 449619,
+    "lang": "en"
+  },
+  {
+    "text": "know that that looks a little strange",
+    "duration": 4230,
+    "offset": 452319,
+    "lang": "en"
+  },
+  {
+    "text": "and it's a weird way to format a message",
+    "duration": 4890,
+    "offset": 453909,
+    "lang": "en"
+  },
+  {
+    "text": "but we are going to see more convenient",
+    "duration": 4050,
+    "offset": 456549,
+    "lang": "en"
+  },
+  {
+    "text": "ways to do this later in the video but",
+    "duration": 2850,
+    "offset": 458799,
+    "lang": "en"
+  },
+  {
+    "text": "if you're going to do it without any",
+    "duration": 3120,
+    "offset": 460599,
+    "lang": "en"
+  },
+  {
+    "text": "additional modules then you have to do",
+    "duration": 3720,
+    "offset": 461649,
+    "lang": "en"
+  },
+  {
+    "text": "it this way now if you've never used f",
+    "duration": 3180,
+    "offset": 463719,
+    "lang": "en"
+  },
+  {
+    "text": "strings before then you can use regular",
+    "duration": 3900,
+    "offset": 465369,
+    "lang": "en"
+  },
+  {
+    "text": "string formatting there as well now but",
+    "duration": 3961,
+    "offset": 466899,
+    "lang": "en"
+  },
+  {
+    "text": "basically you just need your subject",
+    "duration": 3600,
+    "offset": 469269,
+    "lang": "en"
+  },
+  {
+    "text": "those two new lines and then your body",
+    "duration": 5339,
+    "offset": 470860,
+    "lang": "en"
+  },
+  {
+    "text": "okay so now we can send this simple",
+    "duration": 6510,
+    "offset": 472869,
+    "lang": "en"
+  },
+  {
+    "text": "plain text email so to do this I can",
+    "duration": 7650,
+    "offset": 476199,
+    "lang": "en"
+  },
+  {
+    "text": "just say SMTP dot sin mail and now the",
+    "duration": 6840,
+    "offset": 479379,
+    "lang": "en"
+  },
+  {
+    "text": "format that we are going to use for this",
+    "duration": 6360,
+    "offset": 483849,
+    "lang": "en"
+  },
+  {
+    "text": "we is going to be the sender then the",
+    "duration": 7170,
+    "offset": 486219,
+    "lang": "en"
+  },
+  {
+    "text": "receiver and then the message so for the",
+    "duration": 5820,
+    "offset": 490209,
+    "lang": "en"
+  },
+  {
+    "text": "sender we want the sender to be the",
+    "duration": 5670,
+    "offset": 493389,
+    "lang": "en"
+  },
+  {
+    "text": "email address that we logged in as for",
+    "duration": 5190,
+    "offset": 496029,
+    "lang": "en"
+  },
+  {
+    "text": "the receiver I'm actually going to send",
+    "duration": 4080,
+    "offset": 499059,
+    "lang": "en"
+  },
+  {
+    "text": "this to myself so I could put email",
+    "duration": 4590,
+    "offset": 501219,
+    "lang": "en"
+  },
+  {
+    "text": "address here as well but just to kind of",
+    "duration": 4590,
+    "offset": 503139,
+    "lang": "en"
+  },
+  {
+    "text": "differentiate these two I'll just put my",
+    "duration": 3930,
+    "offset": 505809,
+    "lang": "en"
+  },
+  {
+    "text": "email address and manually to make it",
+    "duration": 3330,
+    "offset": 507729,
+    "lang": "en"
+  },
+  {
+    "text": "look like I'm sending it to someone else",
+    "duration": 3720,
+    "offset": 509739,
+    "lang": "en"
+  },
+  {
+    "text": "so my email address is khorium Schaefer",
+    "duration": 6660,
+    "offset": 511059,
+    "lang": "en"
+  },
+  {
+    "text": "at gmail.com okay now if you're testing",
+    "duration": 6151,
+    "offset": 513459,
+    "lang": "en"
+  },
+  {
+    "text": "this on your machine then you know I'd",
+    "duration": 3720,
+    "offset": 517719,
+    "lang": "en"
+  },
+  {
+    "text": "appreciate it if you didn't set my email",
+    "duration": 3839,
+    "offset": 519610,
+    "lang": "en"
+  },
+  {
+    "text": "address as the receiving address there I",
+    "duration": 4020,
+    "offset": 521439,
+    "lang": "en"
+  },
+  {
+    "text": "don't mind getting questions and",
+    "duration": 4320,
+    "offset": 523449,
+    "lang": "en"
+  },
+  {
+    "text": "messages from you all but if you're just",
+    "duration": 4981,
+    "offset": 525459,
+    "lang": "en"
+  },
+  {
+    "text": "going to be using this for a test",
+    "duration": 3961,
+    "offset": 527769,
+    "lang": "en"
+  },
+  {
+    "text": "then you know I'd rather not be",
+    "duration": 3360,
+    "offset": 530440,
+    "lang": "en"
+  },
+  {
+    "text": "bombarded with a lot of those test",
+    "duration": 4380,
+    "offset": 531730,
+    "lang": "en"
+  },
+  {
+    "text": "emails so you know if you don't mind",
+    "duration": 3930,
+    "offset": 533800,
+    "lang": "en"
+  },
+  {
+    "text": "please change that to your own address",
+    "duration": 5070,
+    "offset": 536110,
+    "lang": "en"
+  },
+  {
+    "text": "for testing purposes okay so for sending",
+    "duration": 5760,
+    "offset": 537730,
+    "lang": "en"
+  },
+  {
+    "text": "simple plain text emails then it's just",
+    "duration": 5790,
+    "offset": 541180,
+    "lang": "en"
+  },
+  {
+    "text": "as simple as this so if I save this then",
+    "duration": 5219,
+    "offset": 543490,
+    "lang": "en"
+  },
+  {
+    "text": "we can see if I scroll up here we've",
+    "duration": 4619,
+    "offset": 546970,
+    "lang": "en"
+  },
+  {
+    "text": "done this in 20 lines of code so now I",
+    "duration": 5461,
+    "offset": 548709,
+    "lang": "en"
+  },
+  {
+    "text": "can go ahead and run this and we didn't",
+    "duration": 4350,
+    "offset": 551589,
+    "lang": "en"
+  },
+  {
+    "text": "have an output so that's fine we didn't",
+    "duration": 4560,
+    "offset": 554170,
+    "lang": "en"
+  },
+  {
+    "text": "print anything but if I go back to my",
+    "duration": 5250,
+    "offset": 555939,
+    "lang": "en"
+  },
+  {
+    "text": "browser here then if I pull up my email",
+    "duration": 4830,
+    "offset": 558730,
+    "lang": "en"
+  },
+  {
+    "text": "here then we can see that I got my",
+    "duration": 5311,
+    "offset": 561189,
+    "lang": "en"
+  },
+  {
+    "text": "message so that's good now your if",
+    "duration": 4560,
+    "offset": 563560,
+    "lang": "en"
+  },
+  {
+    "text": "you're doing a lot of testing and don't",
+    "duration": 3120,
+    "offset": 566500,
+    "lang": "en"
+  },
+  {
+    "text": "actually want to send yourself an email",
+    "duration": 5339,
+    "offset": 568120,
+    "lang": "en"
+  },
+  {
+    "text": "each time then you can use a local debug",
+    "duration": 6149,
+    "offset": 569620,
+    "lang": "en"
+  },
+  {
+    "text": "server to test this so next we're gonna",
+    "duration": 5041,
+    "offset": 573459,
+    "lang": "en"
+  },
+  {
+    "text": "take a look at how to do that but",
+    "duration": 4680,
+    "offset": 575769,
+    "lang": "en"
+  },
+  {
+    "text": "quickly just to make sure that this all",
+    "duration": 4230,
+    "offset": 578500,
+    "lang": "en"
+  },
+  {
+    "text": "looks well let me open this up so that's",
+    "duration": 4801,
+    "offset": 580449,
+    "lang": "en"
+  },
+  {
+    "text": "our subject looks good our body looks",
+    "duration": 4169,
+    "offset": 582730,
+    "lang": "en"
+  },
+  {
+    "text": "good okay so I'm going to go ahead and",
+    "duration": 3810,
+    "offset": 585250,
+    "lang": "en"
+  },
+  {
+    "text": "delete that and now like I was saying",
+    "duration": 4170,
+    "offset": 586899,
+    "lang": "en"
+  },
+  {
+    "text": "now let's go ahead and take a look at",
+    "duration": 4529,
+    "offset": 589060,
+    "lang": "en"
+  },
+  {
+    "text": "how to use a local debug server to test",
+    "duration": 4351,
+    "offset": 591069,
+    "lang": "en"
+  },
+  {
+    "text": "these emails if you don't actually want",
+    "duration": 4350,
+    "offset": 593589,
+    "lang": "en"
+  },
+  {
+    "text": "to send yourself a bunch of emails so in",
+    "duration": 4710,
+    "offset": 595420,
+    "lang": "en"
+  },
+  {
+    "text": "order to do this I'm going to open up",
+    "duration": 4260,
+    "offset": 597939,
+    "lang": "en"
+  },
+  {
+    "text": "the terminal here so I open up a new",
+    "duration": 7350,
+    "offset": 600130,
+    "lang": "en"
+  },
+  {
+    "text": "terminal let me re size my terminal here",
+    "duration": 8490,
+    "offset": 602199,
+    "lang": "en"
+  },
+  {
+    "text": "and I'm just going to minimize this",
+    "duration": 6719,
+    "offset": 607480,
+    "lang": "en"
+  },
+  {
+    "text": "browser here in the background okay so",
+    "duration": 6150,
+    "offset": 610689,
+    "lang": "en"
+  },
+  {
+    "text": "we can start a debug mail server on our",
+    "duration": 6240,
+    "offset": 614199,
+    "lang": "en"
+  },
+  {
+    "text": "localhost by saying Python 3 if you're",
+    "duration": 5190,
+    "offset": 616839,
+    "lang": "en"
+  },
+  {
+    "text": "on Windows or if you're in a virtual",
+    "duration": 4020,
+    "offset": 620439,
+    "lang": "en"
+  },
+  {
+    "text": "environment then that might just be",
+    "duration": 4170,
+    "offset": 622029,
+    "lang": "en"
+  },
+  {
+    "text": "Python I'm on a Mac so I have to say",
+    "duration": 3661,
+    "offset": 624459,
+    "lang": "en"
+  },
+  {
+    "text": "Python 3 when I'm in my global",
+    "duration": 6841,
+    "offset": 626199,
+    "lang": "en"
+  },
+  {
+    "text": "environment so I say python 3 - M SMTP D",
+    "duration": 9959,
+    "offset": 628120,
+    "lang": "en"
+  },
+  {
+    "text": "so not just SMTP or SMTP lib but SMTP D",
+    "duration": 10489,
+    "offset": 633040,
+    "lang": "en"
+  },
+  {
+    "text": "and then - C and this will be d bugging",
+    "duration": 8930,
+    "offset": 638079,
+    "lang": "en"
+  },
+  {
+    "text": "server all one word with those",
+    "duration": 7530,
+    "offset": 643529,
+    "lang": "en"
+  },
+  {
+    "text": "capitalizations there and now - in",
+    "duration": 7060,
+    "offset": 647009,
+    "lang": "en"
+  },
+  {
+    "text": "localhost and then we will run this on",
+    "duration": 7960,
+    "offset": 651059,
+    "lang": "en"
+  },
+  {
+    "text": "you know port 1025 so if I run that then",
+    "duration": 7890,
+    "offset": 654069,
+    "lang": "en"
+  },
+  {
+    "text": "that will now listen for emails on our",
+    "duration": 5401,
+    "offset": 659019,
+    "lang": "en"
+  },
+  {
+    "text": "local machine and when it gets it",
+    "duration": 4411,
+    "offset": 661959,
+    "lang": "en"
+  },
+  {
+    "text": "we'll just print it out here to the",
+    "duration": 4590,
+    "offset": 664420,
+    "lang": "en"
+  },
+  {
+    "text": "terminal and then discard it so let's go",
+    "duration": 4769,
+    "offset": 666370,
+    "lang": "en"
+  },
+  {
+    "text": "back to our code and send an email to",
+    "duration": 4379,
+    "offset": 669010,
+    "lang": "en"
+  },
+  {
+    "text": "this debug server so I'm going to open",
+    "duration": 4741,
+    "offset": 671139,
+    "lang": "en"
+  },
+  {
+    "text": "up sublime and to do this I'm going to",
+    "duration": 4921,
+    "offset": 673389,
+    "lang": "en"
+  },
+  {
+    "text": "close our current output now I'm just",
+    "duration": 4680,
+    "offset": 675880,
+    "lang": "en"
+  },
+  {
+    "text": "going to comment out the current SMTP",
+    "duration": 4019,
+    "offset": 678310,
+    "lang": "en"
+  },
+  {
+    "text": "connection that we have with Google and",
+    "duration": 4290,
+    "offset": 680560,
+    "lang": "en"
+  },
+  {
+    "text": "just create a different one so I'm going",
+    "duration": 6120,
+    "offset": 682329,
+    "lang": "en"
+  },
+  {
+    "text": "to copy this and comment out the current",
+    "duration": 5400,
+    "offset": 684850,
+    "lang": "en"
+  },
+  {
+    "text": "one and just paste in another one here",
+    "duration": 4171,
+    "offset": 688449,
+    "lang": "en"
+  },
+  {
+    "text": "underneath it and instead of connecting",
+    "duration": 3990,
+    "offset": 690250,
+    "lang": "en"
+  },
+  {
+    "text": "to the Google Mail server",
+    "duration": 3600,
+    "offset": 692620,
+    "lang": "en"
+  },
+  {
+    "text": "I'm just going to connect to local host",
+    "duration": 7589,
+    "offset": 694240,
+    "lang": "en"
+  },
+  {
+    "text": "on port 1 0 to 5 so instead of Gmail",
+    "duration": 8429,
+    "offset": 696220,
+    "lang": "en"
+  },
+  {
+    "text": "here I'm just going to say local host",
+    "duration": 7141,
+    "offset": 701829,
+    "lang": "en"
+  },
+  {
+    "text": "and that's going to be on port 1025 okay",
+    "duration": 6031,
+    "offset": 704649,
+    "lang": "en"
+  },
+  {
+    "text": "and with the debug server we're not",
+    "duration": 3900,
+    "offset": 708970,
+    "lang": "en"
+  },
+  {
+    "text": "going to be able to start TLS or login",
+    "duration": 4080,
+    "offset": 710680,
+    "lang": "en"
+  },
+  {
+    "text": "so I'm just going to comment out those",
+    "duration": 3810,
+    "offset": 712870,
+    "lang": "en"
+  },
+  {
+    "text": "lines as well so I'm going to comment",
+    "duration": 5040,
+    "offset": 714760,
+    "lang": "en"
+  },
+  {
+    "text": "out those and now all we have is our",
+    "duration": 6750,
+    "offset": 716680,
+    "lang": "en"
+  },
+  {
+    "text": "message creation and the send mail so",
+    "duration": 6420,
+    "offset": 719800,
+    "lang": "en"
+  },
+  {
+    "text": "now if I run this code then again we",
+    "duration": 4500,
+    "offset": 723430,
+    "lang": "en"
+  },
+  {
+    "text": "don't have any output but if I go back",
+    "duration": 4020,
+    "offset": 726220,
+    "lang": "en"
+  },
+  {
+    "text": "to the terminal then we can see that",
+    "duration": 4019,
+    "offset": 727930,
+    "lang": "en"
+  },
+  {
+    "text": "that message was printed out to our",
+    "duration": 3690,
+    "offset": 730240,
+    "lang": "en"
+  },
+  {
+    "text": "terminal instead of actually sending an",
+    "duration": 4441,
+    "offset": 731949,
+    "lang": "en"
+  },
+  {
+    "text": "email so that's a way that we can test",
+    "duration": 4019,
+    "offset": 733930,
+    "lang": "en"
+  },
+  {
+    "text": "these messages if we don't want to keep",
+    "duration": 4439,
+    "offset": 736390,
+    "lang": "en"
+  },
+  {
+    "text": "sending emails to ourselves ok so I'm",
+    "duration": 4471,
+    "offset": 737949,
+    "lang": "en"
+  },
+  {
+    "text": "going to go back now and undo those",
+    "duration": 3301,
+    "offset": 740829,
+    "lang": "en"
+  },
+  {
+    "text": "changes and I'm just going to go back to",
+    "duration": 4470,
+    "offset": 742420,
+    "lang": "en"
+  },
+  {
+    "text": "sending real emails for the purpose of",
+    "duration": 4740,
+    "offset": 744130,
+    "lang": "en"
+  },
+  {
+    "text": "this video so I'm going to shut down the",
+    "duration": 5520,
+    "offset": 746890,
+    "lang": "en"
+  },
+  {
+    "text": "terminal here and go back and just undo",
+    "duration": 5310,
+    "offset": 748870,
+    "lang": "en"
+  },
+  {
+    "text": "all of those changes that I made and",
+    "duration": 4890,
+    "offset": 752410,
+    "lang": "en"
+  },
+  {
+    "text": "save that ok so now let's take a look",
+    "duration": 4589,
+    "offset": 754180,
+    "lang": "en"
+  },
+  {
+    "text": "and see how we can make this a bit",
+    "duration": 3719,
+    "offset": 757300,
+    "lang": "en"
+  },
+  {
+    "text": "easier on ourselves and how we can send",
+    "duration": 5161,
+    "offset": 758769,
+    "lang": "en"
+  },
+  {
+    "text": "more complex messages so first of all I",
+    "duration": 5281,
+    "offset": 761019,
+    "lang": "en"
+  },
+  {
+    "text": "feel like this part here at the top of",
+    "duration": 4649,
+    "offset": 763930,
+    "lang": "en"
+  },
+  {
+    "text": "our context manager is a bit weird where",
+    "duration": 6420,
+    "offset": 766300,
+    "lang": "en"
+  },
+  {
+    "text": "we are you know sending the eh ello then",
+    "duration": 6421,
+    "offset": 768579,
+    "lang": "en"
+  },
+  {
+    "text": "the start TLS and then the eh ello again",
+    "duration": 4109,
+    "offset": 772720,
+    "lang": "en"
+  },
+  {
+    "text": "now if we wanted to then we could just",
+    "duration": 6120,
+    "offset": 775000,
+    "lang": "en"
+  },
+  {
+    "text": "use the SMTP SSL class to have an SSL",
+    "duration": 5940,
+    "offset": 776829,
+    "lang": "en"
+  },
+  {
+    "text": "connection from the very beginning and",
+    "duration": 3390,
+    "offset": 781120,
+    "lang": "en"
+  },
+  {
+    "text": "then we won't have to run these other",
+    "duration": 4771,
+    "offset": 782769,
+    "lang": "en"
+  },
+  {
+    "text": "commands so to do this instead of using",
+    "duration": 6650,
+    "offset": 784510,
+    "lang": "en"
+  },
+  {
+    "text": "the SMTP class I'm going to use SMTP",
+    "duration": 7470,
+    "offset": 787540,
+    "lang": "en"
+  },
+  {
+    "text": "underscore SSL and when you use an SSL",
+    "duration": 6159,
+    "offset": 791160,
+    "lang": "en"
+  },
+  {
+    "text": "connection that instead of this being on",
+    "duration": 3090,
+    "offset": 795010,
+    "lang": "en"
+  },
+  {
+    "text": "port",
+    "duration": 5791,
+    "offset": 797319,
+    "lang": "en"
+  },
+  {
+    "text": "587 we're now gonna use port 465 and now",
+    "duration": 7710,
+    "offset": 798100,
+    "lang": "en"
+  },
+  {
+    "text": "we can remove these other lines here so",
+    "duration": 4979,
+    "offset": 803110,
+    "lang": "en"
+  },
+  {
+    "text": "I'm just going to remove these other",
+    "duration": 4110,
+    "offset": 805810,
+    "lang": "en"
+  },
+  {
+    "text": "lines here and now we're just simply",
+    "duration": 4170,
+    "offset": 808089,
+    "lang": "en"
+  },
+  {
+    "text": "logging in and sending our message so if",
+    "duration": 4680,
+    "offset": 809920,
+    "lang": "en"
+  },
+  {
+    "text": "I save this and go back to my browser",
+    "duration": 5101,
+    "offset": 812259,
+    "lang": "en"
+  },
+  {
+    "text": "here then we can see that that still",
+    "duration": 5669,
+    "offset": 814600,
+    "lang": "en"
+  },
+  {
+    "text": "works - I still got that new email okay",
+    "duration": 4469,
+    "offset": 817360,
+    "lang": "en"
+  },
+  {
+    "text": "so the other thing that's a bit weird",
+    "duration": 4380,
+    "offset": 820269,
+    "lang": "en"
+  },
+  {
+    "text": "back in our code let me delete that test",
+    "duration": 4171,
+    "offset": 821829,
+    "lang": "en"
+  },
+  {
+    "text": "email so that we're sure that we're",
+    "duration": 3990,
+    "offset": 824649,
+    "lang": "en"
+  },
+  {
+    "text": "working with a clean slate let me go",
+    "duration": 4680,
+    "offset": 826000,
+    "lang": "en"
+  },
+  {
+    "text": "back to the code okay so another thing",
+    "duration": 5461,
+    "offset": 828639,
+    "lang": "en"
+  },
+  {
+    "text": "that is a bit weird is the formatting",
+    "duration": 5399,
+    "offset": 830680,
+    "lang": "en"
+  },
+  {
+    "text": "that we're using with our message it's",
+    "duration": 3900,
+    "offset": 834100,
+    "lang": "en"
+  },
+  {
+    "text": "not really intuitive that we have our",
+    "duration": 4200,
+    "offset": 836079,
+    "lang": "en"
+  },
+  {
+    "text": "subject and then the two blank lines and",
+    "duration": 5190,
+    "offset": 838000,
+    "lang": "en"
+  },
+  {
+    "text": "then our body so let's see a better way",
+    "duration": 4620,
+    "offset": 840279,
+    "lang": "en"
+  },
+  {
+    "text": "to do this so I'm gonna make another",
+    "duration": 4889,
+    "offset": 843190,
+    "lang": "en"
+  },
+  {
+    "text": "import here at the top and I'm going to",
+    "duration": 5880,
+    "offset": 844899,
+    "lang": "en"
+  },
+  {
+    "text": "import a class called email message and",
+    "duration": 8401,
+    "offset": 848079,
+    "lang": "en"
+  },
+  {
+    "text": "that is from email dot message import",
+    "duration": 10110,
+    "offset": 850779,
+    "lang": "en"
+  },
+  {
+    "text": "and this is email whoops email message",
+    "duration": 7219,
+    "offset": 856480,
+    "lang": "en"
+  },
+  {
+    "text": "so this is an email message class and",
+    "duration": 6481,
+    "offset": 860889,
+    "lang": "en"
+  },
+  {
+    "text": "now we can use this email message to set",
+    "duration": 5890,
+    "offset": 863699,
+    "lang": "en"
+  },
+  {
+    "text": "these things a bit more cleanly and we",
+    "duration": 4110,
+    "offset": 867370,
+    "lang": "en"
+  },
+  {
+    "text": "don't even need to create this message",
+    "duration": 4050,
+    "offset": 869589,
+    "lang": "en"
+  },
+  {
+    "text": "inside of our width statement so let's",
+    "duration": 4770,
+    "offset": 871480,
+    "lang": "en"
+  },
+  {
+    "text": "instead build this up at the top of our",
+    "duration": 5461,
+    "offset": 873639,
+    "lang": "en"
+  },
+  {
+    "text": "file here and then just use our width",
+    "duration": 4829,
+    "offset": 876250,
+    "lang": "en"
+  },
+  {
+    "text": "statement to log in and send the message",
+    "duration": 4979,
+    "offset": 879100,
+    "lang": "en"
+  },
+  {
+    "text": "so up here underneath our email address",
+    "duration": 5610,
+    "offset": 881079,
+    "lang": "en"
+  },
+  {
+    "text": "and password I'm going to create a new",
+    "duration": 4110,
+    "offset": 884079,
+    "lang": "en"
+  },
+  {
+    "text": "email message so I'm going to say",
+    "duration": 4471,
+    "offset": 886689,
+    "lang": "en"
+  },
+  {
+    "text": "message is equal to email message and",
+    "duration": 5400,
+    "offset": 888189,
+    "lang": "en"
+  },
+  {
+    "text": "now instead of creating these different",
+    "duration": 4229,
+    "offset": 891160,
+    "lang": "en"
+  },
+  {
+    "text": "parts of the message separately and then",
+    "duration": 3930,
+    "offset": 893589,
+    "lang": "en"
+  },
+  {
+    "text": "combining them I'm instead just going to",
+    "duration": 4771,
+    "offset": 895389,
+    "lang": "en"
+  },
+  {
+    "text": "set these on our message object itself",
+    "duration": 5430,
+    "offset": 897519,
+    "lang": "en"
+  },
+  {
+    "text": "and I'm also going to add the sender and",
+    "duration": 5310,
+    "offset": 900160,
+    "lang": "en"
+  },
+  {
+    "text": "receiver to the message object also so",
+    "duration": 6151,
+    "offset": 902949,
+    "lang": "en"
+  },
+  {
+    "text": "we can simply say so I will copy this",
+    "duration": 6809,
+    "offset": 905470,
+    "lang": "en"
+  },
+  {
+    "text": "here and now to set the subject we can",
+    "duration": 5750,
+    "offset": 909100,
+    "lang": "en"
+  },
+  {
+    "text": "just set the subject directly like this",
+    "duration": 6451,
+    "offset": 912279,
+    "lang": "en"
+  },
+  {
+    "text": "so I will copy our old subject here and",
+    "duration": 6219,
+    "offset": 914850,
+    "lang": "en"
+  },
+  {
+    "text": "paste it in and now I'll get rid of that",
+    "duration": 6500,
+    "offset": 918730,
+    "lang": "en"
+  },
+  {
+    "text": "subject line and now I'm also going to",
+    "duration": 7651,
+    "offset": 921069,
+    "lang": "en"
+  },
+  {
+    "text": "put the sender and receiver inside the",
+    "duration": 5770,
+    "offset": 925230,
+    "lang": "en"
+  },
+  {
+    "text": "message itself so to set the sender and",
+    "duration": 3180,
+    "offset": 928720,
+    "lang": "en"
+  },
+  {
+    "text": "receiver",
+    "duration": 3810,
+    "offset": 931000,
+    "lang": "en"
+  },
+  {
+    "text": "this is going to be a from right here so",
+    "duration": 8040,
+    "offset": 931900,
+    "lang": "en"
+  },
+  {
+    "text": "we can set the from to our email address",
+    "duration": 9570,
+    "offset": 934810,
+    "lang": "en"
+  },
+  {
+    "text": "and we can set the message and access",
+    "duration": 7350,
+    "offset": 939940,
+    "lang": "en"
+  },
+  {
+    "text": "this to key there and we're going to set",
+    "duration": 7110,
+    "offset": 944380,
+    "lang": "en"
+  },
+  {
+    "text": "the two to be to Cory M Shaffer at",
+    "duration": 6180,
+    "offset": 947290,
+    "lang": "en"
+  },
+  {
+    "text": "gmail.com okay",
+    "duration": 4650,
+    "offset": 951490,
+    "lang": "en"
+  },
+  {
+    "text": "and now we can actually set the content",
+    "duration": 4170,
+    "offset": 953470,
+    "lang": "en"
+  },
+  {
+    "text": "of our message which is going to be our",
+    "duration": 5910,
+    "offset": 956140,
+    "lang": "en"
+  },
+  {
+    "text": "body so I can say MSG dot set underscore",
+    "duration": 8310,
+    "offset": 957640,
+    "lang": "en"
+  },
+  {
+    "text": "content and now we can pass in the",
+    "duration": 5880,
+    "offset": 962050,
+    "lang": "en"
+  },
+  {
+    "text": "content of our message so I'm just going",
+    "duration": 3750,
+    "offset": 965950,
+    "lang": "en"
+  },
+  {
+    "text": "to copy the same one that we had before",
+    "duration": 5160,
+    "offset": 967930,
+    "lang": "en"
+  },
+  {
+    "text": "and now I can get rid of our body down",
+    "duration": 5700,
+    "offset": 969700,
+    "lang": "en"
+  },
+  {
+    "text": "here I can get rid of our message down",
+    "duration": 6060,
+    "offset": 973090,
+    "lang": "en"
+  },
+  {
+    "text": "here and also when we send mail and",
+    "duration": 6780,
+    "offset": 975400,
+    "lang": "en"
+  },
+  {
+    "text": "instead of using the send mail method",
+    "duration": 6390,
+    "offset": 979150,
+    "lang": "en"
+  },
+  {
+    "text": "since we're no longer using the sender",
+    "duration": 5820,
+    "offset": 982180,
+    "lang": "en"
+  },
+  {
+    "text": "and receiver within this instead we're",
+    "duration": 4140,
+    "offset": 985540,
+    "lang": "en"
+  },
+  {
+    "text": "going to use the send message method",
+    "duration": 3540,
+    "offset": 988000,
+    "lang": "en"
+  },
+  {
+    "text": "because all we're doing is sending a",
+    "duration": 4140,
+    "offset": 989680,
+    "lang": "en"
+  },
+  {
+    "text": "message so I'm going to get rid of those",
+    "duration": 4650,
+    "offset": 991540,
+    "lang": "en"
+  },
+  {
+    "text": "and just have the message there and this",
+    "duration": 6630,
+    "offset": 993820,
+    "lang": "en"
+  },
+  {
+    "text": "is going to be send underscore message",
+    "duration": 6450,
+    "offset": 996190,
+    "lang": "en"
+  },
+  {
+    "text": "okay so I think that this organizes the",
+    "duration": 4290,
+    "offset": 1000450,
+    "lang": "en"
+  },
+  {
+    "text": "information for our message a little bit",
+    "duration": 4290,
+    "offset": 1002640,
+    "lang": "en"
+  },
+  {
+    "text": "better so now we have it all in one",
+    "duration": 4890,
+    "offset": 1004740,
+    "lang": "en"
+  },
+  {
+    "text": "place and not only that but this is also",
+    "duration": 4860,
+    "offset": 1006930,
+    "lang": "en"
+  },
+  {
+    "text": "going to let us put together some more",
+    "duration": 4200,
+    "offset": 1009630,
+    "lang": "en"
+  },
+  {
+    "text": "complicated messages as well with us",
+    "duration": 3900,
+    "offset": 1011790,
+    "lang": "en"
+  },
+  {
+    "text": "doing it this way but if we were to run",
+    "duration": 3390,
+    "offset": 1013830,
+    "lang": "en"
+  },
+  {
+    "text": "this right now then we should still just",
+    "duration": 3840,
+    "offset": 1015690,
+    "lang": "en"
+  },
+  {
+    "text": "get that same plain text email that we",
+    "duration": 4290,
+    "offset": 1017220,
+    "lang": "en"
+  },
+  {
+    "text": "got before so I'm gonna save this and",
+    "duration": 5040,
+    "offset": 1019530,
+    "lang": "en"
+  },
+  {
+    "text": "run it and now if I check my browser",
+    "duration": 6270,
+    "offset": 1021510,
+    "lang": "en"
+  },
+  {
+    "text": "here and if I check my email then we can",
+    "duration": 5010,
+    "offset": 1024570,
+    "lang": "en"
+  },
+  {
+    "text": "see that we got that same plain text",
+    "duration": 3420,
+    "offset": 1027780,
+    "lang": "en"
+  },
+  {
+    "text": "message that we got before so that's",
+    "duration": 4800,
+    "offset": 1029580,
+    "lang": "en"
+  },
+  {
+    "text": "still working okay so now let me go back",
+    "duration": 5490,
+    "offset": 1031200,
+    "lang": "en"
+  },
+  {
+    "text": "to our code okay so now we're using this",
+    "duration": 5520,
+    "offset": 1034380,
+    "lang": "en"
+  },
+  {
+    "text": "new email message object to send our",
+    "duration": 5550,
+    "offset": 1036690,
+    "lang": "en"
+  },
+  {
+    "text": "message so now let's see how we can add",
+    "duration": 4830,
+    "offset": 1039900,
+    "lang": "en"
+  },
+  {
+    "text": "some attachments to this email so I have",
+    "duration": 4440,
+    "offset": 1042240,
+    "lang": "en"
+  },
+  {
+    "text": "some pictures of my dog when he was a",
+    "duration": 3960,
+    "offset": 1044730,
+    "lang": "en"
+  },
+  {
+    "text": "puppy saved in the same directory as",
+    "duration": 4080,
+    "offset": 1046680,
+    "lang": "en"
+  },
+  {
+    "text": "this script so let's say that I wanted",
+    "duration": 5220,
+    "offset": 1048690,
+    "lang": "en"
+  },
+  {
+    "text": "to add those as an email attachment so",
+    "duration": 5310,
+    "offset": 1050760,
+    "lang": "en"
+  },
+  {
+    "text": "first I'll just attach one image and",
+    "duration": 5070,
+    "offset": 1053910,
+    "lang": "en"
+  },
+  {
+    "text": "then we'll see how to do two after we",
+    "duration": 5070,
+    "offset": 1056070,
+    "lang": "en"
+  },
+  {
+    "text": "send the one so first I'm going to",
+    "duration": 4920,
+    "offset": 1058980,
+    "lang": "en"
+  },
+  {
+    "text": "change the subject of subject and the",
+    "duration": 4060,
+    "offset": 1061140,
+    "lang": "en"
+  },
+  {
+    "text": "body of our message",
+    "duration": 4600,
+    "offset": 1063900,
+    "lang": "en"
+  },
+  {
+    "text": "here so I'll just say check out Bronx as",
+    "duration": 6990,
+    "offset": 1065200,
+    "lang": "en"
+  },
+  {
+    "text": "a puppy and then for the content here I",
+    "duration": 5100,
+    "offset": 1068500,
+    "lang": "en"
+  },
+  {
+    "text": "will just let them know that there's are",
+    "duration": 3119,
+    "offset": 1072190,
+    "lang": "en"
+  },
+  {
+    "text": "an image attached so I'll just say",
+    "duration": 5789,
+    "offset": 1073600,
+    "lang": "en"
+  },
+  {
+    "text": "imaged attached here okay so now below",
+    "duration": 7110,
+    "offset": 1075309,
+    "lang": "en"
+  },
+  {
+    "text": "set content here I'm going to open that",
+    "duration": 5910,
+    "offset": 1079389,
+    "lang": "en"
+  },
+  {
+    "text": "file that I want to attach so to open",
+    "duration": 5401,
+    "offset": 1082419,
+    "lang": "en"
+  },
+  {
+    "text": "this file I can just say with open and",
+    "duration": 5701,
+    "offset": 1085299,
+    "lang": "en"
+  },
+  {
+    "text": "this file is in the same directory as my",
+    "duration": 4469,
+    "offset": 1087820,
+    "lang": "en"
+  },
+  {
+    "text": "current script that I'm running so I",
+    "duration": 2730,
+    "offset": 1091000,
+    "lang": "en"
+  },
+  {
+    "text": "don't have to set a full path or",
+    "duration": 3510,
+    "offset": 1092289,
+    "lang": "en"
+  },
+  {
+    "text": "anything but you would set the full path",
+    "duration": 4319,
+    "offset": 1093730,
+    "lang": "en"
+  },
+  {
+    "text": "to the image that you want to attach and",
+    "duration": 5161,
+    "offset": 1095799,
+    "lang": "en"
+  },
+  {
+    "text": "this image for me is called Bronx one",
+    "duration": 6990,
+    "offset": 1098049,
+    "lang": "en"
+  },
+  {
+    "text": "jpg so I'm going to open that as in our",
+    "duration": 6569,
+    "offset": 1100960,
+    "lang": "en"
+  },
+  {
+    "text": "B mode which is read bytes and I will",
+    "duration": 5671,
+    "offset": 1105039,
+    "lang": "en"
+  },
+  {
+    "text": "just call this F so now within here I",
+    "duration": 5971,
+    "offset": 1107529,
+    "lang": "en"
+  },
+  {
+    "text": "can read that image data so I'll say",
+    "duration": 7110,
+    "offset": 1110710,
+    "lang": "en"
+  },
+  {
+    "text": "file data is equal to F dot read and now",
+    "duration": 6480,
+    "offset": 1113500,
+    "lang": "en"
+  },
+  {
+    "text": "we can attach this to our message but",
+    "duration": 3900,
+    "offset": 1117820,
+    "lang": "en"
+  },
+  {
+    "text": "before we attach this we're going to",
+    "duration": 3689,
+    "offset": 1119980,
+    "lang": "en"
+  },
+  {
+    "text": "need to be able to determine what kind",
+    "duration": 4319,
+    "offset": 1121720,
+    "lang": "en"
+  },
+  {
+    "text": "of image were attaching so if we're just",
+    "duration": 4531,
+    "offset": 1123669,
+    "lang": "en"
+  },
+  {
+    "text": "doing one image then we could put this",
+    "duration": 4201,
+    "offset": 1126039,
+    "lang": "en"
+  },
+  {
+    "text": "in manually but if you're doing multiple",
+    "duration": 4290,
+    "offset": 1128200,
+    "lang": "en"
+  },
+  {
+    "text": "images then you're likely going to want",
+    "duration": 4319,
+    "offset": 1130240,
+    "lang": "en"
+  },
+  {
+    "text": "Python to determine this for us and",
+    "duration": 3929,
+    "offset": 1132490,
+    "lang": "en"
+  },
+  {
+    "text": "there's a built in module that can do",
+    "duration": 5161,
+    "offset": 1134559,
+    "lang": "en"
+  },
+  {
+    "text": "this for us and that's the image HDR",
+    "duration": 6120,
+    "offset": 1136419,
+    "lang": "en"
+  },
+  {
+    "text": "module so to import this I'm going to go",
+    "duration": 4919,
+    "offset": 1139720,
+    "lang": "en"
+  },
+  {
+    "text": "up here to the top and I'm going to",
+    "duration": 7561,
+    "offset": 1142539,
+    "lang": "en"
+  },
+  {
+    "text": "import oops import and this is I M G HDR",
+    "duration": 8790,
+    "offset": 1144639,
+    "lang": "en"
+  },
+  {
+    "text": "okay and I'm just going to copy that",
+    "duration": 6150,
+    "offset": 1150100,
+    "lang": "en"
+  },
+  {
+    "text": "module name here so that I don't spell",
+    "duration": 5551,
+    "offset": 1153429,
+    "lang": "en"
+  },
+  {
+    "text": "it incorrectly and now to get the type",
+    "duration": 5399,
+    "offset": 1156250,
+    "lang": "en"
+  },
+  {
+    "text": "of image that this is within our with",
+    "duration": 4439,
+    "offset": 1158980,
+    "lang": "en"
+  },
+  {
+    "text": "statement down here where we have this",
+    "duration": 4831,
+    "offset": 1161649,
+    "lang": "en"
+  },
+  {
+    "text": "image file open I'm going to say file",
+    "duration": 6870,
+    "offset": 1163419,
+    "lang": "en"
+  },
+  {
+    "text": "underscore type is equal to IMG",
+    "duration": 7890,
+    "offset": 1166480,
+    "lang": "en"
+  },
+  {
+    "text": "HDR dot what this is a dot what method",
+    "duration": 6630,
+    "offset": 1170289,
+    "lang": "en"
+  },
+  {
+    "text": "and now we can just pass in that it that",
+    "duration": 4350,
+    "offset": 1174370,
+    "lang": "en"
+  },
+  {
+    "text": "name of that file so I'm going to say F",
+    "duration": 4380,
+    "offset": 1176919,
+    "lang": "en"
+  },
+  {
+    "text": "dot name so we're passing in the name of",
+    "duration": 4230,
+    "offset": 1178720,
+    "lang": "en"
+  },
+  {
+    "text": "the file now you could also change that",
+    "duration": 3931,
+    "offset": 1181299,
+    "lang": "en"
+  },
+  {
+    "text": "up a bit in order to get the image type",
+    "duration": 4800,
+    "offset": 1182950,
+    "lang": "en"
+  },
+  {
+    "text": "by reading in the image bytes but in",
+    "duration": 4140,
+    "offset": 1185230,
+    "lang": "en"
+  },
+  {
+    "text": "this case I think it's just easier to do",
+    "duration": 3929,
+    "offset": 1187750,
+    "lang": "en"
+  },
+  {
+    "text": "it with the file name so just to show",
+    "duration": 4470,
+    "offset": 1189370,
+    "lang": "en"
+  },
+  {
+    "text": "you what this does if I comment out",
+    "duration": 4321,
+    "offset": 1191679,
+    "lang": "en"
+  },
+  {
+    "text": "everything underneath this so I'm not",
+    "duration": 4520,
+    "offset": 1193840,
+    "lang": "en"
+  },
+  {
+    "text": "going to send an email right now",
+    "duration": 5600,
+    "offset": 1196000,
+    "lang": "en"
+  },
+  {
+    "text": "now I'm just going to print out this",
+    "duration": 6150,
+    "offset": 1198360,
+    "lang": "en"
+  },
+  {
+    "text": "file type and see what Python gives us",
+    "duration": 5610,
+    "offset": 1201600,
+    "lang": "en"
+  },
+  {
+    "text": "here so if I run this then we can see",
+    "duration": 4590,
+    "offset": 1204510,
+    "lang": "en"
+  },
+  {
+    "text": "that the output that we got that it",
+    "duration": 4140,
+    "offset": 1207210,
+    "lang": "en"
+  },
+  {
+    "text": "returns JPEG so that worked because it",
+    "duration": 4890,
+    "offset": 1209100,
+    "lang": "en"
+  },
+  {
+    "text": "is a JPEG image okay so now let's attach",
+    "duration": 6270,
+    "offset": 1211350,
+    "lang": "en"
+  },
+  {
+    "text": "our image to our message so I'm going to",
+    "duration": 5160,
+    "offset": 1213990,
+    "lang": "en"
+  },
+  {
+    "text": "remove this print statement here where",
+    "duration": 3810,
+    "offset": 1217620,
+    "lang": "en"
+  },
+  {
+    "text": "we printed out that file type I'm going",
+    "duration": 5760,
+    "offset": 1219150,
+    "lang": "en"
+  },
+  {
+    "text": "to uncomment out everything here let me",
+    "duration": 6450,
+    "offset": 1221430,
+    "lang": "en"
+  },
+  {
+    "text": "just get that up there okay okay so now",
+    "duration": 5400,
+    "offset": 1224910,
+    "lang": "en"
+  },
+  {
+    "text": "that we've set that file data in that",
+    "duration": 5280,
+    "offset": 1227880,
+    "lang": "en"
+  },
+  {
+    "text": "file type now below that with statement",
+    "duration": 4860,
+    "offset": 1230310,
+    "lang": "en"
+  },
+  {
+    "text": "and outside of the West statement we're",
+    "duration": 3930,
+    "offset": 1233160,
+    "lang": "en"
+  },
+  {
+    "text": "back on the main level of our code here",
+    "duration": 6110,
+    "offset": 1235170,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to say MSG dot add underscore",
+    "duration": 7200,
+    "offset": 1237090,
+    "lang": "en"
+  },
+  {
+    "text": "attachment and what we want to add is",
+    "duration": 4720,
+    "offset": 1241280,
+    "lang": "en"
+  },
+  {
+    "text": "that file data",
+    "duration": 5340,
+    "offset": 1244290,
+    "lang": "en"
+  },
+  {
+    "text": "whoops file data and now we want to say",
+    "duration": 7910,
+    "offset": 1246000,
+    "lang": "en"
+  },
+  {
+    "text": "main type is equal to and this is an",
+    "duration": 8520,
+    "offset": 1249630,
+    "lang": "en"
+  },
+  {
+    "text": "image and it also needs a sub type so",
+    "duration": 6040,
+    "offset": 1253910,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to say sub type is equal to",
+    "duration": 4560,
+    "offset": 1258150,
+    "lang": "en"
+  },
+  {
+    "text": "and that is what kind of image it is so",
+    "duration": 5760,
+    "offset": 1259950,
+    "lang": "en"
+  },
+  {
+    "text": "I want to pass in file type as the sub",
+    "duration": 5610,
+    "offset": 1262710,
+    "lang": "en"
+  },
+  {
+    "text": "type okay so that should attach that",
+    "duration": 6150,
+    "offset": 1265710,
+    "lang": "en"
+  },
+  {
+    "text": "image now we also want the name of the",
+    "duration": 5910,
+    "offset": 1268320,
+    "lang": "en"
+  },
+  {
+    "text": "image for our attachment so I'm going to",
+    "duration": 5790,
+    "offset": 1271860,
+    "lang": "en"
+  },
+  {
+    "text": "go ahead and grab that too so up here",
+    "duration": 5280,
+    "offset": 1274230,
+    "lang": "en"
+  },
+  {
+    "text": "underneath file type I'm just going to",
+    "duration": 6120,
+    "offset": 1277650,
+    "lang": "en"
+  },
+  {
+    "text": "say file name is equal to F dot name so",
+    "duration": 8370,
+    "offset": 1279510,
+    "lang": "en"
+  },
+  {
+    "text": "let me pass this in as well so another",
+    "duration": 5850,
+    "offset": 1283770,
+    "lang": "en"
+  },
+  {
+    "text": "argument to add attachment I'm going to",
+    "duration": 6270,
+    "offset": 1287880,
+    "lang": "en"
+  },
+  {
+    "text": "say file name is equal to file name now",
+    "duration": 6570,
+    "offset": 1289620,
+    "lang": "en"
+  },
+  {
+    "text": "I named my variable file underscore name",
+    "duration": 5610,
+    "offset": 1294150,
+    "lang": "en"
+  },
+  {
+    "text": "and the argument here is just file name",
+    "duration": 5490,
+    "offset": 1296190,
+    "lang": "en"
+  },
+  {
+    "text": "one word so keep that in mind if you're",
+    "duration": 4320,
+    "offset": 1299760,
+    "lang": "en"
+  },
+  {
+    "text": "following along okay so that should add",
+    "duration": 4800,
+    "offset": 1301680,
+    "lang": "en"
+  },
+  {
+    "text": "our image as an attachment to our email",
+    "duration": 4740,
+    "offset": 1304080,
+    "lang": "en"
+  },
+  {
+    "text": "so if I spelled everything correctly if",
+    "duration": 4800,
+    "offset": 1306480,
+    "lang": "en"
+  },
+  {
+    "text": "I save that and run it so we don't have",
+    "duration": 5310,
+    "offset": 1308820,
+    "lang": "en"
+  },
+  {
+    "text": "any output but if I go back to our",
+    "duration": 5700,
+    "offset": 1311280,
+    "lang": "en"
+  },
+  {
+    "text": "browser here and check this now this",
+    "duration": 4380,
+    "offset": 1314130,
+    "lang": "en"
+  },
+  {
+    "text": "might take a second because we're",
+    "duration": 3210,
+    "offset": 1316980,
+    "lang": "en"
+  },
+  {
+    "text": "sending an image instead of plain text",
+    "duration": 3840,
+    "offset": 1318510,
+    "lang": "en"
+  },
+  {
+    "text": "okay so we can see that that just came",
+    "duration": 4800,
+    "offset": 1320190,
+    "lang": "en"
+  },
+  {
+    "text": "in so if I check this then we can see",
+    "duration": 4320,
+    "offset": 1322350,
+    "lang": "en"
+  },
+  {
+    "text": "that we have our subject as check out",
+    "duration": 4440,
+    "offset": 1324990,
+    "lang": "en"
+  },
+  {
+    "text": "Brock's as a puppy our body is image",
+    "duration": 5040,
+    "offset": 1326670,
+    "lang": "en"
+  },
+  {
+    "text": "attached and if I open this then we have",
+    "duration": 4020,
+    "offset": 1329430,
+    "lang": "en"
+  },
+  {
+    "text": "the image that we attached to the email",
+    "duration": 4650,
+    "offset": 1331710,
+    "lang": "en"
+  },
+  {
+    "text": "and if I check the name of this image if",
+    "duration": 5099,
+    "offset": 1333450,
+    "lang": "en"
+  },
+  {
+    "text": "I just hover over this then it also got",
+    "duration": 4439,
+    "offset": 1336360,
+    "lang": "en"
+  },
+  {
+    "text": "the image name of that file as well so",
+    "duration": 4831,
+    "offset": 1338549,
+    "lang": "en"
+  },
+  {
+    "text": "this is Bronx one dot jpg okay so let's",
+    "duration": 5130,
+    "offset": 1340799,
+    "lang": "en"
+  },
+  {
+    "text": "go back to our script okay so now that",
+    "duration": 4740,
+    "offset": 1343380,
+    "lang": "en"
+  },
+  {
+    "text": "we've attached one image let's see what",
+    "duration": 4441,
+    "offset": 1345929,
+    "lang": "en"
+  },
+  {
+    "text": "we do in order to attach multiple images",
+    "duration": 5130,
+    "offset": 1348120,
+    "lang": "en"
+  },
+  {
+    "text": "so you can simply create a loop while",
+    "duration": 5130,
+    "offset": 1350370,
+    "lang": "en"
+  },
+  {
+    "text": "making these attachments in order to do",
+    "duration": 5399,
+    "offset": 1353250,
+    "lang": "en"
+  },
+  {
+    "text": "this so above the with statement I'm",
+    "duration": 7620,
+    "offset": 1355500,
+    "lang": "en"
+  },
+  {
+    "text": "going to say files are equal to and I'm",
+    "duration": 6181,
+    "offset": 1358649,
+    "lang": "en"
+  },
+  {
+    "text": "going to create a list of file names",
+    "duration": 3390,
+    "offset": 1363120,
+    "lang": "en"
+  },
+  {
+    "text": "here and these are going to be the list",
+    "duration": 3630,
+    "offset": 1364830,
+    "lang": "en"
+  },
+  {
+    "text": "of file names that I want to attach to",
+    "duration": 4289,
+    "offset": 1366510,
+    "lang": "en"
+  },
+  {
+    "text": "my email so one is going to be Bronx one",
+    "duration": 5490,
+    "offset": 1368460,
+    "lang": "en"
+  },
+  {
+    "text": "dot jpg the other one is just called",
+    "duration": 8750,
+    "offset": 1370799,
+    "lang": "en"
+  },
+  {
+    "text": "Bronx underscore two dot jpg and now I'm",
+    "duration": 10680,
+    "offset": 1373950,
+    "lang": "en"
+  },
+  {
+    "text": "going to say for file in files and now",
+    "duration": 7661,
+    "offset": 1379549,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to indent this with statement",
+    "duration": 3659,
+    "offset": 1384630,
+    "lang": "en"
+  },
+  {
+    "text": "here so that we're getting this",
+    "duration": 4170,
+    "offset": 1387210,
+    "lang": "en"
+  },
+  {
+    "text": "information for both files now I'm also",
+    "duration": 6301,
+    "offset": 1388289,
+    "lang": "en"
+  },
+  {
+    "text": "going to indent my message add",
+    "duration": 5640,
+    "offset": 1391380,
+    "lang": "en"
+  },
+  {
+    "text": "attachment into our for loop so that",
+    "duration": 4620,
+    "offset": 1394590,
+    "lang": "en"
+  },
+  {
+    "text": "we're attaching both of these and also",
+    "duration": 4920,
+    "offset": 1397020,
+    "lang": "en"
+  },
+  {
+    "text": "we need to change the file name that we",
+    "duration": 4349,
+    "offset": 1399210,
+    "lang": "en"
+  },
+  {
+    "text": "are opening so right now we're just",
+    "duration": 5099,
+    "offset": 1401940,
+    "lang": "en"
+  },
+  {
+    "text": "opening this Bronx one dot jpg we want",
+    "duration": 6061,
+    "offset": 1403559,
+    "lang": "en"
+  },
+  {
+    "text": "to just open file so when it loops",
+    "duration": 4890,
+    "offset": 1407039,
+    "lang": "en"
+  },
+  {
+    "text": "through this we're going to open Bronx",
+    "duration": 4919,
+    "offset": 1409620,
+    "lang": "en"
+  },
+  {
+    "text": "one dot jpg read in that data get the",
+    "duration": 4620,
+    "offset": 1411929,
+    "lang": "en"
+  },
+  {
+    "text": "file type get the file name and attach",
+    "duration": 3901,
+    "offset": 1414539,
+    "lang": "en"
+  },
+  {
+    "text": "that to our message and then it's going",
+    "duration": 5071,
+    "offset": 1416549,
+    "lang": "en"
+  },
+  {
+    "text": "to move on to Bronx two jpg get the file",
+    "duration": 5609,
+    "offset": 1418440,
+    "lang": "en"
+  },
+  {
+    "text": "data file type file name and then add",
+    "duration": 4620,
+    "offset": 1421620,
+    "lang": "en"
+  },
+  {
+    "text": "that as an attachment to our message so",
+    "duration": 5370,
+    "offset": 1424049,
+    "lang": "en"
+  },
+  {
+    "text": "if I save that and run it then this one",
+    "duration": 6360,
+    "offset": 1426240,
+    "lang": "en"
+  },
+  {
+    "text": "will probably take even longer to come",
+    "duration": 5311,
+    "offset": 1429419,
+    "lang": "en"
+  },
+  {
+    "text": "in now but if I check the browser then",
+    "duration": 5640,
+    "offset": 1432600,
+    "lang": "en"
+  },
+  {
+    "text": "let me go back to my inbox and it looks",
+    "duration": 5819,
+    "offset": 1434730,
+    "lang": "en"
+  },
+  {
+    "text": "like this came in here so now we have",
+    "duration": 4950,
+    "offset": 1438240,
+    "lang": "en"
+  },
+  {
+    "text": "two attachments so we have Bronx one jpg",
+    "duration": 5130,
+    "offset": 1440549,
+    "lang": "en"
+  },
+  {
+    "text": "and that came in with the right file",
+    "duration": 5369,
+    "offset": 1443190,
+    "lang": "en"
+  },
+  {
+    "text": "name and we have Bronx two jpg and that",
+    "duration": 4350,
+    "offset": 1445679,
+    "lang": "en"
+  },
+  {
+    "text": "came in with the correct file name as",
+    "duration": 4081,
+    "offset": 1448559,
+    "lang": "en"
+  },
+  {
+    "text": "well so now I'm going to delete both of",
+    "duration": 5101,
+    "offset": 1450029,
+    "lang": "en"
+  },
+  {
+    "text": "these just to clean that up a bit go",
+    "duration": 5279,
+    "offset": 1452640,
+    "lang": "en"
+  },
+  {
+    "text": "back to my code okay so attaching both",
+    "duration": 4710,
+    "offset": 1455130,
+    "lang": "en"
+  },
+  {
+    "text": "of those images to our email worked well",
+    "duration": 4531,
+    "offset": 1457919,
+    "lang": "en"
+  },
+  {
+    "text": "now if you're attaching some other kind",
+    "duration": 4680,
+    "offset": 1459840,
+    "lang": "en"
+  },
+  {
+    "text": "of file then you just need to change the",
+    "duration": 2939,
+    "offset": 1462450,
+    "lang": "en"
+  },
+  {
+    "text": "main type",
+    "duration": 3449,
+    "offset": 1464520,
+    "lang": "en"
+  },
+  {
+    "text": "the subtype for each one so I also have",
+    "duration": 6181,
+    "offset": 1465389,
+    "lang": "en"
+  },
+  {
+    "text": "a PDF on my or in the same directory as",
+    "duration": 6180,
+    "offset": 1467969,
+    "lang": "en"
+  },
+  {
+    "text": "my script here so if I wanted to send",
+    "duration": 5609,
+    "offset": 1471570,
+    "lang": "en"
+  },
+  {
+    "text": "something like a PDF then I could go",
+    "duration": 4921,
+    "offset": 1474149,
+    "lang": "en"
+  },
+  {
+    "text": "ahead and do something like this so I'm",
+    "duration": 4380,
+    "offset": 1477179,
+    "lang": "en"
+  },
+  {
+    "text": "just going to keep my for loop here but",
+    "duration": 4620,
+    "offset": 1479070,
+    "lang": "en"
+  },
+  {
+    "text": "for the files up here I'm just going to",
+    "duration": 4891,
+    "offset": 1481559,
+    "lang": "en"
+  },
+  {
+    "text": "make this a list of one file and I",
+    "duration": 5189,
+    "offset": 1483690,
+    "lang": "en"
+  },
+  {
+    "text": "called this resume dot PDF",
+    "duration": 6149,
+    "offset": 1486450,
+    "lang": "en"
+  },
+  {
+    "text": "so now that's going to loop through here",
+    "duration": 4710,
+    "offset": 1488879,
+    "lang": "en"
+  },
+  {
+    "text": "it's just going to loop through once",
+    "duration": 2880,
+    "offset": 1492599,
+    "lang": "en"
+  },
+  {
+    "text": "because there's one PDF file it's going",
+    "duration": 5101,
+    "offset": 1493589,
+    "lang": "en"
+  },
+  {
+    "text": "to open it read in the data read in we",
+    "duration": 4740,
+    "offset": 1495479,
+    "lang": "en"
+  },
+  {
+    "text": "don't need the file type anymore because",
+    "duration": 3959,
+    "offset": 1498690,
+    "lang": "en"
+  },
+  {
+    "text": "it's not an image so now we can just",
+    "duration": 4471,
+    "offset": 1500219,
+    "lang": "en"
+  },
+  {
+    "text": "have the file data and the file name and",
+    "duration": 4950,
+    "offset": 1502649,
+    "lang": "en"
+  },
+  {
+    "text": "now for the when we add the attachment",
+    "duration": 5250,
+    "offset": 1504690,
+    "lang": "en"
+  },
+  {
+    "text": "what we're going to do here as the main",
+    "duration": 5310,
+    "offset": 1507599,
+    "lang": "en"
+  },
+  {
+    "text": "type is we're going to say application",
+    "duration": 7079,
+    "offset": 1509940,
+    "lang": "en"
+  },
+  {
+    "text": "and for the subtype I'm going to put in",
+    "duration": 5760,
+    "offset": 1512909,
+    "lang": "en"
+  },
+  {
+    "text": "a string here and this is going to be",
+    "duration": 7230,
+    "offset": 1517019,
+    "lang": "en"
+  },
+  {
+    "text": "octet - string so make sure you can see",
+    "duration": 7920,
+    "offset": 1518669,
+    "lang": "en"
+  },
+  {
+    "text": "both of those there now by setting the",
+    "duration": 4800,
+    "offset": 1524249,
+    "lang": "en"
+  },
+  {
+    "text": "application as the main type and octet",
+    "duration": 4770,
+    "offset": 1526589,
+    "lang": "en"
+  },
+  {
+    "text": "stream as the subtype that's what the",
+    "duration": 5040,
+    "offset": 1529049,
+    "lang": "en"
+  },
+  {
+    "text": "Python documentation calls a generic bag",
+    "duration": 6060,
+    "offset": 1531359,
+    "lang": "en"
+  },
+  {
+    "text": "of bits type so basically just generic",
+    "duration": 6270,
+    "offset": 1534089,
+    "lang": "en"
+  },
+  {
+    "text": "information for that so if I save that",
+    "duration": 5970,
+    "offset": 1537419,
+    "lang": "en"
+  },
+  {
+    "text": "and run it then let's go back to the",
+    "duration": 5970,
+    "offset": 1540359,
+    "lang": "en"
+  },
+  {
+    "text": "browser here and let's see if we got",
+    "duration": 4710,
+    "offset": 1543389,
+    "lang": "en"
+  },
+  {
+    "text": "this message and we did I forgot to",
+    "duration": 4890,
+    "offset": 1546329,
+    "lang": "en"
+  },
+  {
+    "text": "change the subject here from check out",
+    "duration": 6030,
+    "offset": 1548099,
+    "lang": "en"
+  },
+  {
+    "text": "Broncs as a puppy but if we look at the",
+    "duration": 4981,
+    "offset": 1551219,
+    "lang": "en"
+  },
+  {
+    "text": "resume then we can see that we do have",
+    "duration": 5580,
+    "offset": 1554129,
+    "lang": "en"
+  },
+  {
+    "text": "this resume PDF here and we do have that",
+    "duration": 6089,
+    "offset": 1556200,
+    "lang": "en"
+  },
+  {
+    "text": "PDF file so that works well ok so now",
+    "duration": 4231,
+    "offset": 1559709,
+    "lang": "en"
+  },
+  {
+    "text": "let's look at a couple more tips here",
+    "duration": 3510,
+    "offset": 1562289,
+    "lang": "en"
+  },
+  {
+    "text": "that you might find useful when sending",
+    "duration": 4500,
+    "offset": 1563940,
+    "lang": "en"
+  },
+  {
+    "text": "emails so first let's say that you want",
+    "duration": 4710,
+    "offset": 1565799,
+    "lang": "en"
+  },
+  {
+    "text": "to send emails to multiple people that's",
+    "duration": 4229,
+    "offset": 1568440,
+    "lang": "en"
+  },
+  {
+    "text": "fairly common now in order to do that",
+    "duration": 4740,
+    "offset": 1570509,
+    "lang": "en"
+  },
+  {
+    "text": "it's as simple as passing in a list",
+    "duration": 6210,
+    "offset": 1572669,
+    "lang": "en"
+  },
+  {
+    "text": "where we currently have the receiver so",
+    "duration": 5730,
+    "offset": 1575249,
+    "lang": "en"
+  },
+  {
+    "text": "let me make a list here so I'm going to",
+    "duration": 5010,
+    "offset": 1578879,
+    "lang": "en"
+  },
+  {
+    "text": "go up here to the top now above my",
+    "duration": 5341,
+    "offset": 1580979,
+    "lang": "en"
+  },
+  {
+    "text": "message here I'm just going to create a",
+    "duration": 5551,
+    "offset": 1583889,
+    "lang": "en"
+  },
+  {
+    "text": "list and call this contacts and set this",
+    "duration": 6359,
+    "offset": 1586320,
+    "lang": "en"
+  },
+  {
+    "text": "equal to and I will set this equal to my",
+    "duration": 7619,
+    "offset": 1589440,
+    "lang": "en"
+  },
+  {
+    "text": "email address and then you can pass in",
+    "duration": 6451,
+    "offset": 1592679,
+    "lang": "en"
+  },
+  {
+    "text": "what other email address that",
+    "duration": 4141,
+    "offset": 1597059,
+    "lang": "en"
+  },
+  {
+    "text": "you want to send this to so test at",
+    "duration": 5070,
+    "offset": 1599130,
+    "lang": "en"
+  },
+  {
+    "text": "example.com or something like that and",
+    "duration": 7290,
+    "offset": 1601200,
+    "lang": "en"
+  },
+  {
+    "text": "now when you do the message too we could",
+    "duration": 7290,
+    "offset": 1604200,
+    "lang": "en"
+  },
+  {
+    "text": "pass in that list of contacts now when I",
+    "duration": 4770,
+    "offset": 1608490,
+    "lang": "en"
+  },
+  {
+    "text": "was making this video I tested this with",
+    "duration": 4140,
+    "offset": 1611490,
+    "lang": "en"
+  },
+  {
+    "text": "my email and the email of a friend of",
+    "duration": 4890,
+    "offset": 1613260,
+    "lang": "en"
+  },
+  {
+    "text": "mine and it worked well it did send",
+    "duration": 5160,
+    "offset": 1615630,
+    "lang": "en"
+  },
+  {
+    "text": "emails to both of us but this isn't how",
+    "duration": 3920,
+    "offset": 1618150,
+    "lang": "en"
+  },
+  {
+    "text": "they have it in the Python documentation",
+    "duration": 3690,
+    "offset": 1620790,
+    "lang": "en"
+  },
+  {
+    "text": "so I'm not sure if this is frowned on",
+    "duration": 4870,
+    "offset": 1622070,
+    "lang": "en"
+  },
+  {
+    "text": "for any reason but in the documentation",
+    "duration": 4880,
+    "offset": 1624480,
+    "lang": "en"
+  },
+  {
+    "text": "they have it where they are passing in a",
+    "duration": 5820,
+    "offset": 1626940,
+    "lang": "en"
+  },
+  {
+    "text": "string of comma separated values so I",
+    "duration": 5710,
+    "offset": 1629360,
+    "lang": "en"
+  },
+  {
+    "text": "could do this manually by adding a",
+    "duration": 3900,
+    "offset": 1632760,
+    "lang": "en"
+  },
+  {
+    "text": "string with both of these email",
+    "duration": 4050,
+    "offset": 1635070,
+    "lang": "en"
+  },
+  {
+    "text": "addresses comma separated or if we",
+    "duration": 4140,
+    "offset": 1636660,
+    "lang": "en"
+  },
+  {
+    "text": "wanted to create a comma separated",
+    "duration": 4800,
+    "offset": 1639120,
+    "lang": "en"
+  },
+  {
+    "text": "string from this list then we could do",
+    "duration": 7380,
+    "offset": 1640800,
+    "lang": "en"
+  },
+  {
+    "text": "that simply by saying we could do a",
+    "duration": 8160,
+    "offset": 1643920,
+    "lang": "en"
+  },
+  {
+    "text": "comma there as a string and then say dot",
+    "duration": 9090,
+    "offset": 1648180,
+    "lang": "en"
+  },
+  {
+    "text": "whoops dot join and we want to join that",
+    "duration": 7230,
+    "offset": 1652080,
+    "lang": "en"
+  },
+  {
+    "text": "contacts list now I know that looks a",
+    "duration": 3600,
+    "offset": 1657270,
+    "lang": "en"
+  },
+  {
+    "text": "little confusing there if you've never",
+    "duration": 3660,
+    "offset": 1659310,
+    "lang": "en"
+  },
+  {
+    "text": "used it if you've never seen a joint",
+    "duration": 3870,
+    "offset": 1660870,
+    "lang": "en"
+  },
+  {
+    "text": "statement like that then you can watch",
+    "duration": 4140,
+    "offset": 1662970,
+    "lang": "en"
+  },
+  {
+    "text": "my video on lists for more details on",
+    "duration": 5490,
+    "offset": 1664740,
+    "lang": "en"
+  },
+  {
+    "text": "how that works so those are some ways of",
+    "duration": 5340,
+    "offset": 1667110,
+    "lang": "en"
+  },
+  {
+    "text": "how you dad multiple recipients to an",
+    "duration": 4470,
+    "offset": 1670230,
+    "lang": "en"
+  },
+  {
+    "text": "email but for now I'm just gonna set",
+    "duration": 5760,
+    "offset": 1672450,
+    "lang": "en"
+  },
+  {
+    "text": "this back to send this just to myself so",
+    "duration": 9540,
+    "offset": 1674700,
+    "lang": "en"
+  },
+  {
+    "text": "I will just put back in my email address",
+    "duration": 7920,
+    "offset": 1678210,
+    "lang": "en"
+  },
+  {
+    "text": "here instead of using those contacts",
+    "duration": 3690,
+    "offset": 1684240,
+    "lang": "en"
+  },
+  {
+    "text": "okay so the last thing that I want to",
+    "duration": 3870,
+    "offset": 1686130,
+    "lang": "en"
+  },
+  {
+    "text": "show here in this video is how to send",
+    "duration": 5010,
+    "offset": 1687930,
+    "lang": "en"
+  },
+  {
+    "text": "an email with HTML so this is common for",
+    "duration": 4680,
+    "offset": 1690000,
+    "lang": "en"
+  },
+  {
+    "text": "newsletters and things like that where",
+    "duration": 3510,
+    "offset": 1692940,
+    "lang": "en"
+  },
+  {
+    "text": "you want to spice it up a bit and have a",
+    "duration": 3600,
+    "offset": 1694680,
+    "lang": "en"
+  },
+  {
+    "text": "better presentation than just plain text",
+    "duration": 3630,
+    "offset": 1696450,
+    "lang": "en"
+  },
+  {
+    "text": "email so in this email that I'm gonna",
+    "duration": 4380,
+    "offset": 1698280,
+    "lang": "en"
+  },
+  {
+    "text": "send I'm gonna have HTML and plain text",
+    "duration": 4920,
+    "offset": 1700080,
+    "lang": "en"
+  },
+  {
+    "text": "as an alternative because some people",
+    "duration": 5250,
+    "offset": 1702660,
+    "lang": "en"
+  },
+  {
+    "text": "turn off HTML emails so you want to have",
+    "duration": 5460,
+    "offset": 1705000,
+    "lang": "en"
+  },
+  {
+    "text": "that text as a fallback so I'm just",
+    "duration": 4230,
+    "offset": 1707910,
+    "lang": "en"
+  },
+  {
+    "text": "going to delete the part where I added",
+    "duration": 4260,
+    "offset": 1710460,
+    "lang": "en"
+  },
+  {
+    "text": "the attachments here so I'm going to",
+    "duration": 5010,
+    "offset": 1712140,
+    "lang": "en"
+  },
+  {
+    "text": "delete all the way down from the files",
+    "duration": 6300,
+    "offset": 1714720,
+    "lang": "en"
+  },
+  {
+    "text": "to the attachments now for the message",
+    "duration": 6570,
+    "offset": 1717150,
+    "lang": "en"
+  },
+  {
+    "text": "set content I'm just going to have this",
+    "duration": 6270,
+    "offset": 1721020,
+    "lang": "en"
+  },
+  {
+    "text": "be the plain text so within here I'm",
+    "duration": 7920,
+    "offset": 1723720,
+    "lang": "en"
+  },
+  {
+    "text": "just going to say this is a plain whoops",
+    "duration": 5780,
+    "offset": 1727290,
+    "lang": "en"
+  },
+  {
+    "text": "plain text",
+    "duration": 5130,
+    "offset": 1731640,
+    "lang": "en"
+  },
+  {
+    "text": "email and now to set the HTML message",
+    "duration": 6340,
+    "offset": 1733070,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna use a small HTML snippet that",
+    "duration": 6030,
+    "offset": 1736770,
+    "lang": "en"
+  },
+  {
+    "text": "I have open up here in sublime that just",
+    "duration": 6540,
+    "offset": 1739410,
+    "lang": "en"
+  },
+  {
+    "text": "has a simple heading that is styled with",
+    "duration": 6270,
+    "offset": 1742800,
+    "lang": "en"
+  },
+  {
+    "text": "a color so I have that open here and if",
+    "duration": 4979,
+    "offset": 1745950,
+    "lang": "en"
+  },
+  {
+    "text": "you want to use this simple HTML to test",
+    "duration": 3630,
+    "offset": 1749070,
+    "lang": "en"
+  },
+  {
+    "text": "this out for yourself then I'll be sure",
+    "duration": 3871,
+    "offset": 1750929,
+    "lang": "en"
+  },
+  {
+    "text": "to add that to my github and leave a",
+    "duration": 3540,
+    "offset": 1752700,
+    "lang": "en"
+  },
+  {
+    "text": "link to that in the description section",
+    "duration": 3540,
+    "offset": 1754800,
+    "lang": "en"
+  },
+  {
+    "text": "below if you would like to use this as",
+    "duration": 4710,
+    "offset": 1756240,
+    "lang": "en"
+  },
+  {
+    "text": "well so I'm just going to copy this",
+    "duration": 5610,
+    "offset": 1758340,
+    "lang": "en"
+  },
+  {
+    "text": "email here and now go back to the script",
+    "duration": 6810,
+    "offset": 1760950,
+    "lang": "en"
+  },
+  {
+    "text": "and now let's add that email to our or",
+    "duration": 7380,
+    "offset": 1763950,
+    "lang": "en"
+  },
+  {
+    "text": "let's add that HTML to our email so to",
+    "duration": 7190,
+    "offset": 1767760,
+    "lang": "en"
+  },
+  {
+    "text": "do this I can simply say MSG dot add",
+    "duration": 7860,
+    "offset": 1771330,
+    "lang": "en"
+  },
+  {
+    "text": "underscore alternative and now within",
+    "duration": 8260,
+    "offset": 1774950,
+    "lang": "en"
+  },
+  {
+    "text": "add alternative I'm going to put triple",
+    "duration": 5340,
+    "offset": 1779190,
+    "lang": "en"
+  },
+  {
+    "text": "quotes here oops",
+    "duration": 4230,
+    "offset": 1783210,
+    "lang": "en"
+  },
+  {
+    "text": "let me do double quotes here so triple",
+    "duration": 4380,
+    "offset": 1784530,
+    "lang": "en"
+  },
+  {
+    "text": "quotes which means it's going to be a",
+    "duration": 4910,
+    "offset": 1787440,
+    "lang": "en"
+  },
+  {
+    "text": "multi-line string and I'm gonna put a",
+    "duration": 6210,
+    "offset": 1788910,
+    "lang": "en"
+  },
+  {
+    "text": "backslash there to cancel out that",
+    "duration": 4780,
+    "offset": 1792350,
+    "lang": "en"
+  },
+  {
+    "text": "newline and now I'm just going to paste",
+    "duration": 6540,
+    "offset": 1795120,
+    "lang": "en"
+  },
+  {
+    "text": "in that HTML and now so we this is kind",
+    "duration": 6600,
+    "offset": 1797130,
+    "lang": "en"
+  },
+  {
+    "text": "of large here but when we add",
+    "duration": 5190,
+    "offset": 1801660,
+    "lang": "en"
+  },
+  {
+    "text": "alternative this entire string here is",
+    "duration": 5010,
+    "offset": 1803730,
+    "lang": "en"
+  },
+  {
+    "text": "our first argument to add alternative",
+    "duration": 4440,
+    "offset": 1806850,
+    "lang": "en"
+  },
+  {
+    "text": "and now I'm going to put in a comma to",
+    "duration": 4260,
+    "offset": 1808740,
+    "lang": "en"
+  },
+  {
+    "text": "add in one more argument and that",
+    "duration": 4950,
+    "offset": 1811290,
+    "lang": "en"
+  },
+  {
+    "text": "argument is going to be sub type so that",
+    "duration": 5970,
+    "offset": 1813000,
+    "lang": "en"
+  },
+  {
+    "text": "sub type is going to be equal to HTML",
+    "duration": 5160,
+    "offset": 1816240,
+    "lang": "en"
+  },
+  {
+    "text": "okay so by adding that HTML as our",
+    "duration": 4200,
+    "offset": 1818970,
+    "lang": "en"
+  },
+  {
+    "text": "alternative there and setting that sub",
+    "duration": 6930,
+    "offset": 1821400,
+    "lang": "en"
+  },
+  {
+    "text": "type now if I save this and run it then",
+    "duration": 7980,
+    "offset": 1823170,
+    "lang": "en"
+  },
+  {
+    "text": "let me go back to my email here and I",
+    "duration": 5580,
+    "offset": 1828330,
+    "lang": "en"
+  },
+  {
+    "text": "will go back to my inbox and again I",
+    "duration": 5040,
+    "offset": 1831150,
+    "lang": "en"
+  },
+  {
+    "text": "forgot to change this subject line",
+    "duration": 4560,
+    "offset": 1833910,
+    "lang": "en"
+  },
+  {
+    "text": "but if I click on this then we can see",
+    "duration": 4290,
+    "offset": 1836190,
+    "lang": "en"
+  },
+  {
+    "text": "that we got that HTML email and that the",
+    "duration": 5400,
+    "offset": 1838470,
+    "lang": "en"
+  },
+  {
+    "text": "text has a h1 heading style with this",
+    "duration": 6180,
+    "offset": 1840480,
+    "lang": "en"
+  },
+  {
+    "text": "blueish gray color so that hTML is",
+    "duration": 6150,
+    "offset": 1843870,
+    "lang": "en"
+  },
+  {
+    "text": "working so that's good okay so now let's",
+    "duration": 6990,
+    "offset": 1846660,
+    "lang": "en"
+  },
+  {
+    "text": "go back to my script and let me see if",
+    "duration": 5250,
+    "offset": 1850020,
+    "lang": "en"
+  },
+  {
+    "text": "we can fit I don't think we can fit all",
+    "duration": 5430,
+    "offset": 1853650,
+    "lang": "en"
+  },
+  {
+    "text": "of this on one screen here but if you",
+    "duration": 5850,
+    "offset": 1855270,
+    "lang": "en"
+  },
+  {
+    "text": "need to see this hopefully you can see",
+    "duration": 3839,
+    "offset": 1859080,
+    "lang": "en"
+  },
+  {
+    "text": "everything to create that message right",
+    "duration": 3390,
+    "offset": 1861120,
+    "lang": "en"
+  },
+  {
+    "text": "there and I'll be sure to put this",
+    "duration": 3331,
+    "offset": 1862919,
+    "lang": "en"
+  },
+  {
+    "text": "finish script on my github as well and",
+    "duration": 2340,
+    "offset": 1864510,
+    "lang": "en"
+  },
+  {
+    "text": "leave",
+    "duration": 1830,
+    "offset": 1866250,
+    "lang": "en"
+  },
+  {
+    "text": "link to that in the description section",
+    "duration": 2970,
+    "offset": 1866850,
+    "lang": "en"
+  },
+  {
+    "text": "below if anyone would like to see this",
+    "duration": 4290,
+    "offset": 1868080,
+    "lang": "en"
+  },
+  {
+    "text": "finished script okay so I think that is",
+    "duration": 4350,
+    "offset": 1869820,
+    "lang": "en"
+  },
+  {
+    "text": "gonna do it for this video hopefully now",
+    "duration": 3180,
+    "offset": 1872370,
+    "lang": "en"
+  },
+  {
+    "text": "you have a pretty good idea for how you",
+    "duration": 3150,
+    "offset": 1874170,
+    "lang": "en"
+  },
+  {
+    "text": "can send just about any type of email",
+    "duration": 4530,
+    "offset": 1875550,
+    "lang": "en"
+  },
+  {
+    "text": "that you'd want to send with Python but",
+    "duration": 4380,
+    "offset": 1877320,
+    "lang": "en"
+  },
+  {
+    "text": "if anyone does have any questions about",
+    "duration": 3300,
+    "offset": 1880080,
+    "lang": "en"
+  },
+  {
+    "text": "what we covered in this video then feel",
+    "duration": 3240,
+    "offset": 1881700,
+    "lang": "en"
+  },
+  {
+    "text": "free to ask in the comment section below",
+    "duration": 3000,
+    "offset": 1883380,
+    "lang": "en"
+  },
+  {
+    "text": "and I'll do my best to answer those and",
+    "duration": 3120,
+    "offset": 1884940,
+    "lang": "en"
+  },
+  {
+    "text": "if you enjoy these tutorials and would",
+    "duration": 3000,
+    "offset": 1886380,
+    "lang": "en"
+  },
+  {
+    "text": "like to support them then there are",
+    "duration": 2850,
+    "offset": 1888060,
+    "lang": "en"
+  },
+  {
+    "text": "several ways you can do that these this",
+    "duration": 3060,
+    "offset": 1889380,
+    "lang": "en"
+  },
+  {
+    "text": "ways to simply LIKE the video and give",
+    "duration": 3210,
+    "offset": 1890910,
+    "lang": "en"
+  },
+  {
+    "text": "it a thumbs up and also it's a huge help",
+    "duration": 3000,
+    "offset": 1892440,
+    "lang": "en"
+  },
+  {
+    "text": "to share these videos with anyone who",
+    "duration": 2760,
+    "offset": 1894120,
+    "lang": "en"
+  },
+  {
+    "text": "you think would find them useful and if",
+    "duration": 2760,
+    "offset": 1895440,
+    "lang": "en"
+  },
+  {
+    "text": "you have the means you can contribute to",
+    "duration": 2820,
+    "offset": 1896880,
+    "lang": "en"
+  },
+  {
+    "text": "patreon and there's a link to that page",
+    "duration": 3210,
+    "offset": 1898200,
+    "lang": "en"
+  },
+  {
+    "text": "in the description section below be sure",
+    "duration": 3540,
+    "offset": 1899700,
+    "lang": "en"
+  },
+  {
+    "text": "to subscribe for future videos and thank",
+    "duration": 4460,
+    "offset": 1901410,
+    "lang": "en"
+  },
+  {
+    "text": "you all for watching",
+    "duration": 2630,
+    "offset": 1903240,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 2060,
+    "offset": 1914790,
+    "lang": "en"
+  }
+]

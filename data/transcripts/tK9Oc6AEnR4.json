@@ -1,0 +1,4454 @@
+[
+  {
+    "text": "Welcome to this crash course on\nbest scripting. Throughout this",
+    "duration": 3900,
+    "offset": 0,
+    "lang": "en"
+  },
+  {
+    "text": "course Herbert will teach you a\nwide range of topics, including",
+    "duration": 3600,
+    "offset": 3900,
+    "lang": "en"
+  },
+  {
+    "text": "basic commands, writing your\nfirst bash script, working with",
+    "duration": 3450,
+    "offset": 7500,
+    "lang": "en"
+  },
+  {
+    "text": "variables, mastering control\nstructures, and diving into",
+    "duration": 3780,
+    "offset": 10950,
+    "lang": "en"
+  },
+  {
+    "text": "powerful text manipulation tools\nlike awk and sed, Get ready to",
+    "duration": 4950,
+    "offset": 14730,
+    "lang": "en"
+  },
+  {
+    "text": "unlock the full potential of\nbash scripting and enhance your",
+    "duration": 3150,
+    "offset": 19680,
+    "lang": "en"
+  },
+  {
+    "text": "productivity by automating\ntasks, streamlining processes,",
+    "duration": 3900,
+    "offset": 22830,
+    "lang": "en"
+  },
+  {
+    "text": "and making your workflow more\nefficient. Hello, everyone, and",
+    "duration": 3690,
+    "offset": 26850,
+    "lang": "en"
+  },
+  {
+    "text": "welcome to this introduction\ncourse to bash shell scripting.",
+    "duration": 3390,
+    "offset": 30540,
+    "lang": "en"
+  },
+  {
+    "text": "This course is aimed at anyone\nwho is new to shell scripting",
+    "duration": 3420,
+    "offset": 34200,
+    "lang": "en"
+  },
+  {
+    "text": "people who want to expand their\nknowledge or for those who want",
+    "duration": 2880,
+    "offset": 37650,
+    "lang": "en"
+  },
+  {
+    "text": "to refresh their knowledge. My\nname is Herbert and I will be",
+    "duration": 3240,
+    "offset": 40530,
+    "lang": "en"
+  },
+  {
+    "text": "your instructor for this course.\nI've been in the IT sector as a",
+    "duration": 3630,
+    "offset": 43770,
+    "lang": "en"
+  },
+  {
+    "text": "system engineer since 2009. I've\ndealt with multiple systems",
+    "duration": 4470,
+    "offset": 47400,
+    "lang": "en"
+  },
+  {
+    "text": "ranging from Windows Server to\nLinux servers, and in the last",
+    "duration": 3570,
+    "offset": 51930,
+    "lang": "en"
+  },
+  {
+    "text": "few years, I started\nspecializing in automation and",
+    "duration": 3030,
+    "offset": 55500,
+    "lang": "en"
+  },
+  {
+    "text": "development. I've been doing\nYouTube content creation since",
+    "duration": 3270,
+    "offset": 58530,
+    "lang": "en"
+  },
+  {
+    "text": "2017. Up until now, and I've\nalready created a course on",
+    "duration": 3780,
+    "offset": 61800,
+    "lang": "en"
+  },
+  {
+    "text": "Linux, which might be a good\nstarting point. If you're",
+    "duration": 2790,
+    "offset": 65580,
+    "lang": "en"
+  },
+  {
+    "text": "completely new to Linux, I want\nto learn more about the basics",
+    "duration": 2880,
+    "offset": 68400,
+    "lang": "en"
+  },
+  {
+    "text": "of the operating system itself.",
+    "duration": 1530,
+    "offset": 71310,
+    "lang": "en"
+  },
+  {
+    "text": "Now what is bash, bash is short\nfor Bourne again, shell, it",
+    "duration": 4020,
+    "offset": 73920,
+    "lang": "en"
+  },
+  {
+    "text": "replaced the Bourne shell in the\nglue slash Linux project, which",
+    "duration": 3510,
+    "offset": 77940,
+    "lang": "en"
+  },
+  {
+    "text": "was the default shell for Unix\noperating systems. A shell is a",
+    "duration": 3780,
+    "offset": 81450,
+    "lang": "en"
+  },
+  {
+    "text": "user interface for ease of use,\nit makes it easy for the user to",
+    "duration": 3840,
+    "offset": 85230,
+    "lang": "en"
+  },
+  {
+    "text": "manage the operating system\nwithout knowing all of the inner",
+    "duration": 2880,
+    "offset": 89070,
+    "lang": "en"
+  },
+  {
+    "text": "workings and complexity of the\noperating system itself.",
+    "duration": 3240,
+    "offset": 91950,
+    "lang": "en"
+  },
+  {
+    "text": "Now why would you learn bash?\nWell, the reason you want to",
+    "duration": 2730,
+    "offset": 96420,
+    "lang": "en"
+  },
+  {
+    "text": "learn Bash is because it's\ncurrently the most popular shell",
+    "duration": 3120,
+    "offset": 99150,
+    "lang": "en"
+  },
+  {
+    "text": "scripting language for the Linux\noperating system. Bash has been",
+    "duration": 3210,
+    "offset": 102270,
+    "lang": "en"
+  },
+  {
+    "text": "around forever it has been used\nsince the early days of Linux,",
+    "duration": 3300,
+    "offset": 105480,
+    "lang": "en"
+  },
+  {
+    "text": "and it has stood the test of\ntime ever since. It's also",
+    "duration": 3420,
+    "offset": 108780,
+    "lang": "en"
+  },
+  {
+    "text": "included in Mac OS and in\nwindows when you're using the",
+    "duration": 3240,
+    "offset": 112200,
+    "lang": "en"
+  },
+  {
+    "text": "Windows subsystem for Linux.",
+    "duration": 1980,
+    "offset": 115470,
+    "lang": "en"
+  },
+  {
+    "text": "Now, why would you not use bash?\nWell, even though Bash is",
+    "duration": 2730,
+    "offset": 119700,
+    "lang": "en"
+  },
+  {
+    "text": "considered a programming\nlanguage, it obviously lacks",
+    "duration": 2730,
+    "offset": 122430,
+    "lang": "en"
+  },
+  {
+    "text": "some features. For example, the\nability to do object oriented",
+    "duration": 3990,
+    "offset": 125190,
+    "lang": "en"
+  },
+  {
+    "text": "programming is not available in\nbash. Python would obviously be",
+    "duration": 4530,
+    "offset": 129180,
+    "lang": "en"
+  },
+  {
+    "text": "the preferred choice here if\nyou're looking to create more",
+    "duration": 2610,
+    "offset": 133710,
+    "lang": "en"
+  },
+  {
+    "text": "advanced scripts that allow\nobject oriented programming.",
+    "duration": 3120,
+    "offset": 136320,
+    "lang": "en"
+  },
+  {
+    "text": "Speaking of Python, bash is also\nmore complex in its syntax. When",
+    "duration": 4320,
+    "offset": 140040,
+    "lang": "en"
+  },
+  {
+    "text": "comparing Python syntax to bash\none could say that Bash is a lot",
+    "duration": 3690,
+    "offset": 144360,
+    "lang": "en"
+  },
+  {
+    "text": "harder to read and write. Not\nonly Python is often a better",
+    "duration": 4020,
+    "offset": 148140,
+    "lang": "en"
+  },
+  {
+    "text": "choice for more advanced\nscripting. Newer tools like",
+    "duration": 3180,
+    "offset": 152160,
+    "lang": "en"
+  },
+  {
+    "text": "Ansible also make it a lot\neasier for you to manage",
+    "duration": 2910,
+    "offset": 155340,
+    "lang": "en"
+  },
+  {
+    "text": "multiple systems, which is a lot\nharder to do with bash. Of",
+    "duration": 3630,
+    "offset": 158250,
+    "lang": "en"
+  },
+  {
+    "text": "course, Ansible in Python are\noften overkill for simple",
+    "duration": 2850,
+    "offset": 161880,
+    "lang": "en"
+  },
+  {
+    "text": "scripts and using one does not\nexclude the other. Bash is often",
+    "duration": 3840,
+    "offset": 164730,
+    "lang": "en"
+  },
+  {
+    "text": "used in tandem with tools like\nAnsible, or integrated in Python",
+    "duration": 3600,
+    "offset": 168570,
+    "lang": "en"
+  },
+  {
+    "text": "scripts. This is exactly the\nreason why you should learn",
+    "duration": 3120,
+    "offset": 172170,
+    "lang": "en"
+  },
+  {
+    "text": "bash, just knowing the basics\ncould mean a big difference in a",
+    "duration": 3420,
+    "offset": 175290,
+    "lang": "en"
+  },
+  {
+    "text": "lot of situations. Sometimes,\nthe old trusty tools are still",
+    "duration": 3570,
+    "offset": 178710,
+    "lang": "en"
+  },
+  {
+    "text": "the most valuable. What will you\nneed for this course, I aimed",
+    "duration": 4860,
+    "offset": 182280,
+    "lang": "en"
+  },
+  {
+    "text": "this course at the standard\nWindows user. So I built the",
+    "duration": 3360,
+    "offset": 187140,
+    "lang": "en"
+  },
+  {
+    "text": "course around the windows\nsubsystem for Linux, aka WsL.",
+    "duration": 4080,
+    "offset": 190500,
+    "lang": "en"
+  },
+  {
+    "text": "Since we will be only using\ncommand line tools and no GUI",
+    "duration": 3090,
+    "offset": 195240,
+    "lang": "en"
+  },
+  {
+    "text": "WsL seems like the obvious\nchoice. And I also have a video",
+    "duration": 4470,
+    "offset": 198360,
+    "lang": "en"
+  },
+  {
+    "text": "explaining how to install WsL on\nWindows. If you're running a",
+    "duration": 4110,
+    "offset": 202830,
+    "lang": "en"
+  },
+  {
+    "text": "true Linux distro, even better.\nIf you're using a Mac, you can",
+    "duration": 3480,
+    "offset": 206940,
+    "lang": "en"
+  },
+  {
+    "text": "follow along in your terminal\nwindow. But first make sure that",
+    "duration": 2970,
+    "offset": 210420,
+    "lang": "en"
+  },
+  {
+    "text": "you have bash set as your\npreferred shell. small",
+    "duration": 3180,
+    "offset": 213390,
+    "lang": "en"
+  },
+  {
+    "text": "disclaimer basic Linux knowledge\nis required. If you're",
+    "duration": 3120,
+    "offset": 216570,
+    "lang": "en"
+  },
+  {
+    "text": "completely new to Linux, or even\nnew to bash, I would suggest you",
+    "duration": 3660,
+    "offset": 219690,
+    "lang": "en"
+  },
+  {
+    "text": "at least follow along with the\nLinux guide that I have on my",
+    "duration": 3450,
+    "offset": 223350,
+    "lang": "en"
+  },
+  {
+    "text": "channel is going to give you a\ngood basic understanding of how",
+    "duration": 3690,
+    "offset": 226800,
+    "lang": "en"
+  },
+  {
+    "text": "the Linux operating system\nworks.",
+    "duration": 1650,
+    "offset": 230490,
+    "lang": "en"
+  },
+  {
+    "text": "Before we start with actual\nscripting, let's first do some",
+    "duration": 2850,
+    "offset": 234660,
+    "lang": "en"
+  },
+  {
+    "text": "basic commands in the terminal.\nLet's look at an example of two",
+    "duration": 3900,
+    "offset": 237510,
+    "lang": "en"
+  },
+  {
+    "text": "very simple commands to display\ntext in the command line. The",
+    "duration": 3720,
+    "offset": 241440,
+    "lang": "en"
+  },
+  {
+    "text": "first one is called Echo, which\nwill display the text you pass",
+    "duration": 3030,
+    "offset": 245160,
+    "lang": "en"
+  },
+  {
+    "text": "it as an argument. We will write\nthe command echo and then we",
+    "duration": 3360,
+    "offset": 248190,
+    "lang": "en"
+  },
+  {
+    "text": "pass it some text like so we\njust type in Echo Hello. And so",
+    "duration": 4920,
+    "offset": 251550,
+    "lang": "en"
+  },
+  {
+    "text": "we can detect this by looking at\nEcho as the command and hello as",
+    "duration": 4170,
+    "offset": 256470,
+    "lang": "en"
+  },
+  {
+    "text": "the argument. We will learn more\nabout arguments later in this",
+    "duration": 3840,
+    "offset": 260640,
+    "lang": "en"
+  },
+  {
+    "text": "course. In this case, we talk\nabout a positional argument.",
+    "duration": 3930,
+    "offset": 264480,
+    "lang": "en"
+  },
+  {
+    "text": "Now we can see the output that\nsays hello, which is the word we",
+    "duration": 2820,
+    "offset": 269790,
+    "lang": "en"
+  },
+  {
+    "text": "gave it as an argument.",
+    "duration": 1080,
+    "offset": 272610,
+    "lang": "en"
+  },
+  {
+    "text": "Let's try and see how another\ncommand the cat command compares",
+    "duration": 3420,
+    "offset": 274770,
+    "lang": "en"
+  },
+  {
+    "text": "to this. The cat command\ndisplays the contents of a file.",
+    "duration": 3180,
+    "offset": 278190,
+    "lang": "en"
+  },
+  {
+    "text": "But right now we don't have one.\nSo let's first create a file",
+    "duration": 2820,
+    "offset": 282000,
+    "lang": "en"
+  },
+  {
+    "text": "with our text editor Vim. In\nthis course, we're always going",
+    "duration": 3660,
+    "offset": 284820,
+    "lang": "en"
+  },
+  {
+    "text": "to be using vim because it's a\ngood text editor that comes with",
+    "duration": 3300,
+    "offset": 288480,
+    "lang": "en"
+  },
+  {
+    "text": "almost all Linux distributions.\nPlus, it's actually not that",
+    "duration": 3930,
+    "offset": 291780,
+    "lang": "en"
+  },
+  {
+    "text": "hard to use if you get the hang\nof it. I myself have written",
+    "duration": 2970,
+    "offset": 295710,
+    "lang": "en"
+  },
+  {
+    "text": "multiple scripts in bash.",
+    "duration": 1290,
+    "offset": 298680,
+    "lang": "en"
+  },
+  {
+    "text": "In Python, with Vim, so it's\ndefinitely a good text editor",
+    "duration": 3630,
+    "offset": 300000,
+    "lang": "en"
+  },
+  {
+    "text": "unless you want to start writing\nsome serious scripts or",
+    "duration": 2460,
+    "offset": 303690,
+    "lang": "en"
+  },
+  {
+    "text": "software. In that case, a decent\nGUI text editor like VS code,",
+    "duration": 4230,
+    "offset": 306150,
+    "lang": "en"
+  },
+  {
+    "text": "atom, or Sublime, or better\noptions.",
+    "duration": 2430,
+    "offset": 310440,
+    "lang": "en"
+  },
+  {
+    "text": "Let's create a new file with\nthem by typing vim text file.",
+    "duration": 4410,
+    "offset": 315780,
+    "lang": "en"
+  },
+  {
+    "text": "txt, and let's write something\nin it. To write something in",
+    "duration": 3450,
+    "offset": 320190,
+    "lang": "en"
+  },
+  {
+    "text": "Vim, press the I button, and you\nwill enter the insert mode.",
+    "duration": 3480,
+    "offset": 323640,
+    "lang": "en"
+  },
+  {
+    "text": "From this mode, you can start\nwriting text. Let's write hello",
+    "duration": 3510,
+    "offset": 328530,
+    "lang": "en"
+  },
+  {
+    "text": "world in this file, now we press\nthe Escape button. And you will",
+    "duration": 3900,
+    "offset": 332040,
+    "lang": "en"
+  },
+  {
+    "text": "see that the insert mode is now\ngone, we have exited the insert",
+    "duration": 4380,
+    "offset": 335940,
+    "lang": "en"
+  },
+  {
+    "text": "mode and we're back into command\nmode. And once you're back into",
+    "duration": 3120,
+    "offset": 340320,
+    "lang": "en"
+  },
+  {
+    "text": "the regular command mode, you\ncan press the colon W to write",
+    "duration": 4050,
+    "offset": 343440,
+    "lang": "en"
+  },
+  {
+    "text": "the file. And this will make\nsure the changes we made are",
+    "duration": 2430,
+    "offset": 347490,
+    "lang": "en"
+  },
+  {
+    "text": "actually done and saved to the\ndisk. And then we can press Q to",
+    "duration": 4170,
+    "offset": 349950,
+    "lang": "en"
+  },
+  {
+    "text": "exit the file. Also, to make\nlife simpler, we can go into",
+    "duration": 4050,
+    "offset": 354120,
+    "lang": "en"
+  },
+  {
+    "text": "Vim, make some changes and\ncombine the colon W and call on",
+    "duration": 4230,
+    "offset": 358170,
+    "lang": "en"
+  },
+  {
+    "text": "Q to write colon wq. This will\nautomatically write the file and",
+    "duration": 5160,
+    "offset": 362430,
+    "lang": "en"
+  },
+  {
+    "text": "quit vim at the same time.",
+    "duration": 1350,
+    "offset": 367590,
+    "lang": "en"
+  },
+  {
+    "text": "If you made any changes you\ndon't want to save, you can",
+    "duration": 2160,
+    "offset": 370170,
+    "lang": "en"
+  },
+  {
+    "text": "ignore the changes by typing\ncolon Q, exclamation mark, which",
+    "duration": 4860,
+    "offset": 372330,
+    "lang": "en"
+  },
+  {
+    "text": "will quit vim while ignoring any\nchanges made.",
+    "duration": 2340,
+    "offset": 377190,
+    "lang": "en"
+  },
+  {
+    "text": "Now that we created our file,\nlet's try to print the contents",
+    "duration": 3060,
+    "offset": 381480,
+    "lang": "en"
+  },
+  {
+    "text": "of the file with the cat\ncommand. This command will print",
+    "duration": 3120,
+    "offset": 384540,
+    "lang": "en"
+  },
+  {
+    "text": "out whatever's in the first\npositional argument, in our case",
+    "duration": 2880,
+    "offset": 387660,
+    "lang": "en"
+  },
+  {
+    "text": "is the name of the file we just\ncreated. So we just type in cat",
+    "duration": 3690,
+    "offset": 390570,
+    "lang": "en"
+  },
+  {
+    "text": "txt file a TXT, and we should\nsee the contents of the file",
+    "duration": 2970,
+    "offset": 394320,
+    "lang": "en"
+  },
+  {
+    "text": "printed here. Okay, great. We\ncan now print our own text and",
+    "duration": 4020,
+    "offset": 397290,
+    "lang": "en"
+  },
+  {
+    "text": "also text files to the terminal.",
+    "duration": 1620,
+    "offset": 401310,
+    "lang": "en"
+  },
+  {
+    "text": "This may not sound like much,\nbut it's something that you will",
+    "duration": 2340,
+    "offset": 404220,
+    "lang": "en"
+  },
+  {
+    "text": "use a lot when writing bash\nscripts.",
+    "duration": 2640,
+    "offset": 406560,
+    "lang": "en"
+  },
+  {
+    "text": "So now finally, we are going to\nwrite a shell script with the",
+    "duration": 3030,
+    "offset": 413670,
+    "lang": "en"
+  },
+  {
+    "text": "knowledge we just gathered in\nthe previous section. Start off",
+    "duration": 3420,
+    "offset": 416700,
+    "lang": "en"
+  },
+  {
+    "text": "by first opening your favorite\ntext editor, and named the text",
+    "duration": 3900,
+    "offset": 420120,
+    "lang": "en"
+  },
+  {
+    "text": "file shell test.sh, like so. Vim\nspace, shell test.sh.",
+    "duration": 6780,
+    "offset": 424020,
+    "lang": "en"
+  },
+  {
+    "text": "Now that we have our text editor\nopened, let's try another mode",
+    "duration": 2970,
+    "offset": 432330,
+    "lang": "en"
+  },
+  {
+    "text": "of writing text in Vim, the\nAppend mode, instead of pressing",
+    "duration": 4290,
+    "offset": 435330,
+    "lang": "en"
+  },
+  {
+    "text": "i On your keyboard, press the A\nbutton. This will append your",
+    "duration": 3570,
+    "offset": 439650,
+    "lang": "en"
+  },
+  {
+    "text": "text rather than inserted. With\nthe insert mode, you write the",
+    "duration": 3660,
+    "offset": 443220,
+    "lang": "en"
+  },
+  {
+    "text": "character before the cursor with\nthe Append mode, you write the",
+    "duration": 3270,
+    "offset": 446880,
+    "lang": "en"
+  },
+  {
+    "text": "character after the cursor. Now\nin this case, it doesn't matter",
+    "duration": 3690,
+    "offset": 450150,
+    "lang": "en"
+  },
+  {
+    "text": "of course, because it's a new\nfile, but I thought I would",
+    "duration": 2670,
+    "offset": 453840,
+    "lang": "en"
+  },
+  {
+    "text": "mention it anyways, since\nsometimes it can come in handy.",
+    "duration": 3210,
+    "offset": 456510,
+    "lang": "en"
+  },
+  {
+    "text": "Let's not start with our shell\nscript. In Vim, write echo Hello",
+    "duration": 4620,
+    "offset": 460140,
+    "lang": "en"
+  },
+  {
+    "text": "World, and write and quit the\nfile by pressing the insert or",
+    "duration": 4440,
+    "offset": 464760,
+    "lang": "en"
+  },
+  {
+    "text": "append mode, writing echo Hello\nWorld, and pressing the Escape",
+    "duration": 3990,
+    "offset": 469200,
+    "lang": "en"
+  },
+  {
+    "text": "button and then writing colon\nwq. Now let's see if we can",
+    "duration": 4380,
+    "offset": 473190,
+    "lang": "en"
+  },
+  {
+    "text": "actually find the file in here\nusing the ls command, which will",
+    "duration": 3750,
+    "offset": 477570,
+    "lang": "en"
+  },
+  {
+    "text": "list all the files in our\ncurrent directory. As you can",
+    "duration": 3060,
+    "offset": 481320,
+    "lang": "en"
+  },
+  {
+    "text": "see, the file is there and we\ncan verify the location by",
+    "duration": 3660,
+    "offset": 484380,
+    "lang": "en"
+  },
+  {
+    "text": "looking at the terminals current\nlocation over here, which says",
+    "duration": 3570,
+    "offset": 488040,
+    "lang": "en"
+  },
+  {
+    "text": "the tilde symbol and the tilde\nsymbol indicates that we are in",
+    "duration": 3390,
+    "offset": 491640,
+    "lang": "en"
+  },
+  {
+    "text": "our current home directory. By\ntyping P WD. We can verify that",
+    "duration": 4980,
+    "offset": 495030,
+    "lang": "en"
+  },
+  {
+    "text": "we are indeed in the home\ndirectory. pwd stands for print",
+    "duration": 3840,
+    "offset": 500010,
+    "lang": "en"
+  },
+  {
+    "text": "working directory. And this way\nwe can print the directory that",
+    "duration": 3510,
+    "offset": 503880,
+    "lang": "en"
+  },
+  {
+    "text": "we are currently working in,\nwhich is indeed our home",
+    "duration": 3180,
+    "offset": 507390,
+    "lang": "en"
+  },
+  {
+    "text": "directory.",
+    "duration": 600,
+    "offset": 510570,
+    "lang": "en"
+  },
+  {
+    "text": "Now let's run our file by\nproviding the command line with",
+    "duration": 2970,
+    "offset": 512970,
+    "lang": "en"
+  },
+  {
+    "text": "the command line interpreter.",
+    "duration": 1170,
+    "offset": 515940,
+    "lang": "en"
+  },
+  {
+    "text": "Which is bash space, shell\ntest.sh. This will output the",
+    "duration": 6840,
+    "offset": 518340,
+    "lang": "en"
+  },
+  {
+    "text": "command we entered in the shell\nscript using the bash",
+    "duration": 2520,
+    "offset": 525180,
+    "lang": "en"
+  },
+  {
+    "text": "interpreter. But when we type in\nEcho dollar sign shell, we can",
+    "duration": 5280,
+    "offset": 527700,
+    "lang": "en"
+  },
+  {
+    "text": "verify that we are actually\nrunning in a bash shell. So",
+    "duration": 3600,
+    "offset": 532980,
+    "lang": "en"
+  },
+  {
+    "text": "should we really have to specify\nit? Well, the short answer is",
+    "duration": 3780,
+    "offset": 536610,
+    "lang": "en"
+  },
+  {
+    "text": "yes. Just because we are running\nin a bash shell, that does not",
+    "duration": 4110,
+    "offset": 540390,
+    "lang": "en"
+  },
+  {
+    "text": "mean that Linux is going to\nassume every file we want to run",
+    "duration": 2820,
+    "offset": 544500,
+    "lang": "en"
+  },
+  {
+    "text": "is also in bash. We should\nalways provide an interpreter",
+    "duration": 3570,
+    "offset": 547350,
+    "lang": "en"
+  },
+  {
+    "text": "for our shell scripts to use the\ncorrect type of shell.",
+    "duration": 2550,
+    "offset": 551070,
+    "lang": "en"
+  },
+  {
+    "text": "That does not mean however, that\nwe shouldn't make it easier for",
+    "duration": 3330,
+    "offset": 554790,
+    "lang": "en"
+  },
+  {
+    "text": "ourselves. We can actually\nprovide the command line",
+    "duration": 2940,
+    "offset": 558120,
+    "lang": "en"
+  },
+  {
+    "text": "interpreter in the shell script\nitself by typing it at the top",
+    "duration": 3270,
+    "offset": 561060,
+    "lang": "en"
+  },
+  {
+    "text": "of our script. In our case, we\nhave to provide the full path to",
+    "duration": 3960,
+    "offset": 564330,
+    "lang": "en"
+  },
+  {
+    "text": "the shell interpreter. Let's\ncopy our output from the echo",
+    "duration": 4380,
+    "offset": 568290,
+    "lang": "en"
+  },
+  {
+    "text": "dollar sign shell command and\nuse it in our shell script.",
+    "duration": 2940,
+    "offset": 572700,
+    "lang": "en"
+  },
+  {
+    "text": "Copy the output by selecting it\nand using either Ctrl C or right",
+    "duration": 3180,
+    "offset": 577560,
+    "lang": "en"
+  },
+  {
+    "text": "clicking the selection either it\nshould work.",
+    "duration": 2370,
+    "offset": 580740,
+    "lang": "en"
+  },
+  {
+    "text": "Now let's go back into our shell\nscript and let's enter the",
+    "duration": 2850,
+    "offset": 585150,
+    "lang": "en"
+  },
+  {
+    "text": "insert mode. Since we want to\nenter all this information in",
+    "duration": 3390,
+    "offset": 588030,
+    "lang": "en"
+  },
+  {
+    "text": "the beginning of the file, press\nI am type in pound sign",
+    "duration": 4020,
+    "offset": 591420,
+    "lang": "en"
+  },
+  {
+    "text": "exclamation mark and then paste\nin the output of the echo",
+    "duration": 4440,
+    "offset": 595500,
+    "lang": "en"
+  },
+  {
+    "text": "Dollar Sign shell command. And\nwhat we do here is we provide",
+    "duration": 4320,
+    "offset": 600000,
+    "lang": "en"
+  },
+  {
+    "text": "the shebang. So the pound sign\nexclamation mark is a way of",
+    "duration": 4530,
+    "offset": 604320,
+    "lang": "en"
+  },
+  {
+    "text": "telling the shell script which\ninterpreter to use, we follow up",
+    "duration": 4350,
+    "offset": 608910,
+    "lang": "en"
+  },
+  {
+    "text": "the shebang by providing the\nfull path to the shell",
+    "duration": 5250,
+    "offset": 613290,
+    "lang": "en"
+  },
+  {
+    "text": "interpreter. And this way, the\nshell knows which type of shell",
+    "duration": 4470,
+    "offset": 618540,
+    "lang": "en"
+  },
+  {
+    "text": "interpreter it needs to use, we\ncan now run this file doing",
+    "duration": 3900,
+    "offset": 623010,
+    "lang": "en"
+  },
+  {
+    "text": "period forward slash shell\ntest.sh. But we will see that",
+    "duration": 4620,
+    "offset": 627390,
+    "lang": "en"
+  },
+  {
+    "text": "permission is denied and we need\nto give the file permission to",
+    "duration": 3330,
+    "offset": 632010,
+    "lang": "en"
+  },
+  {
+    "text": "be executed. This is because in\nLinux, we need to give files",
+    "duration": 3870,
+    "offset": 635340,
+    "lang": "en"
+  },
+  {
+    "text": "permission to act as an\nexecutable file. Let's have a",
+    "duration": 3630,
+    "offset": 639210,
+    "lang": "en"
+  },
+  {
+    "text": "look at this when we type in LS\nminus l, which is a long format",
+    "duration": 5040,
+    "offset": 642840,
+    "lang": "en"
+  },
+  {
+    "text": "of the ls command, which is\nanother type of argument we call",
+    "duration": 3570,
+    "offset": 647910,
+    "lang": "en"
+  },
+  {
+    "text": "a flag. So the minus L here is\ncalled a flag we give as an",
+    "duration": 4290,
+    "offset": 651510,
+    "lang": "en"
+  },
+  {
+    "text": "argument to the ls command,\nwe're actually asking the ls",
+    "duration": 3960,
+    "offset": 655800,
+    "lang": "en"
+  },
+  {
+    "text": "command to provide the long\nformat, which will display some",
+    "duration": 3540,
+    "offset": 659760,
+    "lang": "en"
+  },
+  {
+    "text": "more information about the files\nand directories, we can see in",
+    "duration": 3810,
+    "offset": 663300,
+    "lang": "en"
+  },
+  {
+    "text": "our permissions that we do not\nhave executable permissions yet,",
+    "duration": 2970,
+    "offset": 667110,
+    "lang": "en"
+  },
+  {
+    "text": "if you want to learn more about\nthe basics of file permissions,",
+    "duration": 2520,
+    "offset": 670500,
+    "lang": "en"
+  },
+  {
+    "text": "you should look at my Linux for\nbeginners tutorial.",
+    "duration": 2520,
+    "offset": 673350,
+    "lang": "en"
+  },
+  {
+    "text": "Let's give our file executable\npermissions by typing in ch, mo",
+    "duration": 3780,
+    "offset": 677580,
+    "lang": "en"
+  },
+  {
+    "text": "D or smart u plus x space shell\ntest.sh. We want to provide u",
+    "duration": 7650,
+    "offset": 681360,
+    "lang": "en"
+  },
+  {
+    "text": "plus x because this will give\nonly the owner user permission",
+    "duration": 3780,
+    "offset": 689010,
+    "lang": "en"
+  },
+  {
+    "text": "to execute the file rather than\nthe entire group or anybody on",
+    "duration": 3300,
+    "offset": 692790,
+    "lang": "en"
+  },
+  {
+    "text": "the system.",
+    "duration": 600,
+    "offset": 696090,
+    "lang": "en"
+  },
+  {
+    "text": "It's good to have this\ndiscipline baked into your head,",
+    "duration": 2070,
+    "offset": 697920,
+    "lang": "en"
+  },
+  {
+    "text": "although on a development\nenvironment, it doesn't really",
+    "duration": 2250,
+    "offset": 700020,
+    "lang": "en"
+  },
+  {
+    "text": "matter very much.",
+    "duration": 1110,
+    "offset": 702330,
+    "lang": "en"
+  },
+  {
+    "text": "Okay, now we can finally run our\nshell script by typing in period",
+    "duration": 3840,
+    "offset": 704490,
+    "lang": "en"
+  },
+  {
+    "text": "forward slash shell test.sh. And\nwe will see the output on the",
+    "duration": 4920,
+    "offset": 708360,
+    "lang": "en"
+  },
+  {
+    "text": "terminal. Now that we finally\nhave the basics out of the way,",
+    "duration": 3030,
+    "offset": 713280,
+    "lang": "en"
+  },
+  {
+    "text": "we can actually start writing\nsome bash scripts.",
+    "duration": 2400,
+    "offset": 716340,
+    "lang": "en"
+  },
+  {
+    "text": "To understand a little bit\nbetter what variables do in",
+    "duration": 2790,
+    "offset": 722190,
+    "lang": "en"
+  },
+  {
+    "text": "bash, have a look at this\nscript. So in this script, you",
+    "duration": 3030,
+    "offset": 724980,
+    "lang": "en"
+  },
+  {
+    "text": "have a classic example of a copy\ncommand where we copy something",
+    "duration": 4800,
+    "offset": 728010,
+    "lang": "en"
+  },
+  {
+    "text": "from to a location underneath\nthat we have the same location",
+    "duration": 4380,
+    "offset": 732810,
+    "lang": "en"
+  },
+  {
+    "text": "paths twice typed out\ncompletely. Now, this is",
+    "duration": 4080,
+    "offset": 737190,
+    "lang": "en"
+  },
+  {
+    "text": "something that you want to avoid\nas much as you can. Underneath",
+    "duration": 3330,
+    "offset": 741270,
+    "lang": "en"
+  },
+  {
+    "text": "that we have a better option\nwhere we actually define a",
+    "duration": 4260,
+    "offset": 744600,
+    "lang": "en"
+  },
+  {
+    "text": "location path in a variable\ncalled my location from now this",
+    "duration": 4230,
+    "offset": 749160,
+    "lang": "en"
+  },
+  {
+    "text": "is quite a long variable name,\nyou could actually just define",
+    "duration": 3090,
+    "offset": 753390,
+    "lang": "en"
+  },
+  {
+    "text": "something like loc underscore\nfrom, which would be better",
+    "duration": 3630,
+    "offset": 756480,
+    "lang": "en"
+  },
+  {
+    "text": "to make it a little bit shorter.\nBut it's just you know, it's",
+    "duration": 1950,
+    "offset": 761190,
+    "lang": "en"
+  },
+  {
+    "text": "just for demonstration purposes\nhow this would work. So you",
+    "duration": 2940,
+    "offset": 763140,
+    "lang": "en"
+  },
+  {
+    "text": "could understand if you would\nhave a very long path here, we",
+    "duration": 2790,
+    "offset": 766080,
+    "lang": "en"
+  },
+  {
+    "text": "could have that very long file\nlocation stored in a variable.",
+    "duration": 3000,
+    "offset": 768870,
+    "lang": "en"
+  },
+  {
+    "text": "And then you could actually\nreuse that variable over and",
+    "duration": 2910,
+    "offset": 772170,
+    "lang": "en"
+  },
+  {
+    "text": "over again, like we did in the\nexample below with that. So",
+    "duration": 3300,
+    "offset": 775080,
+    "lang": "en"
+  },
+  {
+    "text": "let's now have a look at how we\ncan actually use this in an",
+    "duration": 3210,
+    "offset": 778470,
+    "lang": "en"
+  },
+  {
+    "text": "example. So we can either type\nour name like this first name",
+    "duration": 4140,
+    "offset": 781680,
+    "lang": "en"
+  },
+  {
+    "text": "equals, let's say Herbert. And\nthat's how we can actually use",
+    "duration": 3630,
+    "offset": 785850,
+    "lang": "en"
+  },
+  {
+    "text": "these variables by typing like\nEcho Hello, and then typing the",
+    "duration": 4080,
+    "offset": 789510,
+    "lang": "en"
+  },
+  {
+    "text": "variable like so. So that's how\nit would work like in line or in",
+    "duration": 4560,
+    "offset": 793590,
+    "lang": "en"
+  },
+  {
+    "text": "the command line itself. But we\ncould actually also just write a",
+    "duration": 2520,
+    "offset": 798150,
+    "lang": "en"
+  },
+  {
+    "text": "script to demonstrate a little\nbit better how variables work.",
+    "duration": 5070,
+    "offset": 800670,
+    "lang": "en"
+  },
+  {
+    "text": "So just type in Vim, hello,\nthere.sh.",
+    "duration": 4380,
+    "offset": 806190,
+    "lang": "en"
+  },
+  {
+    "text": "And then we'll do the insert\nmode with the shebang forward",
+    "duration": 3570,
+    "offset": 812130,
+    "lang": "en"
+  },
+  {
+    "text": "slash bin forward slash bash.\nAnd then over here, we'll define",
+    "duration": 4020,
+    "offset": 815700,
+    "lang": "en"
+  },
+  {
+    "text": "our first name equals pervert or\nyou know your name. And then",
+    "duration": 4290,
+    "offset": 819720,
+    "lang": "en"
+  },
+  {
+    "text": "last name, equals lindemans,\nwhich is my last name. And that",
+    "duration": 6030,
+    "offset": 824040,
+    "lang": "en"
+  },
+  {
+    "text": "will just do like this echo.\nHello, dollar sign first name.",
+    "duration": 5490,
+    "offset": 830070,
+    "lang": "en"
+  },
+  {
+    "text": "And then we'll do dollar sign\nlast name.",
+    "duration": 3510,
+    "offset": 837480,
+    "lang": "en"
+  },
+  {
+    "text": "And then we'll exits with wq.\nAnd now, the only thing we need",
+    "duration": 4230,
+    "offset": 842760,
+    "lang": "en"
+  },
+  {
+    "text": "to do is Srimad u plus x. Hello\nthere.sh. And now we can run it.",
+    "duration": 6360,
+    "offset": 846990,
+    "lang": "en"
+  },
+  {
+    "text": "And now we can see that our name\nis printed out here. Just like",
+    "duration": 4980,
+    "offset": 853860,
+    "lang": "en"
+  },
+  {
+    "text": "that.",
+    "duration": 500,
+    "offset": 858840,
+    "lang": "en"
+  },
+  {
+    "text": "So now we actually type this\nstatically. But we can actually",
+    "duration": 2670,
+    "offset": 860640,
+    "lang": "en"
+  },
+  {
+    "text": "also ask the user for input,\nlike so. So let's open a new",
+    "duration": 4230,
+    "offset": 863310,
+    "lang": "en"
+  },
+  {
+    "text": "shell script with Vim.\nInteractive shell.sh will do the",
+    "duration": 6180,
+    "offset": 867540,
+    "lang": "en"
+  },
+  {
+    "text": "same insert, they'll do the\nshebang bin bash. And first of",
+    "duration": 5490,
+    "offset": 873720,
+    "lang": "en"
+  },
+  {
+    "text": "all, we'll need to ask the user\nlike, What is your name? So what",
+    "duration": 4890,
+    "offset": 879210,
+    "lang": "en"
+  },
+  {
+    "text": "is your name? What is your first\nname? Let's ask. And then we'll",
+    "duration": 3420,
+    "offset": 884100,
+    "lang": "en"
+  },
+  {
+    "text": "do a read statement. I will read\nthe first name. I will do the",
+    "duration": 4050,
+    "offset": 887520,
+    "lang": "en"
+  },
+  {
+    "text": "same with what is your last name",
+    "duration": 1890,
+    "offset": 891570,
+    "lang": "en"
+  },
+  {
+    "text": "and I will read last name and I\nwill echo Hello",
+    "duration": 5190,
+    "offset": 894780,
+    "lang": "en"
+  },
+  {
+    "text": "Oh,",
+    "duration": 500,
+    "offset": 900000,
+    "lang": "en"
+  },
+  {
+    "text": "dollar sign first name,",
+    "duration": 1350,
+    "offset": 901860,
+    "lang": "en"
+  },
+  {
+    "text": "space dollar sign last name.",
+    "duration": 2160,
+    "offset": 904319,
+    "lang": "en"
+  },
+  {
+    "text": "And then we'll write and quit.",
+    "duration": 1410,
+    "offset": 910139,
+    "lang": "en"
+  },
+  {
+    "text": "And then we'll do the classic\nsmart u plus x. And then",
+    "duration": 4260,
+    "offset": 914309,
+    "lang": "en"
+  },
+  {
+    "text": "interactive shell.sh. I will run\nit and now it's going to prompt",
+    "duration": 3450,
+    "offset": 918569,
+    "lang": "en"
+  },
+  {
+    "text": "us for our first name, or last\nname, and then it will just",
+    "duration": 3960,
+    "offset": 922019,
+    "lang": "en"
+  },
+  {
+    "text": "print out our first and last\nname back. So",
+    "duration": 2460,
+    "offset": 926009,
+    "lang": "en"
+  },
+  {
+    "text": "we could have the terminal\ndisplay our own name, or",
+    "duration": 2190,
+    "offset": 931110,
+    "lang": "en"
+  },
+  {
+    "text": "anything else provided in a\npositional argument as well. But",
+    "duration": 3390,
+    "offset": 933300,
+    "lang": "en"
+  },
+  {
+    "text": "first, what is a positional\nargument? A positional argument",
+    "duration": 3570,
+    "offset": 936690,
+    "lang": "en"
+  },
+  {
+    "text": "is exactly what it sounds like,\nwe place the argument at a",
+    "duration": 3060,
+    "offset": 940260,
+    "lang": "en"
+  },
+  {
+    "text": "certain position behind the\ncommand or script we want to",
+    "duration": 2910,
+    "offset": 943320,
+    "lang": "en"
+  },
+  {
+    "text": "run. The positional argument can\nbe in position, 123, and so",
+    "duration": 4950,
+    "offset": 946230,
+    "lang": "en"
+  },
+  {
+    "text": "forth. The positions are always\nseparated by a space. When",
+    "duration": 4350,
+    "offset": 951180,
+    "lang": "en"
+  },
+  {
+    "text": "working with positional\narguments, you expect arguments",
+    "duration": 2640,
+    "offset": 955530,
+    "lang": "en"
+  },
+  {
+    "text": "to be in a certain position that\nis separated by a space and",
+    "duration": 3060,
+    "offset": 958170,
+    "lang": "en"
+  },
+  {
+    "text": "counting from one position zero\nis reserved for the shell",
+    "duration": 3750,
+    "offset": 961230,
+    "lang": "en"
+  },
+  {
+    "text": "itself.",
+    "duration": 630,
+    "offset": 964980,
+    "lang": "en"
+  },
+  {
+    "text": "Now let's have a look at one of\nthese positional arguments.",
+    "duration": 2460,
+    "offset": 966750,
+    "lang": "en"
+  },
+  {
+    "text": "Create a new script by typing\nvim pulse ru.sh. And enter the",
+    "duration": 5250,
+    "offset": 969600,
+    "lang": "en"
+  },
+  {
+    "text": "insert mode again, we will have\nthe script taking our first and",
+    "duration": 3360,
+    "offset": 974850,
+    "lang": "en"
+  },
+  {
+    "text": "last name and position one and\ntwo and have it take these words",
+    "duration": 3360,
+    "offset": 978210,
+    "lang": "en"
+  },
+  {
+    "text": "as positional arguments. Let's\njust write our shebang and write",
+    "duration": 4200,
+    "offset": 981600,
+    "lang": "en"
+  },
+  {
+    "text": "our one line of code like so.",
+    "duration": 1650,
+    "offset": 985800,
+    "lang": "en"
+  },
+  {
+    "text": "shebang, Bin bash, Echo, hello.\nDollar sign $1 sign two. Now",
+    "duration": 6930,
+    "offset": 988500,
+    "lang": "en"
+  },
+  {
+    "text": "save the file and close Vim,\nchange our permissions. And",
+    "duration": 3600,
+    "offset": 995430,
+    "lang": "en"
+  },
+  {
+    "text": "let's run the script again with\nthe positional arguments dot",
+    "duration": 3480,
+    "offset": 999030,
+    "lang": "en"
+  },
+  {
+    "text": "forward slash POS argue that sh,\nherbert lindemans, or whatever",
+    "duration": 5070,
+    "offset": 1002540,
+    "lang": "en"
+  },
+  {
+    "text": "your name is here. And as you\ncan see, we get the same output",
+    "duration": 2850,
+    "offset": 1007610,
+    "lang": "en"
+  },
+  {
+    "text": "here with only one line of code.",
+    "duration": 1890,
+    "offset": 1010460,
+    "lang": "en"
+  },
+  {
+    "text": "One of the most frequently used\nfeatures in Bash is piping, it",
+    "duration": 3960,
+    "offset": 1014780,
+    "lang": "en"
+  },
+  {
+    "text": "makes it very easy to perform a\nspecific action on the output of",
+    "duration": 3810,
+    "offset": 1018740,
+    "lang": "en"
+  },
+  {
+    "text": "the command. Let's say the\noutput of a command is very long",
+    "duration": 3720,
+    "offset": 1022550,
+    "lang": "en"
+  },
+  {
+    "text": "and you wish to filter something\nout. Piping is going to give you",
+    "duration": 3600,
+    "offset": 1026300,
+    "lang": "en"
+  },
+  {
+    "text": "that option. Now how does piping\nwork? Let's have a look at an",
+    "duration": 4260,
+    "offset": 1029900,
+    "lang": "en"
+  },
+  {
+    "text": "example.",
+    "duration": 630,
+    "offset": 1034160,
+    "lang": "en"
+  },
+  {
+    "text": "Let's say we want to look at a\nspecific directory. But we just",
+    "duration": 3450,
+    "offset": 1035960,
+    "lang": "en"
+  },
+  {
+    "text": "want to filter out certain files\nor subdirectories. We could for",
+    "duration": 3630,
+    "offset": 1039410,
+    "lang": "en"
+  },
+  {
+    "text": "example, use a command like\nthis. So we type in LS minus L",
+    "duration": 4920,
+    "offset": 1043040,
+    "lang": "en"
+  },
+  {
+    "text": "forward slash our directory. In\nthis case, we're using the bin",
+    "duration": 3120,
+    "offset": 1048560,
+    "lang": "en"
+  },
+  {
+    "text": "directory at forward slash user\nforward slash bin and then space",
+    "duration": 4830,
+    "offset": 1051680,
+    "lang": "en"
+  },
+  {
+    "text": "and then we type the piping\nsymbol SPACE grep, which is",
+    "duration": 4650,
+    "offset": 1056540,
+    "lang": "en"
+  },
+  {
+    "text": "something that we use to filter\nout specific words and then we",
+    "duration": 3690,
+    "offset": 1061190,
+    "lang": "en"
+  },
+  {
+    "text": "type in bash. And we'll see the\noutput is just the bash binaries",
+    "duration": 5910,
+    "offset": 1064880,
+    "lang": "en"
+  },
+  {
+    "text": "that we can see here. Rather\nthan the entire bin directory.",
+    "duration": 3420,
+    "offset": 1071090,
+    "lang": "en"
+  },
+  {
+    "text": "In this command, we forward the\noutput of the ls command into",
+    "duration": 3510,
+    "offset": 1074540,
+    "lang": "en"
+  },
+  {
+    "text": "the next command with the pipe\nsymbol. This symbol represents a",
+    "duration": 4260,
+    "offset": 1078050,
+    "lang": "en"
+  },
+  {
+    "text": "pipe and this is what we call\npiping. We literally sent the",
+    "duration": 3270,
+    "offset": 1082310,
+    "lang": "en"
+  },
+  {
+    "text": "output from a command before the\npipe symbol to the command",
+    "duration": 2910,
+    "offset": 1085580,
+    "lang": "en"
+  },
+  {
+    "text": "behind the pipe symbol. grep is\njust an example there are many",
+    "duration": 3960,
+    "offset": 1088520,
+    "lang": "en"
+  },
+  {
+    "text": "more commands that have very\npowerful potential when used",
+    "duration": 3480,
+    "offset": 1092480,
+    "lang": "en"
+  },
+  {
+    "text": "with piping.",
+    "duration": 930,
+    "offset": 1095990,
+    "lang": "en"
+  },
+  {
+    "text": "When sending output to a file,\nwe have to use different kinds",
+    "duration": 3210,
+    "offset": 1098870,
+    "lang": "en"
+  },
+  {
+    "text": "of symbols than the pipe symbol.\nInstead, we use the greater than",
+    "duration": 4650,
+    "offset": 1102080,
+    "lang": "en"
+  },
+  {
+    "text": "and double greater than symbols.\nThese symbols will be used to",
+    "duration": 3750,
+    "offset": 1106760,
+    "lang": "en"
+  },
+  {
+    "text": "send the output from a command\nto a file. This can have many",
+    "duration": 3540,
+    "offset": 1110510,
+    "lang": "en"
+  },
+  {
+    "text": "potential use cases, the first\nthing that comes to mind is",
+    "duration": 3000,
+    "offset": 1114050,
+    "lang": "en"
+  },
+  {
+    "text": "logging something from your\nscript to a log file. And this",
+    "duration": 3000,
+    "offset": 1117050,
+    "lang": "en"
+  },
+  {
+    "text": "is something that you'll\ndefinitely use in real life",
+    "duration": 2250,
+    "offset": 1120050,
+    "lang": "en"
+  },
+  {
+    "text": "scenarios. Let's see how we can\nuse these symbols. First, we",
+    "duration": 3600,
+    "offset": 1122300,
+    "lang": "en"
+  },
+  {
+    "text": "catch the output of a simple\necho command. Start by typing in",
+    "duration": 3570,
+    "offset": 1125900,
+    "lang": "en"
+  },
+  {
+    "text": "Echo hello world greater than\nhello dot exe. This prints hello",
+    "duration": 5640,
+    "offset": 1129620,
+    "lang": "en"
+  },
+  {
+    "text": "world into a file called hello\ndot txt. Notice that we put the",
+    "duration": 3930,
+    "offset": 1135260,
+    "lang": "en"
+  },
+  {
+    "text": "command before the greater than\nsymbol and the name of the text",
+    "duration": 3210,
+    "offset": 1139190,
+    "lang": "en"
+  },
+  {
+    "text": "file after the greater than\nsymbol. Now we can see if this",
+    "duration": 3150,
+    "offset": 1142400,
+    "lang": "en"
+  },
+  {
+    "text": "work by typing in cat hello dot\ntxt and we should see the output",
+    "duration": 3990,
+    "offset": 1145550,
+    "lang": "en"
+  },
+  {
+    "text": "of the echo command in here. Now\nlet's try something different",
+    "duration": 3090,
+    "offset": 1149810,
+    "lang": "en"
+  },
+  {
+    "text": "here typing echo Good day to\nyou. Greater than hello dot txt.",
+    "duration": 5190,
+    "offset": 1152900,
+    "lang": "en"
+  },
+  {
+    "text": "And let's see what's the hello\ndot txt file by typing in cat",
+    "duration": 3540,
+    "offset": 1158480,
+    "lang": "en"
+  },
+  {
+    "text": "hello dot txt. But what is this,\nthe file was overwritten. We",
+    "duration": 5580,
+    "offset": 1162050,
+    "lang": "en"
+  },
+  {
+    "text": "don't have our hello world\nanymore. This is because the",
+    "duration": 3270,
+    "offset": 1167630,
+    "lang": "en"
+  },
+  {
+    "text": "greater than symbol always\noverwrites any existing file.",
+    "duration": 3360,
+    "offset": 1170900,
+    "lang": "en"
+  },
+  {
+    "text": "What we need to have is a proper\nway to append text rather than",
+    "duration": 3360,
+    "offset": 1175070,
+    "lang": "en"
+  },
+  {
+    "text": "overwrite it. This is where the\ndouble greater than symbol comes",
+    "duration": 4440,
+    "offset": 1178460,
+    "lang": "en"
+  },
+  {
+    "text": "in. This will append any output\nto our destination file rather",
+    "duration": 3750,
+    "offset": 1182900,
+    "lang": "en"
+  },
+  {
+    "text": "than overwrite it. Let's try it\nout. But first let's remove that",
+    "duration": 3420,
+    "offset": 1186650,
+    "lang": "en"
+  },
+  {
+    "text": "original file with RM space\nhello dot txt. Then we use Echo",
+    "duration": 5520,
+    "offset": 1190070,
+    "lang": "en"
+  },
+  {
+    "text": "hello world double greater than\nsymbol hello dot txt",
+    "duration": 4170,
+    "offset": 1195620,
+    "lang": "en"
+  },
+  {
+    "text": "We check if the contents are\nindeed correct with cat hello",
+    "duration": 3510,
+    "offset": 1200000,
+    "lang": "en"
+  },
+  {
+    "text": "dot exe. And indeed, the text is\nthere. And once we verified",
+    "duration": 5490,
+    "offset": 1203510,
+    "lang": "en"
+  },
+  {
+    "text": "this, we sent another output to\nthe file using the double",
+    "duration": 3150,
+    "offset": 1209000,
+    "lang": "en"
+  },
+  {
+    "text": "greater than symbol and type in\nEcho Good day to you double",
+    "duration": 5130,
+    "offset": 1212150,
+    "lang": "en"
+  },
+  {
+    "text": "greater than hello dot exe. And\nwe once again verify this output",
+    "duration": 4980,
+    "offset": 1217280,
+    "lang": "en"
+  },
+  {
+    "text": "with cat hello dot exe. And we\nshould see both outputs here.",
+    "duration": 4620,
+    "offset": 1222290,
+    "lang": "en"
+  },
+  {
+    "text": "Now imagine using this in\ncombination with timestamps to",
+    "duration": 2760,
+    "offset": 1227810,
+    "lang": "en"
+  },
+  {
+    "text": "see which command ran at which\ntime and also some error",
+    "duration": 3360,
+    "offset": 1230570,
+    "lang": "en"
+  },
+  {
+    "text": "handling. We're starting to\ncollect the tools we need to",
+    "duration": 3480,
+    "offset": 1233930,
+    "lang": "en"
+  },
+  {
+    "text": "write real script, we can also\nfeed input into a command by",
+    "duration": 4020,
+    "offset": 1237410,
+    "lang": "en"
+  },
+  {
+    "text": "reversing the greater than\nsymbol, we can use the lesser",
+    "duration": 3870,
+    "offset": 1241430,
+    "lang": "en"
+  },
+  {
+    "text": "than double lesser than or even\ntriple lesser than symbol to get",
+    "duration": 4680,
+    "offset": 1245300,
+    "lang": "en"
+  },
+  {
+    "text": "input from a file, multiple\nlines of text or a single string",
+    "duration": 3930,
+    "offset": 1249980,
+    "lang": "en"
+  },
+  {
+    "text": "of text. Let's first look at the\nlesser than operator, which will",
+    "duration": 5190,
+    "offset": 1253910,
+    "lang": "en"
+  },
+  {
+    "text": "get input from a txt file. We\nwill use the word count command",
+    "duration": 4140,
+    "offset": 1259100,
+    "lang": "en"
+  },
+  {
+    "text": "as an example here, because it's\none of those commands that has a",
+    "duration": 2730,
+    "offset": 1263240,
+    "lang": "en"
+  },
+  {
+    "text": "use case for these types of\noperators. Let's type in WC",
+    "duration": 4350,
+    "offset": 1265970,
+    "lang": "en"
+  },
+  {
+    "text": "minus w hello dot exe to get the\nword count. But what happens",
+    "duration": 5040,
+    "offset": 1270530,
+    "lang": "en"
+  },
+  {
+    "text": "here, we get a little more than\nwe asked for as an output. The",
+    "duration": 3930,
+    "offset": 1275570,
+    "lang": "en"
+  },
+  {
+    "text": "wc command, by default also\nshows the filename, which is not",
+    "duration": 4380,
+    "offset": 1279500,
+    "lang": "en"
+  },
+  {
+    "text": "what we want. If we just want to\nget the number of words, we need",
+    "duration": 3810,
+    "offset": 1283880,
+    "lang": "en"
+  },
+  {
+    "text": "to feed the wc command and input\nfrom the file with the lesser",
+    "duration": 4200,
+    "offset": 1287690,
+    "lang": "en"
+  },
+  {
+    "text": "than operator rather than the\nfile itself as a positional",
+    "duration": 3600,
+    "offset": 1291890,
+    "lang": "en"
+  },
+  {
+    "text": "argument. This can be done like\nso WC minus w space lesser than",
+    "duration": 6270,
+    "offset": 1295490,
+    "lang": "en"
+  },
+  {
+    "text": "space hello dot txt, and this\nway, we will redirect the file",
+    "duration": 4170,
+    "offset": 1301790,
+    "lang": "en"
+  },
+  {
+    "text": "to the wc command. Rather than\npassing it as a positional",
+    "duration": 3600,
+    "offset": 1305990,
+    "lang": "en"
+  },
+  {
+    "text": "argument to the command, we will\nnow get to the second way of",
+    "duration": 3090,
+    "offset": 1309590,
+    "lang": "en"
+  },
+  {
+    "text": "feeding data to a command with\nthe double lesser than operator.",
+    "duration": 3750,
+    "offset": 1312680,
+    "lang": "en"
+  },
+  {
+    "text": "This is a great way to supply\nmultiple lines of text to a",
+    "duration": 3120,
+    "offset": 1316610,
+    "lang": "en"
+  },
+  {
+    "text": "command. When we write the\ndouble lesser than operator, we",
+    "duration": 3900,
+    "offset": 1319730,
+    "lang": "en"
+  },
+  {
+    "text": "will immediately follow it up\nwith a word that will open and",
+    "duration": 3150,
+    "offset": 1323630,
+    "lang": "en"
+  },
+  {
+    "text": "close the text we want to input.\nBasically, we tell the command",
+    "duration": 3660,
+    "offset": 1326780,
+    "lang": "en"
+  },
+  {
+    "text": "line Hey, wait for this word,\nand then capture everything I",
+    "duration": 3750,
+    "offset": 1330440,
+    "lang": "en"
+  },
+  {
+    "text": "wrote in between the first and\nsecond occurrence. Often people",
+    "duration": 4020,
+    "offset": 1334190,
+    "lang": "en"
+  },
+  {
+    "text": "will write e o f, but you can\nwrite whatever you want. Let's",
+    "duration": 4500,
+    "offset": 1338210,
+    "lang": "en"
+  },
+  {
+    "text": "have a look at how this would\nwork. So we type in cat space,",
+    "duration": 4260,
+    "offset": 1342710,
+    "lang": "en"
+  },
+  {
+    "text": "double lesser than symbol elf.\nNow we see that the command line",
+    "duration": 3630,
+    "offset": 1347630,
+    "lang": "en"
+  },
+  {
+    "text": "waits for input. So we can keep\nwriting lines of text here. And",
+    "duration": 3810,
+    "offset": 1351260,
+    "lang": "en"
+  },
+  {
+    "text": "let's write some text creating a\nnew line with the enter key",
+    "duration": 3060,
+    "offset": 1355070,
+    "lang": "en"
+  },
+  {
+    "text": "we'll type in I will enter write\nsome enter text here, enter. And",
+    "duration": 7020,
+    "offset": 1358190,
+    "lang": "en"
+  },
+  {
+    "text": "now we close it with the first\nword we supply it and we type",
+    "duration": 3150,
+    "offset": 1365210,
+    "lang": "en"
+  },
+  {
+    "text": "again e o f. And now we should\nsee the text that we wrote here",
+    "duration": 3870,
+    "offset": 1368360,
+    "lang": "en"
+  },
+  {
+    "text": "between the two e o f\nstatements. Now last but not",
+    "duration": 3930,
+    "offset": 1372230,
+    "lang": "en"
+  },
+  {
+    "text": "least, we can also supply single\nstrings of text to the command",
+    "duration": 3450,
+    "offset": 1376160,
+    "lang": "en"
+  },
+  {
+    "text": "line. This will be done with you\nguessed it the triple lesser",
+    "duration": 4290,
+    "offset": 1379610,
+    "lang": "en"
+  },
+  {
+    "text": "than operator. Let's have a look\nat another example of the wc",
+    "duration": 3960,
+    "offset": 1383900,
+    "lang": "en"
+  },
+  {
+    "text": "command we use. By default, wc\nwill either read a file or a",
+    "duration": 4560,
+    "offset": 1387860,
+    "lang": "en"
+  },
+  {
+    "text": "command output, but not actual\nstrings supplied as positional",
+    "duration": 3600,
+    "offset": 1392420,
+    "lang": "en"
+  },
+  {
+    "text": "arguments. We should feed the\ncommand either an entire file or",
+    "duration": 4080,
+    "offset": 1396020,
+    "lang": "en"
+  },
+  {
+    "text": "the output of a file with one of\nthe lesser than operator",
+    "duration": 3060,
+    "offset": 1400100,
+    "lang": "en"
+  },
+  {
+    "text": "variations. Let's see how we can\nprovide a string to this wc",
+    "duration": 4380,
+    "offset": 1403160,
+    "lang": "en"
+  },
+  {
+    "text": "command. So we typing w c minus\nw again, space, triple lesser",
+    "duration": 6210,
+    "offset": 1407540,
+    "lang": "en"
+  },
+  {
+    "text": "than symbol, and then we open\nwith double quotes Hello, their",
+    "duration": 3870,
+    "offset": 1413780,
+    "lang": "en"
+  },
+  {
+    "text": "word count. And then we close\nagain with double quotes and we",
+    "duration": 3510,
+    "offset": 1417650,
+    "lang": "en"
+  },
+  {
+    "text": "should see the word count\nprinted here in the terminal.",
+    "duration": 2760,
+    "offset": 1421160,
+    "lang": "en"
+  },
+  {
+    "text": "This is how we can feed a string\ninto a command and take note",
+    "duration": 3240,
+    "offset": 1424430,
+    "lang": "en"
+  },
+  {
+    "text": "that the string needs to be in\nbetween double quotes otherwise",
+    "duration": 3000,
+    "offset": 1427670,
+    "lang": "en"
+  },
+  {
+    "text": "it will not work.",
+    "duration": 930,
+    "offset": 1430670,
+    "lang": "en"
+  },
+  {
+    "text": "In bash, we have a built in\ncommand called test that will",
+    "duration": 3090,
+    "offset": 1434780,
+    "lang": "en"
+  },
+  {
+    "text": "take in a couple of arguments\nand show you if the expression",
+    "duration": 3120,
+    "offset": 1437870,
+    "lang": "en"
+  },
+  {
+    "text": "is true or not. For example, we\ncan ask a terminal to show us",
+    "duration": 3780,
+    "offset": 1440990,
+    "lang": "en"
+  },
+  {
+    "text": "whether or not a string of text\nis equal to another. We can",
+    "duration": 3180,
+    "offset": 1444800,
+    "lang": "en"
+  },
+  {
+    "text": "write test followed by the\nexpression, but I prefer using",
+    "duration": 3420,
+    "offset": 1447980,
+    "lang": "en"
+  },
+  {
+    "text": "square brackets. Let's see how\nthat's done. So we just write",
+    "duration": 3960,
+    "offset": 1451400,
+    "lang": "en"
+  },
+  {
+    "text": "open square brackets space. And\nthis is important because you",
+    "duration": 3570,
+    "offset": 1455720,
+    "lang": "en"
+  },
+  {
+    "text": "need the space in between Hello\nspace, equal sign space again",
+    "duration": 5250,
+    "offset": 1459290,
+    "lang": "en"
+  },
+  {
+    "text": "Hello, followed by another space\nand enclosing the square",
+    "duration": 3300,
+    "offset": 1464540,
+    "lang": "en"
+  },
+  {
+    "text": "brackets. And this will show no\noutput but when we do echo",
+    "duration": 3390,
+    "offset": 1467840,
+    "lang": "en"
+  },
+  {
+    "text": "dollar sign question mark. We\nshould see output zero here",
+    "duration": 4050,
+    "offset": 1471560,
+    "lang": "en"
+  },
+  {
+    "text": "because the first string of text\nis equal to the second and that",
+    "duration": 3540,
+    "offset": 1475640,
+    "lang": "en"
+  },
+  {
+    "text": "will give us a return value of\n$0 sign question mark returns",
+    "duration": 4020,
+    "offset": 1479180,
+    "lang": "en"
+  },
+  {
+    "text": "the value of the exit code or\nthe last executed command. We",
+    "duration": 3420,
+    "offset": 1483200,
+    "lang": "en"
+  },
+  {
+    "text": "will learn more about exit codes\nlater. For now it's enough to",
+    "duration": 2700,
+    "offset": 1486620,
+    "lang": "en"
+  },
+  {
+    "text": "know that exit code zero means\nthat the command was executed",
+    "duration": 3600,
+    "offset": 1489320,
+    "lang": "en"
+  },
+  {
+    "text": "without any issues. Another\nexample of this would be",
+    "duration": 3300,
+    "offset": 1492950,
+    "lang": "en"
+  },
+  {
+    "text": "comparing numbers with each\nother. For example, again",
+    "duration": 3720,
+    "offset": 1496250,
+    "lang": "en"
+  },
+  {
+    "text": "We open the square brackets\nspace one equals zero space, we",
+    "duration": 5100,
+    "offset": 1500000,
+    "lang": "en"
+  },
+  {
+    "text": "close the square brackets, and\nthen we do echo dollar sign",
+    "duration": 3840,
+    "offset": 1505100,
+    "lang": "en"
+  },
+  {
+    "text": "question mark. And this shows us\nthat the values are not the same",
+    "duration": 3810,
+    "offset": 1508940,
+    "lang": "en"
+  },
+  {
+    "text": "because we get a return code\none. But we could also use a",
+    "duration": 2880,
+    "offset": 1512750,
+    "lang": "en"
+  },
+  {
+    "text": "different operator here to make\nsure that the values are",
+    "duration": 2610,
+    "offset": 1515630,
+    "lang": "en"
+  },
+  {
+    "text": "actually numerical. We could use\nthe minus EQ operator for this.",
+    "duration": 4740,
+    "offset": 1518300,
+    "lang": "en"
+  },
+  {
+    "text": "And we do this with opening\nsquare brackets, one minus EQ,",
+    "duration": 4410,
+    "offset": 1523700,
+    "lang": "en"
+  },
+  {
+    "text": "one closing square brackets,\nEcho dollar sign question mark.",
+    "duration": 4830,
+    "offset": 1528440,
+    "lang": "en"
+  },
+  {
+    "text": "This also shows us the same\nreturn value exit code zero,",
+    "duration": 3750,
+    "offset": 1533300,
+    "lang": "en"
+  },
+  {
+    "text": "which means that the values do\nequate, though this will throw",
+    "duration": 2970,
+    "offset": 1537080,
+    "lang": "en"
+  },
+  {
+    "text": "an error if you would use\nalphabetical characters instead",
+    "duration": 2580,
+    "offset": 1540050,
+    "lang": "en"
+  },
+  {
+    "text": "of numerical ones.",
+    "duration": 1020,
+    "offset": 1542630,
+    "lang": "en"
+  },
+  {
+    "text": "Now for some more powerful\nstuff, we can actually use these",
+    "duration": 3810,
+    "offset": 1546320,
+    "lang": "en"
+  },
+  {
+    "text": "test expressions and perform an\naction on it. Let's have a look",
+    "duration": 3660,
+    "offset": 1550130,
+    "lang": "en"
+  },
+  {
+    "text": "at this more closely with an\nactual script. Let's create a",
+    "duration": 3600,
+    "offset": 1553790,
+    "lang": "en"
+  },
+  {
+    "text": "login script which will not\nreally log us in but it will",
+    "duration": 3390,
+    "offset": 1557390,
+    "lang": "en"
+  },
+  {
+    "text": "show us what is possible with\nthese if Elif else statements.",
+    "duration": 3990,
+    "offset": 1560780,
+    "lang": "en"
+  },
+  {
+    "text": "Create a new script called if\nElif else.sh.",
+    "duration": 3660,
+    "offset": 1565520,
+    "lang": "en"
+  },
+  {
+    "text": "Type in the shebang.",
+    "duration": 990,
+    "offset": 1573620,
+    "lang": "en"
+  },
+  {
+    "text": "Do F open the square brackets,\ndollar sign, open curly braces,",
+    "duration": 6060,
+    "offset": 1577340,
+    "lang": "en"
+  },
+  {
+    "text": "one comma comma close curly\nbraces and I'll explain to you",
+    "duration": 3810,
+    "offset": 1583550,
+    "lang": "en"
+  },
+  {
+    "text": "what this means in just a second\nequals your username, close the",
+    "duration": 5610,
+    "offset": 1587360,
+    "lang": "en"
+  },
+  {
+    "text": "square brackets, semicolon,\nthen, and then we follow up what",
+    "duration": 4890,
+    "offset": 1592970,
+    "lang": "en"
+  },
+  {
+    "text": "we actually want to do here. So\nwe want to echo Oh, you're the",
+    "duration": 4950,
+    "offset": 1597860,
+    "lang": "en"
+  },
+  {
+    "text": "boss here. Welcome.",
+    "duration": 1530,
+    "offset": 1602810,
+    "lang": "en"
+  },
+  {
+    "text": "Then start a new line. lf open\nsquare brackets again, dollar",
+    "duration": 5550,
+    "offset": 1605750,
+    "lang": "en"
+  },
+  {
+    "text": "sign, curly braces, one comma\ncomma curly braces equals help.",
+    "duration": 4770,
+    "offset": 1611300,
+    "lang": "en"
+  },
+  {
+    "text": "Close the square brackets,\nsemicolon, then echo, just enter",
+    "duration": 5790,
+    "offset": 1616640,
+    "lang": "en"
+  },
+  {
+    "text": "your user name data. Else. Echo.\nI don't know who you are, but",
+    "duration": 4710,
+    "offset": 1622430,
+    "lang": "en"
+  },
+  {
+    "text": "you're not the boss of me. And\nthen close it with FY. Now let",
+    "duration": 4500,
+    "offset": 1627140,
+    "lang": "en"
+  },
+  {
+    "text": "me explain to you what we did\nhere. So this script will take",
+    "duration": 3360,
+    "offset": 1631640,
+    "lang": "en"
+  },
+  {
+    "text": "in a positional argument, which\nis a great way to test how the",
+    "duration": 3870,
+    "offset": 1635030,
+    "lang": "en"
+  },
+  {
+    "text": "if statements will work.",
+    "duration": 1290,
+    "offset": 1638930,
+    "lang": "en"
+  },
+  {
+    "text": "We start our if statements with\nan F followed by the test",
+    "duration": 3900,
+    "offset": 1641720,
+    "lang": "en"
+  },
+  {
+    "text": "expression. Take note of the\nsquare brackets used in previous",
+    "duration": 3030,
+    "offset": 1645620,
+    "lang": "en"
+  },
+  {
+    "text": "section, we test if the first\npositional argument is equal to",
+    "duration": 3990,
+    "offset": 1648650,
+    "lang": "en"
+  },
+  {
+    "text": "the value we provide. Take note\nof the double comma and the",
+    "duration": 2970,
+    "offset": 1652640,
+    "lang": "en"
+  },
+  {
+    "text": "curly braces. This is called a\nparameter expansion. And it will",
+    "duration": 3690,
+    "offset": 1655610,
+    "lang": "en"
+  },
+  {
+    "text": "allow us to ignore upper and\nlower cases when comparing the",
+    "duration": 2970,
+    "offset": 1659330,
+    "lang": "en"
+  },
+  {
+    "text": "two values. We then end the test\noperator with a semicolon. And",
+    "duration": 4320,
+    "offset": 1662300,
+    "lang": "en"
+  },
+  {
+    "text": "we'll follow it up by then. And\nthen beginning a new line. And",
+    "duration": 4470,
+    "offset": 1666620,
+    "lang": "en"
+  },
+  {
+    "text": "on this line, we type what we\nactually want to do with set",
+    "duration": 2850,
+    "offset": 1671090,
+    "lang": "en"
+  },
+  {
+    "text": "test expression. In this case,\nwe just print something out to",
+    "duration": 3720,
+    "offset": 1673970,
+    "lang": "en"
+  },
+  {
+    "text": "the console telling the user the\nscript has recognized the user",
+    "duration": 3450,
+    "offset": 1677690,
+    "lang": "en"
+  },
+  {
+    "text": "name and that he is indeed the\nboss of the system. We can also",
+    "duration": 4470,
+    "offset": 1681140,
+    "lang": "en"
+  },
+  {
+    "text": "have a script check for multiple\ntest expressions. We can define",
+    "duration": 4080,
+    "offset": 1685610,
+    "lang": "en"
+  },
+  {
+    "text": "this with an elif statement.\nThis stands for else if being",
+    "duration": 4290,
+    "offset": 1689690,
+    "lang": "en"
+  },
+  {
+    "text": "that else if the previous\nstatement wasn't true test if",
+    "duration": 3360,
+    "offset": 1693980,
+    "lang": "en"
+  },
+  {
+    "text": "this is true. Again, start a new\nline. We defined a test",
+    "duration": 3780,
+    "offset": 1697340,
+    "lang": "en"
+  },
+  {
+    "text": "expression that will test if the\npositional argument is help. And",
+    "duration": 3720,
+    "offset": 1701120,
+    "lang": "en"
+  },
+  {
+    "text": "if it is, we display a message\nthat shows us instructions on",
+    "duration": 3390,
+    "offset": 1704840,
+    "lang": "en"
+  },
+  {
+    "text": "how to use the script. Being an\neasy script we want to state",
+    "duration": 3660,
+    "offset": 1708230,
+    "lang": "en"
+  },
+  {
+    "text": "that it isn't so hard to use.\nMaybe a little rude, but it's",
+    "duration": 3330,
+    "offset": 1711890,
+    "lang": "en"
+  },
+  {
+    "text": "all in good fun. Then if none of\nthese statements are true,",
+    "duration": 3900,
+    "offset": 1715220,
+    "lang": "en"
+  },
+  {
+    "text": "finally we have the else\nstatement. This will perform an",
+    "duration": 3900,
+    "offset": 1719150,
+    "lang": "en"
+  },
+  {
+    "text": "action if none of the if or Elif\nstatements are true. We can",
+    "duration": 4350,
+    "offset": 1723050,
+    "lang": "en"
+  },
+  {
+    "text": "display a message saying that\nthe user name was not detected",
+    "duration": 2910,
+    "offset": 1727400,
+    "lang": "en"
+  },
+  {
+    "text": "and that the system will not be\nbossed around by someone that",
+    "duration": 2910,
+    "offset": 1730310,
+    "lang": "en"
+  },
+  {
+    "text": "does not have the correct\nusername.",
+    "duration": 1620,
+    "offset": 1733220,
+    "lang": "en"
+  },
+  {
+    "text": "Finally, to close our if\nstatements we ended with FYI.",
+    "duration": 3870,
+    "offset": 1736100,
+    "lang": "en"
+  },
+  {
+    "text": "This closes the entire block of\nif Elif else statements and is",
+    "duration": 4200,
+    "offset": 1740720,
+    "lang": "en"
+  },
+  {
+    "text": "required.",
+    "duration": 660,
+    "offset": 1744920,
+    "lang": "en"
+  },
+  {
+    "text": "If Elif else statements are\nuseful, but you won't use them",
+    "duration": 4080,
+    "offset": 1749390,
+    "lang": "en"
+  },
+  {
+    "text": "very often if you want to check\nfor multiple values. For these",
+    "duration": 3990,
+    "offset": 1753470,
+    "lang": "en"
+  },
+  {
+    "text": "kinds of things. We use case\nstatements. First of all, what",
+    "duration": 4200,
+    "offset": 1757460,
+    "lang": "en"
+  },
+  {
+    "text": "is a case statement? Well, a\ncase statement performs",
+    "duration": 4110,
+    "offset": 1761660,
+    "lang": "en"
+  },
+  {
+    "text": "different actions depending on\nwhich case is true. This means",
+    "duration": 4380,
+    "offset": 1765770,
+    "lang": "en"
+  },
+  {
+    "text": "that we can define multiple\noptions, and if the option",
+    "duration": 2850,
+    "offset": 1770150,
+    "lang": "en"
+  },
+  {
+    "text": "matches the case, we will\nperform an action bound to that",
+    "duration": 3690,
+    "offset": 1773030,
+    "lang": "en"
+  },
+  {
+    "text": "option. Let's have a look at how\nthis works in a real script.",
+    "duration": 3960,
+    "offset": 1776720,
+    "lang": "en"
+  },
+  {
+    "text": "Let's try to recreate our\nprevious exercise with a case",
+    "duration": 3330,
+    "offset": 1781250,
+    "lang": "en"
+  },
+  {
+    "text": "statement instead of the if Elif\nelse statements, create a new",
+    "duration": 4410,
+    "offset": 1784610,
+    "lang": "en"
+  },
+  {
+    "text": "file with vim login.sh and type\nin the shebang. And then we",
+    "duration": 5310,
+    "offset": 1789020,
+    "lang": "en"
+  },
+  {
+    "text": "start our case statement by\ntyping in case space. Dollar",
+    "duration": 4230,
+    "offset": 1794330,
+    "lang": "en"
+  },
+  {
+    "text": "sign and then",
+    "duration": 1410,
+    "offset": 1798560,
+    "lang": "en"
+  },
+  {
+    "text": "ie variable expansion with the\ncurly brackets, one comma,",
+    "duration": 4680,
+    "offset": 1800000,
+    "lang": "en"
+  },
+  {
+    "text": "comma, space in and over here,\nwe're going to do something",
+    "duration": 3600,
+    "offset": 1804680,
+    "lang": "en"
+  },
+  {
+    "text": "special, we're going to define\nmultiple options. Now this is",
+    "duration": 3180,
+    "offset": 1808280,
+    "lang": "en"
+  },
+  {
+    "text": "something that you could also do\nwith if statements. But I'm just",
+    "duration": 3330,
+    "offset": 1811460,
+    "lang": "en"
+  },
+  {
+    "text": "introducing it here with the\ncase statements. Since I thought",
+    "duration": 3000,
+    "offset": 1814790,
+    "lang": "en"
+  },
+  {
+    "text": "it would be interesting to see\nhow it works. So we type in our",
+    "duration": 3030,
+    "offset": 1817820,
+    "lang": "en"
+  },
+  {
+    "text": "username, space, and then the\npipe symbol. And over here, this",
+    "duration": 3750,
+    "offset": 1820850,
+    "lang": "en"
+  },
+  {
+    "text": "is actually like a separator for\nmultiple options, rather than",
+    "duration": 3960,
+    "offset": 1824600,
+    "lang": "en"
+  },
+  {
+    "text": "the pipe symbol that we saw\nearlier, to pipe things through",
+    "duration": 5280,
+    "offset": 1828590,
+    "lang": "en"
+  },
+  {
+    "text": "two different commands. In a\ncase statement, it serves a",
+    "duration": 3060,
+    "offset": 1833870,
+    "lang": "en"
+  },
+  {
+    "text": "different function over here, it\nserves as a separator for",
+    "duration": 3090,
+    "offset": 1836930,
+    "lang": "en"
+  },
+  {
+    "text": "multiple options. So user name,\nspace, pipe, symbol, space, and",
+    "duration": 5550,
+    "offset": 1840020,
+    "lang": "en"
+  },
+  {
+    "text": "then another user name, for\nexample, the administrator, and",
+    "duration": 3960,
+    "offset": 1845570,
+    "lang": "en"
+  },
+  {
+    "text": "then we close the bracket. And\nthen we define what we want to",
+    "duration": 4530,
+    "offset": 1849530,
+    "lang": "en"
+  },
+  {
+    "text": "say or do here. So you want to\nsay something like, Oh, you're",
+    "duration": 4770,
+    "offset": 1854090,
+    "lang": "en"
+  },
+  {
+    "text": "the boss here, welcome, again,\nlike we did in the previous",
+    "duration": 3600,
+    "offset": 1858860,
+    "lang": "en"
+  },
+  {
+    "text": "exercise, and then we close this\noption with double semicolons.",
+    "duration": 5910,
+    "offset": 1862460,
+    "lang": "en"
+  },
+  {
+    "text": "Then we define another option\nhere, for example, help like we",
+    "duration": 3240,
+    "offset": 1868460,
+    "lang": "en"
+  },
+  {
+    "text": "did in the previous exercise\nwill copy the same echo command",
+    "duration": 4230,
+    "offset": 1871700,
+    "lang": "en"
+  },
+  {
+    "text": "that we close that option with\ndouble semi colons. And then",
+    "duration": 4590,
+    "offset": 1876020,
+    "lang": "en"
+  },
+  {
+    "text": "what we do here is we define\nthis star symbol or asterisk or",
+    "duration": 3870,
+    "offset": 1880610,
+    "lang": "en"
+  },
+  {
+    "text": "whatever you want to call it.\nThis is the catch all option",
+    "duration": 3510,
+    "offset": 1884510,
+    "lang": "en"
+  },
+  {
+    "text": "that we're going to define. And\nthe catch all option is like the",
+    "duration": 3780,
+    "offset": 1888020,
+    "lang": "en"
+  },
+  {
+    "text": "default option, when none of the\noptions are true, or when no",
+    "duration": 4650,
+    "offset": 1891800,
+    "lang": "en"
+  },
+  {
+    "text": "options are given. And then we\ndefine Hello there, but you're",
+    "duration": 3030,
+    "offset": 1896450,
+    "lang": "en"
+  },
+  {
+    "text": "not the boss of me, please enter\na valid username, then we close",
+    "duration": 4110,
+    "offset": 1899480,
+    "lang": "en"
+  },
+  {
+    "text": "that option with double\nsemicolons. And then close that",
+    "duration": 3990,
+    "offset": 1903590,
+    "lang": "en"
+  },
+  {
+    "text": "with E sec. So it's case just\nreversed. So again, like I said",
+    "duration": 4740,
+    "offset": 1907580,
+    "lang": "en"
+  },
+  {
+    "text": "before, notice that we have two\noptions in one line using the",
+    "duration": 3690,
+    "offset": 1912320,
+    "lang": "en"
+  },
+  {
+    "text": "pipe symbol, again, and when we\nuse the pipe symbol in one of",
+    "duration": 3600,
+    "offset": 1916010,
+    "lang": "en"
+  },
+  {
+    "text": "the case statement options, we\ncan use it to have multiple",
+    "duration": 2910,
+    "offset": 1919610,
+    "lang": "en"
+  },
+  {
+    "text": "values to test for, we define\nour option for help. also define",
+    "duration": 4890,
+    "offset": 1922520,
+    "lang": "en"
+  },
+  {
+    "text": "a catch all or default option.\nAnd this is equal to like the",
+    "duration": 3480,
+    "offset": 1927440,
+    "lang": "en"
+  },
+  {
+    "text": "else statement like we saw\nearlier, meaning that if none of",
+    "duration": 2760,
+    "offset": 1930950,
+    "lang": "en"
+  },
+  {
+    "text": "the options are equal to the\ninput, we will perform a",
+    "duration": 2970,
+    "offset": 1933710,
+    "lang": "en"
+  },
+  {
+    "text": "specific action and now we can\nrun our scripts and get the",
+    "duration": 2820,
+    "offset": 1936680,
+    "lang": "en"
+  },
+  {
+    "text": "results that we expect.",
+    "duration": 1590,
+    "offset": 1939500,
+    "lang": "en"
+  },
+  {
+    "text": "Before we get into looping, we\nneed to first extend our",
+    "duration": 2700,
+    "offset": 1968420,
+    "lang": "en"
+  },
+  {
+    "text": "knowledge about variables, we\ncan actually assign multiple",
+    "duration": 3390,
+    "offset": 1971120,
+    "lang": "en"
+  },
+  {
+    "text": "values to one variable collected\nin a list. We call these kinds",
+    "duration": 4680,
+    "offset": 1974510,
+    "lang": "en"
+  },
+  {
+    "text": "of variable lists arrays. Let's\nsee how we can actually create",
+    "duration": 4110,
+    "offset": 1979190,
+    "lang": "en"
+  },
+  {
+    "text": "this in the command line. In the\ncommand line type my first list",
+    "duration": 5220,
+    "offset": 1983300,
+    "lang": "en"
+  },
+  {
+    "text": "equals open brackets one, space\ntwo, space three, space four,",
+    "duration": 6210,
+    "offset": 1988970,
+    "lang": "en"
+  },
+  {
+    "text": "space five, close the brackets.\nTake note of how we start the",
+    "duration": 4140,
+    "offset": 1995210,
+    "lang": "en"
+  },
+  {
+    "text": "array with open brackets, use a\nspace as a separator for each",
+    "duration": 3870,
+    "offset": 1999350,
+    "lang": "en"
+  },
+  {
+    "text": "item, and close the array with\nthe closing bracket. Now let's",
+    "duration": 4080,
+    "offset": 2003220,
+    "lang": "en"
+  },
+  {
+    "text": "see what the output is when we\ntry to print this array. Just",
+    "duration": 3600,
+    "offset": 2007300,
+    "lang": "en"
+  },
+  {
+    "text": "type in Echo, and then just like\nwe would with any other",
+    "duration": 3270,
+    "offset": 2010900,
+    "lang": "en"
+  },
+  {
+    "text": "variable, space, dollar sign my\nfirst list and now we will see",
+    "duration": 5850,
+    "offset": 2014170,
+    "lang": "en"
+  },
+  {
+    "text": "that the output is just the\nfirst element. And this is of",
+    "duration": 3030,
+    "offset": 2020020,
+    "lang": "en"
+  },
+  {
+    "text": "course not what we want. To echo\nthe entire list, we need to",
+    "duration": 3900,
+    "offset": 2023050,
+    "lang": "en"
+  },
+  {
+    "text": "specify it like this echo,\ndollar sign, open curly braces,",
+    "duration": 5760,
+    "offset": 2026950,
+    "lang": "en"
+  },
+  {
+    "text": "my first list square brackets,\napt symbol, closing square",
+    "duration": 5520,
+    "offset": 2032920,
+    "lang": "en"
+  },
+  {
+    "text": "brackets, close the curly\nbraces, and this will print out",
+    "duration": 3390,
+    "offset": 2038440,
+    "lang": "en"
+  },
+  {
+    "text": "everything in the list. But we\ncan also define which item we",
+    "duration": 3570,
+    "offset": 2041860,
+    "lang": "en"
+  },
+  {
+    "text": "want to print like this echo\nspace, dollar sign curly braces,",
+    "duration": 6030,
+    "offset": 2045430,
+    "lang": "en"
+  },
+  {
+    "text": "my first list square brackets,\nand then over here we'll just",
+    "duration": 4200,
+    "offset": 2051490,
+    "lang": "en"
+  },
+  {
+    "text": "type in zero, which is the\nindex, close the square brackets",
+    "duration": 3990,
+    "offset": 2055690,
+    "lang": "en"
+  },
+  {
+    "text": "close the curly braces, and this\nwill print out the first item in",
+    "duration": 3450,
+    "offset": 2059710,
+    "lang": "en"
+  },
+  {
+    "text": "the array because we define the\nindex in between the square",
+    "duration": 3960,
+    "offset": 2063160,
+    "lang": "en"
+  },
+  {
+    "text": "brackets. And because in bash,\nthe first item in the array",
+    "duration": 3360,
+    "offset": 2067120,
+    "lang": "en"
+  },
+  {
+    "text": "always has index zero counting\nupwards we will see the first",
+    "duration": 3990,
+    "offset": 2070510,
+    "lang": "en"
+  },
+  {
+    "text": "item in the array. But let's say\nwe want to do something else",
+    "duration": 3210,
+    "offset": 2074500,
+    "lang": "en"
+  },
+  {
+    "text": "with all these items in the\narray. We can do this with a for",
+    "duration": 3270,
+    "offset": 2077710,
+    "lang": "en"
+  },
+  {
+    "text": "loop.",
+    "duration": 500,
+    "offset": 2080980,
+    "lang": "en"
+  },
+  {
+    "text": "Now that we have created our\narray, we want to loop over the",
+    "duration": 2880,
+    "offset": 2084040,
+    "lang": "en"
+  },
+  {
+    "text": "items in it and do something\nusing a for loop. In our",
+    "duration": 3840,
+    "offset": 2086920,
+    "lang": "en"
+  },
+  {
+    "text": "example, we will count the\nlength of each word in the array",
+    "duration": 3300,
+    "offset": 2090760,
+    "lang": "en"
+  },
+  {
+    "text": "by piping the item output using\necho to the wc command",
+    "duration": 4260,
+    "offset": 2094090,
+    "lang": "en"
+  },
+  {
+    "text": "don't",
+    "duration": 270,
+    "offset": 2099730,
+    "lang": "en"
+  },
+  {
+    "text": "Get to specify the minus n flag\nin our echo command, because",
+    "duration": 3660,
+    "offset": 2100000,
+    "lang": "en"
+  },
+  {
+    "text": "otherwise it will also count the\nnewline characters.",
+    "duration": 2790,
+    "offset": 2103690,
+    "lang": "en"
+  },
+  {
+    "text": "type in the command line for\nspace, item space in dollar sign",
+    "duration": 6150,
+    "offset": 2107859,
+    "lang": "en"
+  },
+  {
+    "text": "curly braces, my first list,\nsquare brackets at square",
+    "duration": 4320,
+    "offset": 2114009,
+    "lang": "en"
+  },
+  {
+    "text": "brackets, curly braces, semi\ncolon space, do space, echo",
+    "duration": 5940,
+    "offset": 2118329,
+    "lang": "en"
+  },
+  {
+    "text": "space minus n space, dollar sign\nitem, space pipe symbol SPACE,",
+    "duration": 6810,
+    "offset": 2124299,
+    "lang": "en"
+  },
+  {
+    "text": "wc space minus c semi colon\nspace done.",
+    "duration": 4260,
+    "offset": 2131439,
+    "lang": "en"
+  },
+  {
+    "text": "Take note of how we write the\nfor loop here, we first define",
+    "duration": 3570,
+    "offset": 2136810,
+    "lang": "en"
+  },
+  {
+    "text": "the variable item, which will\nrepresent each item in the array",
+    "duration": 3930,
+    "offset": 2140380,
+    "lang": "en"
+  },
+  {
+    "text": "during the loop. Then we define\nthe iterable, which is our",
+    "duration": 3870,
+    "offset": 2144340,
+    "lang": "en"
+  },
+  {
+    "text": "array. And what shall we\nactually define it in our for",
+    "duration": 3240,
+    "offset": 2148240,
+    "lang": "en"
+  },
+  {
+    "text": "loop, we encapsulate it in our\ncurly brackets and add the",
+    "duration": 3690,
+    "offset": 2151480,
+    "lang": "en"
+  },
+  {
+    "text": "square brackets, add square\nbrackets after it to make sure",
+    "duration": 3690,
+    "offset": 2155290,
+    "lang": "en"
+  },
+  {
+    "text": "we loop over the entire array.\nThen we follow it up with a semi",
+    "duration": 4560,
+    "offset": 2158980,
+    "lang": "en"
+  },
+  {
+    "text": "colon space, then we type in do\nand then we type in what we",
+    "duration": 4170,
+    "offset": 2163540,
+    "lang": "en"
+  },
+  {
+    "text": "actually want to perform here.\nSo we'll type in do echo minus",
+    "duration": 4350,
+    "offset": 2167710,
+    "lang": "en"
+  },
+  {
+    "text": "n. As I said the minus n is just\na flag for the echo command to",
+    "duration": 3360,
+    "offset": 2172060,
+    "lang": "en"
+  },
+  {
+    "text": "ignore all the newline\ncharacters and then space dollar",
+    "duration": 3090,
+    "offset": 2175420,
+    "lang": "en"
+  },
+  {
+    "text": "sign item, because the dollar\nsign item will represent one of",
+    "duration": 4260,
+    "offset": 2178510,
+    "lang": "en"
+  },
+  {
+    "text": "the items that we are currently\nlooping over space and then the",
+    "duration": 3810,
+    "offset": 2182770,
+    "lang": "en"
+  },
+  {
+    "text": "pipe symbol, WC minus c. And\nthen we do again semicolon, and",
+    "duration": 4650,
+    "offset": 2186580,
+    "lang": "en"
+  },
+  {
+    "text": "then we'd have been done.",
+    "duration": 900,
+    "offset": 2191230,
+    "lang": "en"
+  },
+  {
+    "text": "To understand why we need\nfunctions in a bash script, we",
+    "duration": 2730,
+    "offset": 2195130,
+    "lang": "en"
+  },
+  {
+    "text": "should first consider this. In\nsome scenarios, we have a lot of",
+    "duration": 3810,
+    "offset": 2197860,
+    "lang": "en"
+  },
+  {
+    "text": "repeated code, we might want to\ndo a specific set of commands in",
+    "duration": 3480,
+    "offset": 2201670,
+    "lang": "en"
+  },
+  {
+    "text": "a certain order. Or we want to\nrun that through a set of if",
+    "duration": 3720,
+    "offset": 2205150,
+    "lang": "en"
+  },
+  {
+    "text": "else statements multiple times.\nFor these scenarios, we create",
+    "duration": 4110,
+    "offset": 2208870,
+    "lang": "en"
+  },
+  {
+    "text": "functions. These functions are\nlike little programs within your",
+    "duration": 3660,
+    "offset": 2213010,
+    "lang": "en"
+  },
+  {
+    "text": "script that you can run from\nwithin your script. It makes it",
+    "duration": 3780,
+    "offset": 2216670,
+    "lang": "en"
+  },
+  {
+    "text": "so that you can make your code\nreusable very powerful stuff.",
+    "duration": 3420,
+    "offset": 2220450,
+    "lang": "en"
+  },
+  {
+    "text": "Because we can save so much time\nand lines of code. Let's write",
+    "duration": 4170,
+    "offset": 2224050,
+    "lang": "en"
+  },
+  {
+    "text": "our first function in bash.\nLet's open up a new file called",
+    "duration": 3540,
+    "offset": 2228220,
+    "lang": "en"
+  },
+  {
+    "text": "first function that sh i will\ntype in the shebang and then a",
+    "duration": 4230,
+    "offset": 2231790,
+    "lang": "en"
+  },
+  {
+    "text": "new line we'll type in the name\nof the function and we'll just",
+    "duration": 2910,
+    "offset": 2236020,
+    "lang": "en"
+  },
+  {
+    "text": "call this show uptime. And then\nwe open and close the brackets.",
+    "duration": 3960,
+    "offset": 2238930,
+    "lang": "en"
+  },
+  {
+    "text": "And then we open the curly\nbrackets will type in up equals",
+    "duration": 4470,
+    "offset": 2243010,
+    "lang": "en"
+  },
+  {
+    "text": "dollar sign open brackets up\ntime minus p pipe cut minus C",
+    "duration": 4350,
+    "offset": 2247510,
+    "lang": "en"
+  },
+  {
+    "text": "for minus and then to close the\nbrackets. We'll type in since",
+    "duration": 4140,
+    "offset": 2251860,
+    "lang": "en"
+  },
+  {
+    "text": "equals dollar sign open brackets\nuptime minus s, close the",
+    "duration": 3990,
+    "offset": 2256060,
+    "lang": "en"
+  },
+  {
+    "text": "brackets and again, if I'm going\na little bit too fast for you,",
+    "duration": 2700,
+    "offset": 2260050,
+    "lang": "en"
+  },
+  {
+    "text": "you can pause the video and I'm\ngonna go over what we actually",
+    "duration": 3510,
+    "offset": 2262990,
+    "lang": "en"
+  },
+  {
+    "text": "did here, I'm going to dissect\neverything we did here in just a",
+    "duration": 2640,
+    "offset": 2266500,
+    "lang": "en"
+  },
+  {
+    "text": "second. But then a new line\nagain cat and then we'll use the",
+    "duration": 3960,
+    "offset": 2269140,
+    "lang": "en"
+  },
+  {
+    "text": "double lesser than symbol elf, I\nwill type a new line I will just",
+    "duration": 4170,
+    "offset": 2273130,
+    "lang": "en"
+  },
+  {
+    "text": "create something pretty here. A\nfew dashes, I will type in this",
+    "duration": 4740,
+    "offset": 2277300,
+    "lang": "en"
+  },
+  {
+    "text": "machine has been up for dollar\nsign curly braces up curly",
+    "duration": 3630,
+    "offset": 2282040,
+    "lang": "en"
+  },
+  {
+    "text": "braces, it has been running\nsince dollar sign curly brackets",
+    "duration": 4440,
+    "offset": 2285670,
+    "lang": "en"
+  },
+  {
+    "text": "since curly braces that a new\nline of then we do a new line of",
+    "duration": 4470,
+    "offset": 2290110,
+    "lang": "en"
+  },
+  {
+    "text": "dashes. Then we end our\nstatement with elf, close the",
+    "duration": 3930,
+    "offset": 2294610,
+    "lang": "en"
+  },
+  {
+    "text": "curly brackets and then we just\ntype in show uptime. So let's",
+    "duration": 3150,
+    "offset": 2298540,
+    "lang": "en"
+  },
+  {
+    "text": "dissect this again. First, we\ndefine the name of the function",
+    "duration": 3960,
+    "offset": 2301690,
+    "lang": "en"
+  },
+  {
+    "text": "followed by open and close\nbrackets followed by the curly",
+    "duration": 3030,
+    "offset": 2306040,
+    "lang": "en"
+  },
+  {
+    "text": "brackets. To define what our\nfunction does, we enter all the",
+    "duration": 3120,
+    "offset": 2309070,
+    "lang": "en"
+  },
+  {
+    "text": "things that needs to do in\nbetween the curly brackets. In",
+    "duration": 2940,
+    "offset": 2312190,
+    "lang": "en"
+  },
+  {
+    "text": "our case, we will show the\nuptime of the machine. Watch how",
+    "duration": 2880,
+    "offset": 2315130,
+    "lang": "en"
+  },
+  {
+    "text": "he catched the output of a\ncommand into a variable using",
+    "duration": 2550,
+    "offset": 2318010,
+    "lang": "en"
+  },
+  {
+    "text": "the dollar sign in brackets\nnotation, then we do this again",
+    "duration": 3300,
+    "offset": 2320560,
+    "lang": "en"
+  },
+  {
+    "text": "in the next variable. We defined\na variable in the same way. But",
+    "duration": 3450,
+    "offset": 2323890,
+    "lang": "en"
+  },
+  {
+    "text": "we use different flags for the\nuptime command and store that",
+    "duration": 2760,
+    "offset": 2327340,
+    "lang": "en"
+  },
+  {
+    "text": "output in the since variable and\nwe can now create a nice output",
+    "duration": 3600,
+    "offset": 2330130,
+    "lang": "en"
+  },
+  {
+    "text": "using these variables using the\ncat command and the redirection",
+    "duration": 3300,
+    "offset": 2333730,
+    "lang": "en"
+  },
+  {
+    "text": "we learned earlier in the course\nwe end by closing the curly",
+    "duration": 3120,
+    "offset": 2337030,
+    "lang": "en"
+  },
+  {
+    "text": "brackets, and then we call the\nfunction by just typing it",
+    "duration": 2790,
+    "offset": 2340150,
+    "lang": "en"
+  },
+  {
+    "text": "anywhere in the script. As long\nas it's typed under the function",
+    "duration": 3300,
+    "offset": 2342940,
+    "lang": "en"
+  },
+  {
+    "text": "it's fine, because we need to\nmake sure that the function",
+    "duration": 2670,
+    "offset": 2346240,
+    "lang": "en"
+  },
+  {
+    "text": "first is defined.",
+    "duration": 1170,
+    "offset": 2348910,
+    "lang": "en"
+  },
+  {
+    "text": "When we define a variable in our\nfunction, it's available to the",
+    "duration": 2880,
+    "offset": 2365950,
+    "lang": "en"
+  },
+  {
+    "text": "entire script by default, this\nmight seem okay, but it can",
+    "duration": 3510,
+    "offset": 2368830,
+    "lang": "en"
+  },
+  {
+    "text": "actually cause trouble when you\nwrite bigger scripts. We want to",
+    "duration": 3840,
+    "offset": 2372340,
+    "lang": "en"
+  },
+  {
+    "text": "define the variables inside our\nfunctions as local variables so",
+    "duration": 3240,
+    "offset": 2376180,
+    "lang": "en"
+  },
+  {
+    "text": "that they are only available to\nour function and not to the",
+    "duration": 2520,
+    "offset": 2379420,
+    "lang": "en"
+  },
+  {
+    "text": "entire script. This way, we will\navoid accidentally overwriting",
+    "duration": 3960,
+    "offset": 2381940,
+    "lang": "en"
+  },
+  {
+    "text": "global variables, which might\ncause issues when we are using",
+    "duration": 3120,
+    "offset": 2385900,
+    "lang": "en"
+  },
+  {
+    "text": "functions that share these\nvariable names. Let's have a",
+    "duration": 3150,
+    "offset": 2389020,
+    "lang": "en"
+  },
+  {
+    "text": "look at what happens when we\ndon't use local variables. So",
+    "duration": 3900,
+    "offset": 2392170,
+    "lang": "en"
+  },
+  {
+    "text": "let's define our variables named\nup equals",
+    "duration": 3900,
+    "offset": 2396070,
+    "lang": "en"
+  },
+  {
+    "text": "Before since equals function,\nand then we'll just print those",
+    "duration": 4650,
+    "offset": 2400000,
+    "lang": "en"
+  },
+  {
+    "text": "out before we define the\nfunction. So we'll just echo up",
+    "duration": 3060,
+    "offset": 2404680,
+    "lang": "en"
+  },
+  {
+    "text": "and echo since. And then now we\nwill define the show uptime",
+    "duration": 3540,
+    "offset": 2407740,
+    "lang": "en"
+  },
+  {
+    "text": "function. Again, we will leave\nit the way it is, and then echo",
+    "duration": 4050,
+    "offset": 2411280,
+    "lang": "en"
+  },
+  {
+    "text": "up an echo since, and let's run\nit and in this example, we can",
+    "duration": 3510,
+    "offset": 2415780,
+    "lang": "en"
+  },
+  {
+    "text": "see that the variables are\nindeed globally available, which",
+    "duration": 3300,
+    "offset": 2419290,
+    "lang": "en"
+  },
+  {
+    "text": "is not what we wanted. We'll see\nalso that they are globally",
+    "duration": 3120,
+    "offset": 2422590,
+    "lang": "en"
+  },
+  {
+    "text": "available, but we have actually\noverwritten the variables that",
+    "duration": 2940,
+    "offset": 2425710,
+    "lang": "en"
+  },
+  {
+    "text": "were defined before the\nfunction. And then the function",
+    "duration": 3180,
+    "offset": 2428650,
+    "lang": "en"
+  },
+  {
+    "text": "was actually reassigning those\nvariables because they are not",
+    "duration": 3300,
+    "offset": 2431890,
+    "lang": "en"
+  },
+  {
+    "text": "assigned as local variables.\nLet's fix that. So the only",
+    "duration": 3420,
+    "offset": 2435250,
+    "lang": "en"
+  },
+  {
+    "text": "thing we need to do to fix it\nreally is just add local before",
+    "duration": 3570,
+    "offset": 2438670,
+    "lang": "en"
+  },
+  {
+    "text": "we define the variable in our\nfunction, so instead of just",
+    "duration": 3840,
+    "offset": 2442240,
+    "lang": "en"
+  },
+  {
+    "text": "writing up, and since equals the\ncommands that we want to use,",
+    "duration": 5130,
+    "offset": 2446080,
+    "lang": "en"
+  },
+  {
+    "text": "before the up, we'll just enter\nlocal space. And then the same",
+    "duration": 4470,
+    "offset": 2451840,
+    "lang": "en"
+  },
+  {
+    "text": "goes for since we'll define\nlocal space. And when we run",
+    "duration": 3540,
+    "offset": 2456310,
+    "lang": "en"
+  },
+  {
+    "text": "this, we can now see that our\nvariables are available to the",
+    "duration": 3120,
+    "offset": 2459850,
+    "lang": "en"
+  },
+  {
+    "text": "scope of our function, but the\nglobal variable is not",
+    "duration": 3000,
+    "offset": 2462970,
+    "lang": "en"
+  },
+  {
+    "text": "overwritten.",
+    "duration": 630,
+    "offset": 2466000,
+    "lang": "en"
+  },
+  {
+    "text": "Just like our entire bash script\ncan have a positional argument.",
+    "duration": 3570,
+    "offset": 2468100,
+    "lang": "en"
+  },
+  {
+    "text": "So can our function, let's have\na look at an example. Create a",
+    "duration": 3780,
+    "offset": 2471700,
+    "lang": "en"
+  },
+  {
+    "text": "new script called function pass\nargue.sh. And we'll write the",
+    "duration": 5010,
+    "offset": 2475480,
+    "lang": "en"
+  },
+  {
+    "text": "shebang. And that will open our\nfunction with the function name,",
+    "duration": 5760,
+    "offset": 2480520,
+    "lang": "en"
+  },
+  {
+    "text": "open the brackets, open the\ncurly brackets, and then we'll",
+    "duration": 3030,
+    "offset": 2486610,
+    "lang": "en"
+  },
+  {
+    "text": "write echo Hello, dollar sign\none.",
+    "duration": 3450,
+    "offset": 2489670,
+    "lang": "en"
+  },
+  {
+    "text": "And then close the curly\nbrackets. And then we'll write",
+    "duration": 2550,
+    "offset": 2494140,
+    "lang": "en"
+  },
+  {
+    "text": "the function name space. And\nthen whatever you want to write",
+    "duration": 3300,
+    "offset": 2496690,
+    "lang": "en"
+  },
+  {
+    "text": "here, we'll write our own name.\nSo we can write out whatever set",
+    "duration": 2850,
+    "offset": 2499990,
+    "lang": "en"
+  },
+  {
+    "text": "of characters we want. But in\nthis case, we wrote our own",
+    "duration": 2970,
+    "offset": 2502840,
+    "lang": "en"
+  },
+  {
+    "text": "name, we could even go as far as\nto pass positional arguments of",
+    "duration": 4020,
+    "offset": 2505810,
+    "lang": "en"
+  },
+  {
+    "text": "the entire script to the\nposition or argument of the",
+    "duration": 2340,
+    "offset": 2509830,
+    "lang": "en"
+  },
+  {
+    "text": "function. And of course,\nfunctions can also take multiple",
+    "duration": 4290,
+    "offset": 2512170,
+    "lang": "en"
+  },
+  {
+    "text": "positional arguments. So lots of\nstuff is possible here.",
+    "duration": 3330,
+    "offset": 2516460,
+    "lang": "en"
+  },
+  {
+    "text": "Let's open up the previous file.\nUnderneath the echo statement,",
+    "duration": 3330,
+    "offset": 2522460,
+    "lang": "en"
+  },
+  {
+    "text": "we'll type an if statement. And\nthen we'll say if dollar sign",
+    "duration": 3330,
+    "offset": 2525820,
+    "lang": "en"
+  },
+  {
+    "text": "curly braces, one comma, comma\nequals and then your user name,",
+    "duration": 5160,
+    "offset": 2529150,
+    "lang": "en"
+  },
+  {
+    "text": "which in my case is Herbert to\nclose the brackets semicolon,",
+    "duration": 2670,
+    "offset": 2534340,
+    "lang": "en"
+  },
+  {
+    "text": "then return zero, else, we will\nreturn one. And that will close",
+    "duration": 6750,
+    "offset": 2537040,
+    "lang": "en"
+  },
+  {
+    "text": "the if statement. Then also over\nhere, we'll remove this static",
+    "duration": 3480,
+    "offset": 2543790,
+    "lang": "en"
+  },
+  {
+    "text": "name and change it to a\npositional argument one, and",
+    "duration": 2670,
+    "offset": 2547270,
+    "lang": "en"
+  },
+  {
+    "text": "that also, if dollar sign\nquestion mark equals one, then",
+    "duration": 4260,
+    "offset": 2549940,
+    "lang": "en"
+  },
+  {
+    "text": "close square brackets,\nsemicolon, then echo and then it",
+    "duration": 4500,
+    "offset": 2554200,
+    "lang": "en"
+  },
+  {
+    "text": "will write someone unknown\ncalled the function and then",
+    "duration": 3750,
+    "offset": 2558700,
+    "lang": "en"
+  },
+  {
+    "text": "we'll close the if statements or\nwrite and quit. And let's now",
+    "duration": 4050,
+    "offset": 2562450,
+    "lang": "en"
+  },
+  {
+    "text": "try to run this with tests. For\nexample. It'll say hello test,",
+    "duration": 6240,
+    "offset": 2566500,
+    "lang": "en"
+  },
+  {
+    "text": "but then you'll see that it also\nsays that someone unknown",
+    "duration": 3990,
+    "offset": 2572740,
+    "lang": "en"
+  },
+  {
+    "text": "requested the function.",
+    "duration": 1410,
+    "offset": 2576730,
+    "lang": "en"
+  },
+  {
+    "text": "Aw K is one of the most useful\ntools in the bash arsenal, we",
+    "duration": 4170,
+    "offset": 2581350,
+    "lang": "en"
+  },
+  {
+    "text": "use aw K to filter file\ncontents, or the output of a",
+    "duration": 3480,
+    "offset": 2585520,
+    "lang": "en"
+  },
+  {
+    "text": "command in such a way that we\ncan print out the most essential",
+    "duration": 3180,
+    "offset": 2589000,
+    "lang": "en"
+  },
+  {
+    "text": "parts and get the output the way\nwe like it. So use aw K, we can",
+    "duration": 4230,
+    "offset": 2592180,
+    "lang": "en"
+  },
+  {
+    "text": "either filter parts of a file,\nor we can filter parts of a",
+    "duration": 3150,
+    "offset": 2596410,
+    "lang": "en"
+  },
+  {
+    "text": "command output by piping that\noutput into a Wk let's have a",
+    "duration": 4230,
+    "offset": 2599560,
+    "lang": "en"
+  },
+  {
+    "text": "look at how we can filter\nthrough a simple text file with",
+    "duration": 2880,
+    "offset": 2603790,
+    "lang": "en"
+  },
+  {
+    "text": "a Wk we first create a test file\nwhich contains three words",
+    "duration": 3990,
+    "offset": 2606700,
+    "lang": "en"
+  },
+  {
+    "text": "separated by a space once we\ncreated that file, we can put a",
+    "duration": 3360,
+    "offset": 2610720,
+    "lang": "en"
+  },
+  {
+    "text": "Wk to work type in a Wk single\nquote, open the curly brackets",
+    "duration": 5250,
+    "offset": 2614080,
+    "lang": "en"
+  },
+  {
+    "text": "print dollar sign one, close\ncurly brackets, single quotes",
+    "duration": 3720,
+    "offset": 2619360,
+    "lang": "en"
+  },
+  {
+    "text": "space the name of our test file,\nwe will see that the dollar sign",
+    "duration": 3330,
+    "offset": 2623110,
+    "lang": "en"
+  },
+  {
+    "text": "one acts as a placeholder. For\nthe first item in the text file.",
+    "duration": 3960,
+    "offset": 2626470,
+    "lang": "en"
+  },
+  {
+    "text": "We could also get the second\nword that comes after the first",
+    "duration": 2490,
+    "offset": 2630490,
+    "lang": "en"
+  },
+  {
+    "text": "word always separated by space\nby typing in a Wk single quotes",
+    "duration": 5130,
+    "offset": 2632980,
+    "lang": "en"
+  },
+  {
+    "text": "curly braces, print dollar sign\nto close curly braces single",
+    "duration": 4620,
+    "offset": 2638110,
+    "lang": "en"
+  },
+  {
+    "text": "quote and again our test file\nnow that we get the idea of aw K",
+    "duration": 3180,
+    "offset": 2642730,
+    "lang": "en"
+  },
+  {
+    "text": "in its default mode, which is\nusing a space character as a",
+    "duration": 3090,
+    "offset": 2645910,
+    "lang": "en"
+  },
+  {
+    "text": "separator, we can move on to\nchanging it into other",
+    "duration": 2520,
+    "offset": 2649000,
+    "lang": "en"
+  },
+  {
+    "text": "characters such as a car, let's\ncreate a CSV file and add three",
+    "duration": 3900,
+    "offset": 2651520,
+    "lang": "en"
+  },
+  {
+    "text": "values in it again separated by\na comma this time now we can use",
+    "duration": 3420,
+    "offset": 2655420,
+    "lang": "en"
+  },
+  {
+    "text": "a Wk again to split the values\nin the CSV file by adding the",
+    "duration": 3570,
+    "offset": 2658870,
+    "lang": "en"
+  },
+  {
+    "text": "minus capital F flag and\nspecifying the split character",
+    "duration": 3960,
+    "offset": 2662470,
+    "lang": "en"
+  },
+  {
+    "text": "afterwards like this aw k minus\ncapital F comma space open the",
+    "duration": 6330,
+    "offset": 2666430,
+    "lang": "en"
+  },
+  {
+    "text": "single quotes open the curly\nbraces print dollar sign one",
+    "duration": 3990,
+    "offset": 2672760,
+    "lang": "en"
+  },
+  {
+    "text": "close the curly braces single\nquote test CSV dot CSV and now",
+    "duration": 4080,
+    "offset": 2676780,
+    "lang": "en"
+  },
+  {
+    "text": "we will see that the output is\nalso the same as in our previous",
+    "duration": 3600,
+    "offset": 2680860,
+    "lang": "en"
+  },
+  {
+    "text": "examples, but we will see that\naw K actually used the comma as",
+    "duration": 3990,
+    "offset": 2684460,
+    "lang": "en"
+  },
+  {
+    "text": "a separator character. And last\nbut not least, we can also pipe",
+    "duration": 3270,
+    "offset": 2688450,
+    "lang": "en"
+  },
+  {
+    "text": "commands into a Wk like so type\nin Echo just get this word colon",
+    "duration": 5400,
+    "offset": 2691720,
+    "lang": "en"
+  },
+  {
+    "text": "hello and then we pipe into a Wk\nI will",
+    "duration": 2850,
+    "offset": 2697150,
+    "lang": "en"
+  },
+  {
+    "text": "print out number five, because\nthis is the fifth word separated",
+    "duration": 4230,
+    "offset": 2700000,
+    "lang": "en"
+  },
+  {
+    "text": "by a space and then we'll see\nthat the word hello will be",
+    "duration": 3000,
+    "offset": 2704230,
+    "lang": "en"
+  },
+  {
+    "text": "printed out. Or we can also\nsplit this at the colon symbol",
+    "duration": 3270,
+    "offset": 2707230,
+    "lang": "en"
+  },
+  {
+    "text": "like so. Echo, just get this\nword colon Hello, pipe into a",
+    "duration": 5490,
+    "offset": 2710530,
+    "lang": "en"
+  },
+  {
+    "text": "WK. And then we specify the\nminus f, we follow it up with a",
+    "duration": 3810,
+    "offset": 2716020,
+    "lang": "en"
+  },
+  {
+    "text": "colon and then print dollar sign\nto and that will still have to",
+    "duration": 2940,
+    "offset": 2719830,
+    "lang": "en"
+  },
+  {
+    "text": "cut out the first character\nwhich is a space and that will",
+    "duration": 2460,
+    "offset": 2722770,
+    "lang": "en"
+  },
+  {
+    "text": "get the same results as well.\nAnd that's just the beginning.",
+    "duration": 2370,
+    "offset": 2725230,
+    "lang": "en"
+  },
+  {
+    "text": "Of course, there's a lot more\npossible with a WK. So if you",
+    "duration": 3660,
+    "offset": 2727720,
+    "lang": "en"
+  },
+  {
+    "text": "want to practice you can try\nusing it more often in your",
+    "duration": 2460,
+    "offset": 2731380,
+    "lang": "en"
+  },
+  {
+    "text": "scripts. It really pays off to\nknow this well because you'll do",
+    "duration": 3570,
+    "offset": 2733840,
+    "lang": "en"
+  },
+  {
+    "text": "a lot of output filtering and\nreformatting in bash.",
+    "duration": 2910,
+    "offset": 2737410,
+    "lang": "en"
+  },
+  {
+    "text": "There will come a time where you\nwant to change certain values in",
+    "duration": 3120,
+    "offset": 2743380,
+    "lang": "en"
+  },
+  {
+    "text": "text files, and that's where sed\nor set comes in. Set is a",
+    "duration": 4980,
+    "offset": 2746500,
+    "lang": "en"
+  },
+  {
+    "text": "command line tool that will\nallow you to modify values in a",
+    "duration": 3360,
+    "offset": 2751480,
+    "lang": "en"
+  },
+  {
+    "text": "txt file using regular\nexpressions. Let's have a look",
+    "duration": 4080,
+    "offset": 2754840,
+    "lang": "en"
+  },
+  {
+    "text": "at an example on how to use as\nEdie are set to replace values",
+    "duration": 4110,
+    "offset": 2758950,
+    "lang": "en"
+  },
+  {
+    "text": "in a text file. Create a text\nfile called Set test dot txt and",
+    "duration": 4830,
+    "offset": 2763060,
+    "lang": "en"
+  },
+  {
+    "text": "let's write down some text here.\nNow we will replace the word fly",
+    "duration": 3510,
+    "offset": 2767890,
+    "lang": "en"
+  },
+  {
+    "text": "with grasshopper just for\ndemonstration purposes. So we",
+    "duration": 3540,
+    "offset": 2771430,
+    "lang": "en"
+  },
+  {
+    "text": "type in set single quotes s\nforward slash fly forward slash",
+    "duration": 5730,
+    "offset": 2774970,
+    "lang": "en"
+  },
+  {
+    "text": "grasshopper forward slash G\nsingle quotes and then the name",
+    "duration": 3990,
+    "offset": 2780730,
+    "lang": "en"
+  },
+  {
+    "text": "of our txt file, which is set\ntest dot txt. Now the structure",
+    "duration": 4170,
+    "offset": 2784720,
+    "lang": "en"
+  },
+  {
+    "text": "of this command is a little bit\ndaunting, but let's break it",
+    "duration": 2310,
+    "offset": 2788890,
+    "lang": "en"
+  },
+  {
+    "text": "down. First, we start off with\nthe set command, we open the",
+    "duration": 4320,
+    "offset": 2791200,
+    "lang": "en"
+  },
+  {
+    "text": "single quotes and start our\nregular expression. First we",
+    "duration": 3210,
+    "offset": 2795550,
+    "lang": "en"
+  },
+  {
+    "text": "enter the mode we want to use,\nwhich is as for substitute,",
+    "duration": 3750,
+    "offset": 2798760,
+    "lang": "en"
+  },
+  {
+    "text": "meaning we want to substitute\nthe next word behind the forward",
+    "duration": 3660,
+    "offset": 2802780,
+    "lang": "en"
+  },
+  {
+    "text": "slash with the word after the\nsecond forward slash, which is",
+    "duration": 4290,
+    "offset": 2806440,
+    "lang": "en"
+  },
+  {
+    "text": "the first one is fly. And then\nthe second one is grasshopper",
+    "duration": 3090,
+    "offset": 2810790,
+    "lang": "en"
+  },
+  {
+    "text": "that after the last, we provide\nthe G which means that we want",
+    "duration": 3600,
+    "offset": 2813940,
+    "lang": "en"
+  },
+  {
+    "text": "to do this globally. G stands\nfor globally and globally means",
+    "duration": 3720,
+    "offset": 2817540,
+    "lang": "en"
+  },
+  {
+    "text": "that we want to do this across\nthe entire text file, which",
+    "duration": 2700,
+    "offset": 2821260,
+    "lang": "en"
+  },
+  {
+    "text": "means that we want to change\nevery occurrence, we close it",
+    "duration": 2820,
+    "offset": 2823960,
+    "lang": "en"
+  },
+  {
+    "text": "with another single quote and we\nput the text file we want to",
+    "duration": 3330,
+    "offset": 2826780,
+    "lang": "en"
+  },
+  {
+    "text": "change behind the entire\ncommand. Let's say we want to",
+    "duration": 3330,
+    "offset": 2830110,
+    "lang": "en"
+  },
+  {
+    "text": "keep the original in a backup\nfile. We can do this by adding",
+    "duration": 3300,
+    "offset": 2833440,
+    "lang": "en"
+  },
+  {
+    "text": "the minus II flag to the command\nlike so. So we just do the same",
+    "duration": 3330,
+    "offset": 2836740,
+    "lang": "en"
+  },
+  {
+    "text": "thing we just do set minus i dot\noriginal and then we enter the",
+    "duration": 4740,
+    "offset": 2840070,
+    "lang": "en"
+  },
+  {
+    "text": "exact same command we just\nprovided earlier, we can see",
+    "duration": 2880,
+    "offset": 2844810,
+    "lang": "en"
+  },
+  {
+    "text": "here that we use the minus II\nflag, but we don't put a space",
+    "duration": 3120,
+    "offset": 2847690,
+    "lang": "en"
+  },
+  {
+    "text": "behind it. Instead, we write the\nentire suffix behind the minus",
+    "duration": 3750,
+    "offset": 2850810,
+    "lang": "en"
+  },
+  {
+    "text": "II flag. This will create a\nbackup file which contains the",
+    "duration": 2970,
+    "offset": 2854590,
+    "lang": "en"
+  },
+  {
+    "text": "original content of the file we\njust changed with the set",
+    "duration": 2640,
+    "offset": 2857590,
+    "lang": "en"
+  },
+  {
+    "text": "command but the original file\nwill have the changes we desired",
+    "duration": 4020,
+    "offset": 2860230,
+    "lang": "en"
+  },
+  {
+    "text": "just like with aw k this is a\nbasic introduction to set and",
+    "duration": 3810,
+    "offset": 2864280,
+    "lang": "en"
+  },
+  {
+    "text": "there will be so much more to it\nbut as with all things in it,",
+    "duration": 3090,
+    "offset": 2868090,
+    "lang": "en"
+  },
+  {
+    "text": "you need to discover this by\nyourself by trying it out as",
+    "duration": 2640,
+    "offset": 2871210,
+    "lang": "en"
+  },
+  {
+    "text": "much as you can. Well this\nbrings us to the end of the",
+    "duration": 2220,
+    "offset": 2873850,
+    "lang": "en"
+  },
+  {
+    "text": "course",
+    "duration": 600,
+    "offset": 2876070,
+    "lang": "en"
+  }
+]

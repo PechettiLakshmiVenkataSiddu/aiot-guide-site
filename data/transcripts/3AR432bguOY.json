@@ -1,0 +1,680 @@
+[
+  {
+    "text": "You've probably heard a lot about\nNode-rRED and its importance in the IOT",
+    "duration": 3840,
+    "offset": 3750,
+    "lang": "en"
+  },
+  {
+    "text": "revolution. But what exactly is it?\nSimply put Node-RED is an open source",
+    "duration": 5310,
+    "offset": 7590,
+    "lang": "en"
+  },
+  {
+    "text": "visual editor that allows programmers of\nany level to rapidly interconnect",
+    "duration": 3930,
+    "offset": 12900,
+    "lang": "en"
+  },
+  {
+    "text": "physical i/o, cloud-based systems,\ndatabases, and most API's in any",
+    "duration": 4410,
+    "offset": 16830,
+    "lang": "en"
+  },
+  {
+    "text": "combination you can imagine.  Node-RED\nis getting more and more support in the",
+    "duration": 4049,
+    "offset": 21240,
+    "lang": "en"
+  },
+  {
+    "text": "growing world of IOT and IIoT. If you're\nnot using it you're missing out on an",
+    "duration": 4620,
+    "offset": 25289,
+    "lang": "en"
+  },
+  {
+    "text": "incredibly flexible and powerful tool. In\nthis video I'm going to go over the",
+    "duration": 4231,
+    "offset": 29909,
+    "lang": "en"
+  },
+  {
+    "text": "fundamentals of Node-RED\nand show you how to build a simple",
+    "duration": 2460,
+    "offset": 34140,
+    "lang": "en"
+  },
+  {
+    "text": "project or flow to help you get started.",
+    "duration": 4340,
+    "offset": 36600,
+    "lang": "en"
+  },
+  {
+    "text": "Node-RED can be run on most modern\ncomputer systems including Windows, Mac,",
+    "duration": 4870,
+    "offset": 44040,
+    "lang": "en"
+  },
+  {
+    "text": "and Linux pcs or even lightweight\ncomputers like the Raspberry Pi or",
+    "duration": 4050,
+    "offset": 48910,
+    "lang": "en"
+  },
+  {
+    "text": "industrially hardened appliances like\nthis groov AR1 which is what I'll be",
+    "duration": 3540,
+    "offset": 52960,
+    "lang": "en"
+  },
+  {
+    "text": "using for this workshop. Node-RED's\nwebsite has instructions on how to get",
+    "duration": 4290,
+    "offset": 56500,
+    "lang": "en"
+  },
+  {
+    "text": "the application running on whatever\nsystem you're using but it's running on",
+    "duration": 4080,
+    "offset": 60790,
+    "lang": "en"
+  },
+  {
+    "text": "the groov AR1 by default. So I can just\ngo over to Node-RED by going to my",
+    "duration": 3900,
+    "offset": 64870,
+    "lang": "en"
+  },
+  {
+    "text": "boxes host name:1880 and login\nwith my admin user's credentials. This is",
+    "duration": 9000,
+    "offset": 68770,
+    "lang": "en"
+  },
+  {
+    "text": "a pretty big deal. By default Node-RED\ninstallations are wide open",
+    "duration": 3930,
+    "offset": 77770,
+    "lang": "en"
+  },
+  {
+    "text": "but on the groov AR1 we have added\nboth HTTPS and authentication for you. Now",
+    "duration": 6480,
+    "offset": 81700,
+    "lang": "en"
+  },
+  {
+    "text": "I can see the main landing page for Node-RED with its three main sections. The",
+    "duration": 5340,
+    "offset": 88180,
+    "lang": "en"
+  },
+  {
+    "text": "Node palette on the left, the main\nworkspace front and center, and the",
+    "duration": 6150,
+    "offset": 93520,
+    "lang": "en"
+  },
+  {
+    "text": "output pane on the right. The nodes on\nthe left are organized into collapsible",
+    "duration": 4559,
+    "offset": 99670,
+    "lang": "en"
+  },
+  {
+    "text": "categories to sort your available nodes.",
+    "duration": 3921,
+    "offset": 104229,
+    "lang": "en"
+  },
+  {
+    "text": "You can also search for them in the\nfilter at the top. Most of the nodes you",
+    "duration": 7781,
+    "offset": 108179,
+    "lang": "en"
+  },
+  {
+    "text": "see here are included by default called\n'core nodes'. You can install external",
+    "duration": 4380,
+    "offset": 115960,
+    "lang": "en"
+  },
+  {
+    "text": "nodes to get more functionality as I'll\nexplain later on. These two Opto nodes",
+    "duration": 4740,
+    "offset": 120340,
+    "lang": "en"
+  },
+  {
+    "text": "are included on the AR1 by default.\nEach node performs a specific function",
+    "duration": 4739,
+    "offset": 125080,
+    "lang": "en"
+  },
+  {
+    "text": "and what makes Node-RED so flexible and\npowerful is that the modular nodes are",
+    "duration": 4171,
+    "offset": 129819,
+    "lang": "en"
+  },
+  {
+    "text": "self-contained and reusable with most of\nthe JavaScript program logic and API",
+    "duration": 4680,
+    "offset": 133990,
+    "lang": "en"
+  },
+  {
+    "text": "overhead hidden in these colored rounded\nboxes. You get new nodes into your",
+    "duration": 4740,
+    "offset": 138670,
+    "lang": "en"
+  },
+  {
+    "text": "program by clicking and grabbing them\nfrom the node palette and dragging them",
+    "duration": 3420,
+    "offset": 143410,
+    "lang": "en"
+  },
+  {
+    "text": "into the workspace. Here I've brought in\none of the key core nodes 'the Inject",
+    "duration": 5340,
+    "offset": 146830,
+    "lang": "en"
+  },
+  {
+    "text": "node'.  Node-RED uses flow-based\nprogramming and so to start the flow",
+    "duration": 5280,
+    "offset": 152170,
+    "lang": "en"
+  },
+  {
+    "text": "something will need to inject a message\ninto the flow where the inject node",
+    "duration": 3720,
+    "offset": 157450,
+    "lang": "en"
+  },
+  {
+    "text": "pushes a timestamp in by default. As you\ncan see by its label another key core",
+    "duration": 5880,
+    "offset": 161170,
+    "lang": "en"
+  },
+  {
+    "text": "node is the output debug node. so I'll\ndrag one of those in now to",
+    "duration": 5269,
+    "offset": 167050,
+    "lang": "en"
+  },
+  {
+    "text": "if you check the info tab and then\noutput pane it explains that the debug",
+    "duration": 4351,
+    "offset": 172319,
+    "lang": "en"
+  },
+  {
+    "text": "node displays the msg.payload\nfrom the flow by default. To actually see",
+    "duration": 4890,
+    "offset": 176670,
+    "lang": "en"
+  },
+  {
+    "text": "this message you'll need to come up here\nand switch to the debug tab. To edit a",
+    "duration": 4769,
+    "offset": 181560,
+    "lang": "en"
+  },
+  {
+    "text": "node double click it and a new pane will\npop out. Here with the inject node you",
+    "duration": 5461,
+    "offset": 186329,
+    "lang": "en"
+  },
+  {
+    "text": "can see that the time stamp is going\ninto msg.payload which is what",
+    "duration": 3539,
+    "offset": 191790,
+    "lang": "en"
+  },
+  {
+    "text": "the debug node will output to this\nwindow by default.  So we don't need to",
+    "duration": 3240,
+    "offset": 195329,
+    "lang": "en"
+  },
+  {
+    "text": "change any settings but we do need to\nconnect the pair. As you can see input",
+    "duration": 5730,
+    "offset": 198569,
+    "lang": "en"
+  },
+  {
+    "text": "nodes have a small icon on the left side\nof the node and output nodes have a",
+    "duration": 3601,
+    "offset": 204299,
+    "lang": "en"
+  },
+  {
+    "text": "small icon on the right. This represents\nwhat kind of action the node takes. In",
+    "duration": 4289,
+    "offset": 207900,
+    "lang": "en"
+  },
+  {
+    "text": "the case of the inject you get a small\narrow, the debug has a couple of lines,",
+    "duration": 4681,
+    "offset": 212189,
+    "lang": "en"
+  },
+  {
+    "text": "and the catch has an exclamation point\nand so on. Also note that the timestamp",
+    "duration": 7380,
+    "offset": 216870,
+    "lang": "en"
+  },
+  {
+    "text": "node has one connection port on the\nright side. This is for the flow output",
+    "duration": 3689,
+    "offset": 224250,
+    "lang": "en"
+  },
+  {
+    "text": "of the node.  And the output node has a\nconnection port on the left side of the",
+    "duration": 4020,
+    "offset": 227939,
+    "lang": "en"
+  },
+  {
+    "text": "node this is for flow input. To wire two\nnodes together grab one connection port",
+    "duration": 5011,
+    "offset": 231959,
+    "lang": "en"
+  },
+  {
+    "text": "click and hold drag the wire over to\nanother connection port and release. You",
+    "duration": 4470,
+    "offset": 236970,
+    "lang": "en"
+  },
+  {
+    "text": "can do this either left to right or\nright to left it doesn't matter. Now that",
+    "duration": 3750,
+    "offset": 241440,
+    "lang": "en"
+  },
+  {
+    "text": "they're connected we need to make the\nchanges active by hitting the deploy",
+    "duration": 3210,
+    "offset": 245190,
+    "lang": "en"
+  },
+  {
+    "text": "button in the top right. Before changed\nnodes are deployed there's a small blue",
+    "duration": 4649,
+    "offset": 248400,
+    "lang": "en"
+  },
+  {
+    "text": "circle indicating that there are unsaved\nchanges. After deploying you will see it",
+    "duration": 5131,
+    "offset": 253049,
+    "lang": "en"
+  },
+  {
+    "text": "go away and you know that the nodes are\nlive currently the program represented",
+    "duration": 5880,
+    "offset": 258180,
+    "lang": "en"
+  },
+  {
+    "text": "by these nodes is running but not\nactively doing anything since no",
+    "duration": 3510,
+    "offset": 264060,
+    "lang": "en"
+  },
+  {
+    "text": "messages have been injected into the\nflow yet. Force an inject using the blue",
+    "duration": 4469,
+    "offset": 267570,
+    "lang": "en"
+  },
+  {
+    "text": "button tab coming out of the timestamp\nnode. This injects unix time - a standard",
+    "duration": 5221,
+    "offset": 272039,
+    "lang": "en"
+  },
+  {
+    "text": "that measures the number of milliseconds\nelapsed since the first of January 1970.",
+    "duration": 4399,
+    "offset": 277260,
+    "lang": "en"
+  },
+  {
+    "text": "This number flows along the wire and\ngets displayed in the debug window by",
+    "duration": 4781,
+    "offset": 281659,
+    "lang": "en"
+  },
+  {
+    "text": "the output node. Node-RED recognizes this\nnumber as a time stamp. So I can click it",
+    "duration": 5759,
+    "offset": 286440,
+    "lang": "en"
+  },
+  {
+    "text": "to see the ISO representation, click it\nagain to see the hexadecimal value, and",
+    "duration": 5821,
+    "offset": 292199,
+    "lang": "en"
+  },
+  {
+    "text": "click it once more to return to decimal.\nThe debug shows the content of msg.payload which is what the inject\nnode feeds.",
+    "duration": 8090,
+    "offset": 298020,
+    "lang": "en"
+  },
+  {
+    "text": "Let's say I want to see the time every\nsecond I can go back to the inject node",
+    "duration": 4770,
+    "offset": 306110,
+    "lang": "en"
+  },
+  {
+    "text": "select 'repeat' and change it to the\ninterval of one second. Now I click done,",
+    "duration": 6190,
+    "offset": 310880,
+    "lang": "en"
+  },
+  {
+    "text": "deploy the changes, and I'll see the time\nappear once every second. To stop this",
+    "duration": 7380,
+    "offset": 317070,
+    "lang": "en"
+  },
+  {
+    "text": "I'll need to go back, turn the interval\noff, and save it once again. Now I can",
+    "duration": 9360,
+    "offset": 324450,
+    "lang": "en"
+  },
+  {
+    "text": "change what the inject node is inserting\ninto the flow and I can change it from",
+    "duration": 3600,
+    "offset": 333810,
+    "lang": "en"
+  },
+  {
+    "text": "time stamp to a string message. To do\nthat",
+    "duration": 2910,
+    "offset": 337410,
+    "lang": "en"
+  },
+  {
+    "text": "I double-click the node, click the drop\ndown for time stamp, and make it the",
+    "duration": 5520,
+    "offset": 340320,
+    "lang": "en"
+  },
+  {
+    "text": "constant string 'hello world'. Click done,\ndeploy,",
+    "duration": 10670,
+    "offset": 345840,
+    "lang": "en"
+  },
+  {
+    "text": "and inject to see the new payload. Now\nyou've seen some basic inputs and outputs",
+    "duration": 7110,
+    "offset": 356910,
+    "lang": "en"
+  },
+  {
+    "text": "using the core nodes inject and debug.\nLet's see how we can use processing",
+    "duration": 3780,
+    "offset": 364020,
+    "lang": "en"
+  },
+  {
+    "text": "nodes that have both an input and an\noutput to modify our data. Let's start",
+    "duration": 5160,
+    "offset": 367800,
+    "lang": "en"
+  },
+  {
+    "text": "with a simple change node. From the\nfunction section scroll down there and",
+    "duration": 5760,
+    "offset": 372960,
+    "lang": "en"
+  },
+  {
+    "text": "drag one onto the wire in between the\ntwo nodes I already have. You'll see it",
+    "duration": 3720,
+    "offset": 378720,
+    "lang": "en"
+  },
+  {
+    "text": "go from solid to dashed to indicate that it's\ngoing to automatically wire itself in.",
+    "duration": 5690,
+    "offset": 382440,
+    "lang": "en"
+  },
+  {
+    "text": "Double click the node to edit it and\nhere I'll show you how to change the",
+    "duration": 4270,
+    "offset": 388190,
+    "lang": "en"
+  },
+  {
+    "text": "msg.payload and search for the\nword 'world' and replace it with another",
+    "duration": 7650,
+    "offset": 392460,
+    "lang": "en"
+  },
+  {
+    "text": "string 'from node red'. Click done, deploy,\nand inject again to see the modified",
+    "duration": 10770,
+    "offset": 400110,
+    "lang": "en"
+  },
+  {
+    "text": "flow. Here in the debug window I can see\nthat it has changed the word 'world'",
+    "duration": 5460,
+    "offset": 410880,
+    "lang": "en"
+  },
+  {
+    "text": "to 'from Node-RED' so now I have the full\nstring 'hello fromNode-RED' however this",
+    "duration": 5850,
+    "offset": 416340,
+    "lang": "en"
+  },
+  {
+    "text": "change node is relatively limited in\nwhat it can do and is not designed to",
+    "duration": 3930,
+    "offset": 422190,
+    "lang": "en"
+  },
+  {
+    "text": "loop or make complex logical decisions.\nOnly follow the specific rules entered",
+    "duration": 4530,
+    "offset": 426120,
+    "lang": "en"
+  },
+  {
+    "text": "in this window. Thankfully there's an\nalternative - the function node. Which has",
+    "duration": 5490,
+    "offset": 430650,
+    "lang": "en"
+  },
+  {
+    "text": "very few limitations. So let's get rid of\nthis one. You can delete wires by",
+    "duration": 4260,
+    "offset": 436140,
+    "lang": "en"
+  },
+  {
+    "text": "clicking on them and pressing delete. And\nyou can get rid of nodes the same way. If",
+    "duration": 4200,
+    "offset": 440400,
+    "lang": "en"
+  },
+  {
+    "text": "you make any changes you're unhappy with\nyou can use the shortcut control Z to",
+    "duration": 3960,
+    "offset": 444600,
+    "lang": "en"
+  },
+  {
+    "text": "undo them. Note that when I deleted the\nwires nothing happened to the nodes but",
+    "duration": 4950,
+    "offset": 448560,
+    "lang": "en"
+  },
+  {
+    "text": "when I delete the node the wires\nconnected to it are deleted as well. This",
+    "duration": 4590,
+    "offset": 453510,
+    "lang": "en"
+  },
+  {
+    "text": "new function node is one of the most\npowerful in Node-RED.",
+    "duration": 4880,
+    "offset": 458100,
+    "lang": "en"
+  },
+  {
+    "text": "Once I connect it and edit it I can see\nthat it exposes a block of JavaScript to",
+    "duration": 4960,
+    "offset": 464060,
+    "lang": "en"
+  },
+  {
+    "text": "the user and I can do whatever I wish\nwithin this language. In this example",
+    "duration": 5070,
+    "offset": 469020,
+    "lang": "en"
+  },
+  {
+    "text": "I'll show how it can replicate the\nchange node functionality by creating a",
+    "duration": 3750,
+    "offset": 474090,
+    "lang": "en"
+  },
+  {
+    "text": "new string and using the replace\nfunction to look for the world 'world' and",
+    "duration": 4020,
+    "offset": 477840,
+    "lang": "en"
+  },
+  {
+    "text": "replace that with 'from Node-RED'.  Then I\ncan return a new object with this new",
+    "duration": 7529,
+    "offset": 481860,
+    "lang": "en"
+  },
+  {
+    "text": "string as the payload. I'll click done,\ndeploy, and then inject the payload so",
+    "duration": 10921,
+    "offset": 489389,
+    "lang": "en"
+  },
+  {
+    "text": "that I can see the new flow in action.\nHere in the debug window I see that the",
+    "duration": 4680,
+    "offset": 500310,
+    "lang": "en"
+  },
+  {
+    "text": "exact same string is outputted as I got\nfrom the change node now to get a quick",
+    "duration": 4530,
+    "offset": 504990,
+    "lang": "en"
+  },
+  {
+    "text": "example of how new node packages are\ninstalled go over to the node-red menu",
+    "duration": 4199,
+    "offset": 509520,
+    "lang": "en"
+  },
+  {
+    "text": "click on manage palette\nand then navigate up to the install",
+    "duration": 5811,
+    "offset": 513719,
+    "lang": "en"
+  },
+  {
+    "text": "nodes tab. You can search for any package\nyou'd like. Here but I'm going to search",
+    "duration": 4020,
+    "offset": 519530,
+    "lang": "en"
+  },
+  {
+    "text": "for the MS SQL package. This will\nallow me to connect to a Microsoft",
+    "duration": 5430,
+    "offset": 523550,
+    "lang": "en"
+  },
+  {
+    "text": "SQL database. I can click install and\nsince this node has no extra",
+    "duration": 6840,
+    "offset": 528980,
+    "lang": "en"
+  },
+  {
+    "text": "dependencies I'm free to bring it in.\nOnce it's done installing I can click",
+    "duration": 5220,
+    "offset": 535820,
+    "lang": "en"
+  },
+  {
+    "text": "close and scroll down to the storage\nsection where I see the MS SQL node",
+    "duration": 4200,
+    "offset": 541040,
+    "lang": "en"
+  },
+  {
+    "text": "installed right below the core file\nnodes. So there you have it I have given",
+    "duration": 6630,
+    "offset": 545240,
+    "lang": "en"
+  },
+  {
+    "text": "you a brief overview of what the\nNode-RED interface contains how inject",
+    "duration": 3900,
+    "offset": 551870,
+    "lang": "en"
+  },
+  {
+    "text": "nodes can input information have it\nprocessed by different function nodes",
+    "duration": 3510,
+    "offset": 555770,
+    "lang": "en"
+  },
+  {
+    "text": "and output messages with the debug node.\nUsing user-defined function nodes or",
+    "duration": 4320,
+    "offset": 559280,
+    "lang": "en"
+  },
+  {
+    "text": "community built packages.This simple\nflow based programming tool can do",
+    "duration": 3450,
+    "offset": 563600,
+    "lang": "en"
+  },
+  {
+    "text": "incredible things. For more information\ncheck out workshops opto22.com and",
+    "duration": 5370,
+    "offset": 567050,
+    "lang": "en"
+  },
+  {
+    "text": "node-red org thanks for watching",
+    "duration": 9990,
+    "offset": 572420,
+    "lang": "en"
+  }
+]

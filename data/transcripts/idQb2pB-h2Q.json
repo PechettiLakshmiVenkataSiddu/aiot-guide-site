@@ -1,0 +1,8126 @@
+[
+  {
+    "text": "hey everyone and welcome to this crash",
+    "duration": 4360,
+    "offset": 120,
+    "lang": "en"
+  },
+  {
+    "text": "course on the navigation to stack with",
+    "duration": 4679,
+    "offset": 2080,
+    "lang": "en"
+  },
+  {
+    "text": "Ros 2 who is this crash course for well",
+    "duration": 4079,
+    "offset": 4480,
+    "lang": "en"
+  },
+  {
+    "text": "if you have learned Ros two and want to",
+    "duration": 4401,
+    "offset": 6759,
+    "lang": "en"
+  },
+  {
+    "text": "start navigation from scratch or if you",
+    "duration": 4841,
+    "offset": 8559,
+    "lang": "en"
+  },
+  {
+    "text": "have already started with nav 2 but you",
+    "duration": 5039,
+    "offset": 11160,
+    "lang": "en"
+  },
+  {
+    "text": "feel completely lost this is for you it",
+    "duration": 4520,
+    "offset": 13400,
+    "lang": "en"
+  },
+  {
+    "text": "is not an advanced course okay it's",
+    "duration": 3761,
+    "offset": 16199,
+    "lang": "en"
+  },
+  {
+    "text": "really for beginners or for those who",
+    "duration": 4160,
+    "offset": 17920,
+    "lang": "en"
+  },
+  {
+    "text": "want to get a good refresher of the",
+    "duration": 4760,
+    "offset": 19960,
+    "lang": "en"
+  },
+  {
+    "text": "basics and what will you do well you",
+    "duration": 4880,
+    "offset": 22080,
+    "lang": "en"
+  },
+  {
+    "text": "will first install the nav to stack on",
+    "duration": 4559,
+    "offset": 24720,
+    "lang": "en"
+  },
+  {
+    "text": "Ros to Humble then you will start",
+    "duration": 5240,
+    "offset": 26960,
+    "lang": "en"
+  },
+  {
+    "text": "directly to generate a map with slam",
+    "duration": 4721,
+    "offset": 29279,
+    "lang": "en"
+  },
+  {
+    "text": "after this we will check what's inside",
+    "duration": 3960,
+    "offset": 32200,
+    "lang": "en"
+  },
+  {
+    "text": "the map and then use this map with the",
+    "duration": 4520,
+    "offset": 34000,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to stack so that you can make",
+    "duration": 5440,
+    "offset": 36160,
+    "lang": "en"
+  },
+  {
+    "text": "a robot navigate inside the map and to",
+    "duration": 5160,
+    "offset": 38520,
+    "lang": "en"
+  },
+  {
+    "text": "do all that you actually don't need to",
+    "duration": 3920,
+    "offset": 41600,
+    "lang": "en"
+  },
+  {
+    "text": "buy any hardware we will use the",
+    "duration": 4160,
+    "offset": 43680,
+    "lang": "en"
+  },
+  {
+    "text": "simulation of an already configured",
+    "duration": 5320,
+    "offset": 45520,
+    "lang": "en"
+  },
+  {
+    "text": "robot the turtlebot 3 on gazebo to be",
+    "duration": 4760,
+    "offset": 47840,
+    "lang": "en"
+  },
+  {
+    "text": "able to follow the crash course make",
+    "duration": 3559,
+    "offset": 50840,
+    "lang": "en"
+  },
+  {
+    "text": "sure that you have installed Ros to",
+    "duration": 3639,
+    "offset": 52600,
+    "lang": "en"
+  },
+  {
+    "text": "Humble on Ubuntu",
+    "duration": 4281,
+    "offset": 54399,
+    "lang": "en"
+  },
+  {
+    "text": "22.4 and I'm going to add a link in the",
+    "duration": 4480,
+    "offset": 56239,
+    "lang": "en"
+  },
+  {
+    "text": "description to do that if needed and",
+    "duration": 3600,
+    "offset": 58680,
+    "lang": "en"
+  },
+  {
+    "text": "it's going to actually work better if",
+    "duration": 4561,
+    "offset": 60719,
+    "lang": "en"
+  },
+  {
+    "text": "you have installed yunu as a dual boot",
+    "duration": 5320,
+    "offset": 62280,
+    "lang": "en"
+  },
+  {
+    "text": "not in a virtual machine where you might",
+    "duration": 4839,
+    "offset": 65280,
+    "lang": "en"
+  },
+  {
+    "text": "have some issues especially when we run",
+    "duration": 5120,
+    "offset": 67600,
+    "lang": "en"
+  },
+  {
+    "text": "gazebo you will also be able to progress",
+    "duration": 4680,
+    "offset": 70119,
+    "lang": "en"
+  },
+  {
+    "text": "faster if you already have some basics",
+    "duration": 4719,
+    "offset": 72720,
+    "lang": "en"
+  },
+  {
+    "text": "in rosu such as the common line tools",
+    "duration": 5521,
+    "offset": 74799,
+    "lang": "en"
+  },
+  {
+    "text": "topics and services now the scat course",
+    "duration": 5161,
+    "offset": 77439,
+    "lang": "en"
+  },
+  {
+    "text": "is great to get you studed and if you",
+    "duration": 4720,
+    "offset": 80320,
+    "lang": "en"
+  },
+  {
+    "text": "want to go further and dive into more",
+    "duration": 4800,
+    "offset": 82600,
+    "lang": "en"
+  },
+  {
+    "text": "details about the nav2 architecture",
+    "duration": 4640,
+    "offset": 85040,
+    "lang": "en"
+  },
+  {
+    "text": "build a custom World adapt a robot for",
+    "duration": 4759,
+    "offset": 87400,
+    "lang": "en"
+  },
+  {
+    "text": "Na to or even program with the stack",
+    "duration": 5040,
+    "offset": 89680,
+    "lang": "en"
+  },
+  {
+    "text": "using python then I have a much bigger",
+    "duration": 5561,
+    "offset": 92159,
+    "lang": "en"
+  },
+  {
+    "text": "course for you which contains 6 hours of",
+    "duration": 5640,
+    "offset": 94720,
+    "lang": "en"
+  },
+  {
+    "text": "video content and practice activities",
+    "duration": 4280,
+    "offset": 97720,
+    "lang": "en"
+  },
+  {
+    "text": "you can find the course Link in the",
+    "duration": 3560,
+    "offset": 100360,
+    "lang": "en"
+  },
+  {
+    "text": "description below all right and now",
+    "duration": 5320,
+    "offset": 102000,
+    "lang": "en"
+  },
+  {
+    "text": "let's get started with nav",
+    "duration": 3400,
+    "offset": 103920,
+    "lang": "en"
+  },
+  {
+    "text": "2 what is the navigation to stack and",
+    "duration": 5720,
+    "offset": 107880,
+    "lang": "en"
+  },
+  {
+    "text": "why do we need it before we get started",
+    "duration": 4680,
+    "offset": 110880,
+    "lang": "en"
+  },
+  {
+    "text": "let's just be clear on the terms we are",
+    "duration": 4040,
+    "offset": 113600,
+    "lang": "en"
+  },
+  {
+    "text": "going to use when I talk about",
+    "duration": 5239,
+    "offset": 115560,
+    "lang": "en"
+  },
+  {
+    "text": "navigation navigation to have to well",
+    "duration": 5519,
+    "offset": 117640,
+    "lang": "en"
+  },
+  {
+    "text": "this is all the same I am talking about",
+    "duration": 5201,
+    "offset": 120799,
+    "lang": "en"
+  },
+  {
+    "text": "the navigation to stack in Ros 2 unless",
+    "duration": 5520,
+    "offset": 123159,
+    "lang": "en"
+  },
+  {
+    "text": "I specify that I talk precisely about",
+    "duration": 5800,
+    "offset": 126000,
+    "lang": "en"
+  },
+  {
+    "text": "navigation one and Ross one then when I",
+    "duration": 6001,
+    "offset": 128679,
+    "lang": "en"
+  },
+  {
+    "text": "say stuff like navigation and Ross I Am",
+    "duration": 6000,
+    "offset": 131800,
+    "lang": "en"
+  },
+  {
+    "text": "targeting navigation 2 and Ross two all",
+    "duration": 6680,
+    "offset": 134680,
+    "lang": "en"
+  },
+  {
+    "text": "right so why navigation or navigation to",
+    "duration": 5880,
+    "offset": 137800,
+    "lang": "en"
+  },
+  {
+    "text": "well let's take one step back and talk",
+    "duration": 5120,
+    "offset": 141360,
+    "lang": "en"
+  },
+  {
+    "text": "about Ross to itself why do we have Ross",
+    "duration": 5480,
+    "offset": 143680,
+    "lang": "en"
+  },
+  {
+    "text": "and why do we use it the main benefit of",
+    "duration": 4800,
+    "offset": 146480,
+    "lang": "en"
+  },
+  {
+    "text": "Ross is that you can create the base",
+    "duration": 4640,
+    "offset": 149160,
+    "lang": "en"
+  },
+  {
+    "text": "layer of your robotics application super",
+    "duration": 5160,
+    "offset": 151280,
+    "lang": "en"
+  },
+  {
+    "text": "fast Ross provides a standard for",
+    "duration": 4760,
+    "offset": 153800,
+    "lang": "en"
+  },
+  {
+    "text": "robotics applications that you can use",
+    "duration": 4920,
+    "offset": 156440,
+    "lang": "en"
+  },
+  {
+    "text": "on any kind of robot and basically this",
+    "duration": 5200,
+    "offset": 158560,
+    "lang": "en"
+  },
+  {
+    "text": "will allow you to avoid Reinventing the",
+    "duration": 5239,
+    "offset": 161360,
+    "lang": "en"
+  },
+  {
+    "text": "wheel and instead work on the high level",
+    "duration": 5640,
+    "offset": 163760,
+    "lang": "en"
+  },
+  {
+    "text": "functionalities of your robot you also",
+    "duration": 4560,
+    "offset": 166599,
+    "lang": "en"
+  },
+  {
+    "text": "benefit from a strong open source",
+    "duration": 4280,
+    "offset": 169400,
+    "lang": "en"
+  },
+  {
+    "text": "community and some plug andplay packages",
+    "duration": 4681,
+    "offset": 171159,
+    "lang": "en"
+  },
+  {
+    "text": "that help you to add functionalities",
+    "duration": 4960,
+    "offset": 173680,
+    "lang": "en"
+  },
+  {
+    "text": "faster so once you know Ross you can",
+    "duration": 4520,
+    "offset": 175840,
+    "lang": "en"
+  },
+  {
+    "text": "really speed up your Dev development",
+    "duration": 4560,
+    "offset": 178640,
+    "lang": "en"
+  },
+  {
+    "text": "time and you might be thinking well all",
+    "duration": 5959,
+    "offset": 180360,
+    "lang": "en"
+  },
+  {
+    "text": "of that is great but from this point how",
+    "duration": 5880,
+    "offset": 183200,
+    "lang": "en"
+  },
+  {
+    "text": "do I make a robot navigate because there",
+    "duration": 4840,
+    "offset": 186319,
+    "lang": "en"
+  },
+  {
+    "text": "is still quite a big gap between using",
+    "duration": 5000,
+    "offset": 189080,
+    "lang": "en"
+  },
+  {
+    "text": "Ros two and making a robot navigate so",
+    "duration": 4800,
+    "offset": 191159,
+    "lang": "en"
+  },
+  {
+    "text": "if you were to implement all that by",
+    "duration": 4200,
+    "offset": 194080,
+    "lang": "en"
+  },
+  {
+    "text": "yourself it would take a lot of time and",
+    "duration": 4801,
+    "offset": 195959,
+    "lang": "en"
+  },
+  {
+    "text": "effort fortunately we have the",
+    "duration": 4519,
+    "offset": 198280,
+    "lang": "en"
+  },
+  {
+    "text": "navigation stack here we will use the",
+    "duration": 4440,
+    "offset": 200760,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to stack with Ross 2 which is",
+    "duration": 4401,
+    "offset": 202799,
+    "lang": "en"
+  },
+  {
+    "text": "the successor of the navigation one",
+    "duration": 4280,
+    "offset": 205200,
+    "lang": "en"
+  },
+  {
+    "text": "stack with Ross one and what is the",
+    "duration": 4720,
+    "offset": 207200,
+    "lang": "en"
+  },
+  {
+    "text": "stack by the way well it is simply a",
+    "duration": 4759,
+    "offset": 209480,
+    "lang": "en"
+  },
+  {
+    "text": "collection of packages that is designed",
+    "duration": 4720,
+    "offset": 211920,
+    "lang": "en"
+  },
+  {
+    "text": "to achieve a specific goal and what do",
+    "duration": 3881,
+    "offset": 214239,
+    "lang": "en"
+  },
+  {
+    "text": "we want to achieve exactly with",
+    "duration": 3519,
+    "offset": 216640,
+    "lang": "en"
+  },
+  {
+    "text": "navigation that's an important question",
+    "duration": 4800,
+    "offset": 218120,
+    "lang": "en"
+  },
+  {
+    "text": "to ask well the main goal is to make a",
+    "duration": 6321,
+    "offset": 220159,
+    "lang": "en"
+  },
+  {
+    "text": "robot move from point A to point B in a",
+    "duration": 6160,
+    "offset": 222920,
+    "lang": "en"
+  },
+  {
+    "text": "safe way so basically to find a path",
+    "duration": 4560,
+    "offset": 226480,
+    "lang": "en"
+  },
+  {
+    "text": "that allows the robot to reach the",
+    "duration": 4680,
+    "offset": 229080,
+    "lang": "en"
+  },
+  {
+    "text": "destination while making sure that it",
+    "duration": 5240,
+    "offset": 231040,
+    "lang": "en"
+  },
+  {
+    "text": "will not collide with other robots with",
+    "duration": 4759,
+    "offset": 233760,
+    "lang": "en"
+  },
+  {
+    "text": "people and obstacles it's quite",
+    "duration": 4480,
+    "offset": 236280,
+    "lang": "en"
+  },
+  {
+    "text": "important that you don't Hur people and",
+    "duration": 4640,
+    "offset": 238519,
+    "lang": "en"
+  },
+  {
+    "text": "that you don't damage the environment or",
+    "duration": 4920,
+    "offset": 240760,
+    "lang": "en"
+  },
+  {
+    "text": "the robot to achieve this we will do a",
+    "duration": 5121,
+    "offset": 243159,
+    "lang": "en"
+  },
+  {
+    "text": "two-step process first we will create a",
+    "duration": 5520,
+    "offset": 245680,
+    "lang": "en"
+  },
+  {
+    "text": "map of the environment using slam and in",
+    "duration": 5000,
+    "offset": 248280,
+    "lang": "en"
+  },
+  {
+    "text": "a second step we will make the robot",
+    "duration": 4560,
+    "offset": 251200,
+    "lang": "en"
+  },
+  {
+    "text": "navigate using this map all of that",
+    "duration": 4519,
+    "offset": 253280,
+    "lang": "en"
+  },
+  {
+    "text": "using the navigation functionalities and",
+    "duration": 3920,
+    "offset": 255760,
+    "lang": "en"
+  },
+  {
+    "text": "tools and I'm going to go into much more",
+    "duration": 4280,
+    "offset": 257799,
+    "lang": "en"
+  },
+  {
+    "text": "detail about this during the course and",
+    "duration": 4720,
+    "offset": 259680,
+    "lang": "en"
+  },
+  {
+    "text": "once you understand how it works you",
+    "duration": 4120,
+    "offset": 262079,
+    "lang": "en"
+  },
+  {
+    "text": "will also see that you can easily",
+    "duration": 4359,
+    "offset": 264400,
+    "lang": "en"
+  },
+  {
+    "text": "integrate the nav2 stack in your Ros two",
+    "duration": 4761,
+    "offset": 266199,
+    "lang": "en"
+  },
+  {
+    "text": "application for for example from an",
+    "duration": 4641,
+    "offset": 268759,
+    "lang": "en"
+  },
+  {
+    "text": "independent python node you can give",
+    "duration": 4720,
+    "offset": 270960,
+    "lang": "en"
+  },
+  {
+    "text": "commands to the stack and make the robot",
+    "duration": 5000,
+    "offset": 273400,
+    "lang": "en"
+  },
+  {
+    "text": "navigate just by using the standard Ros",
+    "duration": 5480,
+    "offset": 275680,
+    "lang": "en"
+  },
+  {
+    "text": "to Communications and some simplified",
+    "duration": 4799,
+    "offset": 278400,
+    "lang": "en"
+  },
+  {
+    "text": "apis that we will discover and",
+    "duration": 4520,
+    "offset": 281160,
+    "lang": "en"
+  },
+  {
+    "text": "experiment with all right and now let's",
+    "duration": 4401,
+    "offset": 283199,
+    "lang": "en"
+  },
+  {
+    "text": "start the course and let's install the",
+    "duration": 4799,
+    "offset": 285680,
+    "lang": "en"
+  },
+  {
+    "text": "navigation tool",
+    "duration": 2879,
+    "offset": 287600,
+    "lang": "en"
+  },
+  {
+    "text": "stack in this lesson you will install",
+    "duration": 5801,
+    "offset": 291199,
+    "lang": "en"
+  },
+  {
+    "text": "the packages for the navigation to stack",
+    "duration": 4880,
+    "offset": 294000,
+    "lang": "en"
+  },
+  {
+    "text": "that's going to be super quick actually",
+    "duration": 3880,
+    "offset": 297000,
+    "lang": "en"
+  },
+  {
+    "text": "as you will see just make sure that you",
+    "duration": 4080,
+    "offset": 298880,
+    "lang": "en"
+  },
+  {
+    "text": "have correctly installed and set up Ros",
+    "duration": 4200,
+    "offset": 300880,
+    "lang": "en"
+  },
+  {
+    "text": "to Humble on yuntu",
+    "duration": 5840,
+    "offset": 302960,
+    "lang": "en"
+  },
+  {
+    "text": "22.4 so if I uh print the end of The",
+    "duration": 7440,
+    "offset": 305080,
+    "lang": "en"
+  },
+  {
+    "text": "Bash SC in my home directory I should",
+    "duration": 7399,
+    "offset": 308800,
+    "lang": "en"
+  },
+  {
+    "text": "have this line here Source op Ross",
+    "duration": 6160,
+    "offset": 312520,
+    "lang": "en"
+  },
+  {
+    "text": "humble setup. bash so if you don't have",
+    "duration": 4280,
+    "offset": 316199,
+    "lang": "en"
+  },
+  {
+    "text": "this well please go back to correctly",
+    "duration": 4680,
+    "offset": 318680,
+    "lang": "en"
+  },
+  {
+    "text": "install and setup Ross to and now to",
+    "duration": 5401,
+    "offset": 320479,
+    "lang": "en"
+  },
+  {
+    "text": "install the navigation stack well we",
+    "duration": 4760,
+    "offset": 323360,
+    "lang": "en"
+  },
+  {
+    "text": "just need to install a few packages so",
+    "duration": 4640,
+    "offset": 325880,
+    "lang": "en"
+  },
+  {
+    "text": "we are going to do sud sudo first St AP",
+    "duration": 6440,
+    "offset": 328120,
+    "lang": "en"
+  },
+  {
+    "text": "update to make sure that we have the",
+    "duration": 7519,
+    "offset": 330520,
+    "lang": "en"
+  },
+  {
+    "text": "latest so all packages are up to date",
+    "duration": 6320,
+    "offset": 334560,
+    "lang": "en"
+  },
+  {
+    "text": "and so we have the more recent sources",
+    "duration": 5641,
+    "offset": 338039,
+    "lang": "en"
+  },
+  {
+    "text": "and now we can do sud sudo AP install",
+    "duration": 6480,
+    "offset": 340880,
+    "lang": "en"
+  },
+  {
+    "text": "and we will install first Ross dble",
+    "duration": 7519,
+    "offset": 343680,
+    "lang": "en"
+  },
+  {
+    "text": "dnation 2 so you can press tab as you",
+    "duration": 7240,
+    "offset": 347360,
+    "lang": "en"
+  },
+  {
+    "text": "can see here navigation 2 and then we",
+    "duration": 9000,
+    "offset": 351199,
+    "lang": "en"
+  },
+  {
+    "text": "will also add Ross Das humble Das nav 2",
+    "duration": 8319,
+    "offset": 354600,
+    "lang": "en"
+  },
+  {
+    "text": "Dash bring up okay so we need those two",
+    "duration": 6241,
+    "offset": 360199,
+    "lang": "en"
+  },
+  {
+    "text": "packages to be installed and actually um",
+    "duration": 5720,
+    "offset": 362919,
+    "lang": "en"
+  },
+  {
+    "text": "those are not going to just install two",
+    "duration": 4560,
+    "offset": 366440,
+    "lang": "en"
+  },
+  {
+    "text": "packages okay it's going to install a",
+    "duration": 4400,
+    "offset": 368639,
+    "lang": "en"
+  },
+  {
+    "text": "collection of packages that contains",
+    "duration": 3599,
+    "offset": 371000,
+    "lang": "en"
+  },
+  {
+    "text": "everything you need in the navigation",
+    "duration": 3280,
+    "offset": 373039,
+    "lang": "en"
+  },
+  {
+    "text": "tool and there is another thing that",
+    "duration": 3801,
+    "offset": 374599,
+    "lang": "en"
+  },
+  {
+    "text": "we're going to add is turtlebot 3 I'm",
+    "duration": 3880,
+    "offset": 376319,
+    "lang": "en"
+  },
+  {
+    "text": "going to come back to this turtlebot 3 a",
+    "duration": 4440,
+    "offset": 378400,
+    "lang": "en"
+  },
+  {
+    "text": "lot in this course this is a robot okay",
+    "duration": 4801,
+    "offset": 380199,
+    "lang": "en"
+  },
+  {
+    "text": "you probably already know the turot 3",
+    "duration": 4400,
+    "offset": 382840,
+    "lang": "en"
+  },
+  {
+    "text": "but if you don't that's simply a mobile",
+    "duration": 5199,
+    "offset": 385000,
+    "lang": "en"
+  },
+  {
+    "text": "based robot and what's good about this",
+    "duration": 5320,
+    "offset": 387240,
+    "lang": "en"
+  },
+  {
+    "text": "robot is they have a complete simulation",
+    "duration": 4681,
+    "offset": 390199,
+    "lang": "en"
+  },
+  {
+    "text": "already working so we can work on the",
+    "duration": 3960,
+    "offset": 392560,
+    "lang": "en"
+  },
+  {
+    "text": "navigation and try to understand the",
+    "duration": 4240,
+    "offset": 394880,
+    "lang": "en"
+  },
+  {
+    "text": "different concepts without having to run",
+    "duration": 4600,
+    "offset": 396520,
+    "lang": "en"
+  },
+  {
+    "text": "a physical robot okay we can use a",
+    "duration": 4760,
+    "offset": 399120,
+    "lang": "en"
+  },
+  {
+    "text": "simulation that's already done for us so",
+    "duration": 5320,
+    "offset": 401120,
+    "lang": "en"
+  },
+  {
+    "text": "that's super super convenient so I will",
+    "duration": 4840,
+    "offset": 403880,
+    "lang": "en"
+  },
+  {
+    "text": "install with Ross",
+    "duration": 5080,
+    "offset": 406440,
+    "lang": "en"
+  },
+  {
+    "text": "dble Das",
+    "duration": 4520,
+    "offset": 408720,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot",
+    "duration": 4799,
+    "offset": 411520,
+    "lang": "en"
+  },
+  {
+    "text": "3 and I'm going to put an asterisk okay",
+    "duration": 5280,
+    "offset": 413240,
+    "lang": "en"
+  },
+  {
+    "text": "so we can install all of the turble",
+    "duration": 4160,
+    "offset": 416319,
+    "lang": "en"
+  },
+  {
+    "text": "three packages okay so make sure you",
+    "duration": 5280,
+    "offset": 418520,
+    "lang": "en"
+  },
+  {
+    "text": "don't forget this so in the end we have",
+    "duration": 6000,
+    "offset": 420479,
+    "lang": "en"
+  },
+  {
+    "text": "those three packages I'm going to press",
+    "duration": 6040,
+    "offset": 423800,
+    "lang": "en"
+  },
+  {
+    "text": "enter and well I have zero new to",
+    "duration": 5160,
+    "offset": 426479,
+    "lang": "en"
+  },
+  {
+    "text": "install because I've already installed",
+    "duration": 3639,
+    "offset": 429840,
+    "lang": "en"
+  },
+  {
+    "text": "it before but for you that's going to be",
+    "duration": 3960,
+    "offset": 431639,
+    "lang": "en"
+  },
+  {
+    "text": "probably a few hundred megabytes of",
+    "duration": 4840,
+    "offset": 433479,
+    "lang": "en"
+  },
+  {
+    "text": "packages to install so you wait until",
+    "duration": 4361,
+    "offset": 435599,
+    "lang": "en"
+  },
+  {
+    "text": "the end and well that's all that's",
+    "duration": 3880,
+    "offset": 438319,
+    "lang": "en"
+  },
+  {
+    "text": "really all there is to it now you have",
+    "duration": 4639,
+    "offset": 439960,
+    "lang": "en"
+  },
+  {
+    "text": "the navigation to stack and total B 3",
+    "duration": 6641,
+    "offset": 442199,
+    "lang": "en"
+  },
+  {
+    "text": "installed on your computer",
+    "duration": 4241,
+    "offset": 444599,
+    "lang": "en"
+  },
+  {
+    "text": "before we start to use slam to generate",
+    "duration": 5641,
+    "offset": 449919,
+    "lang": "en"
+  },
+  {
+    "text": "a map let's actually start a robot in a",
+    "duration": 5640,
+    "offset": 452520,
+    "lang": "en"
+  },
+  {
+    "text": "simulated world and for this let's use",
+    "duration": 4840,
+    "offset": 455560,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3 later in the course I will",
+    "duration": 4960,
+    "offset": 458160,
+    "lang": "en"
+  },
+  {
+    "text": "also talk about using navigation with a",
+    "duration": 4919,
+    "offset": 460400,
+    "lang": "en"
+  },
+  {
+    "text": "custom robot but the thing you have to",
+    "duration": 4039,
+    "offset": 463120,
+    "lang": "en"
+  },
+  {
+    "text": "remember right now so one very important",
+    "duration": 4280,
+    "offset": 465319,
+    "lang": "en"
+  },
+  {
+    "text": "thing to have at the beginning is simply",
+    "duration": 5641,
+    "offset": 467159,
+    "lang": "en"
+  },
+  {
+    "text": "a robot that can move in an environment",
+    "duration": 6201,
+    "offset": 469599,
+    "lang": "en"
+  },
+  {
+    "text": "using Ros to of course and with a teleop",
+    "duration": 5040,
+    "offset": 472800,
+    "lang": "en"
+  },
+  {
+    "text": "node or something similar that you can",
+    "duration": 4679,
+    "offset": 475800,
+    "lang": "en"
+  },
+  {
+    "text": "use to make the robot move move either",
+    "duration": 4759,
+    "offset": 477840,
+    "lang": "en"
+  },
+  {
+    "text": "autonomously or with a keyboard a",
+    "duration": 5241,
+    "offset": 480479,
+    "lang": "en"
+  },
+  {
+    "text": "joystick Etc and well good news for you",
+    "duration": 5521,
+    "offset": 482599,
+    "lang": "en"
+  },
+  {
+    "text": "everything is already done with the turb",
+    "duration": 4800,
+    "offset": 485720,
+    "lang": "en"
+  },
+  {
+    "text": "3 so in this lesson I will just show you",
+    "duration": 4799,
+    "offset": 488120,
+    "lang": "en"
+  },
+  {
+    "text": "how to start the turtle B 3 in a",
+    "duration": 5440,
+    "offset": 490520,
+    "lang": "en"
+  },
+  {
+    "text": "simulated world and how to make it move",
+    "duration": 5280,
+    "offset": 492919,
+    "lang": "en"
+  },
+  {
+    "text": "so that in the next lesson we can do the",
+    "duration": 5199,
+    "offset": 495960,
+    "lang": "en"
+  },
+  {
+    "text": "slam and generate the map and that's",
+    "duration": 5400,
+    "offset": 498199,
+    "lang": "en"
+  },
+  {
+    "text": "something very specific to ttb 3 is we",
+    "duration": 5841,
+    "offset": 501159,
+    "lang": "en"
+  },
+  {
+    "text": "need to First specify the totalb 3 Model",
+    "duration": 4880,
+    "offset": 503599,
+    "lang": "en"
+  },
+  {
+    "text": "that we want because there are a few",
+    "duration": 3560,
+    "offset": 507000,
+    "lang": "en"
+  },
+  {
+    "text": "models there is the burger model there",
+    "duration": 4120,
+    "offset": 508479,
+    "lang": "en"
+  },
+  {
+    "text": "is the waffle and there is the waffle",
+    "duration": 4800,
+    "offset": 510560,
+    "lang": "en"
+  },
+  {
+    "text": "pie with Raspberry Pi so we just need to",
+    "duration": 5440,
+    "offset": 512599,
+    "lang": "en"
+  },
+  {
+    "text": "specify which model by exporting an",
+    "duration": 4479,
+    "offset": 515360,
+    "lang": "en"
+  },
+  {
+    "text": "environment variable that's very",
+    "duration": 4240,
+    "offset": 518039,
+    "lang": "en"
+  },
+  {
+    "text": "specific to T 3 and to do this well I'm",
+    "duration": 5081,
+    "offset": 519839,
+    "lang": "en"
+  },
+  {
+    "text": "simply going to go to my bash s so you",
+    "duration": 5560,
+    "offset": 522279,
+    "lang": "en"
+  },
+  {
+    "text": "can just edit the bash",
+    "duration": 5680,
+    "offset": 524920,
+    "lang": "en"
+  },
+  {
+    "text": "RC and you go to the end you should have",
+    "duration": 5641,
+    "offset": 527839,
+    "lang": "en"
+  },
+  {
+    "text": "this line of course and after this I",
+    "duration": 5440,
+    "offset": 530600,
+    "lang": "en"
+  },
+  {
+    "text": "will put so after or before actually",
+    "duration": 4840,
+    "offset": 533480,
+    "lang": "en"
+  },
+  {
+    "text": "doesn't really matter I will put maybe",
+    "duration": 4080,
+    "offset": 536040,
+    "lang": "en"
+  },
+  {
+    "text": "just before so we have all the export",
+    "duration": 5959,
+    "offset": 538320,
+    "lang": "en"
+  },
+  {
+    "text": "before the sources export",
+    "duration": 8360,
+    "offset": 540120,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3core model so all uppercase",
+    "duration": 7240,
+    "offset": 544279,
+    "lang": "en"
+  },
+  {
+    "text": "is equal and let's use waffle so you",
+    "duration": 5919,
+    "offset": 548480,
+    "lang": "en"
+  },
+  {
+    "text": "type exactly this export and then",
+    "duration": 7161,
+    "offset": 551519,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3core model is equal to Waffle",
+    "duration": 6281,
+    "offset": 554399,
+    "lang": "en"
+  },
+  {
+    "text": "if you don't have this then uh when we",
+    "duration": 3680,
+    "offset": 558680,
+    "lang": "en"
+  },
+  {
+    "text": "run the next command you're going to",
+    "duration": 4240,
+    "offset": 560680,
+    "lang": "en"
+  },
+  {
+    "text": "have an error saying you have to specify",
+    "duration": 6640,
+    "offset": 562360,
+    "lang": "en"
+  },
+  {
+    "text": "a total 3 Model so let's save okay and",
+    "duration": 6760,
+    "offset": 564920,
+    "lang": "en"
+  },
+  {
+    "text": "you can either open a new terminal or",
+    "duration": 6800,
+    "offset": 569000,
+    "lang": "en"
+  },
+  {
+    "text": "just Source The Bash RC so we have the",
+    "duration": 7200,
+    "offset": 571680,
+    "lang": "en"
+  },
+  {
+    "text": "environment variable okay if I do print",
+    "duration": 6880,
+    "offset": 575800,
+    "lang": "en"
+  },
+  {
+    "text": "and and then pipe with grape Turtle you",
+    "duration": 6959,
+    "offset": 578880,
+    "lang": "en"
+  },
+  {
+    "text": "can see Turtle three model is Waffle now",
+    "duration": 5640,
+    "offset": 582680,
+    "lang": "en"
+  },
+  {
+    "text": "we are going to start this with gazebo",
+    "duration": 4961,
+    "offset": 585839,
+    "lang": "en"
+  },
+  {
+    "text": "maybe before starting the robot in",
+    "duration": 5400,
+    "offset": 588320,
+    "lang": "en"
+  },
+  {
+    "text": "gazebo let's just run gazebo like this",
+    "duration": 5520,
+    "offset": 590800,
+    "lang": "en"
+  },
+  {
+    "text": "you just run",
+    "duration": 2600,
+    "offset": 593720,
+    "lang": "en"
+  },
+  {
+    "text": "gbo and well you should have this so",
+    "duration": 4961,
+    "offset": 597519,
+    "lang": "en"
+  },
+  {
+    "text": "make sure that you just have well Gable",
+    "duration": 4600,
+    "offset": 600320,
+    "lang": "en"
+  },
+  {
+    "text": "here you can check the FPS down there",
+    "duration": 5039,
+    "offset": 602480,
+    "lang": "en"
+  },
+  {
+    "text": "okay so I have 62 if you have something",
+    "duration": 4520,
+    "offset": 604920,
+    "lang": "en"
+  },
+  {
+    "text": "around 60 or if you have something maybe",
+    "duration": 4320,
+    "offset": 607519,
+    "lang": "en"
+  },
+  {
+    "text": "around 30 that's still correct but",
+    "duration": 4280,
+    "offset": 609440,
+    "lang": "en"
+  },
+  {
+    "text": "that's something you have to check that",
+    "duration": 4281,
+    "offset": 611839,
+    "lang": "en"
+  },
+  {
+    "text": "you have something that works here and",
+    "duration": 4480,
+    "offset": 613720,
+    "lang": "en"
+  },
+  {
+    "text": "also real time Factor should be close to",
+    "duration": 4240,
+    "offset": 616120,
+    "lang": "en"
+  },
+  {
+    "text": "one so if you have this everything is",
+    "duration": 5040,
+    "offset": 618200,
+    "lang": "en"
+  },
+  {
+    "text": "working correctly let's close",
+    "duration": 5640,
+    "offset": 620360,
+    "lang": "en"
+  },
+  {
+    "text": "this actually I would recommend if you",
+    "duration": 6640,
+    "offset": 623240,
+    "lang": "en"
+  },
+  {
+    "text": "close gbo to do contrl c in the terminal",
+    "duration": 5640,
+    "offset": 626000,
+    "lang": "en"
+  },
+  {
+    "text": "and not necessarily to close the window",
+    "duration": 4280,
+    "offset": 629880,
+    "lang": "en"
+  },
+  {
+    "text": "that's usually closing the Zebo in a",
+    "duration": 4759,
+    "offset": 631640,
+    "lang": "en"
+  },
+  {
+    "text": "cleaner way all right and now let's",
+    "duration": 6679,
+    "offset": 634160,
+    "lang": "en"
+  },
+  {
+    "text": "start the turb 3 in a simulated world so",
+    "duration": 7841,
+    "offset": 636399,
+    "lang": "en"
+  },
+  {
+    "text": "to do this you can do Ross two lunch so",
+    "duration": 5721,
+    "offset": 640839,
+    "lang": "en"
+  },
+  {
+    "text": "we are going to use a lunch file from",
+    "duration": 7000,
+    "offset": 644240,
+    "lang": "en"
+  },
+  {
+    "text": "what package from turtlebot 3core gazebo",
+    "duration": 7000,
+    "offset": 646560,
+    "lang": "en"
+  },
+  {
+    "text": "so here you can see we can use the auto",
+    "duration": 3680,
+    "offset": 651240,
+    "lang": "en"
+  },
+  {
+    "text": "completion with",
+    "duration": 5279,
+    "offset": 653560,
+    "lang": "en"
+  },
+  {
+    "text": "Tab and then Turtle Bo so let's put Auto",
+    "duration": 8159,
+    "offset": 654920,
+    "lang": "en"
+  },
+  {
+    "text": "completion as well tal 3 world. launch.",
+    "duration": 8081,
+    "offset": 658839,
+    "lang": "en"
+  },
+  {
+    "text": "py and let's press",
+    "duration": 3841,
+    "offset": 663079,
+    "lang": "en"
+  },
+  {
+    "text": "enter and let's wait a bit and we have",
+    "duration": 5160,
+    "offset": 667880,
+    "lang": "en"
+  },
+  {
+    "text": "the totalb three in this world so the",
+    "duration": 4200,
+    "offset": 670639,
+    "lang": "en"
+  },
+  {
+    "text": "thing is the first time that you launch",
+    "duration": 4960,
+    "offset": 673040,
+    "lang": "en"
+  },
+  {
+    "text": "it it may take some time it may get uh",
+    "duration": 5800,
+    "offset": 674839,
+    "lang": "en"
+  },
+  {
+    "text": "stuck with the orange popup saying Gazo",
+    "duration": 4120,
+    "offset": 678000,
+    "lang": "en"
+  },
+  {
+    "text": "is starting or something like that it",
+    "duration": 4640,
+    "offset": 680639,
+    "lang": "en"
+  },
+  {
+    "text": "may uh be stuck for maybe I don't know 1",
+    "duration": 5240,
+    "offset": 682120,
+    "lang": "en"
+  },
+  {
+    "text": "minute 2 minutes 3 minutes but this is",
+    "duration": 5041,
+    "offset": 685279,
+    "lang": "en"
+  },
+  {
+    "text": "normal this is the time for Gaz to load",
+    "duration": 5120,
+    "offset": 687360,
+    "lang": "en"
+  },
+  {
+    "text": "this world for the first time okay so",
+    "duration": 4440,
+    "offset": 690320,
+    "lang": "en"
+  },
+  {
+    "text": "every time you have a new world uh it",
+    "duration": 4520,
+    "offset": 692480,
+    "lang": "en"
+  },
+  {
+    "text": "may take some time for gbo to open it so",
+    "duration": 4879,
+    "offset": 694760,
+    "lang": "en"
+  },
+  {
+    "text": "don't worry if gazebo is stuck on the",
+    "duration": 6040,
+    "offset": 697000,
+    "lang": "en"
+  },
+  {
+    "text": "orange popup just give it some time okay",
+    "duration": 5440,
+    "offset": 699639,
+    "lang": "en"
+  },
+  {
+    "text": "even maybe five minutes 10 minutes okay",
+    "duration": 4200,
+    "offset": 703040,
+    "lang": "en"
+  },
+  {
+    "text": "just give it some time and then the next",
+    "duration": 4200,
+    "offset": 705079,
+    "lang": "en"
+  },
+  {
+    "text": "time that you run it as you can see here",
+    "duration": 4480,
+    "offset": 707240,
+    "lang": "en"
+  },
+  {
+    "text": "the next time you run it so if I kill",
+    "duration": 4721,
+    "offset": 709279,
+    "lang": "en"
+  },
+  {
+    "text": "with contrl C the next time you run it",
+    "duration": 6119,
+    "offset": 711720,
+    "lang": "en"
+  },
+  {
+    "text": "it should be much",
+    "duration": 3839,
+    "offset": 714000,
+    "lang": "en"
+  },
+  {
+    "text": "faster all all",
+    "duration": 6121,
+    "offset": 718079,
+    "lang": "en"
+  },
+  {
+    "text": "right and so what do we have here well",
+    "duration": 5600,
+    "offset": 721320,
+    "lang": "en"
+  },
+  {
+    "text": "we have the robot toot 3 here so that's",
+    "duration": 5759,
+    "offset": 724200,
+    "lang": "en"
+  },
+  {
+    "text": "a simulated robot of course okay",
+    "duration": 6120,
+    "offset": 726920,
+    "lang": "en"
+  },
+  {
+    "text": "simplified version and so on this robot",
+    "duration": 6000,
+    "offset": 729959,
+    "lang": "en"
+  },
+  {
+    "text": "we have so that's a differential robot",
+    "duration": 5799,
+    "offset": 733040,
+    "lang": "en"
+  },
+  {
+    "text": "with two wheels okay just two wheels",
+    "duration": 4961,
+    "offset": 735959,
+    "lang": "en"
+  },
+  {
+    "text": "that are going to make the robot move",
+    "duration": 5521,
+    "offset": 738839,
+    "lang": "en"
+  },
+  {
+    "text": "and we have a lier here you can see with",
+    "duration": 7599,
+    "offset": 740920,
+    "lang": "en"
+  },
+  {
+    "text": "a scanner so let's go up a bit and you",
+    "duration": 7240,
+    "offset": 744360,
+    "lang": "en"
+  },
+  {
+    "text": "can see this blue thingy here is where",
+    "duration": 5921,
+    "offset": 748519,
+    "lang": "en"
+  },
+  {
+    "text": "the ligher can see basically so the",
+    "duration": 5280,
+    "offset": 751600,
+    "lang": "en"
+  },
+  {
+    "text": "laser scan so you can see it has a range",
+    "duration": 5759,
+    "offset": 754440,
+    "lang": "en"
+  },
+  {
+    "text": "of I think it's something like 4 M uh",
+    "duration": 5360,
+    "offset": 756880,
+    "lang": "en"
+  },
+  {
+    "text": "and so the range would stop here and if",
+    "duration": 4681,
+    "offset": 760199,
+    "lang": "en"
+  },
+  {
+    "text": "you have an obstacle you can see we can",
+    "duration": 4520,
+    "offset": 762240,
+    "lang": "en"
+  },
+  {
+    "text": "detect the obstacles so the walls the",
+    "duration": 4319,
+    "offset": 764880,
+    "lang": "en"
+  },
+  {
+    "text": "obstacles everything and so with this we",
+    "duration": 5040,
+    "offset": 766760,
+    "lang": "en"
+  },
+  {
+    "text": "will be able to map create a map of this",
+    "duration": 4561,
+    "offset": 769199,
+    "lang": "en"
+  },
+  {
+    "text": "environment and the world here well",
+    "duration": 4000,
+    "offset": 771800,
+    "lang": "en"
+  },
+  {
+    "text": "that's a very basic thought about three",
+    "duration": 4280,
+    "offset": 773760,
+    "lang": "en"
+  },
+  {
+    "text": "world that's a closed World okay so the",
+    "duration": 4279,
+    "offset": 775800,
+    "lang": "en"
+  },
+  {
+    "text": "robot will not be able to go outside",
+    "duration": 5320,
+    "offset": 778040,
+    "lang": "en"
+  },
+  {
+    "text": "just inside with those obstacles so now",
+    "duration": 5721,
+    "offset": 780079,
+    "lang": "en"
+  },
+  {
+    "text": "well that's great but what do we do with",
+    "duration": 4520,
+    "offset": 783360,
+    "lang": "en"
+  },
+  {
+    "text": "this well we can make the robot move so",
+    "duration": 4440,
+    "offset": 785800,
+    "lang": "en"
+  },
+  {
+    "text": "let's open a new",
+    "duration": 7000,
+    "offset": 787880,
+    "lang": "en"
+  },
+  {
+    "text": "terminal and we can start a node so R to",
+    "duration": 7000,
+    "offset": 790240,
+    "lang": "en"
+  },
+  {
+    "text": "run this time not launch for us to run",
+    "duration": 3160,
+    "offset": 794880,
+    "lang": "en"
+  },
+  {
+    "text": "with",
+    "duration": 5440,
+    "offset": 797240,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3or teop and teop",
+    "duration": 6880,
+    "offset": 798040,
+    "lang": "en"
+  },
+  {
+    "text": "keyboard so this is a node that will",
+    "duration": 5240,
+    "offset": 802680,
+    "lang": "en"
+  },
+  {
+    "text": "allow you to make the robot move okay",
+    "duration": 4640,
+    "offset": 804920,
+    "lang": "en"
+  },
+  {
+    "text": "and so you can see we have have a",
+    "duration": 4520,
+    "offset": 807920,
+    "lang": "en"
+  },
+  {
+    "text": "description here that says well you just",
+    "duration": 6040,
+    "offset": 809560,
+    "lang": "en"
+  },
+  {
+    "text": "use the keys in the keyboard to make the",
+    "duration": 7320,
+    "offset": 812440,
+    "lang": "en"
+  },
+  {
+    "text": "robot move and so if I press on W you",
+    "duration": 6960,
+    "offset": 815600,
+    "lang": "en"
+  },
+  {
+    "text": "can see the robot starts to move okay",
+    "duration": 5160,
+    "offset": 819760,
+    "lang": "en"
+  },
+  {
+    "text": "the more I press on W you can see the",
+    "duration": 5440,
+    "offset": 822560,
+    "lang": "en"
+  },
+  {
+    "text": "more we increase the velocity and we can",
+    "duration": 6880,
+    "offset": 824920,
+    "lang": "en"
+  },
+  {
+    "text": "go up to here we can go up to",
+    "duration": 7600,
+    "offset": 828000,
+    "lang": "en"
+  },
+  {
+    "text": "0.26 m per second now if I press so I",
+    "duration": 6360,
+    "offset": 831800,
+    "lang": "en"
+  },
+  {
+    "text": "need always to focus on this window if I",
+    "duration": 5320,
+    "offset": 835600,
+    "lang": "en"
+  },
+  {
+    "text": "press S I can stop okay so s is a very",
+    "duration": 4919,
+    "offset": 838160,
+    "lang": "en"
+  },
+  {
+    "text": "important key to make the robot stop",
+    "duration": 4120,
+    "offset": 840920,
+    "lang": "en"
+  },
+  {
+    "text": "then I can make the robot",
+    "duration": 6320,
+    "offset": 843079,
+    "lang": "en"
+  },
+  {
+    "text": "rotate okay with um A and D so rotate on",
+    "duration": 7320,
+    "offset": 845040,
+    "lang": "en"
+  },
+  {
+    "text": "the right uh to the left and then rotate",
+    "duration": 6800,
+    "offset": 849399,
+    "lang": "en"
+  },
+  {
+    "text": "to the right okay I can go well and go",
+    "duration": 7000,
+    "offset": 852360,
+    "lang": "en"
+  },
+  {
+    "text": "quite fast and S to stop and of course I",
+    "duration": 5200,
+    "offset": 856199,
+    "lang": "en"
+  },
+  {
+    "text": "can make the robot move and rotate at",
+    "duration": 6760,
+    "offset": 859360,
+    "lang": "en"
+  },
+  {
+    "text": "the same time so well I encourage you to",
+    "duration": 7761,
+    "offset": 861399,
+    "lang": "en"
+  },
+  {
+    "text": "try a bit okay get the hand out of it",
+    "duration": 6200,
+    "offset": 866120,
+    "lang": "en"
+  },
+  {
+    "text": "it's not super intuitive at first but",
+    "duration": 5200,
+    "offset": 869160,
+    "lang": "en"
+  },
+  {
+    "text": "just practice for five 10 minutes make",
+    "duration": 4519,
+    "offset": 872320,
+    "lang": "en"
+  },
+  {
+    "text": "the robot move a bit everywhere um what",
+    "duration": 5039,
+    "offset": 874360,
+    "lang": "en"
+  },
+  {
+    "text": "I recommend is usually I go straight so",
+    "duration": 4841,
+    "offset": 876839,
+    "lang": "en"
+  },
+  {
+    "text": "I would go straight and I would make the",
+    "duration": 5201,
+    "offset": 879399,
+    "lang": "en"
+  },
+  {
+    "text": "robot turn just a bit and then I would",
+    "duration": 6360,
+    "offset": 881680,
+    "lang": "en"
+  },
+  {
+    "text": "stop with s and then continue maybe",
+    "duration": 7239,
+    "offset": 884600,
+    "lang": "en"
+  },
+  {
+    "text": "turn not too fast like",
+    "duration": 6599,
+    "offset": 888040,
+    "lang": "en"
+  },
+  {
+    "text": "this okay stop and then go straight",
+    "duration": 5841,
+    "offset": 891839,
+    "lang": "en"
+  },
+  {
+    "text": "maybe turn a bit okay and this way I can",
+    "duration": 5161,
+    "offset": 894639,
+    "lang": "en"
+  },
+  {
+    "text": "make sure that I go everywhere and I",
+    "duration": 4440,
+    "offset": 897680,
+    "lang": "en"
+  },
+  {
+    "text": "don't bump into",
+    "duration": 5200,
+    "offset": 899800,
+    "lang": "en"
+  },
+  {
+    "text": "obstacles okay because if you bump let's",
+    "duration": 5519,
+    "offset": 902120,
+    "lang": "en"
+  },
+  {
+    "text": "bump into an obstacle Let's Go full",
+    "duration": 4519,
+    "offset": 905000,
+    "lang": "en"
+  },
+  {
+    "text": "speed into this obstacle you can see",
+    "duration": 4921,
+    "offset": 907639,
+    "lang": "en"
+  },
+  {
+    "text": "what's happening is that well the robot",
+    "duration": 6041,
+    "offset": 909519,
+    "lang": "en"
+  },
+  {
+    "text": "will just have some issues and the laser",
+    "duration": 4920,
+    "offset": 912560,
+    "lang": "en"
+  },
+  {
+    "text": "scan will have some issues okay so if",
+    "duration": 5839,
+    "offset": 915560,
+    "lang": "en"
+  },
+  {
+    "text": "the laser scan is not staying on the XY",
+    "duration": 5640,
+    "offset": 917480,
+    "lang": "en"
+  },
+  {
+    "text": "plan here we're going to have some",
+    "duration": 3961,
+    "offset": 921399,
+    "lang": "en"
+  },
+  {
+    "text": "issues with the map and the localization",
+    "duration": 5399,
+    "offset": 923120,
+    "lang": "en"
+  },
+  {
+    "text": "so let's try to keep the robot stable",
+    "duration": 6240,
+    "offset": 925360,
+    "lang": "en"
+  },
+  {
+    "text": "okay and last thing is if you want to",
+    "duration": 4800,
+    "offset": 928519,
+    "lang": "en"
+  },
+  {
+    "text": "understand a bit what's happening let's",
+    "duration": 3960,
+    "offset": 931600,
+    "lang": "en"
+  },
+  {
+    "text": "open a new terminal let's do rose to",
+    "duration": 4320,
+    "offset": 933319,
+    "lang": "en"
+  },
+  {
+    "text": "topic",
+    "duration": 4920,
+    "offset": 935560,
+    "lang": "en"
+  },
+  {
+    "text": "list you can see",
+    "duration": 5000,
+    "offset": 937639,
+    "lang": "en"
+  },
+  {
+    "text": "that here we have all of the topics",
+    "duration": 4359,
+    "offset": 940480,
+    "lang": "en"
+  },
+  {
+    "text": "running currently and we have this",
+    "duration": 6680,
+    "offset": 942639,
+    "lang": "en"
+  },
+  {
+    "text": "command velocity so the robot will",
+    "duration": 6161,
+    "offset": 944839,
+    "lang": "en"
+  },
+  {
+    "text": "listen to command velocity with a",
+    "duration": 2921,
+    "offset": 949319,
+    "lang": "en"
+  },
+  {
+    "text": "controller that's going to make the",
+    "duration": 5160,
+    "offset": 951000,
+    "lang": "en"
+  },
+  {
+    "text": "robot move and then the teop node will",
+    "duration": 7079,
+    "offset": 952240,
+    "lang": "en"
+  },
+  {
+    "text": "send a message on this command velocity",
+    "duration": 7919,
+    "offset": 956160,
+    "lang": "en"
+  },
+  {
+    "text": "with acut graph so if you run acut",
+    "duration": 7401,
+    "offset": 959319,
+    "lang": "en"
+  },
+  {
+    "text": "graph you can see so you can refresh you",
+    "duration": 6120,
+    "offset": 964079,
+    "lang": "en"
+  },
+  {
+    "text": "can put nodes topics all here instead of",
+    "duration": 4880,
+    "offset": 966720,
+    "lang": "en"
+  },
+  {
+    "text": "nodes",
+    "duration": 4601,
+    "offset": 970199,
+    "lang": "en"
+  },
+  {
+    "text": "only and you can see we have the T up",
+    "duration": 5880,
+    "offset": 971600,
+    "lang": "en"
+  },
+  {
+    "text": "keyboard sending a command to command",
+    "duration": 4479,
+    "offset": 974800,
+    "lang": "en"
+  },
+  {
+    "text": "velocity and then we have Turtle 3 D",
+    "duration": 4320,
+    "offset": 977480,
+    "lang": "en"
+  },
+  {
+    "text": "drive that's a node that's started",
+    "duration": 4480,
+    "offset": 979279,
+    "lang": "en"
+  },
+  {
+    "text": "inside the launch file okay that we have",
+    "duration": 4479,
+    "offset": 981800,
+    "lang": "en"
+  },
+  {
+    "text": "studed for total about three so you can",
+    "duration": 6760,
+    "offset": 983759,
+    "lang": "en"
+  },
+  {
+    "text": "see here how this node will control the",
+    "duration": 7761,
+    "offset": 986279,
+    "lang": "en"
+  },
+  {
+    "text": "turtle and great that's what we need",
+    "duration": 6201,
+    "offset": 990519,
+    "lang": "en"
+  },
+  {
+    "text": "first okay a robot in an environment and",
+    "duration": 5039,
+    "offset": 994040,
+    "lang": "en"
+  },
+  {
+    "text": "we can make the robot move and we have",
+    "duration": 4880,
+    "offset": 996720,
+    "lang": "en"
+  },
+  {
+    "text": "this uh ligher okay so we have a laser",
+    "duration": 5481,
+    "offset": 999079,
+    "lang": "en"
+  },
+  {
+    "text": "scan that we can use to create a map and",
+    "duration": 5440,
+    "offset": 1001600,
+    "lang": "en"
+  },
+  {
+    "text": "well you are ready to start the Slam in",
+    "duration": 5079,
+    "offset": 1004560,
+    "lang": "en"
+  },
+  {
+    "text": "the next",
+    "duration": 2599,
+    "offset": 1007040,
+    "lang": "en"
+  },
+  {
+    "text": "video in this lesson you will see how to",
+    "duration": 5241,
+    "offset": 1010319,
+    "lang": "en"
+  },
+  {
+    "text": "generate a map with slam using the",
+    "duration": 5119,
+    "offset": 1013160,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3 simulation that we have just",
+    "duration": 5639,
+    "offset": 1015560,
+    "lang": "en"
+  },
+  {
+    "text": "seen for so the important thing to have",
+    "duration": 6121,
+    "offset": 1018279,
+    "lang": "en"
+  },
+  {
+    "text": "right now is a robot either in a real or",
+    "duration": 5720,
+    "offset": 1021199,
+    "lang": "en"
+  },
+  {
+    "text": "simulated world and a way to make the",
+    "duration": 4960,
+    "offset": 1024400,
+    "lang": "en"
+  },
+  {
+    "text": "robot move in the world and that's",
+    "duration": 5040,
+    "offset": 1026919,
+    "lang": "en"
+  },
+  {
+    "text": "exactly what we have so let's start the",
+    "duration": 5199,
+    "offset": 1029360,
+    "lang": "en"
+  },
+  {
+    "text": "slam and first what I'm going to do is",
+    "duration": 4960,
+    "offset": 1031959,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to stop everything so contrl C",
+    "duration": 4601,
+    "offset": 1034559,
+    "lang": "en"
+  },
+  {
+    "text": "in all the terminals okay when you start",
+    "duration": 4361,
+    "offset": 1036919,
+    "lang": "en"
+  },
+  {
+    "text": "slam I would suggest that you kill all",
+    "duration": 4639,
+    "offset": 1039160,
+    "lang": "en"
+  },
+  {
+    "text": "of the RW two nodes running and you just",
+    "duration": 4720,
+    "offset": 1041280,
+    "lang": "en"
+  },
+  {
+    "text": "start everything from scratch so here",
+    "duration": 6961,
+    "offset": 1043799,
+    "lang": "en"
+  },
+  {
+    "text": "let's open three terminals",
+    "duration": 8280,
+    "offset": 1046000,
+    "lang": "en"
+  },
+  {
+    "text": "on the first terminal we are going to so",
+    "duration": 6279,
+    "offset": 1050760,
+    "lang": "en"
+  },
+  {
+    "text": "we are going to run the to 3 Gazo with",
+    "duration": 7080,
+    "offset": 1054280,
+    "lang": "en"
+  },
+  {
+    "text": "toal r three world so we start here",
+    "duration": 8481,
+    "offset": 1057039,
+    "lang": "en"
+  },
+  {
+    "text": "again the world with total three and we",
+    "duration": 7319,
+    "offset": 1061360,
+    "lang": "en"
+  },
+  {
+    "text": "have this okay so the tot three starts",
+    "duration": 6039,
+    "offset": 1065520,
+    "lang": "en"
+  },
+  {
+    "text": "here okay so that's what we need on the",
+    "duration": 6240,
+    "offset": 1068679,
+    "lang": "en"
+  },
+  {
+    "text": "sign terminal I am going to start the",
+    "duration": 6161,
+    "offset": 1071559,
+    "lang": "en"
+  },
+  {
+    "text": "slam feature for the turtle Bo 3 and so",
+    "duration": 5240,
+    "offset": 1074919,
+    "lang": "en"
+  },
+  {
+    "text": "we will do Ross two",
+    "duration": 5120,
+    "offset": 1077720,
+    "lang": "en"
+  },
+  {
+    "text": "Louch",
+    "duration": 5721,
+    "offset": 1080159,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3core",
+    "duration": 5680,
+    "offset": 1082840,
+    "lang": "en"
+  },
+  {
+    "text": "cartographer and then cartographer",
+    "duration": 6760,
+    "offset": 1085880,
+    "lang": "en"
+  },
+  {
+    "text": "launch. py okay so this launch file",
+    "duration": 7639,
+    "offset": 1088520,
+    "lang": "en"
+  },
+  {
+    "text": "contains the slam feature for T three",
+    "duration": 6640,
+    "offset": 1092640,
+    "lang": "en"
+  },
+  {
+    "text": "and we are going to also use so use sim",
+    "duration": 5361,
+    "offset": 1096159,
+    "lang": "en"
+  },
+  {
+    "text": "time we are going to add this",
+    "duration": 5680,
+    "offset": 1099280,
+    "lang": "en"
+  },
+  {
+    "text": "argument through okay so we can use the",
+    "duration": 4960,
+    "offset": 1101520,
+    "lang": "en"
+  },
+  {
+    "text": "simulation time because here we are",
+    "duration": 3480,
+    "offset": 1104960,
+    "lang": "en"
+  },
+  {
+    "text": "using Gazo so we have a simulation time",
+    "duration": 5000,
+    "offset": 1106480,
+    "lang": "en"
+  },
+  {
+    "text": "and let's use this when we are running",
+    "duration": 7119,
+    "offset": 1108440,
+    "lang": "en"
+  },
+  {
+    "text": "slam with gazu I'm going to press",
+    "duration": 4079,
+    "offset": 1111480,
+    "lang": "en"
+  },
+  {
+    "text": "enter and what you should have is",
+    "duration": 7921,
+    "offset": 1116919,
+    "lang": "en"
+  },
+  {
+    "text": "actually a here Aris starting so Aris is",
+    "duration": 7880,
+    "offset": 1119640,
+    "lang": "en"
+  },
+  {
+    "text": "another software that's quite useful in",
+    "duration": 5760,
+    "offset": 1124840,
+    "lang": "en"
+  },
+  {
+    "text": "Ros to and you can see here we have a",
+    "duration": 5960,
+    "offset": 1127520,
+    "lang": "en"
+  },
+  {
+    "text": "start of a map okay so we have a start",
+    "duration": 5680,
+    "offset": 1130600,
+    "lang": "en"
+  },
+  {
+    "text": "of a map that's being generated with",
+    "duration": 4800,
+    "offset": 1133480,
+    "lang": "en"
+  },
+  {
+    "text": "actually what the so the data that we",
+    "duration": 4440,
+    "offset": 1136280,
+    "lang": "en"
+  },
+  {
+    "text": "have from the laser scan you can see it",
+    "duration": 5519,
+    "offset": 1138280,
+    "lang": "en"
+  },
+  {
+    "text": "matches almost perfectly and we have a",
+    "duration": 5800,
+    "offset": 1140720,
+    "lang": "en"
+  },
+  {
+    "text": "map that starts to be generated the goal",
+    "duration": 5721,
+    "offset": 1143799,
+    "lang": "en"
+  },
+  {
+    "text": "here will be to well generate antire map",
+    "duration": 5840,
+    "offset": 1146520,
+    "lang": "en"
+  },
+  {
+    "text": "here and to be able to save it so Gazo",
+    "duration": 4519,
+    "offset": 1149520,
+    "lang": "en"
+  },
+  {
+    "text": "here just to make sure that you",
+    "duration": 3640,
+    "offset": 1152360,
+    "lang": "en"
+  },
+  {
+    "text": "understand the difference Gazo is just",
+    "duration": 4041,
+    "offset": 1154039,
+    "lang": "en"
+  },
+  {
+    "text": "to replace the real robot so either you",
+    "duration": 4640,
+    "offset": 1156000,
+    "lang": "en"
+  },
+  {
+    "text": "start a real robot in a real world or",
+    "duration": 5520,
+    "offset": 1158080,
+    "lang": "en"
+  },
+  {
+    "text": "you start a robot so simulated robot in",
+    "duration": 5519,
+    "offset": 1160640,
+    "lang": "en"
+  },
+  {
+    "text": "a simulation world so this includes all",
+    "duration": 4800,
+    "offset": 1163600,
+    "lang": "en"
+  },
+  {
+    "text": "of the physics okay the inertia the",
+    "duration": 3081,
+    "offset": 1166159,
+    "lang": "en"
+  },
+  {
+    "text": "gravity",
+    "duration": 4000,
+    "offset": 1168400,
+    "lang": "en"
+  },
+  {
+    "text": "everything and then arv is simply a tool",
+    "duration": 4919,
+    "offset": 1169240,
+    "lang": "en"
+  },
+  {
+    "text": "you can see with a lot of options on the",
+    "duration": 4920,
+    "offset": 1172400,
+    "lang": "en"
+  },
+  {
+    "text": "left to just have a visualization tool",
+    "duration": 6321,
+    "offset": 1174159,
+    "lang": "en"
+  },
+  {
+    "text": "for so a 3D visualization tool it's not",
+    "duration": 5080,
+    "offset": 1177320,
+    "lang": "en"
+  },
+  {
+    "text": "the simulation itself the simulation is",
+    "duration": 4880,
+    "offset": 1180480,
+    "lang": "en"
+  },
+  {
+    "text": "in gazebo the Avis is just a tool so",
+    "duration": 5480,
+    "offset": 1182400,
+    "lang": "en"
+  },
+  {
+    "text": "that you can easily do a map for example",
+    "duration": 5360,
+    "offset": 1185360,
+    "lang": "en"
+  },
+  {
+    "text": "easily do navigation you have a lot of",
+    "duration": 5360,
+    "offset": 1187880,
+    "lang": "en"
+  },
+  {
+    "text": "tools that will help you during the",
+    "duration": 5040,
+    "offset": 1190720,
+    "lang": "en"
+  },
+  {
+    "text": "development time of your robot or your",
+    "duration": 4600,
+    "offset": 1193240,
+    "lang": "en"
+  },
+  {
+    "text": "application all right so we have",
+    "duration": 4720,
+    "offset": 1195760,
+    "lang": "en"
+  },
+  {
+    "text": "terminal one we have started gazebo with",
+    "duration": 5400,
+    "offset": 1197840,
+    "lang": "en"
+  },
+  {
+    "text": "too 3 Terminal Two we have started the",
+    "duration": 5480,
+    "offset": 1200480,
+    "lang": "en"
+  },
+  {
+    "text": "slam with AIS terminal three we are",
+    "duration": 5400,
+    "offset": 1203240,
+    "lang": "en"
+  },
+  {
+    "text": "going to start the teop node in order to",
+    "duration": 4680,
+    "offset": 1205960,
+    "lang": "en"
+  },
+  {
+    "text": "make the robot",
+    "duration": 4360,
+    "offset": 1208640,
+    "lang": "en"
+  },
+  {
+    "text": "move okay so now we can make the robot",
+    "duration": 5440,
+    "offset": 1210640,
+    "lang": "en"
+  },
+  {
+    "text": "move and let's uh put this on the side",
+    "duration": 5400,
+    "offset": 1213000,
+    "lang": "en"
+  },
+  {
+    "text": "so if I press W",
+    "duration": 7400,
+    "offset": 1216080,
+    "lang": "en"
+  },
+  {
+    "text": "here so w let's put 0.3 0.03 in velocity",
+    "duration": 7759,
+    "offset": 1218400,
+    "lang": "en"
+  },
+  {
+    "text": "you can see the robot starts to move in",
+    "duration": 6520,
+    "offset": 1223480,
+    "lang": "en"
+  },
+  {
+    "text": "gazebo and also in Arvis we can see at",
+    "duration": 6400,
+    "offset": 1226159,
+    "lang": "en"
+  },
+  {
+    "text": "the robot so we have the TFS I'm going",
+    "duration": 4520,
+    "offset": 1230000,
+    "lang": "en"
+  },
+  {
+    "text": "to come back to this a bit later so the",
+    "duration": 5161,
+    "offset": 1232559,
+    "lang": "en"
+  },
+  {
+    "text": "transforms start to move and the map",
+    "duration": 5320,
+    "offset": 1234520,
+    "lang": "en"
+  },
+  {
+    "text": "starts to be generated with the data",
+    "duration": 6120,
+    "offset": 1237720,
+    "lang": "en"
+  },
+  {
+    "text": "that we have from the laser scan okay so",
+    "duration": 7480,
+    "offset": 1239840,
+    "lang": "en"
+  },
+  {
+    "text": "you can go back here and well we can",
+    "duration": 7000,
+    "offset": 1243840,
+    "lang": "en"
+  },
+  {
+    "text": "increase the speed if we go bit right a",
+    "duration": 6760,
+    "offset": 1247320,
+    "lang": "en"
+  },
+  {
+    "text": "bit left you can see when we rotate I",
+    "duration": 6959,
+    "offset": 1250840,
+    "lang": "en"
+  },
+  {
+    "text": "can stop can rotate a bit when we rotate",
+    "duration": 8880,
+    "offset": 1254080,
+    "lang": "en"
+  },
+  {
+    "text": "it also helps to clear the",
+    "duration": 5161,
+    "offset": 1257799,
+    "lang": "en"
+  },
+  {
+    "text": "map and so the goal here is simply to",
+    "duration": 4520,
+    "offset": 1263039,
+    "lang": "en"
+  },
+  {
+    "text": "have so I'm going to stop you can see",
+    "duration": 5919,
+    "offset": 1265760,
+    "lang": "en"
+  },
+  {
+    "text": "now we have almost so white pixels here",
+    "duration": 7881,
+    "offset": 1267559,
+    "lang": "en"
+  },
+  {
+    "text": "we have white pixels and then black for",
+    "duration": 7801,
+    "offset": 1271679,
+    "lang": "en"
+  },
+  {
+    "text": "obstacles or walls and gray is still",
+    "duration": 5640,
+    "offset": 1275440,
+    "lang": "en"
+  },
+  {
+    "text": "unknown",
+    "duration": 4439,
+    "offset": 1279480,
+    "lang": "en"
+  },
+  {
+    "text": "okay so the goal will simply be to have",
+    "duration": 5560,
+    "offset": 1281080,
+    "lang": "en"
+  },
+  {
+    "text": "everything white okay so all of the free",
+    "duration": 5161,
+    "offset": 1283919,
+    "lang": "en"
+  },
+  {
+    "text": "space should be white and we should have",
+    "duration": 4600,
+    "offset": 1286640,
+    "lang": "en"
+  },
+  {
+    "text": "all of the obstacles with the walls and",
+    "duration": 4800,
+    "offset": 1289080,
+    "lang": "en"
+  },
+  {
+    "text": "the uh object in the middle so we are",
+    "duration": 5960,
+    "offset": 1291240,
+    "lang": "en"
+  },
+  {
+    "text": "just going to move the robot around and",
+    "duration": 4799,
+    "offset": 1293880,
+    "lang": "en"
+  },
+  {
+    "text": "before I finish the map I'm going to",
+    "duration": 3280,
+    "offset": 1297200,
+    "lang": "en"
+  },
+  {
+    "text": "show you well some of the issues that",
+    "duration": 4721,
+    "offset": 1298679,
+    "lang": "en"
+  },
+  {
+    "text": "you may encounter so let's say that you",
+    "duration": 4960,
+    "offset": 1300480,
+    "lang": "en"
+  },
+  {
+    "text": "turn uh too",
+    "duration": 6040,
+    "offset": 1303400,
+    "lang": "en"
+  },
+  {
+    "text": "fast if you turn too fast you can see so",
+    "duration": 6800,
+    "offset": 1305440,
+    "lang": "en"
+  },
+  {
+    "text": "the robot is turning very fast and Aris",
+    "duration": 5680,
+    "offset": 1309440,
+    "lang": "en"
+  },
+  {
+    "text": "may have some issues so here it's still",
+    "duration": 5760,
+    "offset": 1312240,
+    "lang": "en"
+  },
+  {
+    "text": "okay in this map but arv may have some",
+    "duration": 5919,
+    "offset": 1315120,
+    "lang": "en"
+  },
+  {
+    "text": "issues to correctly um create the map so",
+    "duration": 5760,
+    "offset": 1318000,
+    "lang": "en"
+  },
+  {
+    "text": "I would say don't turn too fast is just",
+    "duration": 4681,
+    "offset": 1321039,
+    "lang": "en"
+  },
+  {
+    "text": "because this world is very",
+    "duration": 5600,
+    "offset": 1323760,
+    "lang": "en"
+  },
+  {
+    "text": "simple okay so let's stop and then let's",
+    "duration": 6000,
+    "offset": 1325720,
+    "lang": "en"
+  },
+  {
+    "text": "see what happens if I bump into an",
+    "duration": 4760,
+    "offset": 1329360,
+    "lang": "en"
+  },
+  {
+    "text": "obstacle okay because the map is",
+    "duration": 5760,
+    "offset": 1331720,
+    "lang": "en"
+  },
+  {
+    "text": "generated thanks to the laser scan data",
+    "duration": 6159,
+    "offset": 1334120,
+    "lang": "en"
+  },
+  {
+    "text": "and the laser scan you can see it's um",
+    "duration": 4640,
+    "offset": 1337480,
+    "lang": "en"
+  },
+  {
+    "text": "if I go",
+    "duration": 4880,
+    "offset": 1340279,
+    "lang": "en"
+  },
+  {
+    "text": "here it's in a plan it's in a 2d plan",
+    "duration": 5400,
+    "offset": 1342120,
+    "lang": "en"
+  },
+  {
+    "text": "okay in XY",
+    "duration": 5561,
+    "offset": 1345159,
+    "lang": "en"
+  },
+  {
+    "text": "plan now if I bump into an obstacle we",
+    "duration": 6360,
+    "offset": 1347520,
+    "lang": "en"
+  },
+  {
+    "text": "are not going to stay in this plan so",
+    "duration": 6480,
+    "offset": 1350720,
+    "lang": "en"
+  },
+  {
+    "text": "let's go",
+    "duration": 3320,
+    "offset": 1353880,
+    "lang": "en"
+  },
+  {
+    "text": "straight okay let's just bump into this",
+    "duration": 5839,
+    "offset": 1357840,
+    "lang": "en"
+  },
+  {
+    "text": "obstacle and let's see in AR is what we",
+    "duration": 6039,
+    "offset": 1361000,
+    "lang": "en"
+  },
+  {
+    "text": "have you can see the",
+    "duration": 6921,
+    "offset": 1363679,
+    "lang": "en"
+  },
+  {
+    "text": "robot here will actually went okay the",
+    "duration": 6601,
+    "offset": 1367039,
+    "lang": "en"
+  },
+  {
+    "text": "robot is going a bit crazy now and you",
+    "duration": 5439,
+    "offset": 1370600,
+    "lang": "en"
+  },
+  {
+    "text": "can see the",
+    "duration": 5080,
+    "offset": 1373640,
+    "lang": "en"
+  },
+  {
+    "text": "map you can see the data for laser can",
+    "duration": 5041,
+    "offset": 1376039,
+    "lang": "en"
+  },
+  {
+    "text": "is going a bit also crazy and",
+    "duration": 4520,
+    "offset": 1378720,
+    "lang": "en"
+  },
+  {
+    "text": "surprisingly here well it's still",
+    "duration": 3880,
+    "offset": 1381080,
+    "lang": "en"
+  },
+  {
+    "text": "working again because I think this map",
+    "duration": 4280,
+    "offset": 1383240,
+    "lang": "en"
+  },
+  {
+    "text": "is very simple but for more complex maps",
+    "duration": 4199,
+    "offset": 1384960,
+    "lang": "en"
+  },
+  {
+    "text": "you can see here we have some weird",
+    "duration": 4600,
+    "offset": 1387520,
+    "lang": "en"
+  },
+  {
+    "text": "weird data that we can maybe clean later",
+    "duration": 4640,
+    "offset": 1389159,
+    "lang": "en"
+  },
+  {
+    "text": "but for some other Maps you may have",
+    "duration": 4600,
+    "offset": 1392120,
+    "lang": "en"
+  },
+  {
+    "text": "some issues so well I'm just going to",
+    "duration": 6120,
+    "offset": 1393799,
+    "lang": "en"
+  },
+  {
+    "text": "stop the robot",
+    "duration": 5360,
+    "offset": 1396720,
+    "lang": "en"
+  },
+  {
+    "text": "here okay and if you have some issues",
+    "duration": 4841,
+    "offset": 1399919,
+    "lang": "en"
+  },
+  {
+    "text": "and the map is completely broken while",
+    "duration": 5320,
+    "offset": 1402080,
+    "lang": "en"
+  },
+  {
+    "text": "you can always stop everything so I will",
+    "duration": 6120,
+    "offset": 1404760,
+    "lang": "en"
+  },
+  {
+    "text": "stop this contrl C contrl C and contrl C",
+    "duration": 7480,
+    "offset": 1407400,
+    "lang": "en"
+  },
+  {
+    "text": "and start again okay so start the first",
+    "duration": 6240,
+    "offset": 1410880,
+    "lang": "en"
+  },
+  {
+    "text": "terminal with",
+    "duration": 7039,
+    "offset": 1414880,
+    "lang": "en"
+  },
+  {
+    "text": "gazebo and then start the",
+    "duration": 4799,
+    "offset": 1417120,
+    "lang": "en"
+  },
+  {
+    "text": "slam have this here and then start the T",
+    "duration": 8481,
+    "offset": 1422919,
+    "lang": "en"
+  },
+  {
+    "text": "up keyboard okay so what I've shown you",
+    "duration": 6120,
+    "offset": 1427919,
+    "lang": "en"
+  },
+  {
+    "text": "is just a bit of uh debugging just in",
+    "duration": 5519,
+    "offset": 1431400,
+    "lang": "en"
+  },
+  {
+    "text": "case later you have those issues okay",
+    "duration": 4520,
+    "offset": 1434039,
+    "lang": "en"
+  },
+  {
+    "text": "and you can see when we start again well",
+    "duration": 4240,
+    "offset": 1436919,
+    "lang": "en"
+  },
+  {
+    "text": "we start from the initial position here",
+    "duration": 6000,
+    "offset": 1438559,
+    "lang": "en"
+  },
+  {
+    "text": "and also the map is starting from",
+    "duration": 6760,
+    "offset": 1441159,
+    "lang": "en"
+  },
+  {
+    "text": "scratch so now let's uh just finish this",
+    "duration": 7441,
+    "offset": 1444559,
+    "lang": "en"
+  },
+  {
+    "text": "map so what I do usually I will go",
+    "duration": 8401,
+    "offset": 1447919,
+    "lang": "en"
+  },
+  {
+    "text": "straight not too fast",
+    "duration": 4320,
+    "offset": 1452000,
+    "lang": "en"
+  },
+  {
+    "text": "okay not too fast and I will make some",
+    "duration": 5479,
+    "offset": 1456440,
+    "lang": "en"
+  },
+  {
+    "text": "small rotations here I will turn a bit",
+    "duration": 5559,
+    "offset": 1459240,
+    "lang": "en"
+  },
+  {
+    "text": "on the right turn a bit on the",
+    "duration": 5441,
+    "offset": 1461919,
+    "lang": "en"
+  },
+  {
+    "text": "left okay and maybe when I'm here I will",
+    "duration": 6081,
+    "offset": 1464799,
+    "lang": "en"
+  },
+  {
+    "text": "stop you see I'm here I will stop and I",
+    "duration": 4600,
+    "offset": 1467360,
+    "lang": "en"
+  },
+  {
+    "text": "will",
+    "duration": 5440,
+    "offset": 1470880,
+    "lang": "en"
+  },
+  {
+    "text": "also turn a bit",
+    "duration": 7079,
+    "offset": 1471960,
+    "lang": "en"
+  },
+  {
+    "text": "left and turn a bit right you can see",
+    "duration": 6400,
+    "offset": 1476320,
+    "lang": "en"
+  },
+  {
+    "text": "it's clearing the map a",
+    "duration": 6841,
+    "offset": 1479039,
+    "lang": "en"
+  },
+  {
+    "text": "bit okay and then let's stop and let's",
+    "duration": 6839,
+    "offset": 1482720,
+    "lang": "en"
+  },
+  {
+    "text": "go straight full",
+    "duration": 3679,
+    "offset": 1485880,
+    "lang": "en"
+  },
+  {
+    "text": "speed and okay let's stop here maybe and",
+    "duration": 8721,
+    "offset": 1490399,
+    "lang": "en"
+  },
+  {
+    "text": "let's also turn left",
+    "duration": 10440,
+    "offset": 1494320,
+    "lang": "en"
+  },
+  {
+    "text": "a bit and top come back",
+    "duration": 7960,
+    "offset": 1499120,
+    "lang": "en"
+  },
+  {
+    "text": "right okay I'm going to stop and now",
+    "duration": 4200,
+    "offset": 1504760,
+    "lang": "en"
+  },
+  {
+    "text": "what I'm going to do is",
+    "duration": 6280,
+    "offset": 1507080,
+    "lang": "en"
+  },
+  {
+    "text": "let's go straight and let's turn a",
+    "duration": 6959,
+    "offset": 1508960,
+    "lang": "en"
+  },
+  {
+    "text": "bit and I'm going to finish the map I'm",
+    "duration": 7559,
+    "offset": 1513360,
+    "lang": "en"
+  },
+  {
+    "text": "just going to go through those points",
+    "duration": 5000,
+    "offset": 1515919,
+    "lang": "en"
+  },
+  {
+    "text": "here okay okay and now I have a result",
+    "duration": 6880,
+    "offset": 1527080,
+    "lang": "en"
+  },
+  {
+    "text": "that is satisfying enough okay so I'm",
+    "duration": 5240,
+    "offset": 1530559,
+    "lang": "en"
+  },
+  {
+    "text": "going to come back to this map just in",
+    "duration": 3480,
+    "offset": 1533960,
+    "lang": "en"
+  },
+  {
+    "text": "the next lesson to explain you more",
+    "duration": 4961,
+    "offset": 1535799,
+    "lang": "en"
+  },
+  {
+    "text": "about this but you can see well we have",
+    "duration": 5800,
+    "offset": 1537440,
+    "lang": "en"
+  },
+  {
+    "text": "white white pixels here for free space",
+    "duration": 4360,
+    "offset": 1540760,
+    "lang": "en"
+  },
+  {
+    "text": "and then we have black pixels for",
+    "duration": 4600,
+    "offset": 1543240,
+    "lang": "en"
+  },
+  {
+    "text": "obstacles and gray is the unknown so it",
+    "duration": 4880,
+    "offset": 1545120,
+    "lang": "en"
+  },
+  {
+    "text": "can be the outside or it can be also the",
+    "duration": 4559,
+    "offset": 1547840,
+    "lang": "en"
+  },
+  {
+    "text": "inside of an obstacle because we don't",
+    "duration": 3799,
+    "offset": 1550000,
+    "lang": "en"
+  },
+  {
+    "text": "know exactly what can be here for",
+    "duration": 3681,
+    "offset": 1552399,
+    "lang": "en"
+  },
+  {
+    "text": "example you don't need to finish",
+    "duration": 4721,
+    "offset": 1553799,
+    "lang": "en"
+  },
+  {
+    "text": "perfectly perfectly every pixel of the",
+    "duration": 4599,
+    "offset": 1556080,
+    "lang": "en"
+  },
+  {
+    "text": "map okay that's not really important for",
+    "duration": 4240,
+    "offset": 1558520,
+    "lang": "en"
+  },
+  {
+    "text": "example here you can see we are missing",
+    "duration": 5240,
+    "offset": 1560679,
+    "lang": "en"
+  },
+  {
+    "text": "a bit of this obstacle here but that's",
+    "duration": 5440,
+    "offset": 1562760,
+    "lang": "en"
+  },
+  {
+    "text": "really not a problem that's not going to",
+    "duration": 3760,
+    "offset": 1565919,
+    "lang": "en"
+  },
+  {
+    "text": "be a problem for navigation okay you",
+    "duration": 3839,
+    "offset": 1568200,
+    "lang": "en"
+  },
+  {
+    "text": "don't need to have everything perfect if",
+    "duration": 4201,
+    "offset": 1569679,
+    "lang": "en"
+  },
+  {
+    "text": "you want you can but that's going to",
+    "duration": 5201,
+    "offset": 1572039,
+    "lang": "en"
+  },
+  {
+    "text": "take more time and here for this map is",
+    "duration": 6200,
+    "offset": 1573880,
+    "lang": "en"
+  },
+  {
+    "text": "quite simple map this result is really",
+    "duration": 5159,
+    "offset": 1577240,
+    "lang": "en"
+  },
+  {
+    "text": "enough so now what we're going to do is",
+    "duration": 5680,
+    "offset": 1580080,
+    "lang": "en"
+  },
+  {
+    "text": "to save the map okay CU on now the map",
+    "duration": 5681,
+    "offset": 1582399,
+    "lang": "en"
+  },
+  {
+    "text": "is not saved anywhere and if we stop",
+    "duration": 3200,
+    "offset": 1585760,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 4000,
+    "offset": 1588080,
+    "lang": "en"
+  },
+  {
+    "text": "uh the slam then well we just lose the",
+    "duration": 4920,
+    "offset": 1588960,
+    "lang": "en"
+  },
+  {
+    "text": "map so make sure that you save the map",
+    "duration": 3599,
+    "offset": 1592080,
+    "lang": "en"
+  },
+  {
+    "text": "correctly before you stop everything",
+    "duration": 3240,
+    "offset": 1593880,
+    "lang": "en"
+  },
+  {
+    "text": "otherwise you have to do everything",
+    "duration": 4321,
+    "offset": 1595679,
+    "lang": "en"
+  },
+  {
+    "text": "again so let's uh open a new terminal",
+    "duration": 4000,
+    "offset": 1597120,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 4159,
+    "offset": 1600000,
+    "lang": "en"
+  },
+  {
+    "text": "and I will",
+    "duration": 8360,
+    "offset": 1601120,
+    "lang": "en"
+  },
+  {
+    "text": "um so I am in my home directory okay and",
+    "duration": 7481,
+    "offset": 1604159,
+    "lang": "en"
+  },
+  {
+    "text": "what I will do is I will create maybe",
+    "duration": 4360,
+    "offset": 1609480,
+    "lang": "en"
+  },
+  {
+    "text": "let's create directory",
+    "duration": 6279,
+    "offset": 1611640,
+    "lang": "en"
+  },
+  {
+    "text": "mkd Maps so that when I generate Maps I",
+    "duration": 6280,
+    "offset": 1613840,
+    "lang": "en"
+  },
+  {
+    "text": "will just just put them into my maps",
+    "duration": 5561,
+    "offset": 1617919,
+    "lang": "en"
+  },
+  {
+    "text": "folder and then to generate the map you",
+    "duration": 8360,
+    "offset": 1620120,
+    "lang": "en"
+  },
+  {
+    "text": "will do Ros to run nav to",
+    "duration": 8400,
+    "offset": 1623480,
+    "lang": "en"
+  },
+  {
+    "text": "map server okay and",
+    "duration": 4919,
+    "offset": 1628480,
+    "lang": "en"
+  },
+  {
+    "text": "then",
+    "duration": 6399,
+    "offset": 1631880,
+    "lang": "en"
+  },
+  {
+    "text": "map saver CLI for common line interface",
+    "duration": 9321,
+    "offset": 1633399,
+    "lang": "en"
+  },
+  {
+    "text": "okay so R to run nav to map server map",
+    "duration": 8000,
+    "offset": 1638279,
+    "lang": "en"
+  },
+  {
+    "text": "saver CLI and then you can provide uh so",
+    "duration": 6880,
+    "offset": 1642720,
+    "lang": "en"
+  },
+  {
+    "text": "Dash F you can provide where so the path",
+    "duration": 6161,
+    "offset": 1646279,
+    "lang": "en"
+  },
+  {
+    "text": "and the name of the file so let's put",
+    "duration": 6280,
+    "offset": 1649600,
+    "lang": "en"
+  },
+  {
+    "text": "Maps let's save into maps and let's uh",
+    "duration": 7440,
+    "offset": 1652440,
+    "lang": "en"
+  },
+  {
+    "text": "name it my map just like that you don't",
+    "duration": 7080,
+    "offset": 1655880,
+    "lang": "en"
+  },
+  {
+    "text": "provide an extension here let's press",
+    "duration": 5799,
+    "offset": 1659880,
+    "lang": "en"
+  },
+  {
+    "text": "enter and you can see this so we should",
+    "duration": 5160,
+    "offset": 1662960,
+    "lang": "en"
+  },
+  {
+    "text": "have something like this creating",
+    "duration": 5600,
+    "offset": 1665679,
+    "lang": "en"
+  },
+  {
+    "text": "configuring map saved Etc if you have an",
+    "duration": 5320,
+    "offset": 1668120,
+    "lang": "en"
+  },
+  {
+    "text": "error here just run this command",
+    "duration": 4321,
+    "offset": 1671279,
+    "lang": "en"
+  },
+  {
+    "text": "multiple times until it works because it",
+    "duration": 5440,
+    "offset": 1673440,
+    "lang": "en"
+  },
+  {
+    "text": "should work at some point and now uh so",
+    "duration": 6600,
+    "offset": 1675600,
+    "lang": "en"
+  },
+  {
+    "text": "if I go to maps you can see I have my",
+    "duration": 7519,
+    "offset": 1678880,
+    "lang": "en"
+  },
+  {
+    "text": "map. PGM and my map. yaml so we have",
+    "duration": 7040,
+    "offset": 1682200,
+    "lang": "en"
+  },
+  {
+    "text": "successfully saved the map and what I",
+    "duration": 5760,
+    "offset": 1686399,
+    "lang": "en"
+  },
+  {
+    "text": "can do now is I can stop this so contrl",
+    "duration": 6480,
+    "offset": 1689240,
+    "lang": "en"
+  },
+  {
+    "text": "C contrl C and contrl C and the map is",
+    "duration": 6961,
+    "offset": 1692159,
+    "lang": "en"
+  },
+  {
+    "text": "now saved you've already made a lot of",
+    "duration": 6000,
+    "offset": 1695720,
+    "lang": "en"
+  },
+  {
+    "text": "progress congratulations now we are",
+    "duration": 4919,
+    "offset": 1699120,
+    "lang": "en"
+  },
+  {
+    "text": "about halfway through the crash course I",
+    "duration": 4199,
+    "offset": 1701720,
+    "lang": "en"
+  },
+  {
+    "text": "hope that you are learning a lot and I",
+    "duration": 3921,
+    "offset": 1704039,
+    "lang": "en"
+  },
+  {
+    "text": "also hope that you like the crash course",
+    "duration": 4120,
+    "offset": 1705919,
+    "lang": "en"
+  },
+  {
+    "text": "if if you find it useful then you might",
+    "duration": 4360,
+    "offset": 1707960,
+    "lang": "en"
+  },
+  {
+    "text": "want to check out my bigger navigation",
+    "duration": 4801,
+    "offset": 1710039,
+    "lang": "en"
+  },
+  {
+    "text": "to course which contains more than 6",
+    "duration": 5359,
+    "offset": 1712320,
+    "lang": "en"
+  },
+  {
+    "text": "hours of structured video lessons and",
+    "duration": 4959,
+    "offset": 1714840,
+    "lang": "en"
+  },
+  {
+    "text": "which will take you much further into",
+    "duration": 4600,
+    "offset": 1717679,
+    "lang": "en"
+  },
+  {
+    "text": "the understanding of the nav to stack I",
+    "duration": 4360,
+    "offset": 1719799,
+    "lang": "en"
+  },
+  {
+    "text": "will leave a link in the description if",
+    "duration": 3841,
+    "offset": 1722279,
+    "lang": "en"
+  },
+  {
+    "text": "you are interested all right and let's",
+    "duration": 4760,
+    "offset": 1724159,
+    "lang": "en"
+  },
+  {
+    "text": "continue with the",
+    "duration": 2799,
+    "offset": 1726120,
+    "lang": "en"
+  },
+  {
+    "text": "video okay great we have now generated a",
+    "duration": 7160,
+    "offset": 1729440,
+    "lang": "en"
+  },
+  {
+    "text": "map but what exactly is inside this map",
+    "duration": 5760,
+    "offset": 1732519,
+    "lang": "en"
+  },
+  {
+    "text": "in this lesson I will show you the the",
+    "duration": 3360,
+    "offset": 1736600,
+    "lang": "en"
+  },
+  {
+    "text": "most important things that you need to",
+    "duration": 4361,
+    "offset": 1738279,
+    "lang": "en"
+  },
+  {
+    "text": "know about the map so we have I'm going",
+    "duration": 6040,
+    "offset": 1739960,
+    "lang": "en"
+  },
+  {
+    "text": "to open a file manager and in maps we",
+    "duration": 7000,
+    "offset": 1742640,
+    "lang": "en"
+  },
+  {
+    "text": "have saved our map and we have two files",
+    "duration": 6440,
+    "offset": 1746000,
+    "lang": "en"
+  },
+  {
+    "text": "first you can see we have a PGM file",
+    "duration": 4919,
+    "offset": 1749640,
+    "lang": "en"
+  },
+  {
+    "text": "which actually you can see that's the",
+    "duration": 6359,
+    "offset": 1752440,
+    "lang": "en"
+  },
+  {
+    "text": "image for the map okay and so we have",
+    "duration": 5641,
+    "offset": 1754559,
+    "lang": "en"
+  },
+  {
+    "text": "three different colors here for the",
+    "duration": 3921,
+    "offset": 1758799,
+    "lang": "en"
+  },
+  {
+    "text": "pixels we have white we have black and",
+    "duration": 6400,
+    "offset": 1760200,
+    "lang": "en"
+  },
+  {
+    "text": "we have gray so white means free space",
+    "duration": 7160,
+    "offset": 1762720,
+    "lang": "en"
+  },
+  {
+    "text": "black is an obst ccle or a wall so",
+    "duration": 6959,
+    "offset": 1766600,
+    "lang": "en"
+  },
+  {
+    "text": "something you cannot go into and gray is",
+    "duration": 5679,
+    "offset": 1769880,
+    "lang": "en"
+  },
+  {
+    "text": "unknown so as you can see everything",
+    "duration": 4120,
+    "offset": 1773559,
+    "lang": "en"
+  },
+  {
+    "text": "that's outside is unknown we don't know",
+    "duration": 4480,
+    "offset": 1775559,
+    "lang": "en"
+  },
+  {
+    "text": "what's behind those walls and everything",
+    "duration": 5561,
+    "offset": 1777679,
+    "lang": "en"
+  },
+  {
+    "text": "that's also inside the obstacles is",
+    "duration": 5401,
+    "offset": 1780039,
+    "lang": "en"
+  },
+  {
+    "text": "unknown okay so this map is going to be",
+    "duration": 4640,
+    "offset": 1783240,
+    "lang": "en"
+  },
+  {
+    "text": "loaded later on when we run the",
+    "duration": 5040,
+    "offset": 1785440,
+    "lang": "en"
+  },
+  {
+    "text": "navigation and we can use this to",
+    "duration": 6320,
+    "offset": 1787880,
+    "lang": "en"
+  },
+  {
+    "text": "actually find a path to a destination",
+    "duration": 6480,
+    "offset": 1790480,
+    "lang": "en"
+  },
+  {
+    "text": "easily so we have this image file and",
+    "duration": 5079,
+    "offset": 1794200,
+    "lang": "en"
+  },
+  {
+    "text": "then we have a yaml file so let's open",
+    "duration": 5599,
+    "offset": 1796960,
+    "lang": "en"
+  },
+  {
+    "text": "with jedit for example and in this file",
+    "duration": 6161,
+    "offset": 1799279,
+    "lang": "en"
+  },
+  {
+    "text": "we have several information so first",
+    "duration": 6161,
+    "offset": 1802559,
+    "lang": "en"
+  },
+  {
+    "text": "image is well the path so the relative",
+    "duration": 6079,
+    "offset": 1805440,
+    "lang": "en"
+  },
+  {
+    "text": "path to the image file then the mode of",
+    "duration": 5400,
+    "offset": 1808720,
+    "lang": "en"
+  },
+  {
+    "text": "the image well not very important here",
+    "duration": 4681,
+    "offset": 1811519,
+    "lang": "en"
+  },
+  {
+    "text": "and then the important parameters here",
+    "duration": 5480,
+    "offset": 1814120,
+    "lang": "en"
+  },
+  {
+    "text": "we have the resolution the resolution",
+    "duration": 9599,
+    "offset": 1816200,
+    "lang": "en"
+  },
+  {
+    "text": "here is in met per pixel so you take one",
+    "duration": 11559,
+    "offset": 1819600,
+    "lang": "en"
+  },
+  {
+    "text": "pixel here one pixel and it's",
+    "duration": 9921,
+    "offset": 1825799,
+    "lang": "en"
+  },
+  {
+    "text": "0.05 M so which means 5 cm so for each",
+    "duration": 8321,
+    "offset": 1831159,
+    "lang": "en"
+  },
+  {
+    "text": "pixel of this map we have 5 cm so we",
+    "duration": 8000,
+    "offset": 1835720,
+    "lang": "en"
+  },
+  {
+    "text": "have a 5 cm Precision so is it a lot is",
+    "duration": 6760,
+    "offset": 1839480,
+    "lang": "en"
+  },
+  {
+    "text": "it not a lot well it depends here when",
+    "duration": 5360,
+    "offset": 1843720,
+    "lang": "en"
+  },
+  {
+    "text": "you are doing navigation with a mobile",
+    "duration": 5880,
+    "offset": 1846240,
+    "lang": "en"
+  },
+  {
+    "text": "robot 5 cm can be really completely",
+    "duration": 5360,
+    "offset": 1849080,
+    "lang": "en"
+  },
+  {
+    "text": "enough think about when you move",
+    "duration": 5080,
+    "offset": 1852120,
+    "lang": "en"
+  },
+  {
+    "text": "yourself inside a flat or in an office",
+    "duration": 5359,
+    "offset": 1854440,
+    "lang": "en"
+  },
+  {
+    "text": "when you pass uh through a door you",
+    "duration": 4880,
+    "offset": 1857200,
+    "lang": "en"
+  },
+  {
+    "text": "probably don't try to pass as close as",
+    "duration": 3681,
+    "offset": 1859799,
+    "lang": "en"
+  },
+  {
+    "text": "possible to the door you just give",
+    "duration": 3880,
+    "offset": 1862080,
+    "lang": "en"
+  },
+  {
+    "text": "yourself some margins maybe I don't know",
+    "duration": 6360,
+    "offset": 1863480,
+    "lang": "en"
+  },
+  {
+    "text": "10 cm 15 cm on each side okay you don't",
+    "duration": 6400,
+    "offset": 1865960,
+    "lang": "en"
+  },
+  {
+    "text": "try to be as precise as possible you",
+    "duration": 4520,
+    "offset": 1869840,
+    "lang": "en"
+  },
+  {
+    "text": "just give yourself some margins and",
+    "duration": 6319,
+    "offset": 1872360,
+    "lang": "en"
+  },
+  {
+    "text": "everything works fine okay so 5 cm for",
+    "duration": 6600,
+    "offset": 1874360,
+    "lang": "en"
+  },
+  {
+    "text": "navigation uh well it depends on the",
+    "duration": 4880,
+    "offset": 1878679,
+    "lang": "en"
+  },
+  {
+    "text": "cases but for this case and for most of",
+    "duration": 5559,
+    "offset": 1880960,
+    "lang": "en"
+  },
+  {
+    "text": "the basic cases is going to be enough",
+    "duration": 4960,
+    "offset": 1883559,
+    "lang": "en"
+  },
+  {
+    "text": "and also of course the more more you",
+    "duration": 4760,
+    "offset": 1886519,
+    "lang": "en"
+  },
+  {
+    "text": "increase the resolution the more",
+    "duration": 4321,
+    "offset": 1888519,
+    "lang": "en"
+  },
+  {
+    "text": "computations you will have to do so",
+    "duration": 3880,
+    "offset": 1891279,
+    "lang": "en"
+  },
+  {
+    "text": "that's a trade off to think about but",
+    "duration": 5839,
+    "offset": 1892840,
+    "lang": "en"
+  },
+  {
+    "text": "for now 5 cm is enough then we have the",
+    "duration": 5441,
+    "offset": 1895159,
+    "lang": "en"
+  },
+  {
+    "text": "origin which is the coordinates of the",
+    "duration": 6000,
+    "offset": 1898679,
+    "lang": "en"
+  },
+  {
+    "text": "lowest left point on the map so here in",
+    "duration": 6160,
+    "offset": 1900600,
+    "lang": "en"
+  },
+  {
+    "text": "this map in this image we take the",
+    "duration": 5281,
+    "offset": 1904679,
+    "lang": "en"
+  },
+  {
+    "text": "lowest left Point here and well if you",
+    "duration": 5399,
+    "offset": 1906760,
+    "lang": "en"
+  },
+  {
+    "text": "remember the robot actually the initial",
+    "duration": 5160,
+    "offset": 1909960,
+    "lang": "en"
+  },
+  {
+    "text": "position started around this position",
+    "duration": 6601,
+    "offset": 1912159,
+    "lang": "en"
+  },
+  {
+    "text": "here and actually the image was rotated",
+    "duration": 6600,
+    "offset": 1915120,
+    "lang": "en"
+  },
+  {
+    "text": "like",
+    "duration": 2960,
+    "offset": 1918760,
+    "lang": "en"
+  },
+  {
+    "text": "this so the lowest left point on the map",
+    "duration": 4520,
+    "offset": 1922039,
+    "lang": "en"
+  },
+  {
+    "text": "is still actually this one okay because",
+    "duration": 4520,
+    "offset": 1924639,
+    "lang": "en"
+  },
+  {
+    "text": "I've rotated the image and if you",
+    "duration": 5120,
+    "offset": 1926559,
+    "lang": "en"
+  },
+  {
+    "text": "remember also the X was pointing forward",
+    "duration": 5681,
+    "offset": 1929159,
+    "lang": "en"
+  },
+  {
+    "text": "and the Y was pointing 90° to the left",
+    "duration": 6000,
+    "offset": 1931679,
+    "lang": "en"
+  },
+  {
+    "text": "okay so we have the x axis here and the",
+    "duration": 6199,
+    "offset": 1934840,
+    "lang": "en"
+  },
+  {
+    "text": "Y AIS here if we take this point and we",
+    "duration": 6761,
+    "offset": 1937679,
+    "lang": "en"
+  },
+  {
+    "text": "go minus 1.24 on the x axis we're going",
+    "duration": 5640,
+    "offset": 1941039,
+    "lang": "en"
+  },
+  {
+    "text": "to arrive somewhere here and then minus",
+    "duration": 5400,
+    "offset": 1944440,
+    "lang": "en"
+  },
+  {
+    "text": "2.39 on the y axis we're going to arrive",
+    "duration": 5041,
+    "offset": 1946679,
+    "lang": "en"
+  },
+  {
+    "text": "right here so basically it's the link",
+    "duration": 4360,
+    "offset": 1949840,
+    "lang": "en"
+  },
+  {
+    "text": "between this point and that point where",
+    "duration": 5000,
+    "offset": 1951720,
+    "lang": "en"
+  },
+  {
+    "text": "the robot started so that's the origin",
+    "duration": 6439,
+    "offset": 1954200,
+    "lang": "en"
+  },
+  {
+    "text": "of the map then negate is zero here if",
+    "duration": 6720,
+    "offset": 1956720,
+    "lang": "en"
+  },
+  {
+    "text": "you put one that's going to Simply",
+    "duration": 5201,
+    "offset": 1960639,
+    "lang": "en"
+  },
+  {
+    "text": "negate so inverse all of the values so",
+    "duration": 4160,
+    "offset": 1963440,
+    "lang": "en"
+  },
+  {
+    "text": "everything that's white is going to be",
+    "duration": 3520,
+    "offset": 1965840,
+    "lang": "en"
+  },
+  {
+    "text": "black and everything that's black is",
+    "duration": 4120,
+    "offset": 1967600,
+    "lang": "en"
+  },
+  {
+    "text": "going to be white not very useful in our",
+    "duration": 5840,
+    "offset": 1969360,
+    "lang": "en"
+  },
+  {
+    "text": "case and then this uh occupi threshold",
+    "duration": 6240,
+    "offset": 1971720,
+    "lang": "en"
+  },
+  {
+    "text": "so the thing is we have here a clear",
+    "duration": 5280,
+    "offset": 1975200,
+    "lang": "en"
+  },
+  {
+    "text": "separation between so that's black or",
+    "duration": 4439,
+    "offset": 1977960,
+    "lang": "en"
+  },
+  {
+    "text": "that's white okay so black is an",
+    "duration": 4400,
+    "offset": 1980480,
+    "lang": "en"
+  },
+  {
+    "text": "obstacle white is free space but in the",
+    "duration": 4760,
+    "offset": 1982399,
+    "lang": "en"
+  },
+  {
+    "text": "end it's all about probability it's",
+    "duration": 4399,
+    "offset": 1984880,
+    "lang": "en"
+  },
+  {
+    "text": "about the probability that one pixel is",
+    "duration": 4921,
+    "offset": 1987159,
+    "lang": "en"
+  },
+  {
+    "text": "occupied or not and so here the setting",
+    "duration": 6760,
+    "offset": 1989279,
+    "lang": "en"
+  },
+  {
+    "text": "is that if a pixel has a more than 65%",
+    "duration": 6640,
+    "offset": 1992080,
+    "lang": "en"
+  },
+  {
+    "text": "chance so probability of being occupied",
+    "duration": 5760,
+    "offset": 1996039,
+    "lang": "en"
+  },
+  {
+    "text": "then it is considered as occupied if the",
+    "duration": 5079,
+    "offset": 1998720,
+    "lang": "en"
+  },
+  {
+    "text": "probability that the pixel is occupied",
+    "duration": 5240,
+    "offset": 2001799,
+    "lang": "en"
+  },
+  {
+    "text": "is less than 25% then we consider the",
+    "duration": 5801,
+    "offset": 2003799,
+    "lang": "en"
+  },
+  {
+    "text": "pixel as not occupied and in the end",
+    "duration": 4681,
+    "offset": 2007039,
+    "lang": "en"
+  },
+  {
+    "text": "also here you can see that well those",
+    "duration": 3880,
+    "offset": 2009600,
+    "lang": "en"
+  },
+  {
+    "text": "values that we have here are simply so",
+    "duration": 4520,
+    "offset": 2011720,
+    "lang": "en"
+  },
+  {
+    "text": "each pixel is going to be a shade of",
+    "duration": 6079,
+    "offset": 2013480,
+    "lang": "en"
+  },
+  {
+    "text": "gray so from complete black to white and",
+    "duration": 6600,
+    "offset": 2016240,
+    "lang": "en"
+  },
+  {
+    "text": "each pixel will be a value between 0 and",
+    "duration": 7840,
+    "offset": 2019559,
+    "lang": "en"
+  },
+  {
+    "text": "255 and so if a pixel is more than 65%",
+    "duration": 7280,
+    "offset": 2022840,
+    "lang": "en"
+  },
+  {
+    "text": "into the black uh Direction out of those",
+    "duration": 5520,
+    "offset": 2027399,
+    "lang": "en"
+  },
+  {
+    "text": "255 numbers then it's going to be",
+    "duration": 6000,
+    "offset": 2030120,
+    "lang": "en"
+  },
+  {
+    "text": "occupied if it's less than 25% out of",
+    "duration": 4921,
+    "offset": 2032919,
+    "lang": "en"
+  },
+  {
+    "text": "those 255",
+    "duration": 4600,
+    "offset": 2036120,
+    "lang": "en"
+  },
+  {
+    "text": "values is going to be not occupied okay",
+    "duration": 5400,
+    "offset": 2037840,
+    "lang": "en"
+  },
+  {
+    "text": "so you have some infos about what is the",
+    "duration": 5040,
+    "offset": 2040720,
+    "lang": "en"
+  },
+  {
+    "text": "map I would say here the most important",
+    "duration": 4640,
+    "offset": 2043240,
+    "lang": "en"
+  },
+  {
+    "text": "information to remember is this",
+    "duration": 4520,
+    "offset": 2045760,
+    "lang": "en"
+  },
+  {
+    "text": "resolution thingy here and one other",
+    "duration": 5400,
+    "offset": 2047880,
+    "lang": "en"
+  },
+  {
+    "text": "thing we can do so let's uh just open",
+    "duration": 4000,
+    "offset": 2050280,
+    "lang": "en"
+  },
+  {
+    "text": "the",
+    "duration": 5760,
+    "offset": 2053280,
+    "lang": "en"
+  },
+  {
+    "text": "map so let's open my map. PGM with Nano",
+    "duration": 6960,
+    "offset": 2054280,
+    "lang": "en"
+  },
+  {
+    "text": "to see actually what's",
+    "duration": 4680,
+    "offset": 2059040,
+    "lang": "en"
+  },
+  {
+    "text": "inside and well we have a lot of",
+    "duration": 4480,
+    "offset": 2061240,
+    "lang": "en"
+  },
+  {
+    "text": "characters that actually the image but",
+    "duration": 3399,
+    "offset": 2063720,
+    "lang": "en"
+  },
+  {
+    "text": "at the beginning you have something like",
+    "duration": 5119,
+    "offset": 2065720,
+    "lang": "en"
+  },
+  {
+    "text": "P5 and then you have this which",
+    "duration": 6841,
+    "offset": 2067119,
+    "lang": "en"
+  },
+  {
+    "text": "represents actually the number of pixel",
+    "duration": 6961,
+    "offset": 2070839,
+    "lang": "en"
+  },
+  {
+    "text": "of the image so it will be like this",
+    "duration": 7800,
+    "offset": 2073960,
+    "lang": "en"
+  },
+  {
+    "text": "original image so we have 124 pixel on",
+    "duration": 9160,
+    "offset": 2077800,
+    "lang": "en"
+  },
+  {
+    "text": "the X and 116 on the Y so now if you",
+    "duration": 7440,
+    "offset": 2081760,
+    "lang": "en"
+  },
+  {
+    "text": "multiply let's",
+    "duration": 5879,
+    "offset": 2086960,
+    "lang": "en"
+  },
+  {
+    "text": "multiply the number of pixels",
+    "duration": 7320,
+    "offset": 2089200,
+    "lang": "en"
+  },
+  {
+    "text": "so4 multiplied by",
+    "duration": 6361,
+    "offset": 2092839,
+    "lang": "en"
+  },
+  {
+    "text": "0.05 that's the",
+    "duration": 4960,
+    "offset": 2096520,
+    "lang": "en"
+  },
+  {
+    "text": "resolution which means that the map is",
+    "duration": 5919,
+    "offset": 2099200,
+    "lang": "en"
+  },
+  {
+    "text": "6.2 M long here so including the gray",
+    "duration": 7040,
+    "offset": 2101480,
+    "lang": "en"
+  },
+  {
+    "text": "area and is so let's do",
+    "duration": 7201,
+    "offset": 2105119,
+    "lang": "en"
+  },
+  {
+    "text": "116 multipli by",
+    "duration": 3800,
+    "offset": 2108520,
+    "lang": "en"
+  },
+  {
+    "text": "0.05 is equal to",
+    "duration": 6521,
+    "offset": 2114119,
+    "lang": "en"
+  },
+  {
+    "text": "5.8 M so you have the exact dimensions",
+    "duration": 6039,
+    "offset": 2116800,
+    "lang": "en"
+  },
+  {
+    "text": "here of the map if you want to know the",
+    "duration": 4520,
+    "offset": 2120640,
+    "lang": "en"
+  },
+  {
+    "text": "dimensions you can compute it like this",
+    "duration": 5081,
+    "offset": 2122839,
+    "lang": "en"
+  },
+  {
+    "text": "easily you find the resolution you find",
+    "duration": 5000,
+    "offset": 2125160,
+    "lang": "en"
+  },
+  {
+    "text": "the number of pixels and then you can",
+    "duration": 4240,
+    "offset": 2127920,
+    "lang": "en"
+  },
+  {
+    "text": "just multiply them and you have the",
+    "duration": 4640,
+    "offset": 2130160,
+    "lang": "en"
+  },
+  {
+    "text": "dimensions in meters all right so that's",
+    "duration": 4160,
+    "offset": 2132160,
+    "lang": "en"
+  },
+  {
+    "text": "pretty much it about the map you don't",
+    "duration": 3640,
+    "offset": 2134800,
+    "lang": "en"
+  },
+  {
+    "text": "need to understand everything right now",
+    "duration": 5080,
+    "offset": 2136320,
+    "lang": "en"
+  },
+  {
+    "text": "it's just to help to well to get some",
+    "duration": 6520,
+    "offset": 2138440,
+    "lang": "en"
+  },
+  {
+    "text": "ideas about what you just saved and now",
+    "duration": 5199,
+    "offset": 2141400,
+    "lang": "en"
+  },
+  {
+    "text": "this map is very important because",
+    "duration": 4480,
+    "offset": 2144960,
+    "lang": "en"
+  },
+  {
+    "text": "that's what we're going to use as a base",
+    "duration": 6561,
+    "offset": 2146599,
+    "lang": "en"
+  },
+  {
+    "text": "to navigate in the next",
+    "duration": 3720,
+    "offset": 2149440,
+    "lang": "en"
+  },
+  {
+    "text": "section and before we get started here",
+    "duration": 4879,
+    "offset": 2154440,
+    "lang": "en"
+  },
+  {
+    "text": "there is a quick fix we need to do the",
+    "duration": 4800,
+    "offset": 2156760,
+    "lang": "en"
+  },
+  {
+    "text": "thing is there are still some issues",
+    "duration": 4361,
+    "offset": 2159319,
+    "lang": "en"
+  },
+  {
+    "text": "with the navigation to stack on Ros to",
+    "duration": 4279,
+    "offset": 2161560,
+    "lang": "en"
+  },
+  {
+    "text": "Humble in the following lessons when we",
+    "duration": 4439,
+    "offset": 2163680,
+    "lang": "en"
+  },
+  {
+    "text": "load the map with the navigation stack",
+    "duration": 5161,
+    "offset": 2165839,
+    "lang": "en"
+  },
+  {
+    "text": "it may happen that the map is not loaded",
+    "duration": 6121,
+    "offset": 2168119,
+    "lang": "en"
+  },
+  {
+    "text": "correctly or not loaded on time and this",
+    "duration": 5680,
+    "offset": 2171000,
+    "lang": "en"
+  },
+  {
+    "text": "will prevent you from going further I",
+    "duration": 4839,
+    "offset": 2174240,
+    "lang": "en"
+  },
+  {
+    "text": "have personally experienced those issues",
+    "duration": 4360,
+    "offset": 2176680,
+    "lang": "en"
+  },
+  {
+    "text": "and have found some fixes on the",
+    "duration": 4121,
+    "offset": 2179079,
+    "lang": "en"
+  },
+  {
+    "text": "wonderful internet and well I'm going to",
+    "duration": 3840,
+    "offset": 2181040,
+    "lang": "en"
+  },
+  {
+    "text": "show you that now so you won't have to",
+    "duration": 3720,
+    "offset": 2183200,
+    "lang": "en"
+  },
+  {
+    "text": "bash your head against your computer in",
+    "duration": 4239,
+    "offset": 2184880,
+    "lang": "en"
+  },
+  {
+    "text": "the following sections I have done that",
+    "duration": 4720,
+    "offset": 2186920,
+    "lang": "en"
+  },
+  {
+    "text": "for you already so make sure you watch",
+    "duration": 4240,
+    "offset": 2189119,
+    "lang": "en"
+  },
+  {
+    "text": "this video Until the End and make sure",
+    "duration": 4959,
+    "offset": 2191640,
+    "lang": "en"
+  },
+  {
+    "text": "you do exactly the same steps as I do we",
+    "duration": 6041,
+    "offset": 2193359,
+    "lang": "en"
+  },
+  {
+    "text": "actually have two small things to do",
+    "duration": 5240,
+    "offset": 2196599,
+    "lang": "en"
+  },
+  {
+    "text": "first we are going to change the DDS",
+    "duration": 6199,
+    "offset": 2199400,
+    "lang": "en"
+  },
+  {
+    "text": "from Fast DDS to Cyclone DDS to make it",
+    "duration": 6520,
+    "offset": 2201839,
+    "lang": "en"
+  },
+  {
+    "text": "quick Rost to communication is based on",
+    "duration": 5240,
+    "offset": 2205599,
+    "lang": "en"
+  },
+  {
+    "text": "DDS and I'm not going to explain DDS",
+    "duration": 4601,
+    "offset": 2208359,
+    "lang": "en"
+  },
+  {
+    "text": "here you can check that on your own if",
+    "duration": 3480,
+    "offset": 2210839,
+    "lang": "en"
+  },
+  {
+    "text": "you want to but that's not really",
+    "duration": 3040,
+    "offset": 2212960,
+    "lang": "en"
+  },
+  {
+    "text": "important for this course what's",
+    "duration": 3641,
+    "offset": 2214319,
+    "lang": "en"
+  },
+  {
+    "text": "important is to use the right one that",
+    "duration": 4079,
+    "offset": 2216000,
+    "lang": "en"
+  },
+  {
+    "text": "will allow us to make the navigation to",
+    "duration": 5320,
+    "offset": 2217960,
+    "lang": "en"
+  },
+  {
+    "text": "stack work correctly so to install",
+    "duration": 6520,
+    "offset": 2220079,
+    "lang": "en"
+  },
+  {
+    "text": "Cyclone DDS we will do pseudo AP so you",
+    "duration": 6960,
+    "offset": 2223280,
+    "lang": "en"
+  },
+  {
+    "text": "can do a sudo AP update",
+    "duration": 3641,
+    "offset": 2226599,
+    "lang": "en"
+  },
+  {
+    "text": "first okay and then you can do sudo AP",
+    "duration": 8840,
+    "offset": 2232040,
+    "lang": "en"
+  },
+  {
+    "text": "install Ross dumble",
+    "duration": 7760,
+    "offset": 2235880,
+    "lang": "en"
+  },
+  {
+    "text": "DMW Das",
+    "duration": 7360,
+    "offset": 2240880,
+    "lang": "en"
+  },
+  {
+    "text": "Cyclone DDS D CPP okay so you can press",
+    "duration": 7120,
+    "offset": 2243640,
+    "lang": "en"
+  },
+  {
+    "text": "tab for autoc completion here and let's",
+    "duration": 4920,
+    "offset": 2248240,
+    "lang": "en"
+  },
+  {
+    "text": "install this package so for me it's",
+    "duration": 3720,
+    "offset": 2250760,
+    "lang": "en"
+  },
+  {
+    "text": "already installed I've done that",
+    "duration": 2840,
+    "offset": 2253160,
+    "lang": "en"
+  },
+  {
+    "text": "previously for you it's going to install",
+    "duration": 3800,
+    "offset": 2254480,
+    "lang": "en"
+  },
+  {
+    "text": "the package and then once the package is",
+    "duration": 5520,
+    "offset": 2256000,
+    "lang": "en"
+  },
+  {
+    "text": "installed we actually need to tell rosu",
+    "duration": 5880,
+    "offset": 2258280,
+    "lang": "en"
+  },
+  {
+    "text": "to use this DDS and to do this we need",
+    "duration": 5960,
+    "offset": 2261520,
+    "lang": "en"
+  },
+  {
+    "text": "to export an environment variable so",
+    "duration": 5240,
+    "offset": 2264160,
+    "lang": "en"
+  },
+  {
+    "text": "instead of doing this for every terminal",
+    "duration": 4000,
+    "offset": 2267480,
+    "lang": "en"
+  },
+  {
+    "text": "that we use let's actually go to our",
+    "duration": 5400,
+    "offset": 2269400,
+    "lang": "en"
+  },
+  {
+    "text": "bash SCC let's edit the bash",
+    "duration": 6240,
+    "offset": 2271480,
+    "lang": "en"
+  },
+  {
+    "text": "SCC and here we have so we already we",
+    "duration": 5760,
+    "offset": 2274800,
+    "lang": "en"
+  },
+  {
+    "text": "have an export for the table 3 Model we",
+    "duration": 6240,
+    "offset": 2277720,
+    "lang": "en"
+  },
+  {
+    "text": "have a source for the global Rost to",
+    "duration": 5559,
+    "offset": 2280560,
+    "lang": "en"
+  },
+  {
+    "text": "installation and well let's just add an",
+    "duration": 4879,
+    "offset": 2283960,
+    "lang": "en"
+  },
+  {
+    "text": "export here okay let's put all of the",
+    "duration": 4841,
+    "offset": 2286119,
+    "lang": "en"
+  },
+  {
+    "text": "export before the source and we can do",
+    "duration": 5240,
+    "offset": 2288839,
+    "lang": "en"
+  },
+  {
+    "text": "export so you type exactly this and then",
+    "duration": 4520,
+    "offset": 2290960,
+    "lang": "en"
+  },
+  {
+    "text": "uppercase",
+    "duration": 4040,
+    "offset": 2294079,
+    "lang": "en"
+  },
+  {
+    "text": "rmw uncore",
+    "duration": 5280,
+    "offset": 2295480,
+    "lang": "en"
+  },
+  {
+    "text": "implementation implementation make sure",
+    "duration": 5361,
+    "offset": 2298119,
+    "lang": "en"
+  },
+  {
+    "text": "you have the exact same thing is equal",
+    "duration": 3599,
+    "offset": 2300760,
+    "lang": "en"
+  },
+  {
+    "text": "to",
+    "duration": 5480,
+    "offset": 2303480,
+    "lang": "en"
+  },
+  {
+    "text": "rmw uncore cyclone",
+    "duration": 9081,
+    "offset": 2304359,
+    "lang": "en"
+  },
+  {
+    "text": "DDS uncore CPP so export",
+    "duration": 8399,
+    "offset": 2308960,
+    "lang": "en"
+  },
+  {
+    "text": "rmw implementation is equal to rmw",
+    "duration": 7200,
+    "offset": 2313440,
+    "lang": "en"
+  },
+  {
+    "text": "Cyclone DDS CPP with all underscores you",
+    "duration": 6641,
+    "offset": 2317359,
+    "lang": "en"
+  },
+  {
+    "text": "can save The Bash RC and then we're",
+    "duration": 5800,
+    "offset": 2320640,
+    "lang": "en"
+  },
+  {
+    "text": "going to close this so basically there",
+    "duration": 4319,
+    "offset": 2324000,
+    "lang": "en"
+  },
+  {
+    "text": "was an issue with the map and the",
+    "duration": 4200,
+    "offset": 2326440,
+    "lang": "en"
+  },
+  {
+    "text": "navigation that is not correctly working",
+    "duration": 5601,
+    "offset": 2328319,
+    "lang": "en"
+  },
+  {
+    "text": "with the default DDS fun for R to Humble",
+    "duration": 5400,
+    "offset": 2330640,
+    "lang": "en"
+  },
+  {
+    "text": "the fix is to change to Cyclone DDS",
+    "duration": 4960,
+    "offset": 2333920,
+    "lang": "en"
+  },
+  {
+    "text": "which make things work much better and",
+    "duration": 5039,
+    "offset": 2336040,
+    "lang": "en"
+  },
+  {
+    "text": "the second thing to do is to modify a",
+    "duration": 4880,
+    "offset": 2338880,
+    "lang": "en"
+  },
+  {
+    "text": "parameter file where the terb 3",
+    "duration": 5721,
+    "offset": 2341079,
+    "lang": "en"
+  },
+  {
+    "text": "navigation package is installed so",
+    "duration": 5520,
+    "offset": 2343760,
+    "lang": "en"
+  },
+  {
+    "text": "clearly that is far from ideal and if",
+    "duration": 5120,
+    "offset": 2346800,
+    "lang": "en"
+  },
+  {
+    "text": "you upgrade this package with pseudo AP",
+    "duration": 5120,
+    "offset": 2349280,
+    "lang": "en"
+  },
+  {
+    "text": "upgrade later on you will maybe have to",
+    "duration": 5520,
+    "offset": 2351920,
+    "lang": "en"
+  },
+  {
+    "text": "do this step again the thing is this fix",
+    "duration": 5520,
+    "offset": 2354400,
+    "lang": "en"
+  },
+  {
+    "text": "is probably temporary we just need to do",
+    "duration": 4320,
+    "offset": 2357440,
+    "lang": "en"
+  },
+  {
+    "text": "it until they release a version of the",
+    "duration": 4880,
+    "offset": 2359920,
+    "lang": "en"
+  },
+  {
+    "text": "package that will work correctly so",
+    "duration": 5760,
+    "offset": 2361760,
+    "lang": "en"
+  },
+  {
+    "text": "let's clear this and let's go to slash",
+    "duration": 6000,
+    "offset": 2364800,
+    "lang": "en"
+  },
+  {
+    "text": "opt Ross humble so this is where Ross to",
+    "duration": 5280,
+    "offset": 2367520,
+    "lang": "en"
+  },
+  {
+    "text": "Humble is installed and if you want to",
+    "duration": 4160,
+    "offset": 2370800,
+    "lang": "en"
+  },
+  {
+    "text": "get access to parameter files for",
+    "duration": 4319,
+    "offset": 2372800,
+    "lang": "en"
+  },
+  {
+    "text": "different packages you need to go inside",
+    "duration": 5119,
+    "offset": 2374960,
+    "lang": "en"
+  },
+  {
+    "text": "the share folder here and you will have",
+    "duration": 4681,
+    "offset": 2377119,
+    "lang": "en"
+  },
+  {
+    "text": "well you have all the packages that you",
+    "duration": 4240,
+    "offset": 2380079,
+    "lang": "en"
+  },
+  {
+    "text": "have installed and now we can go to so",
+    "duration": 4480,
+    "offset": 2381800,
+    "lang": "en"
+  },
+  {
+    "text": "we can do CD",
+    "duration": 7520,
+    "offset": 2384319,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3 navigation 2 okay so now we",
+    "duration": 8760,
+    "offset": 2386280,
+    "lang": "en"
+  },
+  {
+    "text": "are in the package of navigation 2 for 3",
+    "duration": 5161,
+    "offset": 2391839,
+    "lang": "en"
+  },
+  {
+    "text": "and you can see here we have so we have",
+    "duration": 3920,
+    "offset": 2395040,
+    "lang": "en"
+  },
+  {
+    "text": "laun folder you can find the launch file",
+    "duration": 4880,
+    "offset": 2397000,
+    "lang": "en"
+  },
+  {
+    "text": "here also param so we can go to param",
+    "duration": 4560,
+    "offset": 2398960,
+    "lang": "en"
+  },
+  {
+    "text": "and we have the different parameter",
+    "duration": 5640,
+    "offset": 2401880,
+    "lang": "en"
+  },
+  {
+    "text": "files so yaml files for the different",
+    "duration": 6680,
+    "offset": 2403520,
+    "lang": "en"
+  },
+  {
+    "text": "versions of the robot and the one that",
+    "duration": 5360,
+    "offset": 2407520,
+    "lang": "en"
+  },
+  {
+    "text": "we are using is waffle. yaml so we are",
+    "duration": 5480,
+    "offset": 2410200,
+    "lang": "en"
+  },
+  {
+    "text": "going to edit this one and to edit here",
+    "duration": 4880,
+    "offset": 2412880,
+    "lang": "en"
+  },
+  {
+    "text": "you need to actually use pseudo okay",
+    "duration": 5320,
+    "offset": 2415680,
+    "lang": "en"
+  },
+  {
+    "text": "because we are not in our home directory",
+    "duration": 6160,
+    "offset": 2417760,
+    "lang": "en"
+  },
+  {
+    "text": "so P sudo jedit for me you can use",
+    "duration": 6040,
+    "offset": 2421000,
+    "lang": "en"
+  },
+  {
+    "text": "whatever text editor you want waffle.",
+    "duration": 5399,
+    "offset": 2423920,
+    "lang": "en"
+  },
+  {
+    "text": "yam",
+    "duration": 2279,
+    "offset": 2427040,
+    "lang": "en"
+  },
+  {
+    "text": "okay and you will search for robot model",
+    "duration": 6959,
+    "offset": 2429640,
+    "lang": "en"
+  },
+  {
+    "text": "type okay so you can do contrl F to",
+    "duration": 5601,
+    "offset": 2433839,
+    "lang": "en"
+  },
+  {
+    "text": "search for robot model type and we are",
+    "duration": 7081,
+    "offset": 2436599,
+    "lang": "en"
+  },
+  {
+    "text": "going to modify this one and so here if",
+    "duration": 6280,
+    "offset": 2439440,
+    "lang": "en"
+  },
+  {
+    "text": "you have differential written like this",
+    "duration": 4679,
+    "offset": 2443680,
+    "lang": "en"
+  },
+  {
+    "text": "you need to modify it we will actually",
+    "duration": 5800,
+    "offset": 2445720,
+    "lang": "en"
+  },
+  {
+    "text": "use so what I can do is just comment",
+    "duration": 5240,
+    "offset": 2448359,
+    "lang": "en"
+  },
+  {
+    "text": "like",
+    "duration": 4599,
+    "offset": 2451520,
+    "lang": "en"
+  },
+  {
+    "text": "this okay you can add this sign to",
+    "duration": 4161,
+    "offset": 2453599,
+    "lang": "en"
+  },
+  {
+    "text": "command the line so you just keep it",
+    "duration": 4361,
+    "offset": 2456119,
+    "lang": "en"
+  },
+  {
+    "text": "just in case you want to go back and you",
+    "duration": 7480,
+    "offset": 2457760,
+    "lang": "en"
+  },
+  {
+    "text": "just modify then to nav 2or",
+    "duration": 7680,
+    "offset": 2460480,
+    "lang": "en"
+  },
+  {
+    "text": "amcl and then colon",
+    "duration": 5400,
+    "offset": 2465240,
+    "lang": "en"
+  },
+  {
+    "text": "colon",
+    "duration": 4439,
+    "offset": 2468160,
+    "lang": "en"
+  },
+  {
+    "text": "differential",
+    "duration": 6719,
+    "offset": 2470640,
+    "lang": "en"
+  },
+  {
+    "text": "motion model like this so nav to amcl",
+    "duration": 8361,
+    "offset": 2472599,
+    "lang": "en"
+  },
+  {
+    "text": "all lowercase colon colon with and then",
+    "duration": 7321,
+    "offset": 2477359,
+    "lang": "en"
+  },
+  {
+    "text": "upper case D differential uppercase M",
+    "duration": 6840,
+    "offset": 2480960,
+    "lang": "en"
+  },
+  {
+    "text": "motion and uppercase M model",
+    "duration": 5320,
+    "offset": 2484680,
+    "lang": "en"
+  },
+  {
+    "text": "if you already see this here in this",
+    "duration": 4080,
+    "offset": 2487800,
+    "lang": "en"
+  },
+  {
+    "text": "file then that's fine okay you can just",
+    "duration": 4200,
+    "offset": 2490000,
+    "lang": "en"
+  },
+  {
+    "text": "continue without modifying anything but",
+    "duration": 4280,
+    "offset": 2491880,
+    "lang": "en"
+  },
+  {
+    "text": "if you don't see this then please modify",
+    "duration": 4800,
+    "offset": 2494200,
+    "lang": "en"
+  },
+  {
+    "text": "this line okay this is well this is a",
+    "duration": 5679,
+    "offset": 2496160,
+    "lang": "en"
+  },
+  {
+    "text": "fix that also I found on a GitHub issue",
+    "duration": 6920,
+    "offset": 2499000,
+    "lang": "en"
+  },
+  {
+    "text": "relative to this TBO 3 Robot so you can",
+    "duration": 6961,
+    "offset": 2501839,
+    "lang": "en"
+  },
+  {
+    "text": "save make sure you save the file and",
+    "duration": 4640,
+    "offset": 2505920,
+    "lang": "en"
+  },
+  {
+    "text": "make sure you have exactly written the",
+    "duration": 3279,
+    "offset": 2508800,
+    "lang": "en"
+  },
+  {
+    "text": "same thing okay that's very important if",
+    "duration": 3240,
+    "offset": 2510560,
+    "lang": "en"
+  },
+  {
+    "text": "you have one typo that's not going to",
+    "duration": 4520,
+    "offset": 2512079,
+    "lang": "en"
+  },
+  {
+    "text": "work and then you can close and what I",
+    "duration": 4160,
+    "offset": 2513800,
+    "lang": "en"
+  },
+  {
+    "text": "really recommend recommend you to do so",
+    "duration": 3281,
+    "offset": 2516599,
+    "lang": "en"
+  },
+  {
+    "text": "first you can close the terminal and",
+    "duration": 4000,
+    "offset": 2517960,
+    "lang": "en"
+  },
+  {
+    "text": "open a new one but what I really",
+    "duration": 4080,
+    "offset": 2519880,
+    "lang": "en"
+  },
+  {
+    "text": "recommend you to do now is to reboot",
+    "duration": 4119,
+    "offset": 2521960,
+    "lang": "en"
+  },
+  {
+    "text": "your computer okay make sure your reboot",
+    "duration": 3720,
+    "offset": 2523960,
+    "lang": "en"
+  },
+  {
+    "text": "so that well you can be sure that",
+    "duration": 4681,
+    "offset": 2526079,
+    "lang": "en"
+  },
+  {
+    "text": "everything is going to work",
+    "duration": 3080,
+    "offset": 2527680,
+    "lang": "en"
+  },
+  {
+    "text": "correctly let's now make the robot",
+    "duration": 5120,
+    "offset": 2531680,
+    "lang": "en"
+  },
+  {
+    "text": "navigate using the map we will continue",
+    "duration": 5799,
+    "offset": 2534040,
+    "lang": "en"
+  },
+  {
+    "text": "with our turb 3 example here and so to",
+    "duration": 5120,
+    "offset": 2536800,
+    "lang": "en"
+  },
+  {
+    "text": "start the navigation to stack to make",
+    "duration": 5201,
+    "offset": 2539839,
+    "lang": "en"
+  },
+  {
+    "text": "the robot navigate we first need to",
+    "duration": 6120,
+    "offset": 2541920,
+    "lang": "en"
+  },
+  {
+    "text": "start the robot so we're going to do Ros",
+    "duration": 4400,
+    "offset": 2545040,
+    "lang": "en"
+  },
+  {
+    "text": "two",
+    "duration": 5400,
+    "offset": 2548040,
+    "lang": "en"
+  },
+  {
+    "text": "launch turtlebot 3 gazebo and then",
+    "duration": 8320,
+    "offset": 2549440,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot 3 world. lunch. py so this we",
+    "duration": 6360,
+    "offset": 2553440,
+    "lang": "en"
+  },
+  {
+    "text": "have done it previously also with the",
+    "duration": 3760,
+    "offset": 2557760,
+    "lang": "en"
+  },
+  {
+    "text": "slam okay that's the first step you need",
+    "duration": 4559,
+    "offset": 2559800,
+    "lang": "en"
+  },
+  {
+    "text": "to do always so we start the",
+    "duration": 5440,
+    "offset": 2561520,
+    "lang": "en"
+  },
+  {
+    "text": "robot it's going to start the robot in",
+    "duration": 5200,
+    "offset": 2564359,
+    "lang": "en"
+  },
+  {
+    "text": "the world okay so we have the world here",
+    "duration": 4520,
+    "offset": 2566960,
+    "lang": "en"
+  },
+  {
+    "text": "we have the robot we have the ligher",
+    "duration": 3641,
+    "offset": 2569559,
+    "lang": "en"
+  },
+  {
+    "text": "with the laser scan that's correct okay",
+    "duration": 3960,
+    "offset": 2571480,
+    "lang": "en"
+  },
+  {
+    "text": "so everything works correctly now we go",
+    "duration": 5159,
+    "offset": 2573200,
+    "lang": "en"
+  },
+  {
+    "text": "back to the terminal let's open a new",
+    "duration": 5360,
+    "offset": 2575440,
+    "lang": "en"
+  },
+  {
+    "text": "terminal and here we are going to start",
+    "duration": 5161,
+    "offset": 2578359,
+    "lang": "en"
+  },
+  {
+    "text": "the navigation for the robot so to do",
+    "duration": 6000,
+    "offset": 2580800,
+    "lang": "en"
+  },
+  {
+    "text": "this we are going to do Ros to launch",
+    "duration": 4599,
+    "offset": 2583520,
+    "lang": "en"
+  },
+  {
+    "text": "and",
+    "duration": 2920,
+    "offset": 2586800,
+    "lang": "en"
+  },
+  {
+    "text": "turtlebot",
+    "duration": 5681,
+    "offset": 2588119,
+    "lang": "en"
+  },
+  {
+    "text": "3core navigation socore navigation 2",
+    "duration": 7280,
+    "offset": 2589720,
+    "lang": "en"
+  },
+  {
+    "text": "actually and then navigation 2. launch.",
+    "duration": 5840,
+    "offset": 2593800,
+    "lang": "en"
+  },
+  {
+    "text": "py I'm going to explain this launch file",
+    "duration": 5200,
+    "offset": 2597000,
+    "lang": "en"
+  },
+  {
+    "text": "a bit later in the course so this launch",
+    "duration": 4160,
+    "offset": 2599640,
+    "lang": "en"
+  },
+  {
+    "text": "file which contains all the things you",
+    "duration": 4440,
+    "offset": 2602200,
+    "lang": "en"
+  },
+  {
+    "text": "need to run navigation for the robot and",
+    "duration": 6279,
+    "offset": 2603800,
+    "lang": "en"
+  },
+  {
+    "text": "then we are going to also use uh so use",
+    "duration": 8000,
+    "offset": 2606640,
+    "lang": "en"
+  },
+  {
+    "text": "sim time with column equal true so we",
+    "duration": 7121,
+    "offset": 2610079,
+    "lang": "en"
+  },
+  {
+    "text": "use uh the simulation time because well",
+    "duration": 4719,
+    "offset": 2614640,
+    "lang": "en"
+  },
+  {
+    "text": "we are using Gazo so we are using a",
+    "duration": 4560,
+    "offset": 2617200,
+    "lang": "en"
+  },
+  {
+    "text": "simulation we want uh to also use the",
+    "duration": 5000,
+    "offset": 2619359,
+    "lang": "en"
+  },
+  {
+    "text": "simulation time for this navigation",
+    "duration": 4799,
+    "offset": 2621760,
+    "lang": "en"
+  },
+  {
+    "text": "that's going to work better and then",
+    "duration": 4480,
+    "offset": 2624359,
+    "lang": "en"
+  },
+  {
+    "text": "there is one thing we need to also do is",
+    "duration": 5641,
+    "offset": 2626559,
+    "lang": "en"
+  },
+  {
+    "text": "to provide the map okay because well we",
+    "duration": 6081,
+    "offset": 2628839,
+    "lang": "en"
+  },
+  {
+    "text": "have saved the map in so if I open file",
+    "duration": 6480,
+    "offset": 2632200,
+    "lang": "en"
+  },
+  {
+    "text": "manager here in maps we have saved uh",
+    "duration": 6439,
+    "offset": 2634920,
+    "lang": "en"
+  },
+  {
+    "text": "the map so we want this one the totalb 3",
+    "duration": 5760,
+    "offset": 2638680,
+    "lang": "en"
+  },
+  {
+    "text": "world map that we have called my map",
+    "duration": 7801,
+    "offset": 2641359,
+    "lang": "en"
+  },
+  {
+    "text": "okay my map. PGM and my map. yaml so",
+    "duration": 6480,
+    "offset": 2644440,
+    "lang": "en"
+  },
+  {
+    "text": "what we need to do is we need to give",
+    "duration": 5240,
+    "offset": 2649160,
+    "lang": "en"
+  },
+  {
+    "text": "this map to the navigation and to do",
+    "duration": 6560,
+    "offset": 2650920,
+    "lang": "en"
+  },
+  {
+    "text": "this we simply add another argument map",
+    "duration": 5000,
+    "offset": 2654400,
+    "lang": "en"
+  },
+  {
+    "text": "column equal and we just provide the",
+    "duration": 4680,
+    "offset": 2657480,
+    "lang": "en"
+  },
+  {
+    "text": "path to the map relative to where we are",
+    "duration": 5760,
+    "offset": 2659400,
+    "lang": "en"
+  },
+  {
+    "text": "right now so maps you can see we can use",
+    "duration": 6800,
+    "offset": 2662160,
+    "lang": "en"
+  },
+  {
+    "text": "Auto completion my",
+    "duration": 7720,
+    "offset": 2665160,
+    "lang": "en"
+  },
+  {
+    "text": "map do yaml we're going to put the yaml",
+    "duration": 7080,
+    "offset": 2668960,
+    "lang": "en"
+  },
+  {
+    "text": "file so Ros to launch and then we go in",
+    "duration": 6600,
+    "offset": 2672880,
+    "lang": "en"
+  },
+  {
+    "text": "the package talb 3 navigation 2 the",
+    "duration": 5960,
+    "offset": 2676040,
+    "lang": "en"
+  },
+  {
+    "text": "launch file is named navigation 2.",
+    "duration": 6440,
+    "offset": 2679480,
+    "lang": "en"
+  },
+  {
+    "text": "lunch. py we put the parameter use SE",
+    "duration": 7559,
+    "offset": 2682000,
+    "lang": "en"
+  },
+  {
+    "text": "time to true and then map is the yaml",
+    "duration": 7439,
+    "offset": 2685920,
+    "lang": "en"
+  },
+  {
+    "text": "file that we have created I press",
+    "duration": 8560,
+    "offset": 2689559,
+    "lang": "en"
+  },
+  {
+    "text": "enter and let's wait a bit",
+    "duration": 7521,
+    "offset": 2693359,
+    "lang": "en"
+  },
+  {
+    "text": "so it's going to start AR like this and",
+    "duration": 4921,
+    "offset": 2698119,
+    "lang": "en"
+  },
+  {
+    "text": "you can see here what what do we have we",
+    "duration": 5160,
+    "offset": 2700880,
+    "lang": "en"
+  },
+  {
+    "text": "have the map here so that's the map that",
+    "duration": 5279,
+    "offset": 2703040,
+    "lang": "en"
+  },
+  {
+    "text": "we have generated okay that's the image",
+    "duration": 4559,
+    "offset": 2706040,
+    "lang": "en"
+  },
+  {
+    "text": "that we have generated with here the",
+    "duration": 5921,
+    "offset": 2708319,
+    "lang": "en"
+  },
+  {
+    "text": "origin of the map as specified in the yl",
+    "duration": 6601,
+    "offset": 2710599,
+    "lang": "en"
+  },
+  {
+    "text": "file and so if you start Aris and if you",
+    "duration": 4640,
+    "offset": 2714240,
+    "lang": "en"
+  },
+  {
+    "text": "don't have the map so if you don't have",
+    "duration": 3560,
+    "offset": 2717200,
+    "lang": "en"
+  },
+  {
+    "text": "this image here right now well what you",
+    "duration": 4840,
+    "offset": 2718880,
+    "lang": "en"
+  },
+  {
+    "text": "can try to do is to stop and start again",
+    "duration": 4960,
+    "offset": 2720760,
+    "lang": "en"
+  },
+  {
+    "text": "so to stop and start I recommend that",
+    "duration": 4080,
+    "offset": 2723720,
+    "lang": "en"
+  },
+  {
+    "text": "you don't just click on the button here",
+    "duration": 4960,
+    "offset": 2725720,
+    "lang": "en"
+  },
+  {
+    "text": "but you have to do contrl c directly",
+    "duration": 4960,
+    "offset": 2727800,
+    "lang": "en"
+  },
+  {
+    "text": "inside the terminal so you contrl C here",
+    "duration": 4439,
+    "offset": 2730680,
+    "lang": "en"
+  },
+  {
+    "text": "maybe contrl C here you can restart the",
+    "duration": 5079,
+    "offset": 2732760,
+    "lang": "en"
+  },
+  {
+    "text": "terminals maybe restart your computer so",
+    "duration": 4801,
+    "offset": 2735119,
+    "lang": "en"
+  },
+  {
+    "text": "just do those steps if you don't see the",
+    "duration": 4760,
+    "offset": 2737839,
+    "lang": "en"
+  },
+  {
+    "text": "map right now but when you see this then",
+    "duration": 4880,
+    "offset": 2739920,
+    "lang": "en"
+  },
+  {
+    "text": "that's correctly working and what we",
+    "duration": 4281,
+    "offset": 2742599,
+    "lang": "en"
+  },
+  {
+    "text": "need to do first in navigation is to",
+    "duration": 5319,
+    "offset": 2744800,
+    "lang": "en"
+  },
+  {
+    "text": "actually give a 2d pause estimate so we",
+    "duration": 5439,
+    "offset": 2746880,
+    "lang": "en"
+  },
+  {
+    "text": "need to tell actually to give an",
+    "duration": 4841,
+    "offset": 2750119,
+    "lang": "en"
+  },
+  {
+    "text": "estimation of where the robot is in the",
+    "duration": 5361,
+    "offset": 2752319,
+    "lang": "en"
+  },
+  {
+    "text": "map so if we go to Gaz",
+    "duration": 5040,
+    "offset": 2754960,
+    "lang": "en"
+  },
+  {
+    "text": "well gazebo is the real world the real",
+    "duration": 4000,
+    "offset": 2757680,
+    "lang": "en"
+  },
+  {
+    "text": "robot so you know where the robot is",
+    "duration": 4559,
+    "offset": 2760000,
+    "lang": "en"
+  },
+  {
+    "text": "it's here okay it's been started here",
+    "duration": 4360,
+    "offset": 2761680,
+    "lang": "en"
+  },
+  {
+    "text": "and in",
+    "duration": 5361,
+    "offset": 2764559,
+    "lang": "en"
+  },
+  {
+    "text": "RVs you just have the map but you still",
+    "duration": 6000,
+    "offset": 2766040,
+    "lang": "en"
+  },
+  {
+    "text": "don't have the robot exactly you don't",
+    "duration": 4600,
+    "offset": 2769920,
+    "lang": "en"
+  },
+  {
+    "text": "know where it is okay so we will need to",
+    "duration": 5319,
+    "offset": 2772040,
+    "lang": "en"
+  },
+  {
+    "text": "click on this 2D pose",
+    "duration": 5680,
+    "offset": 2774520,
+    "lang": "en"
+  },
+  {
+    "text": "estimate okay you click here and then",
+    "duration": 5281,
+    "offset": 2777359,
+    "lang": "en"
+  },
+  {
+    "text": "you can click on where the robot is so",
+    "duration": 5320,
+    "offset": 2780200,
+    "lang": "en"
+  },
+  {
+    "text": "let's check the robot is here and so for",
+    "duration": 5439,
+    "offset": 2782640,
+    "lang": "en"
+  },
+  {
+    "text": "this case that actually uh corresponds",
+    "duration": 6000,
+    "offset": 2785520,
+    "lang": "en"
+  },
+  {
+    "text": "to roughly about the well this point",
+    "duration": 5401,
+    "offset": 2788079,
+    "lang": "en"
+  },
+  {
+    "text": "here the origin of the map that's the",
+    "duration": 4640,
+    "offset": 2791520,
+    "lang": "en"
+  },
+  {
+    "text": "same point so we click and we maintain",
+    "duration": 4960,
+    "offset": 2793480,
+    "lang": "en"
+  },
+  {
+    "text": "the click and you see we have also an",
+    "duration": 5919,
+    "offset": 2796160,
+    "lang": "en"
+  },
+  {
+    "text": "arrow to provide the orientation okay so",
+    "duration": 5760,
+    "offset": 2798440,
+    "lang": "en"
+  },
+  {
+    "text": "the robot is actually looking forward so",
+    "duration": 3561,
+    "offset": 2802079,
+    "lang": "en"
+  },
+  {
+    "text": "we're going to put the orientation like",
+    "duration": 3760,
+    "offset": 2804200,
+    "lang": "en"
+  },
+  {
+    "text": "this if the robot was looking to the",
+    "duration": 4040,
+    "offset": 2805640,
+    "lang": "en"
+  },
+  {
+    "text": "left we would put the orientation like",
+    "duration": 4920,
+    "offset": 2807960,
+    "lang": "en"
+  },
+  {
+    "text": "this okay so we put the orientation like",
+    "duration": 6159,
+    "offset": 2809680,
+    "lang": "en"
+  },
+  {
+    "text": "that and you should see something like",
+    "duration": 5640,
+    "offset": 2812880,
+    "lang": "en"
+  },
+  {
+    "text": "this so what's happening now is we have",
+    "duration": 6321,
+    "offset": 2815839,
+    "lang": "en"
+  },
+  {
+    "text": "said in AIS so where the robot is at",
+    "duration": 5640,
+    "offset": 2818520,
+    "lang": "en"
+  },
+  {
+    "text": "this moment so then the navigation is",
+    "duration": 4640,
+    "offset": 2822160,
+    "lang": "en"
+  },
+  {
+    "text": "going to well localize the robot here",
+    "duration": 4800,
+    "offset": 2824160,
+    "lang": "en"
+  },
+  {
+    "text": "and thanks to the data that we have so",
+    "duration": 4519,
+    "offset": 2826800,
+    "lang": "en"
+  },
+  {
+    "text": "thanks to this uh laser scan that we",
+    "duration": 5680,
+    "offset": 2828960,
+    "lang": "en"
+  },
+  {
+    "text": "have the robot is also going to match",
+    "duration": 6040,
+    "offset": 2831319,
+    "lang": "en"
+  },
+  {
+    "text": "you can see with this small rectangle",
+    "duration": 4760,
+    "offset": 2834640,
+    "lang": "en"
+  },
+  {
+    "text": "here is going to try to match the",
+    "duration": 4161,
+    "offset": 2837359,
+    "lang": "en"
+  },
+  {
+    "text": "environment and so when the robot move",
+    "duration": 5280,
+    "offset": 2839400,
+    "lang": "en"
+  },
+  {
+    "text": "the robot can localize itself in the map",
+    "duration": 5400,
+    "offset": 2841520,
+    "lang": "en"
+  },
+  {
+    "text": "note that for example if I put a wrong",
+    "duration": 4399,
+    "offset": 2844680,
+    "lang": "en"
+  },
+  {
+    "text": "Tod POS",
+    "duration": 4639,
+    "offset": 2846920,
+    "lang": "en"
+  },
+  {
+    "text": "estimate you can see now it's like we",
+    "duration": 6000,
+    "offset": 2849079,
+    "lang": "en"
+  },
+  {
+    "text": "have say that the robot is here but you",
+    "duration": 6040,
+    "offset": 2851559,
+    "lang": "en"
+  },
+  {
+    "text": "can see the laser scan data this",
+    "duration": 5121,
+    "offset": 2855079,
+    "lang": "en"
+  },
+  {
+    "text": "corresponds to the laser scan data from",
+    "duration": 4960,
+    "offset": 2857599,
+    "lang": "en"
+  },
+  {
+    "text": "this from the reality does not",
+    "duration": 6000,
+    "offset": 2860200,
+    "lang": "en"
+  },
+  {
+    "text": "correspond to the map okay so if you put",
+    "duration": 5641,
+    "offset": 2862559,
+    "lang": "en"
+  },
+  {
+    "text": "a wrong to depose estimate that is",
+    "duration": 3800,
+    "offset": 2866200,
+    "lang": "en"
+  },
+  {
+    "text": "completely wrong it's completely wrong",
+    "duration": 5800,
+    "offset": 2868200,
+    "lang": "en"
+  },
+  {
+    "text": "then uh things are not going to work so",
+    "duration": 6400,
+    "offset": 2870000,
+    "lang": "en"
+  },
+  {
+    "text": "you need to try to be as close as",
+    "duration": 4599,
+    "offset": 2874000,
+    "lang": "en"
+  },
+  {
+    "text": "possible to where the robot is so I can",
+    "duration": 4880,
+    "offset": 2876400,
+    "lang": "en"
+  },
+  {
+    "text": "put back the POS estimate right",
+    "duration": 6201,
+    "offset": 2878599,
+    "lang": "en"
+  },
+  {
+    "text": "here okay and now you see that I have",
+    "duration": 6799,
+    "offset": 2881280,
+    "lang": "en"
+  },
+  {
+    "text": "messed uh the map a bit okay so if you",
+    "duration": 5720,
+    "offset": 2884800,
+    "lang": "en"
+  },
+  {
+    "text": "have this well you could restart but",
+    "duration": 5561,
+    "offset": 2888079,
+    "lang": "en"
+  },
+  {
+    "text": "also know that when the robot will go",
+    "duration": 5360,
+    "offset": 2890520,
+    "lang": "en"
+  },
+  {
+    "text": "around this area it's going to also",
+    "duration": 5080,
+    "offset": 2893640,
+    "lang": "en"
+  },
+  {
+    "text": "automatically clean the map and well",
+    "duration": 5199,
+    "offset": 2895880,
+    "lang": "en"
+  },
+  {
+    "text": "about this this well this is the global",
+    "duration": 5440,
+    "offset": 2898720,
+    "lang": "en"
+  },
+  {
+    "text": "planner here and this is what we call so",
+    "duration": 4641,
+    "offset": 2901079,
+    "lang": "en"
+  },
+  {
+    "text": "it's called the controller but I'm also",
+    "duration": 3560,
+    "offset": 2904160,
+    "lang": "en"
+  },
+  {
+    "text": "calling this the local planner and I'm",
+    "duration": 3879,
+    "offset": 2905720,
+    "lang": "en"
+  },
+  {
+    "text": "going to explain this in much more",
+    "duration": 4720,
+    "offset": 2907720,
+    "lang": "en"
+  },
+  {
+    "text": "details in the next section okay so here",
+    "duration": 5720,
+    "offset": 2909599,
+    "lang": "en"
+  },
+  {
+    "text": "we are going to just understand how to",
+    "duration": 4919,
+    "offset": 2912440,
+    "lang": "en"
+  },
+  {
+    "text": "work with it and you're going to maybe",
+    "duration": 3800,
+    "offset": 2915319,
+    "lang": "en"
+  },
+  {
+    "text": "understand some things with intuition",
+    "duration": 3681,
+    "offset": 2917359,
+    "lang": "en"
+  },
+  {
+    "text": "but you will not understand everything",
+    "duration": 3960,
+    "offset": 2919119,
+    "lang": "en"
+  },
+  {
+    "text": "right now and in the next section",
+    "duration": 3319,
+    "offset": 2921040,
+    "lang": "en"
+  },
+  {
+    "text": "everything will make more sense because",
+    "duration": 3480,
+    "offset": 2923079,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to come back to each component",
+    "duration": 4921,
+    "offset": 2924359,
+    "lang": "en"
+  },
+  {
+    "text": "here with much more details okay so once",
+    "duration": 4921,
+    "offset": 2926559,
+    "lang": "en"
+  },
+  {
+    "text": "we have given the 2D posate we can",
+    "duration": 3839,
+    "offset": 2929280,
+    "lang": "en"
+  },
+  {
+    "text": "easily see as you can see with this",
+    "duration": 3480,
+    "offset": 2931480,
+    "lang": "en"
+  },
+  {
+    "text": "rectangle here so with the controller",
+    "duration": 4200,
+    "offset": 2933119,
+    "lang": "en"
+  },
+  {
+    "text": "which is the local planner we can see",
+    "duration": 5359,
+    "offset": 2934960,
+    "lang": "en"
+  },
+  {
+    "text": "that things match okay you can see the",
+    "duration": 7201,
+    "offset": 2937319,
+    "lang": "en"
+  },
+  {
+    "text": "edges match the obstacle here match so",
+    "duration": 6201,
+    "offset": 2940319,
+    "lang": "en"
+  },
+  {
+    "text": "what we can do now is to give a",
+    "duration": 4440,
+    "offset": 2944520,
+    "lang": "en"
+  },
+  {
+    "text": "navigation goal so let's say we want to",
+    "duration": 6160,
+    "offset": 2946520,
+    "lang": "en"
+  },
+  {
+    "text": "go to this place right here so we click",
+    "duration": 5839,
+    "offset": 2948960,
+    "lang": "en"
+  },
+  {
+    "text": "also and we maintain for the orientation",
+    "duration": 5040,
+    "offset": 2952680,
+    "lang": "en"
+  },
+  {
+    "text": "that we want to give so I click and you",
+    "duration": 4961,
+    "offset": 2954799,
+    "lang": "en"
+  },
+  {
+    "text": "can see the robot will start to move and",
+    "duration": 5800,
+    "offset": 2957720,
+    "lang": "en"
+  },
+  {
+    "text": "if I go to Gazo the robot is moving so",
+    "duration": 7120,
+    "offset": 2959760,
+    "lang": "en"
+  },
+  {
+    "text": "the real robot is moving to reach the",
+    "duration": 6799,
+    "offset": 2963520,
+    "lang": "en"
+  },
+  {
+    "text": "destination and on AR you can see we can",
+    "duration": 6520,
+    "offset": 2966880,
+    "lang": "en"
+  },
+  {
+    "text": "follow so you have this pink line and",
+    "duration": 5681,
+    "offset": 2970319,
+    "lang": "en"
+  },
+  {
+    "text": "this blue uh the small blue line also",
+    "duration": 4880,
+    "offset": 2973400,
+    "lang": "en"
+  },
+  {
+    "text": "that's following the goal and trying to",
+    "duration": 5520,
+    "offset": 2976000,
+    "lang": "en"
+  },
+  {
+    "text": "reach the goal and then you can see it's",
+    "duration": 5240,
+    "offset": 2978280,
+    "lang": "en"
+  },
+  {
+    "text": "going to",
+    "duration": 5440,
+    "offset": 2981520,
+    "lang": "en"
+  },
+  {
+    "text": "turn to reach the orientation that we",
+    "duration": 8039,
+    "offset": 2983520,
+    "lang": "en"
+  },
+  {
+    "text": "wanted and then well that's it the goal",
+    "duration": 7080,
+    "offset": 2986960,
+    "lang": "en"
+  },
+  {
+    "text": "has been successfully reached and so",
+    "duration": 4841,
+    "offset": 2991559,
+    "lang": "en"
+  },
+  {
+    "text": "just a quick note on the coordinates you",
+    "duration": 5799,
+    "offset": 2994040,
+    "lang": "en"
+  },
+  {
+    "text": "can see that we always have this red",
+    "duration": 6040,
+    "offset": 2996400,
+    "lang": "en"
+  },
+  {
+    "text": "green and blue coordinate system here",
+    "duration": 5881,
+    "offset": 2999839,
+    "lang": "en"
+  },
+  {
+    "text": "that's also here in gazebo so the red is",
+    "duration": 5600,
+    "offset": 3002440,
+    "lang": "en"
+  },
+  {
+    "text": "here the green is here and the blue is",
+    "duration": 4320,
+    "offset": 3005720,
+    "lang": "en"
+  },
+  {
+    "text": "here that corresponds to the right hand",
+    "duration": 5640,
+    "offset": 3008040,
+    "lang": "en"
+  },
+  {
+    "text": "rule okay so in red we will have the X",
+    "duration": 6799,
+    "offset": 3010040,
+    "lang": "en"
+  },
+  {
+    "text": "pointing forward and then 90° to the",
+    "duration": 7679,
+    "offset": 3013680,
+    "lang": "en"
+  },
+  {
+    "text": "left we have the Y okay so this makes a",
+    "duration": 8480,
+    "offset": 3016839,
+    "lang": "en"
+  },
+  {
+    "text": "plan okay so that's a 2d plan here X and",
+    "duration": 7881,
+    "offset": 3021359,
+    "lang": "en"
+  },
+  {
+    "text": "Y and then we have the Zed going up okay",
+    "duration": 6401,
+    "offset": 3025319,
+    "lang": "en"
+  },
+  {
+    "text": "so if you put your right hand you're",
+    "duration": 5280,
+    "offset": 3029240,
+    "lang": "en"
+  },
+  {
+    "text": "going to see easily with three fingers",
+    "duration": 4320,
+    "offset": 3031720,
+    "lang": "en"
+  },
+  {
+    "text": "that's the coordinate system that we're",
+    "duration": 2799,
+    "offset": 3034520,
+    "lang": "en"
+  },
+  {
+    "text": "going to use and you can see that's the",
+    "duration": 3880,
+    "offset": 3036040,
+    "lang": "en"
+  },
+  {
+    "text": "same thing here for gazibo for Aris and",
+    "duration": 5681,
+    "offset": 3037319,
+    "lang": "en"
+  },
+  {
+    "text": "everything we do later okay and also in",
+    "duration": 4600,
+    "offset": 3039920,
+    "lang": "en"
+  },
+  {
+    "text": "the next section I will give you more",
+    "duration": 3960,
+    "offset": 3043000,
+    "lang": "en"
+  },
+  {
+    "text": "explanations about those coordinates",
+    "duration": 4880,
+    "offset": 3044520,
+    "lang": "en"
+  },
+  {
+    "text": "here why is this coordinate here that",
+    "duration": 5080,
+    "offset": 3046960,
+    "lang": "en"
+  },
+  {
+    "text": "one here those ones there okay you will",
+    "duration": 4280,
+    "offset": 3049400,
+    "lang": "en"
+  },
+  {
+    "text": "understand this better so now what you",
+    "duration": 3319,
+    "offset": 3052040,
+    "lang": "en"
+  },
+  {
+    "text": "can do well you can just give another",
+    "duration": 3919,
+    "offset": 3053680,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to goal and you can see the",
+    "duration": 4440,
+    "offset": 3055359,
+    "lang": "en"
+  },
+  {
+    "text": "robot will move so it will turn it will",
+    "duration": 6441,
+    "offset": 3057599,
+    "lang": "en"
+  },
+  {
+    "text": "move autonomously okay while voiding you",
+    "duration": 7401,
+    "offset": 3059799,
+    "lang": "en"
+  },
+  {
+    "text": "can see those fixed",
+    "duration": 5960,
+    "offset": 3064040,
+    "lang": "en"
+  },
+  {
+    "text": "obstacles and making sure that you see",
+    "duration": 4000,
+    "offset": 3067200,
+    "lang": "en"
+  },
+  {
+    "text": "it doesn't",
+    "duration": 4079,
+    "offset": 3070000,
+    "lang": "en"
+  },
+  {
+    "text": "go too close to the obstacle or to the",
+    "duration": 4599,
+    "offset": 3071200,
+    "lang": "en"
+  },
+  {
+    "text": "wall",
+    "duration": 5641,
+    "offset": 3074079,
+    "lang": "en"
+  },
+  {
+    "text": "okay so you have navigation",
+    "duration": 6361,
+    "offset": 3075799,
+    "lang": "en"
+  },
+  {
+    "text": "working and now well let's say that I",
+    "duration": 5040,
+    "offset": 3079720,
+    "lang": "en"
+  },
+  {
+    "text": "give a goal that is not valid so let's",
+    "duration": 4560,
+    "offset": 3082160,
+    "lang": "en"
+  },
+  {
+    "text": "say I want to go not here but I want to",
+    "duration": 3520,
+    "offset": 3084760,
+    "lang": "en"
+  },
+  {
+    "text": "go",
+    "duration": 4119,
+    "offset": 3086720,
+    "lang": "en"
+  },
+  {
+    "text": "here what's going to",
+    "duration": 4760,
+    "offset": 3088280,
+    "lang": "en"
+  },
+  {
+    "text": "happen well you see what's going to",
+    "duration": 4841,
+    "offset": 3090839,
+    "lang": "en"
+  },
+  {
+    "text": "happen is that well we don't have a line",
+    "duration": 6720,
+    "offset": 3093040,
+    "lang": "en"
+  },
+  {
+    "text": "here and the robot is going to be",
+    "duration": 6720,
+    "offset": 3095680,
+    "lang": "en"
+  },
+  {
+    "text": "stuck and try to move a",
+    "duration": 5559,
+    "offset": 3099760,
+    "lang": "en"
+  },
+  {
+    "text": "bit okay so if we look at the",
+    "duration": 6719,
+    "offset": 3102400,
+    "lang": "en"
+  },
+  {
+    "text": "terminal we have well we have some",
+    "duration": 5561,
+    "offset": 3105319,
+    "lang": "en"
+  },
+  {
+    "text": "recovery behavior that I'm going to",
+    "duration": 3761,
+    "offset": 3109119,
+    "lang": "en"
+  },
+  {
+    "text": "explain also in the",
+    "duration": 3600,
+    "offset": 3110880,
+    "lang": "en"
+  },
+  {
+    "text": "next",
+    "duration": 4040,
+    "offset": 3112880,
+    "lang": "en"
+  },
+  {
+    "text": "section the robot is trying different",
+    "duration": 5920,
+    "offset": 3114480,
+    "lang": "en"
+  },
+  {
+    "text": "things to well to clear the space Maybe",
+    "duration": 5679,
+    "offset": 3116920,
+    "lang": "en"
+  },
+  {
+    "text": "actually there was something on the map",
+    "duration": 4520,
+    "offset": 3120400,
+    "lang": "en"
+  },
+  {
+    "text": "here that was recognized as a wall but",
+    "duration": 4801,
+    "offset": 3122599,
+    "lang": "en"
+  },
+  {
+    "text": "that is not maybe there is an obstacle",
+    "duration": 4080,
+    "offset": 3124920,
+    "lang": "en"
+  },
+  {
+    "text": "that we can clear maybe there is a",
+    "duration": 5520,
+    "offset": 3127400,
+    "lang": "en"
+  },
+  {
+    "text": "different path to go to but in the end",
+    "duration": 6920,
+    "offset": 3129000,
+    "lang": "en"
+  },
+  {
+    "text": "if the robot doesn't find any possible",
+    "duration": 4480,
+    "offset": 3132920,
+    "lang": "en"
+  },
+  {
+    "text": "path then you can see here we have the",
+    "duration": 3919,
+    "offset": 3135920,
+    "lang": "en"
+  },
+  {
+    "text": "feedback about it so the goal was about",
+    "duration": 6280,
+    "offset": 3137400,
+    "lang": "en"
+  },
+  {
+    "text": "it okay if I do uh here very simple one",
+    "duration": 6801,
+    "offset": 3139839,
+    "lang": "en"
+  },
+  {
+    "text": "you can see the goal will be reached so",
+    "duration": 5480,
+    "offset": 3143680,
+    "lang": "en"
+  },
+  {
+    "text": "reached succeeded and if we try to give",
+    "duration": 5159,
+    "offset": 3146640,
+    "lang": "en"
+  },
+  {
+    "text": "a goal that can't be uh reached the",
+    "duration": 6199,
+    "offset": 3149160,
+    "lang": "en"
+  },
+  {
+    "text": "robot will maybe try to go but then the",
+    "duration": 6000,
+    "offset": 3151799,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to goal will be aborted all",
+    "duration": 5960,
+    "offset": 3155359,
+    "lang": "en"
+  },
+  {
+    "text": "right so try to give a few goals and one",
+    "duration": 5520,
+    "offset": 3157799,
+    "lang": "en"
+  },
+  {
+    "text": "thing is that if you starting if you",
+    "duration": 5321,
+    "offset": 3161319,
+    "lang": "en"
+  },
+  {
+    "text": "want to start again if you want to start",
+    "duration": 6040,
+    "offset": 3163319,
+    "lang": "en"
+  },
+  {
+    "text": "again uh you can start again so you can",
+    "duration": 5880,
+    "offset": 3166640,
+    "lang": "en"
+  },
+  {
+    "text": "do control C here it might take some",
+    "duration": 5601,
+    "offset": 3169359,
+    "lang": "en"
+  },
+  {
+    "text": "time so you just do contr c and you wait",
+    "duration": 5120,
+    "offset": 3172520,
+    "lang": "en"
+  },
+  {
+    "text": "and then you can start a",
+    "duration": 6200,
+    "offset": 3174960,
+    "lang": "en"
+  },
+  {
+    "text": "again you may want to also restart Gazo",
+    "duration": 5640,
+    "offset": 3177640,
+    "lang": "en"
+  },
+  {
+    "text": "but here we don't really need",
+    "duration": 6439,
+    "offset": 3181160,
+    "lang": "en"
+  },
+  {
+    "text": "to I have the a is here and we also so",
+    "duration": 6440,
+    "offset": 3183280,
+    "lang": "en"
+  },
+  {
+    "text": "you can see we need to give the 2D POS",
+    "duration": 5200,
+    "offset": 3187599,
+    "lang": "en"
+  },
+  {
+    "text": "estimate again but this time the robot",
+    "duration": 5560,
+    "offset": 3189720,
+    "lang": "en"
+  },
+  {
+    "text": "robot is not here anymore the robot is",
+    "duration": 6721,
+    "offset": 3192799,
+    "lang": "en"
+  },
+  {
+    "text": "there is there and pointing uh towards",
+    "duration": 7480,
+    "offset": 3195280,
+    "lang": "en"
+  },
+  {
+    "text": "this direction here okay so we need to",
+    "duration": 5039,
+    "offset": 3199520,
+    "lang": "en"
+  },
+  {
+    "text": "give a to dep POS",
+    "duration": 4839,
+    "offset": 3202760,
+    "lang": "en"
+  },
+  {
+    "text": "estimate that's about so you don't need",
+    "duration": 6240,
+    "offset": 3204559,
+    "lang": "en"
+  },
+  {
+    "text": "to be super precise but something like",
+    "duration": 5921,
+    "offset": 3207599,
+    "lang": "en"
+  },
+  {
+    "text": "this okay and the robots you can see",
+    "duration": 5401,
+    "offset": 3210799,
+    "lang": "en"
+  },
+  {
+    "text": "will try to match so you can see I",
+    "duration": 4480,
+    "offset": 3213520,
+    "lang": "en"
+  },
+  {
+    "text": "didn't match exactly I didn't have",
+    "duration": 4000,
+    "offset": 3216200,
+    "lang": "en"
+  },
+  {
+    "text": "exactly the right position but the robot",
+    "duration": 5119,
+    "offset": 3218000,
+    "lang": "en"
+  },
+  {
+    "text": "will try to match as close as possible",
+    "duration": 4800,
+    "offset": 3220200,
+    "lang": "en"
+  },
+  {
+    "text": "to the map and now you can see if we",
+    "duration": 3761,
+    "offset": 3223119,
+    "lang": "en"
+  },
+  {
+    "text": "give a navigation to",
+    "duration": 6480,
+    "offset": 3225000,
+    "lang": "en"
+  },
+  {
+    "text": "goal also things should start to be put",
+    "duration": 8160,
+    "offset": 3226880,
+    "lang": "en"
+  },
+  {
+    "text": "back in place",
+    "duration": 3560,
+    "offset": 3231480,
+    "lang": "en"
+  },
+  {
+    "text": "okay so you can see the the map also is",
+    "duration": 6000,
+    "offset": 3240200,
+    "lang": "en"
+  },
+  {
+    "text": "coming back to to the right",
+    "duration": 4160,
+    "offset": 3242040,
+    "lang": "en"
+  },
+  {
+    "text": "place okay and now the robot is here and",
+    "duration": 5159,
+    "offset": 3247640,
+    "lang": "en"
+  },
+  {
+    "text": "the robot should be well here so to",
+    "duration": 5359,
+    "offset": 3250200,
+    "lang": "en"
+  },
+  {
+    "text": "conclude here on this lesson well you",
+    "duration": 4641,
+    "offset": 3252799,
+    "lang": "en"
+  },
+  {
+    "text": "need to start first with two deposit",
+    "duration": 4081,
+    "offset": 3255559,
+    "lang": "en"
+  },
+  {
+    "text": "stamates once and then you can give some",
+    "duration": 5000,
+    "offset": 3257440,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to",
+    "duration": 2800,
+    "offset": 3259640,
+    "lang": "en"
+  },
+  {
+    "text": "Golds there is a nice and very useful",
+    "duration": 5599,
+    "offset": 3263200,
+    "lang": "en"
+  },
+  {
+    "text": "functionality in navigation through that",
+    "duration": 4119,
+    "offset": 3266440,
+    "lang": "en"
+  },
+  {
+    "text": "you need to know and this is the",
+    "duration": 3921,
+    "offset": 3268799,
+    "lang": "en"
+  },
+  {
+    "text": "Waypoint follower so let's say you want",
+    "duration": 4961,
+    "offset": 3270559,
+    "lang": "en"
+  },
+  {
+    "text": "the robot to go through different points",
+    "duration": 5000,
+    "offset": 3272720,
+    "lang": "en"
+  },
+  {
+    "text": "okay you want the robot to do a turn",
+    "duration": 4799,
+    "offset": 3275520,
+    "lang": "en"
+  },
+  {
+    "text": "around those four blocks for example you",
+    "duration": 5720,
+    "offset": 3277720,
+    "lang": "en"
+  },
+  {
+    "text": "could put a navigation goal",
+    "duration": 6480,
+    "offset": 3280319,
+    "lang": "en"
+  },
+  {
+    "text": "here okay so the robot will follow this",
+    "duration": 6560,
+    "offset": 3283440,
+    "lang": "en"
+  },
+  {
+    "text": "path you can see the robot moving in zbo",
+    "duration": 4161,
+    "offset": 3286799,
+    "lang": "en"
+  },
+  {
+    "text": "as",
+    "duration": 3960,
+    "offset": 3290000,
+    "lang": "en"
+  },
+  {
+    "text": "well",
+    "duration": 3000,
+    "offset": 3290960,
+    "lang": "en"
+  },
+  {
+    "text": "here and then",
+    "duration": 5800,
+    "offset": 3294680,
+    "lang": "en"
+  },
+  {
+    "text": "once the robot is there you would give",
+    "duration": 6280,
+    "offset": 3297760,
+    "lang": "en"
+  },
+  {
+    "text": "another goal to reach",
+    "duration": 3560,
+    "offset": 3300480,
+    "lang": "en"
+  },
+  {
+    "text": "this and then another goal to reach for",
+    "duration": 7680,
+    "offset": 3304960,
+    "lang": "en"
+  },
+  {
+    "text": "example this position with this",
+    "duration": 4841,
+    "offset": 3307799,
+    "lang": "en"
+  },
+  {
+    "text": "orientation okay but the thing is you",
+    "duration": 5401,
+    "offset": 3314119,
+    "lang": "en"
+  },
+  {
+    "text": "can actually give those goals uh so the",
+    "duration": 5720,
+    "offset": 3316440,
+    "lang": "en"
+  },
+  {
+    "text": "three goals are more goals all at once",
+    "duration": 5839,
+    "offset": 3319520,
+    "lang": "en"
+  },
+  {
+    "text": "if you want to okay to do this on Aris",
+    "duration": 5080,
+    "offset": 3322160,
+    "lang": "en"
+  },
+  {
+    "text": "you can click here on the left you have",
+    "duration": 5281,
+    "offset": 3325359,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to you can click on Waypoint",
+    "duration": 6520,
+    "offset": 3327240,
+    "lang": "en"
+  },
+  {
+    "text": "nav through POS mode so once you are in",
+    "duration": 5240,
+    "offset": 3330640,
+    "lang": "en"
+  },
+  {
+    "text": "this menu you don't click on anything",
+    "duration": 4319,
+    "offset": 3333760,
+    "lang": "en"
+  },
+  {
+    "text": "here you just click on navigation to",
+    "duration": 5760,
+    "offset": 3335880,
+    "lang": "en"
+  },
+  {
+    "text": "goal and you put a new goal here and you",
+    "duration": 5280,
+    "offset": 3338079,
+    "lang": "en"
+  },
+  {
+    "text": "can see now we have an",
+    "duration": 6080,
+    "offset": 3341640,
+    "lang": "en"
+  },
+  {
+    "text": "arrow so Waypoint one and then um let's",
+    "duration": 5960,
+    "offset": 3343359,
+    "lang": "en"
+  },
+  {
+    "text": "put another",
+    "duration": 4879,
+    "offset": 3347720,
+    "lang": "en"
+  },
+  {
+    "text": "one example here and let's put another",
+    "duration": 6280,
+    "offset": 3349319,
+    "lang": "en"
+  },
+  {
+    "text": "one for example where the robot is like",
+    "duration": 5960,
+    "offset": 3352599,
+    "lang": "en"
+  },
+  {
+    "text": "this so we have one two three way point",
+    "duration": 5321,
+    "offset": 3355599,
+    "lang": "en"
+  },
+  {
+    "text": "and we want the robot to go through all",
+    "duration": 4800,
+    "offset": 3358559,
+    "lang": "en"
+  },
+  {
+    "text": "those points and now we can click on",
+    "duration": 5600,
+    "offset": 3360920,
+    "lang": "en"
+  },
+  {
+    "text": "start Waypoint following you click here",
+    "duration": 5281,
+    "offset": 3363359,
+    "lang": "en"
+  },
+  {
+    "text": "and you see the robot will first go to",
+    "duration": 4880,
+    "offset": 3366520,
+    "lang": "en"
+  },
+  {
+    "text": "the first",
+    "duration": 2760,
+    "offset": 3368640,
+    "lang": "en"
+  },
+  {
+    "text": "Waypoint and then the robot reaches the",
+    "duration": 7280,
+    "offset": 3371680,
+    "lang": "en"
+  },
+  {
+    "text": "Waypoint you can see it will reach the",
+    "duration": 4560,
+    "offset": 3374400,
+    "lang": "en"
+  },
+  {
+    "text": "goal and once it reaches the goal it",
+    "duration": 6881,
+    "offset": 3379119,
+    "lang": "en"
+  },
+  {
+    "text": "will immediately start the second way",
+    "duration": 5921,
+    "offset": 3382319,
+    "lang": "en"
+  },
+  {
+    "text": "point",
+    "duration": 2240,
+    "offset": 3386000,
+    "lang": "en"
+  },
+  {
+    "text": "and then the third",
+    "duration": 2800,
+    "offset": 3388960,
+    "lang": "en"
+  },
+  {
+    "text": "Waypoint and the path is completed",
+    "duration": 4599,
+    "offset": 3394720,
+    "lang": "en"
+  },
+  {
+    "text": "successfully so we have been through",
+    "duration": 4120,
+    "offset": 3397400,
+    "lang": "en"
+  },
+  {
+    "text": "three different way points you can add",
+    "duration": 4561,
+    "offset": 3399319,
+    "lang": "en"
+  },
+  {
+    "text": "as many as you want and the robot will",
+    "duration": 5279,
+    "offset": 3401520,
+    "lang": "en"
+  },
+  {
+    "text": "go through the Waypoint there is another",
+    "duration": 5080,
+    "offset": 3403880,
+    "lang": "en"
+  },
+  {
+    "text": "mode that you can so you can click also",
+    "duration": 5361,
+    "offset": 3406799,
+    "lang": "en"
+  },
+  {
+    "text": "here on Waypoint here and instead of",
+    "duration": 6280,
+    "offset": 3408960,
+    "lang": "en"
+  },
+  {
+    "text": "clicking on start Waypoint following you",
+    "duration": 6360,
+    "offset": 3412160,
+    "lang": "en"
+  },
+  {
+    "text": "can click on start nav through poses",
+    "duration": 6520,
+    "offset": 3415240,
+    "lang": "en"
+  },
+  {
+    "text": "this one will try to create a path that",
+    "duration": 5880,
+    "offset": 3418520,
+    "lang": "en"
+  },
+  {
+    "text": "goes through all of the Waypoint but",
+    "duration": 5319,
+    "offset": 3421760,
+    "lang": "en"
+  },
+  {
+    "text": "without stopping so this can be quite",
+    "duration": 4760,
+    "offset": 3424400,
+    "lang": "en"
+  },
+  {
+    "text": "useful if you want to go a bit faster",
+    "duration": 4000,
+    "offset": 3427079,
+    "lang": "en"
+  },
+  {
+    "text": "but note that this feature is not as",
+    "duration": 4240,
+    "offset": 3429160,
+    "lang": "en"
+  },
+  {
+    "text": "stable as the Waypoint following so the",
+    "duration": 5081,
+    "offset": 3431079,
+    "lang": "en"
+  },
+  {
+    "text": "normal one where you go through each one",
+    "duration": 6280,
+    "offset": 3433400,
+    "lang": "en"
+  },
+  {
+    "text": "one by one okay so let's try",
+    "duration": 7399,
+    "offset": 3436160,
+    "lang": "en"
+  },
+  {
+    "text": "this and actually well we have an issue",
+    "duration": 6919,
+    "offset": 3439680,
+    "lang": "en"
+  },
+  {
+    "text": "here already so the robot cannot find",
+    "duration": 8240,
+    "offset": 3443559,
+    "lang": "en"
+  },
+  {
+    "text": "the PATH let's cancel let's just click",
+    "duration": 8401,
+    "offset": 3446599,
+    "lang": "en"
+  },
+  {
+    "text": "here and click on cancel",
+    "duration": 3201,
+    "offset": 3451799,
+    "lang": "en"
+  },
+  {
+    "text": "accumulation let's just give some poses",
+    "duration": 5121,
+    "offset": 3455039,
+    "lang": "en"
+  },
+  {
+    "text": "here so",
+    "duration": 3480,
+    "offset": 3458200,
+    "lang": "en"
+  },
+  {
+    "text": "one",
+    "duration": 3879,
+    "offset": 3460160,
+    "lang": "en"
+  },
+  {
+    "text": "two and then",
+    "duration": 6320,
+    "offset": 3461680,
+    "lang": "en"
+  },
+  {
+    "text": "um three like this and let's try again",
+    "duration": 7800,
+    "offset": 3464039,
+    "lang": "en"
+  },
+  {
+    "text": "start now through poses and you can",
+    "duration": 6359,
+    "offset": 3468000,
+    "lang": "en"
+  },
+  {
+    "text": "see it should",
+    "duration": 5921,
+    "offset": 3471839,
+    "lang": "en"
+  },
+  {
+    "text": "try to just just do everything without",
+    "duration": 7321,
+    "offset": 3474359,
+    "lang": "en"
+  },
+  {
+    "text": "stopping so if we look at the robot here",
+    "duration": 5079,
+    "offset": 3477760,
+    "lang": "en"
+  },
+  {
+    "text": "as",
+    "duration": 5359,
+    "offset": 3481680,
+    "lang": "en"
+  },
+  {
+    "text": "well okay and we have some issues here I",
+    "duration": 6200,
+    "offset": 3482839,
+    "lang": "en"
+  },
+  {
+    "text": "don't know exactly what's happening",
+    "duration": 3921,
+    "offset": 3487039,
+    "lang": "en"
+  },
+  {
+    "text": "because the path is changing and well",
+    "duration": 5841,
+    "offset": 3489039,
+    "lang": "en"
+  },
+  {
+    "text": "this functionality is not as stable as",
+    "duration": 7320,
+    "offset": 3490960,
+    "lang": "en"
+  },
+  {
+    "text": "uh you can see so sometimes it works",
+    "duration": 5640,
+    "offset": 3494880,
+    "lang": "en"
+  },
+  {
+    "text": "well sometimes not I don't want to just",
+    "duration": 4559,
+    "offset": 3498280,
+    "lang": "en"
+  },
+  {
+    "text": "show you a case that works and then tell",
+    "duration": 4440,
+    "offset": 3500520,
+    "lang": "en"
+  },
+  {
+    "text": "you that it's going to work every time",
+    "duration": 3960,
+    "offset": 3502839,
+    "lang": "en"
+  },
+  {
+    "text": "actually I'm just showing you that this",
+    "duration": 4560,
+    "offset": 3504960,
+    "lang": "en"
+  },
+  {
+    "text": "start nav through poses is not the most",
+    "duration": 5280,
+    "offset": 3506799,
+    "lang": "en"
+  },
+  {
+    "text": "stable feature so you might choose to",
+    "duration": 4559,
+    "offset": 3509520,
+    "lang": "en"
+  },
+  {
+    "text": "start a waypoint following so the robot",
+    "duration": 5480,
+    "offset": 3512079,
+    "lang": "en"
+  },
+  {
+    "text": "is going to stop at each point but you",
+    "duration": 6081,
+    "offset": 3514079,
+    "lang": "en"
+  },
+  {
+    "text": "can just give an kind of an array of",
+    "duration": 5800,
+    "offset": 3517559,
+    "lang": "en"
+  },
+  {
+    "text": "point and make the robot follow uh this",
+    "duration": 4600,
+    "offset": 3520160,
+    "lang": "en"
+  },
+  {
+    "text": "okay so now you can practice a bit on",
+    "duration": 3081,
+    "offset": 3523359,
+    "lang": "en"
+  },
+  {
+    "text": "your own try to make the robot go",
+    "duration": 4039,
+    "offset": 3524760,
+    "lang": "en"
+  },
+  {
+    "text": "through different path through different",
+    "duration": 5080,
+    "offset": 3526440,
+    "lang": "en"
+  },
+  {
+    "text": "way points okay experiment a bit with",
+    "duration": 5520,
+    "offset": 3528799,
+    "lang": "en"
+  },
+  {
+    "text": "those options here all right and that's",
+    "duration": 5079,
+    "offset": 3531520,
+    "lang": "en"
+  },
+  {
+    "text": "the end of this YouTube crash course I",
+    "duration": 4161,
+    "offset": 3534319,
+    "lang": "en"
+  },
+  {
+    "text": "hope you could learn a lot and get a",
+    "duration": 3960,
+    "offset": 3536599,
+    "lang": "en"
+  },
+  {
+    "text": "better understanding of what is the",
+    "duration": 4400,
+    "offset": 3538480,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to stack and what you can do",
+    "duration": 4681,
+    "offset": 3540559,
+    "lang": "en"
+  },
+  {
+    "text": "with it so you have seen how to get to",
+    "duration": 5400,
+    "offset": 3542880,
+    "lang": "en"
+  },
+  {
+    "text": "hand on nav 2 but now comes the most",
+    "duration": 5920,
+    "offset": 3545240,
+    "lang": "en"
+  },
+  {
+    "text": "interesting part which is to get a full",
+    "duration": 5039,
+    "offset": 3548280,
+    "lang": "en"
+  },
+  {
+    "text": "understanding of the architecture behind",
+    "duration": 5000,
+    "offset": 3551160,
+    "lang": "en"
+  },
+  {
+    "text": "nav2 and to be able to use nav2 for your",
+    "duration": 5201,
+    "offset": 3553319,
+    "lang": "en"
+  },
+  {
+    "text": "own project which means for example to",
+    "duration": 5560,
+    "offset": 3556160,
+    "lang": "en"
+  },
+  {
+    "text": "create your own simulated world to use",
+    "duration": 5360,
+    "offset": 3558520,
+    "lang": "en"
+  },
+  {
+    "text": "the navigation with a custom robot and",
+    "duration": 4720,
+    "offset": 3561720,
+    "lang": "en"
+  },
+  {
+    "text": "to make the nav two stack work with an",
+    "duration": 5280,
+    "offset": 3563880,
+    "lang": "en"
+  },
+  {
+    "text": "existing Ros two application and that's",
+    "duration": 5440,
+    "offset": 3566440,
+    "lang": "en"
+  },
+  {
+    "text": "exactly what I cover in this much bigger",
+    "duration": 5159,
+    "offset": 3569160,
+    "lang": "en"
+  },
+  {
+    "text": "course which contains more than 6 hours",
+    "duration": 4520,
+    "offset": 3571880,
+    "lang": "en"
+  },
+  {
+    "text": "of video content and let's have a quick",
+    "duration": 4720,
+    "offset": 3574319,
+    "lang": "en"
+  },
+  {
+    "text": "look inside so here I'm inside the",
+    "duration": 5000,
+    "offset": 3576400,
+    "lang": "en"
+  },
+  {
+    "text": "course and as you can see we have nine",
+    "duration": 4280,
+    "offset": 3579039,
+    "lang": "en"
+  },
+  {
+    "text": "sections in total for six hours of",
+    "duration": 4719,
+    "offset": 3581400,
+    "lang": "en"
+  },
+  {
+    "text": "content and well the first section we uh",
+    "duration": 4800,
+    "offset": 3583319,
+    "lang": "en"
+  },
+  {
+    "text": "install Ros to we install navigation to",
+    "duration": 3841,
+    "offset": 3586119,
+    "lang": "en"
+  },
+  {
+    "text": "stack and some tools so this you've",
+    "duration": 3920,
+    "offset": 3588119,
+    "lang": "en"
+  },
+  {
+    "text": "already done and then we have two",
+    "duration": 4680,
+    "offset": 3589960,
+    "lang": "en"
+  },
+  {
+    "text": "sections where we actually do slam okay",
+    "duration": 5241,
+    "offset": 3592039,
+    "lang": "en"
+  },
+  {
+    "text": "to generate a map so you can see we make",
+    "duration": 4080,
+    "offset": 3594640,
+    "lang": "en"
+  },
+  {
+    "text": "the robot move in the world that's what",
+    "duration": 3480,
+    "offset": 3597280,
+    "lang": "en"
+  },
+  {
+    "text": "we've done and then we generate the map",
+    "duration": 4879,
+    "offset": 3598720,
+    "lang": "en"
+  },
+  {
+    "text": "we have an extra activity here okay and",
+    "duration": 4799,
+    "offset": 3600760,
+    "lang": "en"
+  },
+  {
+    "text": "we make the robot navigate and we have",
+    "duration": 4801,
+    "offset": 3603599,
+    "lang": "en"
+  },
+  {
+    "text": "also extra lessons and extra activities",
+    "duration": 5000,
+    "offset": 3605559,
+    "lang": "en"
+  },
+  {
+    "text": "to practice on this but then the",
+    "duration": 3439,
+    "offset": 3608400,
+    "lang": "en"
+  },
+  {
+    "text": "interesting part here the really",
+    "duration": 3401,
+    "offset": 3610559,
+    "lang": "en"
+  },
+  {
+    "text": "interesting part is this understand the",
+    "duration": 4121,
+    "offset": 3611839,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to stack okay so we have 40",
+    "duration": 4680,
+    "offset": 3613960,
+    "lang": "en"
+  },
+  {
+    "text": "minutes of explanations here to",
+    "duration": 5040,
+    "offset": 3615960,
+    "lang": "en"
+  },
+  {
+    "text": "understand everything that's going on in",
+    "duration": 4560,
+    "offset": 3618640,
+    "lang": "en"
+  },
+  {
+    "text": "the stack after this you build your own",
+    "duration": 4079,
+    "offset": 3621000,
+    "lang": "en"
+  },
+  {
+    "text": "world for navigation so you will learn",
+    "duration": 4919,
+    "offset": 3623200,
+    "lang": "en"
+  },
+  {
+    "text": "how to use the get building Editor to",
+    "duration": 5641,
+    "offset": 3625079,
+    "lang": "en"
+  },
+  {
+    "text": "create a complete customized map so that",
+    "duration": 5000,
+    "offset": 3628119,
+    "lang": "en"
+  },
+  {
+    "text": "you can make your robot navigate inside",
+    "duration": 4720,
+    "offset": 3630720,
+    "lang": "en"
+  },
+  {
+    "text": "a custom map and then so you can see we",
+    "duration": 4960,
+    "offset": 3633119,
+    "lang": "en"
+  },
+  {
+    "text": "have more activities as well and then",
+    "duration": 4879,
+    "offset": 3635440,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to talk about how to adapt a",
+    "duration": 4801,
+    "offset": 3638079,
+    "lang": "en"
+  },
+  {
+    "text": "custom robot for navigation to okay this",
+    "duration": 4401,
+    "offset": 3640319,
+    "lang": "en"
+  },
+  {
+    "text": "is going to be kind of an introduction",
+    "duration": 4560,
+    "offset": 3642880,
+    "lang": "en"
+  },
+  {
+    "text": "but still one hour introduction to",
+    "duration": 4879,
+    "offset": 3644720,
+    "lang": "en"
+  },
+  {
+    "text": "explain to you all the different steps",
+    "duration": 4760,
+    "offset": 3647440,
+    "lang": "en"
+  },
+  {
+    "text": "that you can do here and finally here we",
+    "duration": 4601,
+    "offset": 3649599,
+    "lang": "en"
+  },
+  {
+    "text": "will interact programmatically with the",
+    "duration": 3839,
+    "offset": 3652200,
+    "lang": "en"
+  },
+  {
+    "text": "navigation stack so you will learn how",
+    "duration": 4399,
+    "offset": 3654200,
+    "lang": "en"
+  },
+  {
+    "text": "to do well what we did in Aris okay if",
+    "duration": 4441,
+    "offset": 3656039,
+    "lang": "en"
+  },
+  {
+    "text": "you remember we have clicked on some",
+    "duration": 4321,
+    "offset": 3658599,
+    "lang": "en"
+  },
+  {
+    "text": "buttons to do the 2D estimate and to",
+    "duration": 4280,
+    "offset": 3660480,
+    "lang": "en"
+  },
+  {
+    "text": "give a navigation goal but here you're",
+    "duration": 4119,
+    "offset": 3662920,
+    "lang": "en"
+  },
+  {
+    "text": "going to do that directly from your own",
+    "duration": 5160,
+    "offset": 3664760,
+    "lang": "en"
+  },
+  {
+    "text": "code so you can completely integrate the",
+    "duration": 5201,
+    "offset": 3667039,
+    "lang": "en"
+  },
+  {
+    "text": "navigation to stack into your existing",
+    "duration": 4480,
+    "offset": 3669920,
+    "lang": "en"
+  },
+  {
+    "text": "Ros to application and so with this",
+    "duration": 4280,
+    "offset": 3672240,
+    "lang": "en"
+  },
+  {
+    "text": "course not only will you get a much",
+    "duration": 4639,
+    "offset": 3674400,
+    "lang": "en"
+  },
+  {
+    "text": "better understanding of the stack but",
+    "duration": 4920,
+    "offset": 3676520,
+    "lang": "en"
+  },
+  {
+    "text": "you will also build some experience",
+    "duration": 4441,
+    "offset": 3679039,
+    "lang": "en"
+  },
+  {
+    "text": "thanks to a lot of practice all right",
+    "duration": 3919,
+    "offset": 3681440,
+    "lang": "en"
+  },
+  {
+    "text": "now thank you for watching and I hope to",
+    "duration": 5400,
+    "offset": 3683480,
+    "lang": "en"
+  },
+  {
+    "text": "see you in in the course",
+    "duration": 3521,
+    "offset": 3685359,
+    "lang": "en"
+  }
+]

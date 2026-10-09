@@ -1,0 +1,2108 @@
+[
+  {
+    "text": "all of you uh know Andreu in as a famous",
+    "duration": 4440,
+    "offset": 3560,
+    "lang": "en"
+  },
+  {
+    "text": "uh computer science professor at",
+    "duration": 4400,
+    "offset": 6480,
+    "lang": "en"
+  },
+  {
+    "text": "Stanford was really early on in the",
+    "duration": 5960,
+    "offset": 8000,
+    "lang": "en"
+  },
+  {
+    "text": "development of neural networks with gpus",
+    "duration": 4839,
+    "offset": 10880,
+    "lang": "en"
+  },
+  {
+    "text": "of course a creator of corsera and",
+    "duration": 3319,
+    "offset": 13960,
+    "lang": "en"
+  },
+  {
+    "text": "popular courses like",
+    "duration": 4161,
+    "offset": 15719,
+    "lang": "en"
+  },
+  {
+    "text": "deeplearning.ai also the founder and",
+    "duration": 5561,
+    "offset": 17279,
+    "lang": "en"
+  },
+  {
+    "text": "Creator uh and early lead of Google",
+    "duration": 4800,
+    "offset": 19880,
+    "lang": "en"
+  },
+  {
+    "text": "brain uh but one thing I've always",
+    "duration": 3560,
+    "offset": 22840,
+    "lang": "en"
+  },
+  {
+    "text": "wanted to ask you before I hand it over",
+    "duration": 5839,
+    "offset": 24680,
+    "lang": "en"
+  },
+  {
+    "text": "Andrew while you're on stage uh is a",
+    "duration": 5240,
+    "offset": 26400,
+    "lang": "en"
+  },
+  {
+    "text": "question I think would be relevant to",
+    "duration": 4761,
+    "offset": 30519,
+    "lang": "en"
+  },
+  {
+    "text": "the whole audience 10 years ago on",
+    "duration": 6480,
+    "offset": 31640,
+    "lang": "en"
+  },
+  {
+    "text": "problem set number two of cs229 you gave",
+    "duration": 4320,
+    "offset": 35280,
+    "lang": "en"
+  },
+  {
+    "text": "me a",
+    "duration": 4160,
+    "offset": 38120,
+    "lang": "en"
+  },
+  {
+    "text": "b and I was wondering I looked it over I",
+    "duration": 5119,
+    "offset": 39600,
+    "lang": "en"
+  },
+  {
+    "text": "was wondering what you saw that I did",
+    "duration": 5240,
+    "offset": 42280,
+    "lang": "en"
+  },
+  {
+    "text": "incorrectly so anyway Andrew thank you",
+    "duration": 4360,
+    "offset": 44719,
+    "lang": "en"
+  },
+  {
+    "text": "Hansen um looking forward to sharing",
+    "duration": 4160,
+    "offset": 47520,
+    "lang": "en"
+  },
+  {
+    "text": "with all of you what I'm seeing with AI",
+    "duration": 4361,
+    "offset": 49079,
+    "lang": "en"
+  },
+  {
+    "text": "agents which I think is the exciting",
+    "duration": 4359,
+    "offset": 51680,
+    "lang": "en"
+  },
+  {
+    "text": "Trend that I think everyone building in",
+    "duration": 4480,
+    "offset": 53440,
+    "lang": "en"
+  },
+  {
+    "text": "AI should pay attention to and then also",
+    "duration": 4000,
+    "offset": 56039,
+    "lang": "en"
+  },
+  {
+    "text": "excited about all all the other uh on",
+    "duration": 5279,
+    "offset": 57920,
+    "lang": "en"
+  },
+  {
+    "text": "Sak presentations so hey agents you know",
+    "duration": 5681,
+    "offset": 60039,
+    "lang": "en"
+  },
+  {
+    "text": "today the way most of us use Lish models",
+    "duration": 4560,
+    "offset": 63199,
+    "lang": "en"
+  },
+  {
+    "text": "is like this with a non- agentic",
+    "duration": 4560,
+    "offset": 65720,
+    "lang": "en"
+  },
+  {
+    "text": "workflow where you type a prompt and",
+    "duration": 4521,
+    "offset": 67759,
+    "lang": "en"
+  },
+  {
+    "text": "generates an answer and that's a bit",
+    "duration": 4400,
+    "offset": 70280,
+    "lang": "en"
+  },
+  {
+    "text": "like if you ask a person to write an",
+    "duration": 4479,
+    "offset": 72280,
+    "lang": "en"
+  },
+  {
+    "text": "essay on a topic and I say please sit",
+    "duration": 4079,
+    "offset": 74680,
+    "lang": "en"
+  },
+  {
+    "text": "down to the keyboard and just type the",
+    "duration": 4521,
+    "offset": 76759,
+    "lang": "en"
+  },
+  {
+    "text": "essay from start to finish without ever",
+    "duration": 5521,
+    "offset": 78759,
+    "lang": "en"
+  },
+  {
+    "text": "using backspace um and despite how hard",
+    "duration": 6440,
+    "offset": 81280,
+    "lang": "en"
+  },
+  {
+    "text": "thises is L's do it remarkably well in",
+    "duration": 6519,
+    "offset": 84280,
+    "lang": "en"
+  },
+  {
+    "text": "contrast with an agentic workflow this",
+    "duration": 4960,
+    "offset": 87720,
+    "lang": "en"
+  },
+  {
+    "text": "is what it may look like have an AI have",
+    "duration": 4680,
+    "offset": 90799,
+    "lang": "en"
+  },
+  {
+    "text": "an LM say write an essay outline do you",
+    "duration": 5040,
+    "offset": 92680,
+    "lang": "en"
+  },
+  {
+    "text": "need to do any web research if so let's",
+    "duration": 4801,
+    "offset": 95479,
+    "lang": "en"
+  },
+  {
+    "text": "do that then write the first draft and",
+    "duration": 5120,
+    "offset": 97720,
+    "lang": "en"
+  },
+  {
+    "text": "then read your own first draft and think",
+    "duration": 5000,
+    "offset": 100280,
+    "lang": "en"
+  },
+  {
+    "text": "about what parts need revision and then",
+    "duration": 4959,
+    "offset": 102840,
+    "lang": "en"
+  },
+  {
+    "text": "revise your draft and you go on and on",
+    "duration": 4240,
+    "offset": 105280,
+    "lang": "en"
+  },
+  {
+    "text": "and so this workflow is much more",
+    "duration": 4600,
+    "offset": 107799,
+    "lang": "en"
+  },
+  {
+    "text": "iterative where you may have the L do",
+    "duration": 6080,
+    "offset": 109520,
+    "lang": "en"
+  },
+  {
+    "text": "some thinking um and then revise this",
+    "duration": 5561,
+    "offset": 112399,
+    "lang": "en"
+  },
+  {
+    "text": "article and then do some more thinking",
+    "duration": 4559,
+    "offset": 115600,
+    "lang": "en"
+  },
+  {
+    "text": "and iterate this through a number of",
+    "duration": 4199,
+    "offset": 117960,
+    "lang": "en"
+  },
+  {
+    "text": "times and what not many people",
+    "duration": 5161,
+    "offset": 120159,
+    "lang": "en"
+  },
+  {
+    "text": "appreciate is this delivers remarkably",
+    "duration": 5240,
+    "offset": 122159,
+    "lang": "en"
+  },
+  {
+    "text": "better results um I've actually been",
+    "duration": 3600,
+    "offset": 125320,
+    "lang": "en"
+  },
+  {
+    "text": "really surprised myself working these",
+    "duration": 3881,
+    "offset": 127399,
+    "lang": "en"
+  },
+  {
+    "text": "agent workflows how well how well they",
+    "duration": 5160,
+    "offset": 128920,
+    "lang": "en"
+  },
+  {
+    "text": "work I's do one case study at my team",
+    "duration": 5280,
+    "offset": 131280,
+    "lang": "en"
+  },
+  {
+    "text": "analyzed some data uh using a coding",
+    "duration": 4360,
+    "offset": 134080,
+    "lang": "en"
+  },
+  {
+    "text": "Benchmark called the human eval",
+    "duration": 3600,
+    "offset": 136560,
+    "lang": "en"
+  },
+  {
+    "text": "Benchmark released by open a few years",
+    "duration": 4320,
+    "offset": 138440,
+    "lang": "en"
+  },
+  {
+    "text": "ago um but this says coding problems",
+    "duration": 5079,
+    "offset": 140160,
+    "lang": "en"
+  },
+  {
+    "text": "like given the nonent list of integers",
+    "duration": 4040,
+    "offset": 142760,
+    "lang": "en"
+  },
+  {
+    "text": "return the sum of all the all elements",
+    "duration": 3801,
+    "offset": 145239,
+    "lang": "en"
+  },
+  {
+    "text": "are an even positions and it turns out",
+    "duration": 4240,
+    "offset": 146800,
+    "lang": "en"
+  },
+  {
+    "text": "the answer is you code snipper like that",
+    "duration": 4600,
+    "offset": 149040,
+    "lang": "en"
+  },
+  {
+    "text": "so today lot of us will use zero shot",
+    "duration": 4800,
+    "offset": 151040,
+    "lang": "en"
+  },
+  {
+    "text": "prompting meaning we tell the AI write",
+    "duration": 3879,
+    "offset": 153640,
+    "lang": "en"
+  },
+  {
+    "text": "the code and have it run on the first",
+    "duration": 3440,
+    "offset": 155840,
+    "lang": "en"
+  },
+  {
+    "text": "spot like who codes like that no human",
+    "duration": 3440,
+    "offset": 157519,
+    "lang": "en"
+  },
+  {
+    "text": "codes like that just type out the code",
+    "duration": 4640,
+    "offset": 159280,
+    "lang": "en"
+  },
+  {
+    "text": "and run it maybe you do I can't do that",
+    "duration": 5841,
+    "offset": 160959,
+    "lang": "en"
+  },
+  {
+    "text": "um so it turns out that if you use GPT",
+    "duration": 6120,
+    "offset": 163920,
+    "lang": "en"
+  },
+  {
+    "text": "3.5 uh zero shot prompting it gets it",
+    "duration": 8680,
+    "offset": 166800,
+    "lang": "en"
+  },
+  {
+    "text": "48% right uh gp4 way better 607 7% right",
+    "duration": 7640,
+    "offset": 170040,
+    "lang": "en"
+  },
+  {
+    "text": "but if you take an agentic workflow and",
+    "duration": 5640,
+    "offset": 175480,
+    "lang": "en"
+  },
+  {
+    "text": "wrap it around GPT 3.5 I say it actually",
+    "duration": 5760,
+    "offset": 177680,
+    "lang": "en"
+  },
+  {
+    "text": "does better than even",
+    "duration": 5440,
+    "offset": 181120,
+    "lang": "en"
+  },
+  {
+    "text": "gbd4 um and if you were to wrap this",
+    "duration": 5719,
+    "offset": 183440,
+    "lang": "en"
+  },
+  {
+    "text": "type of workflow around gb4 you know it",
+    "duration": 5840,
+    "offset": 186560,
+    "lang": "en"
+  },
+  {
+    "text": "it it also um does very well and you",
+    "duration": 6121,
+    "offset": 189159,
+    "lang": "en"
+  },
+  {
+    "text": "notice that gbd 3.5 with an agentic",
+    "duration": 6280,
+    "offset": 192400,
+    "lang": "en"
+  },
+  {
+    "text": "workflow actually outperforms",
+    "duration": 6640,
+    "offset": 195280,
+    "lang": "en"
+  },
+  {
+    "text": "gp4 um and I think this has and this",
+    "duration": 5440,
+    "offset": 198680,
+    "lang": "en"
+  },
+  {
+    "text": "means that this has signant consequences",
+    "duration": 4640,
+    "offset": 201920,
+    "lang": "en"
+  },
+  {
+    "text": "fighting how we all approach building",
+    "duration": 5839,
+    "offset": 204120,
+    "lang": "en"
+  },
+  {
+    "text": "applications so agents is the ter of",
+    "duration": 5200,
+    "offset": 206560,
+    "lang": "en"
+  },
+  {
+    "text": "around a lot there's a lot of consultant",
+    "duration": 3601,
+    "offset": 209959,
+    "lang": "en"
+  },
+  {
+    "text": "reports talk about agents the future of",
+    "duration": 3640,
+    "offset": 211760,
+    "lang": "en"
+  },
+  {
+    "text": "AI blah blah blah I want to be a bit",
+    "duration": 4640,
+    "offset": 213560,
+    "lang": "en"
+  },
+  {
+    "text": "concrete and share of you um the broad",
+    "duration": 5199,
+    "offset": 215400,
+    "lang": "en"
+  },
+  {
+    "text": "design patterns I'm seeing in agents",
+    "duration": 4360,
+    "offset": 218200,
+    "lang": "en"
+  },
+  {
+    "text": "it's a very messy chaotic space tons of",
+    "duration": 3681,
+    "offset": 220599,
+    "lang": "en"
+  },
+  {
+    "text": "research tons of Open Source there's a",
+    "duration": 4360,
+    "offset": 222560,
+    "lang": "en"
+  },
+  {
+    "text": "lot going on but I try to categorize um",
+    "duration": 4480,
+    "offset": 224280,
+    "lang": "en"
+  },
+  {
+    "text": "bit more concretely what's going on",
+    "duration": 5039,
+    "offset": 226920,
+    "lang": "en"
+  },
+  {
+    "text": "agents reflection is a tool that I think",
+    "duration": 5360,
+    "offset": 228760,
+    "lang": "en"
+  },
+  {
+    "text": "many of us should just use it just works",
+    "duration": 4200,
+    "offset": 231959,
+    "lang": "en"
+  },
+  {
+    "text": "uh to use I think it's more widely",
+    "duration": 3560,
+    "offset": 234120,
+    "lang": "en"
+  },
+  {
+    "text": "appreciated but actually works pretty",
+    "duration": 3160,
+    "offset": 236159,
+    "lang": "en"
+  },
+  {
+    "text": "well I think of these as pretty robust",
+    "duration": 3680,
+    "offset": 237680,
+    "lang": "en"
+  },
+  {
+    "text": "technology when I use them I can you",
+    "duration": 4721,
+    "offset": 239319,
+    "lang": "en"
+  },
+  {
+    "text": "know almost always get them to work well",
+    "duration": 4599,
+    "offset": 241360,
+    "lang": "en"
+  },
+  {
+    "text": "um planning and multi-agent",
+    "duration": 4440,
+    "offset": 244040,
+    "lang": "en"
+  },
+  {
+    "text": "collaboration I think is more emerging",
+    "duration": 4081,
+    "offset": 245959,
+    "lang": "en"
+  },
+  {
+    "text": "when I use them sometimes my mind is",
+    "duration": 3599,
+    "offset": 248480,
+    "lang": "en"
+  },
+  {
+    "text": "blown for how well they work but at",
+    "duration": 3680,
+    "offset": 250040,
+    "lang": "en"
+  },
+  {
+    "text": "least at this moment in time I don't",
+    "duration": 3440,
+    "offset": 252079,
+    "lang": "en"
+  },
+  {
+    "text": "feel like I can always get them to work",
+    "duration": 4400,
+    "offset": 253720,
+    "lang": "en"
+  },
+  {
+    "text": "Rel Lively so let me walk through these",
+    "duration": 4560,
+    "offset": 255519,
+    "lang": "en"
+  },
+  {
+    "text": "four design patterns in the few slides",
+    "duration": 4320,
+    "offset": 258120,
+    "lang": "en"
+  },
+  {
+    "text": "and if some of you go back and yourself",
+    "duration": 3961,
+    "offset": 260079,
+    "lang": "en"
+  },
+  {
+    "text": "will ask your engineers to use these I",
+    "duration": 3680,
+    "offset": 262440,
+    "lang": "en"
+  },
+  {
+    "text": "think you get a productivity boost quite",
+    "duration": 5120,
+    "offset": 264040,
+    "lang": "en"
+  },
+  {
+    "text": "quickly so reflection here's an example",
+    "duration": 5840,
+    "offset": 266120,
+    "lang": "en"
+  },
+  {
+    "text": "let's say ask a system please write code",
+    "duration": 5640,
+    "offset": 269160,
+    "lang": "en"
+  },
+  {
+    "text": "for me for a given task then we have a",
+    "duration": 5239,
+    "offset": 271960,
+    "lang": "en"
+  },
+  {
+    "text": "coder agent just an LM that you prompt",
+    "duration": 5239,
+    "offset": 274800,
+    "lang": "en"
+  },
+  {
+    "text": "to write code to say you def du task",
+    "duration": 5720,
+    "offset": 277199,
+    "lang": "en"
+  },
+  {
+    "text": "write a function like that um an example",
+    "duration": 3761,
+    "offset": 280039,
+    "lang": "en"
+  },
+  {
+    "text": "of",
+    "duration": 3000,
+    "offset": 282919,
+    "lang": "en"
+  },
+  {
+    "text": "self-reflection would be if you then",
+    "duration": 4119,
+    "offset": 283800,
+    "lang": "en"
+  },
+  {
+    "text": "prompt the LM with something like this",
+    "duration": 4081,
+    "offset": 285919,
+    "lang": "en"
+  },
+  {
+    "text": "here's code intended for a toas and just",
+    "duration": 3681,
+    "offset": 287919,
+    "lang": "en"
+  },
+  {
+    "text": "give it back the exact same code that",
+    "duration": 3759,
+    "offset": 290000,
+    "lang": "en"
+  },
+  {
+    "text": "they just generated and then say check",
+    "duration": 3960,
+    "offset": 291600,
+    "lang": "en"
+  },
+  {
+    "text": "the code carefully for correctness sound",
+    "duration": 3481,
+    "offset": 293759,
+    "lang": "en"
+  },
+  {
+    "text": "efficiency good construction CRI just",
+    "duration": 3600,
+    "offset": 295560,
+    "lang": "en"
+  },
+  {
+    "text": "write prompt like that it turns out the",
+    "duration": 3880,
+    "offset": 297240,
+    "lang": "en"
+  },
+  {
+    "text": "same l that you prompted to write the",
+    "duration": 4440,
+    "offset": 299160,
+    "lang": "en"
+  },
+  {
+    "text": "code may be able to spot problems like",
+    "duration": 4680,
+    "offset": 301120,
+    "lang": "en"
+  },
+  {
+    "text": "this bug in line Five May fix it by blah",
+    "duration": 4240,
+    "offset": 303600,
+    "lang": "en"
+  },
+  {
+    "text": "blah blah and if you now take his own",
+    "duration": 3720,
+    "offset": 305800,
+    "lang": "en"
+  },
+  {
+    "text": "feedback and give it to it and reprompt",
+    "duration": 4160,
+    "offset": 307840,
+    "lang": "en"
+  },
+  {
+    "text": "it it may come up with a version two of",
+    "duration": 4000,
+    "offset": 309520,
+    "lang": "en"
+  },
+  {
+    "text": "the code that could well work better",
+    "duration": 3160,
+    "offset": 312000,
+    "lang": "en"
+  },
+  {
+    "text": "than the first version not guaranteed",
+    "duration": 3840,
+    "offset": 313520,
+    "lang": "en"
+  },
+  {
+    "text": "but it works you know often enough for",
+    "duration": 4200,
+    "offset": 315160,
+    "lang": "en"
+  },
+  {
+    "text": "this be wor trying for a lot of",
+    "duration": 5600,
+    "offset": 317360,
+    "lang": "en"
+  },
+  {
+    "text": "applications um to foreshadow to use if",
+    "duration": 5839,
+    "offset": 319360,
+    "lang": "en"
+  },
+  {
+    "text": "you let it run unit test if it fails a",
+    "duration": 4359,
+    "offset": 322960,
+    "lang": "en"
+  },
+  {
+    "text": "unit test then he why do you fail the",
+    "duration": 3801,
+    "offset": 325199,
+    "lang": "en"
+  },
+  {
+    "text": "unit test have that conversation and be",
+    "duration": 3921,
+    "offset": 327319,
+    "lang": "en"
+  },
+  {
+    "text": "able to figure out fail the unit test so",
+    "duration": 3800,
+    "offset": 329000,
+    "lang": "en"
+  },
+  {
+    "text": "you should try changing something and",
+    "duration": 4640,
+    "offset": 331240,
+    "lang": "en"
+  },
+  {
+    "text": "come up with V3 by the way for those of",
+    "duration": 4239,
+    "offset": 332800,
+    "lang": "en"
+  },
+  {
+    "text": "you that want to learn more about these",
+    "duration": 2960,
+    "offset": 335880,
+    "lang": "en"
+  },
+  {
+    "text": "Technologies I'm very excited about them",
+    "duration": 3440,
+    "offset": 337039,
+    "lang": "en"
+  },
+  {
+    "text": "for each of the four sections I have a",
+    "duration": 3240,
+    "offset": 338840,
+    "lang": "en"
+  },
+  {
+    "text": "little recommended reading section at",
+    "duration": 3801,
+    "offset": 340479,
+    "lang": "en"
+  },
+  {
+    "text": "the bottom that you know hopefully gives",
+    "duration": 4160,
+    "offset": 342080,
+    "lang": "en"
+  },
+  {
+    "text": "more references and again just the",
+    "duration": 4520,
+    "offset": 344280,
+    "lang": "en"
+  },
+  {
+    "text": "foreshadow multi-agent systems I've",
+    "duration": 5040,
+    "offset": 346240,
+    "lang": "en"
+  },
+  {
+    "text": "described as a single coder agent that",
+    "duration": 4119,
+    "offset": 348800,
+    "lang": "en"
+  },
+  {
+    "text": "you prompt to have it you know have this",
+    "duration": 4120,
+    "offset": 351280,
+    "lang": "en"
+  },
+  {
+    "text": "conversation with itself um one Natural",
+    "duration": 4840,
+    "offset": 352919,
+    "lang": "en"
+  },
+  {
+    "text": "Evolution of this idea is instead of a",
+    "duration": 5040,
+    "offset": 355400,
+    "lang": "en"
+  },
+  {
+    "text": "single code agent you can can have two",
+    "duration": 5081,
+    "offset": 357759,
+    "lang": "en"
+  },
+  {
+    "text": "agents where one is a coder agent and",
+    "duration": 5319,
+    "offset": 360440,
+    "lang": "en"
+  },
+  {
+    "text": "the second is a Critic agent and these",
+    "duration": 5880,
+    "offset": 362840,
+    "lang": "en"
+  },
+  {
+    "text": "could be the same base LM model but that",
+    "duration": 4521,
+    "offset": 365759,
+    "lang": "en"
+  },
+  {
+    "text": "you prompt in different ways where you",
+    "duration": 4039,
+    "offset": 368720,
+    "lang": "en"
+  },
+  {
+    "text": "say one your expert coder right code the",
+    "duration": 4400,
+    "offset": 370280,
+    "lang": "en"
+  },
+  {
+    "text": "other one say your expert code review to",
+    "duration": 3601,
+    "offset": 372759,
+    "lang": "en"
+  },
+  {
+    "text": "review this code and this Tye of",
+    "duration": 3400,
+    "offset": 374680,
+    "lang": "en"
+  },
+  {
+    "text": "workflow is actually pretty easy to",
+    "duration": 3520,
+    "offset": 376360,
+    "lang": "en"
+  },
+  {
+    "text": "implement I think it's such a very",
+    "duration": 3880,
+    "offset": 378080,
+    "lang": "en"
+  },
+  {
+    "text": "general purpose technology for a lot of",
+    "duration": 3280,
+    "offset": 379880,
+    "lang": "en"
+  },
+  {
+    "text": "workflows this would give you a",
+    "duration": 3200,
+    "offset": 381960,
+    "lang": "en"
+  },
+  {
+    "text": "significant boost in in the performance",
+    "duration": 5319,
+    "offset": 383160,
+    "lang": "en"
+  },
+  {
+    "text": "of LMS um the second design pattern is",
+    "duration": 5840,
+    "offset": 385160,
+    "lang": "en"
+  },
+  {
+    "text": "to use many of where already have seen",
+    "duration": 5120,
+    "offset": 388479,
+    "lang": "en"
+  },
+  {
+    "text": "you know LM based systems uh uh using",
+    "duration": 5360,
+    "offset": 391000,
+    "lang": "en"
+  },
+  {
+    "text": "tools on the left is a screenshot from",
+    "duration": 5440,
+    "offset": 393599,
+    "lang": "en"
+  },
+  {
+    "text": "um co-pilot on the right is something",
+    "duration": 5640,
+    "offset": 396360,
+    "lang": "en"
+  },
+  {
+    "text": "that I kind of extracted from uh gp4 but",
+    "duration": 5280,
+    "offset": 399039,
+    "lang": "en"
+  },
+  {
+    "text": "you know LM today if you ask it what's",
+    "duration": 4240,
+    "offset": 402000,
+    "lang": "en"
+  },
+  {
+    "text": "the best coffee maker web search for",
+    "duration": 4440,
+    "offset": 404319,
+    "lang": "en"
+  },
+  {
+    "text": "some problems um will generate code and",
+    "duration": 5200,
+    "offset": 406240,
+    "lang": "en"
+  },
+  {
+    "text": "run code um and it turns out that there",
+    "duration": 4961,
+    "offset": 408759,
+    "lang": "en"
+  },
+  {
+    "text": "are a lot of different tools that many",
+    "duration": 4759,
+    "offset": 411440,
+    "lang": "en"
+  },
+  {
+    "text": "different people are using for analysis",
+    "duration": 4560,
+    "offset": 413720,
+    "lang": "en"
+  },
+  {
+    "text": "for gathering information for taking",
+    "duration": 4081,
+    "offset": 416199,
+    "lang": "en"
+  },
+  {
+    "text": "action for personal productivity",
+    "duration": 3840,
+    "offset": 418280,
+    "lang": "en"
+  },
+  {
+    "text": "um it turns out a lot of the early work",
+    "duration": 3639,
+    "offset": 420280,
+    "lang": "en"
+  },
+  {
+    "text": "in two use turned out to be in the",
+    "duration": 4600,
+    "offset": 422120,
+    "lang": "en"
+  },
+  {
+    "text": "computer vision Community because before",
+    "duration": 5161,
+    "offset": 423919,
+    "lang": "en"
+  },
+  {
+    "text": "large language models lm's you know they",
+    "duration": 4000,
+    "offset": 426720,
+    "lang": "en"
+  },
+  {
+    "text": "couldn't do anything with images so the",
+    "duration": 4239,
+    "offset": 429080,
+    "lang": "en"
+  },
+  {
+    "text": "only option was that the LM generate a",
+    "duration": 4400,
+    "offset": 430720,
+    "lang": "en"
+  },
+  {
+    "text": "function called that could manipulate an",
+    "duration": 3961,
+    "offset": 433319,
+    "lang": "en"
+  },
+  {
+    "text": "image like generate an image or do",
+    "duration": 3479,
+    "offset": 435120,
+    "lang": "en"
+  },
+  {
+    "text": "object detection or whatever so if you",
+    "duration": 3120,
+    "offset": 437280,
+    "lang": "en"
+  },
+  {
+    "text": "actually look at literature it's been",
+    "duration": 4121,
+    "offset": 438599,
+    "lang": "en"
+  },
+  {
+    "text": "interesting how much of the work um in",
+    "duration": 5199,
+    "offset": 440400,
+    "lang": "en"
+  },
+  {
+    "text": "two years seems like it originated from",
+    "duration": 5159,
+    "offset": 442720,
+    "lang": "en"
+  },
+  {
+    "text": "Vision because LMS would blind to images",
+    "duration": 5440,
+    "offset": 445599,
+    "lang": "en"
+  },
+  {
+    "text": "before you know gp4 and and and lava and",
+    "duration": 6241,
+    "offset": 447879,
+    "lang": "en"
+  },
+  {
+    "text": "so on um so that's two use and it",
+    "duration": 7521,
+    "offset": 451039,
+    "lang": "en"
+  },
+  {
+    "text": "expands what an LM can do um and then",
+    "duration": 6120,
+    "offset": 454120,
+    "lang": "en"
+  },
+  {
+    "text": "planning you know for those of you that",
+    "duration": 3560,
+    "offset": 458560,
+    "lang": "en"
+  },
+  {
+    "text": "have not yet played a lot with planning",
+    "duration": 4079,
+    "offset": 460240,
+    "lang": "en"
+  },
+  {
+    "text": "algorithms I I feel like a lot of people",
+    "duration": 4400,
+    "offset": 462120,
+    "lang": "en"
+  },
+  {
+    "text": "talk about the chat GPT moment where",
+    "duration": 4361,
+    "offset": 464319,
+    "lang": "en"
+  },
+  {
+    "text": "you're wow never seen anything like this",
+    "duration": 4959,
+    "offset": 466520,
+    "lang": "en"
+  },
+  {
+    "text": "I think if not used planning alums many",
+    "duration": 5720,
+    "offset": 468680,
+    "lang": "en"
+  },
+  {
+    "text": "people will have a kind of a AI agent",
+    "duration": 5201,
+    "offset": 471479,
+    "lang": "en"
+  },
+  {
+    "text": "wow I couldn't imagine the AI agent",
+    "duration": 4600,
+    "offset": 474400,
+    "lang": "en"
+  },
+  {
+    "text": "doing this I've run live demos where",
+    "duration": 4359,
+    "offset": 476680,
+    "lang": "en"
+  },
+  {
+    "text": "something failed and the AI agent",
+    "duration": 3919,
+    "offset": 479000,
+    "lang": "en"
+  },
+  {
+    "text": "rerouted around the failures I've",
+    "duration": 3921,
+    "offset": 481039,
+    "lang": "en"
+  },
+  {
+    "text": "actually had quite a few of those moment",
+    "duration": 4240,
+    "offset": 482919,
+    "lang": "en"
+  },
+  {
+    "text": "wow you can't believe my AI system just",
+    "duration": 5519,
+    "offset": 484960,
+    "lang": "en"
+  },
+  {
+    "text": "did that autonomously but um one example",
+    "duration": 5720,
+    "offset": 487159,
+    "lang": "en"
+  },
+  {
+    "text": "that I adapted from a hugging GPT paper",
+    "duration": 4241,
+    "offset": 490479,
+    "lang": "en"
+  },
+  {
+    "text": "you know you say this general image",
+    "duration": 3160,
+    "offset": 492879,
+    "lang": "en"
+  },
+  {
+    "text": "where the girls read where a girl is",
+    "duration": 2720,
+    "offset": 494720,
+    "lang": "en"
+  },
+  {
+    "text": "reading a book and it posts the same as",
+    "duration": 3840,
+    "offset": 496039,
+    "lang": "en"
+  },
+  {
+    "text": "a boy in the image example. jpack and",
+    "duration": 3920,
+    "offset": 497440,
+    "lang": "en"
+  },
+  {
+    "text": "please subscribe the new image for your",
+    "duration": 3760,
+    "offset": 499879,
+    "lang": "en"
+  },
+  {
+    "text": "voice so give an example like this um",
+    "duration": 4399,
+    "offset": 501360,
+    "lang": "en"
+  },
+  {
+    "text": "today we have ai agents who can kind of",
+    "duration": 4120,
+    "offset": 503639,
+    "lang": "en"
+  },
+  {
+    "text": "decide first thing I need to do is",
+    "duration": 4201,
+    "offset": 505759,
+    "lang": "en"
+  },
+  {
+    "text": "determine the post of the boy",
+    "duration": 4361,
+    "offset": 507759,
+    "lang": "en"
+  },
+  {
+    "text": "um then you know find the right model",
+    "duration": 4840,
+    "offset": 509960,
+    "lang": "en"
+  },
+  {
+    "text": "maybe on hugging face to extract the",
+    "duration": 5479,
+    "offset": 512120,
+    "lang": "en"
+  },
+  {
+    "text": "post then next need to find a post image",
+    "duration": 5599,
+    "offset": 514800,
+    "lang": "en"
+  },
+  {
+    "text": "model to synthesize a picture of a of a",
+    "duration": 5440,
+    "offset": 517599,
+    "lang": "en"
+  },
+  {
+    "text": "girl of as following the instructions",
+    "duration": 5641,
+    "offset": 520399,
+    "lang": "en"
+  },
+  {
+    "text": "then use image to text to and then",
+    "duration": 5001,
+    "offset": 523039,
+    "lang": "en"
+  },
+  {
+    "text": "finally use text of speech and today we",
+    "duration": 4000,
+    "offset": 526040,
+    "lang": "en"
+  },
+  {
+    "text": "actually have agents that I don't want",
+    "duration": 4680,
+    "offset": 528040,
+    "lang": "en"
+  },
+  {
+    "text": "to say they work reliably you know",
+    "duration": 5200,
+    "offset": 530040,
+    "lang": "en"
+  },
+  {
+    "text": "they're kind of finicky they don't",
+    "duration": 4280,
+    "offset": 532720,
+    "lang": "en"
+  },
+  {
+    "text": "always work but when it works is",
+    "duration": 3839,
+    "offset": 535240,
+    "lang": "en"
+  },
+  {
+    "text": "actually pretty amazing but with agentic",
+    "duration": 3760,
+    "offset": 537000,
+    "lang": "en"
+  },
+  {
+    "text": "loops sometimes you can recover from",
+    "duration": 4081,
+    "offset": 539079,
+    "lang": "en"
+  },
+  {
+    "text": "earlier failures as well so I find",
+    "duration": 4560,
+    "offset": 540760,
+    "lang": "en"
+  },
+  {
+    "text": "myself already using research agents for",
+    "duration": 4520,
+    "offset": 543160,
+    "lang": "en"
+  },
+  {
+    "text": "some of my work where one of piece of",
+    "duration": 3880,
+    "offset": 545320,
+    "lang": "en"
+  },
+  {
+    "text": "research but I don't feel like you know",
+    "duration": 3320,
+    "offset": 547680,
+    "lang": "en"
+  },
+  {
+    "text": "Googling myself and spend a long time I",
+    "duration": 3840,
+    "offset": 549200,
+    "lang": "en"
+  },
+  {
+    "text": "should send to the research agent come",
+    "duration": 3560,
+    "offset": 551000,
+    "lang": "en"
+  },
+  {
+    "text": "back in a few minutes and see what it's",
+    "duration": 3479,
+    "offset": 553040,
+    "lang": "en"
+  },
+  {
+    "text": "come up with and and it sometimes works",
+    "duration": 3120,
+    "offset": 554560,
+    "lang": "en"
+  },
+  {
+    "text": "sometimes doesn't right but that's",
+    "duration": 3601,
+    "offset": 556519,
+    "lang": "en"
+  },
+  {
+    "text": "already a part of my personal",
+    "duration": 5080,
+    "offset": 557680,
+    "lang": "en"
+  },
+  {
+    "text": "workflow the final design pattern multi-",
+    "duration": 4440,
+    "offset": 560120,
+    "lang": "en"
+  },
+  {
+    "text": "Asian collaboration this is one of those",
+    "duration": 5319,
+    "offset": 562760,
+    "lang": "en"
+  },
+  {
+    "text": "funny things but uh um it works much",
+    "duration": 5320,
+    "offset": 564560,
+    "lang": "en"
+  },
+  {
+    "text": "better than you might think",
+    "duration": 5000,
+    "offset": 568079,
+    "lang": "en"
+  },
+  {
+    "text": "uh uh but on the left is a screenshot",
+    "duration": 6959,
+    "offset": 569880,
+    "lang": "en"
+  },
+  {
+    "text": "from a paper called um chat Dev uh which",
+    "duration": 5841,
+    "offset": 573079,
+    "lang": "en"
+  },
+  {
+    "text": "is completely open which actually open",
+    "duration": 4201,
+    "offset": 576839,
+    "lang": "en"
+  },
+  {
+    "text": "source many of you saw the you know",
+    "duration": 4120,
+    "offset": 578920,
+    "lang": "en"
+  },
+  {
+    "text": "flashy social media announcements of",
+    "duration": 5520,
+    "offset": 581040,
+    "lang": "en"
+  },
+  {
+    "text": "demo of a Devon uh uh Chad Dev is open",
+    "duration": 6200,
+    "offset": 583040,
+    "lang": "en"
+  },
+  {
+    "text": "source it runs on my laptop and what",
+    "duration": 4519,
+    "offset": 586560,
+    "lang": "en"
+  },
+  {
+    "text": "Chad Dev doeses is example of a",
+    "duration": 5159,
+    "offset": 589240,
+    "lang": "en"
+  },
+  {
+    "text": "multi-agent system where you prompt one",
+    "duration": 6440,
+    "offset": 591079,
+    "lang": "en"
+  },
+  {
+    "text": "LM to sometimes act like the CEO of a",
+    "duration": 5000,
+    "offset": 594399,
+    "lang": "en"
+  },
+  {
+    "text": "software engine company sometimes Act",
+    "duration": 3560,
+    "offset": 597519,
+    "lang": "en"
+  },
+  {
+    "text": "designer sometime a product manager",
+    "duration": 4241,
+    "offset": 599399,
+    "lang": "en"
+  },
+  {
+    "text": "sometimes I a tester and this flock of",
+    "duration": 4721,
+    "offset": 601079,
+    "lang": "en"
+  },
+  {
+    "text": "agents that you built by prompting an LM",
+    "duration": 4560,
+    "offset": 603640,
+    "lang": "en"
+  },
+  {
+    "text": "to tell them you're now Co you're now",
+    "duration": 4479,
+    "offset": 605800,
+    "lang": "en"
+  },
+  {
+    "text": "software engineer they collaborate have",
+    "duration": 4720,
+    "offset": 608200,
+    "lang": "en"
+  },
+  {
+    "text": "an extended conversation so that if you",
+    "duration": 5361,
+    "offset": 610279,
+    "lang": "en"
+  },
+  {
+    "text": "tell it please develop a game develop a",
+    "duration": 5440,
+    "offset": 612920,
+    "lang": "en"
+  },
+  {
+    "text": "GOI game they'll actually spend you know",
+    "duration": 5400,
+    "offset": 615640,
+    "lang": "en"
+  },
+  {
+    "text": "a few minutes writing code testing it uh",
+    "duration": 5120,
+    "offset": 618360,
+    "lang": "en"
+  },
+  {
+    "text": "iterating and then generate a like",
+    "duration": 4680,
+    "offset": 621040,
+    "lang": "en"
+  },
+  {
+    "text": "surprisingly complex programs doesn't",
+    "duration": 4080,
+    "offset": 623480,
+    "lang": "en"
+  },
+  {
+    "text": "always work I've used it sometimes it",
+    "duration": 3960,
+    "offset": 625720,
+    "lang": "en"
+  },
+  {
+    "text": "doesn't work sometimes it's amazing but",
+    "duration": 4560,
+    "offset": 627560,
+    "lang": "en"
+  },
+  {
+    "text": "this technology is really um getting",
+    "duration": 4719,
+    "offset": 629680,
+    "lang": "en"
+  },
+  {
+    "text": "better and and just one of design",
+    "duration": 4519,
+    "offset": 632120,
+    "lang": "en"
+  },
+  {
+    "text": "pattern it turns out that multi-agent",
+    "duration": 3961,
+    "offset": 634399,
+    "lang": "en"
+  },
+  {
+    "text": "debate where you have different agents",
+    "duration": 3401,
+    "offset": 636639,
+    "lang": "en"
+  },
+  {
+    "text": "you know for example could be have ch",
+    "duration": 4599,
+    "offset": 638360,
+    "lang": "en"
+  },
+  {
+    "text": "GPT and Gemini debate each other that",
+    "duration": 5799,
+    "offset": 640040,
+    "lang": "en"
+  },
+  {
+    "text": "actually results in better performance",
+    "duration": 5440,
+    "offset": 642959,
+    "lang": "en"
+  },
+  {
+    "text": "as well so having multiple simulated air",
+    "duration": 4721,
+    "offset": 645839,
+    "lang": "en"
+  },
+  {
+    "text": "agents work together has been a powerful",
+    "duration": 5440,
+    "offset": 648399,
+    "lang": "en"
+  },
+  {
+    "text": "design pattern as well um so just to",
+    "duration": 4959,
+    "offset": 650560,
+    "lang": "en"
+  },
+  {
+    "text": "summarize I think these are the these",
+    "duration": 4961,
+    "offset": 653839,
+    "lang": "en"
+  },
+  {
+    "text": "are the the the uh patterns of seen and",
+    "duration": 6241,
+    "offset": 655519,
+    "lang": "en"
+  },
+  {
+    "text": "I think that if we were to um use these",
+    "duration": 5440,
+    "offset": 658800,
+    "lang": "en"
+  },
+  {
+    "text": "uh uh patterns you know in our work a",
+    "duration": 5199,
+    "offset": 661760,
+    "lang": "en"
+  },
+  {
+    "text": "lot of us can get a prity boost quite",
+    "duration": 5399,
+    "offset": 664240,
+    "lang": "en"
+  },
+  {
+    "text": "quickly and I think that um agentic",
+    "duration": 5161,
+    "offset": 666959,
+    "lang": "en"
+  },
+  {
+    "text": "reasoning design patterns are going to",
+    "duration": 5561,
+    "offset": 669639,
+    "lang": "en"
+  },
+  {
+    "text": "be important uh this is my small slide I",
+    "duration": 5080,
+    "offset": 672120,
+    "lang": "en"
+  },
+  {
+    "text": "expect that the set of T AI could do",
+    "duration": 5400,
+    "offset": 675200,
+    "lang": "en"
+  },
+  {
+    "text": "will expand dramatically this year uh",
+    "duration": 6439,
+    "offset": 677200,
+    "lang": "en"
+  },
+  {
+    "text": "because of agentic workflows and one",
+    "duration": 4400,
+    "offset": 680600,
+    "lang": "en"
+  },
+  {
+    "text": "thing that it's actually difficult",
+    "duration": 3760,
+    "offset": 683639,
+    "lang": "en"
+  },
+  {
+    "text": "people to get used to is when we prompt",
+    "duration": 4760,
+    "offset": 685000,
+    "lang": "en"
+  },
+  {
+    "text": "an LM we want to response right away",
+    "duration": 4440,
+    "offset": 687399,
+    "lang": "en"
+  },
+  {
+    "text": "um in fact a decade ago when I was you",
+    "duration": 4199,
+    "offset": 689760,
+    "lang": "en"
+  },
+  {
+    "text": "know having discussions around at at at",
+    "duration": 5041,
+    "offset": 691839,
+    "lang": "en"
+  },
+  {
+    "text": "Google on um it called a big box search",
+    "duration": 5721,
+    "offset": 693959,
+    "lang": "en"
+  },
+  {
+    "text": "we type a long prompt one of the reasons",
+    "duration": 5240,
+    "offset": 696880,
+    "lang": "en"
+  },
+  {
+    "text": "you know I failed to push successfully",
+    "duration": 4279,
+    "offset": 699680,
+    "lang": "en"
+  },
+  {
+    "text": "for that was because when you do a web",
+    "duration": 3560,
+    "offset": 702120,
+    "lang": "en"
+  },
+  {
+    "text": "search you one of responds back in half",
+    "duration": 3401,
+    "offset": 703959,
+    "lang": "en"
+  },
+  {
+    "text": "a second right that's just human nature",
+    "duration": 3440,
+    "offset": 705680,
+    "lang": "en"
+  },
+  {
+    "text": "we like that instant grab instant",
+    "duration": 3440,
+    "offset": 707360,
+    "lang": "en"
+  },
+  {
+    "text": "feedback but for a lot of the agent",
+    "duration": 4680,
+    "offset": 709120,
+    "lang": "en"
+  },
+  {
+    "text": "workflows um I think we'll need to learn",
+    "duration": 5240,
+    "offset": 710800,
+    "lang": "en"
+  },
+  {
+    "text": "to dedicate the toss and AI agent and",
+    "duration": 4800,
+    "offset": 713800,
+    "lang": "en"
+  },
+  {
+    "text": "patiently wait minutes maybe even hours",
+    "duration": 5080,
+    "offset": 716040,
+    "lang": "en"
+  },
+  {
+    "text": "uh to for a response but just like I've",
+    "duration": 5200,
+    "offset": 718600,
+    "lang": "en"
+  },
+  {
+    "text": "seen a lot of novice managers delegate",
+    "duration": 4480,
+    "offset": 721120,
+    "lang": "en"
+  },
+  {
+    "text": "something to someone and then check in 5",
+    "duration": 3400,
+    "offset": 723800,
+    "lang": "en"
+  },
+  {
+    "text": "minutes later right and that's not",
+    "duration": 4720,
+    "offset": 725600,
+    "lang": "en"
+  },
+  {
+    "text": "productive um I think we need to it be",
+    "duration": 4240,
+    "offset": 727200,
+    "lang": "en"
+  },
+  {
+    "text": "difficult we need to do that with some",
+    "duration": 4000,
+    "offset": 730320,
+    "lang": "en"
+  },
+  {
+    "text": "of our AI agents as well I saw I heard",
+    "duration": 5680,
+    "offset": 731440,
+    "lang": "en"
+  },
+  {
+    "text": "some loss um and then one other",
+    "duration": 4639,
+    "offset": 734320,
+    "lang": "en"
+  },
+  {
+    "text": "important Trend fast token generation is",
+    "duration": 4079,
+    "offset": 737120,
+    "lang": "en"
+  },
+  {
+    "text": "important because with these agented",
+    "duration": 4320,
+    "offset": 738959,
+    "lang": "en"
+  },
+  {
+    "text": "workflows we're iterating over and over",
+    "duration": 3880,
+    "offset": 741199,
+    "lang": "en"
+  },
+  {
+    "text": "so the LM is generating tokens for the",
+    "duration": 3560,
+    "offset": 743279,
+    "lang": "en"
+  },
+  {
+    "text": "elm to read so be able to generate",
+    "duration": 4120,
+    "offset": 745079,
+    "lang": "en"
+  },
+  {
+    "text": "tokens way faster than any human to read",
+    "duration": 5081,
+    "offset": 746839,
+    "lang": "en"
+  },
+  {
+    "text": "is fantastic and I think that um",
+    "duration": 4760,
+    "offset": 749199,
+    "lang": "en"
+  },
+  {
+    "text": "generating more tokens really quickly",
+    "duration": 4760,
+    "offset": 751920,
+    "lang": "en"
+  },
+  {
+    "text": "from even a slightly lower quality LM",
+    "duration": 5361,
+    "offset": 753959,
+    "lang": "en"
+  },
+  {
+    "text": "might give good results compared to",
+    "duration": 5040,
+    "offset": 756680,
+    "lang": "en"
+  },
+  {
+    "text": "slower tokens from a better LM maybe",
+    "duration": 3920,
+    "offset": 759320,
+    "lang": "en"
+  },
+  {
+    "text": "it's a little bit controversial because",
+    "duration": 3200,
+    "offset": 761720,
+    "lang": "en"
+  },
+  {
+    "text": "it may let you go around this Loop a lot",
+    "duration": 3159,
+    "offset": 763240,
+    "lang": "en"
+  },
+  {
+    "text": "more times kind of like the results I",
+    "duration": 3760,
+    "offset": 764920,
+    "lang": "en"
+  },
+  {
+    "text": "showed with gbd3 and an agent",
+    "duration": 5000,
+    "offset": 766399,
+    "lang": "en"
+  },
+  {
+    "text": "architecture on the first slide um and",
+    "duration": 4880,
+    "offset": 768680,
+    "lang": "en"
+  },
+  {
+    "text": "cand I'm really looking forward to Cloud",
+    "duration": 5560,
+    "offset": 771399,
+    "lang": "en"
+  },
+  {
+    "text": "5 and uh CL 4 and gb5 and Gemini 2.0 and",
+    "duration": 4800,
+    "offset": 773560,
+    "lang": "en"
+  },
+  {
+    "text": "all these other wonderful models that",
+    "duration": 2841,
+    "offset": 776959,
+    "lang": "en"
+  },
+  {
+    "text": "may are building",
+    "duration": 3479,
+    "offset": 778360,
+    "lang": "en"
+  },
+  {
+    "text": "and part of me feels like if you're",
+    "duration": 4080,
+    "offset": 779800,
+    "lang": "en"
+  },
+  {
+    "text": "looking forward to running your thing on",
+    "duration": 5440,
+    "offset": 781839,
+    "lang": "en"
+  },
+  {
+    "text": "gp5 zero shot you know you mayble to get",
+    "duration": 5840,
+    "offset": 783880,
+    "lang": "en"
+  },
+  {
+    "text": "closer to that level performance on some",
+    "duration": 4360,
+    "offset": 787279,
+    "lang": "en"
+  },
+  {
+    "text": "applications than you might think with",
+    "duration": 4600,
+    "offset": 789720,
+    "lang": "en"
+  },
+  {
+    "text": "agenting reasoning um but on an early",
+    "duration": 5721,
+    "offset": 791639,
+    "lang": "en"
+  },
+  {
+    "text": "model I think I I I I think this is an",
+    "duration": 7040,
+    "offset": 794320,
+    "lang": "en"
+  },
+  {
+    "text": "important Trend uh uh and honestly the",
+    "duration": 7120,
+    "offset": 797360,
+    "lang": "en"
+  },
+  {
+    "text": "path to AGI feels like a journey rather",
+    "duration": 5159,
+    "offset": 801360,
+    "lang": "en"
+  },
+  {
+    "text": "than a destination but I think this typ",
+    "duration": 4680,
+    "offset": 804480,
+    "lang": "en"
+  },
+  {
+    "text": "of agent workflows could help us take a",
+    "duration": 4680,
+    "offset": 806519,
+    "lang": "en"
+  },
+  {
+    "text": "small step forward on this very long",
+    "duration": 4960,
+    "offset": 809160,
+    "lang": "en"
+  },
+  {
+    "text": "journey thank",
+    "duration": 2921,
+    "offset": 811199,
+    "lang": "en"
+  },
+  {
+    "text": "[Applause]",
+    "duration": 3139,
+    "offset": 815010,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 3000,
+    "offset": 818880,
+    "lang": "en"
+  }
+]

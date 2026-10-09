@@ -1,0 +1,2006 @@
+[
+  {
+    "text": "I'm gonna run one command and watch\nwhat happens. Go within seconds.",
+    "duration": 3420,
+    "offset": 140,
+    "lang": "en"
+  },
+  {
+    "text": "14 containers spanning three networks\ncreated out of thin air an entire",
+    "duration": 4800,
+    "offset": 4160,
+    "lang": "en"
+  },
+  {
+    "text": "it infrastructure. And in this case,",
+    "duration": 1820,
+    "offset": 9180,
+    "lang": "en"
+  },
+  {
+    "text": "it's a Cali Lennox hacking lab with 13\nvulnerable machines, just like that. Bam,",
+    "duration": 4080,
+    "offset": 11000,
+    "lang": "en"
+  },
+  {
+    "text": "a Docker, big bang. And then\nwith one command they're gone.",
+    "duration": 3200,
+    "offset": 15400,
+    "lang": "en"
+  },
+  {
+    "text": "This is the power of Docker compose,",
+    "duration": 2690,
+    "offset": 18750,
+    "lang": "en"
+  },
+  {
+    "text": "a Docker tool that allows us to build\nentire dockerized worlds with one file,",
+    "duration": 4480,
+    "offset": 22680,
+    "lang": "en"
+  },
+  {
+    "text": "saving us on the tedium of creating and\nrunning Docker containers line by line",
+    "duration": 3740,
+    "offset": 27180,
+    "lang": "en"
+  },
+  {
+    "text": "run, Docker run. So in this video,",
+    "duration": 1860,
+    "offset": 31100,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna teach you how to use Docker\ncompose. It's remarkably simple.",
+    "duration": 3380,
+    "offset": 33340,
+    "lang": "en"
+  },
+  {
+    "text": "And if you're like me, you're gonna kick\nyourself for not knowing this sooner.",
+    "duration": 3100,
+    "offset": 36740,
+    "lang": "en"
+  },
+  {
+    "text": "Now there are three things you need\nto start composing a Docker symphony.",
+    "duration": 3300,
+    "offset": 39980,
+    "lang": "en"
+  },
+  {
+    "text": "First you'll need just a little bit\nof Docker knowledge, just a tiny bit.",
+    "duration": 3550,
+    "offset": 43490,
+    "lang": "en"
+  },
+  {
+    "text": "Like if you've run a Docker container\nbefore, you're probably good,",
+    "duration": 2720,
+    "offset": 47040,
+    "lang": "en"
+  },
+  {
+    "text": "but if you haven't that's okay.",
+    "duration": 1320,
+    "offset": 49760,
+    "lang": "en"
+  },
+  {
+    "text": "Just watch this video right here and\nI'll show you everything about then come",
+    "duration": 3370,
+    "offset": 51110,
+    "lang": "en"
+  },
+  {
+    "text": "back and see me. I'll wait\nwith some coffee, two. You're\ngonna need some Lennox.",
+    "duration": 4280,
+    "offset": 54480,
+    "lang": "en"
+  },
+  {
+    "text": "It could be your computer. It could\nbe a VM local in the cloud. W SL two.",
+    "duration": 3460,
+    "offset": 58860,
+    "lang": "en"
+  },
+  {
+    "text": "I don't care. It doesn't matter. But\nif you do want to follow along with me,",
+    "duration": 2320,
+    "offset": 62400,
+    "lang": "en"
+  },
+  {
+    "text": "I'm using the latest version of a\nBTU desktop inside of virtual box.",
+    "duration": 3540,
+    "offset": 64900,
+    "lang": "en"
+  },
+  {
+    "text": "And if you wanna build that VM for free,\nyou can watch this video right here,",
+    "duration": 3020,
+    "offset": 68540,
+    "lang": "en"
+  },
+  {
+    "text": "then finally. And most importantly,",
+    "duration": 1600,
+    "offset": 71560,
+    "lang": "en"
+  },
+  {
+    "text": "you're gonna need some coffee because\neverything in it requires coffee,",
+    "duration": 3320,
+    "offset": 73160,
+    "lang": "en"
+  },
+  {
+    "text": "chuck.coffee. Now, once\nyou're in Lenox land,",
+    "duration": 2230,
+    "offset": 76810,
+    "lang": "en"
+  },
+  {
+    "text": "let's go ahead and launch our term.",
+    "duration": 1240,
+    "offset": 79040,
+    "lang": "en"
+  },
+  {
+    "text": "And now let's go ahead and install some\nDocker compose. We'll do a quick update,",
+    "duration": 3660,
+    "offset": 80500,
+    "lang": "en"
+  },
+  {
+    "text": "pseudo a PT update to\nupdate a repositories little\npseudo password action here.",
+    "duration": 4780,
+    "offset": 84260,
+    "lang": "en"
+  },
+  {
+    "text": "And then with one command I'll install\nDocker, a PT install, Docker do IO,",
+    "duration": 4580,
+    "offset": 89060,
+    "lang": "en"
+  },
+  {
+    "text": "and also Docker dash compose.",
+    "duration": 2020,
+    "offset": 93660,
+    "lang": "en"
+  },
+  {
+    "text": "I'll do a dash Y at the end and quick\ncoffee break. Let it do its thing. Now,",
+    "duration": 4010,
+    "offset": 95790,
+    "lang": "en"
+  },
+  {
+    "text": "once you have it installed, what\ndo you say? For old time's sake?",
+    "duration": 2520,
+    "offset": 99800,
+    "lang": "en"
+  },
+  {
+    "text": "We create a Docker container in the\nold fashioned way. Pseudo Docker run,",
+    "duration": 3520,
+    "offset": 102320,
+    "lang": "en"
+  },
+  {
+    "text": "we'll name it web, do a few switches.",
+    "duration": 2310,
+    "offset": 105930,
+    "lang": "en"
+  },
+  {
+    "text": "It D expose some ports and we'll\nuse EngineX as our image, simple,",
+    "duration": 4340,
+    "offset": 108300,
+    "lang": "en"
+  },
+  {
+    "text": "elegant the way our grandparents used\nto run it, but old. So what do you say?",
+    "duration": 3650,
+    "offset": 112870,
+    "lang": "en"
+  },
+  {
+    "text": "We do the same thing,\nbut with Docker compose.",
+    "duration": 2560,
+    "offset": 116520,
+    "lang": "en"
+  },
+  {
+    "text": "So I'm gonna scoot this out of the way,\nbut I'll keep it viewable right there.",
+    "duration": 3660,
+    "offset": 119300,
+    "lang": "en"
+  },
+  {
+    "text": "And I'll want to know the terminal. Now,",
+    "duration": 1220,
+    "offset": 123020,
+    "lang": "en"
+  },
+  {
+    "text": "whenever you're working\nwith Docker composed,",
+    "duration": 1240,
+    "offset": 124400,
+    "lang": "en"
+  },
+  {
+    "text": "the first thing you wanna do is make a\nfolder dedicated to that one composed",
+    "duration": 3760,
+    "offset": 125640,
+    "lang": "en"
+  },
+  {
+    "text": "thing you're doing. It'll make\nsense. Why here in a second.",
+    "duration": 2000,
+    "offset": 129400,
+    "lang": "en"
+  },
+  {
+    "text": "So let's go ahead and do make DIR\nand we'll name it coffee time,",
+    "duration": 3660,
+    "offset": 131420,
+    "lang": "en"
+  },
+  {
+    "text": "and then we'll jump in that\ndirectory CD coffee time we're in,",
+    "duration": 2760,
+    "offset": 135080,
+    "lang": "en"
+  },
+  {
+    "text": "and now let's make our\nDocker composed file.",
+    "duration": 1960,
+    "offset": 137840,
+    "lang": "en"
+  },
+  {
+    "text": "And it's just gonna be one file that\ndoes everything. It's kind of crazy.",
+    "duration": 2760,
+    "offset": 139800,
+    "lang": "en"
+  },
+  {
+    "text": "So nano Docker dash compos dot Y\nAML, two things here real quick.",
+    "duration": 4780,
+    "offset": 142780,
+    "lang": "en"
+  },
+  {
+    "text": "First, I'm naming it. Docker\ndash composed dot Y AML,",
+    "duration": 2680,
+    "offset": 147560,
+    "lang": "en"
+  },
+  {
+    "text": "unless you have a really good\nreason not to go ahead and name it,",
+    "duration": 2200,
+    "offset": 150240,
+    "lang": "en"
+  },
+  {
+    "text": "that when you're using Docker compose,\nit looks for that name by default.",
+    "duration": 3160,
+    "offset": 152440,
+    "lang": "en"
+  },
+  {
+    "text": "So why even go from that? Just, just\ndo that. And then also notice, uh,",
+    "duration": 3100,
+    "offset": 155820,
+    "lang": "en"
+  },
+  {
+    "text": "we have the dot YML, which is YAML.",
+    "duration": 2680,
+    "offset": 158920,
+    "lang": "en"
+  },
+  {
+    "text": "Technically it's a data serialization\nlanguage. That's too complicated.",
+    "duration": 3760,
+    "offset": 161600,
+    "lang": "en"
+  },
+  {
+    "text": "Just think about it as a\nconfiguration file. It's a nice,",
+    "duration": 2800,
+    "offset": 165360,
+    "lang": "en"
+  },
+  {
+    "text": "pretty way of writing out configuration.",
+    "duration": 1920,
+    "offset": 168160,
+    "lang": "en"
+  },
+  {
+    "text": "It's easy for computers to read and\nit's easy for us to read. You'll see.",
+    "duration": 2930,
+    "offset": 170110,
+    "lang": "en"
+  },
+  {
+    "text": "It's beautiful. So let's go\nahead and jump in that file.",
+    "duration": 1880,
+    "offset": 173040,
+    "lang": "en"
+  },
+  {
+    "text": "And here is what we'll start to\nwrite our symphony, our sweet,",
+    "duration": 2500,
+    "offset": 174940,
+    "lang": "en"
+  },
+  {
+    "text": "sweet Docker music. The first.",
+    "duration": 1400,
+    "offset": 177440,
+    "lang": "en"
+  },
+  {
+    "text": "Thing thing we'll do is define the\nversion by simply typing in version colon.",
+    "duration": 2960,
+    "offset": 178840,
+    "lang": "en"
+  },
+  {
+    "text": "And then right after that,\nputting in double quotes three,",
+    "duration": 2980,
+    "offset": 182260,
+    "lang": "en"
+  },
+  {
+    "text": "that's the current Docker version.",
+    "duration": 1220,
+    "offset": 185500,
+    "lang": "en"
+  },
+  {
+    "text": "You may be watching this in 20 years\nand we're at Docker version 1220.",
+    "duration": 3820,
+    "offset": 187060,
+    "lang": "en"
+  },
+  {
+    "text": "I don't know, but it's three right now.",
+    "duration": 1280,
+    "offset": 191040,
+    "lang": "en"
+  },
+  {
+    "text": "So it's do three then hit enter\nnext we'll define services.",
+    "duration": 2720,
+    "offset": 192320,
+    "lang": "en"
+  },
+  {
+    "text": "So just type in services, if you can\nspell it right, lit unlike me hit enter,",
+    "duration": 3680,
+    "offset": 195040,
+    "lang": "en"
+  },
+  {
+    "text": "and then tab. Now, keep in\nmind. YAML loves its space.",
+    "duration": 4080,
+    "offset": 198720,
+    "lang": "en"
+  },
+  {
+    "text": "It needs some personal space, just\nlike Python. So when I say tab,",
+    "duration": 3000,
+    "offset": 202800,
+    "lang": "en"
+  },
+  {
+    "text": "I mean it under services is\nwhere we define our containers.",
+    "duration": 2880,
+    "offset": 206000,
+    "lang": "en"
+  },
+  {
+    "text": "So I'll just call this guy website,\ncolon, and then enter once more.",
+    "duration": 3500,
+    "offset": 208900,
+    "lang": "en"
+  },
+  {
+    "text": "And then I'll tab twice, two tabs.",
+    "duration": 2500,
+    "offset": 212420,
+    "lang": "en"
+  },
+  {
+    "text": "And now I'll start configuring\nthat container first.",
+    "duration": 2120,
+    "offset": 214920,
+    "lang": "en"
+  },
+  {
+    "text": "Let's do our image type in image, colon.\nAnd when we have EngineX that's it.",
+    "duration": 4520,
+    "offset": 217040,
+    "lang": "en"
+  },
+  {
+    "text": "So just type in, EngineX get that part\ndone. And they're right under there,",
+    "duration": 2960,
+    "offset": 221560,
+    "lang": "en"
+  },
+  {
+    "text": "keeping the same spacing. We'll do\nreports. So watch what I do here. Again,",
+    "duration": 3240,
+    "offset": 224520,
+    "lang": "en"
+  },
+  {
+    "text": "this is YAML stuff, YAML\nspeak tab, tab, tab.",
+    "duration": 2480,
+    "offset": 227760,
+    "lang": "en"
+  },
+  {
+    "text": "I'll do a dash space and then parentheses\nI'll specify the port mapping.",
+    "duration": 3450,
+    "offset": 230270,
+    "lang": "en"
+  },
+  {
+    "text": "So we're doing 80 80,",
+    "duration": 1300,
+    "offset": 233900,
+    "lang": "en"
+  },
+  {
+    "text": "and actually we'll do 80, 81 80\n80 is already taken up right now.",
+    "duration": 2500,
+    "offset": 235380,
+    "lang": "en"
+  },
+  {
+    "text": "And we'll map that to the port 80\nof our container. Now that is it.",
+    "duration": 3900,
+    "offset": 238260,
+    "lang": "en"
+  },
+  {
+    "text": "<laugh> we're done. Oh, actually there's\none more thing we can do. Let's uh,",
+    "duration": 2880,
+    "offset": 242600,
+    "lang": "en"
+  },
+  {
+    "text": "tab over to be in line with ports\nand we'll say restart always.",
+    "duration": 2980,
+    "offset": 245660,
+    "lang": "en"
+  },
+  {
+    "text": "So it always comes back up after your\nmachine reboot. You want that right? Yes.",
+    "duration": 3820,
+    "offset": 248860,
+    "lang": "en"
+  },
+  {
+    "text": "Okay. So that's a cap post\nfile, simple, but it'll work.",
+    "duration": 3170,
+    "offset": 252750,
+    "lang": "en"
+  },
+  {
+    "text": "So let's actually try it out.",
+    "duration": 1220,
+    "offset": 256060,
+    "lang": "en"
+  },
+  {
+    "text": "I'll do a control X Y enter to save\nand with one command Docker dash compos",
+    "duration": 4560,
+    "offset": 257280,
+    "lang": "en"
+  },
+  {
+    "text": "up and then a dash D to put it in the\nbackground. That's all we gotta do.",
+    "duration": 3020,
+    "offset": 262220,
+    "lang": "en"
+  },
+  {
+    "text": "Hit enter pseudo password done.\nNow a couple of things here.",
+    "duration": 2980,
+    "offset": 265540,
+    "lang": "en"
+  },
+  {
+    "text": "Notice I ran that command while\nin that coffee time directory,",
+    "duration": 3580,
+    "offset": 268540,
+    "lang": "en"
+  },
+  {
+    "text": "the same directory where my composed\nfile lives. Make sure you do that.",
+    "duration": 3080,
+    "offset": 272120,
+    "lang": "en"
+  },
+  {
+    "text": "If you don't, you'll have to do some\ndash F and specify where it's gonna,",
+    "duration": 3380,
+    "offset": 275260,
+    "lang": "en"
+  },
+  {
+    "text": "it's just the whole thing. Just make\nsure you're in the same directory.",
+    "duration": 2010,
+    "offset": 278670,
+    "lang": "en"
+  },
+  {
+    "text": "Also notice this. Yeah, it did create\nmy website. It named it coffee time,",
+    "duration": 4250,
+    "offset": 280710,
+    "lang": "en"
+  },
+  {
+    "text": "underscore website one, which coffee\ntime was the name of my folder.",
+    "duration": 3120,
+    "offset": 284960,
+    "lang": "en"
+  },
+  {
+    "text": "So that's why that's kind of important.",
+    "duration": 1540,
+    "offset": 288300,
+    "lang": "en"
+  },
+  {
+    "text": "And then the website being\nthe name of my service,",
+    "duration": 1560,
+    "offset": 289840,
+    "lang": "en"
+  },
+  {
+    "text": "and then it just puts one after it, like,",
+    "duration": 1340,
+    "offset": 291500,
+    "lang": "en"
+  },
+  {
+    "text": "assuming you're gonna make more of them,",
+    "duration": 960,
+    "offset": 293200,
+    "lang": "en"
+  },
+  {
+    "text": "but then also notice good old Ducker\ncompose made a network for us too.",
+    "duration": 3520,
+    "offset": 294160,
+    "lang": "en"
+  },
+  {
+    "text": "That's some service.",
+    "duration": 940,
+    "offset": 297700,
+    "lang": "en"
+  },
+  {
+    "text": "He created a default bridge network\nand put our container inside.",
+    "duration": 3100,
+    "offset": 298820,
+    "lang": "en"
+  },
+  {
+    "text": "What a good guy. And yes, that is the\ndefault behavior of Docker composed.",
+    "duration": 3600,
+    "offset": 301920,
+    "lang": "en"
+  },
+  {
+    "text": "Cuz we didn't do anything\ndifferently. You can change that.",
+    "duration": 2120,
+    "offset": 305520,
+    "lang": "en"
+  },
+  {
+    "text": "And I'll show you here in a bit. Now I\ndo wanna make sure our website works.",
+    "duration": 2280,
+    "offset": 307640,
+    "lang": "en"
+  },
+  {
+    "text": "Let's go out there actually\nfirst we'll do a Docker PS.",
+    "duration": 2270,
+    "offset": 309930,
+    "lang": "en"
+  },
+  {
+    "text": "There's our two containers and\nthere's 80, 81 right there.",
+    "duration": 2640,
+    "offset": 312200,
+    "lang": "en"
+  },
+  {
+    "text": "The one we just spun up and\nactually here, this is kind of cool.",
+    "duration": 1960,
+    "offset": 314840,
+    "lang": "en"
+  },
+  {
+    "text": "If we do Docker, compose PS,",
+    "duration": 3180,
+    "offset": 317220,
+    "lang": "en"
+  },
+  {
+    "text": "it'll only show us the Docker containers\nwithin that composed environment right",
+    "duration": 3950,
+    "offset": 320490,
+    "lang": "en"
+  },
+  {
+    "text": "there. That's kind of cool. And\nlet's make sure things work.",
+    "duration": 1920,
+    "offset": 324440,
+    "lang": "en"
+  },
+  {
+    "text": "Local host port 80, 81. Beautiful.\nNow like I showed you in the intro,",
+    "duration": 3950,
+    "offset": 326410,
+    "lang": "en"
+  },
+  {
+    "text": "we can bring down that entire thing\nwith one command and the entire thing.",
+    "duration": 3360,
+    "offset": 330360,
+    "lang": "en"
+  },
+  {
+    "text": "We have one thing in there right now,\nwe're gonna add more, just hang tight,",
+    "duration": 2840,
+    "offset": 333720,
+    "lang": "en"
+  },
+  {
+    "text": "but we can do pseudo Docker compose\ndown, down boy. And it just,",
+    "duration": 3920,
+    "offset": 336560,
+    "lang": "en"
+  },
+  {
+    "text": "it deletes it. In fact they remove\nthe network and the container.",
+    "duration": 3580,
+    "offset": 340740,
+    "lang": "en"
+  },
+  {
+    "text": "Now we don't have to do that. If\nwe just do another up command here,",
+    "duration": 3400,
+    "offset": 344320,
+    "lang": "en"
+  },
+  {
+    "text": "bring 'em back up. Instead\nof down, we can do stop.",
+    "duration": 2360,
+    "offset": 347720,
+    "lang": "en"
+  },
+  {
+    "text": "Just simply stopping the\ncontainers. So you have options.",
+    "duration": 2000,
+    "offset": 350080,
+    "lang": "en"
+  },
+  {
+    "text": "I wanna do down once\nmore just to delete it.",
+    "duration": 2040,
+    "offset": 352240,
+    "lang": "en"
+  },
+  {
+    "text": "So what I wanna hit home\nhere right now is that the.",
+    "duration": 2500,
+    "offset": 354340,
+    "lang": "en"
+  },
+  {
+    "text": "The Docker compos file is\nsimply the Docker run command.",
+    "duration": 2980,
+    "offset": 356900,
+    "lang": "en"
+  },
+  {
+    "text": "It just looks a little weird.\nIt has a different format.",
+    "duration": 2220,
+    "offset": 360180,
+    "lang": "en"
+  },
+  {
+    "text": "We have to describe it in a certain way,",
+    "duration": 1820,
+    "offset": 362540,
+    "lang": "en"
+  },
+  {
+    "text": "but that's really not too\ndifficult with the power of Google.",
+    "duration": 2220,
+    "offset": 364460,
+    "lang": "en"
+  },
+  {
+    "text": "Just go look at some Docker\ndocumentation. We covered the basics here,",
+    "duration": 2850,
+    "offset": 366750,
+    "lang": "en"
+  },
+  {
+    "text": "but there's obviously a lot more.\nSo go Google it. It's pretty cool,",
+    "duration": 2540,
+    "offset": 369620,
+    "lang": "en"
+  },
+  {
+    "text": "but don't do it yet.",
+    "duration": 660,
+    "offset": 372160,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna show you some more stuff\nbecause we're about to get a little crazy.",
+    "duration": 2340,
+    "offset": 372820,
+    "lang": "en"
+  },
+  {
+    "text": "Now. You know what I love about Docker\ncontainers. They're safe. They're secure.",
+    "duration": 3940,
+    "offset": 375420,
+    "lang": "en"
+  },
+  {
+    "text": "They're isolated. Most of the time giving\nyou a bit of security, but you know,",
+    "duration": 3800,
+    "offset": 379360,
+    "lang": "en"
+  },
+  {
+    "text": "it's not safe.",
+    "duration": 833,
+    "offset": 383160,
+    "lang": "en"
+  },
+  {
+    "text": "You your computer because you're not\nusing bit defender total security because",
+    "duration": 4500,
+    "offset": 384060,
+    "lang": "en"
+  },
+  {
+    "text": "it's face it. You're not living\nlife inside of a Docker container.",
+    "duration": 2480,
+    "offset": 388560,
+    "lang": "en"
+  },
+  {
+    "text": "You need protection.",
+    "duration": 833,
+    "offset": 391140,
+    "lang": "en"
+  },
+  {
+    "text": "You need someone to hold you and tell\nyou that you're safe and that they're",
+    "duration": 3620,
+    "offset": 391980,
+    "lang": "en"
+  },
+  {
+    "text": "looking out for you and your device\nand your data and shoot. Look at that.",
+    "duration": 3600,
+    "offset": 395600,
+    "lang": "en"
+  },
+  {
+    "text": "This is new. Did a breach alert for\nLinkedIn. Are you on LinkedIn? Well,",
+    "duration": 3290,
+    "offset": 399310,
+    "lang": "en"
+  },
+  {
+    "text": "there you go. But defender\nhas our backs for protection.",
+    "duration": 2870,
+    "offset": 403290,
+    "lang": "en"
+  },
+  {
+    "text": "They got you with the anti-virus\nadvanced threat defense.",
+    "duration": 2650,
+    "offset": 406350,
+    "lang": "en"
+  },
+  {
+    "text": "They're also doing some crazy\nonline threat prevention.",
+    "duration": 2600,
+    "offset": 409000,
+    "lang": "en"
+  },
+  {
+    "text": "They're doing some cloud-based magic by\nblocking online threats at the network",
+    "duration": 3880,
+    "offset": 411600,
+    "lang": "en"
+  },
+  {
+    "text": "level and should anything\nget through which I doubt it.",
+    "duration": 2280,
+    "offset": 415480,
+    "lang": "en"
+  },
+  {
+    "text": "They're gonna be scanning your\nsystem for vulnerabilities,",
+    "duration": 2160,
+    "offset": 417760,
+    "lang": "en"
+  },
+  {
+    "text": "but it's not getting through cause\nthey get a firewall going on.",
+    "duration": 2060,
+    "offset": 420180,
+    "lang": "en"
+  },
+  {
+    "text": "<laugh> it's crazy.",
+    "duration": 1000,
+    "offset": 422720,
+    "lang": "en"
+  },
+  {
+    "text": "And then I know many of you wish you\nwould've had this before. It was too late.",
+    "duration": 2820,
+    "offset": 423860,
+    "lang": "en"
+  },
+  {
+    "text": "Ransomware remediation.",
+    "duration": 1270,
+    "offset": 426690,
+    "lang": "en"
+  },
+  {
+    "text": "They'll help restore your encrypted\nfiles if you get hacked and no,",
+    "duration": 3400,
+    "offset": 427960,
+    "lang": "en"
+  },
+  {
+    "text": "don't just assume you're safe.\nDon't just assume you're immune.",
+    "duration": 2560,
+    "offset": 431360,
+    "lang": "en"
+  },
+  {
+    "text": "Anyone can be hacked. Even\nme. That's why I had this.",
+    "duration": 2500,
+    "offset": 434300,
+    "lang": "en"
+  },
+  {
+    "text": "And one of the biggest\nways you can be hacked.",
+    "duration": 1620,
+    "offset": 437060,
+    "lang": "en"
+  },
+  {
+    "text": "This is why I have my employees\nuse this fishing attempts.",
+    "duration": 2650,
+    "offset": 438710,
+    "lang": "en"
+  },
+  {
+    "text": "I get some anti spam going\non and I know my audience.",
+    "duration": 2480,
+    "offset": 441520,
+    "lang": "en"
+  },
+  {
+    "text": "I know you guys care about privacy.",
+    "duration": 1480,
+    "offset": 444120,
+    "lang": "en"
+  },
+  {
+    "text": "The defender premium security has your\nback with safe pay VPN password manager.",
+    "duration": 3980,
+    "offset": 445940,
+    "lang": "en"
+  },
+  {
+    "text": "And this is pretty cool. Video and audio\nprotection. You're always wondering,",
+    "duration": 2980,
+    "offset": 450260,
+    "lang": "en"
+  },
+  {
+    "text": "Hey, is someone listening to me? Can\nthey see me on my webcam right now?",
+    "duration": 2920,
+    "offset": 453240,
+    "lang": "en"
+  },
+  {
+    "text": "They'll make sure they're not.",
+    "duration": 1400,
+    "offset": 456160,
+    "lang": "en"
+  },
+  {
+    "text": "<laugh> they'll have that control in\nplace and I'll make sure no one's tracking",
+    "duration": 3120,
+    "offset": 458000,
+    "lang": "en"
+  },
+  {
+    "text": "you and I'll make sure, Hey, are\nyour kids being a little crazy?",
+    "duration": 2600,
+    "offset": 461120,
+    "lang": "en"
+  },
+  {
+    "text": "Cuz mine are always being crazy.\nThey'll help me keep track of my kids.",
+    "duration": 2540,
+    "offset": 463780,
+    "lang": "en"
+  },
+  {
+    "text": "And you don't have to worry about\nperformance with bit defender's profiles.",
+    "duration": 2900,
+    "offset": 466540,
+    "lang": "en"
+  },
+  {
+    "text": "You can tell them, Hey right now I'm\nworking or Hey, I'm playing a game,",
+    "duration": 3100,
+    "offset": 469580,
+    "lang": "en"
+  },
+  {
+    "text": "please don't bog down my system.",
+    "duration": 1440,
+    "offset": 472680,
+    "lang": "en"
+  },
+  {
+    "text": "They'll adjust to what\nyou're doing at the moment.",
+    "duration": 1730,
+    "offset": 474430,
+    "lang": "en"
+  },
+  {
+    "text": "So you can toggle about yourself\nor just let them decide.",
+    "duration": 2300,
+    "offset": 476220,
+    "lang": "en"
+  },
+  {
+    "text": "They probably know better than you. So\ncheck out bit defender premium security.",
+    "duration": 3200,
+    "offset": 478520,
+    "lang": "en"
+  },
+  {
+    "text": "I got a link below. It looks like\nthey're giving us dad gum 10 devices,",
+    "duration": 3480,
+    "offset": 481920,
+    "lang": "en"
+  },
+  {
+    "text": "one year subscription and 59% discount.\nDon't miss that because again,",
+    "duration": 4180,
+    "offset": 485460,
+    "lang": "en"
+  },
+  {
+    "text": "we don't live in Docker containers, even\nthough that does sound kind of awesome.",
+    "duration": 2780,
+    "offset": 489740,
+    "lang": "en"
+  },
+  {
+    "text": "We don't. So back to Docker\ncomposed with our compos file,",
+    "duration": 3500,
+    "offset": 494020,
+    "lang": "en"
+  },
+  {
+    "text": "we can create just a ton of containers.\nLike I mentioned before inside.",
+    "duration": 3540,
+    "offset": 497620,
+    "lang": "en"
+  },
+  {
+    "text": "And also we can create networks so real\nquick, let's add another container.",
+    "duration": 3060,
+    "offset": 501180,
+    "lang": "en"
+  },
+  {
+    "text": "Let's just do a duplicate of\nour engine X container here.",
+    "duration": 2200,
+    "offset": 504240,
+    "lang": "en"
+  },
+  {
+    "text": "It's gonna copy website here and then\nmaking sure I have the correct spacing.",
+    "duration": 2920,
+    "offset": 506440,
+    "lang": "en"
+  },
+  {
+    "text": "I'll paste it right there. And I'll\njust rename a few things. Website two,",
+    "duration": 3000,
+    "offset": 509360,
+    "lang": "en"
+  },
+  {
+    "text": "we'll do a different port,",
+    "duration": 720,
+    "offset": 512360,
+    "lang": "en"
+  },
+  {
+    "text": "80, 82 this time and noticing that I'm\nkeeping both these containers under the",
+    "duration": 4560,
+    "offset": 513080,
+    "lang": "en"
+  },
+  {
+    "text": "services section.",
+    "duration": 880,
+    "offset": 517800,
+    "lang": "en"
+  },
+  {
+    "text": "And now we have two containers\ncontrol X Y enter to save Docker,",
+    "duration": 3180,
+    "offset": 518820,
+    "lang": "en"
+  },
+  {
+    "text": "compose up dash D two containers,\nbut we're not stopping there.",
+    "duration": 2800,
+    "offset": 522000,
+    "lang": "en"
+  },
+  {
+    "text": "Let's add a network. Now, if you\nwatch my Docker networking video,",
+    "duration": 2390,
+    "offset": 524810,
+    "lang": "en"
+  },
+  {
+    "text": "you can watch that right here.\nNormally to create a network,",
+    "duration": 1860,
+    "offset": 527260,
+    "lang": "en"
+  },
+  {
+    "text": "you have to run a command like this.",
+    "duration": 1180,
+    "offset": 529260,
+    "lang": "en"
+  },
+  {
+    "text": "Let's do the same thing inside a Docker\ncompose file, nano Docker, compose.",
+    "duration": 4190,
+    "offset": 530530,
+    "lang": "en"
+  },
+  {
+    "text": "Dot YAML, and down here\nunderneath our containers.",
+    "duration": 1980,
+    "offset": 535100,
+    "lang": "en"
+  },
+  {
+    "text": "We'll start a brand new\nsection called networks,",
+    "duration": 2840,
+    "offset": 537080,
+    "lang": "en"
+  },
+  {
+    "text": "noticing that it will be in line with\nservices. It's a top level config.",
+    "duration": 3720,
+    "offset": 540240,
+    "lang": "en"
+  },
+  {
+    "text": "And then we'll tab over name, our\nnew network. It was coffee, right?",
+    "duration": 3000,
+    "offset": 543960,
+    "lang": "en"
+  },
+  {
+    "text": "So we'll do coffee, colon enter tab\ntab here. It does get a bit different.",
+    "duration": 3880,
+    "offset": 546960,
+    "lang": "en"
+  },
+  {
+    "text": "We're gonna specify IPAM which stands\nfor IP address management enter tab tab",
+    "duration": 4800,
+    "offset": 550840,
+    "lang": "en"
+  },
+  {
+    "text": "tab. And now we're at the config.\nSo we'll specify our network driver,",
+    "duration": 2660,
+    "offset": 555900,
+    "lang": "en"
+  },
+  {
+    "text": "which here will say\ndefault, which in Docker,",
+    "duration": 2710,
+    "offset": 558610,
+    "lang": "en"
+  },
+  {
+    "text": "the default network is the bridge enter\ntab tab tab. We'll do some config,",
+    "duration": 4000,
+    "offset": 561320,
+    "lang": "en"
+  },
+  {
+    "text": "colon enter tab tab, tab, tab,",
+    "duration": 2350,
+    "offset": 565370,
+    "lang": "en"
+  },
+  {
+    "text": "and then we'll specify our\nsubnet inside double quotes.",
+    "duration": 2540,
+    "offset": 567740,
+    "lang": "en"
+  },
+  {
+    "text": "So that right there is how you\ntake that Docker command. And yeah,",
+    "duration": 3300,
+    "offset": 570300,
+    "lang": "en"
+  },
+  {
+    "text": "there's some left over here on the\nside. Sorry guys forgot about you.",
+    "duration": 2600,
+    "offset": 573600,
+    "lang": "en"
+  },
+  {
+    "text": "Let's how you take that command and\nconvert it into Docker composed YAML.",
+    "duration": 3440,
+    "offset": 576200,
+    "lang": "en"
+  },
+  {
+    "text": "Not too bad, actually. You just have\nto kind of know it. And then finally,",
+    "duration": 2740,
+    "offset": 579820,
+    "lang": "en"
+  },
+  {
+    "text": "one more thing. What do you say?",
+    "duration": 1060,
+    "offset": 582660,
+    "lang": "en"
+  },
+  {
+    "text": "We throw one of those\ncontainers inside that network.",
+    "duration": 2200,
+    "offset": 583720,
+    "lang": "en"
+  },
+  {
+    "text": "Cause right now it won't happen.",
+    "duration": 1110,
+    "offset": 586010,
+    "lang": "en"
+  },
+  {
+    "text": "So let's take website two just under\nhis restart. I'll add networks,",
+    "duration": 3860,
+    "offset": 587140,
+    "lang": "en"
+  },
+  {
+    "text": "colon enter tab, tab, tab.",
+    "duration": 2070,
+    "offset": 591610,
+    "lang": "en"
+  },
+  {
+    "text": "I'll specify the network coffee and\nthen his I P D four underscore address.",
+    "duration": 4290,
+    "offset": 593790,
+    "lang": "en"
+  },
+  {
+    "text": "I wanna say 1 92, 1 68. What was\nthat network? 40. Yeah. Or 92 92.",
+    "duration": 4800,
+    "offset": 598320,
+    "lang": "en"
+  },
+  {
+    "text": "We'll do do like 21. So\nnow with our composed file,",
+    "duration": 2560,
+    "offset": 603120,
+    "lang": "en"
+  },
+  {
+    "text": "we're creating two containers. One\nnetwork let's save it and test it out.",
+    "duration": 3120,
+    "offset": 605680,
+    "lang": "en"
+  },
+  {
+    "text": "Control X Y enter to save Docker,",
+    "duration": 2040,
+    "offset": 608800,
+    "lang": "en"
+  },
+  {
+    "text": "compose up dash D let's watch\nthe magic happen. That was fast.",
+    "duration": 4330,
+    "offset": 610950,
+    "lang": "en"
+  },
+  {
+    "text": "Now notice something here. We already\nhad our composed file up and running.",
+    "duration": 3180,
+    "offset": 615420,
+    "lang": "en"
+  },
+  {
+    "text": "But here, when we changed the file and\nwe ran the Docker composed up command,",
+    "duration": 3140,
+    "offset": 618620,
+    "lang": "en"
+  },
+  {
+    "text": "once more, it just\nupdated what we changed.",
+    "duration": 2480,
+    "offset": 621760,
+    "lang": "en"
+  },
+  {
+    "text": "It created that new network\nand it recreated website\ntwo. So let's take a look.",
+    "duration": 3300,
+    "offset": 624500,
+    "lang": "en"
+  },
+  {
+    "text": "We'll do Docker composed PS. There\nthey are. We'll do a Docker network LS.",
+    "duration": 4080,
+    "offset": 627800,
+    "lang": "en"
+  },
+  {
+    "text": "There's our two composed networks.\nOne by default one we specified.",
+    "duration": 3320,
+    "offset": 631880,
+    "lang": "en"
+  },
+  {
+    "text": "And then if we inspect our new network,\nDocker, inspects, if I spell it right,",
+    "duration": 3680,
+    "offset": 635200,
+    "lang": "en"
+  },
+  {
+    "text": "I can see that container inside right\nthere with the IP address we configured.",
+    "duration": 3920,
+    "offset": 639320,
+    "lang": "en"
+  },
+  {
+    "text": "Okay, cool. So we've done two containers\nand a network, but what do you say?",
+    "duration": 3370,
+    "offset": 643310,
+    "lang": "en"
+  },
+  {
+    "text": "We get just a little bit crazier and this\nwill uncover the true power of Docker",
+    "duration": 3560,
+    "offset": 646680,
+    "lang": "en"
+  },
+  {
+    "text": "compose because our next task,\nI'm gonna clear this out for you.",
+    "duration": 2400,
+    "offset": 650240,
+    "lang": "en"
+  },
+  {
+    "text": "We're gonna deploy word\npress with Docker compose.",
+    "duration": 2790,
+    "offset": 652730,
+    "lang": "en"
+  },
+  {
+    "text": "Now here's why you would wanna\nuse compose with WordPress.",
+    "duration": 2460,
+    "offset": 655700,
+    "lang": "en"
+  },
+  {
+    "text": "WordPress has two main components.",
+    "duration": 1600,
+    "offset": 658160,
+    "lang": "en"
+  },
+  {
+    "text": "It has a front end website or a front\nend server and it has a myse database and",
+    "duration": 4660,
+    "offset": 659780,
+    "lang": "en"
+  },
+  {
+    "text": "in a Docker deployment,",
+    "duration": 1000,
+    "offset": 664440,
+    "lang": "en"
+  },
+  {
+    "text": "that'll be two separate containers\nand this'll be a bit different because",
+    "duration": 3360,
+    "offset": 665440,
+    "lang": "en"
+  },
+  {
+    "text": "there's something special that'll have\nto do to connect these two guys to make",
+    "duration": 3440,
+    "offset": 668800,
+    "lang": "en"
+  },
+  {
+    "text": "them kind of well connect and\nwork. Let's try it real quick.",
+    "duration": 3640,
+    "offset": 672240,
+    "lang": "en"
+  },
+  {
+    "text": "So actually let's go ahead and\nmake a new brand new composed file.",
+    "duration": 2900,
+    "offset": 675980,
+    "lang": "en"
+  },
+  {
+    "text": "So let's cd.do to get out of that\ndirectory and let's make a new one.",
+    "duration": 2780,
+    "offset": 678900,
+    "lang": "en"
+  },
+  {
+    "text": "M K D I R WordPress. Let's jump in there.",
+    "duration": 2600,
+    "offset": 682040,
+    "lang": "en"
+  },
+  {
+    "text": "N dock composed dot Yammel. We are in now.",
+    "duration": 2880,
+    "offset": 685080,
+    "lang": "en"
+  },
+  {
+    "text": "Same stories before we'll define\nour version. Good oh three.",
+    "duration": 2520,
+    "offset": 687960,
+    "lang": "en"
+  },
+  {
+    "text": "And we'll start with our services\ndefining our two containers we need for",
+    "duration": 3220,
+    "offset": 690500,
+    "lang": "en"
+  },
+  {
+    "text": "WordPress. First, we'll\nstart with WordPress.",
+    "duration": 1720,
+    "offset": 693720,
+    "lang": "en"
+  },
+  {
+    "text": "We'll call him WordPress\nand for our image,",
+    "duration": 1990,
+    "offset": 695450,
+    "lang": "en"
+  },
+  {
+    "text": "we'll simply pull the WordPress image\nfrom Docker hub for port we'll map,",
+    "duration": 4270,
+    "offset": 697690,
+    "lang": "en"
+  },
+  {
+    "text": "port 80 to 80 80 on our machine. Actually,",
+    "duration": 1920,
+    "offset": 701960,
+    "lang": "en"
+  },
+  {
+    "text": "now we need to do something else don't\nwe let's do like 80, 89 because I forgot",
+    "duration": 3560,
+    "offset": 703880,
+    "lang": "en"
+  },
+  {
+    "text": "where we were. And the next\nis something interesting.",
+    "duration": 1800,
+    "offset": 707440,
+    "lang": "en"
+  },
+  {
+    "text": "We're gonna have something called\nenvironment and here we'll put specific",
+    "duration": 3200,
+    "offset": 709240,
+    "lang": "en"
+  },
+  {
+    "text": "parameters that are specific to WordPress\ninside the WordPress environment.",
+    "duration": 4440,
+    "offset": 712440,
+    "lang": "en"
+  },
+  {
+    "text": "Let me go ahead and\npaste a few right here.",
+    "duration": 1320,
+    "offset": 716880,
+    "lang": "en"
+  },
+  {
+    "text": "You can copy the code from\nbelow as well. Noticing here,",
+    "duration": 2200,
+    "offset": 718200,
+    "lang": "en"
+  },
+  {
+    "text": "we have things that are\nspecific to WordPress.",
+    "duration": 1680,
+    "offset": 720400,
+    "lang": "en"
+  },
+  {
+    "text": "Like all the database info we can\npass those environment variables into",
+    "duration": 3770,
+    "offset": 722510,
+    "lang": "en"
+  },
+  {
+    "text": "WordPress as we're creating a container.",
+    "duration": 1560,
+    "offset": 726280,
+    "lang": "en"
+  },
+  {
+    "text": "And pretty much every one of these are\nreferencing what we're about to do with a",
+    "duration": 3000,
+    "offset": 727840,
+    "lang": "en"
+  },
+  {
+    "text": "SQL server or a my SQL server. Sorry,\nmy SQL. So we'll go ahead and add our,",
+    "duration": 4100,
+    "offset": 730900,
+    "lang": "en"
+  },
+  {
+    "text": "my SQL server. We'll call that service.",
+    "duration": 1600,
+    "offset": 735000,
+    "lang": "en"
+  },
+  {
+    "text": "My SQL the image will be\nmy SQL colon five seven,",
+    "duration": 3660,
+    "offset": 736660,
+    "lang": "en"
+  },
+  {
+    "text": "and I'll put that between quotes and\nthen we'll also do some environment",
+    "duration": 2740,
+    "offset": 740340,
+    "lang": "en"
+  },
+  {
+    "text": "variables for him.",
+    "duration": 820,
+    "offset": 743240,
+    "lang": "en"
+  },
+  {
+    "text": "So now we're seeing that WordPress is\nmatching the SQL service as his database,",
+    "duration": 3780,
+    "offset": 744060,
+    "lang": "en"
+  },
+  {
+    "text": "the password as coffee and the\ndatabase name as WordPress.",
+    "duration": 3100,
+    "offset": 747900,
+    "lang": "en"
+  },
+  {
+    "text": "Now a couple of cool things we can do\nwith containers and how they interact.",
+    "duration": 2940,
+    "offset": 751220,
+    "lang": "en"
+  },
+  {
+    "text": "First up here in WordPress,\nlet's add another parameter.",
+    "duration": 2310,
+    "offset": 754170,
+    "lang": "en"
+  },
+  {
+    "text": "Then we'll call this\ndepends underscore on colon.",
+    "duration": 3120,
+    "offset": 756480,
+    "lang": "en"
+  },
+  {
+    "text": "I wanna enter a couple tabs and\nwe'll tell it to depend on my sequel.",
+    "duration": 3280,
+    "offset": 759800,
+    "lang": "en"
+  },
+  {
+    "text": "And this is cool. Cuz what this\nwill do is tell Docker compose, Hey,",
+    "duration": 3020,
+    "offset": 763220,
+    "lang": "en"
+  },
+  {
+    "text": "before you make this WordPress container,\neven if he is the first guy up here,",
+    "duration": 2920,
+    "offset": 766240,
+    "lang": "en"
+  },
+  {
+    "text": "make sure you make the mye guy first\nbecause WordPress depends on him.",
+    "duration": 3770,
+    "offset": 769270,
+    "lang": "en"
+  },
+  {
+    "text": "So you can tell him to do\nthat. That's kind of neat.",
+    "duration": 1620,
+    "offset": 773140,
+    "lang": "en"
+  },
+  {
+    "text": "So don't make him until you've made him.",
+    "duration": 1500,
+    "offset": 774860,
+    "lang": "en"
+  },
+  {
+    "text": "And one more cool thing you might\nwanna add to your WordPress deployment,",
+    "duration": 2980,
+    "offset": 776420,
+    "lang": "en"
+  },
+  {
+    "text": "cuz you could legit just run your\nWordPress website inside Docker like this,",
+    "duration": 4020,
+    "offset": 779500,
+    "lang": "en"
+  },
+  {
+    "text": "but here on the MySQL container,",
+    "duration": 1680,
+    "offset": 783520,
+    "lang": "en"
+  },
+  {
+    "text": "let's add one more section and we'll call\nthis volumes and Docker volumes allow",
+    "duration": 4160,
+    "offset": 785200,
+    "lang": "en"
+  },
+  {
+    "text": "us to map a Docker directory\nto a directory on our system,",
+    "duration": 4320,
+    "offset": 789360,
+    "lang": "en"
+  },
+  {
+    "text": "on the host system. That way if the\nDocker container ever gets blown up,",
+    "duration": 2780,
+    "offset": 793700,
+    "lang": "en"
+  },
+  {
+    "text": "dies or restart it, delete\nit, whatever that directory,",
+    "duration": 3010,
+    "offset": 796670,
+    "lang": "en"
+  },
+  {
+    "text": "the data still exists on the host, which\nis kind of important for a, you know,",
+    "duration": 3400,
+    "offset": 799680,
+    "lang": "en"
+  },
+  {
+    "text": "database. So we can simply map\nit like this, telling it Hey,",
+    "duration": 2400,
+    "offset": 803320,
+    "lang": "en"
+  },
+  {
+    "text": "in this current directory,",
+    "duration": 980,
+    "offset": 805740,
+    "lang": "en"
+  },
+  {
+    "text": "go ahead and create a volume called my\nSQL and map that to inside the container",
+    "duration": 4000,
+    "offset": 806720,
+    "lang": "en"
+  },
+  {
+    "text": "VA lib my SQL, which is what my SQL cares\nabout. Now this will work beautifully,",
+    "duration": 4820,
+    "offset": 811540,
+    "lang": "en"
+  },
+  {
+    "text": "but I do wanna go through the\ntrouble of adding a network.",
+    "duration": 1760,
+    "offset": 816360,
+    "lang": "en"
+  },
+  {
+    "text": "If you know how to do that, if\nyou remember how to do that,",
+    "duration": 1820,
+    "offset": 818180,
+    "lang": "en"
+  },
+  {
+    "text": "go ahead and do it right now. Cause I\ndon't want Docker creating that for me.",
+    "duration": 2280,
+    "offset": 820000,
+    "lang": "en"
+  },
+  {
+    "text": "I wanna do it myself. Call it. Oh yeah.",
+    "duration": 1800,
+    "offset": 822440,
+    "lang": "en"
+  },
+  {
+    "text": "And then I'll add those\ncontainers to the network.",
+    "duration": 1540,
+    "offset": 824620,
+    "lang": "en"
+  },
+  {
+    "text": "So there's our completed Docker composed\nfile right here. Isn't she pretty?",
+    "duration": 2900,
+    "offset": 826220,
+    "lang": "en"
+  },
+  {
+    "text": "So let's control X Y enter to save. Now\nlet's bring that bad boy up. Docker,",
+    "duration": 3500,
+    "offset": 829260,
+    "lang": "en"
+  },
+  {
+    "text": "compose up dash D.",
+    "duration": 1930,
+    "offset": 832910,
+    "lang": "en"
+  },
+  {
+    "text": "It's gonna download all the things\nit needs for WordPress in my sequel.",
+    "duration": 2570,
+    "offset": 835070,
+    "lang": "en"
+  },
+  {
+    "text": "It'll take a second quick coffee break.",
+    "duration": 1710,
+    "offset": 837690,
+    "lang": "en"
+  },
+  {
+    "text": "This feels like a magic when it's doing\nthat. I love it. And just like that,",
+    "duration": 2730,
+    "offset": 840110,
+    "lang": "en"
+  },
+  {
+    "text": "we get a WordPress website running.\nI'll do a little doctor, compose PS.",
+    "duration": 3580,
+    "offset": 842980,
+    "lang": "en"
+  },
+  {
+    "text": "Oh not compo, compose PS. There they\nare. Let's see if we can get to it.",
+    "duration": 4020,
+    "offset": 846620,
+    "lang": "en"
+  },
+  {
+    "text": "Local host port 80, 89. Yes.",
+    "duration": 3830,
+    "offset": 850730,
+    "lang": "en"
+  },
+  {
+    "text": "WordPress website. That's so cool. And\nalso notice if I do an LS right here.",
+    "duration": 3690,
+    "offset": 855270,
+    "lang": "en"
+  },
+  {
+    "text": "There's that mye folder. That's where\nmy SQL is mapped. I jump in there.",
+    "duration": 3720,
+    "offset": 858960,
+    "lang": "en"
+  },
+  {
+    "text": "There's all my SQL goodies.",
+    "duration": 1360,
+    "offset": 862680,
+    "lang": "en"
+  },
+  {
+    "text": "So if I were to do a\npseudo Docker compose down,",
+    "duration": 3700,
+    "offset": 864100,
+    "lang": "en"
+  },
+  {
+    "text": "so tear it down and delete it.\nI still have my database intact,",
+    "duration": 3060,
+    "offset": 867940,
+    "lang": "en"
+  },
+  {
+    "text": "which means bringing it back up.\nYeah. It's creating brand new things,",
+    "duration": 3160,
+    "offset": 871000,
+    "lang": "en"
+  },
+  {
+    "text": "but sequel is still in mapping\nto that same database file.",
+    "duration": 2700,
+    "offset": 874340,
+    "lang": "en"
+  },
+  {
+    "text": "And if I refresh the page, same\nstinking website, that's pretty cool.",
+    "duration": 3220,
+    "offset": 877260,
+    "lang": "en"
+  },
+  {
+    "text": "Now of course you can deploy\nthat lab. I showed you earlier.",
+    "duration": 2840,
+    "offset": 880480,
+    "lang": "en"
+  },
+  {
+    "text": "If I did that right now, I'll see\nhacking lap. My new directory.",
+    "duration": 2780,
+    "offset": 883420,
+    "lang": "en"
+  },
+  {
+    "text": "I'll start my Docker composed file.\nAnd I'll just paste all that in there.",
+    "duration": 2650,
+    "offset": 886350,
+    "lang": "en"
+  },
+  {
+    "text": "It's a lot, but you'll\nnotice that it looks.",
+    "duration": 1730,
+    "offset": 889070,
+    "lang": "en"
+  },
+  {
+    "text": "Familiar. We've already\ntalked about a lot of this.",
+    "duration": 1280,
+    "offset": 891120,
+    "lang": "en"
+  },
+  {
+    "text": "It's just a bunch of networks and a bunch\nof containers all connected together",
+    "duration": 3530,
+    "offset": 892550,
+    "lang": "en"
+  },
+  {
+    "text": "in various ways. By the way. Yes.",
+    "duration": 1640,
+    "offset": 896080,
+    "lang": "en"
+  },
+  {
+    "text": "All of these are vulnerable\ncontainers from a place called VUB not",
+    "duration": 4820,
+    "offset": 897820,
+    "lang": "en"
+  },
+  {
+    "text": "V hub V hub. They basically turn V hub,\nuh, virtual machines into containers.",
+    "duration": 4160,
+    "offset": 902720,
+    "lang": "en"
+  },
+  {
+    "text": "So shout out to them. I'll\nput a GitHub link below.",
+    "duration": 1900,
+    "offset": 906940,
+    "lang": "en"
+  },
+  {
+    "text": "And of course also right here,\nI have my Cali Lennox machine,",
+    "duration": 2760,
+    "offset": 908840,
+    "lang": "en"
+  },
+  {
+    "text": "which is cool because once I launch\nthis, go ahead and do it right now.",
+    "duration": 2760,
+    "offset": 911600,
+    "lang": "en"
+  },
+  {
+    "text": "That's gonna take a minute. Cause\nit has to download all those, uh,",
+    "duration": 3200,
+    "offset": 914360,
+    "lang": "en"
+  },
+  {
+    "text": "container images. So while\nthat's downloading, it\nmight take a minute for you.",
+    "duration": 3080,
+    "offset": 917560,
+    "lang": "en"
+  },
+  {
+    "text": "It's taking a minute for me. Here's some\nDocker, compose inspiration, cuz again,",
+    "duration": 3690,
+    "offset": 920710,
+    "lang": "en"
+  },
+  {
+    "text": "companies mainly use Docker compose to\ndeploy their apps cuz they can kind of",
+    "duration": 3680,
+    "offset": 924400,
+    "lang": "en"
+  },
+  {
+    "text": "package them together. Make sure\nthey're connected the right way.",
+    "duration": 2680,
+    "offset": 928080,
+    "lang": "en"
+  },
+  {
+    "text": "So things like, uh, I\nguess you can do Minecraft,",
+    "duration": 2500,
+    "offset": 930980,
+    "lang": "en"
+  },
+  {
+    "text": "which all it does is define a volume and\nan image, but more complex things like,",
+    "duration": 3470,
+    "offset": 933530,
+    "lang": "en"
+  },
+  {
+    "text": "um, pie hole with CloudFlare DOH, bam.",
+    "duration": 2980,
+    "offset": 937140,
+    "lang": "en"
+  },
+  {
+    "text": "So I'll put this link below for some\ninspiration. Lemme check on my stuff, man.",
+    "duration": 3140,
+    "offset": 940340,
+    "lang": "en"
+  },
+  {
+    "text": "Still downloading. Oh my gosh.",
+    "duration": 1160,
+    "offset": 943480,
+    "lang": "en"
+  },
+  {
+    "text": "So Ducker post knowing it\nnot only makes you awesome,",
+    "duration": 2780,
+    "offset": 945060,
+    "lang": "en"
+  },
+  {
+    "text": "but it unlocks the door to a ton of fun\nprojects and just knowing Docker better",
+    "duration": 4700,
+    "offset": 947940,
+    "lang": "en"
+  },
+  {
+    "text": "moving from creating Docker\ncontainers with simple run commands,",
+    "duration": 2960,
+    "offset": 952640,
+    "lang": "en"
+  },
+  {
+    "text": "run Docker run to deploying\nactual dockerized apps. Oh, okay.",
+    "duration": 4700,
+    "offset": 955660,
+    "lang": "en"
+  },
+  {
+    "text": "Finally done. So I can jump into,\nuh, my Kelly Lenox box. Haha. I'm in,",
+    "duration": 4480,
+    "offset": 960360,
+    "lang": "en"
+  },
+  {
+    "text": "let's install in that me update it\nfirst and I can start hacking away.",
+    "duration": 3670,
+    "offset": 964930,
+    "lang": "en"
+  },
+  {
+    "text": "So that's the video.",
+    "duration": 830,
+    "offset": 968860,
+    "lang": "en"
+  },
+  {
+    "text": "Thank you for taking time to have some\ncoffee with me and talk some Docker.",
+    "duration": 3390,
+    "offset": 969690,
+    "lang": "en"
+  },
+  {
+    "text": "It's my favorite thing\nto do. And by the way,",
+    "duration": 1810,
+    "offset": 973270,
+    "lang": "en"
+  },
+  {
+    "text": "have you hacked the\nYouTube algorithm today?",
+    "duration": 2090,
+    "offset": 975150,
+    "lang": "en"
+  },
+  {
+    "text": "Let's make sure you do with that like\nbutton notification, bill comment.",
+    "duration": 2200,
+    "offset": 977240,
+    "lang": "en"
+  },
+  {
+    "text": "Subscribe. You gotta hack YouTube\ntoday. Ethically of course. Yeah.",
+    "duration": 3720,
+    "offset": 979920,
+    "lang": "en"
+  },
+  {
+    "text": "That's all I got. I'll\ncatch you guys next time.",
+    "duration": 1280,
+    "offset": 983640,
+    "lang": "en"
+  }
+]

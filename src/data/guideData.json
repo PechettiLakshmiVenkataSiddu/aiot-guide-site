@@ -1,0 +1,1236 @@
+{
+  "title": "AIoT Engineer Complete Master Study Guide",
+  "pagesCount": 163,
+  "userProfile": {
+    "degree": "B.Tech CS-IT + EEE Diploma",
+    "institution": "Malla Reddy University, Hyderabad",
+    "decadeRoadmap": "2025 — 2033",
+    "targetCity": "Japan (Panasonic / Omron) → Vizag Indo-Japan Tech Startup (2033)"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "AI and the Future of Engineering",
+      "pages": "2–4",
+      "summary": "Why AIoT engineers are protected from AI automation: physical hardware, embedded systems, and domain ML. The 3 essential AI skills for 2026: Prompt Engineering, Vibe Coding, and AI Agent building.",
+      "keyPoints": [
+        "AI replaces repetitive, non-physical tasks (generic CRUD, junior writing, simple QA).",
+        "AIoT combines Physical Hardware, Embedded Software, and Domain ML — an irreplaceable triplet.",
+        "The Japan AIoT market is facing massive labour shortages in manufacturing robotics, creating huge demand for Indian engineers with EEE + Edge AI + Japanese skills."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Vibe Coding and Cursor IDE — Complete Guide",
+      "pages": "5–8",
+      "summary": "Mastering Cursor IDE: Inline edits (Ctrl+K), Chat (Ctrl+L), Composer (Ctrl+I), @ mentions, and configuring .cursorrules for edge AI development.",
+      "keyPoints": [
+        "Always configure .cursorrules with project hardware constraints (Raspberry Pi 4, TFLite, paho-mqtt).",
+        "Follow PRD -> Module -> Test -> Integration vibe coding loop.",
+        "Never accept AI code blindly — review logic and test with mocks."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Claude API and Prompt Engineering",
+      "pages": "9–13",
+      "summary": "Programmatic reasoning using Anthropic's Claude models for sensor anomaly explanation, structured JSON outputs, chain of thought reasoning, and conversation memory buffers.",
+      "keyPoints": [
+        "System prompts transform Claude into an industrial diagnostic engineer.",
+        "Enforce strict JSON schema with few-shot examples for automated pipelines.",
+        "Implement sliding window conversation history to control token costs."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "n8n AI Automation for AIoT Workflows",
+      "pages": "14–16",
+      "summary": "Self-hosted visual automation on Raspberry Pi. Connecting MQTT broker triggers, Claude AI nodes, Gmail alerts, and MongoDB logging without web server boilerplate.",
+      "keyPoints": [
+        "Why n8n over Zapier/Make: free self-hosted, native MQTT node, full data privacy.",
+        "Systemd service configuration for 24/7 reliability on Pi.",
+        "Building WhatsApp query bots and automated daily reports."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "LangChain and AI Agents",
+      "pages": "17–19",
+      "summary": "Building autonomous agents that decide when to call sensor tools, query time-series databases, and perform RAG retrieval over machine maintenance logs.",
+      "keyPoints": [
+        "Agents use tool calling to inspect live hardware states.",
+        "RAG architecture: Document chunking -> ChromaDB vector store -> Claude synthesis.",
+        "Stateful agents remember past trend context without manual tracking."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Edge AI and TensorFlow Lite — Complete Technical Guide",
+      "pages": "20–23",
+      "summary": "The Train -> Convert -> Deploy workflow. INT8 quantization reducing model size by 4x. Benchmarking latency, P95, and FPS on Raspberry Pi 4 ARM architecture.",
+      "keyPoints": [
+        "Japanese factories demand Edge AI for air-gapped security and sub-50ms latency.",
+        "PyTorch -> ONNX -> TFLite conversion pipeline.",
+        "Benchmarking mean latency, P95/P99 latency, and frame rate."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Raspberry Pi and AIoT Full Stack Reference",
+      "pages": "24–26",
+      "summary": "Raspberry Pi 4 hardware setup, Pi Camera Module 3, GPIO sensor interfacing (DHT22, BME280, ADXL345), and the 4-layer production architecture.",
+      "keyPoints": [
+        "Hardware setup: Pi 4 4GB, Pi OS Lite 64-bit, official 5V 3A supply, aluminium heatsink case.",
+        "Complete sensor integration pinouts for I2C, SPI, and 1-Wire.",
+        "4-layer stack: Sensor Layer -> Edge Processing -> Data Layer (MongoDB) -> Presentation (Node-RED)."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "MQTT and IoT Protocols — Deep Dive",
+      "pages": "27–29",
+      "summary": "Production MQTT client with auto-reconnection, QoS levels, retain flags, Last Will and Testament (LWT), enterprise topic design, and Japanese industrial OPC-UA.",
+      "keyPoints": [
+        "QoS 0 for high-frequency telemetries; QoS 1 for alerts; QoS 2 for actuator commands.",
+        "Topic schema: {org}/{facility}/{zone}/{device_id}/{data_type}.",
+        "OPC-UA with asyncua for connecting to Japanese factory PLCs (Mitsubishi, Omron)."
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Autonomous Vehicles — Your Future Domain",
+      "pages": "30–32",
+      "summary": "Mapping AIoT skills to Autonomous Vehicles: perception, localisation, CARLA simulation, and ROS2 middleware.",
+      "keyPoints": [
+        "Computer vision + sensor fusion + edge computing transition directly to AV stacks.",
+        "Simulating with CARLA in Python before obtaining vehicle hardware.",
+        "ROS2 as the inter-process messaging backbone."
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Japan AIoT Industry — Career and Market Guide",
+      "pages": "33–34",
+      "summary": "Industrial AI companies in Japan (Panasonic, Omron, Keyence, Fanuc, Denso), visa requirements, salary progression, and cultural concepts: Nemawashi, Kaizen, and Horenso.",
+      "keyPoints": [
+        "Salary ranges from ¥300-380万 (entry) to ¥500-700万+ (senior) with 40-50% savings potential.",
+        "Nemawashi (consensus building) and Horenso (report, contact, consult).",
+        "Leveraging Indian EEE hardware grounding as a standout differentiator."
+      ]
+    },
+    {
+      "number": 11,
+      "title": "12 Sunday AI Projects — 4 Months of Hands-On Learning",
+      "pages": "35–37",
+      "summary": "Week-by-week Sunday projects spanning Sensor Simulators, Resume Optimisers, Japanese Vocab Tutors, DSA AI Reviewers, n8n Pipelines, and Predictive Maintenance.",
+      "keyPoints": [
+        "4 hours per Sunday creating production-grade GitHub portfolio repositories.",
+        "Progressive complexity stacking previous week's skills into next week's modules."
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Glossary, YouTube Index, and 4-Month Study Tracker",
+      "pages": "38–41",
+      "summary": "Comprehensive technical terms index, curated video playlists, documentation links, and accountability checklists.",
+      "keyPoints": [
+        "Structured reference dictionary for quick lookup.",
+        "Accountability milestones across Month 1 to Month 4."
+      ]
+    }
+  ],
+  "sundayProjects": [
+    {
+      "id": "sunday-1",
+      "number": 1,
+      "week": "Week 1",
+      "month": 1,
+      "title": "Vibe-Coded Sensor Simulator + AI Analyst",
+      "description": "Use Cursor to build a fake IoT sensor data generator, then use the Claude API to analyse the data \nfor anomalies.",
+      "tools": [
+        "Cursor IDE",
+        "Claude API",
+        "Python",
+        "CSV",
+        "matplotlib"
+      ],
+      "repoName": "aiot-sensor-analyst",
+      "features": [
+        "Sensor simulator generating temperature, humidity, vibration data",
+        "Claude API integration analysing last 10 readings",
+        "Alert generation when anomaly detected",
+        "matplotlib live plot of sensor data"
+      ]
+    },
+    {
+      "id": "sunday-2",
+      "number": 2,
+      "week": "Week 2",
+      "month": 1,
+      "title": "AI-Powered Resume and LinkedIn Optimiser",
+      "description": "A Python tool that takes your resume PDF, sends it to Claude API, and gets specific suggestions to \nimprove it for AIoT internship applications.",
+      "tools": [
+        "Cursor",
+        "Claude API",
+        "PyPDF2",
+        "Python"
+      ],
+      "repoName": "ai-resume-optimizer",
+      "features": [
+        "Read resume PDF with PyPDF2",
+        "Send to Claude with system prompt: \"You are a tech recruiter specialising in AIoT. Rate and improve",
+        "this resume.\"",
+        "Generate improved bullet points for each project",
+        "Output formatted suggestions to terminal"
+      ]
+    },
+    {
+      "id": "sunday-3",
+      "number": 3,
+      "week": "Week 3",
+      "month": 1,
+      "title": "Japanese Vocabulary AI Tutor",
+      "description": "A CLI flashcard app that uses Claude to explain Japanese words in the context of AIoT engineering \n— technical vocabulary practice.",
+      "tools": [
+        "Cursor",
+        "Claude API",
+        "Python",
+        "Anki export format"
+      ],
+      "repoName": "japanese-aiot-tutor",
+      "features": [
+        "Load N5/N4 vocabulary list from CSV",
+        "For each word, ask Claude: \"Explain {word} with 3 example sentences from IoT engineering context\"",
+        "User rates recall (1-5), app prioritises low-score words",
+        "Export failed words to Anki-compatible CSV"
+      ]
+    },
+    {
+      "id": "sunday-4",
+      "number": 4,
+      "week": "Week 4",
+      "month": 1,
+      "title": "AI Code Reviewer for Your DSA Solutions",
+      "description": "Paste any C++ DSA solution, and the tool uses Claude to review it for time complexity, edge cases, \nand style improvements.",
+      "tools": [
+        "Cursor",
+        "Claude API",
+        "Python"
+      ],
+      "repoName": "aiot-project-4",
+      "features": [
+        "GitHub repo name: dsa-ai-reviewer",
+        "Read C++ file from command line argument",
+        "Send to Claude with prompt: \"You are a senior software engineer. Review this DSA solution. Rate:",
+        "correctness, time complexity, edge case handling, code style. Provide specific improvements.\"",
+        "Output formatted code review to terminal",
+        "Log all reviews to SQLite database for progress tracking"
+      ]
+    },
+    {
+      "id": "sunday-5",
+      "number": 5,
+      "week": "Week 5",
+      "month": 2,
+      "title": "n8n Sensor Alert Pipeline",
+      "description": "Full n8n workflow that monitors a simulated MQTT feed and sends email alerts when anomalies \nare detected.",
+      "tools": [
+        "n8n (self-hosted)",
+        "Mosquitto MQTT",
+        "Gmail SMTP"
+      ],
+      "repoName": "aiot-project-5",
+      "features": []
+    },
+    {
+      "id": "sunday-6",
+      "number": 6,
+      "week": "Week 6",
+      "month": 2,
+      "title": "Daily AIoT Study Report Generator",
+      "description": "n8n workflow that runs every evening, reads your GitHub commits from the day, and uses Claude \nto generate a study progress report emailed to yourself.",
+      "tools": [
+        "n8n",
+        "GitHub API",
+        "Claude AI node",
+        "Gmail"
+      ],
+      "repoName": "aiot-project-6",
+      "features": []
+    },
+    {
+      "id": "sunday-7",
+      "number": 7,
+      "week": "Week 7",
+      "month": 2,
+      "title": "WhatsApp Sensor Query Bot",
+      "description": "WhatsApp chatbot (via Twilio) that lets you query your sensor simulator data in natural language \nfrom your phone.",
+      "tools": [
+        "n8n",
+        "Twilio WhatsApp API",
+        "Claude AI node",
+        "Python MQTT publisher"
+      ],
+      "repoName": "aiot-project-7",
+      "features": []
+    },
+    {
+      "id": "sunday-8",
+      "number": 8,
+      "week": "Week 8",
+      "month": 2,
+      "title": "AI Internship Application Tracker",
+      "description": "A Python + Claude tool that reads your internship application spreadsheet, analyses response  \nrates, suggests improvements to cover letters, and predicts which applications are most likely to succeed.",
+      "tools": [
+        "Cursor",
+        "Claude API",
+        "pandas",
+        "openpyxl"
+      ],
+      "repoName": "aiot-project-8",
+      "features": []
+    },
+    {
+      "id": "sunday-9",
+      "number": 9,
+      "week": "Week 9",
+      "month": 3,
+      "title": "LangChain AIoT Monitoring Agent",
+      "description": "A LangChain agent with tools to read sensor data from MongoDB, detect trends, and answer  \nnatural language queries about your AIoT system.",
+      "tools": [
+        "LangChain",
+        "Claude",
+        "MongoDB Atlas",
+        "Python"
+      ],
+      "repoName": "aiot-langchain-agent",
+      "features": []
+    },
+    {
+      "id": "sunday-10",
+      "number": 10,
+      "week": "Week 10",
+      "month": 3,
+      "title": "RAG System for Technical Documentation",
+      "description": "Load the Raspberry Pi documentation, TFLite docs, and MQTT specification into a ChromaDB  \nvector store. Build a Q&A system that answers technical questions with citations.",
+      "tools": [
+        "LangChain",
+        "ChromaDB",
+        "Claude",
+        "BeautifulSoup (for scraping docs)"
+      ],
+      "repoName": "aiot-project-10",
+      "features": [
+        "GitHub repo name: aiot-docs-rag"
+      ]
+    },
+    {
+      "id": "sunday-11",
+      "number": 11,
+      "week": "Week 11",
+      "month": 4,
+      "title": "End-to-End AI-Powered Predictive Maintenance Demo",
+      "description": "The flagship project. Combines everything: fake sensor data → MQTT → Pi TFLite inference →  \nLangChain agent analysis → n8n alert workflow → RAG maintenance manual lookup → email report.",
+      "tools": [
+        "All previous tools combined"
+      ],
+      "repoName": "aiot-predictive-maintenance",
+      "features": [
+        "Sensor simulator generates vibration + temperature data with injected fault patterns",
+        "TFLite model classifies: normal / early_warning / fault",
+        "LangChain agent retrieves historical fault data from MongoDB",
+        "RAG system looks up repair procedure from maintenance manual",
+        "n8n sends complete alert email with AI-generated diagnosis and recommended action"
+      ]
+    },
+    {
+      "id": "sunday-12",
+      "number": 12,
+      "week": "Week 12",
+      "month": 4,
+      "title": "Personal AI Assistant for AIoT Study",
+      "description": "A Claude-powered CLI assistant that knows your entire study plan, skill progression, and can  \nanswer questions like \"What should I study next?\", \"Explain Dijkstra's algorithm in the context of IoT mesh  \nnetworking\", \"Create a practice quiz on MQTT topics\".",
+      "tools": [
+        "Cursor",
+        "Claude API",
+        "LangChain memory",
+        "your schedule ICS file as context"
+      ],
+      "repoName": "aiot-project-12",
+      "features": [
+        "GitHub repo name: aiot-study-assistant"
+      ]
+    }
+  ],
+  "hardwareProjects": [
+    {
+      "id": "hw-1",
+      "number": 1,
+      "title": "Smart Temperature Monitor with Auto Alert",
+      "time": "3–4 hours",
+      "difficulty": "Beginner",
+      "description": "Time: 3–4 hours    Difficulty: Beginner⏱ 🎯  \nThis is your very first IoT project. A DHT22 sensor connected to Raspberry Pi reads temperature and humidity \nevery 10 seconds. If temperature goes above your set limit, it sends you an email automatically. This teaches \nyou the complete sensor-to-alert pipeline.",
+      "hardware": [
+        "Raspberry Pi 4 (any model)",
+        "DHT22 or DHT11 temperature and humidity sensor",
+        "3 jumper wires (female-to-female)",
+        "Breadboard (optional)",
+        "10 kΩ resistor (for DHT signal pin — optional but recommended)"
+      ],
+      "software": [
+        "Python 3.11",
+        "adafruit-circuitpython-dht (sensor library)",
+        "smtplib (built-in Python, for email)",
+        "python-dotenv"
+      ],
+      "wiring": "DHT22 VCC → Pi Pin 1 (3.3V)\nDHT22 GND → Pi Pin 6 (GND)\nDHT22 DATA → Pi Pin 7 (GPIO4)\nOptional: 10kΩ resistor between VCC and DATA pin",
+      "steps": [
+        "Step 1: Install library — Open terminal on Pi: sudo pip3 install adafruit-circuitpython-dht",
+        "Step 2: Wire the sensor — Connect DHT22 VCC → Pi 3.3V (Pin 1), GND → Pi GND (Pin 6), DATA → Pi",
+        "Step 3: Create .env file — Create /home/pi/project1/.env and add your email credentials",
+        "Step 4: Write the code — Create /home/pi/project1/monitor.py with the code below",
+        "Step 5: Test manually — Run: python3 monitor.py — you should see readings every 10 seconds",
+        "Step 6: Set temperature limit — Change ALERT_TEMP in the code to your desired threshold",
+        "Step 7: Make it run forever — Use nohup or create a systemd service"
+      ],
+      "code": "# monitor.py — Smart Temperature Monitor\nimport time, smtplib, logging\nimport adafruit_dht\nimport board\nfrom email.mime.text import MIMEText\nfrom dotenv import load_dotenv\nimport os\nload_dotenv()\nlogging.basicConfig(level=logging.INFO, format=\"%(asctime)s %(message)s\")\n# ── SETTINGS ── (change these to your values)\nALERT_TEMP    = 35.0          # alert if temperature exceeds this\nCHECK_INTERVAL = 10           # seconds between readings\nEMAIL_FROM    = os.getenv(\"EMAIL_FROM\")\nEMAIL_TO      = os.getenv(\"EMAIL_TO\")\nEMAIL_PASS    = os.getenv(\"EMAIL_PASS\")\n# ── SENSOR SETUP ──\ndht = adafruit_dht.DHT22(board.D4)   # GPIO pin 4\ndef send_alert(temp: float, humidity: float) -> None:\n    \"\"\"Send email alert when temperature is too high.\"\"\"\n    msg = MIMEText(f\"ALERT!\\nTemperature: {temp}°C\\nHumidity: {humidity}%\")\n    msg[\"Subject\"] = f\"[HIGH TEMP] {temp}°C detected!\"\n    msg[\"From\"]    = EMAIL_FROM\n    msg[\"To\"]      = EMAIL_TO\n    with smtplib.SMTP_SSL(\"smtp.gmail.com\", 465) as s:\n        s.login(EMAIL_FROM, EMAIL_PASS)\n        s.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())\n    logging.info(\"Alert email sent!\")\nlast_alert_time = 0   # prevent spam: only alert once every 30 minutes\nwhile True:\n    try:\n        temp     = dht.temperature\n        humidity = dht.humidity\n        logging.info(f\"Temp={temp}°C  Humidity={humidity}%\")\n\n        # Check if alert needed and cooldown passed\n        if temp > ALERT_TEMP and (time.time() - last_alert_time) > 1800:\n            send_alert(temp, humidity)\n            last_alert_time = time.time()\n    except RuntimeError as e:\n        # DHT sensors fail occasionally — just try again\n        logging.warning(f\"Sensor error (will retry): {e}\")\n    time.sleep(CHECK_INTERVAL)",
+      "whatYouLearn": [
+        "How to read a real physical sensor using Python",
+        "How to send emails programmatically",
+        "Error handling for real hardware (sensors fail sometimes)",
+        "How to prevent spam alerts using cooldown logic",
+        "Logging — never use print() in production code"
+      ],
+      "videoReferences": [
+        "DHT22 + Raspberry Pi Setup: youtube.com/watch?v=_k4EBkFq8LA",
+        "Python Email Sending Tutorial (Corey Schafer): youtube.com/watch?v=JRCJ6RtE3xU"
+      ],
+      "startPage": 104,
+      "endPage": 106
+    },
+    {
+      "id": "hw-2",
+      "number": 2,
+      "title": "MQTT Sensor Dashboard — Real-Time Web Display",
+      "time": "5–6 hours",
+      "difficulty": "Beginner-Intermediate",
+      "description": "Time: 5–6 hours    Difficulty: Beginner-Intermediate⏱ 🎯  \nThis project builds a real-time web dashboard that shows live sensor data. Your Raspberry Pi publishes sensor \nreadings via MQTT. A Flask web application subscribes to MQTT and displays the data in a nice chart that  \nupdates every second. This is the foundation for all industrial IoT dashboards.",
+      "hardware": [
+        "Raspberry Pi 4",
+        "DHT22 sensor (from Project 1)",
+        "Laptop or second computer for viewing dashboard"
+      ],
+      "software": [
+        "paho-mqtt (MQTT client library)",
+        "flask (web framework)",
+        "flask-socketio (real-time web updates)",
+        "mosquitto (MQTT broker — install on Pi)"
+      ],
+      "wiring": "DHT22 → Pi GPIO4 (same as Project 1)",
+      "steps": [
+        "Step 1: Install Mosquitto broker — sudo apt install -y mosquitto mosquitto-clients && sudo systemctl",
+        "Step 2: Test MQTT manually — Open two terminals. In terminal 1: mosquitto_sub -t test/#. In terminal",
+        "Step 3: Install Python libraries — pip3 install paho-mqtt flask flask-socketio",
+        "Step 4: Create publisher — publisher.py reads DHT22 and publishes to MQTT topic sensors/pi001/dht22",
+        "Step 5: Create dashboard app — dashboard.py is a Flask app that subscribes to MQTT and pushes",
+        "Step 6: Create HTML template — templates/index.html is the web page with Chart.js graphs",
+        "Step 7: Run both scripts — Terminal 1: python3 publisher.py. Terminal 2: python3 dashboard.py. Open"
+      ],
+      "code": "# publisher.py — reads sensor and publishes to MQTT\n\nimport paho.mqtt.client as mqtt\nimport adafruit_dht, board, time, json, logging\nfrom datetime import datetime\nlogging.basicConfig(level=logging.INFO)\nDEVICE_ID = \"pi001\"\nMQTT_HOST  = \"localhost\"\n# Setup MQTT client\nclient = mqtt.Client(client_id=f\"publisher_{DEVICE_ID}\")\nclient.connect(MQTT_HOST, 1883, keepalive=60)\nclient.loop_start()   # background thread handles connection\n# Setup sensor\ndht = adafruit_dht.DHT22(board.D4)\nwhile True:\n    try:\n        payload = json.dumps({\n            \"device_id\": DEVICE_ID,\n            \"temperature\": dht.temperature,\n            \"humidity\": dht.humidity,\n            \"timestamp\": datetime.utcnow().isoformat()\n        })\n        topic = f\"sensors/{DEVICE_ID}/dht22\"\n        client.publish(topic, payload, qos=1)\n        logging.info(f\"Published: {payload[:60]}...\")\n    except RuntimeError as e:\n        logging.warning(f\"Sensor error: {e}\")\n    time.sleep(5)\n# ─────────────────────────────────────────────────────\n# dashboard.py — Flask app with real-time MQTT updates\n# ─────────────────────────────────────────────────────\nfrom flask import Flask, render_template\nfrom flask_socketio import SocketIO, emit\nimport paho.mqtt.client as mqtt\nimport json, threading\napp = Flask(__name__)\nsocketio = SocketIO(app, cors_allowed_origins=\"*\")\n# MQTT message handler — runs in background thread\ndef on_message(client, userdata, msg):\n    data = json.loads(msg.payload.decode())\n    # Send data to all connected browsers\n\n    socketio.emit(\"sensor_update\", data)\n# Setup MQTT subscriber\nmqtt_client = mqtt.Client(\"dashboard\")\nmqtt_client.on_message = on_message\nmqtt_client.connect(\"localhost\", 1883)\nmqtt_client.subscribe(\"sensors/#\", qos=1)\n# Start MQTT in background thread\nmqtt_thread = threading.Thread(target=mqtt_client.loop_forever, daemon=True)\nmqtt_thread.start()\n@app.route(\"/\")\ndef index(): return render_template(\"index.html\")\nif __name__ == \"__main__\":\n    socketio.run(app, host=\"0.0.0.0\", port=5000)",
+      "whatYouLearn": [
+        "MQTT publish-subscribe pattern — the foundation of all IoT communication",
+        "How Flask handles web requests",
+        "Real-time browser updates using WebSocket (SocketIO)",
+        "Threading — running MQTT and web server at the same time",
+        "JSON — the universal IoT data format"
+      ],
+      "videoReferences": [
+        "MQTT Python Tutorial (HiveMQ): youtube.com/watch?v=kuyCd53AOtg",
+        "Flask SocketIO Real-time (Pretty Printed): youtube.com/watch?v=zQDzNNt6xd4"
+      ],
+      "startPage": 107,
+      "endPage": 109
+    },
+    {
+      "id": "hw-3",
+      "number": 3,
+      "title": "Edge AI Image Classifier — Run AI on Raspberry Pi",
+      "time": "6–8 hours",
+      "difficulty": "Intermediate",
+      "description": "Time: 6–8 hours    Difficulty: Intermediate⏱ 🎯  \nThis is the most important project for your Edge AI career. You run a TensorFlow Lite image classification model \ndirectly on the Raspberry Pi — no internet required. Point the camera at any object and the Pi tells you what it \nis within 30ms. This demonstrates the core concept of Edge AI.",
+      "hardware": [
+        "Raspberry Pi 4 (4GB RAM recommended)",
+        "Raspberry Pi Camera Module 3 (or Camera Module 2)",
+        "Heatsink case for Pi (prevents thermal throttling during inference)"
+      ],
+      "software": [
+        "tflite-runtime (edge AI inference library)",
+        "picamera2 (Pi camera library)",
+        "numpy",
+        "Pillow (image processing)"
+      ],
+      "wiring": "Pi Camera Module → CSI ribbon cable → Pi Camera port (small slot near HDMI)\nNo GPIO wiring needed for camera module",
+      "steps": [
+        "Step 1: Enable camera — sudo raspi-config → Interface Options → Camera → Enable → Reboot",
+        "Step 2: Install libraries — pip3 install tflite-runtime picamera2 numpy Pillow",
+        "Step 3: Download model — Download MobileNet V3 TFLite model from TensorFlow Hub — link in code",
+        "Step 4: Download labels — Download ImageNet labels file (1000 classes) — link in code comments",
+        "Step 5: Run single image test — Test with a photo file first before using live camera",
+        "Step 6: Run live classification — Run with --live flag to classify camera feed in real time",
+        "Step 7: Measure speed — The code automatically measures and prints inference time per frame"
+      ],
+      "code": "# edge_classifier.py — Edge AI Image Classifier on Raspberry Pi\n# Model download: \ntfhub.dev/tensorflow/lite-model/mobilenet_v3_large_100_224/classification\n\n# Labels download: \nstorage.googleapis.com/download.tensorflow.org/data/ImageNetLabels.txt\nimport tflite_runtime.interpreter as tflite\nimport numpy as np\nfrom PIL import Image\nimport time, argparse, logging\nlogging.basicConfig(level=logging.INFO)\n# ── Model Loading ──\ndef load_model(model_path: str) -> tflite.Interpreter:\n    \"\"\"Load TFLite model and allocate memory.\"\"\"\n    interp = tflite.Interpreter(model_path=model_path)\n    interp.allocate_tensors()\n    logging.info(f\"Model loaded: {model_path}\")\n    return interp\ndef load_labels(labels_path: str) -> list[str]:\n    \"\"\"Load class label names.\"\"\"\n    with open(labels_path, \"r\") as f:\n        return [line.strip() for line in f.readlines()]\n# ── Image Preprocessing ──\ndef preprocess(image_path: str, size: int = 224) -> np.ndarray:\n    \"\"\"Resize and normalise image for MobileNet input.\"\"\"\n    img = Image.open(image_path).convert(\"RGB\")\n    img = img.resize((size, size))        # resize to 224x224\n    arr = np.array(img, dtype=np.float32) # convert to numpy\n    arr = arr / 255.0                     # normalise to [0, 1]\n    arr = np.expand_dims(arr, axis=0)     # add batch dimension: (1, 224, 224, 3)\n    return arr\n# ── Inference ──\ndef classify(interp: tflite.Interpreter,\n             image: np.ndarray,\n             labels: list[str],\n             top_k: int = 3) -> list[tuple[str, float]]:\n    \"\"\"Run inference and return top K predictions.\"\"\"\n    input_idx  = interp.get_input_details()[0][\"index\"]\n    output_idx = interp.get_output_details()[0][\"index\"]\n    interp.set_tensor(input_idx, image)\n    t_start = time.perf_counter()\n    interp.invoke()\n\n    latency_ms = (time.perf_counter() - t_start) * 1000\n    scores = interp.get_tensor(output_idx)[0]  # shape: (1000,)\n    top_indices = np.argsort(scores)[::-1][:top_k]\n    results = [(labels[i], float(scores[i])) for i in top_indices]\n    logging.info(f\"Inference: {latency_ms:.1f}ms\")\n    return results\n# ── Main ──\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--model\",  default=\"mobilenet_v3.tflite\")\n    parser.add_argument(\"--labels\", default=\"labels.txt\")\n    parser.add_argument(\"--image\",  default=None)\n    parser.add_argument(\"--live\",   action=\"store_true\")\n    args = parser.parse_args()\n    interp = load_model(args.model)\n    labels = load_labels(args.labels)\n    if args.image:\n        # Classify a single image file\n        img = preprocess(args.image)\n        results = classify(interp, img, labels)\n        print(\"\\nTop 3 Predictions:\")\n        for name, score in results:\n            print(f\"  {name:30s} {score*100:.1f}%\")\n    elif args.live:\n        # Live camera classification\n        from picamera2 import Picamera2\n        cam = Picamera2()\n        cam.configure(cam.create_preview_configuration(\n            main={\"size\": (640, 480), \"format\": \"RGB888\"}\n        ))\n        cam.start()\n        print(\"\\nLive classification started. Press Ctrl+C to stop.\")\n        while True:\n            frame = cam.capture_array()          # get camera frame\n            pil_img = Image.fromarray(frame)\n            pil_img = pil_img.resize((224, 224))\n            arr = np.array(pil_img, dtype=np.float32) / 255.0\n            arr = np.expand_dims(arr, 0)\n            results = classify(interp, arr, labels)\n            top_label, top_score = results[0]\n\n            print(f\"\\r{top_label:30s} {top_score*100:.0f}%\", end=\"\", flush=True)",
+      "whatYouLearn": [
+        "TensorFlow Lite runtime — how to load and run a model",
+        "Image preprocessing — why normalisation to [0,1] matters",
+        "Inference pipeline: load model → preprocess image → invoke → read output",
+        "Latency measurement — how to benchmark your edge AI system",
+        "argparse — professional command-line interface for Python scripts"
+      ],
+      "videoReferences": [
+        "TFLite on Raspberry Pi (The AI Guy): youtube.com/watch?v=aimSGOAUI8Y",
+        "MobileNet Explained Simply: youtube.com/watch?v=HD9FnjVwU8g"
+      ],
+      "startPage": 110,
+      "endPage": 113
+    },
+    {
+      "id": "hw-4",
+      "number": 4,
+      "title": "AI-Powered Anomaly Detector with Claude Analysis",
+      "time": "6–8 hours",
+      "difficulty": "Intermediate",
+      "description": "Time: 6–8 hours    Difficulty: Intermediate⏱ 🎯  \nThis project combines your sensor pipeline (Project 2) with the Claude API (Section 1) to create an intelligent  \nmonitoring system. When the Pi detects an unusual sensor reading, it does not just send an alert — it asks  \nClaude to explain what might be wrong and what to do. This is the AI-augmented IoT system that impresses  \nrecruiters.",
+      "hardware": [
+        "Raspberry Pi 4",
+        "DHT22 temperature/humidity sensor",
+        "Working MQTT setup from Project 2"
+      ],
+      "software": [
+        "paho-mqtt",
+        "anthropic (Claude API)",
+        "python-dotenv",
+        "All libraries from Project 2"
+      ],
+      "wiring": "DHT22 → Pi GPIO4 (same as Project 1)\nMosquitto MQTT broker running on Pi",
+      "steps": [
+        "Step 1: Get Claude API key — console.anthropic.com → Create API key → add to .env file as",
+        "Step 2: Install Claude library — pip3 install anthropic",
+        "Step 3: Create the analyser — Create analyser.py — this subscribes to MQTT and calls Claude when",
+        "Step 4: Set your thresholds — Edit NORMAL_TEMP_RANGE and NORMAL_HUMIDITY_RANGE in the",
+        "Step 5: Run the system — Terminal 1: python3 publisher.py (from Project 2). Terminal 2: python3",
+        "Step 6: Trigger an anomaly — Put your hand around DHT22 sensor to raise temperature — watch the AI"
+      ],
+      "code": "# analyser.py — AI-Powered Anomaly Detector with Claude\nimport paho.mqtt.client as mqtt\nimport anthropic, json, logging, os\nfrom dotenv import load_dotenv\nfrom datetime import datetime\nfrom collections import deque\nload_dotenv()\nlogging.basicConfig(level=logging.INFO, format=\"%(asctime)s %(message)s\")\n# ── SETTINGS ──\nNORMAL_TEMP_RANGE     = (15.0, 35.0)   # (min, max) degrees Celsius\nNORMAL_HUMIDITY_RANGE = (30.0, 80.0)   # (min, max) percent\nHISTORY_SIZE          = 10              # remember last 10 readings for context\n# ── CLAUDE SETUP ──\nclaude = anthropic.Anthropic()\nSYSTEM_PROMPT = \"\"\"\nYou are an expert IoT system diagnostic engineer.\nWhen given sensor readings, you:\n1. Identify what is abnormal and why\n2. List 2 possible physical causes (simple language)\n3. Give 1 immediate action to take\n4. Rate urgency: LOW / MEDIUM / HIGH / CRITICAL\nKeep response under 5 sentences. Be direct.\n\"\"\"\ndef ask_claude(current: dict, history: list) -> str:\n    \"\"\"Ask Claude to analyse an anomalous reading.\"\"\"\n    history_text = \"\\n\".join([\n        f\"  {r['timestamp']}: {r['temperature']}°C, {r['humidity']}%\"\n        for r in list(history)[-5:]  # last 5 readings for context\n    ])\n    user_message = f\"\"\"\nCurrent reading (ANOMALOUS):\n  Temperature: {current['temperature']}°C (Normal: 15-35°C)\n  Humidity: {current['humidity']}% (Normal: 30-80%)\n  Time: {current['timestamp']}\nRecent history (last 5 readings):\n{history_text}\n\nWhat is happening and what should I do?\n    \"\"\"\n    response = claude.messages.create(\n        model=\"claude-sonnet-4-6\",\n        max_tokens=300,\n        system=SYSTEM_PROMPT,\n        messages=[{\"role\": \"user\", \"content\": user_message}]\n    )\n    return response.content[0].text\n# ── ANOMALY DETECTION ──\ndef is_anomaly(data: dict) -> bool:\n    \"\"\"Check if reading is outside normal range.\"\"\"\n    temp_lo, temp_hi = NORMAL_TEMP_RANGE\n    hum_lo, hum_hi   = NORMAL_HUMIDITY_RANGE\n    return (data[\"temperature\"] < temp_lo or data[\"temperature\"] > temp_hi or\n            data[\"humidity\"] < hum_lo or data[\"humidity\"] > hum_hi)\n# ── MQTT SETUP ──\nhistory = deque(maxlen=HISTORY_SIZE)\ndef on_message(client, userdata, msg):\n    data = json.loads(msg.payload.decode())\n    history.append(data)\n    if is_anomaly(data):\n        logging.warning(f\"ANOMALY DETECTED: {data}\")\n        print(\"\\n\" + \"=\"*50)\n        print(\"ANOMALY DETECTED!\")\n        print(f\"Temperature: {data['temperature']}°C\")\n        print(f\"Humidity:    {data['humidity']}%\")\n        print(\"\\nAsking Claude AI for analysis...\")\n        analysis = ask_claude(data, history)\n        print(f\"\\n  Claude Analysis:\\n{analysis}\")🤖\n        print(\"=\"*50 + \"\\n\")\n    else:\n        logging.info(f\"Normal: {data['temperature']}°C, {data['humidity']}%\")\nclient = mqtt.Client(\"ai_analyser\")\nclient.on_message = on_message\nclient.connect(\"localhost\", 1883)\nclient.subscribe(\"sensors/#\", qos=1)\nlogging.info(\"AI Anomaly Analyser running. Waiting for sensor data...\")\nclient.loop_forever()",
+      "whatYouLearn": [
+        "How to integrate an AI API (Claude) into an IoT system",
+        "Contextual analysis — giving AI history improves its reasoning",
+        "Deque — efficient fixed-size history buffer in Python",
+        "Building a complete sensor-to-AI pipeline from scratch",
+        "Cost management — how to avoid spending too much on API calls (use cooldowns)"
+      ],
+      "videoReferences": [
+        "AI in IoT Systems (General): youtube.com/watch?v=rExc-V_qHzI"
+      ],
+      "startPage": 114,
+      "endPage": 117
+    },
+    {
+      "id": "hw-5",
+      "number": 5,
+      "title": "LangChain Conversational IoT Assistant",
+      "time": "8–10 hours",
+      "difficulty": "Intermediate-Advanced",
+      "description": "Time: 8–10 hours    Difficulty: Intermediate-Advanced⏱ 🎯  \nThis project builds a chatbot that you can have a real conversation with about your IoT system. Unlike Project 4 \nwhich gives one-off analyses, this assistant REMEMBERS previous messages. You can ask \"What was the  \ntemperature an hour ago?\" and then \"Is that normal for this time of day?\" and it connects the context.",
+      "hardware": [
+        "Raspberry Pi 4 (or just your laptop for this project)",
+        "DHT22 sensor (optional — can simulate data)",
+        "SQLite database (built into Python, no installation)"
+      ],
+      "software": [
+        "langchain",
+        "langchain-anthropic",
+        "anthropic",
+        "sqlite3 (built into Python)",
+        "python-dotenv"
+      ],
+      "wiring": "No physical wiring needed — uses SQLite database",
+      "steps": [
+        "Step 1: Install LangChain — pip3 install langchain langchain-anthropic anthropic",
+        "Step 2: Create database — Run the database setup section of the code to create sensor_history.db",
+        "Step 3: Populate with fake data — Run the data generator to create 24 hours of simulated sensor data",
+        "Step 4: Create the agent — Create iot_assistant.py with the code below",
+        "Step 5: Start conversation — Run python3 iot_assistant.py and start asking questions",
+        "Step 6: Try complex queries — Ask \"What was the average temperature yesterday?\" or \"Show me all"
+      ],
+      "code": "# iot_assistant.py — LangChain Conversational IoT Assistant\nimport sqlite3, json, logging\nfrom datetime import datetime, timedelta\nfrom dotenv import load_dotenv\n\nfrom langchain_anthropic import ChatAnthropic\nfrom langchain.tools import tool\nfrom langchain.agents import create_tool_calling_agent, AgentExecutor\nfrom langchain.prompts import ChatPromptTemplate, MessagesPlaceholder\nfrom langchain.memory import ConversationBufferWindowMemory\nload_dotenv()\nDB_PATH = \"sensor_history.db\"\n# ── DATABASE TOOLS (what the agent can query) ──\n@tool\ndef get_readings(sensor_type: str = \"temperature\", hours_ago: int = 1) -> str:\n    \"\"\"Get sensor readings from the last N hours. sensor_type: temperature or \nhumidity.\"\"\"\n    since = datetime.utcnow() - timedelta(hours=hours_ago)\n    with sqlite3.connect(DB_PATH) as conn:\n        rows = conn.execute(\"\"\"\n            SELECT value, timestamp FROM readings\n            WHERE sensor_type = ? AND timestamp > ?\n            ORDER BY timestamp DESC LIMIT 50\n        \"\"\", (sensor_type, since.isoformat())).fetchall()\n    if not rows:\n        return f\"No {sensor_type} readings found in last {hours_ago} hour(s)\"\n    values = [r[0] for r in rows]\n    return json.dumps({\"count\": len(rows), \"min\": min(values),\n                      \"max\": max(values), \"avg\": round(sum(values)/len(values), 2),\n                      \"latest\": values[0], \"unit\": \"C\" if sensor_type==\"temperature\" \nelse \"%\"})\n@tool\ndef count_anomalies(threshold: float = 35.0, days_ago: int = 1) -> str:\n    \"\"\"Count how many times temperature exceeded a threshold in last N days.\"\"\"\n    since = datetime.utcnow() - timedelta(days=days_ago)\n    with sqlite3.connect(DB_PATH) as conn:\n        count = conn.execute(\"\"\"\n            SELECT COUNT(*) FROM readings\n            WHERE sensor_type=\"temperature\" AND value > ? AND timestamp > ?\n        \"\"\", (threshold, since.isoformat())).fetchone()[0]\n    return f\"Temperature exceeded {threshold}°C exactly {count} time(s) in last \n{days_ago} day(s)\"\n@tool\ndef get_current_reading() -> str:\n    \"\"\"Get the most recent sensor reading.\"\"\"\n    with sqlite3.connect(DB_PATH) as conn:\n        row = conn.execute(\"\"\"\n\n            SELECT sensor_type, value, timestamp FROM readings\n            ORDER BY timestamp DESC LIMIT 1\n        \"\"\").fetchone()\n    if row: return f\"Latest: {row[0]}={row[1]} at {row[2]}\"\n    return \"No readings found in database\"\n# ── LANGCHAIN AGENT WITH MEMORY ──\nllm    = ChatAnthropic(model=\"claude-sonnet-4-6\", temperature=0)\ntools  = [get_readings, count_anomalies, get_current_reading]\nprompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"\"\"You are a friendly IoT monitoring assistant.\n    You help users understand their sensor data.\n    Always use the available tools to get actual data before answering.\n    Explain results in simple, non-technical language unless asked otherwise.\"\"\"),\n    MessagesPlaceholder(variable_name=\"chat_history\"),  # conversation memory\n    (\"human\", \"{input}\"),\n    MessagesPlaceholder(variable_name=\"agent_scratchpad\"),\n])\nmemory = ConversationBufferWindowMemory(\n    memory_key=\"chat_history\",\n    return_messages=True,\n    k=10   # remember last 10 exchanges\n)\nagent    = create_tool_calling_agent(llm, tools, prompt)\nexecutor = AgentExecutor(agent=agent, tools=tools,\n                        memory=memory, verbose=False)\nprint(\"\\n  IoT Assistant ready! (type 'exit' to quit)\")🤖\nprint(\"Try: 'What is the current temperature?'\")\nprint(\"Try: 'How many times did it overheat today?'\\n\")\nwhile True:\n    user_input = input(\"You: \").strip()\n    if user_input.lower() in [\"exit\", \"quit\", \"bye\"]: break\n    if not user_input: continue\n    result = executor.invoke({\"input\": user_input})\n    print(f\"\\nAssistant: {result['output']}\\n\")",
+      "whatYouLearn": [
+        "LangChain agent framework — how tools + LLM + memory work together",
+        "Conversation memory — keeping context across messages",
+        "Database queries from within AI tools",
+        "How to design tools that an AI agent can use effectively",
+        "The difference between stateless AI (no memory) and stateful AI (with memory)"
+      ],
+      "videoReferences": [
+        "LangChain Agents with Memory: youtube.com/watch?v=oLNBBGlKYkE",
+        "LangChain Full Tutorial: youtube.com/watch?v=lG7Uxts9SXs"
+      ],
+      "startPage": 118,
+      "endPage": 121
+    },
+    {
+      "id": "hw-6",
+      "number": 6,
+      "title": "n8n Factory Alert Automation — No-Code Pipeline",
+      "time": "4–5 hours",
+      "difficulty": "Intermediate",
+      "description": "Time: 4–5 hours    Difficulty: Intermediate⏱ 🎯  \nThis project builds a complete factory alert system using n8n — mostly using the visual interface, very little  \ncoding. When sensors detect problems, the system: saves to database, sends email alert, posts to a Slack  \nchannel, and generates an AI analysis report. This shows future employers you can build production  \nautomation systems quickly.",
+      "hardware": [
+        "Raspberry Pi 4 with n8n installed (from Section 1, 3.3)",
+        "Working MQTT broker and sensor publisher from Project 2",
+        "Gmail account for email alerts",
+        "Slack account (free tier) for team notifications"
+      ],
+      "software": [
+        "n8n (already installed)",
+        "No additional Python libraries needed for this project"
+      ],
+      "wiring": "Pi running MQTT broker\nn8n connects to MQTT internally — no additional wiring",
+      "steps": [
+        "Step 1: Start n8n — sudo systemctl start n8n → open http://Pi_IP:5678 in browser",
+        "Step 2: Create new workflow — Click \"New Workflow\" → name it \"Factory Alert System\"",
+        "Step 3: Add MQTT Trigger node — Click + → search \"MQTT Trigger\" → Host: localhost, Port: 1883, Topic:",
+        "Step 4: Add IF node — Click + → \"IF\" node → Condition: {{$json[\"temperature\"]}} > 38",
+        "Step 5: Add Gmail node — On the TRUE branch → + → \"Gmail\" → configure with your Gmail OAuth",
+        "Step 6: Add Slack node — After Gmail → + → \"Slack\" → connect your workspace → post to #alerts",
+        "Step 7: Add Claude AI node — + → \"Anthropic\" → model: claude-sonnet-4-6 → paste system prompt",
+        "Step 8: Add Schedule trigger — Create a second workflow: Daily 8AM → read database → Claude report"
+      ],
+      "code": "# Prompt to paste into the n8n Claude AI node:\nSystem Prompt:\nYou are a factory monitoring AI. Analyse the sensor alert and provide:\n1. Severity level: LOW / MEDIUM / HIGH / CRITICAL\n2. Most likely cause (2 sentences)\n3. Recommended action (1 sentence)\nFormat: JSON only. Keys: severity, cause, action\nUser Message template (n8n variables):\nTemperature: {{$json[\"temperature\"]}}°C\nHumidity: {{$json[\"humidity\"]}}%\nDevice ID: {{$json[\"device_id\"]}}\nTimestamp: {{$json[\"timestamp\"]}}\nNormal ranges: Temp 15-35°C, Humidity 30-80%\nWhat is the severity and recommended action?",
+      "whatYouLearn": [
+        "Visual workflow design — important skill for no-code/low-code platforms",
+        "API integration without writing API code (n8n handles authentication)",
+        "Claude AI integration from a non-Python environment",
+        "Building production-grade alert systems rapidly",
+        "Understanding the difference between code-first and visual-first approaches"
+      ],
+      "videoReferences": [
+        "n8n MQTT Tutorial: youtube.com/watch?v=GqFAlmDt62Y",
+        "n8n + AI Workflow: youtube.com/watch?v=qqqAePVAOKo"
+      ],
+      "startPage": 122,
+      "endPage": 123
+    },
+    {
+      "id": "hw-7",
+      "number": 7,
+      "title": "Raspberry Pi Predictive Maintenance System",
+      "time": "2–3 weeks",
+      "difficulty": "Advanced",
+      "description": "Time: 2–3 weeks    Difficulty: Advanced⏱ 🎯  \nThis is your NIAT-grade showcase project. An ADXL345 vibration sensor monitors a motor. A TFLite model  \nclassifies the vibration signature as normal, imbalance fault, or bearing fault. The system predicts failures  \nBEFORE they happen by detecting early fault patterns. This is exactly what Japanese factories use.",
+      "hardware": [
+        "Raspberry Pi 4 (4GB RAM)",
+        "ADXL345 accelerometer sensor (vibration measurement)",
+        "Small DC motor with shaft (for realistic vibration simulation)",
+        "Breadboard + jumper wires"
+      ],
+      "software": [
+        "tflite-runtime",
+        "adafruit-circuitpython-adxl34x",
+        "numpy",
+        "scipy (for FFT analysis)",
+        "paho-mqtt"
+      ],
+      "wiring": "ADXL345 VCC → Pi 3.3V (Pin 1)\nADXL345 GND → Pi GND (Pin 6)\nADXL345 SDA → Pi GPIO2 (Pin 3)\nADXL345 SCL → Pi GPIO3 (Pin 5)",
+      "steps": [
+        "Step 1: Wire ADXL345 to Pi via I2C — VCC → 3.3V, GND → GND, SDA → GPIO2 (Pin 3), SCL → GPIO3 (Pin",
+        "Step 2: Enable I2C on Pi — sudo raspi-config → Interfaces → I2C → Enable",
+        "Step 3: Install sensor library — pip3 install adafruit-circuitpython-adxl34x",
+        "Step 4: Collect training data — Run data_collector.py while motor is: (a) normal, (b) with small weight",
+        "Step 5: Train TFLite model — Train in Google Colab using the collected CSV data → export to model.tflite",
+        "Step 6: Deploy and test — Copy model.tflite to Pi → run predictor.py → watch it classify in real time"
+      ],
+      "code": "# predictor.py — Real-Time Vibration Fault Classifier\nimport tflite_runtime.interpreter as tflite\nimport numpy as np\nimport adafruit_adxl34x, board, busio\nimport time, logging, paho.mqtt.client as mqtt, json\nlogging.basicConfig(level=logging.INFO)\nCLASSES = [\"normal\", \"imbalance_fault\", \"bearing_fault\"]\nSAMPLE_RATE = 100  # readings per second\nWINDOW_SIZE = 50   # use 50 readings per classification\n# ── Sensor Setup ──\ni2c   = busio.I2C(board.SCL, board.SDA)\nadxl  = adafruit_adxl34x.ADXL345(i2c)\nadxl.range = adafruit_adxl34x.Range.RANGE_2_G\n# ── Model Setup ──\ninterp = tflite.Interpreter(\"vibration_model.tflite\")\ninterp.allocate_tensors()\nin_idx  = interp.get_input_details()[0][\"index\"]\nout_idx = interp.get_output_details()[0][\"index\"]\n# ── Feature Extraction ──\ndef extract_features(window: list) -> np.ndarray:\n    \"\"\"Convert raw XYZ readings to statistical features.\"\"\"\n    arr = np.array(window)         # shape: (50, 3)\n    x, y, z = arr[:,0], arr[:,1], arr[:,2]\n    magnitude = np.sqrt(x**2 + y**2 + z**2)\n    features = [\n        magnitude.mean(), magnitude.std(),\n        magnitude.max(), magnitude.min(),\n        np.percentile(magnitude, 25),\n        np.percentile(magnitude, 75),\n        np.sqrt(np.mean(magnitude**2)),  # RMS (root mean square)\n        float(np.fft.fft(magnitude)[:3].real.mean()),  # dominant frequency\n    ]\n    return np.array([features], dtype=np.float32)  # shape: (1, 8)\n# ── MQTT Setup ──\nmq = mqtt.Client(\"predictor\")\nmq.connect(\"localhost\", 1883)\nmq.loop_start()\n# ── Main Loop ──\n\nwindow = []\nwhile True:\n    x, y, z = adxl.acceleration\n    window.append((x, y, z))\n    if len(window) >= WINDOW_SIZE:\n        features = extract_features(window)\n        interp.set_tensor(in_idx, features)\n        interp.invoke()\n        probs   = interp.get_tensor(out_idx)[0]\n        pred_id = np.argmax(probs)\n        pred    = CLASSES[pred_id]\n        conf    = probs[pred_id]\n        result = {\"prediction\": pred, \"confidence\": float(conf), \"time\": \ntime.time()}\n        logging.info(f\"Prediction: {pred} ({conf*100:.1f}%)\")\n        mq.publish(\"predictions/vibration\", json.dumps(result))\n        if pred != \"normal\":\n            logging.warning(f\"FAULT DETECTED: {pred}!\")\n            mq.publish(\"alerts/vibration\", json.dumps(result), qos=1)\n        window = []  # reset window\n    time.sleep(1/SAMPLE_RATE)",
+      "whatYouLearn": [
+        "Vibration analysis using FFT (Fast Fourier Transform) — used in industrial maintenance worldwide",
+        "Feature engineering — converting raw signals into meaningful numbers for ML",
+        "Window-based classification — collecting N readings before making a decision",
+        "Combining hardware sensor knowledge (from EEE) with ML (from CS-IT)",
+        "This project demonstrates exactly the AIoT profile Japanese factories want"
+      ],
+      "videoReferences": [
+        "Vibration Analysis with FFT: youtube.com/watch?v=spUNpyF58BY",
+        "ADXL345 Python Tutorial: youtube.com/watch?v=BjEgkfose7s"
+      ],
+      "startPage": 124,
+      "endPage": 126
+    },
+    {
+      "id": "hw-8",
+      "number": 8,
+      "title": "WhatsApp IoT Control Bot",
+      "time": "5–6 hours",
+      "difficulty": "Intermediate",
+      "description": "Time: 5–6 hours    Difficulty: Intermediate⏱ 🎯  \nControl your Raspberry Pi and read sensor data using WhatsApp messages from your phone. Send  \n\"temperature?\" and get the current reading. Send \"photo\" and receive a camera snapshot. This impresses  \neveryone — it is the easiest way to demonstrate your AIoT system in a job interview.",
+      "hardware": [
+        "Raspberry Pi 4 with camera module",
+        "Twilio account (free trial gives you enough credits)",
+        "WhatsApp on your phone"
+      ],
+      "software": [
+        "twilio (WhatsApp API library)",
+        "flask (web server to receive messages)",
+        "ngrok (expose Pi to internet temporarily for testing)",
+        "picamera2",
+        "paho-mqtt"
+      ],
+      "wiring": "DHT22 → Pi GPIO4\nPi Camera → CSI ribbon cable\nInternet connection required for Twilio API",
+      "steps": [
+        "Step 1: Create Twilio account — twilio.com → Sign up free → Get a WhatsApp sandbox number",
+        "Step 2: Install libraries — pip3 install twilio flask",
+        "Step 3: Install ngrok — Download ngrok from ngrok.com → ./ngrok http 5000 (this gives Pi a public URL)",
+        "Step 4: Set Twilio webhook — In Twilio console → WhatsApp Sandbox → \"When a message comes in\"",
+        "Step 5: Create the bot — Create whatsapp_bot.py with the code below",
+        "Step 6: Test — Send \"hello\" to your Twilio WhatsApp number and the Pi responds"
+      ],
+      "code": "# whatsapp_bot.py — WhatsApp IoT Control Bot\nfrom flask import Flask, request\n\nfrom twilio.twiml.messaging_response import MessagingResponse\nfrom twilio.rest import Client\nimport adafruit_dht, board, os, json\nfrom picamera2 import Picamera2\nfrom dotenv import load_dotenv\nimport paho.mqtt.client as mqtt\nload_dotenv()\napp = Flask(__name__)\n# Twilio credentials from .env\ntwilio_client = Client(os.getenv(\"TWILIO_SID\"), os.getenv(\"TWILIO_TOKEN\"))\nTWILIO_WHATSAPP = \"whatsapp:+14155238886\"  # your sandbox number\n# Setup sensor\ndht = adafruit_dht.DHT22(board.D4)\ndef send_whatsapp(to: str, message: str) -> None:\n    \"\"\"Send a WhatsApp text message.\"\"\"\n    twilio_client.messages.create(\n        body=message,\n        from_=TWILIO_WHATSAPP,\n        to=f\"whatsapp:{to}\"\n    )\n@app.route(\"/webhook\", methods=[\"POST\"])\ndef webhook():\n    \"\"\"Handle incoming WhatsApp messages.\"\"\"\n    incoming = request.form.get(\"Body\", \"\").lower().strip()\n    sender   = request.form.get(\"From\", \"\").replace(\"whatsapp:\", \"\")\n    resp = MessagingResponse()\n    if \"temperature\" in incoming or \"temp\" in incoming:\n        try:\n            temp = dht.temperature\n            hum  = dht.humidity\n            msg  = f\"  Temperature: {temp}°C\\n  Humidity: {hum}%\"🌡️ 💧\n        except RuntimeError:\n            msg = \"  Sensor error — please try again\"❌\n        resp.message(msg)\n    elif \"photo\" in incoming or \"camera\" in incoming:\n        cam = Picamera2()\n        cam.start()\n        cam.capture_file(\"/tmp/snapshot.jpg\")\n\n        cam.stop()\n        # Send image via Twilio media URL (requires hosted file)\n        resp.message(\"  Photo captured! (Configure media URL to send image)\")📸\n    elif \"status\" in incoming:\n        resp.message(\"  Pi is online and running normally\")✅\n    elif \"help\" in incoming:\n        resp.message(\"Commands:\\n• temperature — get sensor reading\\n• photo — \ncapture image\\n• status — check Pi status\")\n    else:\n        resp.message(\"I did not understand. Send 'help' for commands.\")\n    return str(resp)\nif __name__ == \"__main__\":\n    app.run(host=\"0.0.0.0\", port=5000)",
+      "whatYouLearn": [
+        "Webhooks — how internet services send data to your server",
+        "ngrok — how to expose a local server to the internet during development",
+        "Twilio API — industry-standard messaging platform",
+        "Building a command-line interface over WhatsApp",
+        "Why messaging interfaces are the future of IoT control (no app needed)"
+      ],
+      "videoReferences": [
+        "Twilio WhatsApp Python Tutorial: youtube.com/watch?v=iKlVpfFBBNQ",
+        "Flask Webhooks Tutorial: youtube.com/watch?v=zYmjJEqkCBQ"
+      ],
+      "startPage": 127,
+      "endPage": 129
+    },
+    {
+      "id": "hw-9",
+      "number": 9,
+      "title": "Full Stack AIoT Web Application — React + FastAPI + MongoDB",
+      "time": "2–3 weeks",
+      "difficulty": "Advanced",
+      "description": "PROJECT 9\nFull Stack AIoT Web Application — React + FastAPI + \nMongoDB\n Time: 2–3 weeks    Difficulty: Advanced⏱ 🎯  \nThis is your complete full-stack project. A React web application shows real-time IoT data. A FastAPI backend \nserves data from MongoDB Atlas. The Raspberry Pi publishes sensor data that flows to the cloud automatically. \nThis project demonstrates every layer of modern AIoT system architecture.",
+      "hardware": [
+        "Raspberry Pi 4 with sensors from previous projects",
+        "MongoDB Atlas free account (cloud.mongodb.com)",
+        "Laptop with Node.js for React development"
+      ],
+      "software": [
+        "fastapi (Python web framework)",
+        "uvicorn (ASGI server for FastAPI)",
+        "motor (async MongoDB driver)",
+        "react (create-react-app)",
+        "recharts (React chart library)",
+        "All MQTT and sensor libraries from previous projects"
+      ],
+      "wiring": "All sensors from previous projects\nMongoDB Atlas — cloud only, no wiring\nReact runs on your laptop browser",
+      "steps": [
+        "Step 1: Create MongoDB Atlas cluster — cloud.mongodb.com → New Project → Build Database (Free",
+        "Step 2: Create FastAPI backend — Create backend/ folder → main.py with FastAPI app",
+        "Step 3: Connect MQTT to MongoDB — The backend subscribes to MQTT and saves readings to Atlas",
+        "Step 4: Create REST endpoints — GET /readings, GET /readings/latest, GET /alerts, GET /stats",
+        "Step 5: Create React frontend — npx create-react-app frontend → install recharts → build dashboard",
+        "Step 6: Deploy backend — Run uvicorn main:app --host 0.0.0.0 --port 8000 on Pi",
+        "Step 7: Run frontend — npm start in frontend/ → open localhost:3000 in browser"
+      ],
+      "code": "# backend/main.py — FastAPI + MongoDB + MQTT Backend\nfrom fastapi import FastAPI\nfrom fastapi.middleware.cors import CORSMiddleware\nfrom motor.motor_asyncio import AsyncIOMotorClient\nimport paho.mqtt.client as mqtt\nimport json, os, asyncio, threading\nfrom datetime import datetime, timedelta\nfrom dotenv import load_dotenv\nload_dotenv()\napp = FastAPI(title=\"AIoT Dashboard API\")\n# Allow React frontend to call this API\napp.add_middleware(CORSMiddleware,\n    allow_origins=[\"*\"], allow_methods=[\"*\"], allow_headers=[\"*\"])\n# ── MongoDB Setup ──\nmongo = AsyncIOMotorClient(os.getenv(\"MONGO_URI\"))\ndb    = mongo[\"aiot_database\"]\n# ── API Endpoints ──\n@app.get(\"/readings/latest\")\nasync def get_latest():\n    \"\"\"Get the 20 most recent sensor readings.\"\"\"\n    cursor = db.readings.find({}, {\"_id\": 0}).sort(\"timestamp\", -1).limit(20)\n    return await cursor.to_list(length=20)\n@app.get(\"/readings/stats\")\nasync def get_stats():\n    \"\"\"Get 24-hour statistics for all sensors.\"\"\"\n    since = datetime.utcnow() - timedelta(hours=24)\n    pipeline = [\n        {\"$match\": {\"timestamp\": {\"$gt\": since.isoformat()}}},\n        {\"$group\": {\"_id\": \"$sensor_type\",\n                    \"avg\": {\"$avg\": \"$value\"},\n                    \"max\": {\"$max\": \"$value\"},\n                    \"min\": {\"$min\": \"$value\"},\n                    \"count\": {\"$sum\": 1}}}\n    ]\n    return await db.readings.aggregate(pipeline).to_list(length=10)\n@app.get(\"/alerts\")\nasync def get_alerts():\n    \"\"\"Get recent alerts.\"\"\"\n\n    cursor = db.alerts.find({}, {\"_id\": 0}).sort(\"timestamp\", -1).limit(50)\n    return await cursor.to_list(length=50)\n# ── MQTT Bridge → MongoDB ──\ndef mqtt_on_message(client, userdata, msg):\n    data = json.loads(msg.payload.decode())\n    # Run async insert in background\n    asyncio.run_coroutine_threadsafe(\n        db.readings.insert_one(data), asyncio.get_event_loop()\n    )\nmqtt_client = mqtt.Client(\"fastapi_bridge\")\nmqtt_client.on_message = mqtt_on_message\nmqtt_client.connect(\"localhost\", 1883)\nmqtt_client.subscribe(\"sensors/#\", qos=1)\nthreading.Thread(target=mqtt_client.loop_forever, daemon=True).start()",
+      "whatYouLearn": [
+        "FastAPI — modern Python web framework (faster than Flask for APIs)",
+        "MongoDB aggregation pipeline — like SQL GROUP BY but for documents",
+        "CORS — why browsers block API calls and how to allow them",
+        "Full-stack architecture: Sensor → MQTT → Python → MongoDB → REST API → React",
+        "This project architecture is used in production by real IoT companies"
+      ],
+      "videoReferences": [
+        "FastAPI Tutorial (TechWithTim): youtube.com/watch?v=0RS9W8MtZe4",
+        "React + FastAPI Full Stack: youtube.com/watch?v=PWG7NlUDVaA"
+      ],
+      "startPage": 130,
+      "endPage": 132
+    },
+    {
+      "id": "hw-10",
+      "number": 10,
+      "title": "Complete AI-Native Autonomous Monitoring System",
+      "time": "4–6 weeks",
+      "difficulty": "Expert",
+      "description": "Time: 4–6 weeks    Difficulty: Expert⏱ 🎯  \nThis is your capstone project — the project that defines your portfolio. It combines everything from all 9  \nprevious projects plus adds autonomous decision-making using AI agents. The system monitors multiple  \nsensor types, learns normal patterns, detects anomalies, explains them with Claude, sends multi-channel  \nalerts via n8n, logs to MongoDB, and displays on a React dashboard. When something goes wrong, it generates \na full incident report automatically.",
+      "hardware": [
+        "Raspberry Pi 4 (4GB RAM)",
+        "DHT22 — temperature/humidity",
+        "ADXL345 — vibration",
+        "Pi Camera Module",
+        "Laptop for React dashboard"
+      ],
+      "software": [
+        "All libraries from Projects 1-9",
+        "langchain + langchain-anthropic",
+        "All previous Python libraries"
+      ],
+      "wiring": "All wiring from Projects 1, 3, 7",
+      "steps": [
+        "Step 1: Set up all sensors — Wire DHT22 (GPIO4) and ADXL345 (I2C) to Pi",
+        "Step 2: Deploy sensor manager — sensor_manager.py from Appendix J manages all sensors in parallel",
+        "Step 3: Deploy edge AI — Run both TFLite classifiers: image classifier (Project 3) and vibration predictor",
+        "Step 4: Deploy MQTT pipeline — All sensor data + AI predictions flow through MQTT",
+        "Step 5: Deploy LangChain agent — The AI agent from Project 5 monitors everything and responds to",
+        "Step 6: Set up n8n workflows — Alert workflow + daily report workflow from Project 6",
+        "Step 7: Deploy full-stack app — FastAPI + React from Project 9 + add incident report endpoint",
+        "Step 8: Test end-to-end — Trigger anomalies, verify full pipeline fires correctly"
+      ],
+      "code": "# incident_reporter.py — AI-Generated Incident Reports\nimport anthropic, json, pymongo, datetime\nfrom dotenv import load_dotenv\nload_dotenv()\nclaude = anthropic.Anthropic()\nmongo  = pymongo.MongoClient(os.getenv(\"MONGO_URI\"))\ndb     = mongo[\"aiot_database\"]\nREPORT_PROMPT = \"\"\"\nYou are a senior AIoT systems engineer writing an incident report.\nWrite a clear, professional report with these sections:\n1. INCIDENT SUMMARY (2 sentences)\n2. TIMELINE (bullet points with times)\n3. ROOT CAUSE ANALYSIS (most likely physical cause)\n4. IMPACT ASSESSMENT (what could have happened if undetected)\n5. RECOMMENDED ACTIONS (3 specific steps)\n6. PREVENTION (how to prevent this in future)\nUse simple, clear language. No jargon. Total: under 400 words.\n\"\"\"\ndef generate_incident_report(alert_id: str) -> dict:\n    \"\"\"Generate a full incident report for a given alert.\"\"\"\n    # Fetch alert data from MongoDB\n    alert = db.alerts.find_one({\"_id\": alert_id})\n    readings = list(db.readings.find(\n        {\"timestamp\": {\"$gt\": alert[\"timestamp\"] - datetime.timedelta(hours=1)}},\n        {\"_id\": 0}).limit(100)\n    )\n    # Ask Claude to write the report\n    response = claude.messages.create(\n        model=\"claude-sonnet-4-6\",\n        max_tokens=800,\n        system=REPORT_PROMPT,\n        messages=[{\n            \"role\": \"user\",\n            \"content\": f\"\"\"\nAlert: {json.dumps(alert, default=str)}\nSensor History: {json.dumps(readings, default=str)}\nGenerate the incident report.\n            \"\"\"\n        }]\n    )\n\n    report = {\n        \"alert_id\": str(alert_id),\n        \"generated_at\": datetime.datetime.utcnow().isoformat(),\n        \"content\": response.content[0].text\n    }\n    db.incident_reports.insert_one(report)\n    return report",
+      "whatYouLearn": [
+        "System integration — making 10 different technologies work together reliably",
+        "Debugging distributed systems — when multiple components exist, how to find which one failed",
+        "Production thinking — error handling, logging, monitoring the monitoring system itself",
+        "Portfolio documentation — how to write about this project in a resume and on GitHub",
+        "This system represents 6 months of full-time engineering work compressed into a learning project"
+      ],
+      "videoReferences": [
+        "System Design for IoT (General): youtube.com/watch?v=ByGJQzlzxQg",
+        "Building Production IoT Systems: youtube.com/watch?v=rnkXxJQbORY"
+      ],
+      "startPage": 133,
+      "endPage": 135
+    }
+  ],
+  "architectures": [
+    {
+      "id": "arch-1",
+      "number": 1,
+      "title": "Smart Motor Health Monitor (NIAT Project Level)",
+      "problem": "Industrial motors fail unexpectedly, causing costly downtime.",
+      "solution": "Real-time vibration + temperature analysis with AI-powered failure prediction.",
+      "dataFlow": "Sensors → Pi GPIO → Python reader → TFLite inference → MQTT publish → Node-RED dashboard AND  \nMongoDB Atlas AND n8n alert workflow → Email/WhatsApp with AI explanation",
+      "rawContent": "Appendix I: Five Complete AIoT Project Architectures\nThese are five detailed project architectures you can build during your B.Tech years. Each one is more complex \nthan the previous. They are designed to be NIAT-grade projects — suitable for industry demonstrations and  \ninternship portfolio submissions.\nI.1 Architecture 1: Smart Motor Health Monitor (NIAT Project Level)\nProblem: Industrial motors fail unexpectedly, causing costly downtime.\nSolution: Real-time vibration + temperature analysis with AI-powered failure prediction.\nComponent Technology Role\nAccelerometer (ADXL345) I2C → Raspberry Pi Vibration signature measurement\nTemperature sensor (DS18B20) 1-Wire → Raspberry Pi Motor bearing temperature\nCurrent sensor (ACS712) SPI ADC → Raspberry Pi Motor current draw\nTFLite model Python on Pi Classify: \nnormal/imbalance/bearing_fault/ov\nerload\nMQTT broker Mosquitto on Pi Route sensor data and alerts\nNode-RED dashboard Pi port 1880 Live gauges and trend charts\nMongoDB Atlas Cloud Historical data for trend analysis\nn8n workflow VPS or Pi Email/WhatsApp alert on fault \ndetection\nClaude API Python script Natural language fault explanation\nData flow:\nSensors → Pi GPIO → Python reader → TFLite inference → MQTT publish → Node-RED dashboard AND  \nMongoDB Atlas AND n8n alert workflow → Email/WhatsApp with AI explanation\nModel training data:\nRecord 1 hour of normal vibration. Simulate faults: attach small weight (imbalance), increase load (overload). \nLabel data. Train 4-class classifier in PyTorch. Convert to TFLite INT8. Target: >90% accuracy, <20ms inference \non Pi 4.",
+      "page": 70
+    },
+    {
+      "id": "arch-2",
+      "number": 2,
+      "title": "Greenhouse AI Climate Controller",
+      "problem": "Manual greenhouse monitoring is labour-intensive and error-prone.",
+      "solution": "Autonomous climate control using AI-driven sensor fusion and actuator control.",
+      "dataFlow": "",
+      "rawContent": ": Greenhouse AI Climate Controller\nProblem: Manual greenhouse monitoring is labour-intensive and error-prone.\nSolution: Autonomous climate control using AI-driven sensor fusion and actuator control.\nComponent Technology Role\nBME280 I2C Temperature, humidity, pressure\nSoil moisture sensor ADC Soil water content\nLight sensor (BH1750) I2C Lux measurement for plant growth\nCO2 sensor (MH-Z19) UART CO2 ppm for photosynthesis \noptimisation\nRelay module (4-channel) GPIO output Control fan, heater, irrigation, lights\nLSTM model (PyTorch → TFLite) Pi Predict optimal climate conditions\nRule engine (Python) Pi Translate AI predictions to relay \ncommands\nREST API (Flask) Pi Remote control from phone or n8n\nn8n schedule Daily 6AM Generate AI crop health report via \nClaude",
+      "page": 70
+    },
+    {
+      "id": "arch-3",
+      "number": 3,
+      "title": "Factory Quality Inspection Vision System",
+      "problem": "Manual visual inspection is slow and inconsistent.",
+      "solution": "Camera-based AI inspection that flags defective products in real time.",
+      "dataFlow": "",
+      "rawContent": ": Factory Quality Inspection Vision System\nProblem: Manual visual inspection is slow and inconsistent.\nSolution: Camera-based AI inspection that flags defective products in real time.\nComponent Technology Role\nPi Camera Module 3 CSI Capture product images at 30 FPS\nTrigger signal GPIO input from conveyor sensor Capture only when product present\nMobileNetV3-Small (TFLite INT8) Pi CPU Binary classify: OK / DEFECT\nOpenCV preprocessing Python Crop, resize, normalise image to \n224x224\nMQTT publisher paho-mqtt Publish result + confidence per item\nLED indicators GPIO output Green=OK, Red=DEFECT (physical \nsignal)\nSolenoid valve (via relay) GPIO Reject defective items physically\nSQLite database Local on Pi Log all inspections with timestamps\nFlask dashboard Pi port 5000 Show inspection rate, defect %, \nrecent images\nKey metrics to measure and document:\n● Inference latency: target <40ms (25+ FPS processing rate)\n● Classification accuracy: target >95% on test set\n● False positive rate: target <2% (OK product flagged as defect)\n● False negative rate: target <1% (defect passes as OK — more critical)",
+      "page": 71
+    },
+    {
+      "id": "arch-4",
+      "number": 4,
+      "title": "Agricultural IoT + AI Irrigation System",
+      "problem": "Over-watering wastes water; under-watering reduces crop yield.",
+      "solution": "AI-driven precision irrigation using multi-sensor fusion and weather API integration.",
+      "dataFlow": "",
+      "rawContent": ": Agricultural IoT + AI Irrigation System\nProblem: Over-watering wastes water; under-watering reduces crop yield.\nSolution: AI-driven precision irrigation using multi-sensor fusion and weather API integration.\nComponent Technology Role\n5x soil moisture sensors ADC over SPI Map moisture across field zones\nWeather API (OpenWeatherMap) HTTP REST Forecast next 24hr rainfall\nEvapotranspiration model Python formula Calculate water loss rate\nLSTM model PyTorch → TFLite Predict soil moisture 6hr ahead\nRule engine Python on Pi Decide irrigation schedule from \nprediction\nSolenoid valves (5-zone) GPIO via relay Independent per-zone irrigation\nLoRa radio (SX1276) SPI Long-range sensor data (if field is \nlarge)\nn8n workflow Daily Generate irrigation report, water \nsaved stats\nClaude API Weekly AI agronomist: \"Why did Zone 3 dry \nout faster?\"",
+      "page": 71
+    },
+    {
+      "id": "arch-5",
+      "number": 5,
+      "title": "Campus Security AI Camera Network (Capstone)",
+      "problem": "Manual camera monitoring is inefficient and slow to respond.",
+      "solution": "Distributed edge AI cameras with centralised alert management.",
+      "dataFlow": "",
+      "rawContent": ": Campus Security AI Camera Network (Capstone)\nProblem: Manual camera monitoring is inefficient and slow to respond.\nSolution: Distributed edge AI cameras with centralised alert management.\nComponent Technology Role\n3x Raspberry Pi 4 nodes Distributed One Pi per camera zone\nPi Camera (per node) CSI Video stream input\nYOLOv8n TFLite Each Pi Person and vehicle detection at \nedge\nMQTT broker (central Pi) Mosquitto Collect all detection events\nDeepSORT tracking Central Pi Track person across camera zones\nSQLite (per node) Local Buffer events during outage\nFlask REST API (central) Python Query events, retrieve images\nReact dashboard Browser Live map showing detections per \nzone\nn8n alerts Workflow Push notification on after-hours \ndetection\nClaude API analysis Daily Generate security summary report\n Note: 📌 This capstone project combines every skill from your 4-month schedule: edge AI (TFLite), IoT \nprotocols (MQTT), web development (React + Flask), databases (SQLite), AI automation (Claude API + \nn8n), and Linux systems (distributed Pi network). It is a full internship portfolio on its own.",
+      "page": 72
+    }
+  ],
+  "glossary": [
+    {
+      "term": "AIoT",
+      "definition": "Artificial Intelligence of Things — integration of AI/ML with IoT devices for real-time local intelligence."
+    },
+    {
+      "term": "Edge AI",
+      "definition": "Running ML inference directly on embedded hardware (Raspberry Pi, ESP32, Jetson) without relying on the cloud."
+    },
+    {
+      "term": "TFLite",
+      "definition": "TensorFlow Lite — compressed, optimized ML runtime specifically engineered for ARM processors and embedded microcontrollers."
+    },
+    {
+      "term": "ONNX",
+      "definition": "Open Neural Network Exchange — hardware-agnostic open format for AI models, allowing easy conversion across frameworks (PyTorch -> ONNX -> TFLite)."
+    },
+    {
+      "term": "Quantisation",
+      "definition": "Technique reducing model weight precision (FP32 -> INT8) for 4x smaller binary footprint and 2-3x faster inference speed."
+    },
+    {
+      "term": "MQTT",
+      "definition": "Message Queuing Telemetry Transport — lightweight publish/subscribe network protocol designed for low-bandwidth, high-latency IoT devices."
+    },
+    {
+      "term": "OPC-UA",
+      "definition": "Open Platform Communications Unified Architecture — standard industrial machine-to-machine communication protocol in Japanese smart factories."
+    },
+    {
+      "term": "ROS2",
+      "definition": "Robot Operating System 2 — open-source robotics middleware providing nodes, topics, and services for autonomous systems."
+    },
+    {
+      "term": "SLAM",
+      "definition": "Simultaneous Localisation and Mapping — foundational algorithm computing real-time position while mapping unknown environments."
+    },
+    {
+      "term": "LiDAR",
+      "definition": "Light Detection and Ranging — optical remote sensing technology capturing high-resolution 3D point cloud distance data."
+    },
+    {
+      "term": "Vibe Coding",
+      "definition": "Building software by articulating system specifications in natural language and directing AI code generation engines iteratively."
+    },
+    {
+      "term": "LLM",
+      "definition": "Large Language Model — deep neural network trained on vast text corpora (Claude, GPT, Gemini) capable of complex reasoning."
+    },
+    {
+      "term": "RAG",
+      "definition": "Retrieval-Augmented Generation — system architecture combining vector search retrieval with LLM generation for grounded, hallucination-free answers."
+    },
+    {
+      "term": "Vector DB",
+      "definition": "High-performance database optimized for cosine similarity indexing across high-dimensional dense embeddings (Chroma, Pinecone)."
+    },
+    {
+      "term": "LangChain",
+      "definition": "Python and TypeScript framework providing abstractions for LLM tool calling, memory buffers, and multi-step autonomous agents."
+    },
+    {
+      "term": "n8n",
+      "definition": "Extendable, open-source workflow automation platform running on Node.js with native support for MQTT, HTTP webhooks, and AI reasoning nodes."
+    },
+    {
+      "term": "MCP",
+      "definition": "Model Context Protocol — open standard designed by Anthropic for exposing tools, prompts, and database resources to AI models."
+    },
+    {
+      "term": "Cursor",
+      "definition": "AI-first code editor built on VS Code with codebase indexing, multi-file edits, and inline agent capabilities."
+    },
+    {
+      "term": "Inference",
+      "definition": "The forward execution phase where a trained machine learning model evaluates live sensor inputs to generate predictions."
+    },
+    {
+      "term": "Latency",
+      "definition": "Elapsed duration from physical sensor signal arrival to processed output; mission-critical metric for industrial edge safety."
+    },
+    {
+      "term": "GPIO",
+      "definition": "General Purpose Input/Output — digital pins on microcontrollers and single-board computers for reading sensors and pulsing actuators."
+    },
+    {
+      "term": "I2C",
+      "definition": "Inter-Integrated Circuit — two-wire (SDA/SCL) synchronous serial communication bus enabling multiple peripheral sensors per bus."
+    },
+    {
+      "term": "SPI",
+      "definition": "Serial Peripheral Interface — four-wire (MISO/MOSI/SCK/CS) high-speed serial bus ideal for high-throughput sensors and displays."
+    },
+    {
+      "term": "Kaizen (改善)",
+      "definition": "Core Japanese philosophy of continuous, incremental workflow improvements adopted across all top manufacturing facilities."
+    },
+    {
+      "term": "Horenso (報連相)",
+      "definition": "Essential Japanese workplace communication framework: Houkoku (Report), Renraku (Contact), and Soudan (Consult)."
+    },
+    {
+      "term": "Nemawashi (根回し)",
+      "definition": "Japanese corporate consensus-building practice: consulting all stakeholders informally prior to official meetings."
+    },
+    {
+      "term": "JLPT",
+      "definition": "Japanese-Language Proficiency Test — standardized evaluation scale ranging from N5 (beginner) to N1 (fluent native level)."
+    }
+  ],
+  "englishGuide": {
+    "commonMistakes": [
+      {
+        "category": "Missing Articles (a, an, the)",
+        "rule": "Use 'a' before consonant sounds, 'an' before vowels, and 'the' for specific shared references.",
+        "wrong": "I built sensor system for factory.",
+        "correct": "I built a sensor system for a factory."
+      },
+      {
+        "category": "Wrong Verb Tense",
+        "rule": "Use Present Simple for system capabilities (it runs), Past Simple for completed actions (I built), Present Perfect for achievements.",
+        "wrong": "I am built a classifier that is detecting anomalies.",
+        "correct": "I built a classifier that detects anomalies."
+      },
+      {
+        "category": "Stative Verbs with -ing",
+        "rule": "'Know', 'understand', 'have', 'be' are stative verbs. Never say 'I am knowing'.",
+        "wrong": "I am knowing Python since 2 years.",
+        "correct": "I have been learning Python for 2 years."
+      },
+      {
+        "category": "Subject-Verb Agreement",
+        "rule": "Data is treated as singular/uncountable in technical writing. 'Each of the models is...', 'The team has decided...'",
+        "wrong": "The sensor data are showing high values.",
+        "correct": "The sensor data is showing high values."
+      },
+      {
+        "category": "Direct Translation / Indianisms",
+        "rule": "Avoid literal translations like 'only', 'good name', 'do the needful', or 'revert back'.",
+        "wrong": "Please do the needful and revert back to me.",
+        "correct": "Please review the attached code and let me know your thoughts."
+      },
+      {
+        "category": "Preposition Collocations",
+        "rule": "good AT (skills), experience IN (fields), experience WITH (tools), interested IN (topics), work ON (projects).",
+        "wrong": "I am good in Python and have experience on Raspberry Pi.",
+        "correct": "I am good at Python and have experience with Raspberry Pi."
+      }
+    ],
+    "actionVerbs": [
+      {
+        "past": "Built",
+        "present": "Runs",
+        "example": "Built a TFLite inference pipeline achieving 18ms latency on Pi 4."
+      },
+      {
+        "past": "Implemented",
+        "present": "Supports",
+        "example": "Implemented MQTT pub/sub with QoS 1 auto-reconnect logic."
+      },
+      {
+        "past": "Reduced",
+        "present": "Achieves",
+        "example": "Reduced inference latency by 40% using INT8 quantization."
+      },
+      {
+        "past": "Engineered",
+        "present": "Automates",
+        "example": "Engineered an autonomous n8n alert pipeline dispatching multi-channel notifications."
+      }
+    ]
+  },
+  "dsaPatterns": [
+    {
+      "id": "sliding-window",
+      "title": "Sliding Window Pattern",
+      "useWhen": "Finding max/min/sum of a subarray of fixed or variable size. Problems: Maximum sum subarray of size K, Longest substring without repeating characters, Minimum window substring.",
+      "complexity": "Time: O(n), Space: O(k)",
+      "code": "// Fixed window\nint left = 0, windowSum = 0, maxSum = 0;\nfor (int right = 0; right < nums.size(); right++) {\n    windowSum += nums[right];\n    if (right - left + 1 == k) {\n        maxSum = max(maxSum, windowSum);\n        windowSum -= nums[left++];\n    }\n}"
+    },
+    {
+      "id": "two-pointer",
+      "title": "Two Pointer Pattern",
+      "useWhen": "Sorted array, finding pairs that sum to target, removing duplicates, palindrome check.",
+      "complexity": "Time: O(n), Space: O(1)",
+      "code": "int left = 0, right = nums.size() - 1;\nwhile (left < right) {\n    int sum = nums[left] + nums[right];\n    if (sum == target) return {left, right};\n    else if (sum < target) left++;\n    else right--;\n}"
+    },
+    {
+      "id": "binary-search",
+      "title": "Binary Search Pattern",
+      "useWhen": "Sorted array, search space can be halved, or binary search on answer.",
+      "complexity": "Time: O(log n), Space: O(1)",
+      "code": "int left = 0, right = nums.size() - 1;\nwhile (left <= right) {\n    int mid = left + (right - left) / 2;\n    if (nums[mid] == target) return mid;\n    else if (nums[mid] < target) left = mid + 1;\n    else right = mid - 1;\n}"
+    },
+    {
+      "id": "bfs",
+      "title": "BFS Pattern — Level Order Traversal",
+      "useWhen": "Shortest path in unweighted graph, level-by-level tree processing, minimum steps.",
+      "complexity": "Time: O(V + E), Space: O(V)",
+      "code": "vector<int> visited(n, 0);\nqueue<int> q;\nq.push(start); visited[start] = 1;\nwhile (!q.empty()) {\n    int node = q.front(); q.pop();\n    for (int neighbour : adj[node]) {\n        if (!visited[neighbour]) {\n            visited[neighbour] = 1;\n            q.push(neighbour);\n        }\n    }\n}"
+    },
+    {
+      "id": "dfs",
+      "title": "DFS Pattern — Graph and Tree",
+      "useWhen": "Cycle detection, topological sort, connected components, path finding.",
+      "complexity": "Time: O(V + E), Space: O(V)",
+      "code": "void dfs(int node, vector<vector<int>>& adj, vector<int>& vis) {\n    vis[node] = 1;\n    for (int neighbour : adj[node]) {\n        if (!vis[neighbour]) dfs(neighbour, adj, vis);\n    }\n}"
+    },
+    {
+      "id": "dp",
+      "title": "Dynamic Programming — 1D & 2D Templates",
+      "useWhen": "Overlapping subproblems and optimal substructure (LCS, Knapsack, Edit Distance).",
+      "complexity": "1D: O(n), 2D: O(m*n)",
+      "code": "// 1D DP\nvector<int> dp(n+1, 0);\ndp[0] = base_0; dp[1] = base_1;\nfor (int i = 2; i <= n; i++) dp[i] = dp[i-1] + dp[i-2];\n\n// 2D DP\nvector<vector<int>> dp(m+1, vector<int>(n+1, 0));\nfor (int i = 1; i <= m; i++) {\n    for (int j = 1; j <= n; j++) {\n        if (s1[i-1] == s2[j-1]) dp[i][j] = 1 + dp[i-1][j-1];\n        else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);\n    }\n}"
+    }
+  ],
+  "milestones": [
+    {
+      "month": 1,
+      "title": "Month 1: Vibe Coding + Claude API Fundamentals",
+      "items": [
+        "Cursor IDE installed and used daily for weekday coding",
+        "First Claude API call made successfully",
+        "Sensor simulator project on GitHub with demo screenshot",
+        "AI code reviewer project on GitHub",
+        "50 Striver DSA problems solved and pushed to GitHub",
+        "Hiragana and Katakana memorised (test: write without chart)"
+      ]
+    },
+    {
+      "month": 2,
+      "title": "Month 2: n8n Automation + Linux Workflows",
+      "items": [
+        "n8n self-hosted on Raspberry Pi or VPS",
+        "Sensor alert pipeline workflow built and tested",
+        "5 n8n workflows documented with screenshots",
+        "First internship applications sent (minimum 10)",
+        "PyTorch CIFAR-10 model trained and saved",
+        "JLPT N4 study begun — first 200 vocabulary words"
+      ]
+    },
+    {
+      "month": 3,
+      "title": "Month 3: LangChain Agents + RAG + Hardware Prototype",
+      "items": [
+        "LangChain AIoT agent responding to natural language sensor queries",
+        "RAG system loaded with technical documentation",
+        "NIAT IoT project prototype working",
+        "TFLite model running on Raspberry Pi with benchmark data",
+        "LinkedIn post about AIoT project published — minimum 50 reactions",
+        "Active internship interview or 20+ applications sent"
+      ]
+    },
+    {
+      "month": 4,
+      "title": "Month 4: Full AIoT Predictive Maintenance & Portfolio",
+      "items": [
+        "Full predictive maintenance demo system running end-to-end",
+        "GitHub portfolio: 8+ repos with READMEs and demo videos",
+        "JLPT N4 mock test score: 65%+ (test-ready)",
+        "Resume finalised: 1 page, 4 projects, all skills listed",
+        "Internship secured OR 30+ applications sent with follow-ups",
+        "Personal AI study assistant project completed"
+      ]
+    }
+  ],
+  "japaneseGrammar": [
+    {
+      "pattern": "〜ている (te-iru)",
+      "meaning": "Ongoing action or current state",
+      "example": "センサーが動いています。",
+      "translation": "The sensor is working."
+    },
+    {
+      "pattern": "〜てから (te-kara)",
+      "meaning": "After doing ~",
+      "example": "コードをテストしてから、デプロイします。",
+      "translation": "After testing the code, I will deploy it."
+    },
+    {
+      "pattern": "〜たら (tara)",
+      "meaning": "When/If (after completing ~)",
+      "example": "エラーが出たら、ログを確認してください。",
+      "translation": "If an error appears, please check the log."
+    },
+    {
+      "pattern": "〜ば〜ほど (ba... hodo)",
+      "meaning": "The more ~, the more ~",
+      "example": "データが多ければ多いほど、モデルの精度が上がります。",
+      "translation": "The more data there is, the higher the model accuracy."
+    },
+    {
+      "pattern": "〜ことができる (koto ga dekiru)",
+      "meaning": "Can do ~ / To be able to ~",
+      "example": "ラズベリーパイで AI を実行することができます。",
+      "translation": "We can run AI on Raspberry Pi."
+    },
+    {
+      "pattern": "〜ようになる (yoo ni naru)",
+      "meaning": "Come to be able to / Start to",
+      "example": "毎日コードを書いて、早く書けるようになりました。",
+      "translation": "By writing code every day, I became able to write it quickly."
+    },
+    {
+      "pattern": "〜ために (tame ni)",
+      "meaning": "In order to / For the purpose of",
+      "example": "AIoT エンジニアになるために、毎日勉強しています。",
+      "translation": "I study every day in order to become an AIoT engineer."
+    },
+    {
+      "pattern": "〜ながら (nagara)",
+      "meaning": "While doing ~ simultaneously",
+      "example": "データを分析しながら、レポートを書きます。",
+      "translation": "I write the report while analysing the data."
+    },
+    {
+      "pattern": "〜てもいいですか (te mo ii desu ka)",
+      "meaning": "May I ~?",
+      "example": "このコードを変更してもいいですか？",
+      "translation": "May I change this code?"
+    },
+    {
+      "pattern": "〜てはいけない (te wa ikenai)",
+      "meaning": "Must not / Not allowed to",
+      "example": "API キーを GitHub にアップロードしてはいけません。",
+      "translation": "You must not upload API keys to GitHub."
+    },
+    {
+      "pattern": "〜なければならない (nakereba naranai)",
+      "meaning": "Must / Have to",
+      "example": "バグを修正しなければなりません。",
+      "translation": "I must fix the bug."
+    },
+    {
+      "pattern": "〜と思います (to omoimasu)",
+      "meaning": "I think that ~",
+      "example": "MQTT はこのプロジェクトに適していると思います。",
+      "translation": "I think MQTT is suitable for this project."
+    },
+    {
+      "pattern": "〜かもしれません (kamoshiremasen)",
+      "meaning": "Might ~ / Perhaps ~",
+      "example": "センサーが壊れているかもしれません。",
+      "translation": "The sensor might be broken."
+    },
+    {
+      "pattern": "〜はずです (hazu desu)",
+      "meaning": "Should be ~ (expectation)",
+      "example": "推論の速度は 50ms 以下のはずです。",
+      "translation": "The inference speed should be under 50ms."
+    },
+    {
+      "pattern": "〜そうです (soo desu)",
+      "meaning": "Looks like ~ / Seems like ~",
+      "example": "センサーが壊れそうです。",
+      "translation": "The sensor looks like it is about to break."
+    },
+    {
+      "pattern": "〜によって (ni yotte)",
+      "meaning": "Depending on ~ / By ~",
+      "example": "センサーの種類によって、設定が違います。",
+      "translation": "The settings differ depending on the sensor type."
+    },
+    {
+      "pattern": "〜について (ni tsuite)",
+      "meaning": "About ~ / Regarding ~",
+      "example": "MQTT プロトコルについて説明します。",
+      "translation": "I will explain about the MQTT protocol."
+    },
+    {
+      "pattern": "〜ていただけますか (te itadakemasu ka)",
+      "meaning": "Could you please ~? (polite request)",
+      "example": "コードをレビューしていただけますか？",
+      "translation": "Could you please review the code?"
+    },
+    {
+      "pattern": "〜だけでなく〜も (dakedenaku... mo)",
+      "meaning": "Not only ~ but also ~",
+      "example": "ハードウェアだけでなく AI ソフトウェアも理解しています。",
+      "translation": "I understand not only hardware but also AI software."
+    }
+  ]
+}

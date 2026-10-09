@@ -1,0 +1,2420 @@
+[
+  {
+    "text": "hailer so in this video I'll be going",
+    "duration": 5800,
+    "offset": 620,
+    "lang": "en"
+  },
+  {
+    "text": "over the mobile Nets paper reading",
+    "duration": 5311,
+    "offset": 3419,
+    "lang": "en"
+  },
+  {
+    "text": "research papers is extremely important",
+    "duration": 3810,
+    "offset": 6420,
+    "lang": "en"
+  },
+  {
+    "text": "especially in the field of machine",
+    "duration": 3930,
+    "offset": 8730,
+    "lang": "en"
+  },
+  {
+    "text": "learning and deep learning because the",
+    "duration": 4739,
+    "offset": 10230,
+    "lang": "en"
+  },
+  {
+    "text": "field is so fast-paced it's important",
+    "duration": 4530,
+    "offset": 12660,
+    "lang": "en"
+  },
+  {
+    "text": "that you can pick up a paper and read it",
+    "duration": 4650,
+    "offset": 14969,
+    "lang": "en"
+  },
+  {
+    "text": "yourself because many times the ideas",
+    "duration": 5130,
+    "offset": 17190,
+    "lang": "en"
+  },
+  {
+    "text": "aren't covered in courses articles or",
+    "duration": 4920,
+    "offset": 19619,
+    "lang": "en"
+  },
+  {
+    "text": "blogs so you should be able to pick up",
+    "duration": 5430,
+    "offset": 22320,
+    "lang": "en"
+  },
+  {
+    "text": "the idea without their help and reading",
+    "duration": 5160,
+    "offset": 24539,
+    "lang": "en"
+  },
+  {
+    "text": "papers can be especially difficult if",
+    "duration": 3750,
+    "offset": 27750,
+    "lang": "en"
+  },
+  {
+    "text": "you are a beginner because there may be",
+    "duration": 3511,
+    "offset": 29699,
+    "lang": "en"
+  },
+  {
+    "text": "so many terms that you don't know about",
+    "duration": 6899,
+    "offset": 31500,
+    "lang": "en"
+  },
+  {
+    "text": "and sometimes writers they raise certain",
+    "duration": 8009,
+    "offset": 33210,
+    "lang": "en"
+  },
+  {
+    "text": "ideas or some details in somewhat",
+    "duration": 5820,
+    "offset": 38399,
+    "lang": "en"
+  },
+  {
+    "text": "abstract or ambiguous ways because they",
+    "duration": 4831,
+    "offset": 41219,
+    "lang": "en"
+  },
+  {
+    "text": "don't want people to exactly copy what",
+    "duration": 4351,
+    "offset": 44219,
+    "lang": "en"
+  },
+  {
+    "text": "they're doing so hopefully this video",
+    "duration": 5310,
+    "offset": 46050,
+    "lang": "en"
+  },
+  {
+    "text": "will not only inform you what a mobile",
+    "duration": 5610,
+    "offset": 48570,
+    "lang": "en"
+  },
+  {
+    "text": "net is but also get you more familiar",
+    "duration": 6719,
+    "offset": 51360,
+    "lang": "en"
+  },
+  {
+    "text": "with research papers so let's look at",
+    "duration": 6149,
+    "offset": 54180,
+    "lang": "en"
+  },
+  {
+    "text": "the abstract so the abstract is just a",
+    "duration": 4561,
+    "offset": 58079,
+    "lang": "en"
+  },
+  {
+    "text": "broad overview or for the paper this",
+    "duration": 5371,
+    "offset": 60329,
+    "lang": "en"
+  },
+  {
+    "text": "presenting so in this paper they present",
+    "duration": 5339,
+    "offset": 62640,
+    "lang": "en"
+  },
+  {
+    "text": "a class of efficient models called",
+    "duration": 4890,
+    "offset": 65700,
+    "lang": "en"
+  },
+  {
+    "text": "mobile nets for mobile and embedded",
+    "duration": 6841,
+    "offset": 67979,
+    "lang": "en"
+  },
+  {
+    "text": "vision applications mobile nets are a",
+    "duration": 6419,
+    "offset": 70590,
+    "lang": "en"
+  },
+  {
+    "text": "streamlined architecture that use",
+    "duration": 5070,
+    "offset": 74820,
+    "lang": "en"
+  },
+  {
+    "text": "depth-wise separable convolutions to",
+    "duration": 7290,
+    "offset": 77009,
+    "lang": "en"
+  },
+  {
+    "text": "build lighter neural networks we also",
+    "duration": 6839,
+    "offset": 79890,
+    "lang": "en"
+  },
+  {
+    "text": "introduced two simple global hyper",
+    "duration": 5221,
+    "offset": 84299,
+    "lang": "en"
+  },
+  {
+    "text": "parameters that efficiently trade-off",
+    "duration": 5941,
+    "offset": 86729,
+    "lang": "en"
+  },
+  {
+    "text": "between latency and accuracy these hyper",
+    "duration": 5099,
+    "offset": 89520,
+    "lang": "en"
+  },
+  {
+    "text": "parameters allow the model builder to",
+    "duration": 3449,
+    "offset": 92670,
+    "lang": "en"
+  },
+  {
+    "text": "choose the right size",
+    "duration": 3811,
+    "offset": 94619,
+    "lang": "en"
+  },
+  {
+    "text": "model for their application based on the",
+    "duration": 5101,
+    "offset": 96119,
+    "lang": "en"
+  },
+  {
+    "text": "constraints of the problem so basically",
+    "duration": 5250,
+    "offset": 98430,
+    "lang": "en"
+  },
+  {
+    "text": "their objective is to make neural",
+    "duration": 4590,
+    "offset": 101220,
+    "lang": "en"
+  },
+  {
+    "text": "networks much lighter and portable for",
+    "duration": 3509,
+    "offset": 103680,
+    "lang": "en"
+  },
+  {
+    "text": "mobile and embedded vision applications",
+    "duration": 4620,
+    "offset": 105810,
+    "lang": "en"
+  },
+  {
+    "text": "and they're gonna primarily do this by",
+    "duration": 6960,
+    "offset": 107189,
+    "lang": "en"
+  },
+  {
+    "text": "using depth wise separable convolutions",
+    "duration": 6240,
+    "offset": 110430,
+    "lang": "en"
+  },
+  {
+    "text": "and they're going to introduce to global",
+    "duration": 4741,
+    "offset": 114149,
+    "lang": "en"
+  },
+  {
+    "text": "hyper parameters that can trade-off",
+    "duration": 6330,
+    "offset": 116670,
+    "lang": "en"
+  },
+  {
+    "text": "between the speed of the model and the",
+    "duration": 6960,
+    "offset": 118890,
+    "lang": "en"
+  },
+  {
+    "text": "accuracy of the model and finally they",
+    "duration": 4530,
+    "offset": 123000,
+    "lang": "en"
+  },
+  {
+    "text": "say that we present extensive",
+    "duration": 4469,
+    "offset": 125850,
+    "lang": "en"
+  },
+  {
+    "text": "experiments on resource and accuracy",
+    "duration": 6090,
+    "offset": 127530,
+    "lang": "en"
+  },
+  {
+    "text": "trade-offs and show strong performance",
+    "duration": 4981,
+    "offset": 130319,
+    "lang": "en"
+  },
+  {
+    "text": "whereto are the popular model on",
+    "duration": 4589,
+    "offset": 133620,
+    "lang": "en"
+  },
+  {
+    "text": "imagenet classification so original is a",
+    "duration": 4860,
+    "offset": 135300,
+    "lang": "en"
+  },
+  {
+    "text": "very popular dataset that researchers",
+    "duration": 4321,
+    "offset": 138209,
+    "lang": "en"
+  },
+  {
+    "text": "used to benchmark their results against",
+    "duration": 4049,
+    "offset": 140160,
+    "lang": "en"
+  },
+  {
+    "text": "each other",
+    "duration": 3780,
+    "offset": 142530,
+    "lang": "en"
+  },
+  {
+    "text": "and then we'd finally demonstrate the",
+    "duration": 4021,
+    "offset": 144209,
+    "lang": "en"
+  },
+  {
+    "text": "effectiveness over a wide range of",
+    "duration": 5120,
+    "offset": 146310,
+    "lang": "en"
+  },
+  {
+    "text": "applications including object detection",
+    "duration": 6240,
+    "offset": 148230,
+    "lang": "en"
+  },
+  {
+    "text": "classification phase attributes and",
+    "duration": 5350,
+    "offset": 151430,
+    "lang": "en"
+  },
+  {
+    "text": "large-scale geo localization",
+    "duration": 4799,
+    "offset": 154470,
+    "lang": "en"
+  },
+  {
+    "text": "so basically the an that architecture",
+    "duration": 4980,
+    "offset": 156780,
+    "lang": "en"
+  },
+  {
+    "text": "can be used for many different use cases",
+    "duration": 7591,
+    "offset": 159269,
+    "lang": "en"
+  },
+  {
+    "text": "so the introduction is just going over",
+    "duration": 7949,
+    "offset": 161760,
+    "lang": "en"
+  },
+  {
+    "text": "the core idea and the motivation which",
+    "duration": 10590,
+    "offset": 166860,
+    "lang": "en"
+  },
+  {
+    "text": "is which is which is making the model",
+    "duration": 12571,
+    "offset": 169709,
+    "lang": "en"
+  },
+  {
+    "text": "lighter while not decreasing accuracy",
+    "duration": 8429,
+    "offset": 177450,
+    "lang": "en"
+  },
+  {
+    "text": "significantly so the paper describes an",
+    "duration": 5640,
+    "offset": 182280,
+    "lang": "en"
+  },
+  {
+    "text": "efficient Network and a set of hyper",
+    "duration": 4711,
+    "offset": 185879,
+    "lang": "en"
+  },
+  {
+    "text": "parameters to build a very small low",
+    "duration": 5010,
+    "offset": 187920,
+    "lang": "en"
+  },
+  {
+    "text": "latency model that key that can be",
+    "duration": 4590,
+    "offset": 190590,
+    "lang": "en"
+  },
+  {
+    "text": "matched to the design requirements for",
+    "duration": 4730,
+    "offset": 192930,
+    "lang": "en"
+  },
+  {
+    "text": "mobile and embedded vision applications",
+    "duration": 5700,
+    "offset": 195180,
+    "lang": "en"
+  },
+  {
+    "text": "and so these are the two hyper",
+    "duration": 5020,
+    "offset": 197660,
+    "lang": "en"
+  },
+  {
+    "text": "parameters that they introduce which is",
+    "duration": 4439,
+    "offset": 200880,
+    "lang": "en"
+  },
+  {
+    "text": "width and resolution so in the section",
+    "duration": 5429,
+    "offset": 202680,
+    "lang": "en"
+  },
+  {
+    "text": "two they go over some of the pass work",
+    "duration": 4320,
+    "offset": 205319,
+    "lang": "en"
+  },
+  {
+    "text": "that has been done in this field and",
+    "duration": 3030,
+    "offset": 208109,
+    "lang": "en"
+  },
+  {
+    "text": "this is common to all papers they",
+    "duration": 5100,
+    "offset": 209639,
+    "lang": "en"
+  },
+  {
+    "text": "usually have the same outline so this",
+    "duration": 8041,
+    "offset": 211139,
+    "lang": "en"
+  },
+  {
+    "text": "paper introduces a small network that",
+    "duration": 6330,
+    "offset": 214739,
+    "lang": "en"
+  },
+  {
+    "text": "the user can match his resource",
+    "duration": 5309,
+    "offset": 219180,
+    "lang": "en"
+  },
+  {
+    "text": "restrictions to so if he wants a",
+    "duration": 6480,
+    "offset": 221069,
+    "lang": "en"
+  },
+  {
+    "text": "trade-off between accuracy and speed he",
+    "duration": 5821,
+    "offset": 224489,
+    "lang": "en"
+  },
+  {
+    "text": "can decide how how that trade-off should",
+    "duration": 7081,
+    "offset": 227549,
+    "lang": "en"
+  },
+  {
+    "text": "be what should be more favored and the",
+    "duration": 7440,
+    "offset": 230310,
+    "lang": "en"
+  },
+  {
+    "text": "Incept the mobile net paper builds upon",
+    "duration": 6270,
+    "offset": 234630,
+    "lang": "en"
+  },
+  {
+    "text": "this exception network which I'll cover",
+    "duration": 6690,
+    "offset": 237750,
+    "lang": "en"
+  },
+  {
+    "text": "in the future video so stay tuned for",
+    "duration": 6239,
+    "offset": 240900,
+    "lang": "en"
+  },
+  {
+    "text": "that and so here he just goes over the",
+    "duration": 4799,
+    "offset": 244440,
+    "lang": "en"
+  },
+  {
+    "text": "some of the history that's been done in",
+    "duration": 4970,
+    "offset": 247139,
+    "lang": "en"
+  },
+  {
+    "text": "this and he also says that there are",
+    "duration": 6211,
+    "offset": 249239,
+    "lang": "en"
+  },
+  {
+    "text": "other methods of optimization such as",
+    "duration": 7301,
+    "offset": 252109,
+    "lang": "en"
+  },
+  {
+    "text": "font quantization hashing pruning etc",
+    "duration": 6000,
+    "offset": 255450,
+    "lang": "en"
+  },
+  {
+    "text": "but he doesn't go into those in this",
+    "duration": 4950,
+    "offset": 259410,
+    "lang": "en"
+  },
+  {
+    "text": "paper so finally let's get into the",
+    "duration": 6769,
+    "offset": 261450,
+    "lang": "en"
+  },
+  {
+    "text": "mobile net architecture",
+    "duration": 3859,
+    "offset": 264360,
+    "lang": "en"
+  },
+  {
+    "text": "so the primary thing that he uses is",
+    "duration": 5860,
+    "offset": 269390,
+    "lang": "en"
+  },
+  {
+    "text": "depth-wise separable convolution so",
+    "duration": 4920,
+    "offset": 272670,
+    "lang": "en"
+  },
+  {
+    "text": "let's see first what are the Gila",
+    "duration": 6390,
+    "offset": 275250,
+    "lang": "en"
+  },
+  {
+    "text": "convolution is so in the regular",
+    "duration": 7890,
+    "offset": 277590,
+    "lang": "en"
+  },
+  {
+    "text": "convolution suppose this is our input so",
+    "duration": 8850,
+    "offset": 281640,
+    "lang": "en"
+  },
+  {
+    "text": "our filter would be a DK into DK into M",
+    "duration": 7800,
+    "offset": 285480,
+    "lang": "en"
+  },
+  {
+    "text": "size filter that is basically a block",
+    "duration": 5160,
+    "offset": 290490,
+    "lang": "en"
+  },
+  {
+    "text": "that you superimpose on your input and",
+    "duration": 4320,
+    "offset": 293280,
+    "lang": "en"
+  },
+  {
+    "text": "then you calculate the dot product of",
+    "duration": 4530,
+    "offset": 295650,
+    "lang": "en"
+  },
+  {
+    "text": "all of the overlap for overlapping",
+    "duration": 5810,
+    "offset": 297600,
+    "lang": "en"
+  },
+  {
+    "text": "components so what are you doing in a",
+    "duration": 6480,
+    "offset": 300180,
+    "lang": "en"
+  },
+  {
+    "text": "regular convolution is that not only are",
+    "duration": 7650,
+    "offset": 303410,
+    "lang": "en"
+  },
+  {
+    "text": "you capturing the details inside one",
+    "duration": 7710,
+    "offset": 306660,
+    "lang": "en"
+  },
+  {
+    "text": "channel like in this channel but you're",
+    "duration": 5320,
+    "offset": 311060,
+    "lang": "en"
+  },
+  {
+    "text": "also capturing how those details",
+    "duration": 4950,
+    "offset": 314370,
+    "lang": "en"
+  },
+  {
+    "text": "correlate to every other channel so you",
+    "duration": 4830,
+    "offset": 316380,
+    "lang": "en"
+  },
+  {
+    "text": "are capturing two things the",
+    "duration": 4710,
+    "offset": 319320,
+    "lang": "en"
+  },
+  {
+    "text": "relationship inside a channel and the",
+    "duration": 5940,
+    "offset": 321210,
+    "lang": "en"
+  },
+  {
+    "text": "relationship between channels so depth",
+    "duration": 5460,
+    "offset": 324030,
+    "lang": "en"
+  },
+  {
+    "text": "wise separable convolution aims to break",
+    "duration": 4950,
+    "offset": 327150,
+    "lang": "en"
+  },
+  {
+    "text": "this into two parts in one one of those",
+    "duration": 4560,
+    "offset": 329490,
+    "lang": "en"
+  },
+  {
+    "text": "parts you basically capture Hoodie the",
+    "duration": 5010,
+    "offset": 332100,
+    "lang": "en"
+  },
+  {
+    "text": "relationship inside one particular",
+    "duration": 6210,
+    "offset": 334050,
+    "lang": "en"
+  },
+  {
+    "text": "channel and then finally you'll find the",
+    "duration": 5490,
+    "offset": 337110,
+    "lang": "en"
+  },
+  {
+    "text": "relationship between between the",
+    "duration": 6930,
+    "offset": 340260,
+    "lang": "en"
+  },
+  {
+    "text": "channels so this is what depth wise",
+    "duration": 7560,
+    "offset": 342600,
+    "lang": "en"
+  },
+  {
+    "text": "convolution filters look like so instead",
+    "duration": 5190,
+    "offset": 347190,
+    "lang": "en"
+  },
+  {
+    "text": "of just having one filter one",
+    "duration": 6090,
+    "offset": 350160,
+    "lang": "en"
+  },
+  {
+    "text": "3-dimensional block you have two such",
+    "duration": 8550,
+    "offset": 352380,
+    "lang": "en"
+  },
+  {
+    "text": "filters one of them is d K times D K",
+    "duration": 7740,
+    "offset": 356250,
+    "lang": "en"
+  },
+  {
+    "text": "which is the filter size and its own it",
+    "duration": 5250,
+    "offset": 360930,
+    "lang": "en"
+  },
+  {
+    "text": "only has only goes through one channel",
+    "duration": 4500,
+    "offset": 363990,
+    "lang": "en"
+  },
+  {
+    "text": "at a time so basically what you do is",
+    "duration": 4050,
+    "offset": 366180,
+    "lang": "en"
+  },
+  {
+    "text": "that you take one of these filters and",
+    "duration": 4350,
+    "offset": 368490,
+    "lang": "en"
+  },
+  {
+    "text": "you just apply it on one channel then",
+    "duration": 4710,
+    "offset": 370230,
+    "lang": "en"
+  },
+  {
+    "text": "you take the second filter and you Platt",
+    "duration": 4050,
+    "offset": 372840,
+    "lang": "en"
+  },
+  {
+    "text": "on the second channel the third filter",
+    "duration": 4080,
+    "offset": 374940,
+    "lang": "en"
+  },
+  {
+    "text": "on the third channel so you're",
+    "duration": 4710,
+    "offset": 376890,
+    "lang": "en"
+  },
+  {
+    "text": "independently fighting the relationship",
+    "duration": 5430,
+    "offset": 379020,
+    "lang": "en"
+  },
+  {
+    "text": "inside each channel after you've done",
+    "duration": 7530,
+    "offset": 381600,
+    "lang": "en"
+  },
+  {
+    "text": "that you stack these layers into another",
+    "duration": 8610,
+    "offset": 384450,
+    "lang": "en"
+  },
+  {
+    "text": "block and then you apply this filter so",
+    "duration": 6120,
+    "offset": 389130,
+    "lang": "en"
+  },
+  {
+    "text": "what this is is that this is the 1 into",
+    "duration": 4950,
+    "offset": 393060,
+    "lang": "en"
+  },
+  {
+    "text": "1 into M and as you can see you you",
+    "duration": 4749,
+    "offset": 395250,
+    "lang": "en"
+  },
+  {
+    "text": "would have M channels",
+    "duration": 7119,
+    "offset": 398010,
+    "lang": "en"
+  },
+  {
+    "text": "the output of this convolution and so",
+    "duration": 7410,
+    "offset": 399999,
+    "lang": "en"
+  },
+  {
+    "text": "you are finding out how this one pixel",
+    "duration": 5030,
+    "offset": 405129,
+    "lang": "en"
+  },
+  {
+    "text": "is related to every other pixel that",
+    "duration": 6540,
+    "offset": 407409,
+    "lang": "en"
+  },
+  {
+    "text": "comes behind it so let's look at this in",
+    "duration": 9070,
+    "offset": 410159,
+    "lang": "en"
+  },
+  {
+    "text": "a little more detail all right so let's",
+    "duration": 7740,
+    "offset": 413949,
+    "lang": "en"
+  },
+  {
+    "text": "get back to the paper a beaver at",
+    "duration": 5370,
+    "offset": 419229,
+    "lang": "en"
+  },
+  {
+    "text": "section 3 mobile net architecture and he",
+    "duration": 4921,
+    "offset": 421689,
+    "lang": "en"
+  },
+  {
+    "text": "introduces here the depth Y separable",
+    "duration": 5460,
+    "offset": 424599,
+    "lang": "en"
+  },
+  {
+    "text": "convolution so he says for mobile Nets",
+    "duration": 5789,
+    "offset": 426610,
+    "lang": "en"
+  },
+  {
+    "text": "the depth wise convolution applies a",
+    "duration": 6030,
+    "offset": 430059,
+    "lang": "en"
+  },
+  {
+    "text": "single filter to each input channel so",
+    "duration": 7530,
+    "offset": 432399,
+    "lang": "en"
+  },
+  {
+    "text": "as we saw we apply a single filter to",
+    "duration": 6840,
+    "offset": 436089,
+    "lang": "en"
+  },
+  {
+    "text": "every individual channel and then the",
+    "duration": 5370,
+    "offset": 439929,
+    "lang": "en"
+  },
+  {
+    "text": "point-wise convolution applies a 1 into",
+    "duration": 5370,
+    "offset": 442929,
+    "lang": "en"
+  },
+  {
+    "text": "1 convolution to combine the outputs of",
+    "duration": 5490,
+    "offset": 445299,
+    "lang": "en"
+  },
+  {
+    "text": "the of the depth depth wise convolution",
+    "duration": 5550,
+    "offset": 448299,
+    "lang": "en"
+  },
+  {
+    "text": "so what does he mean by depth wise and",
+    "duration": 6930,
+    "offset": 450789,
+    "lang": "en"
+  },
+  {
+    "text": "point wise so he just called this the",
+    "duration": 6060,
+    "offset": 453849,
+    "lang": "en"
+  },
+  {
+    "text": "depth wise convolution and this the",
+    "duration": 4620,
+    "offset": 457719,
+    "lang": "en"
+  },
+  {
+    "text": "point wise convolution and also when he",
+    "duration": 6270,
+    "offset": 459909,
+    "lang": "en"
+  },
+  {
+    "text": "says we apply a 1 into 1 convolution he",
+    "duration": 7740,
+    "offset": 462339,
+    "lang": "en"
+  },
+  {
+    "text": "actually means 1 into 1 into M so he's",
+    "duration": 6840,
+    "offset": 466179,
+    "lang": "en"
+  },
+  {
+    "text": "not mentioning the M over there and he",
+    "duration": 7110,
+    "offset": 470079,
+    "lang": "en"
+  },
+  {
+    "text": "says consider a standard input of DF",
+    "duration": 6240,
+    "offset": 473019,
+    "lang": "en"
+  },
+  {
+    "text": "into DF into a mess of the cell input",
+    "duration": 6300,
+    "offset": 477189,
+    "lang": "en"
+  },
+  {
+    "text": "science and this is our output size of 1",
+    "duration": 7440,
+    "offset": 479259,
+    "lang": "en"
+  },
+  {
+    "text": "convolution and so first he goes over",
+    "duration": 6060,
+    "offset": 483489,
+    "lang": "en"
+  },
+  {
+    "text": "the case of a normal convolution because",
+    "duration": 4680,
+    "offset": 486699,
+    "lang": "en"
+  },
+  {
+    "text": "you want to compare how the depth wise",
+    "duration": 5490,
+    "offset": 489549,
+    "lang": "en"
+  },
+  {
+    "text": "does - just a regular convolution so he",
+    "duration": 6481,
+    "offset": 491379,
+    "lang": "en"
+  },
+  {
+    "text": "says consider a kernel size of D K into",
+    "duration": 5810,
+    "offset": 495039,
+    "lang": "en"
+  },
+  {
+    "text": "D K into M into n so this means that",
+    "duration": 9029,
+    "offset": 497860,
+    "lang": "en"
+  },
+  {
+    "text": "there are n check D K into D K into M",
+    "duration": 10350,
+    "offset": 500849,
+    "lang": "en"
+  },
+  {
+    "text": "channels so this is the number of these",
+    "duration": 7560,
+    "offset": 506889,
+    "lang": "en"
+  },
+  {
+    "text": "filters so let's go a little bit more",
+    "duration": 6000,
+    "offset": 511199,
+    "lang": "en"
+  },
+  {
+    "text": "detail into the analysis of a regular",
+    "duration": 6720,
+    "offset": 514449,
+    "lang": "en"
+  },
+  {
+    "text": "convolution so let's see that sort of",
+    "duration": 6010,
+    "offset": 517199,
+    "lang": "en"
+  },
+  {
+    "text": "calculate the number of operations I",
+    "duration": 4881,
+    "offset": 521169,
+    "lang": "en"
+  },
+  {
+    "text": "would have to do in a regular conlusion",
+    "duration": 6451,
+    "offset": 523209,
+    "lang": "en"
+  },
+  {
+    "text": "so remember the number of operation that",
+    "duration": 5979,
+    "offset": 526050,
+    "lang": "en"
+  },
+  {
+    "text": "I have to do for this block is the dot",
+    "duration": 4290,
+    "offset": 529660,
+    "lang": "en"
+  },
+  {
+    "text": "product of a V over",
+    "duration": 6120,
+    "offset": 532029,
+    "lang": "en"
+  },
+  {
+    "text": "ping pixel right so let's uh let's",
+    "duration": 8120,
+    "offset": 533950,
+    "lang": "en"
+  },
+  {
+    "text": "calculate the third thing so if I have a",
+    "duration": 8101,
+    "offset": 538149,
+    "lang": "en"
+  },
+  {
+    "text": "block of D K into D K into M I will do",
+    "duration": 9160,
+    "offset": 542070,
+    "lang": "en"
+  },
+  {
+    "text": "DK squared times M calculations for this",
+    "duration": 7649,
+    "offset": 546250,
+    "lang": "en"
+  },
+  {
+    "text": "block here and then I slide this block",
+    "duration": 6180,
+    "offset": 551230,
+    "lang": "en"
+  },
+  {
+    "text": "across the width and the height and I",
+    "duration": 5671,
+    "offset": 553899,
+    "lang": "en"
+  },
+  {
+    "text": "want my output to have the same",
+    "duration": 4679,
+    "offset": 557410,
+    "lang": "en"
+  },
+  {
+    "text": "dimension as DF so I'll do DF",
+    "duration": 5129,
+    "offset": 559570,
+    "lang": "en"
+  },
+  {
+    "text": "calculations across the width to give me",
+    "duration": 6300,
+    "offset": 562089,
+    "lang": "en"
+  },
+  {
+    "text": "a width of DF and I'll do DF down the",
+    "duration": 9061,
+    "offset": 564699,
+    "lang": "en"
+  },
+  {
+    "text": "height so that'll be times D F squared",
+    "duration": 10041,
+    "offset": 568389,
+    "lang": "en"
+  },
+  {
+    "text": "and remember I have n such filters so",
+    "duration": 8639,
+    "offset": 573760,
+    "lang": "en"
+  },
+  {
+    "text": "whoops I have n such filters all",
+    "duration": 7899,
+    "offset": 578430,
+    "lang": "en"
+  },
+  {
+    "text": "multiplied this entire thing this entire",
+    "duration": 8281,
+    "offset": 582399,
+    "lang": "en"
+  },
+  {
+    "text": "thing by N and that's exactly what he",
+    "duration": 8461,
+    "offset": 586329,
+    "lang": "en"
+  },
+  {
+    "text": "has here so yep so he says the standard",
+    "duration": 6089,
+    "offset": 590680,
+    "lang": "en"
+  },
+  {
+    "text": "convolutions have a computational cost",
+    "duration": 7350,
+    "offset": 594790,
+    "lang": "en"
+  },
+  {
+    "text": "of DK square DK squared times M times DF",
+    "duration": 10831,
+    "offset": 596769,
+    "lang": "en"
+  },
+  {
+    "text": "squared times the number of filters all",
+    "duration": 7680,
+    "offset": 602140,
+    "lang": "en"
+  },
+  {
+    "text": "right so now let's see what's so special",
+    "duration": 5630,
+    "offset": 607600,
+    "lang": "en"
+  },
+  {
+    "text": "about depth wise acceptable convolution",
+    "duration": 6150,
+    "offset": 609820,
+    "lang": "en"
+  },
+  {
+    "text": "all right so let's remember that one of",
+    "duration": 8620,
+    "offset": 613230,
+    "lang": "en"
+  },
+  {
+    "text": "these is one of each right so let's go",
+    "duration": 8340,
+    "offset": 615970,
+    "lang": "en"
+  },
+  {
+    "text": "back to the drawing board right here and",
+    "duration": 5250,
+    "offset": 621850,
+    "lang": "en"
+  },
+  {
+    "text": "let's try to calculate how many",
+    "duration": 7050,
+    "offset": 624310,
+    "lang": "en"
+  },
+  {
+    "text": "operations we do for this first layer so",
+    "duration": 7620,
+    "offset": 627100,
+    "lang": "en"
+  },
+  {
+    "text": "for one of these you're going to slide",
+    "duration": 7890,
+    "offset": 631360,
+    "lang": "en"
+  },
+  {
+    "text": "it across every individual channel so",
+    "duration": 6239,
+    "offset": 634720,
+    "lang": "en"
+  },
+  {
+    "text": "one of these this let's say this first",
+    "duration": 10079,
+    "offset": 639250,
+    "lang": "en"
+  },
+  {
+    "text": "one will do DK squared oops the new DK",
+    "duration": 13291,
+    "offset": 640959,
+    "lang": "en"
+  },
+  {
+    "text": "squared times the height and the width",
+    "duration": 8031,
+    "offset": 649329,
+    "lang": "en"
+  },
+  {
+    "text": "of our input channel which is VF squared",
+    "duration": 8430,
+    "offset": 654250,
+    "lang": "en"
+  },
+  {
+    "text": "whoops times DF squared and we have M",
+    "duration": 9820,
+    "offset": 657360,
+    "lang": "en"
+  },
+  {
+    "text": "such filters so we'll be doing this M",
+    "duration": 10500,
+    "offset": 662680,
+    "lang": "en"
+  },
+  {
+    "text": "times all right and now let's see how so",
+    "duration": 10470,
+    "offset": 667180,
+    "lang": "en"
+  },
+  {
+    "text": "when did we do this our output will do",
+    "duration": 7850,
+    "offset": 673180,
+    "lang": "en"
+  },
+  {
+    "text": "we'll be applying DK to all of these and",
+    "duration": 6240,
+    "offset": 677650,
+    "lang": "en"
+  },
+  {
+    "text": "our output will be M demand M",
+    "duration": 5830,
+    "offset": 681030,
+    "lang": "en"
+  },
+  {
+    "text": "dimensional so this would be our output",
+    "duration": 9750,
+    "offset": 683890,
+    "lang": "en"
+  },
+  {
+    "text": "right and now they applying these so",
+    "duration": 9060,
+    "offset": 686860,
+    "lang": "en"
+  },
+  {
+    "text": "this has more than two bonds with each",
+    "duration": 11490,
+    "offset": 693640,
+    "lang": "en"
+  },
+  {
+    "text": "of these has M each of these has M",
+    "duration": 12330,
+    "offset": 695920,
+    "lang": "en"
+  },
+  {
+    "text": "variables and we're doing this again",
+    "duration": 7860,
+    "offset": 705130,
+    "lang": "en"
+  },
+  {
+    "text": "times the height and the width and we",
+    "duration": 10200,
+    "offset": 708250,
+    "lang": "en"
+  },
+  {
+    "text": "have n of these so these are the number",
+    "duration": 7920,
+    "offset": 712990,
+    "lang": "en"
+  },
+  {
+    "text": "of operations we do for this convolution",
+    "duration": 5310,
+    "offset": 718450,
+    "lang": "en"
+  },
+  {
+    "text": "and so the total number we do is just",
+    "duration": 6990,
+    "offset": 720910,
+    "lang": "en"
+  },
+  {
+    "text": "the addition of both of these and in",
+    "duration": 6240,
+    "offset": 723760,
+    "lang": "en"
+  },
+  {
+    "text": "fact that's what that's what he's given",
+    "duration": 5100,
+    "offset": 727900,
+    "lang": "en"
+  },
+  {
+    "text": "right here so he says that the depth Y",
+    "duration": 6230,
+    "offset": 730000,
+    "lang": "en"
+  },
+  {
+    "text": "acceptable convolution costs DK squared",
+    "duration": 10350,
+    "offset": 733000,
+    "lang": "en"
+  },
+  {
+    "text": "times DX squared times M plus the cost",
+    "duration": 9910,
+    "offset": 736230,
+    "lang": "en"
+  },
+  {
+    "text": "for the point-wise which is M times DF",
+    "duration": 6450,
+    "offset": 743350,
+    "lang": "en"
+  },
+  {
+    "text": "squared times n right and so now he",
+    "duration": 6240,
+    "offset": 746140,
+    "lang": "en"
+  },
+  {
+    "text": "takes the ratio of the operations that",
+    "duration": 7530,
+    "offset": 749800,
+    "lang": "en"
+  },
+  {
+    "text": "we do for depth wise separable and for",
+    "duration": 7590,
+    "offset": 752380,
+    "lang": "en"
+  },
+  {
+    "text": "just the regular convolution so as you",
+    "duration": 5370,
+    "offset": 757330,
+    "lang": "en"
+  },
+  {
+    "text": "can see he's divided them and this is",
+    "duration": 6780,
+    "offset": 759970,
+    "lang": "en"
+  },
+  {
+    "text": "the ratio that he gets so we see that we",
+    "duration": 9660,
+    "offset": 762700,
+    "lang": "en"
+  },
+  {
+    "text": "see that mobile net which uses three",
+    "duration": 7140,
+    "offset": 766750,
+    "lang": "en"
+  },
+  {
+    "text": "into three depth I separable",
+    "duration": 4770,
+    "offset": 772360,
+    "lang": "en"
+  },
+  {
+    "text": "convolutions uses between eight to nine",
+    "duration": 6660,
+    "offset": 773890,
+    "lang": "en"
+  },
+  {
+    "text": "times less computational power than",
+    "duration": 6510,
+    "offset": 777130,
+    "lang": "en"
+  },
+  {
+    "text": "standard convolutions right with only a",
+    "duration": 7110,
+    "offset": 780550,
+    "lang": "en"
+  },
+  {
+    "text": "small reduction in accuracy so this",
+    "duration": 9390,
+    "offset": 783640,
+    "lang": "en"
+  },
+  {
+    "text": "ratio causes a massive decrease in the",
+    "duration": 7170,
+    "offset": 787660,
+    "lang": "en"
+  },
+  {
+    "text": "number of computations that we have to",
+    "duration": 6330,
+    "offset": 793030,
+    "lang": "en"
+  },
+  {
+    "text": "do for one single convolution near",
+    "duration": 7259,
+    "offset": 794830,
+    "lang": "en"
+  },
+  {
+    "text": "all right so let's just look at depth",
+    "duration": 5220,
+    "offset": 799360,
+    "lang": "en"
+  },
+  {
+    "text": "wise convolution with a tiny more detail",
+    "duration": 5940,
+    "offset": 802089,
+    "lang": "en"
+  },
+  {
+    "text": "I will go over this in more depth in a",
+    "duration": 5550,
+    "offset": 804580,
+    "lang": "en"
+  },
+  {
+    "text": "future video probably the exception",
+    "duration": 7611,
+    "offset": 808029,
+    "lang": "en"
+  },
+  {
+    "text": "paper so let's go over yep so this I",
+    "duration": 11519,
+    "offset": 810130,
+    "lang": "en"
+  },
+  {
+    "text": "found very interesting this alright so",
+    "duration": 10960,
+    "offset": 815640,
+    "lang": "en"
+  },
+  {
+    "text": "this is this is our first depth wise",
+    "duration": 7711,
+    "offset": 821649,
+    "lang": "en"
+  },
+  {
+    "text": "convolution so we apply a filter for",
+    "duration": 6600,
+    "offset": 826600,
+    "lang": "en"
+  },
+  {
+    "text": "each channel we get this now we combine",
+    "duration": 8219,
+    "offset": 829360,
+    "lang": "en"
+  },
+  {
+    "text": "these to produce one filter over here",
+    "duration": 6840,
+    "offset": 833200,
+    "lang": "en"
+  },
+  {
+    "text": "right so now the combination of this",
+    "duration": 5851,
+    "offset": 837579,
+    "lang": "en"
+  },
+  {
+    "text": "will produce one pixel in here this will",
+    "duration": 6150,
+    "offset": 840040,
+    "lang": "en"
+  },
+  {
+    "text": "produce one pixel here and so every",
+    "duration": 6140,
+    "offset": 843430,
+    "lang": "en"
+  },
+  {
+    "text": "pixel on now this one input channel",
+    "duration": 6360,
+    "offset": 846190,
+    "lang": "en"
+  },
+  {
+    "text": "represents information from the entire",
+    "duration": 6639,
+    "offset": 849570,
+    "lang": "en"
+  },
+  {
+    "text": "depth right the entire depth of our",
+    "duration": 8670,
+    "offset": 852550,
+    "lang": "en"
+  },
+  {
+    "text": "original image so now when I apply a",
+    "duration": 9511,
+    "offset": 856209,
+    "lang": "en"
+  },
+  {
+    "text": "depth wise convolution to this block I",
+    "duration": 8309,
+    "offset": 861220,
+    "lang": "en"
+  },
+  {
+    "text": "am actually finding the relationship",
+    "duration": 8850,
+    "offset": 865720,
+    "lang": "en"
+  },
+  {
+    "text": "between a combination between my entire",
+    "duration": 9391,
+    "offset": 869529,
+    "lang": "en"
+  },
+  {
+    "text": "input with so on my on my very first",
+    "duration": 8310,
+    "offset": 874570,
+    "lang": "en"
+  },
+  {
+    "text": "depth wise convolution I will just be",
+    "duration": 6570,
+    "offset": 878920,
+    "lang": "en"
+  },
+  {
+    "text": "finding the relationship between between",
+    "duration": 6149,
+    "offset": 882880,
+    "lang": "en"
+  },
+  {
+    "text": "each channel right there is no inter",
+    "duration": 6089,
+    "offset": 885490,
+    "lang": "en"
+  },
+  {
+    "text": "correlation between these but after I've",
+    "duration": 6481,
+    "offset": 889029,
+    "lang": "en"
+  },
+  {
+    "text": "done one point wise this one pixel",
+    "duration": 7320,
+    "offset": 891579,
+    "lang": "en"
+  },
+  {
+    "text": "encodes all of the information in the",
+    "duration": 8819,
+    "offset": 895510,
+    "lang": "en"
+  },
+  {
+    "text": "depth so I'll go over this more in",
+    "duration": 10171,
+    "offset": 898899,
+    "lang": "en"
+  },
+  {
+    "text": "another video but this is a point that I",
+    "duration": 6750,
+    "offset": 904329,
+    "lang": "en"
+  },
+  {
+    "text": "really missed the first time I read this",
+    "duration": 5370,
+    "offset": 909070,
+    "lang": "en"
+  },
+  {
+    "text": "paper so let's move on go back to the",
+    "duration": 7561,
+    "offset": 911079,
+    "lang": "en"
+  },
+  {
+    "text": "paper and alright so now he just",
+    "duration": 6800,
+    "offset": 914440,
+    "lang": "en"
+  },
+  {
+    "text": "explains different parameters and",
+    "duration": 5250,
+    "offset": 918640,
+    "lang": "en"
+  },
+  {
+    "text": "different style choices that he made to",
+    "duration": 5469,
+    "offset": 921240,
+    "lang": "en"
+  },
+  {
+    "text": "get the best out of his model so all",
+    "duration": 4920,
+    "offset": 923890,
+    "lang": "en"
+  },
+  {
+    "text": "layers are followed by a batch demand",
+    "duration": 4951,
+    "offset": 926709,
+    "lang": "en"
+  },
+  {
+    "text": "renew so in a regular convolution",
+    "duration": 4360,
+    "offset": 928810,
+    "lang": "en"
+  },
+  {
+    "text": "normally you do the",
+    "duration": 3279,
+    "offset": 931660,
+    "lang": "en"
+  },
+  {
+    "text": "lucien and then you have a bad snowman",
+    "duration": 4019,
+    "offset": 933170,
+    "lang": "en"
+  },
+  {
+    "text": "renew your since you've broken it up",
+    "duration": 3360,
+    "offset": 934939,
+    "lang": "en"
+  },
+  {
+    "text": "into two parts",
+    "duration": 5731,
+    "offset": 937189,
+    "lang": "en"
+  },
+  {
+    "text": "he uses a batch norm at riilu even in",
+    "duration": 7320,
+    "offset": 938299,
+    "lang": "en"
+  },
+  {
+    "text": "between the parts so he doesn't do both",
+    "duration": 5099,
+    "offset": 942920,
+    "lang": "en"
+  },
+  {
+    "text": "of them consecutively he says does it",
+    "duration": 6750,
+    "offset": 945619,
+    "lang": "en"
+  },
+  {
+    "text": "twice and then he makes some other style",
+    "duration": 8730,
+    "offset": 948019,
+    "lang": "en"
+  },
+  {
+    "text": "choices like rmsprop he doesn't use data",
+    "duration": 9510,
+    "offset": 952369,
+    "lang": "en"
+  },
+  {
+    "text": "augmentation no weight decay so this is",
+    "duration": 10340,
+    "offset": 956749,
+    "lang": "en"
+  },
+  {
+    "text": "his entire mobile net architecture and",
+    "duration": 9870,
+    "offset": 961879,
+    "lang": "en"
+  },
+  {
+    "text": "so initially his input size is 224 by",
+    "duration": 7660,
+    "offset": 967089,
+    "lang": "en"
+  },
+  {
+    "text": "224 times three and he applies this",
+    "duration": 6721,
+    "offset": 971749,
+    "lang": "en"
+  },
+  {
+    "text": "filter and he gets this output so as you",
+    "duration": 5550,
+    "offset": 974749,
+    "lang": "en"
+  },
+  {
+    "text": "can see the sraight is to plug the",
+    "duration": 4589,
+    "offset": 978470,
+    "lang": "en"
+  },
+  {
+    "text": "output will shrink into half then he",
+    "duration": 7590,
+    "offset": 980299,
+    "lang": "en"
+  },
+  {
+    "text": "does one depth wise convolution so it",
+    "duration": 7291,
+    "offset": 983059,
+    "lang": "en"
+  },
+  {
+    "text": "stays the same then he has a separable",
+    "duration": 7530,
+    "offset": 987889,
+    "lang": "en"
+  },
+  {
+    "text": "one and he has 64 channels so the width",
+    "duration": 9179,
+    "offset": 990350,
+    "lang": "en"
+  },
+  {
+    "text": "becomes 64 and then and then he does",
+    "duration": 7681,
+    "offset": 995419,
+    "lang": "en"
+  },
+  {
+    "text": "another depth wise then another",
+    "duration": 7381,
+    "offset": 999529,
+    "lang": "en"
+  },
+  {
+    "text": "separable and he keeps on doing this and",
+    "duration": 5459,
+    "offset": 1003100,
+    "lang": "en"
+  },
+  {
+    "text": "this makes up his entire model so his",
+    "duration": 4019,
+    "offset": 1006910,
+    "lang": "en"
+  },
+  {
+    "text": "first layer he mentions here is all",
+    "duration": 4470,
+    "offset": 1008559,
+    "lang": "en"
+  },
+  {
+    "text": "layers are depth Y separable except for",
+    "duration": 3690,
+    "offset": 1010929,
+    "lang": "en"
+  },
+  {
+    "text": "the very first layer which is a full",
+    "duration": 4290,
+    "offset": 1013029,
+    "lang": "en"
+  },
+  {
+    "text": "convolution so this is a full",
+    "duration": 13261,
+    "offset": 1014619,
+    "lang": "en"
+  },
+  {
+    "text": "convolution layer alright so I spoke",
+    "duration": 12600,
+    "offset": 1017319,
+    "lang": "en"
+  },
+  {
+    "text": "about the hyper parameters that he",
+    "duration": 5429,
+    "offset": 1027880,
+    "lang": "en"
+  },
+  {
+    "text": "mentions initially and this is the",
+    "duration": 5701,
+    "offset": 1029919,
+    "lang": "en"
+  },
+  {
+    "text": "second method that he introduces to",
+    "duration": 4801,
+    "offset": 1033309,
+    "lang": "en"
+  },
+  {
+    "text": "reduce the computation load of the model",
+    "duration": 4589,
+    "offset": 1035620,
+    "lang": "en"
+  },
+  {
+    "text": "and so basically what he does over here",
+    "duration": 7099,
+    "offset": 1038110,
+    "lang": "en"
+  },
+  {
+    "text": "is that he multiplies the number of",
+    "duration": 9421,
+    "offset": 1040209,
+    "lang": "en"
+  },
+  {
+    "text": "input channels M to become alpha m so",
+    "duration": 6580,
+    "offset": 1045209,
+    "lang": "en"
+  },
+  {
+    "text": "alpha m is a number between 0 and 1 so",
+    "duration": 5159,
+    "offset": 1049630,
+    "lang": "en"
+  },
+  {
+    "text": "basically what he does is that instead",
+    "duration": 4770,
+    "offset": 1051789,
+    "lang": "en"
+  },
+  {
+    "text": "of having m channels",
+    "duration": 5721,
+    "offset": 1054789,
+    "lang": "en"
+  },
+  {
+    "text": "he has alpha M's like half half of M or",
+    "duration": 8970,
+    "offset": 1056559,
+    "lang": "en"
+  },
+  {
+    "text": "0.75 m so number of channels in the",
+    "duration": 6720,
+    "offset": 1060510,
+    "lang": "en"
+  },
+  {
+    "text": "output that this",
+    "duration": 4010,
+    "offset": 1065529,
+    "lang": "en"
+  },
+  {
+    "text": "decreases so the model with models",
+    "duration": 5730,
+    "offset": 1067230,
+    "lang": "en"
+  },
+  {
+    "text": "become NIDA so this is the number of",
+    "duration": 6481,
+    "offset": 1069539,
+    "lang": "en"
+  },
+  {
+    "text": "computations with the Alpha and he also",
+    "duration": 5940,
+    "offset": 1072960,
+    "lang": "en"
+  },
+  {
+    "text": "has a resolution multiplier which is the",
+    "duration": 5550,
+    "offset": 1076020,
+    "lang": "en"
+  },
+  {
+    "text": "second hyper parameter so this is",
+    "duration": 4710,
+    "offset": 1078900,
+    "lang": "en"
+  },
+  {
+    "text": "basically what it does is that if you",
+    "duration": 6570,
+    "offset": 1081570,
+    "lang": "en"
+  },
+  {
+    "text": "are original in image sizes 2-24 now it",
+    "duration": 8990,
+    "offset": 1083610,
+    "lang": "en"
+  },
+  {
+    "text": "becomes 192 so basically let's say your",
+    "duration": 9899,
+    "offset": 1088140,
+    "lang": "en"
+  },
+  {
+    "text": "let's say your p-value is 0.78 right so",
+    "duration": 9970,
+    "offset": 1092600,
+    "lang": "en"
+  },
+  {
+    "text": "you will multiply your input size to 244",
+    "duration": 7801,
+    "offset": 1098039,
+    "lang": "en"
+  },
+  {
+    "text": "by 0.78 and you your the image that you",
+    "duration": 5219,
+    "offset": 1102570,
+    "lang": "en"
+  },
+  {
+    "text": "would actually consider would be 192",
+    "duration": 5670,
+    "offset": 1105840,
+    "lang": "en"
+  },
+  {
+    "text": "pixels so this is something that's",
+    "duration": 5811,
+    "offset": 1107789,
+    "lang": "en"
+  },
+  {
+    "text": "commonly used in unsupervised learning",
+    "duration": 4320,
+    "offset": 1111510,
+    "lang": "en"
+  },
+  {
+    "text": "for many cases",
+    "duration": 7420,
+    "offset": 1113600,
+    "lang": "en"
+  },
+  {
+    "text": "I wouldn't say image detection but like",
+    "duration": 8430,
+    "offset": 1115830,
+    "lang": "en"
+  },
+  {
+    "text": "denoising changing the contrast a lot of",
+    "duration": 5240,
+    "offset": 1121020,
+    "lang": "en"
+  },
+  {
+    "text": "things it doesn't matter what your image",
+    "duration": 4680,
+    "offset": 1124260,
+    "lang": "en"
+  },
+  {
+    "text": "lenten witha because you're just finding",
+    "duration": 4570,
+    "offset": 1126260,
+    "lang": "en"
+  },
+  {
+    "text": "patterns you're not detecting an object",
+    "duration": 4170,
+    "offset": 1128940,
+    "lang": "en"
+  },
+  {
+    "text": "so many cases it really doesn't matter",
+    "duration": 5849,
+    "offset": 1130830,
+    "lang": "en"
+  },
+  {
+    "text": "what your input image sizes first of it",
+    "duration": 5039,
+    "offset": 1133110,
+    "lang": "en"
+  },
+  {
+    "text": "does make him miss detection but he",
+    "duration": 6600,
+    "offset": 1136679,
+    "lang": "en"
+  },
+  {
+    "text": "shows that even with variation of P he",
+    "duration": 9451,
+    "offset": 1138149,
+    "lang": "en"
+  },
+  {
+    "text": "gets pretty good results so so this is",
+    "duration": 7711,
+    "offset": 1143279,
+    "lang": "en"
+  },
+  {
+    "text": "this is basically the entire all the",
+    "duration": 5579,
+    "offset": 1147600,
+    "lang": "en"
+  },
+  {
+    "text": "adjustments is that he makes up to this",
+    "duration": 4260,
+    "offset": 1150990,
+    "lang": "en"
+  },
+  {
+    "text": "point and then it's just storing the",
+    "duration": 4291,
+    "offset": 1153179,
+    "lang": "en"
+  },
+  {
+    "text": "results of the model changing the hyper",
+    "duration": 5659,
+    "offset": 1155250,
+    "lang": "en"
+  },
+  {
+    "text": "parameters so over here you can see that",
+    "duration": 6630,
+    "offset": 1157470,
+    "lang": "en"
+  },
+  {
+    "text": "with them with a regular convolution",
+    "duration": 6101,
+    "offset": 1160909,
+    "lang": "en"
+  },
+  {
+    "text": "Network it has two twenty nine point",
+    "duration": 5429,
+    "offset": 1164100,
+    "lang": "en"
+  },
+  {
+    "text": "three million parameters and it achieved",
+    "duration": 5610,
+    "offset": 1167010,
+    "lang": "en"
+  },
+  {
+    "text": "the accuracy of 71 point seven percent",
+    "duration": 5671,
+    "offset": 1169529,
+    "lang": "en"
+  },
+  {
+    "text": "on imagenet while mobile Nair has just",
+    "duration": 5059,
+    "offset": 1172620,
+    "lang": "en"
+  },
+  {
+    "text": "four point two million parameters and",
+    "duration": 5070,
+    "offset": 1175200,
+    "lang": "en"
+  },
+  {
+    "text": "the accuracy just decreased by one",
+    "duration": 6911,
+    "offset": 1177679,
+    "lang": "en"
+  },
+  {
+    "text": "percent and then over here he shows how",
+    "duration": 8100,
+    "offset": 1180270,
+    "lang": "en"
+  },
+  {
+    "text": "the accuracy varies with changing the",
+    "duration": 6000,
+    "offset": 1184590,
+    "lang": "en"
+  },
+  {
+    "text": "width multiplier and the resolution",
+    "duration": 5340,
+    "offset": 1188370,
+    "lang": "en"
+  },
+  {
+    "text": "multiplier so changing the input image",
+    "duration": 5490,
+    "offset": 1190590,
+    "lang": "en"
+  },
+  {
+    "text": "size and so he's basically trying to",
+    "duration": 4829,
+    "offset": 1193710,
+    "lang": "en"
+  },
+  {
+    "text": "give the model builder the option about",
+    "duration": 4350,
+    "offset": 1196080,
+    "lang": "en"
+  },
+  {
+    "text": "how they want to allocate their",
+    "duration": 4141,
+    "offset": 1198539,
+    "lang": "en"
+  },
+  {
+    "text": "and so they can choose you know between",
+    "duration": 5400,
+    "offset": 1200430,
+    "lang": "en"
+  },
+  {
+    "text": "what with multiplier or resolution they",
+    "duration": 5490,
+    "offset": 1202680,
+    "lang": "en"
+  },
+  {
+    "text": "want and how much they will trade off",
+    "duration": 5430,
+    "offset": 1205830,
+    "lang": "en"
+  },
+  {
+    "text": "depending upon their computation",
+    "duration": 5790,
+    "offset": 1208170,
+    "lang": "en"
+  },
+  {
+    "text": "availability so he's shown the results",
+    "duration": 4170,
+    "offset": 1211260,
+    "lang": "en"
+  },
+  {
+    "text": "for that and there's a there's a very",
+    "duration": 5400,
+    "offset": 1213960,
+    "lang": "en"
+  },
+  {
+    "text": "large reduction in parameter size and",
+    "duration": 9810,
+    "offset": 1215430,
+    "lang": "en"
+  },
+  {
+    "text": "even computation numbers so that's",
+    "duration": 12120,
+    "offset": 1219360,
+    "lang": "en"
+  },
+  {
+    "text": "basically the results part and yeah he",
+    "duration": 9930,
+    "offset": 1225240,
+    "lang": "en"
+  },
+  {
+    "text": "shows his results for different data",
+    "duration": 6210,
+    "offset": 1231480,
+    "lang": "en"
+  },
+  {
+    "text": "sets and different types of tasks so",
+    "duration": 5330,
+    "offset": 1235170,
+    "lang": "en"
+  },
+  {
+    "text": "this is a face attribution and this is a",
+    "duration": 7800,
+    "offset": 1237690,
+    "lang": "en"
+  },
+  {
+    "text": "Geo localization object detection face",
+    "duration": 8890,
+    "offset": 1240500,
+    "lang": "en"
+  },
+  {
+    "text": "embeddings so yeah so we proposed a new",
+    "duration": 5730,
+    "offset": 1245490,
+    "lang": "en"
+  },
+  {
+    "text": "model architecture called mobile nets",
+    "duration": 4560,
+    "offset": 1249390,
+    "lang": "en"
+  },
+  {
+    "text": "based on depth Y acceptable convolutions",
+    "duration": 5310,
+    "offset": 1251220,
+    "lang": "en"
+  },
+  {
+    "text": "we investigate some important design",
+    "duration": 5940,
+    "offset": 1253950,
+    "lang": "en"
+  },
+  {
+    "text": "decisions leading to efficient model we",
+    "duration": 5280,
+    "offset": 1256530,
+    "lang": "en"
+  },
+  {
+    "text": "demonstrate how to build smaller and",
+    "duration": 4410,
+    "offset": 1259890,
+    "lang": "en"
+  },
+  {
+    "text": "faster mobile nets using the two",
+    "duration": 5820,
+    "offset": 1261810,
+    "lang": "en"
+  },
+  {
+    "text": "hyperparameters by reasonably trading",
+    "duration": 6270,
+    "offset": 1264300,
+    "lang": "en"
+  },
+  {
+    "text": "off accuracy and size we compare",
+    "duration": 5250,
+    "offset": 1267630,
+    "lang": "en"
+  },
+  {
+    "text": "different mobile necks to the popular",
+    "duration": 6690,
+    "offset": 1270570,
+    "lang": "en"
+  },
+  {
+    "text": "models and finally a next step would be",
+    "duration": 7470,
+    "offset": 1272880,
+    "lang": "en"
+  },
+  {
+    "text": "for them to release at ends of the model",
+    "duration": 5850,
+    "offset": 1277260,
+    "lang": "en"
+  },
+  {
+    "text": "which they have done a long time ago so",
+    "duration": 5700,
+    "offset": 1280350,
+    "lang": "en"
+  },
+  {
+    "text": "that's neat a paper so hopefully you got",
+    "duration": 5280,
+    "offset": 1283110,
+    "lang": "en"
+  },
+  {
+    "text": "a good idea about what mobile nets are",
+    "duration": 5580,
+    "offset": 1286050,
+    "lang": "en"
+  },
+  {
+    "text": "and you know you got more comfortable",
+    "duration": 10670,
+    "offset": 1288390,
+    "lang": "en"
+  },
+  {
+    "text": "with research papers so thank you",
+    "duration": 7430,
+    "offset": 1291630,
+    "lang": "en"
+  }
+]

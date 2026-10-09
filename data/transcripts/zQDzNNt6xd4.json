@@ -1,0 +1,8648 @@
+[
+  {
+    "text": "welcome back everyone to the code long",
+    "duration": 4730,
+    "offset": 430,
+    "lang": "en"
+  },
+  {
+    "text": "series on creating a chat application",
+    "duration": 5431,
+    "offset": 2889,
+    "lang": "en"
+  },
+  {
+    "text": "this video is more than an hour long so",
+    "duration": 4780,
+    "offset": 5160,
+    "lang": "en"
+  },
+  {
+    "text": "in case you are looking for a specific",
+    "duration": 4290,
+    "offset": 8320,
+    "lang": "en"
+  },
+  {
+    "text": "topic within flossed socket IO be sure",
+    "duration": 4350,
+    "offset": 9940,
+    "lang": "en"
+  },
+  {
+    "text": "to check out the table of contents from",
+    "duration": 3630,
+    "offset": 12610,
+    "lang": "en"
+  },
+  {
+    "text": "the description below in the previous",
+    "duration": 4290,
+    "offset": 14290,
+    "lang": "en"
+  },
+  {
+    "text": "video we had an overview of what socket",
+    "duration": 5100,
+    "offset": 16240,
+    "lang": "en"
+  },
+  {
+    "text": "IO is in this video we'll come to the",
+    "duration": 4920,
+    "offset": 18580,
+    "lang": "en"
+  },
+  {
+    "text": "implementation part and write the code",
+    "duration": 4110,
+    "offset": 21340,
+    "lang": "en"
+  },
+  {
+    "text": "in case you have not watched the",
+    "duration": 4140,
+    "offset": 23500,
+    "lang": "en"
+  },
+  {
+    "text": "previous video on the concept of polling",
+    "duration": 5550,
+    "offset": 25450,
+    "lang": "en"
+  },
+  {
+    "text": "web sockets and socket IO you may want",
+    "duration": 5550,
+    "offset": 27640,
+    "lang": "en"
+  },
+  {
+    "text": "to go back and do that because we will",
+    "duration": 4410,
+    "offset": 31000,
+    "lang": "en"
+  },
+  {
+    "text": "be using some of those stones today in",
+    "duration": 4290,
+    "offset": 33190,
+    "lang": "en"
+  },
+  {
+    "text": "case you've already watched it or are",
+    "duration": 4350,
+    "offset": 35410,
+    "lang": "en"
+  },
+  {
+    "text": "already familiar with the broad concept",
+    "duration": 4469,
+    "offset": 37480,
+    "lang": "en"
+  },
+  {
+    "text": "or just feel like winging it then let's",
+    "duration": 4650,
+    "offset": 39760,
+    "lang": "en"
+  },
+  {
+    "text": "start to provide more context to the",
+    "duration": 4831,
+    "offset": 41949,
+    "lang": "en"
+  },
+  {
+    "text": "code we will be writing let me explain",
+    "duration": 4440,
+    "offset": 44410,
+    "lang": "en"
+  },
+  {
+    "text": "what we will be doing in the previous",
+    "duration": 4799,
+    "offset": 46780,
+    "lang": "en"
+  },
+  {
+    "text": "video we saw that we can use socket IO",
+    "duration": 5070,
+    "offset": 48850,
+    "lang": "en"
+  },
+  {
+    "text": "to establish a connection between a",
+    "duration": 4591,
+    "offset": 51579,
+    "lang": "en"
+  },
+  {
+    "text": "client and a server the connection could",
+    "duration": 5009,
+    "offset": 53920,
+    "lang": "en"
+  },
+  {
+    "text": "be web socket or pulley so while I have",
+    "duration": 4979,
+    "offset": 56170,
+    "lang": "en"
+  },
+  {
+    "text": "used double headed arrow here the",
+    "duration": 4081,
+    "offset": 58929,
+    "lang": "en"
+  },
+  {
+    "text": "connection does not have to be strictly",
+    "duration": 4591,
+    "offset": 61149,
+    "lang": "en"
+  },
+  {
+    "text": "speaking bi-directional on the client",
+    "duration": 4320,
+    "offset": 63010,
+    "lang": "en"
+  },
+  {
+    "text": "side we will write the code in",
+    "duration": 4200,
+    "offset": 65740,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript and on the server side we",
+    "duration": 5460,
+    "offset": 67330,
+    "lang": "en"
+  },
+  {
+    "text": "will use flask socket IO one of the",
+    "duration": 5070,
+    "offset": 69940,
+    "lang": "en"
+  },
+  {
+    "text": "underlying implementation details is",
+    "duration": 4740,
+    "offset": 72790,
+    "lang": "en"
+  },
+  {
+    "text": "that when using socket IO both the",
+    "duration": 5160,
+    "offset": 75010,
+    "lang": "en"
+  },
+  {
+    "text": "client and the server receive messages",
+    "duration": 6150,
+    "offset": 77530,
+    "lang": "en"
+  },
+  {
+    "text": "as events so think of events as buckets",
+    "duration": 6120,
+    "offset": 80170,
+    "lang": "en"
+  },
+  {
+    "text": "or mailboxes when we write the code for",
+    "duration": 5610,
+    "offset": 83680,
+    "lang": "en"
+  },
+  {
+    "text": "sending a message we also specify which",
+    "duration": 5520,
+    "offset": 86290,
+    "lang": "en"
+  },
+  {
+    "text": "event bucket is the message supposed to",
+    "duration": 4920,
+    "offset": 89290,
+    "lang": "en"
+  },
+  {
+    "text": "go to and whatever message the server",
+    "duration": 4740,
+    "offset": 91810,
+    "lang": "en"
+  },
+  {
+    "text": "sends the client or the client sends the",
+    "duration": 4740,
+    "offset": 94210,
+    "lang": "en"
+  },
+  {
+    "text": "server through socket IO it will be",
+    "duration": 4680,
+    "offset": 96550,
+    "lang": "en"
+  },
+  {
+    "text": "received by the specific event it was",
+    "duration": 4040,
+    "offset": 98950,
+    "lang": "en"
+  },
+  {
+    "text": "intended for",
+    "duration": 4100,
+    "offset": 101230,
+    "lang": "en"
+  },
+  {
+    "text": "there are two types of events the first",
+    "duration": 4950,
+    "offset": 102990,
+    "lang": "en"
+  },
+  {
+    "text": "category I'm calling it predefined",
+    "duration": 4920,
+    "offset": 105330,
+    "lang": "en"
+  },
+  {
+    "text": "events that's not an official name by",
+    "duration": 4950,
+    "offset": 107940,
+    "lang": "en"
+  },
+  {
+    "text": "the way in this there are basically four",
+    "duration": 6210,
+    "offset": 110250,
+    "lang": "en"
+  },
+  {
+    "text": "events connect/disconnect message and",
+    "duration": 7050,
+    "offset": 112890,
+    "lang": "en"
+  },
+  {
+    "text": "JSON these are four specific types of",
+    "duration": 5490,
+    "offset": 116460,
+    "lang": "en"
+  },
+  {
+    "text": "events and from the name itself you",
+    "duration": 4200,
+    "offset": 119940,
+    "lang": "en"
+  },
+  {
+    "text": "might be able to guess what each event",
+    "duration": 4919,
+    "offset": 121950,
+    "lang": "en"
+  },
+  {
+    "text": "does the second category are custom",
+    "duration": 4740,
+    "offset": 124140,
+    "lang": "en"
+  },
+  {
+    "text": "events we can give custom events",
+    "duration": 3840,
+    "offset": 126869,
+    "lang": "en"
+  },
+  {
+    "text": "whatever name we want and they provide a",
+    "duration": 4320,
+    "offset": 128880,
+    "lang": "en"
+  },
+  {
+    "text": "high level of flexibility will be seeing",
+    "duration": 4951,
+    "offset": 130709,
+    "lang": "en"
+  },
+  {
+    "text": "examples of both predefined events and",
+    "duration": 5580,
+    "offset": 133200,
+    "lang": "en"
+  },
+  {
+    "text": "custom events let's start writing some",
+    "duration": 5460,
+    "offset": 135660,
+    "lang": "en"
+  },
+  {
+    "text": "code first we have to install flask",
+    "duration": 5010,
+    "offset": 138780,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO like we did in the previous",
+    "duration": 5850,
+    "offset": 141120,
+    "lang": "en"
+  },
+  {
+    "text": "videos we will use pip to install it I'm",
+    "duration": 4949,
+    "offset": 143790,
+    "lang": "en"
+  },
+  {
+    "text": "in the folder that we created for this",
+    "duration": 4140,
+    "offset": 146970,
+    "lang": "en"
+  },
+  {
+    "text": "application and I have activated the",
+    "duration": 5131,
+    "offset": 148739,
+    "lang": "en"
+  },
+  {
+    "text": "virtual environment the syntax is pip",
+    "duration": 4440,
+    "offset": 151110,
+    "lang": "en"
+  },
+  {
+    "text": "install and then the name of the",
+    "duration": 5810,
+    "offset": 153870,
+    "lang": "en"
+  },
+  {
+    "text": "extension which is flask socket IO",
+    "duration": 4130,
+    "offset": 155550,
+    "lang": "en"
+  },
+  {
+    "text": "okay so we have installed flasks socket",
+    "duration": 6390,
+    "offset": 160870,
+    "lang": "en"
+  },
+  {
+    "text": "IO and it's dependencies now let's head",
+    "duration": 5759,
+    "offset": 163870,
+    "lang": "en"
+  },
+  {
+    "text": "over to our application file what we",
+    "duration": 3990,
+    "offset": 167260,
+    "lang": "en"
+  },
+  {
+    "text": "have created so far is a user",
+    "duration": 3211,
+    "offset": 169629,
+    "lang": "en"
+  },
+  {
+    "text": "authentication system with a",
+    "duration": 4319,
+    "offset": 171250,
+    "lang": "en"
+  },
+  {
+    "text": "registration page a logout page and we",
+    "duration": 4800,
+    "offset": 172840,
+    "lang": "en"
+  },
+  {
+    "text": "have connected to a database to store",
+    "duration": 3241,
+    "offset": 175569,
+    "lang": "en"
+  },
+  {
+    "text": "user credentials",
+    "duration": 3360,
+    "offset": 177640,
+    "lang": "en"
+  },
+  {
+    "text": "we have intentionally not thought",
+    "duration": 3690,
+    "offset": 178810,
+    "lang": "en"
+  },
+  {
+    "text": "styling at all",
+    "duration": 3360,
+    "offset": 181000,
+    "lang": "en"
+  },
+  {
+    "text": "styling is something we will take care",
+    "duration": 4709,
+    "offset": 182500,
+    "lang": "en"
+  },
+  {
+    "text": "of just before deployment to figure out",
+    "duration": 5760,
+    "offset": 184360,
+    "lang": "en"
+  },
+  {
+    "text": "how to use flask socket IO we refer to",
+    "duration": 5821,
+    "offset": 187209,
+    "lang": "en"
+  },
+  {
+    "text": "the official documentation so I have",
+    "duration": 5699,
+    "offset": 190120,
+    "lang": "en"
+  },
+  {
+    "text": "this page opened already we scroll down",
+    "duration": 6120,
+    "offset": 193030,
+    "lang": "en"
+  },
+  {
+    "text": "to the initialization section this is",
+    "duration": 6301,
+    "offset": 195819,
+    "lang": "en"
+  },
+  {
+    "text": "what we need to add to our code back to",
+    "duration": 4820,
+    "offset": 199150,
+    "lang": "en"
+  },
+  {
+    "text": "our application file",
+    "duration": 3920,
+    "offset": 202120,
+    "lang": "en"
+  },
+  {
+    "text": "based on the documentation we know we",
+    "duration": 4680,
+    "offset": 203970,
+    "lang": "en"
+  },
+  {
+    "text": "need to import socket IO from flask",
+    "duration": 8460,
+    "offset": 206040,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO from the documentation we know",
+    "duration": 8250,
+    "offset": 208650,
+    "lang": "en"
+  },
+  {
+    "text": "flask socket IO requires a secret key",
+    "duration": 4890,
+    "offset": 214500,
+    "lang": "en"
+  },
+  {
+    "text": "and since we have already initialized",
+    "duration": 4770,
+    "offset": 216900,
+    "lang": "en"
+  },
+  {
+    "text": "the app and we have set a secret key",
+    "duration": 3810,
+    "offset": 219390,
+    "lang": "en"
+  },
+  {
+    "text": "right here we don't need to do anything",
+    "duration": 4560,
+    "offset": 221670,
+    "lang": "en"
+  },
+  {
+    "text": "else the next step is to instantiate the",
+    "duration": 6720,
+    "offset": 223200,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO class and pass in the app so",
+    "duration": 9150,
+    "offset": 226230,
+    "lang": "en"
+  },
+  {
+    "text": "let's do that right here there is no",
+    "duration": 7530,
+    "offset": 229920,
+    "lang": "en"
+  },
+  {
+    "text": "magic formula to this the only way we",
+    "duration": 4050,
+    "offset": 235380,
+    "lang": "en"
+  },
+  {
+    "text": "know how to do this is to refer to the",
+    "duration": 4710,
+    "offset": 237450,
+    "lang": "en"
+  },
+  {
+    "text": "documentation of flask socket IO I will",
+    "duration": 4680,
+    "offset": 239430,
+    "lang": "en"
+  },
+  {
+    "text": "leave a link below to the flask socket",
+    "duration": 3900,
+    "offset": 242160,
+    "lang": "en"
+  },
+  {
+    "text": "IO documentation page so be sure to",
+    "duration": 4590,
+    "offset": 244110,
+    "lang": "en"
+  },
+  {
+    "text": "check it out next step is to define",
+    "duration": 5430,
+    "offset": 246060,
+    "lang": "en"
+  },
+  {
+    "text": "events for the server side remember each",
+    "duration": 5010,
+    "offset": 248700,
+    "lang": "en"
+  },
+  {
+    "text": "time a client sends a message it needs",
+    "duration": 5070,
+    "offset": 251490,
+    "lang": "en"
+  },
+  {
+    "text": "to reach one of the event buckets as I",
+    "duration": 5430,
+    "offset": 253710,
+    "lang": "en"
+  },
+  {
+    "text": "call it so let's just add these event",
+    "duration": 6170,
+    "offset": 256560,
+    "lang": "en"
+  },
+  {
+    "text": "buckets at the bottom of the file",
+    "duration": 3590,
+    "offset": 259140,
+    "lang": "en"
+  },
+  {
+    "text": "let's add it right here so how do we",
+    "duration": 5550,
+    "offset": 263690,
+    "lang": "en"
+  },
+  {
+    "text": "create an event bucket or event handler",
+    "duration": 5370,
+    "offset": 266720,
+    "lang": "en"
+  },
+  {
+    "text": "the syntax is somewhat similar to the",
+    "duration": 5730,
+    "offset": 269240,
+    "lang": "en"
+  },
+  {
+    "text": "flask routes we have used so far so we",
+    "duration": 5340,
+    "offset": 272090,
+    "lang": "en"
+  },
+  {
+    "text": "use a decorator symbol and then socket",
+    "duration": 5220,
+    "offset": 274970,
+    "lang": "en"
+  },
+  {
+    "text": "IO dot on inside brackets we put the",
+    "duration": 4980,
+    "offset": 277430,
+    "lang": "en"
+  },
+  {
+    "text": "name of the event and we will use the",
+    "duration": 4620,
+    "offset": 280190,
+    "lang": "en"
+  },
+  {
+    "text": "event message if you recollect message",
+    "duration": 4830,
+    "offset": 282410,
+    "lang": "en"
+  },
+  {
+    "text": "is one of the four predefined events and",
+    "duration": 4470,
+    "offset": 284810,
+    "lang": "en"
+  },
+  {
+    "text": "we write a function to tell fluffs",
+    "duration": 4530,
+    "offset": 287240,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO what actions we want to take",
+    "duration": 4260,
+    "offset": 289280,
+    "lang": "en"
+  },
+  {
+    "text": "this is similar to the way we have",
+    "duration": 4050,
+    "offset": 291770,
+    "lang": "en"
+  },
+  {
+    "text": "defined routes so far let's call this",
+    "duration": 4710,
+    "offset": 293540,
+    "lang": "en"
+  },
+  {
+    "text": "function message this function will",
+    "duration": 4980,
+    "offset": 295820,
+    "lang": "en"
+  },
+  {
+    "text": "receive some message or data so let's",
+    "duration": 7230,
+    "offset": 298250,
+    "lang": "en"
+  },
+  {
+    "text": "call the parameter as data if client",
+    "duration": 7230,
+    "offset": 300800,
+    "lang": "en"
+  },
+  {
+    "text": "sends data to this message event bucket",
+    "duration": 5040,
+    "offset": 305480,
+    "lang": "en"
+  },
+  {
+    "text": "what do we want to do for now lets us",
+    "duration": 4440,
+    "offset": 308030,
+    "lang": "en"
+  },
+  {
+    "text": "simply print the message to the terminal",
+    "duration": 4080,
+    "offset": 310520,
+    "lang": "en"
+  },
+  {
+    "text": "we'll add a couple of line breaks so",
+    "duration": 4380,
+    "offset": 312470,
+    "lang": "en"
+  },
+  {
+    "text": "that's easier to spot it in the terminal",
+    "duration": 4110,
+    "offset": 314600,
+    "lang": "en"
+  },
+  {
+    "text": "while printing it to the terminal is",
+    "duration": 4380,
+    "offset": 316850,
+    "lang": "en"
+  },
+  {
+    "text": "okay for testing but that's not all that",
+    "duration": 4860,
+    "offset": 318710,
+    "lang": "en"
+  },
+  {
+    "text": "useful so what we can also do is",
+    "duration": 4350,
+    "offset": 321230,
+    "lang": "en"
+  },
+  {
+    "text": "broadcast this message the server",
+    "duration": 4110,
+    "offset": 323570,
+    "lang": "en"
+  },
+  {
+    "text": "received to all the connected clients",
+    "duration": 5310,
+    "offset": 325580,
+    "lang": "en"
+  },
+  {
+    "text": "one way to do this is using send the",
+    "duration": 5520,
+    "offset": 327680,
+    "lang": "en"
+  },
+  {
+    "text": "syntax is sent and in brackets the",
+    "duration": 6210,
+    "offset": 330890,
+    "lang": "en"
+  },
+  {
+    "text": "message text which is data let's import",
+    "duration": 5570,
+    "offset": 333200,
+    "lang": "en"
+  },
+  {
+    "text": "sent",
+    "duration": 3730,
+    "offset": 337100,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 2060,
+    "offset": 338770,
+    "lang": "en"
+  },
+  {
+    "text": "so just to be clear what this will do is",
+    "duration": 5190,
+    "offset": 342250,
+    "lang": "en"
+  },
+  {
+    "text": "it will send the message text perceived",
+    "duration": 5070,
+    "offset": 344920,
+    "lang": "en"
+  },
+  {
+    "text": "to the connected clients but remember",
+    "duration": 4350,
+    "offset": 347440,
+    "lang": "en"
+  },
+  {
+    "text": "how we said both the client and the",
+    "duration": 4200,
+    "offset": 349990,
+    "lang": "en"
+  },
+  {
+    "text": "server can only receive socket IO",
+    "duration": 6030,
+    "offset": 351790,
+    "lang": "en"
+  },
+  {
+    "text": "messages in event buckets so which event",
+    "duration": 6120,
+    "offset": 354190,
+    "lang": "en"
+  },
+  {
+    "text": "bucket on the client side will this data",
+    "duration": 5610,
+    "offset": 357820,
+    "lang": "en"
+  },
+  {
+    "text": "go to well turns out send us a special",
+    "duration": 5850,
+    "offset": 360310,
+    "lang": "en"
+  },
+  {
+    "text": "syntax and whenever we use it it will by",
+    "duration": 5130,
+    "offset": 363430,
+    "lang": "en"
+  },
+  {
+    "text": "default push the data to the clients on",
+    "duration": 5760,
+    "offset": 366160,
+    "lang": "en"
+  },
+  {
+    "text": "an event bucket called as message we so",
+    "duration": 5010,
+    "offset": 368560,
+    "lang": "en"
+  },
+  {
+    "text": "far haven't written the code for the",
+    "duration": 3690,
+    "offset": 371920,
+    "lang": "en"
+  },
+  {
+    "text": "client-side when we do it this will be",
+    "duration": 4410,
+    "offset": 373570,
+    "lang": "en"
+  },
+  {
+    "text": "clear before we jump to the client side",
+    "duration": 5040,
+    "offset": 375610,
+    "lang": "en"
+  },
+  {
+    "text": "if you are using socket IO there is one",
+    "duration": 4650,
+    "offset": 377980,
+    "lang": "en"
+  },
+  {
+    "text": "change we need to do to the code below",
+    "duration": 3870,
+    "offset": 380650,
+    "lang": "en"
+  },
+  {
+    "text": "if you have been following along with",
+    "duration": 4440,
+    "offset": 382630,
+    "lang": "en"
+  },
+  {
+    "text": "the series we explained what this line",
+    "duration": 4890,
+    "offset": 384520,
+    "lang": "en"
+  },
+  {
+    "text": "does in one of the previous videos the",
+    "duration": 4530,
+    "offset": 387070,
+    "lang": "en"
+  },
+  {
+    "text": "gist of it is that Python will assign",
+    "duration": 4650,
+    "offset": 389410,
+    "lang": "en"
+  },
+  {
+    "text": "the name underscore underscore main",
+    "duration": 4500,
+    "offset": 391600,
+    "lang": "en"
+  },
+  {
+    "text": "underscore underscore to whatever is the",
+    "duration": 4230,
+    "offset": 394060,
+    "lang": "en"
+  },
+  {
+    "text": "file that's being run as a script or a",
+    "duration": 3960,
+    "offset": 396100,
+    "lang": "en"
+  },
+  {
+    "text": "file that we run directly from the",
+    "duration": 4620,
+    "offset": 398290,
+    "lang": "en"
+  },
+  {
+    "text": "command line since we will be running",
+    "duration": 5010,
+    "offset": 400060,
+    "lang": "en"
+  },
+  {
+    "text": "this particular file directly from the",
+    "duration": 4470,
+    "offset": 402910,
+    "lang": "en"
+  },
+  {
+    "text": "command line the statement will always",
+    "duration": 4770,
+    "offset": 405070,
+    "lang": "en"
+  },
+  {
+    "text": "be true and whatever code we write below",
+    "duration": 5039,
+    "offset": 407380,
+    "lang": "en"
+  },
+  {
+    "text": "it will get executed well we have been",
+    "duration": 4740,
+    "offset": 409840,
+    "lang": "en"
+  },
+  {
+    "text": "using the standard flask development",
+    "duration": 5491,
+    "offset": 412419,
+    "lang": "en"
+  },
+  {
+    "text": "server so far with app dot Ron + socket",
+    "duration": 5760,
+    "offset": 414580,
+    "lang": "en"
+  },
+  {
+    "text": "IO has its own custom drawn method to",
+    "duration": 5040,
+    "offset": 417910,
+    "lang": "en"
+  },
+  {
+    "text": "start up the server which is socket IO",
+    "duration": 7950,
+    "offset": 420340,
+    "lang": "en"
+  },
+  {
+    "text": "dot run again the only way we know how",
+    "duration": 7320,
+    "offset": 422950,
+    "lang": "en"
+  },
+  {
+    "text": "to do this is if we look at the",
+    "duration": 4230,
+    "offset": 428290,
+    "lang": "en"
+  },
+  {
+    "text": "documentation and the author provides",
+    "duration": 5410,
+    "offset": 430270,
+    "lang": "en"
+  },
+  {
+    "text": "excellent documentation for this",
+    "duration": 6459,
+    "offset": 432520,
+    "lang": "en"
+  },
+  {
+    "text": "now if he add debug equals true here",
+    "duration": 5489,
+    "offset": 435680,
+    "lang": "en"
+  },
+  {
+    "text": "what this will do is restart the server",
+    "duration": 4261,
+    "offset": 438979,
+    "lang": "en"
+  },
+  {
+    "text": "every time we have made a change to the",
+    "duration": 4831,
+    "offset": 441169,
+    "lang": "en"
+  },
+  {
+    "text": "file now that we have done the basic",
+    "duration": 5280,
+    "offset": 443240,
+    "lang": "en"
+  },
+  {
+    "text": "work on application dot PI file next",
+    "duration": 5610,
+    "offset": 446000,
+    "lang": "en"
+  },
+  {
+    "text": "let's work on the HTML file for chat but",
+    "duration": 5160,
+    "offset": 448520,
+    "lang": "en"
+  },
+  {
+    "text": "before we start working on the HTML file",
+    "duration": 4350,
+    "offset": 451610,
+    "lang": "en"
+  },
+  {
+    "text": "it's a good thing to have a rough idea",
+    "duration": 4440,
+    "offset": 453680,
+    "lang": "en"
+  },
+  {
+    "text": "of how the elements of the page will be",
+    "duration": 4049,
+    "offset": 455960,
+    "lang": "en"
+  },
+  {
+    "text": "placed it'll make it easier when we",
+    "duration": 4370,
+    "offset": 458120,
+    "lang": "en"
+  },
+  {
+    "text": "later on style and format these pages",
+    "duration": 5311,
+    "offset": 460009,
+    "lang": "en"
+  },
+  {
+    "text": "the way I see this page it will have a",
+    "duration": 5590,
+    "offset": 462490,
+    "lang": "en"
+  },
+  {
+    "text": "navigation bar at the top and then below",
+    "duration": 5700,
+    "offset": 465320,
+    "lang": "en"
+  },
+  {
+    "text": "it will be the main section inside the",
+    "duration": 5220,
+    "offset": 468080,
+    "lang": "en"
+  },
+  {
+    "text": "main section there are three parts the",
+    "duration": 4380,
+    "offset": 471020,
+    "lang": "en"
+  },
+  {
+    "text": "largest of the three sections will be",
+    "duration": 4830,
+    "offset": 473300,
+    "lang": "en"
+  },
+  {
+    "text": "for displaying the message at the bottom",
+    "duration": 4500,
+    "offset": 475400,
+    "lang": "en"
+  },
+  {
+    "text": "will be the place where the user types",
+    "duration": 4170,
+    "offset": 478130,
+    "lang": "en"
+  },
+  {
+    "text": "in the messages which will appear in the",
+    "duration": 5010,
+    "offset": 479900,
+    "lang": "en"
+  },
+  {
+    "text": "display message section on the left hand",
+    "duration": 4920,
+    "offset": 482300,
+    "lang": "en"
+  },
+  {
+    "text": "side there is a sidebar which will show",
+    "duration": 5310,
+    "offset": 484910,
+    "lang": "en"
+  },
+  {
+    "text": "all the rooms that are available so in",
+    "duration": 5009,
+    "offset": 487220,
+    "lang": "en"
+  },
+  {
+    "text": "this project we'll be segregating the",
+    "duration": 5220,
+    "offset": 490220,
+    "lang": "en"
+  },
+  {
+    "text": "conversations into different rooms now",
+    "duration": 4831,
+    "offset": 492229,
+    "lang": "en"
+  },
+  {
+    "text": "that we have a rough idea of the layout",
+    "duration": 5789,
+    "offset": 495440,
+    "lang": "en"
+  },
+  {
+    "text": "let's create chat dot HTML file so let's",
+    "duration": 7380,
+    "offset": 497060,
+    "lang": "en"
+  },
+  {
+    "text": "see the file structure inside templates",
+    "duration": 5250,
+    "offset": 501229,
+    "lang": "en"
+  },
+  {
+    "text": "folder this is where we have saved all",
+    "duration": 5009,
+    "offset": 504440,
+    "lang": "en"
+  },
+  {
+    "text": "the HTML files will create the chat file",
+    "duration": 5301,
+    "offset": 506479,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 2331,
+    "offset": 509449,
+    "lang": "en"
+  },
+  {
+    "text": "the layout of this page will be",
+    "duration": 3750,
+    "offset": 514840,
+    "lang": "en"
+  },
+  {
+    "text": "completely different from the templates",
+    "duration": 4260,
+    "offset": 516610,
+    "lang": "en"
+  },
+  {
+    "text": "we have created so far since this chat",
+    "duration": 5069,
+    "offset": 518590,
+    "lang": "en"
+  },
+  {
+    "text": "page will be a standalone page with a",
+    "duration": 4920,
+    "offset": 520870,
+    "lang": "en"
+  },
+  {
+    "text": "unique layout I will not bother with",
+    "duration": 4411,
+    "offset": 523659,
+    "lang": "en"
+  },
+  {
+    "text": "creating a layout template for this will",
+    "duration": 5130,
+    "offset": 525790,
+    "lang": "en"
+  },
+  {
+    "text": "straight up write the HTML for this we",
+    "duration": 5040,
+    "offset": 528070,
+    "lang": "en"
+  },
+  {
+    "text": "start with a standard HTML file I'm",
+    "duration": 5310,
+    "offset": 530920,
+    "lang": "en"
+  },
+  {
+    "text": "using atoms so I can type HTML and press",
+    "duration": 6660,
+    "offset": 533110,
+    "lang": "en"
+  },
+  {
+    "text": "tab it spits out a basic HTML code let's",
+    "duration": 7320,
+    "offset": 536230,
+    "lang": "en"
+  },
+  {
+    "text": "head over to the body section if you",
+    "duration": 5790,
+    "offset": 539770,
+    "lang": "en"
+  },
+  {
+    "text": "recollect the intended layout of the",
+    "duration": 3539,
+    "offset": 543550,
+    "lang": "en"
+  },
+  {
+    "text": "page there will be some sort of a",
+    "duration": 3960,
+    "offset": 545560,
+    "lang": "en"
+  },
+  {
+    "text": "navigation bar at the top so let's leave",
+    "duration": 5821,
+    "offset": 547089,
+    "lang": "en"
+  },
+  {
+    "text": "a placeholder for that then there is a",
+    "duration": 7800,
+    "offset": 549520,
+    "lang": "en"
+  },
+  {
+    "text": "main section so let's create a div main",
+    "duration": 8179,
+    "offset": 552910,
+    "lang": "en"
+  },
+  {
+    "text": "section and let's change this to an ID",
+    "duration": 6150,
+    "offset": 557320,
+    "lang": "en"
+  },
+  {
+    "text": "inside the main section the entire",
+    "duration": 4811,
+    "offset": 561089,
+    "lang": "en"
+  },
+  {
+    "text": "left-hand side will be a sidebar for",
+    "duration": 4410,
+    "offset": 563470,
+    "lang": "en"
+  },
+  {
+    "text": "displaying and selecting rooms we",
+    "duration": 4290,
+    "offset": 565900,
+    "lang": "en"
+  },
+  {
+    "text": "haven't defined any room so far so this",
+    "duration": 8100,
+    "offset": 567880,
+    "lang": "en"
+  },
+  {
+    "text": "is another placeholder I'm gonna call it",
+    "duration": 9660,
+    "offset": 570190,
+    "lang": "en"
+  },
+  {
+    "text": "a sidebar then we have the right hand",
+    "duration": 8250,
+    "offset": 575980,
+    "lang": "en"
+  },
+  {
+    "text": "side panel I'll just change this to an",
+    "duration": 7410,
+    "offset": 579850,
+    "lang": "en"
+  },
+  {
+    "text": "ID we have a section for displaying",
+    "duration": 10620,
+    "offset": 584230,
+    "lang": "en"
+  },
+  {
+    "text": "messages and we also have a place for",
+    "duration": 11520,
+    "offset": 587260,
+    "lang": "en"
+  },
+  {
+    "text": "typing in the messages let's put an",
+    "duration": 9350,
+    "offset": 594850,
+    "lang": "en"
+  },
+  {
+    "text": "input box here with a unique ID",
+    "duration": 5420,
+    "offset": 598780,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna get rid of name and value for",
+    "duration": 9199,
+    "offset": 606290,
+    "lang": "en"
+  },
+  {
+    "text": "now and placeholder will be type here",
+    "duration": 6860,
+    "offset": 608629,
+    "lang": "en"
+  },
+  {
+    "text": "and autocomplete is off next we add a",
+    "duration": 9460,
+    "offset": 615819,
+    "lang": "en"
+  },
+  {
+    "text": "submit button since we want this button",
+    "duration": 4800,
+    "offset": 622639,
+    "lang": "en"
+  },
+  {
+    "text": "to be clickable so the type will remain",
+    "duration": 5310,
+    "offset": 625279,
+    "lang": "en"
+  },
+  {
+    "text": "as button we want to give it an ID so",
+    "duration": 6000,
+    "offset": 627439,
+    "lang": "en"
+  },
+  {
+    "text": "let's call it send message and the",
+    "duration": 7560,
+    "offset": 630589,
+    "lang": "en"
+  },
+  {
+    "text": "button text will display send so let me",
+    "duration": 7050,
+    "offset": 633439,
+    "lang": "en"
+  },
+  {
+    "text": "just add some comments so it's easier",
+    "duration": 6360,
+    "offset": 638149,
+    "lang": "en"
+  },
+  {
+    "text": "the first one is navigation bar then you",
+    "duration": 7830,
+    "offset": 640489,
+    "lang": "en"
+  },
+  {
+    "text": "have the room selection sidebar the",
+    "duration": 7860,
+    "offset": 644509,
+    "lang": "en"
+  },
+  {
+    "text": "whole thing is the message area one part",
+    "duration": 7890,
+    "offset": 648319,
+    "lang": "en"
+  },
+  {
+    "text": "of it is display message and the last",
+    "duration": 7890,
+    "offset": 652369,
+    "lang": "en"
+  },
+  {
+    "text": "part of it is input message so this is",
+    "duration": 6900,
+    "offset": 656209,
+    "lang": "en"
+  },
+  {
+    "text": "the skeleton of the page we need to do",
+    "duration": 5461,
+    "offset": 660259,
+    "lang": "en"
+  },
+  {
+    "text": "one more thing we have to load the",
+    "duration": 5310,
+    "offset": 663109,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO library by adding the link",
+    "duration": 4949,
+    "offset": 665720,
+    "lang": "en"
+  },
+  {
+    "text": "here let's go to the flask socket IO",
+    "duration": 5641,
+    "offset": 668419,
+    "lang": "en"
+  },
+  {
+    "text": "documentation page and grab the link",
+    "duration": 6981,
+    "offset": 670669,
+    "lang": "en"
+  },
+  {
+    "text": "let's copy this line",
+    "duration": 3590,
+    "offset": 674060,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it here",
+    "duration": 2870,
+    "offset": 678700,
+    "lang": "en"
+  },
+  {
+    "text": "that's it for the HTML file next we work",
+    "duration": 5220,
+    "offset": 686080,
+    "lang": "en"
+  },
+  {
+    "text": "on the JavaScript file for flask socket",
+    "duration": 5130,
+    "offset": 688600,
+    "lang": "en"
+  },
+  {
+    "text": "IO let's put the JavaScript we are going",
+    "duration": 5100,
+    "offset": 691300,
+    "lang": "en"
+  },
+  {
+    "text": "to write for socket IO in a separate JS",
+    "duration": 7590,
+    "offset": 693730,
+    "lang": "en"
+  },
+  {
+    "text": "file we have seen the syntax earlier URL",
+    "duration": 7050,
+    "offset": 696400,
+    "lang": "en"
+  },
+  {
+    "text": "underscore for and then the name of the",
+    "duration": 4590,
+    "offset": 701320,
+    "lang": "en"
+  },
+  {
+    "text": "folder the JavaScript and CSS files are",
+    "duration": 4980,
+    "offset": 703450,
+    "lang": "en"
+  },
+  {
+    "text": "by default placed inside a folder called",
+    "duration": 4740,
+    "offset": 705910,
+    "lang": "en"
+  },
+  {
+    "text": "static and to keep the static folder",
+    "duration": 4620,
+    "offset": 708430,
+    "lang": "en"
+  },
+  {
+    "text": "organized will keep the JavaScript files",
+    "duration": 6290,
+    "offset": 710650,
+    "lang": "en"
+  },
+  {
+    "text": "inside a subfolder called as scripts and",
+    "duration": 6480,
+    "offset": 713050,
+    "lang": "en"
+  },
+  {
+    "text": "let's call the JavaScript file",
+    "duration": 9370,
+    "offset": 716940,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO okay let's create the file so",
+    "duration": 8850,
+    "offset": 719530,
+    "lang": "en"
+  },
+  {
+    "text": "let's open the folder structure the",
+    "duration": 4440,
+    "offset": 726310,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript file the CSS files by default",
+    "duration": 4590,
+    "offset": 728380,
+    "lang": "en"
+  },
+  {
+    "text": "all of them are placed inside a folder",
+    "duration": 4680,
+    "offset": 730750,
+    "lang": "en"
+  },
+  {
+    "text": "called static and to keep the static",
+    "duration": 4290,
+    "offset": 732970,
+    "lang": "en"
+  },
+  {
+    "text": "folder organized we will keep the",
+    "duration": 4170,
+    "offset": 735430,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript files inside a subfolder",
+    "duration": 5940,
+    "offset": 737260,
+    "lang": "en"
+  },
+  {
+    "text": "called scripts and inside this let's",
+    "duration": 5820,
+    "offset": 739600,
+    "lang": "en"
+  },
+  {
+    "text": "create a JavaScript file called socket",
+    "duration": 6780,
+    "offset": 743200,
+    "lang": "en"
+  },
+  {
+    "text": "IO GS one thing I should clarify right",
+    "duration": 7380,
+    "offset": 745420,
+    "lang": "en"
+  },
+  {
+    "text": "away we will be using plain JavaScript",
+    "duration": 4170,
+    "offset": 749980,
+    "lang": "en"
+  },
+  {
+    "text": "for this project",
+    "duration": 3630,
+    "offset": 752800,
+    "lang": "en"
+  },
+  {
+    "text": "jQuery would have been easier however",
+    "duration": 4650,
+    "offset": 754150,
+    "lang": "en"
+  },
+  {
+    "text": "this is a beginner level project so we",
+    "duration": 6240,
+    "offset": 756430,
+    "lang": "en"
+  },
+  {
+    "text": "will stick with plain JavaScript let's",
+    "duration": 6360,
+    "offset": 758800,
+    "lang": "en"
+  },
+  {
+    "text": "add a standard JavaScript event listener",
+    "duration": 6260,
+    "offset": 762670,
+    "lang": "en"
+  },
+  {
+    "text": "to load when the Dom content is loaded",
+    "duration": 6570,
+    "offset": 765160,
+    "lang": "en"
+  },
+  {
+    "text": "we will use the arrow functions from",
+    "duration": 5890,
+    "offset": 768930,
+    "lang": "en"
+  },
+  {
+    "text": "Atma script 6 this is just a standard",
+    "duration": 5190,
+    "offset": 771730,
+    "lang": "en"
+  },
+  {
+    "text": "way of adding an event listener there's",
+    "duration": 4620,
+    "offset": 774820,
+    "lang": "en"
+  },
+  {
+    "text": "nothing fancy about this or anything",
+    "duration": 6000,
+    "offset": 776920,
+    "lang": "en"
+  },
+  {
+    "text": "unique to flask socket IO first thing we",
+    "duration": 4980,
+    "offset": 779440,
+    "lang": "en"
+  },
+  {
+    "text": "do is create a variable which has",
+    "duration": 3780,
+    "offset": 782920,
+    "lang": "en"
+  },
+  {
+    "text": "instructions on how to connect to socket",
+    "duration": 4710,
+    "offset": 784420,
+    "lang": "en"
+  },
+  {
+    "text": "on your server let's copy this from the",
+    "duration": 5130,
+    "offset": 786700,
+    "lang": "en"
+  },
+  {
+    "text": "documentation page so we copy this line",
+    "duration": 5270,
+    "offset": 789130,
+    "lang": "en"
+  },
+  {
+    "text": "right here",
+    "duration": 2570,
+    "offset": 791830,
+    "lang": "en"
+  },
+  {
+    "text": "so this line is basically a set of",
+    "duration": 4420,
+    "offset": 794710,
+    "lang": "en"
+  },
+  {
+    "text": "instructions on how to connect to the",
+    "duration": 4500,
+    "offset": 797120,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO server on the client side",
+    "duration": 4140,
+    "offset": 799130,
+    "lang": "en"
+  },
+  {
+    "text": "that's all the setup that's required",
+    "duration": 5490,
+    "offset": 801620,
+    "lang": "en"
+  },
+  {
+    "text": "next we can create event buckets one of",
+    "duration": 5610,
+    "offset": 803270,
+    "lang": "en"
+  },
+  {
+    "text": "the first events we'll create as a",
+    "duration": 5040,
+    "offset": 807110,
+    "lang": "en"
+  },
+  {
+    "text": "predefined event called as connect when",
+    "duration": 5490,
+    "offset": 808880,
+    "lang": "en"
+  },
+  {
+    "text": "socket IO connects it automatically",
+    "duration": 5670,
+    "offset": 812150,
+    "lang": "en"
+  },
+  {
+    "text": "triggers a connect event in flask socket",
+    "duration": 6150,
+    "offset": 814370,
+    "lang": "en"
+  },
+  {
+    "text": "IO we saw how to define an event bucket",
+    "duration": 5250,
+    "offset": 817820,
+    "lang": "en"
+  },
+  {
+    "text": "on the server side in JavaScript the",
+    "duration": 5970,
+    "offset": 820520,
+    "lang": "en"
+  },
+  {
+    "text": "syntax is socket dot on then the name of",
+    "duration": 6150,
+    "offset": 823070,
+    "lang": "en"
+  },
+  {
+    "text": "the event which is connect in this case",
+    "duration": 5580,
+    "offset": 826490,
+    "lang": "en"
+  },
+  {
+    "text": "and use an anonymous function connect",
+    "duration": 5490,
+    "offset": 829220,
+    "lang": "en"
+  },
+  {
+    "text": "event will not take any variables what",
+    "duration": 3960,
+    "offset": 832070,
+    "lang": "en"
+  },
+  {
+    "text": "do we want to do when the client",
+    "duration": 3570,
+    "offset": 834710,
+    "lang": "en"
+  },
+  {
+    "text": "connects to the server for now we will",
+    "duration": 4590,
+    "offset": 836030,
+    "lang": "en"
+  },
+  {
+    "text": "just send a message to the server so the",
+    "duration": 5610,
+    "offset": 838280,
+    "lang": "en"
+  },
+  {
+    "text": "syntaxes socket dot sent and then the",
+    "duration": 7530,
+    "offset": 840620,
+    "lang": "en"
+  },
+  {
+    "text": "message text which is I am connected if",
+    "duration": 6420,
+    "offset": 843890,
+    "lang": "en"
+  },
+  {
+    "text": "you notice over here we haven't",
+    "duration": 4890,
+    "offset": 848150,
+    "lang": "en"
+  },
+  {
+    "text": "specified which event bucket in the",
+    "duration": 5430,
+    "offset": 850310,
+    "lang": "en"
+  },
+  {
+    "text": "server will this message I am connected",
+    "duration": 5040,
+    "offset": 853040,
+    "lang": "en"
+  },
+  {
+    "text": "go to well just like we saw on the",
+    "duration": 4980,
+    "offset": 855740,
+    "lang": "en"
+  },
+  {
+    "text": "server side when we use send it will",
+    "duration": 5160,
+    "offset": 858080,
+    "lang": "en"
+  },
+  {
+    "text": "automatically send the message text to",
+    "duration": 5360,
+    "offset": 860720,
+    "lang": "en"
+  },
+  {
+    "text": "an event in the server called as message",
+    "duration": 6660,
+    "offset": 863240,
+    "lang": "en"
+  },
+  {
+    "text": "this event handler that we created right",
+    "duration": 6120,
+    "offset": 866080,
+    "lang": "en"
+  },
+  {
+    "text": "here",
+    "duration": 2300,
+    "offset": 869900,
+    "lang": "en"
+  },
+  {
+    "text": "before we test all of this let's define",
+    "duration": 5490,
+    "offset": 872550,
+    "lang": "en"
+  },
+  {
+    "text": "the message event for the client the",
+    "duration": 5040,
+    "offset": 875310,
+    "lang": "en"
+  },
+  {
+    "text": "syntax is similar to the one we used for",
+    "duration": 5820,
+    "offset": 878040,
+    "lang": "en"
+  },
+  {
+    "text": "connect socket dot on and the name of",
+    "duration": 7020,
+    "offset": 880350,
+    "lang": "en"
+  },
+  {
+    "text": "the event which is message the parameter",
+    "duration": 6390,
+    "offset": 883860,
+    "lang": "en"
+  },
+  {
+    "text": "of the anonymous function this will be",
+    "duration": 8150,
+    "offset": 887370,
+    "lang": "en"
+  },
+  {
+    "text": "the message text so let's call it data",
+    "duration": 5270,
+    "offset": 890250,
+    "lang": "en"
+  },
+  {
+    "text": "what we want to do when the server sends",
+    "duration": 5620,
+    "offset": 896390,
+    "lang": "en"
+  },
+  {
+    "text": "a message to this event pocket for now",
+    "duration": 6720,
+    "offset": 899040,
+    "lang": "en"
+  },
+  {
+    "text": "we will console.log it message received",
+    "duration": 7769,
+    "offset": 902010,
+    "lang": "en"
+  },
+  {
+    "text": "and then the actual text message by the",
+    "duration": 5970,
+    "offset": 905760,
+    "lang": "en"
+  },
+  {
+    "text": "way just a quick note these are back",
+    "duration": 7021,
+    "offset": 909779,
+    "lang": "en"
+  },
+  {
+    "text": "texts these are not single quotes before",
+    "duration": 6930,
+    "offset": 911730,
+    "lang": "en"
+  },
+  {
+    "text": "we can test this we need to make one",
+    "duration": 4140,
+    "offset": 916800,
+    "lang": "en"
+  },
+  {
+    "text": "quick edit to the application file for",
+    "duration": 5100,
+    "offset": 918660,
+    "lang": "en"
+  },
+  {
+    "text": "the chat route let's head on over to the",
+    "duration": 6390,
+    "offset": 920940,
+    "lang": "en"
+  },
+  {
+    "text": "application file and let's scroll to the",
+    "duration": 6150,
+    "offset": 923760,
+    "lang": "en"
+  },
+  {
+    "text": "chat route so this is the chat route",
+    "duration": 4980,
+    "offset": 927330,
+    "lang": "en"
+  },
+  {
+    "text": "first of all right now we just sort of",
+    "duration": 3960,
+    "offset": 929910,
+    "lang": "en"
+  },
+  {
+    "text": "building and testing the chat",
+    "duration": 3330,
+    "offset": 932310,
+    "lang": "en"
+  },
+  {
+    "text": "functionality so we don't want to bother",
+    "duration": 4080,
+    "offset": 933870,
+    "lang": "en"
+  },
+  {
+    "text": "with logging in every time so I'm gonna",
+    "duration": 4380,
+    "offset": 935640,
+    "lang": "en"
+  },
+  {
+    "text": "comment this out where it checks whether",
+    "duration": 4860,
+    "offset": 937950,
+    "lang": "en"
+  },
+  {
+    "text": "the user is authenticated this is by the",
+    "duration": 5069,
+    "offset": 940020,
+    "lang": "en"
+  },
+  {
+    "text": "way just for testing purposes we need to",
+    "duration": 4410,
+    "offset": 942810,
+    "lang": "en"
+  },
+  {
+    "text": "remember to re-enable these lines once",
+    "duration": 5071,
+    "offset": 945089,
+    "lang": "en"
+  },
+  {
+    "text": "we are done before we deploy it instead",
+    "duration": 5489,
+    "offset": 947220,
+    "lang": "en"
+  },
+  {
+    "text": "of having this route just return a text",
+    "duration": 5790,
+    "offset": 950160,
+    "lang": "en"
+  },
+  {
+    "text": "let's have it return the chat dot HTML",
+    "duration": 6331,
+    "offset": 952709,
+    "lang": "en"
+  },
+  {
+    "text": "file we just created all of this should",
+    "duration": 6180,
+    "offset": 955950,
+    "lang": "en"
+  },
+  {
+    "text": "be familiar syntax to you we have seen",
+    "duration": 6239,
+    "offset": 959040,
+    "lang": "en"
+  },
+  {
+    "text": "this a few times already ok now we are",
+    "duration": 5160,
+    "offset": 962130,
+    "lang": "en"
+  },
+  {
+    "text": "ready to test our link let's head on",
+    "duration": 4441,
+    "offset": 965279,
+    "lang": "en"
+  },
+  {
+    "text": "over to the terminal and start the",
+    "duration": 4760,
+    "offset": 967290,
+    "lang": "en"
+  },
+  {
+    "text": "server",
+    "duration": 2330,
+    "offset": 969720,
+    "lang": "en"
+  },
+  {
+    "text": "let's copy this URL",
+    "duration": 2810,
+    "offset": 978310,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it in the browser",
+    "duration": 3170,
+    "offset": 981910,
+    "lang": "en"
+  },
+  {
+    "text": "let's quickly register a user I'll call",
+    "duration": 9050,
+    "offset": 986830,
+    "lang": "en"
+  },
+  {
+    "text": "it user 12 will login the user",
+    "duration": 6650,
+    "offset": 989230,
+    "lang": "en"
+  },
+  {
+    "text": "now if we go to the javascript file",
+    "duration": 6660,
+    "offset": 998000,
+    "lang": "en"
+  },
+  {
+    "text": "called socket IO GS when the client",
+    "duration": 5820,
+    "offset": 1000910,
+    "lang": "en"
+  },
+  {
+    "text": "connects we sent a message to the server",
+    "duration": 5250,
+    "offset": 1004660,
+    "lang": "en"
+  },
+  {
+    "text": "saying I'm connected and which event",
+    "duration": 6120,
+    "offset": 1006730,
+    "lang": "en"
+  },
+  {
+    "text": "bucket does this message go to that's",
+    "duration": 5279,
+    "offset": 1009910,
+    "lang": "en"
+  },
+  {
+    "text": "right because we are using sent it would",
+    "duration": 4049,
+    "offset": 1012850,
+    "lang": "en"
+  },
+  {
+    "text": "have gone to the default event in the",
+    "duration": 4440,
+    "offset": 1015189,
+    "lang": "en"
+  },
+  {
+    "text": "server called as message let's go to the",
+    "duration": 4541,
+    "offset": 1016899,
+    "lang": "en"
+  },
+  {
+    "text": "server",
+    "duration": 4091,
+    "offset": 1019629,
+    "lang": "en"
+  },
+  {
+    "text": "so this is where the message would have",
+    "duration": 5160,
+    "offset": 1021440,
+    "lang": "en"
+  },
+  {
+    "text": "arrived once it receives a message what",
+    "duration": 5790,
+    "offset": 1023720,
+    "lang": "en"
+  },
+  {
+    "text": "does it do it prints this data that it",
+    "duration": 5729,
+    "offset": 1026600,
+    "lang": "en"
+  },
+  {
+    "text": "received which is the text I'm connected",
+    "duration": 5250,
+    "offset": 1029510,
+    "lang": "en"
+  },
+  {
+    "text": "it prints it directly to the terminal",
+    "duration": 5821,
+    "offset": 1032329,
+    "lang": "en"
+  },
+  {
+    "text": "let's see if we can see that so that is",
+    "duration": 5429,
+    "offset": 1034760,
+    "lang": "en"
+  },
+  {
+    "text": "the message which says I am connected",
+    "duration": 4669,
+    "offset": 1038150,
+    "lang": "en"
+  },
+  {
+    "text": "this part seems to be working correctly",
+    "duration": 5791,
+    "offset": 1040189,
+    "lang": "en"
+  },
+  {
+    "text": "what else does the server do aside from",
+    "duration": 5620,
+    "offset": 1042819,
+    "lang": "en"
+  },
+  {
+    "text": "printing it to the terminal it also uses",
+    "duration": 5250,
+    "offset": 1045980,
+    "lang": "en"
+  },
+  {
+    "text": "send to send this message to broadcast",
+    "duration": 4771,
+    "offset": 1048439,
+    "lang": "en"
+  },
+  {
+    "text": "this message to all the clients which",
+    "duration": 4710,
+    "offset": 1051230,
+    "lang": "en"
+  },
+  {
+    "text": "are connected now which bucket does this",
+    "duration": 6150,
+    "offset": 1053210,
+    "lang": "en"
+  },
+  {
+    "text": "go into since we have used to send this",
+    "duration": 6390,
+    "offset": 1055940,
+    "lang": "en"
+  },
+  {
+    "text": "message text bit says I am connected it",
+    "duration": 4980,
+    "offset": 1059360,
+    "lang": "en"
+  },
+  {
+    "text": "went to the event pocket called as",
+    "duration": 5280,
+    "offset": 1062330,
+    "lang": "en"
+  },
+  {
+    "text": "message on the client-side so let's go",
+    "duration": 6300,
+    "offset": 1064340,
+    "lang": "en"
+  },
+  {
+    "text": "and see the JavaScript file this is the",
+    "duration": 5850,
+    "offset": 1067610,
+    "lang": "en"
+  },
+  {
+    "text": "message event and what does this file do",
+    "duration": 5039,
+    "offset": 1070640,
+    "lang": "en"
+  },
+  {
+    "text": "with the message event it prints the",
+    "duration": 5339,
+    "offset": 1073460,
+    "lang": "en"
+  },
+  {
+    "text": "message to the console so let's go to",
+    "duration": 5781,
+    "offset": 1075679,
+    "lang": "en"
+  },
+  {
+    "text": "the console log",
+    "duration": 2661,
+    "offset": 1078799,
+    "lang": "en"
+  },
+  {
+    "text": "we can see that this is a message which",
+    "duration": 5730,
+    "offset": 1081890,
+    "lang": "en"
+  },
+  {
+    "text": "was received let's head on over back to",
+    "duration": 5780,
+    "offset": 1084470,
+    "lang": "en"
+  },
+  {
+    "text": "application dot bye",
+    "duration": 5990,
+    "offset": 1087620,
+    "lang": "en"
+  },
+  {
+    "text": "aside from sending data to the default",
+    "duration": 5580,
+    "offset": 1090250,
+    "lang": "en"
+  },
+  {
+    "text": "message event bucket like we have done",
+    "duration": 4890,
+    "offset": 1093610,
+    "lang": "en"
+  },
+  {
+    "text": "here we can also send data to custom",
+    "duration": 5520,
+    "offset": 1095830,
+    "lang": "en"
+  },
+  {
+    "text": "events to do this instead of using send",
+    "duration": 6179,
+    "offset": 1098500,
+    "lang": "en"
+  },
+  {
+    "text": "we would use Emmet what Emmet allows us",
+    "duration": 6270,
+    "offset": 1101350,
+    "lang": "en"
+  },
+  {
+    "text": "to do is specify the event bucket we",
+    "duration": 5311,
+    "offset": 1104679,
+    "lang": "en"
+  },
+  {
+    "text": "want to send the data to before we can",
+    "duration": 5630,
+    "offset": 1107620,
+    "lang": "en"
+  },
+  {
+    "text": "use it let's import it",
+    "duration": 3260,
+    "offset": 1109990,
+    "lang": "en"
+  },
+  {
+    "text": "the syntaxes Emmett and then the name of",
+    "duration": 5860,
+    "offset": 1118650,
+    "lang": "en"
+  },
+  {
+    "text": "the custom event let's create a custom",
+    "duration": 5190,
+    "offset": 1122170,
+    "lang": "en"
+  },
+  {
+    "text": "event called as some event I could have",
+    "duration": 4890,
+    "offset": 1124510,
+    "lang": "en"
+  },
+  {
+    "text": "called it anything and then the message",
+    "duration": 5310,
+    "offset": 1127360,
+    "lang": "en"
+  },
+  {
+    "text": "text the message text could be this is a",
+    "duration": 8940,
+    "offset": 1129400,
+    "lang": "en"
+  },
+  {
+    "text": "custom event message what happens here",
+    "duration": 8730,
+    "offset": 1132670,
+    "lang": "en"
+  },
+  {
+    "text": "is whenever this message event receives",
+    "duration": 5760,
+    "offset": 1138340,
+    "lang": "en"
+  },
+  {
+    "text": "data so whatever is the data that the",
+    "duration": 4740,
+    "offset": 1141400,
+    "lang": "en"
+  },
+  {
+    "text": "client sends it it's gonna do three",
+    "duration": 3990,
+    "offset": 1144100,
+    "lang": "en"
+  },
+  {
+    "text": "things it's gonna print it to the",
+    "duration": 4500,
+    "offset": 1146140,
+    "lang": "en"
+  },
+  {
+    "text": "terminal it's gonna send it to a",
+    "duration": 4740,
+    "offset": 1148090,
+    "lang": "en"
+  },
+  {
+    "text": "predefined event bucket called as",
+    "duration": 5160,
+    "offset": 1150640,
+    "lang": "en"
+  },
+  {
+    "text": "message and it will also send to the",
+    "duration": 5250,
+    "offset": 1152830,
+    "lang": "en"
+  },
+  {
+    "text": "clients event bucket called as some",
+    "duration": 5760,
+    "offset": 1155800,
+    "lang": "en"
+  },
+  {
+    "text": "event this message text so it's gonna do",
+    "duration": 5910,
+    "offset": 1158080,
+    "lang": "en"
+  },
+  {
+    "text": "all these three things let's jump to the",
+    "duration": 4650,
+    "offset": 1161560,
+    "lang": "en"
+  },
+  {
+    "text": "client-side and write the code for this",
+    "duration": 5210,
+    "offset": 1163990,
+    "lang": "en"
+  },
+  {
+    "text": "event bucket",
+    "duration": 2990,
+    "offset": 1166210,
+    "lang": "en"
+  },
+  {
+    "text": "the syntax does not change from what we",
+    "duration": 5440,
+    "offset": 1170290,
+    "lang": "en"
+  },
+  {
+    "text": "have written earlier its socket dot on",
+    "duration": 5550,
+    "offset": 1173090,
+    "lang": "en"
+  },
+  {
+    "text": "then the name of the event which is some",
+    "duration": 5520,
+    "offset": 1175730,
+    "lang": "en"
+  },
+  {
+    "text": "event then let's call the data we",
+    "duration": 8790,
+    "offset": 1178640,
+    "lang": "en"
+  },
+  {
+    "text": "received as data and for now let's just",
+    "duration": 11670,
+    "offset": 1181250,
+    "lang": "en"
+  },
+  {
+    "text": "cancel off the message okay so let's see",
+    "duration": 8610,
+    "offset": 1187430,
+    "lang": "en"
+  },
+  {
+    "text": "this in action I will save this file",
+    "duration": 6080,
+    "offset": 1192920,
+    "lang": "en"
+  },
+  {
+    "text": "I will also save application dot pi",
+    "duration": 6560,
+    "offset": 1196040,
+    "lang": "en"
+  },
+  {
+    "text": "so let's refresh the page so you can see",
+    "duration": 5760,
+    "offset": 1199000,
+    "lang": "en"
+  },
+  {
+    "text": "that the custom event bucket called as",
+    "duration": 4890,
+    "offset": 1202600,
+    "lang": "en"
+  },
+  {
+    "text": "some event received data we emitted from",
+    "duration": 5370,
+    "offset": 1204760,
+    "lang": "en"
+  },
+  {
+    "text": "the server and at console logged it so",
+    "duration": 4319,
+    "offset": 1207490,
+    "lang": "en"
+  },
+  {
+    "text": "this is the message that we see right",
+    "duration": 4260,
+    "offset": 1210130,
+    "lang": "en"
+  },
+  {
+    "text": "here let's make this chat application",
+    "duration": 4711,
+    "offset": 1211809,
+    "lang": "en"
+  },
+  {
+    "text": "more useful as of now if you notice",
+    "duration": 4289,
+    "offset": 1214390,
+    "lang": "en"
+  },
+  {
+    "text": "we're not making use of this input box",
+    "duration": 5130,
+    "offset": 1216520,
+    "lang": "en"
+  },
+  {
+    "text": "nor are we using the sent button so the",
+    "duration": 4561,
+    "offset": 1218679,
+    "lang": "en"
+  },
+  {
+    "text": "first thing is the ability to send a",
+    "duration": 3389,
+    "offset": 1221650,
+    "lang": "en"
+  },
+  {
+    "text": "message by clicking on the send button",
+    "duration": 4110,
+    "offset": 1223240,
+    "lang": "en"
+  },
+  {
+    "text": "right here we will head on over to our",
+    "duration": 6301,
+    "offset": 1225039,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript file so let's add a standard",
+    "duration": 6990,
+    "offset": 1227350,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript event listener for clicks to",
+    "duration": 6829,
+    "offset": 1231340,
+    "lang": "en"
+  },
+  {
+    "text": "this button right here",
+    "duration": 3829,
+    "offset": 1234340,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna add a standard event listener",
+    "duration": 4980,
+    "offset": 1238240,
+    "lang": "en"
+  },
+  {
+    "text": "for clicks to that button let's check",
+    "duration": 5520,
+    "offset": 1240670,
+    "lang": "en"
+  },
+  {
+    "text": "what the ID of the button is I'll go to",
+    "duration": 5640,
+    "offset": 1243220,
+    "lang": "en"
+  },
+  {
+    "text": "our HTML file and this is where we",
+    "duration": 6120,
+    "offset": 1246190,
+    "lang": "en"
+  },
+  {
+    "text": "define the button when I'll copy the ID",
+    "duration": 6900,
+    "offset": 1248860,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it here so what is the event",
+    "duration": 4830,
+    "offset": 1252310,
+    "lang": "en"
+  },
+  {
+    "text": "we are listening for we are listening",
+    "duration": 4710,
+    "offset": 1255760,
+    "lang": "en"
+  },
+  {
+    "text": "for on click she'll use an anonymous",
+    "duration": 6600,
+    "offset": 1257140,
+    "lang": "en"
+  },
+  {
+    "text": "function and on click we wanted to",
+    "duration": 5910,
+    "offset": 1260470,
+    "lang": "en"
+  },
+  {
+    "text": "trigger a function which grabs the text",
+    "duration": 6000,
+    "offset": 1263740,
+    "lang": "en"
+  },
+  {
+    "text": "in the input box and sends this text to",
+    "duration": 5360,
+    "offset": 1266380,
+    "lang": "en"
+  },
+  {
+    "text": "the server going back to the browser",
+    "duration": 4470,
+    "offset": 1269740,
+    "lang": "en"
+  },
+  {
+    "text": "whenever I press the send button I",
+    "duration": 4870,
+    "offset": 1271740,
+    "lang": "en"
+  },
+  {
+    "text": "wanted to grab this text whatever we",
+    "duration": 4620,
+    "offset": 1274210,
+    "lang": "en"
+  },
+  {
+    "text": "have typed in here and I want to take",
+    "duration": 4740,
+    "offset": 1276610,
+    "lang": "en"
+  },
+  {
+    "text": "that text and send it to the server so",
+    "duration": 4800,
+    "offset": 1278830,
+    "lang": "en"
+  },
+  {
+    "text": "let's do that again this is standard",
+    "duration": 4860,
+    "offset": 1281350,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript this is not related to flask",
+    "duration": 6810,
+    "offset": 1283630,
+    "lang": "en"
+  },
+  {
+    "text": "soccer are you in any way document dot",
+    "duration": 8190,
+    "offset": 1286210,
+    "lang": "en"
+  },
+  {
+    "text": "query selector so let's get the ID of",
+    "duration": 6660,
+    "offset": 1290440,
+    "lang": "en"
+  },
+  {
+    "text": "the input box I'll go back to the HTML",
+    "duration": 5760,
+    "offset": 1294400,
+    "lang": "en"
+  },
+  {
+    "text": "file this is the input box right here",
+    "duration": 9079,
+    "offset": 1297100,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna copy this ID and paste it here",
+    "duration": 9320,
+    "offset": 1300160,
+    "lang": "en"
+  },
+  {
+    "text": "and we want the text or the value which",
+    "duration": 6330,
+    "offset": 1306179,
+    "lang": "en"
+  },
+  {
+    "text": "is inside the input box okay let's go to",
+    "duration": 4829,
+    "offset": 1309480,
+    "lang": "en"
+  },
+  {
+    "text": "our application file and see what",
+    "duration": 4290,
+    "offset": 1312509,
+    "lang": "en"
+  },
+  {
+    "text": "happens when this message is received by",
+    "duration": 4881,
+    "offset": 1314309,
+    "lang": "en"
+  },
+  {
+    "text": "the server",
+    "duration": 2391,
+    "offset": 1316799,
+    "lang": "en"
+  },
+  {
+    "text": "okay I'm gonna comment this out we don't",
+    "duration": 3720,
+    "offset": 1319440,
+    "lang": "en"
+  },
+  {
+    "text": "want to keep printing it to the terminal",
+    "duration": 4770,
+    "offset": 1321420,
+    "lang": "en"
+  },
+  {
+    "text": "we also don't need a custom event here",
+    "duration": 6570,
+    "offset": 1323160,
+    "lang": "en"
+  },
+  {
+    "text": "so I'm gonna remove this so now when the",
+    "duration": 6150,
+    "offset": 1326190,
+    "lang": "en"
+  },
+  {
+    "text": "server receives data in this message",
+    "duration": 5430,
+    "offset": 1329730,
+    "lang": "en"
+  },
+  {
+    "text": "event bucket all it does is it takes the",
+    "duration": 5220,
+    "offset": 1332340,
+    "lang": "en"
+  },
+  {
+    "text": "data as is and it sends it to all the",
+    "duration": 4800,
+    "offset": 1335160,
+    "lang": "en"
+  },
+  {
+    "text": "clients let's go to the client side and",
+    "duration": 4530,
+    "offset": 1337560,
+    "lang": "en"
+  },
+  {
+    "text": "see what we can do with the data that we",
+    "duration": 4440,
+    "offset": 1339960,
+    "lang": "en"
+  },
+  {
+    "text": "received back from the server back to",
+    "duration": 5700,
+    "offset": 1342090,
+    "lang": "en"
+  },
+  {
+    "text": "socket dot IO this is where the message",
+    "duration": 4110,
+    "offset": 1344400,
+    "lang": "en"
+  },
+  {
+    "text": "will come",
+    "duration": 2610,
+    "offset": 1347790,
+    "lang": "en"
+  },
+  {
+    "text": "so rather than display the message",
+    "duration": 4560,
+    "offset": 1348510,
+    "lang": "en"
+  },
+  {
+    "text": "received in the browser is console the",
+    "duration": 4200,
+    "offset": 1350400,
+    "lang": "en"
+  },
+  {
+    "text": "way that we are doing it right here",
+    "duration": 3870,
+    "offset": 1353070,
+    "lang": "en"
+  },
+  {
+    "text": "let's display the message received on",
+    "duration": 5010,
+    "offset": 1354600,
+    "lang": "en"
+  },
+  {
+    "text": "the screen itself so I'm gonna remove",
+    "duration": 5220,
+    "offset": 1356940,
+    "lang": "en"
+  },
+  {
+    "text": "this now a word of warning since we are",
+    "duration": 4890,
+    "offset": 1359610,
+    "lang": "en"
+  },
+  {
+    "text": "not using jQuery for this tutorial we",
+    "duration": 4410,
+    "offset": 1362160,
+    "lang": "en"
+  },
+  {
+    "text": "would have to write a few additional",
+    "duration": 4710,
+    "offset": 1364500,
+    "lang": "en"
+  },
+  {
+    "text": "lines of code first we create the",
+    "duration": 5010,
+    "offset": 1366570,
+    "lang": "en"
+  },
+  {
+    "text": "paragraph element let's call the element",
+    "duration": 5850,
+    "offset": 1369210,
+    "lang": "en"
+  },
+  {
+    "text": "B and document dot create element and",
+    "duration": 6630,
+    "offset": 1371580,
+    "lang": "en"
+  },
+  {
+    "text": "the element we want to create is B let's",
+    "duration": 5910,
+    "offset": 1375060,
+    "lang": "en"
+  },
+  {
+    "text": "create a line break and I'm gonna call",
+    "duration": 5850,
+    "offset": 1378210,
+    "lang": "en"
+  },
+  {
+    "text": "it BR and syntax is the same as the one",
+    "duration": 6990,
+    "offset": 1380970,
+    "lang": "en"
+  },
+  {
+    "text": "we used for para element next let's set",
+    "duration": 6600,
+    "offset": 1384060,
+    "lang": "en"
+  },
+  {
+    "text": "the inner HTML of the element to the",
+    "duration": 5340,
+    "offset": 1387960,
+    "lang": "en"
+  },
+  {
+    "text": "message text so where do we get that",
+    "duration": 5010,
+    "offset": 1390660,
+    "lang": "en"
+  },
+  {
+    "text": "from that is this parameter right here",
+    "duration": 5130,
+    "offset": 1393300,
+    "lang": "en"
+  },
+  {
+    "text": "called as data so the inner value of the",
+    "duration": 5990,
+    "offset": 1395670,
+    "lang": "en"
+  },
+  {
+    "text": "paragraph tag will be data",
+    "duration": 6300,
+    "offset": 1398430,
+    "lang": "en"
+  },
+  {
+    "text": "finally let's append it to the area",
+    "duration": 5620,
+    "offset": 1401660,
+    "lang": "en"
+  },
+  {
+    "text": "where the messages are displayed so how",
+    "duration": 5070,
+    "offset": 1404730,
+    "lang": "en"
+  },
+  {
+    "text": "do we do it again document dot query",
+    "duration": 6660,
+    "offset": 1407280,
+    "lang": "en"
+  },
+  {
+    "text": "selector we need the ID of the area",
+    "duration": 6360,
+    "offset": 1409800,
+    "lang": "en"
+  },
+  {
+    "text": "where the message has to be displayed so",
+    "duration": 5910,
+    "offset": 1413940,
+    "lang": "en"
+  },
+  {
+    "text": "we go to the HTML file and we crab this",
+    "duration": 5980,
+    "offset": 1416160,
+    "lang": "en"
+  },
+  {
+    "text": "ID right here",
+    "duration": 4780,
+    "offset": 1419850,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it here",
+    "duration": 4710,
+    "offset": 1422140,
+    "lang": "en"
+  },
+  {
+    "text": "and we want to append this to the para",
+    "duration": 4580,
+    "offset": 1424630,
+    "lang": "en"
+  },
+  {
+    "text": "element to be created",
+    "duration": 6300,
+    "offset": 1426850,
+    "lang": "en"
+  },
+  {
+    "text": "okay so let's test this we'll go back to",
+    "duration": 7190,
+    "offset": 1429210,
+    "lang": "en"
+  },
+  {
+    "text": "the browser refresh the page",
+    "duration": 5830,
+    "offset": 1433150,
+    "lang": "en"
+  },
+  {
+    "text": "so we can see the message we had set for",
+    "duration": 5310,
+    "offset": 1436400,
+    "lang": "en"
+  },
+  {
+    "text": "the connect event appearing now let's",
+    "duration": 6020,
+    "offset": 1438980,
+    "lang": "en"
+  },
+  {
+    "text": "try testing one two three",
+    "duration": 9860,
+    "offset": 1441710,
+    "lang": "en"
+  },
+  {
+    "text": "let's try one more okay so no surprises",
+    "duration": 6960,
+    "offset": 1445000,
+    "lang": "en"
+  },
+  {
+    "text": "there",
+    "duration": 2700,
+    "offset": 1451570,
+    "lang": "en"
+  },
+  {
+    "text": "now these messages would be a whole lot",
+    "duration": 5219,
+    "offset": 1451960,
+    "lang": "en"
+  },
+  {
+    "text": "more useful in a chat application if we",
+    "duration": 5340,
+    "offset": 1454270,
+    "lang": "en"
+  },
+  {
+    "text": "knew who was typing the message so we",
+    "duration": 4411,
+    "offset": 1457179,
+    "lang": "en"
+  },
+  {
+    "text": "need to figure out a way to append the",
+    "duration": 4710,
+    "offset": 1459610,
+    "lang": "en"
+  },
+  {
+    "text": "username to each of these messages so",
+    "duration": 5010,
+    "offset": 1461590,
+    "lang": "en"
+  },
+  {
+    "text": "let's go to application dot by and",
+    "duration": 5430,
+    "offset": 1464320,
+    "lang": "en"
+  },
+  {
+    "text": "figure out how to do this okay before we",
+    "duration": 5220,
+    "offset": 1466600,
+    "lang": "en"
+  },
+  {
+    "text": "talk about sending the username to the",
+    "duration": 4590,
+    "offset": 1469750,
+    "lang": "en"
+  },
+  {
+    "text": "client we need to figure out how and",
+    "duration": 5520,
+    "offset": 1471820,
+    "lang": "en"
+  },
+  {
+    "text": "there is a username saved and how do we",
+    "duration": 5490,
+    "offset": 1474340,
+    "lang": "en"
+  },
+  {
+    "text": "retrieve this value if you're watching",
+    "duration": 4680,
+    "offset": 1477340,
+    "lang": "en"
+  },
+  {
+    "text": "this video as a standalone piece then",
+    "duration": 3660,
+    "offset": 1479830,
+    "lang": "en"
+  },
+  {
+    "text": "you need to figure out how you have",
+    "duration": 3810,
+    "offset": 1482020,
+    "lang": "en"
+  },
+  {
+    "text": "stored the username in your application",
+    "duration": 4620,
+    "offset": 1483490,
+    "lang": "en"
+  },
+  {
+    "text": "and how will you access it if you're not",
+    "duration": 4380,
+    "offset": 1485830,
+    "lang": "en"
+  },
+  {
+    "text": "sure how to create a user authentication",
+    "duration": 4170,
+    "offset": 1488110,
+    "lang": "en"
+  },
+  {
+    "text": "system you can click on the link above",
+    "duration": 5370,
+    "offset": 1490210,
+    "lang": "en"
+  },
+  {
+    "text": "for part 5 of the video series from part",
+    "duration": 6149,
+    "offset": 1492280,
+    "lang": "en"
+  },
+  {
+    "text": "5 to part 7 of the series we created a",
+    "duration": 5610,
+    "offset": 1495580,
+    "lang": "en"
+  },
+  {
+    "text": "user authentication system anyways for",
+    "duration": 4380,
+    "offset": 1498429,
+    "lang": "en"
+  },
+  {
+    "text": "those of you who are following along",
+    "duration": 3479,
+    "offset": 1501190,
+    "lang": "en"
+  },
+  {
+    "text": "with the series then the username you",
+    "duration": 4171,
+    "offset": 1502809,
+    "lang": "en"
+  },
+  {
+    "text": "would remember is saved in our Postgres",
+    "duration": 4921,
+    "offset": 1504669,
+    "lang": "en"
+  },
+  {
+    "text": "sequel database and we are managing the",
+    "duration": 5370,
+    "offset": 1506980,
+    "lang": "en"
+  },
+  {
+    "text": "session through flask login extension so",
+    "duration": 4500,
+    "offset": 1509590,
+    "lang": "en"
+  },
+  {
+    "text": "if you recollect and we had covered this",
+    "duration": 4020,
+    "offset": 1512350,
+    "lang": "en"
+  },
+  {
+    "text": "in part 9 of the video series the",
+    "duration": 4560,
+    "offset": 1514090,
+    "lang": "en"
+  },
+  {
+    "text": "username can be accessed by the current",
+    "duration": 4590,
+    "offset": 1516370,
+    "lang": "en"
+  },
+  {
+    "text": "user object and then we want the user",
+    "duration": 5519,
+    "offset": 1518650,
+    "lang": "en"
+  },
+  {
+    "text": "name this will give us the username if",
+    "duration": 4949,
+    "offset": 1520960,
+    "lang": "en"
+  },
+  {
+    "text": "you want to refresh your knowledge of",
+    "duration": 4081,
+    "offset": 1524169,
+    "lang": "en"
+  },
+  {
+    "text": "flask login basics you can use the link",
+    "duration": 4351,
+    "offset": 1525909,
+    "lang": "en"
+  },
+  {
+    "text": "above to get to part 9 of the video",
+    "duration": 4620,
+    "offset": 1528250,
+    "lang": "en"
+  },
+  {
+    "text": "series where we covered it okay now that",
+    "duration": 4890,
+    "offset": 1530260,
+    "lang": "en"
+  },
+  {
+    "text": "we have the username how do we pass this",
+    "duration": 4679,
+    "offset": 1532870,
+    "lang": "en"
+  },
+  {
+    "text": "value to the clients there are several",
+    "duration": 4980,
+    "offset": 1535150,
+    "lang": "en"
+  },
+  {
+    "text": "ways to do it one way is to trigger a",
+    "duration": 5401,
+    "offset": 1537549,
+    "lang": "en"
+  },
+  {
+    "text": "custom event in socket IO on connect and",
+    "duration": 5490,
+    "offset": 1540130,
+    "lang": "en"
+  },
+  {
+    "text": "send across the username the more common",
+    "duration": 4500,
+    "offset": 1542950,
+    "lang": "en"
+  },
+  {
+    "text": "way would be just to pass on the user",
+    "duration": 4620,
+    "offset": 1545620,
+    "lang": "en"
+  },
+  {
+    "text": "name along with the template this is a",
+    "duration": 5400,
+    "offset": 1547450,
+    "lang": "en"
+  },
+  {
+    "text": "straightforward method so let's do that",
+    "duration": 5549,
+    "offset": 1550240,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna cut it from here and we're",
+    "duration": 4650,
+    "offset": 1552850,
+    "lang": "en"
+  },
+  {
+    "text": "gonna go to the chat route right here",
+    "duration": 5581,
+    "offset": 1555789,
+    "lang": "en"
+  },
+  {
+    "text": "this is where we render the template so",
+    "duration": 6690,
+    "offset": 1557500,
+    "lang": "en"
+  },
+  {
+    "text": "along with the HTML file let's pass the",
+    "duration": 4860,
+    "offset": 1561370,
+    "lang": "en"
+  },
+  {
+    "text": "value of the username and I'll just",
+    "duration": 4229,
+    "offset": 1564190,
+    "lang": "en"
+  },
+  {
+    "text": "paste what I cut from below this",
+    "duration": 5040,
+    "offset": 1566230,
+    "lang": "en"
+  },
+  {
+    "text": "variable called username holds the name",
+    "duration": 5281,
+    "offset": 1568419,
+    "lang": "en"
+  },
+  {
+    "text": "of the current user and it's gonna be",
+    "duration": 5340,
+    "offset": 1571270,
+    "lang": "en"
+  },
+  {
+    "text": "accessible in chat dot HTML file let's",
+    "duration": 6410,
+    "offset": 1573700,
+    "lang": "en"
+  },
+  {
+    "text": "go to chapter HTML",
+    "duration": 3500,
+    "offset": 1576610,
+    "lang": "en"
+  },
+  {
+    "text": "if you want the value displayed on the",
+    "duration": 4510,
+    "offset": 1581710,
+    "lang": "en"
+  },
+  {
+    "text": "page maybe something in form of a",
+    "duration": 3660,
+    "offset": 1584480,
+    "lang": "en"
+  },
+  {
+    "text": "greeting we can for example have a",
+    "duration": 7100,
+    "offset": 1586220,
+    "lang": "en"
+  },
+  {
+    "text": "paragraph tag like this with some ID and",
+    "duration": 8669,
+    "offset": 1588140,
+    "lang": "en"
+  },
+  {
+    "text": "display the username like this ginger",
+    "duration": 6010,
+    "offset": 1593320,
+    "lang": "en"
+  },
+  {
+    "text": "will render the username of the current",
+    "duration": 4860,
+    "offset": 1596809,
+    "lang": "en"
+  },
+  {
+    "text": "user and then we can just grab this",
+    "duration": 4620,
+    "offset": 1599330,
+    "lang": "en"
+  },
+  {
+    "text": "value using query selector so that's",
+    "duration": 4921,
+    "offset": 1601669,
+    "lang": "en"
+  },
+  {
+    "text": "easy enough this is the easiest way to",
+    "duration": 5040,
+    "offset": 1603950,
+    "lang": "en"
+  },
+  {
+    "text": "do it but perhaps we don't want the user",
+    "duration": 4610,
+    "offset": 1606590,
+    "lang": "en"
+  },
+  {
+    "text": "name displayed on the screen",
+    "duration": 4500,
+    "offset": 1608990,
+    "lang": "en"
+  },
+  {
+    "text": "in which case we can use plain",
+    "duration": 5410,
+    "offset": 1611200,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript so what we can do is we can",
+    "duration": 5340,
+    "offset": 1613490,
+    "lang": "en"
+  },
+  {
+    "text": "use standard ginger syntax to display",
+    "duration": 4199,
+    "offset": 1616610,
+    "lang": "en"
+  },
+  {
+    "text": "the username variable and store that",
+    "duration": 4050,
+    "offset": 1618830,
+    "lang": "en"
+  },
+  {
+    "text": "value in a constant which could be",
+    "duration": 3931,
+    "offset": 1620809,
+    "lang": "en"
+  },
+  {
+    "text": "called anything but I'm calling it",
+    "duration": 7169,
+    "offset": 1622880,
+    "lang": "en"
+  },
+  {
+    "text": "username and do note that this is not a",
+    "duration": 8760,
+    "offset": 1624740,
+    "lang": "en"
+  },
+  {
+    "text": "single port this is a back deck and you",
+    "duration": 4951,
+    "offset": 1630049,
+    "lang": "en"
+  },
+  {
+    "text": "would find backtick on your keyboard",
+    "duration": 4320,
+    "offset": 1633500,
+    "lang": "en"
+  },
+  {
+    "text": "generally below the Escape key okay the",
+    "duration": 4590,
+    "offset": 1635000,
+    "lang": "en"
+  },
+  {
+    "text": "other thing is some of you might be",
+    "duration": 3780,
+    "offset": 1637820,
+    "lang": "en"
+  },
+  {
+    "text": "wondering why did we escape this by",
+    "duration": 5610,
+    "offset": 1639590,
+    "lang": "en"
+  },
+  {
+    "text": "adding pipe e like this so this will",
+    "duration": 5459,
+    "offset": 1641600,
+    "lang": "en"
+  },
+  {
+    "text": "change any special character in the",
+    "duration": 4410,
+    "offset": 1645200,
+    "lang": "en"
+  },
+  {
+    "text": "username value to its unicode values",
+    "duration": 4891,
+    "offset": 1647059,
+    "lang": "en"
+  },
+  {
+    "text": "which can prevent unexpected behavior",
+    "duration": 4380,
+    "offset": 1649610,
+    "lang": "en"
+  },
+  {
+    "text": "that can be caused if this username",
+    "duration": 4589,
+    "offset": 1651950,
+    "lang": "en"
+  },
+  {
+    "text": "variable had any special characters in",
+    "duration": 5790,
+    "offset": 1653990,
+    "lang": "en"
+  },
+  {
+    "text": "it this form of HTML escaping is good",
+    "duration": 4921,
+    "offset": 1656539,
+    "lang": "en"
+  },
+  {
+    "text": "practice the reason why we are not",
+    "duration": 4649,
+    "offset": 1659780,
+    "lang": "en"
+  },
+  {
+    "text": "escaping it here is because be used WT",
+    "duration": 6180,
+    "offset": 1661460,
+    "lang": "en"
+  },
+  {
+    "text": "forms and WT forms will always return",
+    "duration": 6541,
+    "offset": 1664429,
+    "lang": "en"
+  },
+  {
+    "text": "values in Python unicode strings so if",
+    "duration": 5399,
+    "offset": 1667640,
+    "lang": "en"
+  },
+  {
+    "text": "the username had any special characters",
+    "duration": 4770,
+    "offset": 1670970,
+    "lang": "en"
+  },
+  {
+    "text": "it would have already been substituted",
+    "duration": 5071,
+    "offset": 1673039,
+    "lang": "en"
+  },
+  {
+    "text": "with unicode characters here so that's",
+    "duration": 4919,
+    "offset": 1675740,
+    "lang": "en"
+  },
+  {
+    "text": "why we don't need the pipe e for this",
+    "duration": 5610,
+    "offset": 1678110,
+    "lang": "en"
+  },
+  {
+    "text": "particular example now in case you did",
+    "duration": 5041,
+    "offset": 1680659,
+    "lang": "en"
+  },
+  {
+    "text": "not understand any of it don't worry",
+    "duration": 4079,
+    "offset": 1683720,
+    "lang": "en"
+  },
+  {
+    "text": "it's not relevant for now the only",
+    "duration": 3810,
+    "offset": 1685700,
+    "lang": "en"
+  },
+  {
+    "text": "reason I covered it is because sometimes",
+    "duration": 4260,
+    "offset": 1687799,
+    "lang": "en"
+  },
+  {
+    "text": "people ask me this question all right",
+    "duration": 4799,
+    "offset": 1689510,
+    "lang": "en"
+  },
+  {
+    "text": "now we have passed the username value",
+    "duration": 5131,
+    "offset": 1692059,
+    "lang": "en"
+  },
+  {
+    "text": "from flask to this template we can now",
+    "duration": 4831,
+    "offset": 1694309,
+    "lang": "en"
+  },
+  {
+    "text": "use this value directly in our",
+    "duration": 4050,
+    "offset": 1697190,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript file so let's go to our",
+    "duration": 4050,
+    "offset": 1699140,
+    "lang": "en"
+  },
+  {
+    "text": "javascript file and use the username",
+    "duration": 4559,
+    "offset": 1701240,
+    "lang": "en"
+  },
+  {
+    "text": "variable since we have declared the",
+    "duration": 5070,
+    "offset": 1703190,
+    "lang": "en"
+  },
+  {
+    "text": "variable username in the HTML file in",
+    "duration": 4801,
+    "offset": 1705799,
+    "lang": "en"
+  },
+  {
+    "text": "this javascript file whenever we want",
+    "duration": 4500,
+    "offset": 1708260,
+    "lang": "en"
+  },
+  {
+    "text": "user name we can just type in username",
+    "duration": 3459,
+    "offset": 1710600,
+    "lang": "en"
+  },
+  {
+    "text": "directly",
+    "duration": 2799,
+    "offset": 1712760,
+    "lang": "en"
+  },
+  {
+    "text": "let's do something with this username",
+    "duration": 3631,
+    "offset": 1714059,
+    "lang": "en"
+  },
+  {
+    "text": "value every time the user sends a",
+    "duration": 4771,
+    "offset": 1715559,
+    "lang": "en"
+  },
+  {
+    "text": "message we want this username to be also",
+    "duration": 4679,
+    "offset": 1717690,
+    "lang": "en"
+  },
+  {
+    "text": "passed on along with the message text",
+    "duration": 4319,
+    "offset": 1720330,
+    "lang": "en"
+  },
+  {
+    "text": "otherwise our chat application will be a",
+    "duration": 4170,
+    "offset": 1722369,
+    "lang": "en"
+  },
+  {
+    "text": "bunch of messages and no one will know",
+    "duration": 4441,
+    "offset": 1724649,
+    "lang": "en"
+  },
+  {
+    "text": "who's sending what by the way we can",
+    "duration": 4560,
+    "offset": 1726539,
+    "lang": "en"
+  },
+  {
+    "text": "delete this since we're not using this",
+    "duration": 5219,
+    "offset": 1729090,
+    "lang": "en"
+  },
+  {
+    "text": "connect event let's go to the section",
+    "duration": 5130,
+    "offset": 1731099,
+    "lang": "en"
+  },
+  {
+    "text": "where we will be sending the message",
+    "duration": 4920,
+    "offset": 1734309,
+    "lang": "en"
+  },
+  {
+    "text": "text to the server instead of just",
+    "duration": 5611,
+    "offset": 1736229,
+    "lang": "en"
+  },
+  {
+    "text": "sending the message text like the way we",
+    "duration": 4950,
+    "offset": 1739229,
+    "lang": "en"
+  },
+  {
+    "text": "are doing right here we can also sort of",
+    "duration": 4649,
+    "offset": 1741840,
+    "lang": "en"
+  },
+  {
+    "text": "send a dictionary with JSON data and",
+    "duration": 4680,
+    "offset": 1744179,
+    "lang": "en"
+  },
+  {
+    "text": "this is the format that we use for it",
+    "duration": 4831,
+    "offset": 1746489,
+    "lang": "en"
+  },
+  {
+    "text": "so this is the message key and this is",
+    "duration": 4380,
+    "offset": 1748859,
+    "lang": "en"
+  },
+  {
+    "text": "the value let's also add one for",
+    "duration": 5189,
+    "offset": 1751320,
+    "lang": "en"
+  },
+  {
+    "text": "username and this key which I'm calling",
+    "duration": 5040,
+    "offset": 1753239,
+    "lang": "en"
+  },
+  {
+    "text": "as username will have the value of",
+    "duration": 7601,
+    "offset": 1756509,
+    "lang": "en"
+  },
+  {
+    "text": "username so this username right here",
+    "duration": 9191,
+    "offset": 1758279,
+    "lang": "en"
+  },
+  {
+    "text": "is this constant right here which is the",
+    "duration": 5669,
+    "offset": 1764110,
+    "lang": "en"
+  },
+  {
+    "text": "value of the current username okay so",
+    "duration": 4470,
+    "offset": 1767470,
+    "lang": "en"
+  },
+  {
+    "text": "this is what we are passing along to the",
+    "duration": 4681,
+    "offset": 1769779,
+    "lang": "en"
+  },
+  {
+    "text": "server now let's see how this data will",
+    "duration": 4890,
+    "offset": 1771940,
+    "lang": "en"
+  },
+  {
+    "text": "appear on the server side for this we",
+    "duration": 5740,
+    "offset": 1774460,
+    "lang": "en"
+  },
+  {
+    "text": "head back over to our application file",
+    "duration": 6459,
+    "offset": 1776830,
+    "lang": "en"
+  },
+  {
+    "text": "and I'm gonna comment this back in let's",
+    "duration": 7250,
+    "offset": 1780200,
+    "lang": "en"
+  },
+  {
+    "text": "go to the server and type a message",
+    "duration": 4161,
+    "offset": 1783289,
+    "lang": "en"
+  },
+  {
+    "text": "refresh the page and let's type in a",
+    "duration": 5120,
+    "offset": 1789660,
+    "lang": "en"
+  },
+  {
+    "text": "desk message",
+    "duration": 2750,
+    "offset": 1792030,
+    "lang": "en"
+  },
+  {
+    "text": "this is the format in which the server",
+    "duration": 4620,
+    "offset": 1796740,
+    "lang": "en"
+  },
+  {
+    "text": "receives a message this is the message",
+    "duration": 6240,
+    "offset": 1798960,
+    "lang": "en"
+  },
+  {
+    "text": "text and this is the username so now",
+    "duration": 5759,
+    "offset": 1801360,
+    "lang": "en"
+  },
+  {
+    "text": "what's being sent back to the server is",
+    "duration": 4469,
+    "offset": 1805200,
+    "lang": "en"
+  },
+  {
+    "text": "no longer a simple message text but you",
+    "duration": 4440,
+    "offset": 1807119,
+    "lang": "en"
+  },
+  {
+    "text": "are sending a bit more complicated data",
+    "duration": 4200,
+    "offset": 1809669,
+    "lang": "en"
+  },
+  {
+    "text": "format let's jump back to the",
+    "duration": 4021,
+    "offset": 1811559,
+    "lang": "en"
+  },
+  {
+    "text": "client-side and do something more with",
+    "duration": 5400,
+    "offset": 1813869,
+    "lang": "en"
+  },
+  {
+    "text": "us we need to make some edits here in",
+    "duration": 6240,
+    "offset": 1815580,
+    "lang": "en"
+  },
+  {
+    "text": "order to access the message text I will",
+    "duration": 6900,
+    "offset": 1819269,
+    "lang": "en"
+  },
+  {
+    "text": "have to say data dot msg and msg is the",
+    "duration": 7650,
+    "offset": 1821820,
+    "lang": "en"
+  },
+  {
+    "text": "key which is used right here so this",
+    "duration": 6330,
+    "offset": 1826169,
+    "lang": "en"
+  },
+  {
+    "text": "will hold the message text we would",
+    "duration": 4949,
+    "offset": 1829470,
+    "lang": "en"
+  },
+  {
+    "text": "eventually want to format the username",
+    "duration": 5101,
+    "offset": 1832499,
+    "lang": "en"
+  },
+  {
+    "text": "and the text separately this is a design",
+    "duration": 5340,
+    "offset": 1834419,
+    "lang": "en"
+  },
+  {
+    "text": "aspect and ideally we want to complete",
+    "duration": 4529,
+    "offset": 1837600,
+    "lang": "en"
+  },
+  {
+    "text": "the functionality first before we worry",
+    "duration": 5461,
+    "offset": 1839759,
+    "lang": "en"
+  },
+  {
+    "text": "about the design however for now let's",
+    "duration": 5341,
+    "offset": 1842129,
+    "lang": "en"
+  },
+  {
+    "text": "complete this exercise will create a",
+    "duration": 5339,
+    "offset": 1845220,
+    "lang": "en"
+  },
+  {
+    "text": "span element for the username so let's",
+    "duration": 5760,
+    "offset": 1847470,
+    "lang": "en"
+  },
+  {
+    "text": "create it right here I'm gonna call it",
+    "duration": 4531,
+    "offset": 1850559,
+    "lang": "en"
+  },
+  {
+    "text": "span username I could have called it",
+    "duration": 4260,
+    "offset": 1853230,
+    "lang": "en"
+  },
+  {
+    "text": "anything and it's a span element so",
+    "duration": 4799,
+    "offset": 1855090,
+    "lang": "en"
+  },
+  {
+    "text": "document dot create element and then",
+    "duration": 5639,
+    "offset": 1857490,
+    "lang": "en"
+  },
+  {
+    "text": "span we set the inner HTML of the span",
+    "duration": 5880,
+    "offset": 1859889,
+    "lang": "en"
+  },
+  {
+    "text": "element to be username and like message",
+    "duration": 5490,
+    "offset": 1863129,
+    "lang": "en"
+  },
+  {
+    "text": "text to access the username the syntax",
+    "duration": 6630,
+    "offset": 1865769,
+    "lang": "en"
+  },
+  {
+    "text": "is data dot username and this data is",
+    "duration": 6111,
+    "offset": 1868619,
+    "lang": "en"
+  },
+  {
+    "text": "this data right here",
+    "duration": 5211,
+    "offset": 1872399,
+    "lang": "en"
+  },
+  {
+    "text": "and finally we modified this element",
+    "duration": 7189,
+    "offset": 1874730,
+    "lang": "en"
+  },
+  {
+    "text": "right here to also include the username",
+    "duration": 4309,
+    "offset": 1877610,
+    "lang": "en"
+  },
+  {
+    "text": "we also add a couple of line breaks",
+    "duration": 5981,
+    "offset": 1884799,
+    "lang": "en"
+  },
+  {
+    "text": "let's also add a line break after the",
+    "duration": 5950,
+    "offset": 1887890,
+    "lang": "en"
+  },
+  {
+    "text": "message text let's go back to the",
+    "duration": 4590,
+    "offset": 1890780,
+    "lang": "en"
+  },
+  {
+    "text": "browser and see how the whole thing",
+    "duration": 7130,
+    "offset": 1893840,
+    "lang": "en"
+  },
+  {
+    "text": "works now so let's enter a hollow world",
+    "duration": 5600,
+    "offset": 1895370,
+    "lang": "en"
+  },
+  {
+    "text": "you see the user name and then a line",
+    "duration": 4990,
+    "offset": 1901720,
+    "lang": "en"
+  },
+  {
+    "text": "break and then you see the hello world",
+    "duration": 4620,
+    "offset": 1904790,
+    "lang": "en"
+  },
+  {
+    "text": "now along with the user name and the",
+    "duration": 5520,
+    "offset": 1906710,
+    "lang": "en"
+  },
+  {
+    "text": "message text what if we want to add time",
+    "duration": 5190,
+    "offset": 1909410,
+    "lang": "en"
+  },
+  {
+    "text": "when the message was sent how would we",
+    "duration": 4949,
+    "offset": 1912230,
+    "lang": "en"
+  },
+  {
+    "text": "do it we have already seen with message",
+    "duration": 4829,
+    "offset": 1914600,
+    "lang": "en"
+  },
+  {
+    "text": "text on how to send data to the server",
+    "duration": 4620,
+    "offset": 1917179,
+    "lang": "en"
+  },
+  {
+    "text": "so it's not going to be a big change to",
+    "duration": 4771,
+    "offset": 1919429,
+    "lang": "en"
+  },
+  {
+    "text": "add time there's nothing new to see or",
+    "duration": 4681,
+    "offset": 1921799,
+    "lang": "en"
+  },
+  {
+    "text": "learn there now an alternative method",
+    "duration": 4830,
+    "offset": 1924200,
+    "lang": "en"
+  },
+  {
+    "text": "would be to append time from the server",
+    "duration": 6030,
+    "offset": 1926480,
+    "lang": "en"
+  },
+  {
+    "text": "side to see how we do this let's go back",
+    "duration": 6540,
+    "offset": 1929030,
+    "lang": "en"
+  },
+  {
+    "text": "to application dot PI to send the time",
+    "duration": 5310,
+    "offset": 1932510,
+    "lang": "en"
+  },
+  {
+    "text": "along with the message text we will use",
+    "duration": 4739,
+    "offset": 1935570,
+    "lang": "en"
+  },
+  {
+    "text": "pythons time module there are two",
+    "duration": 4670,
+    "offset": 1937820,
+    "lang": "en"
+  },
+  {
+    "text": "functions we need to import from time",
+    "duration": 5881,
+    "offset": 1940309,
+    "lang": "en"
+  },
+  {
+    "text": "first as local time and second string",
+    "duration": 6280,
+    "offset": 1942490,
+    "lang": "en"
+  },
+  {
+    "text": "for time we will use this to format the",
+    "duration": 3810,
+    "offset": 1946190,
+    "lang": "en"
+  },
+  {
+    "text": "way the time is displayed",
+    "duration": 3539,
+    "offset": 1948770,
+    "lang": "en"
+  },
+  {
+    "text": "okay let's scroll down to our message",
+    "duration": 4440,
+    "offset": 1950000,
+    "lang": "en"
+  },
+  {
+    "text": "event",
+    "duration": 4411,
+    "offset": 1952309,
+    "lang": "en"
+  },
+  {
+    "text": "here let me ask you a question how do we",
+    "duration": 4940,
+    "offset": 1954440,
+    "lang": "en"
+  },
+  {
+    "text": "access the message text and the username",
+    "duration": 6030,
+    "offset": 1956720,
+    "lang": "en"
+  },
+  {
+    "text": "so far we have not been using this data",
+    "duration": 5560,
+    "offset": 1959380,
+    "lang": "en"
+  },
+  {
+    "text": "which we received from the client we",
+    "duration": 3840,
+    "offset": 1962750,
+    "lang": "en"
+  },
+  {
+    "text": "received this data and we just send it",
+    "duration": 2880,
+    "offset": 1964940,
+    "lang": "en"
+  },
+  {
+    "text": "across to the client we are not",
+    "duration": 3840,
+    "offset": 1966590,
+    "lang": "en"
+  },
+  {
+    "text": "manipulating this data in any way but",
+    "duration": 4770,
+    "offset": 1967820,
+    "lang": "en"
+  },
+  {
+    "text": "what if we wanted to access the message",
+    "duration": 4980,
+    "offset": 1970430,
+    "lang": "en"
+  },
+  {
+    "text": "text and the username we can use the",
+    "duration": 5130,
+    "offset": 1972590,
+    "lang": "en"
+  },
+  {
+    "text": "standard Python syntax to access the",
+    "duration": 4500,
+    "offset": 1975410,
+    "lang": "en"
+  },
+  {
+    "text": "message and the username so instead of",
+    "duration": 6270,
+    "offset": 1977720,
+    "lang": "en"
+  },
+  {
+    "text": "just data so message to access the value",
+    "duration": 5970,
+    "offset": 1979910,
+    "lang": "en"
+  },
+  {
+    "text": "of the message it's going to be data and",
+    "duration": 6030,
+    "offset": 1983990,
+    "lang": "en"
+  },
+  {
+    "text": "then message similarly to access",
+    "duration": 7050,
+    "offset": 1985880,
+    "lang": "en"
+  },
+  {
+    "text": "username we're gonna say data and then",
+    "duration": 7350,
+    "offset": 1990020,
+    "lang": "en"
+  },
+  {
+    "text": "username now if this is the format to",
+    "duration": 7230,
+    "offset": 1992930,
+    "lang": "en"
+  },
+  {
+    "text": "this we can easily add time now before",
+    "duration": 4860,
+    "offset": 1997370,
+    "lang": "en"
+  },
+  {
+    "text": "we do this let's figure out the format",
+    "duration": 5210,
+    "offset": 2000160,
+    "lang": "en"
+  },
+  {
+    "text": "that we want so let's go to Google and",
+    "duration": 7640,
+    "offset": 2002230,
+    "lang": "en"
+  },
+  {
+    "text": "Google Python time module",
+    "duration": 4500,
+    "offset": 2005370,
+    "lang": "en"
+  },
+  {
+    "text": "this is the documentation for the latest",
+    "duration": 6320,
+    "offset": 2013380,
+    "lang": "en"
+  },
+  {
+    "text": "version of Python so let's use this",
+    "duration": 4250,
+    "offset": 2015450,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 2061,
+    "offset": 2023929,
+    "lang": "en"
+  },
+  {
+    "text": "this is what we are looking for",
+    "duration": 3740,
+    "offset": 2027530,
+    "lang": "en"
+  },
+  {
+    "text": "we can use this to decide which format",
+    "duration": 5220,
+    "offset": 2031470,
+    "lang": "en"
+  },
+  {
+    "text": "we want time to appear in for example if",
+    "duration": 5730,
+    "offset": 2033870,
+    "lang": "en"
+  },
+  {
+    "text": "I use percentage and the lowercase B",
+    "duration": 5310,
+    "offset": 2036690,
+    "lang": "en"
+  },
+  {
+    "text": "it's gonna give us the abbreviated month",
+    "duration": 3830,
+    "offset": 2039600,
+    "lang": "en"
+  },
+  {
+    "text": "name",
+    "duration": 4740,
+    "offset": 2042000,
+    "lang": "en"
+  },
+  {
+    "text": "percentage D will show us the day of the",
+    "duration": 6070,
+    "offset": 2043430,
+    "lang": "en"
+  },
+  {
+    "text": "month now let's say we want the R and",
+    "duration": 5610,
+    "offset": 2046740,
+    "lang": "en"
+  },
+  {
+    "text": "the minutes so this would give us the R",
+    "duration": 5790,
+    "offset": 2049500,
+    "lang": "en"
+  },
+  {
+    "text": "and this would give us the minutes if",
+    "duration": 5580,
+    "offset": 2052350,
+    "lang": "en"
+  },
+  {
+    "text": "you use percentage P since you're not",
+    "duration": 4920,
+    "offset": 2055290,
+    "lang": "en"
+  },
+  {
+    "text": "using a 24-hour clock it's gonna tell us",
+    "duration": 3960,
+    "offset": 2057930,
+    "lang": "en"
+  },
+  {
+    "text": "whether it's a.m. or p.m.",
+    "duration": 4080,
+    "offset": 2060210,
+    "lang": "en"
+  },
+  {
+    "text": "so let's go use this in our application",
+    "duration": 3840,
+    "offset": 2061890,
+    "lang": "en"
+  },
+  {
+    "text": "file",
+    "duration": 4460,
+    "offset": 2064290,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna call this key timestamp and",
+    "duration": 6510,
+    "offset": 2065730,
+    "lang": "en"
+  },
+  {
+    "text": "the syntax to display the time is string",
+    "duration": 6129,
+    "offset": 2068750,
+    "lang": "en"
+  },
+  {
+    "text": "for time and then present B is gonna",
+    "duration": 4320,
+    "offset": 2072240,
+    "lang": "en"
+  },
+  {
+    "text": "give us the abbreviated name of the",
+    "duration": 6361,
+    "offset": 2074879,
+    "lang": "en"
+  },
+  {
+    "text": "month - % D the day of the month % I is",
+    "duration": 6599,
+    "offset": 2076560,
+    "lang": "en"
+  },
+  {
+    "text": "gonna give us the R and then we put a",
+    "duration": 4589,
+    "offset": 2081240,
+    "lang": "en"
+  },
+  {
+    "text": "colon and then present M it's gonna show",
+    "duration": 4621,
+    "offset": 2083159,
+    "lang": "en"
+  },
+  {
+    "text": "us some minutes and let's add a percent",
+    "duration": 5401,
+    "offset": 2085829,
+    "lang": "en"
+  },
+  {
+    "text": "B which will show us a.m. or p.m. and we",
+    "duration": 5250,
+    "offset": 2087780,
+    "lang": "en"
+  },
+  {
+    "text": "want the whole thing to be applied to",
+    "duration": 4470,
+    "offset": 2091230,
+    "lang": "en"
+  },
+  {
+    "text": "local time if you have any doubts on",
+    "duration": 4079,
+    "offset": 2093030,
+    "lang": "en"
+  },
+  {
+    "text": "this you can always refer to the",
+    "duration": 3930,
+    "offset": 2095700,
+    "lang": "en"
+  },
+  {
+    "text": "documentation on Python this is the",
+    "duration": 4411,
+    "offset": 2097109,
+    "lang": "en"
+  },
+  {
+    "text": "standard module I'm using there's not",
+    "duration": 4050,
+    "offset": 2099630,
+    "lang": "en"
+  },
+  {
+    "text": "related to flask soccer are you in",
+    "duration": 4470,
+    "offset": 2101520,
+    "lang": "en"
+  },
+  {
+    "text": "anyway let's head on over to our",
+    "duration": 5640,
+    "offset": 2103680,
+    "lang": "en"
+  },
+  {
+    "text": "javascript file to use this data will",
+    "duration": 5910,
+    "offset": 2105990,
+    "lang": "en"
+  },
+  {
+    "text": "wrap time inside a span tag the only",
+    "duration": 4110,
+    "offset": 2109320,
+    "lang": "en"
+  },
+  {
+    "text": "reason I'm doing it is because it's",
+    "duration": 3600,
+    "offset": 2111900,
+    "lang": "en"
+  },
+  {
+    "text": "easier for formatting so when we come to",
+    "duration": 3990,
+    "offset": 2113430,
+    "lang": "en"
+  },
+  {
+    "text": "that it just makes it easier instead of",
+    "duration": 3480,
+    "offset": 2115500,
+    "lang": "en"
+  },
+  {
+    "text": "having to come back here and edit it",
+    "duration": 1890,
+    "offset": 2117420,
+    "lang": "en"
+  },
+  {
+    "text": "again",
+    "duration": 2250,
+    "offset": 2118980,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna call this element span",
+    "duration": 7740,
+    "offset": 2119310,
+    "lang": "en"
+  },
+  {
+    "text": "underscore timestamp and this is another",
+    "duration": 9060,
+    "offset": 2121230,
+    "lang": "en"
+  },
+  {
+    "text": "span element let's set the inner HTML",
+    "duration": 6480,
+    "offset": 2127050,
+    "lang": "en"
+  },
+  {
+    "text": "for the span tag to the timestamp you",
+    "duration": 5549,
+    "offset": 2130290,
+    "lang": "en"
+  },
+  {
+    "text": "received from the server and the syntax",
+    "duration": 4559,
+    "offset": 2133530,
+    "lang": "en"
+  },
+  {
+    "text": "is gonna be the same as it was for",
+    "duration": 5191,
+    "offset": 2135839,
+    "lang": "en"
+  },
+  {
+    "text": "message and username data dot time",
+    "duration": 5911,
+    "offset": 2138089,
+    "lang": "en"
+  },
+  {
+    "text": "underscore stamp and this time",
+    "duration": 9200,
+    "offset": 2141030,
+    "lang": "en"
+  },
+  {
+    "text": "underscore stamp is this right here",
+    "duration": 6230,
+    "offset": 2144000,
+    "lang": "en"
+  },
+  {
+    "text": "and finally let's append the time to the",
+    "duration": 7380,
+    "offset": 2150570,
+    "lang": "en"
+  },
+  {
+    "text": "paragraph element let's go back to the",
+    "duration": 7470,
+    "offset": 2153690,
+    "lang": "en"
+  },
+  {
+    "text": "browser let's refresh it",
+    "duration": 6720,
+    "offset": 2157950,
+    "lang": "en"
+  },
+  {
+    "text": "and show me the time so there you have",
+    "duration": 7409,
+    "offset": 2161160,
+    "lang": "en"
+  },
+  {
+    "text": "it let's try another message do you see",
+    "duration": 7169,
+    "offset": 2164670,
+    "lang": "en"
+  },
+  {
+    "text": "the time is also getting updated now the",
+    "duration": 5431,
+    "offset": 2168569,
+    "lang": "en"
+  },
+  {
+    "text": "last thing that we will cover in socket",
+    "duration": 4651,
+    "offset": 2171839,
+    "lang": "en"
+  },
+  {
+    "text": "IO is the concept of rooms for this",
+    "duration": 6080,
+    "offset": 2174000,
+    "lang": "en"
+  },
+  {
+    "text": "let's go back to application PI",
+    "duration": 6020,
+    "offset": 2176490,
+    "lang": "en"
+  },
+  {
+    "text": "now to join and leave a room is pretty",
+    "duration": 5040,
+    "offset": 2180080,
+    "lang": "en"
+  },
+  {
+    "text": "simple with flasks sake Rio we just need",
+    "duration": 6150,
+    "offset": 2182510,
+    "lang": "en"
+  },
+  {
+    "text": "to import join room and leave room let's",
+    "duration": 6120,
+    "offset": 2185120,
+    "lang": "en"
+  },
+  {
+    "text": "write events for both join and leave",
+    "duration": 6170,
+    "offset": 2188660,
+    "lang": "en"
+  },
+  {
+    "text": "room so we will call the event and join",
+    "duration": 6720,
+    "offset": 2191240,
+    "lang": "en"
+  },
+  {
+    "text": "let's also call the function join and it",
+    "duration": 5230,
+    "offset": 2194830,
+    "lang": "en"
+  },
+  {
+    "text": "will accept an input let's call that",
+    "duration": 6270,
+    "offset": 2197960,
+    "lang": "en"
+  },
+  {
+    "text": "input data to get a user to join a room",
+    "duration": 6810,
+    "offset": 2200060,
+    "lang": "en"
+  },
+  {
+    "text": "the syntax is simple we just typed join",
+    "duration": 4620,
+    "offset": 2204230,
+    "lang": "en"
+  },
+  {
+    "text": "room and then the name of the room the",
+    "duration": 4590,
+    "offset": 2206870,
+    "lang": "en"
+  },
+  {
+    "text": "user has selected so this room variable",
+    "duration": 4710,
+    "offset": 2208850,
+    "lang": "en"
+  },
+  {
+    "text": "has to be something we received from the",
+    "duration": 4620,
+    "offset": 2211460,
+    "lang": "en"
+  },
+  {
+    "text": "client and therefore we use the Python",
+    "duration": 5040,
+    "offset": 2213560,
+    "lang": "en"
+  },
+  {
+    "text": "syntax to access the value of the room",
+    "duration": 4440,
+    "offset": 2216080,
+    "lang": "en"
+  },
+  {
+    "text": "this is the same way that we had done it",
+    "duration": 4320,
+    "offset": 2218600,
+    "lang": "en"
+  },
+  {
+    "text": "over here for message data and the",
+    "duration": 4270,
+    "offset": 2220520,
+    "lang": "en"
+  },
+  {
+    "text": "username",
+    "duration": 3460,
+    "offset": 2222920,
+    "lang": "en"
+  },
+  {
+    "text": "that's all that's required to have",
+    "duration": 3840,
+    "offset": 2224790,
+    "lang": "en"
+  },
+  {
+    "text": "someone join the room any message that",
+    "duration": 4290,
+    "offset": 2226380,
+    "lang": "en"
+  },
+  {
+    "text": "is sent to this room will be received by",
+    "duration": 4560,
+    "offset": 2228630,
+    "lang": "en"
+  },
+  {
+    "text": "the user who has joined the room people",
+    "duration": 4020,
+    "offset": 2230670,
+    "lang": "en"
+  },
+  {
+    "text": "who have not joined the room will not",
+    "duration": 4170,
+    "offset": 2233190,
+    "lang": "en"
+  },
+  {
+    "text": "receive the message when someone joins a",
+    "duration": 4500,
+    "offset": 2234690,
+    "lang": "en"
+  },
+  {
+    "text": "room the idly should send out a",
+    "duration": 4080,
+    "offset": 2237360,
+    "lang": "en"
+  },
+  {
+    "text": "notification to everyone else in the",
+    "duration": 4080,
+    "offset": 2239190,
+    "lang": "en"
+  },
+  {
+    "text": "room announcing that a new person has",
+    "duration": 4980,
+    "offset": 2241440,
+    "lang": "en"
+  },
+  {
+    "text": "joined in we can use send for this the",
+    "duration": 5220,
+    "offset": 2243270,
+    "lang": "en"
+  },
+  {
+    "text": "syntax is similar to the one we used for",
+    "duration": 6600,
+    "offset": 2246420,
+    "lang": "en"
+  },
+  {
+    "text": "the message event right here so the",
+    "duration": 8100,
+    "offset": 2248490,
+    "lang": "en"
+  },
+  {
+    "text": "message will be the user the username",
+    "duration": 6420,
+    "offset": 2253020,
+    "lang": "en"
+  },
+  {
+    "text": "will be sent by the client so data a",
+    "duration": 7290,
+    "offset": 2256590,
+    "lang": "en"
+  },
+  {
+    "text": "username has joined the name of the room",
+    "duration": 7110,
+    "offset": 2259440,
+    "lang": "en"
+  },
+  {
+    "text": "again this is also something we received",
+    "duration": 5160,
+    "offset": 2263880,
+    "lang": "en"
+  },
+  {
+    "text": "from the client so data and then room",
+    "duration": 9890,
+    "offset": 2266550,
+    "lang": "en"
+  },
+  {
+    "text": "and we send us only to a specific room",
+    "duration": 11430,
+    "offset": 2269040,
+    "lang": "en"
+  },
+  {
+    "text": "so this message right here will only go",
+    "duration": 6880,
+    "offset": 2276440,
+    "lang": "en"
+  },
+  {
+    "text": "to one specific room which is this room",
+    "duration": 6480,
+    "offset": 2280470,
+    "lang": "en"
+  },
+  {
+    "text": "right here okay let's also quickly",
+    "duration": 6690,
+    "offset": 2283320,
+    "lang": "en"
+  },
+  {
+    "text": "create a event handler for leave the",
+    "duration": 5520,
+    "offset": 2286950,
+    "lang": "en"
+  },
+  {
+    "text": "syntax is almost identical to the one we",
+    "duration": 4800,
+    "offset": 2290010,
+    "lang": "en"
+  },
+  {
+    "text": "have done for join I'm gonna call the",
+    "duration": 4560,
+    "offset": 2292470,
+    "lang": "en"
+  },
+  {
+    "text": "event as leave and the function I will",
+    "duration": 5010,
+    "offset": 2294810,
+    "lang": "en"
+  },
+  {
+    "text": "also call it leave they will also accept",
+    "duration": 6690,
+    "offset": 2297030,
+    "lang": "en"
+  },
+  {
+    "text": "an input which is data the syntax for",
+    "duration": 5690,
+    "offset": 2299820,
+    "lang": "en"
+  },
+  {
+    "text": "leaving a room is fairly straightforward",
+    "duration": 4320,
+    "offset": 2303720,
+    "lang": "en"
+  },
+  {
+    "text": "exactly like join room you have to",
+    "duration": 4780,
+    "offset": 2305510,
+    "lang": "en"
+  },
+  {
+    "text": "specify which room the person is leaving",
+    "duration": 4080,
+    "offset": 2308040,
+    "lang": "en"
+  },
+  {
+    "text": "and this information we would have",
+    "duration": 4040,
+    "offset": 2310290,
+    "lang": "en"
+  },
+  {
+    "text": "received from the client",
+    "duration": 6430,
+    "offset": 2312120,
+    "lang": "en"
+  },
+  {
+    "text": "we can copy this message paste it here",
+    "duration": 9110,
+    "offset": 2314330,
+    "lang": "en"
+  },
+  {
+    "text": "instead of has joined has left the room",
+    "duration": 7450,
+    "offset": 2318550,
+    "lang": "en"
+  },
+  {
+    "text": "so that's how you join and leave a room",
+    "duration": 5230,
+    "offset": 2323440,
+    "lang": "en"
+  },
+  {
+    "text": "when it comes to room we can also build",
+    "duration": 4890,
+    "offset": 2326000,
+    "lang": "en"
+  },
+  {
+    "text": "the application in a way that users can",
+    "duration": 4770,
+    "offset": 2328670,
+    "lang": "en"
+  },
+  {
+    "text": "create their own rooms or we can provide",
+    "duration": 5430,
+    "offset": 2330890,
+    "lang": "en"
+  },
+  {
+    "text": "predefined rooms second execution is",
+    "duration": 4770,
+    "offset": 2333440,
+    "lang": "en"
+  },
+  {
+    "text": "easier and if you understand how this is",
+    "duration": 4320,
+    "offset": 2336320,
+    "lang": "en"
+  },
+  {
+    "text": "done we can also easily update our code",
+    "duration": 4980,
+    "offset": 2338210,
+    "lang": "en"
+  },
+  {
+    "text": "to allow users to create their own rooms",
+    "duration": 5190,
+    "offset": 2340640,
+    "lang": "en"
+  },
+  {
+    "text": "so for the second approach of predefined",
+    "duration": 5070,
+    "offset": 2343190,
+    "lang": "en"
+  },
+  {
+    "text": "rooms we need to maintain a list of",
+    "duration": 3360,
+    "offset": 2345830,
+    "lang": "en"
+  },
+  {
+    "text": "rooms",
+    "duration": 3660,
+    "offset": 2348260,
+    "lang": "en"
+  },
+  {
+    "text": "so let's go create a predefined list of",
+    "duration": 5550,
+    "offset": 2349190,
+    "lang": "en"
+  },
+  {
+    "text": "rooms so I'll do it after we have",
+    "duration": 5850,
+    "offset": 2351920,
+    "lang": "en"
+  },
+  {
+    "text": "initialized flask sake Rio let's have",
+    "duration": 7550,
+    "offset": 2354740,
+    "lang": "en"
+  },
+  {
+    "text": "four rooms to start with large news",
+    "duration": 10140,
+    "offset": 2357770,
+    "lang": "en"
+  },
+  {
+    "text": "games and coding if you are pre defining",
+    "duration": 7450,
+    "offset": 2362290,
+    "lang": "en"
+  },
+  {
+    "text": "the rooms beforehand like the way we",
+    "duration": 4020,
+    "offset": 2367910,
+    "lang": "en"
+  },
+  {
+    "text": "have done here then we need to pass this",
+    "duration": 5090,
+    "offset": 2369740,
+    "lang": "en"
+  },
+  {
+    "text": "to the template",
+    "duration": 2900,
+    "offset": 2371930,
+    "lang": "en"
+  },
+  {
+    "text": "so this is where we render the chat dot",
+    "duration": 7680,
+    "offset": 2376079,
+    "lang": "en"
+  },
+  {
+    "text": "HTML file along with the username value",
+    "duration": 7850,
+    "offset": 2379709,
+    "lang": "en"
+  },
+  {
+    "text": "will also pass in the names of the rooms",
+    "duration": 6631,
+    "offset": 2383759,
+    "lang": "en"
+  },
+  {
+    "text": "ok we will need to add this to the",
+    "duration": 8280,
+    "offset": 2387559,
+    "lang": "en"
+  },
+  {
+    "text": "template so let's head over to chat HTML",
+    "duration": 5449,
+    "offset": 2390390,
+    "lang": "en"
+  },
+  {
+    "text": "this is where the sidebars and this is",
+    "duration": 4980,
+    "offset": 2396910,
+    "lang": "en"
+  },
+  {
+    "text": "the place we have kept aside just to",
+    "duration": 7379,
+    "offset": 2399940,
+    "lang": "en"
+  },
+  {
+    "text": "list out the rooms let's add a h4 so",
+    "duration": 6959,
+    "offset": 2401890,
+    "lang": "en"
+  },
+  {
+    "text": "since we are getting a list of rooms",
+    "duration": 3690,
+    "offset": 2407319,
+    "lang": "en"
+  },
+  {
+    "text": "we're gonna use ginger syntax to loop",
+    "duration": 4291,
+    "offset": 2408849,
+    "lang": "en"
+  },
+  {
+    "text": "through all the names of the rooms it's",
+    "duration": 5671,
+    "offset": 2411009,
+    "lang": "en"
+  },
+  {
+    "text": "a simple for loop so the syntax is for",
+    "duration": 6990,
+    "offset": 2413140,
+    "lang": "en"
+  },
+  {
+    "text": "let's call it room in the list bitch's",
+    "duration": 4250,
+    "offset": 2416680,
+    "lang": "en"
+  },
+  {
+    "text": "rooms",
+    "duration": 6449,
+    "offset": 2420130,
+    "lang": "en"
+  },
+  {
+    "text": "let's close the for loop we will display",
+    "duration": 7329,
+    "offset": 2420930,
+    "lang": "en"
+  },
+  {
+    "text": "each of the names of the room in a",
+    "duration": 4500,
+    "offset": 2426579,
+    "lang": "en"
+  },
+  {
+    "text": "paragraph tag let me set the class as",
+    "duration": 7800,
+    "offset": 2428259,
+    "lang": "en"
+  },
+  {
+    "text": "select room now to display the names of",
+    "duration": 7621,
+    "offset": 2431079,
+    "lang": "en"
+  },
+  {
+    "text": "the room we'll just use ginger syntax",
+    "duration": 4800,
+    "offset": 2436059,
+    "lang": "en"
+  },
+  {
+    "text": "and we want the names of the room to",
+    "duration": 5550,
+    "offset": 2438700,
+    "lang": "en"
+  },
+  {
+    "text": "appear in title case what this does is",
+    "duration": 5791,
+    "offset": 2440859,
+    "lang": "en"
+  },
+  {
+    "text": "that it turns the names of all the rooms",
+    "duration": 5160,
+    "offset": 2444250,
+    "lang": "en"
+  },
+  {
+    "text": "into title case that's it for the",
+    "duration": 5219,
+    "offset": 2446650,
+    "lang": "en"
+  },
+  {
+    "text": "template now let's head over to the",
+    "duration": 5050,
+    "offset": 2449410,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript file",
+    "duration": 7261,
+    "offset": 2451869,
+    "lang": "en"
+  },
+  {
+    "text": "okay this one displays incoming messages",
+    "duration": 4670,
+    "offset": 2454460,
+    "lang": "en"
+  },
+  {
+    "text": "we can get rid of this section since",
+    "duration": 5050,
+    "offset": 2460390,
+    "lang": "en"
+  },
+  {
+    "text": "this was just for demonstration purposes",
+    "duration": 4800,
+    "offset": 2463069,
+    "lang": "en"
+  },
+  {
+    "text": "let's write the code for a room",
+    "duration": 4860,
+    "offset": 2465440,
+    "lang": "en"
+  },
+  {
+    "text": "selection here this is how this will",
+    "duration": 4291,
+    "offset": 2467869,
+    "lang": "en"
+  },
+  {
+    "text": "work the user will click on the name of",
+    "duration": 4410,
+    "offset": 2470300,
+    "lang": "en"
+  },
+  {
+    "text": "the room on the HTML file to join the",
+    "duration": 4949,
+    "offset": 2472160,
+    "lang": "en"
+  },
+  {
+    "text": "room then he clicks on the name of the",
+    "duration": 5010,
+    "offset": 2474710,
+    "lang": "en"
+  },
+  {
+    "text": "room he wants to join we first need to",
+    "duration": 5101,
+    "offset": 2477109,
+    "lang": "en"
+  },
+  {
+    "text": "check whether the user is already in the",
+    "duration": 4980,
+    "offset": 2479720,
+    "lang": "en"
+  },
+  {
+    "text": "room and if he is already in the room we",
+    "duration": 3530,
+    "offset": 2482210,
+    "lang": "en"
+  },
+  {
+    "text": "need to show him an appropriate",
+    "duration": 4649,
+    "offset": 2484700,
+    "lang": "en"
+  },
+  {
+    "text": "notification if not then the user exits",
+    "duration": 5980,
+    "offset": 2485740,
+    "lang": "en"
+  },
+  {
+    "text": "the current room he is in or he leaves",
+    "duration": 5071,
+    "offset": 2489349,
+    "lang": "en"
+  },
+  {
+    "text": "the room he is currently in and then he",
+    "duration": 5070,
+    "offset": 2491720,
+    "lang": "en"
+  },
+  {
+    "text": "joins the new room the starting point",
+    "duration": 4080,
+    "offset": 2494420,
+    "lang": "en"
+  },
+  {
+    "text": "for the whole thing is to listen for",
+    "duration": 3600,
+    "offset": 2496790,
+    "lang": "en"
+  },
+  {
+    "text": "clicks to the room name we'll use",
+    "duration": 5579,
+    "offset": 2498500,
+    "lang": "en"
+  },
+  {
+    "text": "document query selector all and then we",
+    "duration": 5160,
+    "offset": 2500390,
+    "lang": "en"
+  },
+  {
+    "text": "include the name of the class",
+    "duration": 5081,
+    "offset": 2504079,
+    "lang": "en"
+  },
+  {
+    "text": "let's get that from the HTML file",
+    "duration": 6750,
+    "offset": 2505550,
+    "lang": "en"
+  },
+  {
+    "text": "we will copy this",
+    "duration": 3140,
+    "offset": 2509160,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it here for each para tag we",
+    "duration": 10800,
+    "offset": 2512410,
+    "lang": "en"
+  },
+  {
+    "text": "want to execute a function on click we",
+    "duration": 9270,
+    "offset": 2516640,
+    "lang": "en"
+  },
+  {
+    "text": "create a variable called new room and",
+    "duration": 4530,
+    "offset": 2523210,
+    "lang": "en"
+  },
+  {
+    "text": "store the name of the room the user",
+    "duration": 3900,
+    "offset": 2525910,
+    "lang": "en"
+  },
+  {
+    "text": "wants to join before we let him join",
+    "duration": 4290,
+    "offset": 2527740,
+    "lang": "en"
+  },
+  {
+    "text": "this room let's see if the user already",
+    "duration": 5400,
+    "offset": 2529810,
+    "lang": "en"
+  },
+  {
+    "text": "is in this room for this to work we will",
+    "duration": 5100,
+    "offset": 2532030,
+    "lang": "en"
+  },
+  {
+    "text": "need to store the name of the room the",
+    "duration": 4140,
+    "offset": 2535210,
+    "lang": "en"
+  },
+  {
+    "text": "user currently is in and we will store",
+    "duration": 4680,
+    "offset": 2537130,
+    "lang": "en"
+  },
+  {
+    "text": "it in a variable called as room so we",
+    "duration": 4260,
+    "offset": 2539350,
+    "lang": "en"
+  },
+  {
+    "text": "haven't created this variable right now",
+    "duration": 3510,
+    "offset": 2541810,
+    "lang": "en"
+  },
+  {
+    "text": "we will need to do it after we write",
+    "duration": 8460,
+    "offset": 2543610,
+    "lang": "en"
+  },
+  {
+    "text": "this code this variable room will",
+    "duration": 8730,
+    "offset": 2545320,
+    "lang": "en"
+  },
+  {
+    "text": "contain the value of the current room",
+    "duration": 4560,
+    "offset": 2552070,
+    "lang": "en"
+  },
+  {
+    "text": "the user is in and this new room stores",
+    "duration": 3960,
+    "offset": 2554050,
+    "lang": "en"
+  },
+  {
+    "text": "the name of the room which the user",
+    "duration": 4020,
+    "offset": 2556630,
+    "lang": "en"
+  },
+  {
+    "text": "wants to join if this conditional",
+    "duration": 4920,
+    "offset": 2558010,
+    "lang": "en"
+  },
+  {
+    "text": "statement is true that means the user is",
+    "duration": 3990,
+    "offset": 2560650,
+    "lang": "en"
+  },
+  {
+    "text": "already in the room that he wants to",
+    "duration": 3990,
+    "offset": 2562930,
+    "lang": "en"
+  },
+  {
+    "text": "join we can send him a notification that",
+    "duration": 4740,
+    "offset": 2564640,
+    "lang": "en"
+  },
+  {
+    "text": "he's already in the same room printing",
+    "duration": 4560,
+    "offset": 2566920,
+    "lang": "en"
+  },
+  {
+    "text": "these kind of notification messages",
+    "duration": 4320,
+    "offset": 2569380,
+    "lang": "en"
+  },
+  {
+    "text": "let's call it system notification is",
+    "duration": 3600,
+    "offset": 2571480,
+    "lang": "en"
+  },
+  {
+    "text": "something that we will have to do a",
+    "duration": 3120,
+    "offset": 2573700,
+    "lang": "en"
+  },
+  {
+    "text": "couple of times in this program every",
+    "duration": 3990,
+    "offset": 2575080,
+    "lang": "en"
+  },
+  {
+    "text": "time he joins the room we need to send a",
+    "duration": 4170,
+    "offset": 2576820,
+    "lang": "en"
+  },
+  {
+    "text": "notification when a user leaves the room",
+    "duration": 4290,
+    "offset": 2579070,
+    "lang": "en"
+  },
+  {
+    "text": "you'll have to send a notification so we",
+    "duration": 4200,
+    "offset": 2580990,
+    "lang": "en"
+  },
+  {
+    "text": "will write a function for it later which",
+    "duration": 4020,
+    "offset": 2583360,
+    "lang": "en"
+  },
+  {
+    "text": "will create the element and append it to",
+    "duration": 4890,
+    "offset": 2585190,
+    "lang": "en"
+  },
+  {
+    "text": "the Dom for now lets us create the tag",
+    "duration": 5760,
+    "offset": 2587380,
+    "lang": "en"
+  },
+  {
+    "text": "called message and the message will say",
+    "duration": 7160,
+    "offset": 2590080,
+    "lang": "en"
+  },
+  {
+    "text": "you are already in the name of the room",
+    "duration": 7290,
+    "offset": 2593140,
+    "lang": "en"
+  },
+  {
+    "text": "now remember these are backticks these",
+    "duration": 6540,
+    "offset": 2597240,
+    "lang": "en"
+  },
+  {
+    "text": "are not single quotation marks",
+    "duration": 5810,
+    "offset": 2600430,
+    "lang": "en"
+  },
+  {
+    "text": "so once we have this variable we can",
+    "duration": 4410,
+    "offset": 2603780,
+    "lang": "en"
+  },
+  {
+    "text": "pass it to a function which will print",
+    "duration": 3870,
+    "offset": 2606240,
+    "lang": "en"
+  },
+  {
+    "text": "the system message we haven't written",
+    "duration": 4620,
+    "offset": 2608190,
+    "lang": "en"
+  },
+  {
+    "text": "the print system message function yet",
+    "duration": 4830,
+    "offset": 2610110,
+    "lang": "en"
+  },
+  {
+    "text": "but that's again something that we will",
+    "duration": 5910,
+    "offset": 2612810,
+    "lang": "en"
+  },
+  {
+    "text": "do in a bit so what I'm saying is that",
+    "duration": 6690,
+    "offset": 2614940,
+    "lang": "en"
+  },
+  {
+    "text": "we will write a function called as print",
+    "duration": 5310,
+    "offset": 2618720,
+    "lang": "en"
+  },
+  {
+    "text": "system message and the objective of that",
+    "duration": 4260,
+    "offset": 2621630,
+    "lang": "en"
+  },
+  {
+    "text": "function would be to take some sort of a",
+    "duration": 3540,
+    "offset": 2624030,
+    "lang": "en"
+  },
+  {
+    "text": "string and display it on the screen for",
+    "duration": 5810,
+    "offset": 2625890,
+    "lang": "en"
+  },
+  {
+    "text": "the user then let's continue the logic",
+    "duration": 6510,
+    "offset": 2627570,
+    "lang": "en"
+  },
+  {
+    "text": "so if he is not in the room that he",
+    "duration": 4930,
+    "offset": 2631700,
+    "lang": "en"
+  },
+  {
+    "text": "wants to join then he needs to exit his",
+    "duration": 4710,
+    "offset": 2634080,
+    "lang": "en"
+  },
+  {
+    "text": "current room and then he needs to join",
+    "duration": 5100,
+    "offset": 2636630,
+    "lang": "en"
+  },
+  {
+    "text": "the new room to leave the current room",
+    "duration": 5880,
+    "offset": 2638790,
+    "lang": "en"
+  },
+  {
+    "text": "we need to send a message to this leave",
+    "duration": 6870,
+    "offset": 2641730,
+    "lang": "en"
+  },
+  {
+    "text": "room event bucket in the server then we",
+    "duration": 6690,
+    "offset": 2644670,
+    "lang": "en"
+  },
+  {
+    "text": "need to send a message to the join event",
+    "duration": 5850,
+    "offset": 2648600,
+    "lang": "en"
+  },
+  {
+    "text": "bucket in the server case so let's go",
+    "duration": 5760,
+    "offset": 2651360,
+    "lang": "en"
+  },
+  {
+    "text": "back to our file since we will be",
+    "duration": 4440,
+    "offset": 2654450,
+    "lang": "en"
+  },
+  {
+    "text": "leaving and joining rooms a few times",
+    "duration": 4080,
+    "offset": 2657120,
+    "lang": "en"
+  },
+  {
+    "text": "it's easier to write a function for it",
+    "duration": 4230,
+    "offset": 2658890,
+    "lang": "en"
+  },
+  {
+    "text": "rather than duplicate the code multiple",
+    "duration": 4080,
+    "offset": 2661200,
+    "lang": "en"
+  },
+  {
+    "text": "times for now let's just pretend that we",
+    "duration": 3930,
+    "offset": 2663120,
+    "lang": "en"
+  },
+  {
+    "text": "have already written these functions so",
+    "duration": 4020,
+    "offset": 2665280,
+    "lang": "en"
+  },
+  {
+    "text": "the function to leave room will be",
+    "duration": 4620,
+    "offset": 2667050,
+    "lang": "en"
+  },
+  {
+    "text": "called as leave room and then we pass in",
+    "duration": 4260,
+    "offset": 2669300,
+    "lang": "en"
+  },
+  {
+    "text": "the name of the current room he is in",
+    "duration": 4500,
+    "offset": 2671670,
+    "lang": "en"
+  },
+  {
+    "text": "and that value if you remember is called",
+    "duration": 6420,
+    "offset": 2673560,
+    "lang": "en"
+  },
+  {
+    "text": "as room and let's also pretend that we",
+    "duration": 5580,
+    "offset": 2676170,
+    "lang": "en"
+  },
+  {
+    "text": "have written a function to join the room",
+    "duration": 4200,
+    "offset": 2679980,
+    "lang": "en"
+  },
+  {
+    "text": "and it will take in the value of the new",
+    "duration": 4800,
+    "offset": 2681750,
+    "lang": "en"
+  },
+  {
+    "text": "room the user needs to join so that is",
+    "duration": 4670,
+    "offset": 2684180,
+    "lang": "en"
+  },
+  {
+    "text": "this value right here",
+    "duration": 5480,
+    "offset": 2686550,
+    "lang": "en"
+  },
+  {
+    "text": "I will paste it here and finally we will",
+    "duration": 5580,
+    "offset": 2688850,
+    "lang": "en"
+  },
+  {
+    "text": "update the name of the current room -",
+    "duration": 4020,
+    "offset": 2692030,
+    "lang": "en"
+  },
+  {
+    "text": "the name of the room that the user has",
+    "duration": 5010,
+    "offset": 2694430,
+    "lang": "en"
+  },
+  {
+    "text": "joined ok so we need to do multiple",
+    "duration": 5130,
+    "offset": 2696050,
+    "lang": "en"
+  },
+  {
+    "text": "things we need to create a variable",
+    "duration": 3750,
+    "offset": 2699440,
+    "lang": "en"
+  },
+  {
+    "text": "called as room which will store the",
+    "duration": 3750,
+    "offset": 2701180,
+    "lang": "en"
+  },
+  {
+    "text": "value of the current room that the user",
+    "duration": 4140,
+    "offset": 2703190,
+    "lang": "en"
+  },
+  {
+    "text": "is in we need to write a function for",
+    "duration": 4380,
+    "offset": 2704930,
+    "lang": "en"
+  },
+  {
+    "text": "print system message we need to write a",
+    "duration": 4530,
+    "offset": 2707330,
+    "lang": "en"
+  },
+  {
+    "text": "function for leave room and then we need",
+    "duration": 4560,
+    "offset": 2709310,
+    "lang": "en"
+  },
+  {
+    "text": "to write a function called as join room",
+    "duration": 5220,
+    "offset": 2711860,
+    "lang": "en"
+  },
+  {
+    "text": "since this variable has to be a global",
+    "duration": 4890,
+    "offset": 2713870,
+    "lang": "en"
+  },
+  {
+    "text": "variable let's declare it at the",
+    "duration": 8820,
+    "offset": 2717080,
+    "lang": "en"
+  },
+  {
+    "text": "beginning of the file next we need to",
+    "duration": 9630,
+    "offset": 2718760,
+    "lang": "en"
+  },
+  {
+    "text": "write three functions one to print",
+    "duration": 4470,
+    "offset": 2725900,
+    "lang": "en"
+  },
+  {
+    "text": "sister message another to leave a room",
+    "duration": 4290,
+    "offset": 2728390,
+    "lang": "en"
+  },
+  {
+    "text": "and finally want to join the room start",
+    "duration": 7350,
+    "offset": 2730370,
+    "lang": "en"
+  },
+  {
+    "text": "with leaving the room which will take in",
+    "duration": 6870,
+    "offset": 2732680,
+    "lang": "en"
+  },
+  {
+    "text": "the value of the room which the user",
+    "duration": 4770,
+    "offset": 2737720,
+    "lang": "en"
+  },
+  {
+    "text": "wants to be removed from we need to emit",
+    "duration": 5460,
+    "offset": 2739550,
+    "lang": "en"
+  },
+  {
+    "text": "a message to the leave event in the",
+    "duration": 4950,
+    "offset": 2742490,
+    "lang": "en"
+  },
+  {
+    "text": "server so let's see what sort of data",
+    "duration": 6540,
+    "offset": 2745010,
+    "lang": "en"
+  },
+  {
+    "text": "does the function expect this function",
+    "duration": 6630,
+    "offset": 2747440,
+    "lang": "en"
+  },
+  {
+    "text": "expects the data that we pass in to at",
+    "duration": 5550,
+    "offset": 2751550,
+    "lang": "en"
+  },
+  {
+    "text": "least have the username and the name of",
+    "duration": 7100,
+    "offset": 2754070,
+    "lang": "en"
+  },
+  {
+    "text": "the room that the user is exiting",
+    "duration": 4070,
+    "offset": 2757100,
+    "lang": "en"
+  },
+  {
+    "text": "let's write the Emmett the syntax is",
+    "duration": 5880,
+    "offset": 2762670,
+    "lang": "en"
+  },
+  {
+    "text": "socket dot omit remember because we are",
+    "duration": 5160,
+    "offset": 2765190,
+    "lang": "en"
+  },
+  {
+    "text": "sending it to a custom event called as",
+    "duration": 4110,
+    "offset": 2768550,
+    "lang": "en"
+  },
+  {
+    "text": "leaf we'll have to use Emmett here and",
+    "duration": 5160,
+    "offset": 2770350,
+    "lang": "en"
+  },
+  {
+    "text": "not send if you send it will by default",
+    "duration": 5460,
+    "offset": 2772660,
+    "lang": "en"
+  },
+  {
+    "text": "go into the message pocket but we wanted",
+    "duration": 4710,
+    "offset": 2775510,
+    "lang": "en"
+  },
+  {
+    "text": "to go into a custom event pocket called",
+    "duration": 5340,
+    "offset": 2778120,
+    "lang": "en"
+  },
+  {
+    "text": "as leaf so it's gonna be emit and then",
+    "duration": 5280,
+    "offset": 2780220,
+    "lang": "en"
+  },
+  {
+    "text": "the name of the custom event which is",
+    "duration": 4650,
+    "offset": 2783460,
+    "lang": "en"
+  },
+  {
+    "text": "leaf and the two values we need to pass",
+    "duration": 9120,
+    "offset": 2785500,
+    "lang": "en"
+  },
+  {
+    "text": "in which is username and then the name",
+    "duration": 10650,
+    "offset": 2788110,
+    "lang": "en"
+  },
+  {
+    "text": "of the room okay that's all that's",
+    "duration": 6720,
+    "offset": 2794620,
+    "lang": "en"
+  },
+  {
+    "text": "required to leave the room now let's",
+    "duration": 5460,
+    "offset": 2798760,
+    "lang": "en"
+  },
+  {
+    "text": "look at joining the room the join room",
+    "duration": 4560,
+    "offset": 2801340,
+    "lang": "en"
+  },
+  {
+    "text": "function would also take in the name of",
+    "duration": 4080,
+    "offset": 2804220,
+    "lang": "en"
+  },
+  {
+    "text": "the room that the user wants to join we",
+    "duration": 5520,
+    "offset": 2805900,
+    "lang": "en"
+  },
+  {
+    "text": "use a similar syntax as leaf room socket",
+    "duration": 5670,
+    "offset": 2808300,
+    "lang": "en"
+  },
+  {
+    "text": "dot emit and the name of the event the",
+    "duration": 4500,
+    "offset": 2811420,
+    "lang": "en"
+  },
+  {
+    "text": "custom event on the server was called",
+    "duration": 4230,
+    "offset": 2813970,
+    "lang": "en"
+  },
+  {
+    "text": "join and then just like we did it for",
+    "duration": 4920,
+    "offset": 2815920,
+    "lang": "en"
+  },
+  {
+    "text": "the leave room we will pass in the user",
+    "duration": 4500,
+    "offset": 2818200,
+    "lang": "en"
+  },
+  {
+    "text": "name and we will pass in the name of the",
+    "duration": 5640,
+    "offset": 2820840,
+    "lang": "en"
+  },
+  {
+    "text": "room so this works well when we want the",
+    "duration": 5640,
+    "offset": 2822700,
+    "lang": "en"
+  },
+  {
+    "text": "user to leave and join the room but when",
+    "duration": 4230,
+    "offset": 2826480,
+    "lang": "en"
+  },
+  {
+    "text": "a user joins the room we can clear the",
+    "duration": 5340,
+    "offset": 2828340,
+    "lang": "en"
+  },
+  {
+    "text": "display message section so when the user",
+    "duration": 5400,
+    "offset": 2830710,
+    "lang": "en"
+  },
+  {
+    "text": "goes and selects a new room we want this",
+    "duration": 4830,
+    "offset": 2833680,
+    "lang": "en"
+  },
+  {
+    "text": "display message section to be cleared so",
+    "duration": 4170,
+    "offset": 2836110,
+    "lang": "en"
+  },
+  {
+    "text": "that he can start a fresh conversation",
+    "duration": 4790,
+    "offset": 2838510,
+    "lang": "en"
+  },
+  {
+    "text": "in this new room",
+    "duration": 3020,
+    "offset": 2840280,
+    "lang": "en"
+  },
+  {
+    "text": "again we can use standard plain",
+    "duration": 4570,
+    "offset": 2843940,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript to do this so it's document",
+    "duration": 4770,
+    "offset": 2846410,
+    "lang": "en"
+  },
+  {
+    "text": "dot query selector then we need to get",
+    "duration": 5850,
+    "offset": 2848510,
+    "lang": "en"
+  },
+  {
+    "text": "the ID of the display method section so",
+    "duration": 7130,
+    "offset": 2851180,
+    "lang": "en"
+  },
+  {
+    "text": "let's go to the HTML file and get it",
+    "duration": 3950,
+    "offset": 2854360,
+    "lang": "en"
+  },
+  {
+    "text": "so this is a display message section and",
+    "duration": 7801,
+    "offset": 2859109,
+    "lang": "en"
+  },
+  {
+    "text": "this is the ID let's copy this and paste",
+    "duration": 8339,
+    "offset": 2862140,
+    "lang": "en"
+  },
+  {
+    "text": "it here and we want the innerhtml of",
+    "duration": 5839,
+    "offset": 2866910,
+    "lang": "en"
+  },
+  {
+    "text": "this display message section to be blank",
+    "duration": 5310,
+    "offset": 2870479,
+    "lang": "en"
+  },
+  {
+    "text": "okay if you are congregating our user is",
+    "duration": 4960,
+    "offset": 2872749,
+    "lang": "en"
+  },
+  {
+    "text": "in two discreet rooms then there is an",
+    "duration": 4260,
+    "offset": 2875789,
+    "lang": "en"
+  },
+  {
+    "text": "additional variable we need to pass in",
+    "duration": 5610,
+    "offset": 2877709,
+    "lang": "en"
+  },
+  {
+    "text": "both to the client and the server can",
+    "duration": 6060,
+    "offset": 2880049,
+    "lang": "en"
+  },
+  {
+    "text": "you see which one is it okay I'll give",
+    "duration": 4890,
+    "offset": 2883319,
+    "lang": "en"
+  },
+  {
+    "text": "you a hint it's something to do with",
+    "duration": 4881,
+    "offset": 2886109,
+    "lang": "en"
+  },
+  {
+    "text": "this section right here",
+    "duration": 4611,
+    "offset": 2888209,
+    "lang": "en"
+  },
+  {
+    "text": "can you see what is it that we need to",
+    "duration": 5340,
+    "offset": 2890990,
+    "lang": "en"
+  },
+  {
+    "text": "add to the section that's right when we",
+    "duration": 6000,
+    "offset": 2892820,
+    "lang": "en"
+  },
+  {
+    "text": "send a message to the server aside from",
+    "duration": 5460,
+    "offset": 2896330,
+    "lang": "en"
+  },
+  {
+    "text": "the message text and the name of the",
+    "duration": 5700,
+    "offset": 2898820,
+    "lang": "en"
+  },
+  {
+    "text": "user we also now need to add the",
+    "duration": 5190,
+    "offset": 2901790,
+    "lang": "en"
+  },
+  {
+    "text": "information about the room we will use",
+    "duration": 5069,
+    "offset": 2904520,
+    "lang": "en"
+  },
+  {
+    "text": "the same format as message and username",
+    "duration": 5700,
+    "offset": 2906980,
+    "lang": "en"
+  },
+  {
+    "text": "let's call the Kia's room and the value",
+    "duration": 6421,
+    "offset": 2909589,
+    "lang": "en"
+  },
+  {
+    "text": "would be that of the variable room let's",
+    "duration": 5220,
+    "offset": 2912680,
+    "lang": "en"
+  },
+  {
+    "text": "also add information about the room on",
+    "duration": 3390,
+    "offset": 2916010,
+    "lang": "en"
+  },
+  {
+    "text": "the server side so we go back to",
+    "duration": 4880,
+    "offset": 2917900,
+    "lang": "en"
+  },
+  {
+    "text": "application dot by",
+    "duration": 3380,
+    "offset": 2919400,
+    "lang": "en"
+  },
+  {
+    "text": "this is the outbound message bucket",
+    "duration": 6720,
+    "offset": 2922930,
+    "lang": "en"
+  },
+  {
+    "text": "so aside from message username and the",
+    "duration": 6330,
+    "offset": 2926050,
+    "lang": "en"
+  },
+  {
+    "text": "time stamp we now also need to pass in",
+    "duration": 6120,
+    "offset": 2929650,
+    "lang": "en"
+  },
+  {
+    "text": "the name of the room so we have seen the",
+    "duration": 6540,
+    "offset": 2932380,
+    "lang": "en"
+  },
+  {
+    "text": "syntax earlier this data which is being",
+    "duration": 5790,
+    "offset": 2935770,
+    "lang": "en"
+  },
+  {
+    "text": "passed in it will have the value of true",
+    "duration": 4890,
+    "offset": 2938920,
+    "lang": "en"
+  },
+  {
+    "text": "and this is how we access it now before",
+    "duration": 3060,
+    "offset": 2941560,
+    "lang": "en"
+  },
+  {
+    "text": "we test it",
+    "duration": 2580,
+    "offset": 2943810,
+    "lang": "en"
+  },
+  {
+    "text": "let's finish writing the last function",
+    "duration": 4950,
+    "offset": 2944620,
+    "lang": "en"
+  },
+  {
+    "text": "on the client side that is the printing",
+    "duration": 6520,
+    "offset": 2946390,
+    "lang": "en"
+  },
+  {
+    "text": "of system messages",
+    "duration": 6970,
+    "offset": 2949570,
+    "lang": "en"
+  },
+  {
+    "text": "so this is where we use the function so",
+    "duration": 6410,
+    "offset": 2952910,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to copy this",
+    "duration": 2780,
+    "offset": 2956540,
+    "lang": "en"
+  },
+  {
+    "text": "let's pace the name of the function and",
+    "duration": 4600,
+    "offset": 2965720,
+    "lang": "en"
+  },
+  {
+    "text": "it will take in a string this is gonna",
+    "duration": 3680,
+    "offset": 2968490,
+    "lang": "en"
+  },
+  {
+    "text": "be the message which it needs to display",
+    "duration": 10289,
+    "offset": 2970320,
+    "lang": "en"
+  },
+  {
+    "text": "first let's create a paragraph tag then",
+    "duration": 11350,
+    "offset": 2972170,
+    "lang": "en"
+  },
+  {
+    "text": "let's set the inner HTML to the system",
+    "duration": 4741,
+    "offset": 2980609,
+    "lang": "en"
+  },
+  {
+    "text": "message we want to show the user and",
+    "duration": 4380,
+    "offset": 2983520,
+    "lang": "en"
+  },
+  {
+    "text": "finally let's append it to this display",
+    "duration": 4350,
+    "offset": 2985350,
+    "lang": "en"
+  },
+  {
+    "text": "message section that we have used right",
+    "duration": 4080,
+    "offset": 2987900,
+    "lang": "en"
+  },
+  {
+    "text": "here so I'm gonna copy this I'm sorry",
+    "duration": 5220,
+    "offset": 2989700,
+    "lang": "en"
+  },
+  {
+    "text": "this should be this is an ID",
+    "duration": 5010,
+    "offset": 2991980,
+    "lang": "en"
+  },
+  {
+    "text": "mmm have I made this error somewhere",
+    "duration": 5580,
+    "offset": 2994920,
+    "lang": "en"
+  },
+  {
+    "text": "else this was in an ID or a class I",
+    "duration": 5700,
+    "offset": 2996990,
+    "lang": "en"
+  },
+  {
+    "text": "think it was a class let's go back and",
+    "duration": 4869,
+    "offset": 3000500,
+    "lang": "en"
+  },
+  {
+    "text": "check yeah it's a class",
+    "duration": 6029,
+    "offset": 3002690,
+    "lang": "en"
+  },
+  {
+    "text": "let me corrected",
+    "duration": 3350,
+    "offset": 3005369,
+    "lang": "en"
+  },
+  {
+    "text": "okay so coming back we want to append",
+    "duration": 7190,
+    "offset": 3008910,
+    "lang": "en"
+  },
+  {
+    "text": "this paragraph tag to this ID right here",
+    "duration": 4730,
+    "offset": 3011370,
+    "lang": "en"
+  },
+  {
+    "text": "append and then the para element now we",
+    "duration": 5050,
+    "offset": 3019100,
+    "lang": "en"
+  },
+  {
+    "text": "should be able to click on any of the",
+    "duration": 3750,
+    "offset": 3022440,
+    "lang": "en"
+  },
+  {
+    "text": "names of the room and join that specific",
+    "duration": 5160,
+    "offset": 3024150,
+    "lang": "en"
+  },
+  {
+    "text": "room so let's go test this out I'm gonna",
+    "duration": 6420,
+    "offset": 3026190,
+    "lang": "en"
+  },
+  {
+    "text": "refresh the page so I can see the names",
+    "duration": 5310,
+    "offset": 3029310,
+    "lang": "en"
+  },
+  {
+    "text": "of the four rooms that we have defined",
+    "duration": 4640,
+    "offset": 3032610,
+    "lang": "en"
+  },
+  {
+    "text": "right here",
+    "duration": 2630,
+    "offset": 3034620,
+    "lang": "en"
+  },
+  {
+    "text": "these are the names of the four rooms",
+    "duration": 4440,
+    "offset": 3038369,
+    "lang": "en"
+  },
+  {
+    "text": "all of these names are in lowercase the",
+    "duration": 5190,
+    "offset": 3040109,
+    "lang": "en"
+  },
+  {
+    "text": "reason why it appears as title case in",
+    "duration": 5821,
+    "offset": 3042809,
+    "lang": "en"
+  },
+  {
+    "text": "the HTML file is because we used ginger",
+    "duration": 5520,
+    "offset": 3045299,
+    "lang": "en"
+  },
+  {
+    "text": "syntax to convert the names to title",
+    "duration": 6359,
+    "offset": 3048630,
+    "lang": "en"
+  },
+  {
+    "text": "case ok so far so good one thing I will",
+    "duration": 6331,
+    "offset": 3050819,
+    "lang": "en"
+  },
+  {
+    "text": "admit up front that the UI for this",
+    "duration": 4520,
+    "offset": 3054989,
+    "lang": "en"
+  },
+  {
+    "text": "whole section is absolutely horrendous",
+    "duration": 5159,
+    "offset": 3057150,
+    "lang": "en"
+  },
+  {
+    "text": "this is something that we will work on",
+    "duration": 4690,
+    "offset": 3059509,
+    "lang": "en"
+  },
+  {
+    "text": "before deployment right now we are just",
+    "duration": 4800,
+    "offset": 3062309,
+    "lang": "en"
+  },
+  {
+    "text": "focused on the functionality and we want",
+    "duration": 4650,
+    "offset": 3064199,
+    "lang": "en"
+  },
+  {
+    "text": "this app to work the way we want it to",
+    "duration": 4650,
+    "offset": 3067109,
+    "lang": "en"
+  },
+  {
+    "text": "work so with that let's make the user",
+    "duration": 5201,
+    "offset": 3068849,
+    "lang": "en"
+  },
+  {
+    "text": "join the games room",
+    "duration": 6161,
+    "offset": 3071759,
+    "lang": "en"
+  },
+  {
+    "text": "okay so we see the notification if you",
+    "duration": 5640,
+    "offset": 3074050,
+    "lang": "en"
+  },
+  {
+    "text": "remember for previous examples this",
+    "duration": 3330,
+    "offset": 3077920,
+    "lang": "en"
+  },
+  {
+    "text": "should have been the user name and this",
+    "duration": 4170,
+    "offset": 3079690,
+    "lang": "en"
+  },
+  {
+    "text": "is the time since system messages don't",
+    "duration": 4560,
+    "offset": 3081250,
+    "lang": "en"
+  },
+  {
+    "text": "have any kind of user name associated",
+    "duration": 4140,
+    "offset": 3083860,
+    "lang": "en"
+  },
+  {
+    "text": "with it we see that both the user name",
+    "duration": 4410,
+    "offset": 3085810,
+    "lang": "en"
+  },
+  {
+    "text": "and the time the appear is undefined",
+    "duration": 4080,
+    "offset": 3088000,
+    "lang": "en"
+  },
+  {
+    "text": "this is something that we need to fix",
+    "duration": 4230,
+    "offset": 3090220,
+    "lang": "en"
+  },
+  {
+    "text": "but aside from that the message seems to",
+    "duration": 3870,
+    "offset": 3092080,
+    "lang": "en"
+  },
+  {
+    "text": "be appearing the way it should",
+    "duration": 4110,
+    "offset": 3094450,
+    "lang": "en"
+  },
+  {
+    "text": "let's see if the user can rejoin the",
+    "duration": 5310,
+    "offset": 3095950,
+    "lang": "en"
+  },
+  {
+    "text": "game's room again so it does tell the",
+    "duration": 4290,
+    "offset": 3098560,
+    "lang": "en"
+  },
+  {
+    "text": "user that he is already in the games",
+    "duration": 4110,
+    "offset": 3101260,
+    "lang": "en"
+  },
+  {
+    "text": "room to see whether we received",
+    "duration": 4740,
+    "offset": 3102850,
+    "lang": "en"
+  },
+  {
+    "text": "notifications about a user leaving a",
+    "duration": 4740,
+    "offset": 3105370,
+    "lang": "en"
+  },
+  {
+    "text": "room and joining a room we need to log",
+    "duration": 5400,
+    "offset": 3107590,
+    "lang": "en"
+  },
+  {
+    "text": "in another user I'll start a incognito",
+    "duration": 6000,
+    "offset": 3110110,
+    "lang": "en"
+  },
+  {
+    "text": "window just move it here let me just",
+    "duration": 6020,
+    "offset": 3112990,
+    "lang": "en"
+  },
+  {
+    "text": "copy this",
+    "duration": 2900,
+    "offset": 3116110,
+    "lang": "en"
+  },
+  {
+    "text": "I'll go to the login page",
+    "duration": 4050,
+    "offset": 3119390,
+    "lang": "en"
+  },
+  {
+    "text": "and I will login a user in the previous",
+    "duration": 4980,
+    "offset": 3123670,
+    "lang": "en"
+  },
+  {
+    "text": "video we had created I think user 10 and",
+    "duration": 6900,
+    "offset": 3125890,
+    "lang": "en"
+  },
+  {
+    "text": "the password was test now we will make",
+    "duration": 7170,
+    "offset": 3128650,
+    "lang": "en"
+  },
+  {
+    "text": "user 10 also join the games room",
+    "duration": 5790,
+    "offset": 3132790,
+    "lang": "en"
+  },
+  {
+    "text": "so both these users receive the same",
+    "duration": 5190,
+    "offset": 3135820,
+    "lang": "en"
+  },
+  {
+    "text": "notification that the user 10 has joined",
+    "duration": 4650,
+    "offset": 3138580,
+    "lang": "en"
+  },
+  {
+    "text": "the games room now let's try to send a",
+    "duration": 5280,
+    "offset": 3141010,
+    "lang": "en"
+  },
+  {
+    "text": "test message from both sides I'm gonna",
+    "duration": 6540,
+    "offset": 3143230,
+    "lang": "en"
+  },
+  {
+    "text": "close the console for now user 12 says",
+    "duration": 8190,
+    "offset": 3146290,
+    "lang": "en"
+  },
+  {
+    "text": "games people play okay you see that the",
+    "duration": 7080,
+    "offset": 3149770,
+    "lang": "en"
+  },
+  {
+    "text": "message appears for both the users so",
+    "duration": 4950,
+    "offset": 3154480,
+    "lang": "en"
+  },
+  {
+    "text": "let's try it from the second users",
+    "duration": 6060,
+    "offset": 3156850,
+    "lang": "en"
+  },
+  {
+    "text": "perspective we can see that both the",
+    "duration": 6450,
+    "offset": 3159430,
+    "lang": "en"
+  },
+  {
+    "text": "users are able to see this message so",
+    "duration": 5340,
+    "offset": 3162910,
+    "lang": "en"
+  },
+  {
+    "text": "let's say this user user in this window",
+    "duration": 4860,
+    "offset": 3165880,
+    "lang": "en"
+  },
+  {
+    "text": "says enough of playing around let's get",
+    "duration": 4890,
+    "offset": 3168250,
+    "lang": "en"
+  },
+  {
+    "text": "some work done on coding the user goes",
+    "duration": 4620,
+    "offset": 3170740,
+    "lang": "en"
+  },
+  {
+    "text": "to the coding room",
+    "duration": 4650,
+    "offset": 3173140,
+    "lang": "en"
+  },
+  {
+    "text": "so you see here he got a notification",
+    "duration": 4860,
+    "offset": 3175360,
+    "lang": "en"
+  },
+  {
+    "text": "that someone has left the games room and",
+    "duration": 5040,
+    "offset": 3177790,
+    "lang": "en"
+  },
+  {
+    "text": "this user who joined the coding room he",
+    "duration": 4440,
+    "offset": 3180220,
+    "lang": "en"
+  },
+  {
+    "text": "gets a notification that he has joined",
+    "duration": 3690,
+    "offset": 3182830,
+    "lang": "en"
+  },
+  {
+    "text": "the room and as we saw in the games",
+    "duration": 4200,
+    "offset": 3184660,
+    "lang": "en"
+  },
+  {
+    "text": "example this notification is gonna go to",
+    "duration": 4650,
+    "offset": 3186520,
+    "lang": "en"
+  },
+  {
+    "text": "everyone in the room the entire display",
+    "duration": 4230,
+    "offset": 3188860,
+    "lang": "en"
+  },
+  {
+    "text": "message area where he was sending",
+    "duration": 4110,
+    "offset": 3191170,
+    "lang": "en"
+  },
+  {
+    "text": "messages in the games room all that has",
+    "duration": 3660,
+    "offset": 3193090,
+    "lang": "en"
+  },
+  {
+    "text": "been cleared he can start a fresh",
+    "duration": 3960,
+    "offset": 3195280,
+    "lang": "en"
+  },
+  {
+    "text": "conversation in this room this user in",
+    "duration": 4320,
+    "offset": 3196750,
+    "lang": "en"
+  },
+  {
+    "text": "this window is in coding room and this",
+    "duration": 4800,
+    "offset": 3199240,
+    "lang": "en"
+  },
+  {
+    "text": "user is in the games room so by design",
+    "duration": 5100,
+    "offset": 3201070,
+    "lang": "en"
+  },
+  {
+    "text": "if I send a message in the coding room",
+    "duration": 4140,
+    "offset": 3204040,
+    "lang": "en"
+  },
+  {
+    "text": "someone in the games room should not be",
+    "duration": 4470,
+    "offset": 3206170,
+    "lang": "en"
+  },
+  {
+    "text": "able to see the messages and vice-versa",
+    "duration": 6300,
+    "offset": 3208180,
+    "lang": "en"
+  },
+  {
+    "text": "let's test this out can you see this as",
+    "duration": 6300,
+    "offset": 3210640,
+    "lang": "en"
+  },
+  {
+    "text": "we expected since they are in two",
+    "duration": 4440,
+    "offset": 3214480,
+    "lang": "en"
+  },
+  {
+    "text": "different rooms this user will not see",
+    "duration": 4500,
+    "offset": 3216940,
+    "lang": "en"
+  },
+  {
+    "text": "the message which someone else has typed",
+    "duration": 5190,
+    "offset": 3218920,
+    "lang": "en"
+  },
+  {
+    "text": "in another room so let's try it out here",
+    "duration": 5550,
+    "offset": 3221440,
+    "lang": "en"
+  },
+  {
+    "text": "also is anyone there",
+    "duration": 6120,
+    "offset": 3224110,
+    "lang": "en"
+  },
+  {
+    "text": "and no one is there okay the join room",
+    "duration": 5850,
+    "offset": 3226990,
+    "lang": "en"
+  },
+  {
+    "text": "leave room and the system notification",
+    "duration": 5610,
+    "offset": 3230230,
+    "lang": "en"
+  },
+  {
+    "text": "seems to work as expected for system",
+    "duration": 4970,
+    "offset": 3232840,
+    "lang": "en"
+  },
+  {
+    "text": "notification we have this issue of",
+    "duration": 4500,
+    "offset": 3235840,
+    "lang": "en"
+  },
+  {
+    "text": "undefined so there are some improvements",
+    "duration": 5020,
+    "offset": 3237810,
+    "lang": "en"
+  },
+  {
+    "text": "to the user experience that we can do",
+    "duration": 4230,
+    "offset": 3240340,
+    "lang": "en"
+  },
+  {
+    "text": "and I'm not talking about the layout",
+    "duration": 4410,
+    "offset": 3242830,
+    "lang": "en"
+  },
+  {
+    "text": "right now to begin with when the user",
+    "duration": 5040,
+    "offset": 3244570,
+    "lang": "en"
+  },
+  {
+    "text": "first logs into the application he's not",
+    "duration": 4650,
+    "offset": 3247240,
+    "lang": "en"
+  },
+  {
+    "text": "in any room consequently he can't type",
+    "duration": 4740,
+    "offset": 3249610,
+    "lang": "en"
+  },
+  {
+    "text": "any messages a better design would be",
+    "duration": 4770,
+    "offset": 3251890,
+    "lang": "en"
+  },
+  {
+    "text": "when a user logs in lets automatically",
+    "duration": 4650,
+    "offset": 3254350,
+    "lang": "en"
+  },
+  {
+    "text": "log in the user into one of these four",
+    "duration": 4560,
+    "offset": 3256660,
+    "lang": "en"
+  },
+  {
+    "text": "rooms we can do that from the client",
+    "duration": 3900,
+    "offset": 3259000,
+    "lang": "en"
+  },
+  {
+    "text": "side let's head on over to our",
+    "duration": 4670,
+    "offset": 3261220,
+    "lang": "en"
+  },
+  {
+    "text": "javascript file",
+    "duration": 2990,
+    "offset": 3262900,
+    "lang": "en"
+  },
+  {
+    "text": "when the user first logs in he shouldn't",
+    "duration": 4350,
+    "offset": 3266250,
+    "lang": "en"
+  },
+  {
+    "text": "have to pick a room the user should be",
+    "duration": 4680,
+    "offset": 3268830,
+    "lang": "en"
+  },
+  {
+    "text": "able to chat right away to do this let's",
+    "duration": 6000,
+    "offset": 3270600,
+    "lang": "en"
+  },
+  {
+    "text": "log users to one of the four rooms let's",
+    "duration": 5610,
+    "offset": 3273510,
+    "lang": "en"
+  },
+  {
+    "text": "say the lounge and once the user is in",
+    "duration": 4170,
+    "offset": 3276600,
+    "lang": "en"
+  },
+  {
+    "text": "the lounge he can continue to chat in",
+    "duration": 3780,
+    "offset": 3279120,
+    "lang": "en"
+  },
+  {
+    "text": "the lounge or he can select another room",
+    "duration": 4590,
+    "offset": 3280770,
+    "lang": "en"
+  },
+  {
+    "text": "to do this let's set the variable room",
+    "duration": 5970,
+    "offset": 3282900,
+    "lang": "en"
+  },
+  {
+    "text": "to launch and then we can use the join",
+    "duration": 6030,
+    "offset": 3285360,
+    "lang": "en"
+  },
+  {
+    "text": "room function we wrote to add the user",
+    "duration": 5370,
+    "offset": 3288870,
+    "lang": "en"
+  },
+  {
+    "text": "to the launch so that's the first",
+    "duration": 4950,
+    "offset": 3291390,
+    "lang": "en"
+  },
+  {
+    "text": "improvement that we wanted to do the",
+    "duration": 4230,
+    "offset": 3294240,
+    "lang": "en"
+  },
+  {
+    "text": "second thing was we need to remove the",
+    "duration": 4980,
+    "offset": 3296340,
+    "lang": "en"
+  },
+  {
+    "text": "undefined that comes for system",
+    "duration": 5850,
+    "offset": 3298470,
+    "lang": "en"
+  },
+  {
+    "text": "notifications this is the section which",
+    "duration": 5250,
+    "offset": 3301320,
+    "lang": "en"
+  },
+  {
+    "text": "displays the incoming message we can",
+    "duration": 4770,
+    "offset": 3304320,
+    "lang": "en"
+  },
+  {
+    "text": "make some edits to it to remove the text",
+    "duration": 4680,
+    "offset": 3306570,
+    "lang": "en"
+  },
+  {
+    "text": "undefined there appears twice for all",
+    "duration": 4110,
+    "offset": 3309090,
+    "lang": "en"
+  },
+  {
+    "text": "system messages we will add a",
+    "duration": 4230,
+    "offset": 3311250,
+    "lang": "en"
+  },
+  {
+    "text": "conditional statement so if the data",
+    "duration": 4890,
+    "offset": 3313200,
+    "lang": "en"
+  },
+  {
+    "text": "that we receive from the server has a",
+    "duration": 5220,
+    "offset": 3315480,
+    "lang": "en"
+  },
+  {
+    "text": "user name key in it then this is not a",
+    "duration": 4710,
+    "offset": 3318090,
+    "lang": "en"
+  },
+  {
+    "text": "system notification it's a message which",
+    "duration": 3990,
+    "offset": 3320700,
+    "lang": "en"
+  },
+  {
+    "text": "another user has sent to all of the",
+    "duration": 4140,
+    "offset": 3322800,
+    "lang": "en"
+  },
+  {
+    "text": "users in the room to do that we will",
+    "duration": 4740,
+    "offset": 3324690,
+    "lang": "en"
+  },
+  {
+    "text": "write the conditional statement if data",
+    "duration": 5760,
+    "offset": 3326940,
+    "lang": "en"
+  },
+  {
+    "text": "dot user name as in if the data has the",
+    "duration": 6410,
+    "offset": 3329430,
+    "lang": "en"
+  },
+  {
+    "text": "user name key in it so this entire thing",
+    "duration": 10230,
+    "offset": 3332700,
+    "lang": "en"
+  },
+  {
+    "text": "can go here on the other hand the data",
+    "duration": 9130,
+    "offset": 3335840,
+    "lang": "en"
+  },
+  {
+    "text": "that we received does not have a user",
+    "duration": 4200,
+    "offset": 3342930,
+    "lang": "en"
+  },
+  {
+    "text": "name in it then it's a system generated",
+    "duration": 4110,
+    "offset": 3344970,
+    "lang": "en"
+  },
+  {
+    "text": "message so it would be something like",
+    "duration": 3900,
+    "offset": 3347130,
+    "lang": "en"
+  },
+  {
+    "text": "someone has joined a room or someone has",
+    "duration": 4980,
+    "offset": 3349080,
+    "lang": "en"
+  },
+  {
+    "text": "left a room for these messages let's use",
+    "duration": 5160,
+    "offset": 3351030,
+    "lang": "en"
+  },
+  {
+    "text": "the function we wrote to print system",
+    "duration": 4260,
+    "offset": 3354060,
+    "lang": "en"
+  },
+  {
+    "text": "messages and just pass in the message",
+    "duration": 4500,
+    "offset": 3356190,
+    "lang": "en"
+  },
+  {
+    "text": "text there will be no username or",
+    "duration": 5430,
+    "offset": 3358320,
+    "lang": "en"
+  },
+  {
+    "text": "timestamp associated with us let's go",
+    "duration": 4710,
+    "offset": 3360690,
+    "lang": "en"
+  },
+  {
+    "text": "copy the name of the function we wrote",
+    "duration": 5210,
+    "offset": 3363750,
+    "lang": "en"
+  },
+  {
+    "text": "to print system messages",
+    "duration": 3560,
+    "offset": 3365400,
+    "lang": "en"
+  },
+  {
+    "text": "you",
+    "duration": 2060,
+    "offset": 3368990,
+    "lang": "en"
+  },
+  {
+    "text": "so what is the variable that we pass in",
+    "duration": 4541,
+    "offset": 3371619,
+    "lang": "en"
+  },
+  {
+    "text": "which would be the message text in this",
+    "duration": 4890,
+    "offset": 3374240,
+    "lang": "en"
+  },
+  {
+    "text": "data to access that just like username",
+    "duration": 7500,
+    "offset": 3376160,
+    "lang": "en"
+  },
+  {
+    "text": "it would be data dot message so this",
+    "duration": 8840,
+    "offset": 3379130,
+    "lang": "en"
+  },
+  {
+    "text": "right here is essentially",
+    "duration": 4310,
+    "offset": 3383660,
+    "lang": "en"
+  },
+  {
+    "text": "either this or it could be something for",
+    "duration": 6260,
+    "offset": 3388020,
+    "lang": "en"
+  },
+  {
+    "text": "leaving a room",
+    "duration": 2690,
+    "offset": 3391590,
+    "lang": "en"
+  },
+  {
+    "text": "let's test this again",
+    "duration": 4190,
+    "offset": 3396210,
+    "lang": "en"
+  },
+  {
+    "text": "user connects he's automatically logged",
+    "duration": 5130,
+    "offset": 3400910,
+    "lang": "en"
+  },
+  {
+    "text": "into the lounge room we can see that the",
+    "duration": 5010,
+    "offset": 3403340,
+    "lang": "en"
+  },
+  {
+    "text": "undefined text which used to come above",
+    "duration": 4890,
+    "offset": 3406040,
+    "lang": "en"
+  },
+  {
+    "text": "and below it is gone let's meet the",
+    "duration": 5550,
+    "offset": 3408350,
+    "lang": "en"
+  },
+  {
+    "text": "other user also join this room so this",
+    "duration": 7410,
+    "offset": 3410930,
+    "lang": "en"
+  },
+  {
+    "text": "was the lounge so over here if you see",
+    "duration": 6870,
+    "offset": 3413900,
+    "lang": "en"
+  },
+  {
+    "text": "it still says undefined that's because",
+    "duration": 6540,
+    "offset": 3418340,
+    "lang": "en"
+  },
+  {
+    "text": "Google is caching the JavaScript file so",
+    "duration": 6420,
+    "offset": 3420770,
+    "lang": "en"
+  },
+  {
+    "text": "to avoid it if you keep the developer",
+    "duration": 4380,
+    "offset": 3424880,
+    "lang": "en"
+  },
+  {
+    "text": "console open and you can just minimize",
+    "duration": 4380,
+    "offset": 3427190,
+    "lang": "en"
+  },
+  {
+    "text": "it to the bottom and then you refresh it",
+    "duration": 5130,
+    "offset": 3429260,
+    "lang": "en"
+  },
+  {
+    "text": "you see that the message is gone so by",
+    "duration": 5730,
+    "offset": 3431570,
+    "lang": "en"
+  },
+  {
+    "text": "default Google does cache the JavaScript",
+    "duration": 4140,
+    "offset": 3434390,
+    "lang": "en"
+  },
+  {
+    "text": "file",
+    "duration": 5970,
+    "offset": 3437300,
+    "lang": "en"
+  },
+  {
+    "text": "let's send a message you can see both",
+    "duration": 7800,
+    "offset": 3438530,
+    "lang": "en"
+  },
+  {
+    "text": "the people receive it and vice versa",
+    "duration": 5760,
+    "offset": 3443270,
+    "lang": "en"
+  },
+  {
+    "text": "also if the user were to join another",
+    "duration": 5280,
+    "offset": 3446330,
+    "lang": "en"
+  },
+  {
+    "text": "room which is coding this is working",
+    "duration": 4770,
+    "offset": 3449030,
+    "lang": "en"
+  },
+  {
+    "text": "exactly like we wanted to so if he",
+    "duration": 4140,
+    "offset": 3451610,
+    "lang": "en"
+  },
+  {
+    "text": "joined a new room you see the",
+    "duration": 3720,
+    "offset": 3453800,
+    "lang": "en"
+  },
+  {
+    "text": "notification without the undefined",
+    "duration": 4290,
+    "offset": 3455750,
+    "lang": "en"
+  },
+  {
+    "text": "message and this message area has",
+    "duration": 5250,
+    "offset": 3457520,
+    "lang": "en"
+  },
+  {
+    "text": "cleared well user while the user in this",
+    "duration": 5310,
+    "offset": 3460040,
+    "lang": "en"
+  },
+  {
+    "text": "window will see the same notification",
+    "duration": 4530,
+    "offset": 3462770,
+    "lang": "en"
+  },
+  {
+    "text": "without the undefined text at the top",
+    "duration": 3699,
+    "offset": 3465350,
+    "lang": "en"
+  },
+  {
+    "text": "and the bottom",
+    "duration": 4389,
+    "offset": 3467300,
+    "lang": "en"
+  },
+  {
+    "text": "we can keep improving this application",
+    "duration": 6060,
+    "offset": 3469049,
+    "lang": "en"
+  },
+  {
+    "text": "and so many more ways aside from the",
+    "duration": 5430,
+    "offset": 3471689,
+    "lang": "en"
+  },
+  {
+    "text": "aesthetics of it which definitely needs",
+    "duration": 4170,
+    "offset": 3475109,
+    "lang": "en"
+  },
+  {
+    "text": "to be fixed if this is gonna be usable",
+    "duration": 4230,
+    "offset": 3477119,
+    "lang": "en"
+  },
+  {
+    "text": "but there are still more improvements",
+    "duration": 3540,
+    "offset": 3479279,
+    "lang": "en"
+  },
+  {
+    "text": "you can do even when it comes to",
+    "duration": 3840,
+    "offset": 3481349,
+    "lang": "en"
+  },
+  {
+    "text": "functionality to make the app easier to",
+    "duration": 5071,
+    "offset": 3482819,
+    "lang": "en"
+  },
+  {
+    "text": "use for example every time I send a",
+    "duration": 5370,
+    "offset": 3485189,
+    "lang": "en"
+  },
+  {
+    "text": "message this input box does not clear so",
+    "duration": 4349,
+    "offset": 3487890,
+    "lang": "en"
+  },
+  {
+    "text": "that's something that we should fix",
+    "duration": 4321,
+    "offset": 3490559,
+    "lang": "en"
+  },
+  {
+    "text": "after we hit the send button this input",
+    "duration": 5220,
+    "offset": 3492239,
+    "lang": "en"
+  },
+  {
+    "text": "box should empty itself out the other",
+    "duration": 5399,
+    "offset": 3494880,
+    "lang": "en"
+  },
+  {
+    "text": "thing is idlyís should be able to type a",
+    "duration": 6120,
+    "offset": 3497459,
+    "lang": "en"
+  },
+  {
+    "text": "message here and just press ENTER for",
+    "duration": 5370,
+    "offset": 3500279,
+    "lang": "en"
+  },
+  {
+    "text": "that message to be sent to all the other",
+    "duration": 4650,
+    "offset": 3503579,
+    "lang": "en"
+  },
+  {
+    "text": "users so these are some of the fixes",
+    "duration": 4950,
+    "offset": 3505649,
+    "lang": "en"
+  },
+  {
+    "text": "that we can do I'll show you how to fix",
+    "duration": 4950,
+    "offset": 3508229,
+    "lang": "en"
+  },
+  {
+    "text": "these two specific issues let's go back",
+    "duration": 5670,
+    "offset": 3510599,
+    "lang": "en"
+  },
+  {
+    "text": "to our JavaScript file first thing is we",
+    "duration": 4920,
+    "offset": 3513179,
+    "lang": "en"
+  },
+  {
+    "text": "need to clear the input box after the",
+    "duration": 3990,
+    "offset": 3516269,
+    "lang": "en"
+  },
+  {
+    "text": "message is sent so this is where the",
+    "duration": 5070,
+    "offset": 3518099,
+    "lang": "en"
+  },
+  {
+    "text": "message is sent and after this let's",
+    "duration": 6180,
+    "offset": 3520259,
+    "lang": "en"
+  },
+  {
+    "text": "clear the input area we again use",
+    "duration": 7380,
+    "offset": 3523169,
+    "lang": "en"
+  },
+  {
+    "text": "document query selector let's grab the",
+    "duration": 7730,
+    "offset": 3526439,
+    "lang": "en"
+  },
+  {
+    "text": "ID of the input message box",
+    "duration": 3620,
+    "offset": 3530549,
+    "lang": "en"
+  },
+  {
+    "text": "so this is the input message and this is",
+    "duration": 6750,
+    "offset": 3537690,
+    "lang": "en"
+  },
+  {
+    "text": "the ID we copy this from here and paste",
+    "duration": 8149,
+    "offset": 3540450,
+    "lang": "en"
+  },
+  {
+    "text": "it here and we set the value to blank",
+    "duration": 6629,
+    "offset": 3544440,
+    "lang": "en"
+  },
+  {
+    "text": "next thing we wanted to do was when the",
+    "duration": 4480,
+    "offset": 3548599,
+    "lang": "en"
+  },
+  {
+    "text": "user types in a message the user should",
+    "duration": 4500,
+    "offset": 3551069,
+    "lang": "en"
+  },
+  {
+    "text": "be able to press enter or hit the return",
+    "duration": 4470,
+    "offset": 3553079,
+    "lang": "en"
+  },
+  {
+    "text": "key instead of having to click on the",
+    "duration": 4621,
+    "offset": 3555569,
+    "lang": "en"
+  },
+  {
+    "text": "send button we can use JavaScript for",
+    "duration": 4471,
+    "offset": 3557549,
+    "lang": "en"
+  },
+  {
+    "text": "this and write the code in this file",
+    "duration": 3960,
+    "offset": 3560190,
+    "lang": "en"
+  },
+  {
+    "text": "itself however since this functionality",
+    "duration": 5339,
+    "offset": 3562020,
+    "lang": "en"
+  },
+  {
+    "text": "has nothing to do with socket IO at all",
+    "duration": 5040,
+    "offset": 3564150,
+    "lang": "en"
+  },
+  {
+    "text": "we will keep this JavaScript in a",
+    "duration": 5210,
+    "offset": 3567359,
+    "lang": "en"
+  },
+  {
+    "text": "separate file so let's create a new file",
+    "duration": 7200,
+    "offset": 3569190,
+    "lang": "en"
+  },
+  {
+    "text": "will open the folder view let's create a",
+    "duration": 6010,
+    "offset": 3572569,
+    "lang": "en"
+  },
+  {
+    "text": "new file this file will be inside the",
+    "duration": 5669,
+    "offset": 3576390,
+    "lang": "en"
+  },
+  {
+    "text": "script folder itself and let's call this",
+    "duration": 8220,
+    "offset": 3578579,
+    "lang": "en"
+  },
+  {
+    "text": "file chat underscore page dot GS we're",
+    "duration": 6510,
+    "offset": 3582059,
+    "lang": "en"
+  },
+  {
+    "text": "gonna need this file name so let's copy",
+    "duration": 4471,
+    "offset": 3586799,
+    "lang": "en"
+  },
+  {
+    "text": "it and let's create the file I'm gonna",
+    "duration": 5581,
+    "offset": 3588569,
+    "lang": "en"
+  },
+  {
+    "text": "close the folder view so to this we can",
+    "duration": 8160,
+    "offset": 3591270,
+    "lang": "en"
+  },
+  {
+    "text": "add a standard event listener which we",
+    "duration": 7260,
+    "offset": 3594150,
+    "lang": "en"
+  },
+  {
+    "text": "listen to when the Dom content is loaded",
+    "duration": 4320,
+    "offset": 3599430,
+    "lang": "en"
+  },
+  {
+    "text": "let's write an anonymous function it",
+    "duration": 4530,
+    "offset": 3601410,
+    "lang": "en"
+  },
+  {
+    "text": "will not have any parameters we write",
+    "duration": 3779,
+    "offset": 3603750,
+    "lang": "en"
+  },
+  {
+    "text": "some code here to make the Enter key",
+    "duration": 5300,
+    "offset": 3605940,
+    "lang": "en"
+  },
+  {
+    "text": "equate to the click on the send button",
+    "duration": 6030,
+    "offset": 3607529,
+    "lang": "en"
+  },
+  {
+    "text": "first we create a variable for the",
+    "duration": 4900,
+    "offset": 3611240,
+    "lang": "en"
+  },
+  {
+    "text": "message area we use document dot query",
+    "duration": 6240,
+    "offset": 3613559,
+    "lang": "en"
+  },
+  {
+    "text": "selector let's grab the ID of the input",
+    "duration": 5469,
+    "offset": 3616140,
+    "lang": "en"
+  },
+  {
+    "text": "box",
+    "duration": 4720,
+    "offset": 3619799,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it here next let's add an",
+    "duration": 4980,
+    "offset": 3621609,
+    "lang": "en"
+  },
+  {
+    "text": "event listener to check if the Enter key",
+    "duration": 4711,
+    "offset": 3624519,
+    "lang": "en"
+  },
+  {
+    "text": "was the last key which was pressed this",
+    "duration": 5041,
+    "offset": 3626589,
+    "lang": "en"
+  },
+  {
+    "text": "is just standard JavaScript so I'll just",
+    "duration": 4440,
+    "offset": 3629230,
+    "lang": "en"
+  },
+  {
+    "text": "write the code the event listener will",
+    "duration": 7379,
+    "offset": 3631630,
+    "lang": "en"
+  },
+  {
+    "text": "listen for key up we want to prevent the",
+    "duration": 9359,
+    "offset": 3633670,
+    "lang": "en"
+  },
+  {
+    "text": "default and check whether the key code",
+    "duration": 6840,
+    "offset": 3639009,
+    "lang": "en"
+  },
+  {
+    "text": "was 13 this is the key code for the",
+    "duration": 5881,
+    "offset": 3643029,
+    "lang": "en"
+  },
+  {
+    "text": "Enter key and if the last key up was the",
+    "duration": 4621,
+    "offset": 3645849,
+    "lang": "en"
+  },
+  {
+    "text": "Enter key let's have the JavaScript",
+    "duration": 3869,
+    "offset": 3648910,
+    "lang": "en"
+  },
+  {
+    "text": "click on the send button so again it's",
+    "duration": 5129,
+    "offset": 3650470,
+    "lang": "en"
+  },
+  {
+    "text": "document dot query selector we need the",
+    "duration": 5070,
+    "offset": 3652779,
+    "lang": "en"
+  },
+  {
+    "text": "ID of the button so let's grab it from",
+    "duration": 4291,
+    "offset": 3655599,
+    "lang": "en"
+  },
+  {
+    "text": "the HTML file",
+    "duration": 4831,
+    "offset": 3657849,
+    "lang": "en"
+  },
+  {
+    "text": "and this is the ID of the button so",
+    "duration": 5689,
+    "offset": 3659890,
+    "lang": "en"
+  },
+  {
+    "text": "let's copy this",
+    "duration": 2899,
+    "offset": 3662680,
+    "lang": "en"
+  },
+  {
+    "text": "and paste it here so what we want this",
+    "duration": 6900,
+    "offset": 3666130,
+    "lang": "en"
+  },
+  {
+    "text": "to do we wanted to click the button what",
+    "duration": 5370,
+    "offset": 3669640,
+    "lang": "en"
+  },
+  {
+    "text": "this entire chunk of code does is",
+    "duration": 4560,
+    "offset": 3673030,
+    "lang": "en"
+  },
+  {
+    "text": "whenever the user presses the enter key",
+    "duration": 4440,
+    "offset": 3675010,
+    "lang": "en"
+  },
+  {
+    "text": "or the return key it will send the",
+    "duration": 3780,
+    "offset": 3677590,
+    "lang": "en"
+  },
+  {
+    "text": "message to the server without having to",
+    "duration": 4290,
+    "offset": 3679450,
+    "lang": "en"
+  },
+  {
+    "text": "click on the send button for this to",
+    "duration": 4350,
+    "offset": 3681370,
+    "lang": "en"
+  },
+  {
+    "text": "work we need to include this JavaScript",
+    "duration": 5380,
+    "offset": 3683740,
+    "lang": "en"
+  },
+  {
+    "text": "in the HTML file",
+    "duration": 5830,
+    "offset": 3685720,
+    "lang": "en"
+  },
+  {
+    "text": "she will include the custom Gia's file",
+    "duration": 7260,
+    "offset": 3689120,
+    "lang": "en"
+  },
+  {
+    "text": "here the syntax we have seen earlier its",
+    "duration": 7890,
+    "offset": 3691550,
+    "lang": "en"
+  },
+  {
+    "text": "script and then source URL underscore",
+    "duration": 5430,
+    "offset": 3696380,
+    "lang": "en"
+  },
+  {
+    "text": "for the file that we are looking at is",
+    "duration": 5700,
+    "offset": 3699440,
+    "lang": "en"
+  },
+  {
+    "text": "inside a folder called static and inside",
+    "duration": 5700,
+    "offset": 3701810,
+    "lang": "en"
+  },
+  {
+    "text": "static it's inside a folder called as",
+    "duration": 5100,
+    "offset": 3705140,
+    "lang": "en"
+  },
+  {
+    "text": "scripts then the name of the file the",
+    "duration": 4620,
+    "offset": 3707510,
+    "lang": "en"
+  },
+  {
+    "text": "name of the file we can see it from here",
+    "duration": 11460,
+    "offset": 3710240,
+    "lang": "en"
+  },
+  {
+    "text": "it's chat underscore page dot GS let's",
+    "duration": 14090,
+    "offset": 3712130,
+    "lang": "en"
+  },
+  {
+    "text": "go back to the browser and test this",
+    "duration": 6660,
+    "offset": 3721700,
+    "lang": "en"
+  },
+  {
+    "text": "okay so we don't seem to have broken",
+    "duration": 4570,
+    "offset": 3726220,
+    "lang": "en"
+  },
+  {
+    "text": "anything and the input area is emptying",
+    "duration": 4980,
+    "offset": 3728360,
+    "lang": "en"
+  },
+  {
+    "text": "out after we depress the message and the",
+    "duration": 4380,
+    "offset": 3730790,
+    "lang": "en"
+  },
+  {
+    "text": "best part is we can just hit the enter",
+    "duration": 4710,
+    "offset": 3733340,
+    "lang": "en"
+  },
+  {
+    "text": "key and we don't have to do a tab enter",
+    "duration": 4830,
+    "offset": 3735170,
+    "lang": "en"
+  },
+  {
+    "text": "or take the mouse and click on the send",
+    "duration": 4530,
+    "offset": 3738050,
+    "lang": "en"
+  },
+  {
+    "text": "button again there are lots of other",
+    "duration": 4470,
+    "offset": 3740000,
+    "lang": "en"
+  },
+  {
+    "text": "changes that we can do for example when",
+    "duration": 2790,
+    "offset": 3742580,
+    "lang": "en"
+  },
+  {
+    "text": "I switch rooms",
+    "duration": 3090,
+    "offset": 3744470,
+    "lang": "en"
+  },
+  {
+    "text": "I still can't start typing it I need to",
+    "duration": 4220,
+    "offset": 3745370,
+    "lang": "en"
+  },
+  {
+    "text": "come here and click inside the box",
+    "duration": 4950,
+    "offset": 3747560,
+    "lang": "en"
+  },
+  {
+    "text": "before I can start typing this again is",
+    "duration": 5440,
+    "offset": 3749590,
+    "lang": "en"
+  },
+  {
+    "text": "needlessly painful for the user this can",
+    "duration": 4020,
+    "offset": 3752510,
+    "lang": "en"
+  },
+  {
+    "text": "be fixed by adding an auto focus",
+    "duration": 4320,
+    "offset": 3755030,
+    "lang": "en"
+  },
+  {
+    "text": "attribute to the input box so this way",
+    "duration": 4770,
+    "offset": 3756530,
+    "lang": "en"
+  },
+  {
+    "text": "the user doesn't have to click inside",
+    "duration": 4260,
+    "offset": 3759350,
+    "lang": "en"
+  },
+  {
+    "text": "the input box every time he joins or",
+    "duration": 4770,
+    "offset": 3761300,
+    "lang": "en"
+  },
+  {
+    "text": "leaves the room we can do this both from",
+    "duration": 4860,
+    "offset": 3763610,
+    "lang": "en"
+  },
+  {
+    "text": "the HTML file or from the JavaScript",
+    "duration": 5880,
+    "offset": 3766070,
+    "lang": "en"
+  },
+  {
+    "text": "itself we have done previously for the t",
+    "duration": 5490,
+    "offset": 3768470,
+    "lang": "en"
+  },
+  {
+    "text": "HTML file let me just show you how to do",
+    "duration": 5510,
+    "offset": 3771950,
+    "lang": "en"
+  },
+  {
+    "text": "it using JavaScript",
+    "duration": 3500,
+    "offset": 3773960,
+    "lang": "en"
+  },
+  {
+    "text": "this is the function where the user",
+    "duration": 4770,
+    "offset": 3781800,
+    "lang": "en"
+  },
+  {
+    "text": "joins the room he joins a room here then",
+    "duration": 5970,
+    "offset": 3783630,
+    "lang": "en"
+  },
+  {
+    "text": "we clear the input message area after",
+    "duration": 5400,
+    "offset": 3786570,
+    "lang": "en"
+  },
+  {
+    "text": "this let's put a auto focus on the text",
+    "duration": 7320,
+    "offset": 3789600,
+    "lang": "en"
+  },
+  {
+    "text": "box its document dot query selector and",
+    "duration": 8070,
+    "offset": 3791970,
+    "lang": "en"
+  },
+  {
+    "text": "then we need to get the ID of the input",
+    "duration": 5340,
+    "offset": 3796920,
+    "lang": "en"
+  },
+  {
+    "text": "box let's grab it from the HTML file",
+    "duration": 4800,
+    "offset": 3800040,
+    "lang": "en"
+  },
+  {
+    "text": "this is the input box let's copy this",
+    "duration": 7310,
+    "offset": 3802260,
+    "lang": "en"
+  },
+  {
+    "text": "paste it here we want it to be in focus",
+    "duration": 8540,
+    "offset": 3804840,
+    "lang": "en"
+  },
+  {
+    "text": "we will refresh the page",
+    "duration": 5090,
+    "offset": 3809570,
+    "lang": "en"
+  },
+  {
+    "text": "the input box is highlighted",
+    "duration": 4020,
+    "offset": 3813380,
+    "lang": "en"
+  },
+  {
+    "text": "automatically and we can type in without",
+    "duration": 4659,
+    "offset": 3814660,
+    "lang": "en"
+  },
+  {
+    "text": "having to click the input box",
+    "duration": 5040,
+    "offset": 3817400,
+    "lang": "en"
+  },
+  {
+    "text": "let's switch a room let's go to the",
+    "duration": 5821,
+    "offset": 3819319,
+    "lang": "en"
+  },
+  {
+    "text": "coding room again you see I'm in the",
+    "duration": 4859,
+    "offset": 3822440,
+    "lang": "en"
+  },
+  {
+    "text": "moment I switch a room the input box is",
+    "duration": 4409,
+    "offset": 3825140,
+    "lang": "en"
+  },
+  {
+    "text": "automatically in focus and the user can",
+    "duration": 5250,
+    "offset": 3827299,
+    "lang": "en"
+  },
+  {
+    "text": "type directly there are lots of these",
+    "duration": 5161,
+    "offset": 3829549,
+    "lang": "en"
+  },
+  {
+    "text": "incremental changes that we can make to",
+    "duration": 4651,
+    "offset": 3832549,
+    "lang": "en"
+  },
+  {
+    "text": "our app to make it more intuitive to use",
+    "duration": 4220,
+    "offset": 3834710,
+    "lang": "en"
+  },
+  {
+    "text": "and improve the overall user experience",
+    "duration": 4139,
+    "offset": 3837200,
+    "lang": "en"
+  },
+  {
+    "text": "this is going to be a never-ending",
+    "duration": 4990,
+    "offset": 3838930,
+    "lang": "en"
+  },
+  {
+    "text": "process we would look at the analytics",
+    "duration": 4710,
+    "offset": 3841339,
+    "lang": "en"
+  },
+  {
+    "text": "for this app how people are using it",
+    "duration": 4169,
+    "offset": 3843920,
+    "lang": "en"
+  },
+  {
+    "text": "we're already getting stuck and we keep",
+    "duration": 4770,
+    "offset": 3846049,
+    "lang": "en"
+  },
+  {
+    "text": "testing we keep running a be tests and",
+    "duration": 4740,
+    "offset": 3848089,
+    "lang": "en"
+  },
+  {
+    "text": "multivariate tests to figure out what is",
+    "duration": 4020,
+    "offset": 3850819,
+    "lang": "en"
+  },
+  {
+    "text": "the best possible experience we can",
+    "duration": 4561,
+    "offset": 3852829,
+    "lang": "en"
+  },
+  {
+    "text": "deliver from this app at least from a",
+    "duration": 4591,
+    "offset": 3854839,
+    "lang": "en"
+  },
+  {
+    "text": "functionality perspective this is all",
+    "duration": 4229,
+    "offset": 3857390,
+    "lang": "en"
+  },
+  {
+    "text": "that we want the simple chat application",
+    "duration": 5549,
+    "offset": 3859430,
+    "lang": "en"
+  },
+  {
+    "text": "to do now let's talk about styling when",
+    "duration": 5700,
+    "offset": 3861619,
+    "lang": "en"
+  },
+  {
+    "text": "I started this video series my initial",
+    "duration": 4290,
+    "offset": 3864979,
+    "lang": "en"
+  },
+  {
+    "text": "thought was to go through each line of",
+    "duration": 4831,
+    "offset": 3867319,
+    "lang": "en"
+  },
+  {
+    "text": "CSS and style element on the app but a",
+    "duration": 5371,
+    "offset": 3869269,
+    "lang": "en"
+  },
+  {
+    "text": "lot of it is just trial and error a lot",
+    "duration": 4949,
+    "offset": 3872150,
+    "lang": "en"
+  },
+  {
+    "text": "of it as value judgment in terms of what",
+    "duration": 4649,
+    "offset": 3874640,
+    "lang": "en"
+  },
+  {
+    "text": "looks good so I'm not sure how much",
+    "duration": 5071,
+    "offset": 3877099,
+    "lang": "en"
+  },
+  {
+    "text": "value will be added by this iterative",
+    "duration": 5341,
+    "offset": 3879289,
+    "lang": "en"
+  },
+  {
+    "text": "exercise of trying to figure what sort",
+    "duration": 4169,
+    "offset": 3882170,
+    "lang": "en"
+  },
+  {
+    "text": "of styling elements should be used I'll",
+    "duration": 4560,
+    "offset": 3884630,
+    "lang": "en"
+  },
+  {
+    "text": "publish the CSS file online so you can",
+    "duration": 5730,
+    "offset": 3886339,
+    "lang": "en"
+  },
+  {
+    "text": "apply it to your file too so here's the",
+    "duration": 3240,
+    "offset": 3889190,
+    "lang": "en"
+  },
+  {
+    "text": "deal",
+    "duration": 2430,
+    "offset": 3892069,
+    "lang": "en"
+  },
+  {
+    "text": "in case you're not sure of any of the",
+    "duration": 4139,
+    "offset": 3892430,
+    "lang": "en"
+  },
+  {
+    "text": "syntax that I have used let me know in",
+    "duration": 4560,
+    "offset": 3894499,
+    "lang": "en"
+  },
+  {
+    "text": "the comments if I find time I'll make an",
+    "duration": 4920,
+    "offset": 3896569,
+    "lang": "en"
+  },
+  {
+    "text": "entirely new video just to cover that",
+    "duration": 4440,
+    "offset": 3899059,
+    "lang": "en"
+  },
+  {
+    "text": "particular aspect or maybe I'll do a",
+    "duration": 4740,
+    "offset": 3901489,
+    "lang": "en"
+  },
+  {
+    "text": "general video on how I go about styling",
+    "duration": 5941,
+    "offset": 3903499,
+    "lang": "en"
+  },
+  {
+    "text": "a page at any rate the entire code along",
+    "duration": 5310,
+    "offset": 3906229,
+    "lang": "en"
+  },
+  {
+    "text": "with the CSS file is available for",
+    "duration": 4679,
+    "offset": 3909440,
+    "lang": "en"
+  },
+  {
+    "text": "download I will leave a link below I've",
+    "duration": 4740,
+    "offset": 3911539,
+    "lang": "en"
+  },
+  {
+    "text": "already applied all the changes to the",
+    "duration": 4531,
+    "offset": 3914119,
+    "lang": "en"
+  },
+  {
+    "text": "app and this is what the final app will",
+    "duration": 4111,
+    "offset": 3916279,
+    "lang": "en"
+  },
+  {
+    "text": "look like",
+    "duration": 4469,
+    "offset": 3918650,
+    "lang": "en"
+  },
+  {
+    "text": "in the next video we will talk about the",
+    "duration": 6030,
+    "offset": 3920390,
+    "lang": "en"
+  },
+  {
+    "text": "final part of the project deploying the",
+    "duration": 6331,
+    "offset": 3923119,
+    "lang": "en"
+  },
+  {
+    "text": "application on Heroku if you found this",
+    "duration": 5429,
+    "offset": 3926420,
+    "lang": "en"
+  },
+  {
+    "text": "video useful please hit the like button",
+    "duration": 4470,
+    "offset": 3929450,
+    "lang": "en"
+  },
+  {
+    "text": "subscribe to the channel and share it",
+    "duration": 3691,
+    "offset": 3931849,
+    "lang": "en"
+  },
+  {
+    "text": "with your friends",
+    "duration": 3810,
+    "offset": 3933920,
+    "lang": "en"
+  },
+  {
+    "text": "let me add all the changes that I have",
+    "duration": 9900,
+    "offset": 3935540,
+    "lang": "en"
+  },
+  {
+    "text": "done stop the server and commit the",
+    "duration": 14090,
+    "offset": 3937730,
+    "lang": "en"
+  },
+  {
+    "text": "changes add socket IO functionality",
+    "duration": 9540,
+    "offset": 3945440,
+    "lang": "en"
+  },
+  {
+    "text": "that's it for this video the next one",
+    "duration": 5560,
+    "offset": 3951820,
+    "lang": "en"
+  },
+  {
+    "text": "the final one we will deploy the app and",
+    "duration": 6800,
+    "offset": 3954980,
+    "lang": "en"
+  },
+  {
+    "text": "Haruko see you in the next video",
+    "duration": 4400,
+    "offset": 3957380,
+    "lang": "en"
+  }
+]

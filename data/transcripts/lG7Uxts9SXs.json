@@ -1,0 +1,8342 @@
+[
+  {
+    "text": "Lang chain is a framework designed to",
+    "duration": 4259,
+    "offset": 0,
+    "lang": "en"
+  },
+  {
+    "text": "simplify the creation of applications",
+    "duration": 4561,
+    "offset": 2399,
+    "lang": "en"
+  },
+  {
+    "text": "using large language models it makes it",
+    "duration": 4741,
+    "offset": 4259,
+    "lang": "en"
+  },
+  {
+    "text": "easy to connect AI models with a bunch",
+    "duration": 4020,
+    "offset": 6960,
+    "lang": "en"
+  },
+  {
+    "text": "of different data sources so you can",
+    "duration": 3960,
+    "offset": 9000,
+    "lang": "en"
+  },
+  {
+    "text": "create customized NLP applications",
+    "duration": 4199,
+    "offset": 10980,
+    "lang": "en"
+  },
+  {
+    "text": "Rashad Kumar created this Lang sync",
+    "duration": 4140,
+    "offset": 12960,
+    "lang": "en"
+  },
+  {
+    "text": "course for beginners he is an",
+    "duration": 3901,
+    "offset": 15179,
+    "lang": "en"
+  },
+  {
+    "text": "experienced engineer and a great teacher",
+    "duration": 6179,
+    "offset": 17100,
+    "lang": "en"
+  },
+  {
+    "text": "let's learn about what langchin is",
+    "duration": 6539,
+    "offset": 19080,
+    "lang": "en"
+  },
+  {
+    "text": "sulang 10 is an open source framework",
+    "duration": 4561,
+    "offset": 23279,
+    "lang": "en"
+  },
+  {
+    "text": "that allows developers working with AI",
+    "duration": 5281,
+    "offset": 25619,
+    "lang": "en"
+  },
+  {
+    "text": "to combine large language models like",
+    "duration": 6000,
+    "offset": 27840,
+    "lang": "en"
+  },
+  {
+    "text": "gpt4 with external sources of",
+    "duration": 5940,
+    "offset": 30900,
+    "lang": "en"
+  },
+  {
+    "text": "computation and data the framework is",
+    "duration": 5280,
+    "offset": 33840,
+    "lang": "en"
+  },
+  {
+    "text": "currently offered in Python in",
+    "duration": 4620,
+    "offset": 36840,
+    "lang": "en"
+  },
+  {
+    "text": "JavaScript well typescript to be",
+    "duration": 5040,
+    "offset": 39120,
+    "lang": "en"
+  },
+  {
+    "text": "specific and you can combine large",
+    "duration": 6000,
+    "offset": 41460,
+    "lang": "en"
+  },
+  {
+    "text": "language models like gpt4 from open AI",
+    "duration": 6120,
+    "offset": 44160,
+    "lang": "en"
+  },
+  {
+    "text": "or hugging phase to your own application",
+    "duration": 4980,
+    "offset": 47460,
+    "lang": "en"
+  },
+  {
+    "text": "so it's an open source framework that",
+    "duration": 4560,
+    "offset": 50280,
+    "lang": "en"
+  },
+  {
+    "text": "allows you to build you know AI llm",
+    "duration": 4799,
+    "offset": 52440,
+    "lang": "en"
+  },
+  {
+    "text": "applications allows you to connect a",
+    "duration": 5460,
+    "offset": 54840,
+    "lang": "en"
+  },
+  {
+    "text": "large language model like tpt4 to your",
+    "duration": 5340,
+    "offset": 57239,
+    "lang": "en"
+  },
+  {
+    "text": "own sources of data and we are not",
+    "duration": 4319,
+    "offset": 60300,
+    "lang": "en"
+  },
+  {
+    "text": "talking about you know pasting a snippet",
+    "duration": 5400,
+    "offset": 62579,
+    "lang": "en"
+  },
+  {
+    "text": "of text into chat GPT prompt we're",
+    "duration": 5521,
+    "offset": 64619,
+    "lang": "en"
+  },
+  {
+    "text": "talking about referencing an entire",
+    "duration": 4981,
+    "offset": 67979,
+    "lang": "en"
+  },
+  {
+    "text": "database filled with your own data so it",
+    "duration": 4920,
+    "offset": 70140,
+    "lang": "en"
+  },
+  {
+    "text": "could be you know a book that's in PDF",
+    "duration": 4680,
+    "offset": 72960,
+    "lang": "en"
+  },
+  {
+    "text": "format that you have converted into the",
+    "duration": 5940,
+    "offset": 75060,
+    "lang": "en"
+  },
+  {
+    "text": "right format for these llms to use which",
+    "duration": 5280,
+    "offset": 77640,
+    "lang": "en"
+  },
+  {
+    "text": "are known as Vector databases and not",
+    "duration": 4380,
+    "offset": 81000,
+    "lang": "en"
+  },
+  {
+    "text": "only that once you get all this",
+    "duration": 5280,
+    "offset": 82920,
+    "lang": "en"
+  },
+  {
+    "text": "information you need you can have leg",
+    "duration": 5279,
+    "offset": 85380,
+    "lang": "en"
+  },
+  {
+    "text": "chain to perform a certain Action For",
+    "duration": 5340,
+    "offset": 88200,
+    "lang": "en"
+  },
+  {
+    "text": "You by integrating external apis so",
+    "duration": 5100,
+    "offset": 90659,
+    "lang": "en"
+  },
+  {
+    "text": "let's say you want to send an email at",
+    "duration": 4800,
+    "offset": 93540,
+    "lang": "en"
+  },
+  {
+    "text": "the end of you know whatever task you",
+    "duration": 5941,
+    "offset": 95759,
+    "lang": "en"
+  },
+  {
+    "text": "did with your given data set and this is",
+    "duration": 6599,
+    "offset": 98340,
+    "lang": "en"
+  },
+  {
+    "text": "where the kind of the main Concepts come",
+    "duration": 6000,
+    "offset": 101700,
+    "lang": "en"
+  },
+  {
+    "text": "into play for the Lang chain framework",
+    "duration": 5581,
+    "offset": 104939,
+    "lang": "en"
+  },
+  {
+    "text": "so I built this diagram to better you",
+    "duration": 5220,
+    "offset": 107700,
+    "lang": "en"
+  },
+  {
+    "text": "know kind of understand the concepts so",
+    "duration": 5940,
+    "offset": 110520,
+    "lang": "en"
+  },
+  {
+    "text": "you have three main kind of Concepts",
+    "duration": 7620,
+    "offset": 112920,
+    "lang": "en"
+  },
+  {
+    "text": "you have components chains and agents So",
+    "duration": 6659,
+    "offset": 116460,
+    "lang": "en"
+  },
+  {
+    "text": "within components you know we have llm",
+    "duration": 5939,
+    "offset": 120540,
+    "lang": "en"
+  },
+  {
+    "text": "wrappers that allow us to connect to a",
+    "duration": 5881,
+    "offset": 123119,
+    "lang": "en"
+  },
+  {
+    "text": "large language model like gpt4 or",
+    "duration": 4921,
+    "offset": 126479,
+    "lang": "en"
+  },
+  {
+    "text": "hugging face then we have prompt",
+    "duration": 4200,
+    "offset": 129000,
+    "lang": "en"
+  },
+  {
+    "text": "templates",
+    "duration": 4500,
+    "offset": 131400,
+    "lang": "en"
+  },
+  {
+    "text": "prompt templates allows us to avoid",
+    "duration": 5940,
+    "offset": 133200,
+    "lang": "en"
+  },
+  {
+    "text": "having to hard code text which is the",
+    "duration": 5280,
+    "offset": 135900,
+    "lang": "en"
+  },
+  {
+    "text": "input to LLS",
+    "duration": 5640,
+    "offset": 139140,
+    "lang": "en"
+  },
+  {
+    "text": "and then we have indexes that allows us",
+    "duration": 6120,
+    "offset": 141180,
+    "lang": "en"
+  },
+  {
+    "text": "to extract the relevant information for",
+    "duration": 4319,
+    "offset": 144780,
+    "lang": "en"
+  },
+  {
+    "text": "the other labs",
+    "duration": 4740,
+    "offset": 147300,
+    "lang": "en"
+  },
+  {
+    "text": "the second concept is change the chains",
+    "duration": 5941,
+    "offset": 149099,
+    "lang": "en"
+  },
+  {
+    "text": "allow us to combine multiple components",
+    "duration": 5699,
+    "offset": 152040,
+    "lang": "en"
+  },
+  {
+    "text": "which are these here",
+    "duration": 6540,
+    "offset": 155040,
+    "lang": "en"
+  },
+  {
+    "text": "together to solve a specific task and",
+    "duration": 6541,
+    "offset": 157739,
+    "lang": "en"
+  },
+  {
+    "text": "build an entire application",
+    "duration": 5820,
+    "offset": 161580,
+    "lang": "en"
+  },
+  {
+    "text": "and finally we have the agents that",
+    "duration": 5819,
+    "offset": 164280,
+    "lang": "en"
+  },
+  {
+    "text": "allows llm to interact with its",
+    "duration": 5460,
+    "offset": 167400,
+    "lang": "en"
+  },
+  {
+    "text": "environment and any of the external apis",
+    "duration": 6000,
+    "offset": 170099,
+    "lang": "en"
+  },
+  {
+    "text": "remember how I talked about the task you",
+    "duration": 5580,
+    "offset": 172860,
+    "lang": "en"
+  },
+  {
+    "text": "want to perform after you have retrieved",
+    "duration": 5101,
+    "offset": 176099,
+    "lang": "en"
+  },
+  {
+    "text": "the information there is a lot to unpack",
+    "duration": 5519,
+    "offset": 178440,
+    "lang": "en"
+  },
+  {
+    "text": "in Lang chain and new stuff is being",
+    "duration": 5580,
+    "offset": 181200,
+    "lang": "en"
+  },
+  {
+    "text": "added every day but on a high level this",
+    "duration": 5041,
+    "offset": 183959,
+    "lang": "en"
+  },
+  {
+    "text": "is what the framework looks like but I",
+    "duration": 5099,
+    "offset": 186780,
+    "lang": "en"
+  },
+  {
+    "text": "have built you know kind of a demo app",
+    "duration": 6599,
+    "offset": 189000,
+    "lang": "en"
+  },
+  {
+    "text": "as you know projects are the way that",
+    "duration": 6541,
+    "offset": 191879,
+    "lang": "en"
+  },
+  {
+    "text": "all of this information basically sticks",
+    "duration": 4860,
+    "offset": 195599,
+    "lang": "en"
+  },
+  {
+    "text": "talking about requirements for this",
+    "duration": 4679,
+    "offset": 198420,
+    "lang": "en"
+  },
+  {
+    "text": "course so you will need python installed",
+    "duration": 6241,
+    "offset": 200459,
+    "lang": "en"
+  },
+  {
+    "text": "and specifically version 3.8 or higher",
+    "duration": 7381,
+    "offset": 203099,
+    "lang": "en"
+  },
+  {
+    "text": "and pip which is python package manager",
+    "duration": 6360,
+    "offset": 206700,
+    "lang": "en"
+  },
+  {
+    "text": "a code editor so I'll be using visual",
+    "duration": 5280,
+    "offset": 210480,
+    "lang": "en"
+  },
+  {
+    "text": "studio code but you can choose whatever",
+    "duration": 5160,
+    "offset": 213060,
+    "lang": "en"
+  },
+  {
+    "text": "code editor of your choices",
+    "duration": 5520,
+    "offset": 215760,
+    "lang": "en"
+  },
+  {
+    "text": "and also an open AI account since we'll",
+    "duration": 6239,
+    "offset": 218220,
+    "lang": "en"
+  },
+  {
+    "text": "be using the open AIS llm today to build",
+    "duration": 5220,
+    "offset": 221280,
+    "lang": "en"
+  },
+  {
+    "text": "our link chain applications I'll be",
+    "duration": 3961,
+    "offset": 224459,
+    "lang": "en"
+  },
+  {
+    "text": "using a Windows machine so all of the",
+    "duration": 3659,
+    "offset": 226500,
+    "lang": "en"
+  },
+  {
+    "text": "commands you'll see in the terminal will",
+    "duration": 4620,
+    "offset": 228420,
+    "lang": "en"
+  },
+  {
+    "text": "be for Windows users but they are quite",
+    "duration": 6781,
+    "offset": 230159,
+    "lang": "en"
+  },
+  {
+    "text": "similar on Mac OS or Linux systems so",
+    "duration": 5940,
+    "offset": 233040,
+    "lang": "en"
+  },
+  {
+    "text": "let's start with the first thing which",
+    "duration": 6120,
+    "offset": 236940,
+    "lang": "en"
+  },
+  {
+    "text": "is you'll need an openai account and in",
+    "duration": 6060,
+    "offset": 238980,
+    "lang": "en"
+  },
+  {
+    "text": "order to sign up for an opening account",
+    "duration": 5039,
+    "offset": 243060,
+    "lang": "en"
+  },
+  {
+    "text": "you can go to openai.com and click on",
+    "duration": 5399,
+    "offset": 245040,
+    "lang": "en"
+  },
+  {
+    "text": "login this will take you to the login",
+    "duration": 3360,
+    "offset": 248099,
+    "lang": "en"
+  },
+  {
+    "text": "screen",
+    "duration": 4621,
+    "offset": 250439,
+    "lang": "en"
+  },
+  {
+    "text": "I already have an account signed up with",
+    "duration": 5400,
+    "offset": 251459,
+    "lang": "en"
+  },
+  {
+    "text": "my Google account so I'll go ahead and",
+    "duration": 4620,
+    "offset": 255060,
+    "lang": "en"
+  },
+  {
+    "text": "log in the reason why we need openai is",
+    "duration": 6721,
+    "offset": 256859,
+    "lang": "en"
+  },
+  {
+    "text": "we will be using open AIS llm and we",
+    "duration": 6360,
+    "offset": 259680,
+    "lang": "en"
+  },
+  {
+    "text": "need an API key so if you click on your",
+    "duration": 4140,
+    "offset": 263580,
+    "lang": "en"
+  },
+  {
+    "text": "user account on the top right hand",
+    "duration": 4800,
+    "offset": 266040,
+    "lang": "en"
+  },
+  {
+    "text": "corner you can click on view API Keys as",
+    "duration": 5460,
+    "offset": 267720,
+    "lang": "en"
+  },
+  {
+    "text": "you can see I have generated a few of",
+    "duration": 4560,
+    "offset": 270840,
+    "lang": "en"
+  },
+  {
+    "text": "them in your case you'll not see any API",
+    "duration": 5280,
+    "offset": 273180,
+    "lang": "en"
+  },
+  {
+    "text": "keys so you can click on create new API",
+    "duration": 3900,
+    "offset": 275400,
+    "lang": "en"
+  },
+  {
+    "text": "key",
+    "duration": 4440,
+    "offset": 278460,
+    "lang": "en"
+  },
+  {
+    "text": "and this will give you a new openai API",
+    "duration": 6959,
+    "offset": 279300,
+    "lang": "en"
+  },
+  {
+    "text": "key now remember to save that safely",
+    "duration": 5640,
+    "offset": 282900,
+    "lang": "en"
+  },
+  {
+    "text": "somewhere because as you can see you",
+    "duration": 5581,
+    "offset": 286259,
+    "lang": "en"
+  },
+  {
+    "text": "can't reveal the API key again so once",
+    "duration": 4920,
+    "offset": 288540,
+    "lang": "en"
+  },
+  {
+    "text": "you create a new one it'll be only",
+    "duration": 4320,
+    "offset": 291840,
+    "lang": "en"
+  },
+  {
+    "text": "revealed one time so save that and we'll",
+    "duration": 5400,
+    "offset": 293460,
+    "lang": "en"
+  },
+  {
+    "text": "be using it later as an environment",
+    "duration": 5880,
+    "offset": 296160,
+    "lang": "en"
+  },
+  {
+    "text": "variable in our code so now let me open",
+    "duration": 5640,
+    "offset": 298860,
+    "lang": "en"
+  },
+  {
+    "text": "up my terminal here and what I'm going",
+    "duration": 5580,
+    "offset": 302040,
+    "lang": "en"
+  },
+  {
+    "text": "to do is create the project directory",
+    "duration": 5759,
+    "offset": 304500,
+    "lang": "en"
+  },
+  {
+    "text": "where our code will reside so I want to",
+    "duration": 5040,
+    "offset": 307620,
+    "lang": "en"
+  },
+  {
+    "text": "make sure I'm in the right directory on",
+    "duration": 5880,
+    "offset": 310259,
+    "lang": "en"
+  },
+  {
+    "text": "my computer here which is GitHub and",
+    "duration": 5940,
+    "offset": 312660,
+    "lang": "en"
+  },
+  {
+    "text": "I'll create a new directory by typing in",
+    "duration": 5581,
+    "offset": 316139,
+    "lang": "en"
+  },
+  {
+    "text": "the command mkdir and we'll call this",
+    "duration": 7800,
+    "offset": 318600,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain Dash llm-app now let's change",
+    "duration": 6840,
+    "offset": 321720,
+    "lang": "en"
+  },
+  {
+    "text": "our directory to our project directory",
+    "duration": 5160,
+    "offset": 326400,
+    "lang": "en"
+  },
+  {
+    "text": "here and let me open it up in Visual",
+    "duration": 6120,
+    "offset": 328560,
+    "lang": "en"
+  },
+  {
+    "text": "Studio code which is the editor of my",
+    "duration": 5699,
+    "offset": 331560,
+    "lang": "en"
+  },
+  {
+    "text": "choice again you can use any code editor",
+    "duration": 5040,
+    "offset": 334680,
+    "lang": "en"
+  },
+  {
+    "text": "that you like okay now that we have of",
+    "duration": 4561,
+    "offset": 337259,
+    "lang": "en"
+  },
+  {
+    "text": "the project directory open in Visual",
+    "duration": 4440,
+    "offset": 339720,
+    "lang": "en"
+  },
+  {
+    "text": "Studio code I'm just going to open up a",
+    "duration": 4319,
+    "offset": 341820,
+    "lang": "en"
+  },
+  {
+    "text": "terminal in my visual studio code here",
+    "duration": 5819,
+    "offset": 344160,
+    "lang": "en"
+  },
+  {
+    "text": "what I want to do now is create a",
+    "duration": 5581,
+    "offset": 346139,
+    "lang": "en"
+  },
+  {
+    "text": "virtual environment so we'll be using",
+    "duration": 4141,
+    "offset": 349979,
+    "lang": "en"
+  },
+  {
+    "text": "Python and we'll be creating a virtual",
+    "duration": 4140,
+    "offset": 351720,
+    "lang": "en"
+  },
+  {
+    "text": "environment and you can do that by",
+    "duration": 6540,
+    "offset": 354120,
+    "lang": "en"
+  },
+  {
+    "text": "typing python Dash mvnv and then dot VNV",
+    "duration": 8279,
+    "offset": 355860,
+    "lang": "en"
+  },
+  {
+    "text": "so this is the command and then dot VNV",
+    "duration": 5220,
+    "offset": 360660,
+    "lang": "en"
+  },
+  {
+    "text": "is the directory where the virtual",
+    "duration": 3780,
+    "offset": 364139,
+    "lang": "en"
+  },
+  {
+    "text": "environment will exist and as you can",
+    "duration": 4620,
+    "offset": 365880,
+    "lang": "en"
+  },
+  {
+    "text": "see on the right hand side where my",
+    "duration": 5101,
+    "offset": 367919,
+    "lang": "en"
+  },
+  {
+    "text": "project directory is open we have a",
+    "duration": 6479,
+    "offset": 370500,
+    "lang": "en"
+  },
+  {
+    "text": "folder now called dot V EnV and once we",
+    "duration": 6060,
+    "offset": 373020,
+    "lang": "en"
+  },
+  {
+    "text": "have that prepared we'll need to",
+    "duration": 4621,
+    "offset": 376979,
+    "lang": "en"
+  },
+  {
+    "text": "activate this virtual environment and",
+    "duration": 5580,
+    "offset": 379080,
+    "lang": "en"
+  },
+  {
+    "text": "you can do that on Windows by typing in",
+    "duration": 6200,
+    "offset": 381600,
+    "lang": "en"
+  },
+  {
+    "text": "E and V scripts and then",
+    "duration": 5039,
+    "offset": 384660,
+    "lang": "en"
+  },
+  {
+    "text": "activate.ps1 which is a Powershell",
+    "duration": 4000,
+    "offset": 387800,
+    "lang": "en"
+  },
+  {
+    "text": "script that will activate our virtual",
+    "duration": 4141,
+    "offset": 389699,
+    "lang": "en"
+  },
+  {
+    "text": "environment as you can see there is a",
+    "duration": 4440,
+    "offset": 391800,
+    "lang": "en"
+  },
+  {
+    "text": "green virtual environment text in the",
+    "duration": 4919,
+    "offset": 393840,
+    "lang": "en"
+  },
+  {
+    "text": "front of the prompt so this means the my",
+    "duration": 4980,
+    "offset": 396240,
+    "lang": "en"
+  },
+  {
+    "text": "virtual X environment has been active",
+    "duration": 5761,
+    "offset": 398759,
+    "lang": "en"
+  },
+  {
+    "text": "and now we'll use pip which is a python",
+    "duration": 5460,
+    "offset": 401220,
+    "lang": "en"
+  },
+  {
+    "text": "package manager to install the required",
+    "duration": 3840,
+    "offset": 404520,
+    "lang": "en"
+  },
+  {
+    "text": "packages that we'll be using today so",
+    "duration": 3840,
+    "offset": 406680,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna do pip install and then Lang",
+    "duration": 5580,
+    "offset": 408360,
+    "lang": "en"
+  },
+  {
+    "text": "chain openai streamlit and also python",
+    "duration": 7260,
+    "offset": 410520,
+    "lang": "en"
+  },
+  {
+    "text": "dot EnV so Lang chain allows us to you",
+    "duration": 5879,
+    "offset": 413940,
+    "lang": "en"
+  },
+  {
+    "text": "know work with Lang chain using python",
+    "duration": 5100,
+    "offset": 417780,
+    "lang": "en"
+  },
+  {
+    "text": "open AI since we'll be using open Ai",
+    "duration": 6000,
+    "offset": 419819,
+    "lang": "en"
+  },
+  {
+    "text": "zlnm and then streamlit allows us to",
+    "duration": 5400,
+    "offset": 422880,
+    "lang": "en"
+  },
+  {
+    "text": "build interface for python applications",
+    "duration": 4320,
+    "offset": 425819,
+    "lang": "en"
+  },
+  {
+    "text": "and you'll be seeing it how streamlit",
+    "duration": 4320,
+    "offset": 428280,
+    "lang": "en"
+  },
+  {
+    "text": "makes it so easy to build interfaces and",
+    "duration": 6060,
+    "offset": 430139,
+    "lang": "en"
+  },
+  {
+    "text": "then python.env allows us to use dot EnV",
+    "duration": 6659,
+    "offset": 432600,
+    "lang": "en"
+  },
+  {
+    "text": "file which is where our openai API key",
+    "duration": 5701,
+    "offset": 436199,
+    "lang": "en"
+  },
+  {
+    "text": "will reside safely as you know",
+    "duration": 4380,
+    "offset": 439259,
+    "lang": "en"
+  },
+  {
+    "text": "environment variables in our python code",
+    "duration": 3960,
+    "offset": 441900,
+    "lang": "en"
+  },
+  {
+    "text": "hit enter",
+    "duration": 5581,
+    "offset": 443639,
+    "lang": "en"
+  },
+  {
+    "text": "okay so after some time all the packages",
+    "duration": 6360,
+    "offset": 445860,
+    "lang": "en"
+  },
+  {
+    "text": "should be installed and you can see my",
+    "duration": 4800,
+    "offset": 449220,
+    "lang": "en"
+  },
+  {
+    "text": "terminal is giving me a warning that a",
+    "duration": 3900,
+    "offset": 452220,
+    "lang": "en"
+  },
+  {
+    "text": "new version of pip is available so if",
+    "duration": 4140,
+    "offset": 454020,
+    "lang": "en"
+  },
+  {
+    "text": "you get same burning you can either",
+    "duration": 3780,
+    "offset": 456120,
+    "lang": "en"
+  },
+  {
+    "text": "upgrade it or you can ignore the warning",
+    "duration": 4080,
+    "offset": 458160,
+    "lang": "en"
+  },
+  {
+    "text": "for now I'll just hit clear so that my",
+    "duration": 5100,
+    "offset": 459900,
+    "lang": "en"
+  },
+  {
+    "text": "terminal has a clear screen but also",
+    "duration": 4739,
+    "offset": 462240,
+    "lang": "en"
+  },
+  {
+    "text": "I'll close it for now what I want you to",
+    "duration": 5819,
+    "offset": 465000,
+    "lang": "en"
+  },
+  {
+    "text": "do is now create a main dot Pi file so",
+    "duration": 7081,
+    "offset": 466979,
+    "lang": "en"
+  },
+  {
+    "text": "now we have main.pi we are python code",
+    "duration": 6301,
+    "offset": 470819,
+    "lang": "en"
+  },
+  {
+    "text": "for the site so let's start by importing",
+    "duration": 6120,
+    "offset": 474060,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain on the top and we'll be using",
+    "duration": 6180,
+    "offset": 477120,
+    "lang": "en"
+  },
+  {
+    "text": "llms I want to use open AI again I'm",
+    "duration": 6239,
+    "offset": 480180,
+    "lang": "en"
+  },
+  {
+    "text": "using open AI I know it will cost some",
+    "duration": 5100,
+    "offset": 483300,
+    "lang": "en"
+  },
+  {
+    "text": "money and I'll show you in my openai",
+    "duration": 4081,
+    "offset": 486419,
+    "lang": "en"
+  },
+  {
+    "text": "dashboard how much of the API calls cost",
+    "duration": 4500,
+    "offset": 488400,
+    "lang": "en"
+  },
+  {
+    "text": "but it's in cents but it is the best one",
+    "duration": 5580,
+    "offset": 490500,
+    "lang": "en"
+  },
+  {
+    "text": "if you want to use some other ones like",
+    "duration": 6180,
+    "offset": 492900,
+    "lang": "en"
+  },
+  {
+    "text": "the open source hugging phase llm models",
+    "duration": 5459,
+    "offset": 496080,
+    "lang": "en"
+  },
+  {
+    "text": "you can do that too Lang chin supports",
+    "duration": 4440,
+    "offset": 499080,
+    "lang": "en"
+  },
+  {
+    "text": "it but right now I'm happy with openai",
+    "duration": 5461,
+    "offset": 501539,
+    "lang": "en"
+  },
+  {
+    "text": "and also what I want to do is use dot",
+    "duration": 6420,
+    "offset": 503520,
+    "lang": "en"
+  },
+  {
+    "text": "EnV the python.env package that we",
+    "duration": 5219,
+    "offset": 507000,
+    "lang": "en"
+  },
+  {
+    "text": "installed to load our environment",
+    "duration": 5159,
+    "offset": 509940,
+    "lang": "en"
+  },
+  {
+    "text": "variables and we can initiate that by",
+    "duration": 6481,
+    "offset": 512219,
+    "lang": "en"
+  },
+  {
+    "text": "typing in load.env now I can go ahead",
+    "duration": 7081,
+    "offset": 515099,
+    "lang": "en"
+  },
+  {
+    "text": "and create a DOT EnV file and save my",
+    "duration": 7560,
+    "offset": 518700,
+    "lang": "en"
+  },
+  {
+    "text": "open AI underscore API underscore key as",
+    "duration": 6180,
+    "offset": 522180,
+    "lang": "en"
+  },
+  {
+    "text": "an environment variable here and this is",
+    "duration": 4920,
+    "offset": 526260,
+    "lang": "en"
+  },
+  {
+    "text": "where you will paste the SK Dash key",
+    "duration": 5580,
+    "offset": 528360,
+    "lang": "en"
+  },
+  {
+    "text": "that was created in the openai dashboard",
+    "duration": 4680,
+    "offset": 531180,
+    "lang": "en"
+  },
+  {
+    "text": "so let me do that and I don't want to",
+    "duration": 5579,
+    "offset": 533940,
+    "lang": "en"
+  },
+  {
+    "text": "reveal my open AI API key okay so I",
+    "duration": 6539,
+    "offset": 535860,
+    "lang": "en"
+  },
+  {
+    "text": "copied my API key from my open AI",
+    "duration": 5880,
+    "offset": 539519,
+    "lang": "en"
+  },
+  {
+    "text": "account and pasted it in EnV file here",
+    "duration": 5641,
+    "offset": 542399,
+    "lang": "en"
+  },
+  {
+    "text": "so I'll close that now what I want to do",
+    "duration": 4741,
+    "offset": 545399,
+    "lang": "en"
+  },
+  {
+    "text": "with the first sample application here",
+    "duration": 6600,
+    "offset": 548040,
+    "lang": "en"
+  },
+  {
+    "text": "is generate pet names so let's say I",
+    "duration": 6660,
+    "offset": 550140,
+    "lang": "en"
+  },
+  {
+    "text": "have a pet dog and I want to generate",
+    "duration": 4800,
+    "offset": 554640,
+    "lang": "en"
+  },
+  {
+    "text": "some cool names for it and maybe we'll",
+    "duration": 5520,
+    "offset": 556800,
+    "lang": "en"
+  },
+  {
+    "text": "add few parameters where people can",
+    "duration": 5280,
+    "offset": 559440,
+    "lang": "en"
+  },
+  {
+    "text": "select what kind of pet it is and maybe",
+    "duration": 5220,
+    "offset": 562320,
+    "lang": "en"
+  },
+  {
+    "text": "color so let's to start with that",
+    "duration": 5100,
+    "offset": 564720,
+    "lang": "en"
+  },
+  {
+    "text": "function so you can define a function in",
+    "duration": 4739,
+    "offset": 567540,
+    "lang": "en"
+  },
+  {
+    "text": "Python by typing in Def and then we'll",
+    "duration": 4740,
+    "offset": 569820,
+    "lang": "en"
+  },
+  {
+    "text": "call this generate underscore pet",
+    "duration": 5041,
+    "offset": 572279,
+    "lang": "en"
+  },
+  {
+    "text": "underscore name and now we'll be using",
+    "duration": 6839,
+    "offset": 574560,
+    "lang": "en"
+  },
+  {
+    "text": "llm from our Lang chain library and as I",
+    "duration": 6660,
+    "offset": 577320,
+    "lang": "en"
+  },
+  {
+    "text": "said I'll be using openai today so this",
+    "duration": 5581,
+    "offset": 581399,
+    "lang": "en"
+  },
+  {
+    "text": "has few properties one of them is",
+    "duration": 5340,
+    "offset": 583980,
+    "lang": "en"
+  },
+  {
+    "text": "temperature now what temperature means",
+    "duration": 5160,
+    "offset": 586980,
+    "lang": "en"
+  },
+  {
+    "text": "is how creative you want your model to",
+    "duration": 5280,
+    "offset": 589320,
+    "lang": "en"
+  },
+  {
+    "text": "be so if the temperature is set to let's",
+    "duration": 5879,
+    "offset": 592140,
+    "lang": "en"
+  },
+  {
+    "text": "say 0 it means it is very safe and it is",
+    "duration": 6419,
+    "offset": 594600,
+    "lang": "en"
+  },
+  {
+    "text": "not taking any bets or risks but if it",
+    "duration": 6241,
+    "offset": 598019,
+    "lang": "en"
+  },
+  {
+    "text": "is set to 1 it will be very creative and",
+    "duration": 6241,
+    "offset": 601019,
+    "lang": "en"
+  },
+  {
+    "text": "will take risks and also might generate",
+    "duration": 5220,
+    "offset": 604260,
+    "lang": "en"
+  },
+  {
+    "text": "wrong output but it is very creative at",
+    "duration": 5220,
+    "offset": 607260,
+    "lang": "en"
+  },
+  {
+    "text": "the same time so I tend to set my",
+    "duration": 7020,
+    "offset": 609480,
+    "lang": "en"
+  },
+  {
+    "text": "temperature to be 0.5 or 0.6 so that you",
+    "duration": 5760,
+    "offset": 612480,
+    "lang": "en"
+  },
+  {
+    "text": "know it can get a little bit of creative",
+    "duration": 4440,
+    "offset": 616500,
+    "lang": "en"
+  },
+  {
+    "text": "so let's set that by typing in",
+    "duration": 3960,
+    "offset": 618240,
+    "lang": "en"
+  },
+  {
+    "text": "temperature",
+    "duration": 4800,
+    "offset": 620940,
+    "lang": "en"
+  },
+  {
+    "text": "and now what I want to do is use this",
+    "duration": 6780,
+    "offset": 622200,
+    "lang": "en"
+  },
+  {
+    "text": "llm to create cool names for my pet",
+    "duration": 6300,
+    "offset": 625740,
+    "lang": "en"
+  },
+  {
+    "text": "which is in my case a DOT so I'll type",
+    "duration": 4919,
+    "offset": 628980,
+    "lang": "en"
+  },
+  {
+    "text": "something like I have a dog pad and I",
+    "duration": 4140,
+    "offset": 632040,
+    "lang": "en"
+  },
+  {
+    "text": "want cool names for it suggest me five",
+    "duration": 4801,
+    "offset": 633899,
+    "lang": "en"
+  },
+  {
+    "text": "cool names so that's what our luncheon",
+    "duration": 4500,
+    "offset": 636180,
+    "lang": "en"
+  },
+  {
+    "text": "app is gonna be it'll suggest five cool",
+    "duration": 4500,
+    "offset": 638700,
+    "lang": "en"
+  },
+  {
+    "text": "names for your pet so let me type that",
+    "duration": 6000,
+    "offset": 640680,
+    "lang": "en"
+  },
+  {
+    "text": "out as a prompt okay so I have my prompt",
+    "duration": 6480,
+    "offset": 643200,
+    "lang": "en"
+  },
+  {
+    "text": "ready and this function will return the",
+    "duration": 6360,
+    "offset": 646680,
+    "lang": "en"
+  },
+  {
+    "text": "name and now what we can do is if name",
+    "duration": 5480,
+    "offset": 649680,
+    "lang": "en"
+  },
+  {
+    "text": "is equal to main which is you know",
+    "duration": 5160,
+    "offset": 653040,
+    "lang": "en"
+  },
+  {
+    "text": "boilerplate python code",
+    "duration": 6040,
+    "offset": 655160,
+    "lang": "en"
+  },
+  {
+    "text": "I wanted to print whatever that function",
+    "duration": 5520,
+    "offset": 658200,
+    "lang": "en"
+  },
+  {
+    "text": "generates so generate pet name will be",
+    "duration": 5460,
+    "offset": 661200,
+    "lang": "en"
+  },
+  {
+    "text": "printed in our console output so let's",
+    "duration": 5040,
+    "offset": 663720,
+    "lang": "en"
+  },
+  {
+    "text": "give this a try by opening up the",
+    "duration": 5940,
+    "offset": 666660,
+    "lang": "en"
+  },
+  {
+    "text": "terminal here and typing in Python main",
+    "duration": 7740,
+    "offset": 668760,
+    "lang": "en"
+  },
+  {
+    "text": "dot py so as you can see it gave me five",
+    "duration": 7679,
+    "offset": 672600,
+    "lang": "en"
+  },
+  {
+    "text": "names for my pet dog Apollo Blaze",
+    "duration": 6899,
+    "offset": 676500,
+    "lang": "en"
+  },
+  {
+    "text": "Hershey Kona and Maverick which are",
+    "duration": 5281,
+    "offset": 680279,
+    "lang": "en"
+  },
+  {
+    "text": "pretty good names and as you can see I",
+    "duration": 4861,
+    "offset": 683399,
+    "lang": "en"
+  },
+  {
+    "text": "ended up setting the temperature to 0.7",
+    "duration": 4620,
+    "offset": 685560,
+    "lang": "en"
+  },
+  {
+    "text": "so it's getting a little bit of creative",
+    "duration": 5519,
+    "offset": 688260,
+    "lang": "en"
+  },
+  {
+    "text": "again you can you know test this out by",
+    "duration": 6839,
+    "offset": 690180,
+    "lang": "en"
+  },
+  {
+    "text": "toggling this between 0 to 1 and see",
+    "duration": 6240,
+    "offset": 693779,
+    "lang": "en"
+  },
+  {
+    "text": "what temperature suits your needs but",
+    "duration": 6060,
+    "offset": 697019,
+    "lang": "en"
+  },
+  {
+    "text": "for me yeah 0.5 to 0.7 anything between",
+    "duration": 6541,
+    "offset": 700019,
+    "lang": "en"
+  },
+  {
+    "text": "that is good since I need my llm to be a",
+    "duration": 6301,
+    "offset": 703079,
+    "lang": "en"
+  },
+  {
+    "text": "bit creative so we just introduced one",
+    "duration": 6000,
+    "offset": 706560,
+    "lang": "en"
+  },
+  {
+    "text": "component of Lang chain which is llm the",
+    "duration": 5760,
+    "offset": 709380,
+    "lang": "en"
+  },
+  {
+    "text": "next thing that I want to introduce you",
+    "duration": 5580,
+    "offset": 712560,
+    "lang": "en"
+  },
+  {
+    "text": "to is promptemplate so prompt templates",
+    "duration": 6240,
+    "offset": 715140,
+    "lang": "en"
+  },
+  {
+    "text": "make it easy to generate these problems",
+    "duration": 7020,
+    "offset": 718140,
+    "lang": "en"
+  },
+  {
+    "text": "so you don't have to keep asking openai",
+    "duration": 6360,
+    "offset": 721380,
+    "lang": "en"
+  },
+  {
+    "text": "a different prompt every time right so",
+    "duration": 4919,
+    "offset": 725160,
+    "lang": "en"
+  },
+  {
+    "text": "we want to repurpose this so that people",
+    "duration": 4200,
+    "offset": 727740,
+    "lang": "en"
+  },
+  {
+    "text": "on the internet might be able to",
+    "duration": 3481,
+    "offset": 730079,
+    "lang": "en"
+  },
+  {
+    "text": "generate pet names so maybe we will",
+    "duration": 4019,
+    "offset": 731940,
+    "lang": "en"
+  },
+  {
+    "text": "create you know imagine that you want to",
+    "duration": 4019,
+    "offset": 733560,
+    "lang": "en"
+  },
+  {
+    "text": "create a web app where people can",
+    "duration": 3661,
+    "offset": 735959,
+    "lang": "en"
+  },
+  {
+    "text": "comment and read pet names we want to",
+    "duration": 4380,
+    "offset": 737579,
+    "lang": "en"
+  },
+  {
+    "text": "repurpose this prompt and also we don't",
+    "duration": 5279,
+    "offset": 739620,
+    "lang": "en"
+  },
+  {
+    "text": "want to hard code dog and if we want to",
+    "duration": 5701,
+    "offset": 741959,
+    "lang": "en"
+  },
+  {
+    "text": "have pet color as an option we don't",
+    "duration": 4861,
+    "offset": 744899,
+    "lang": "en"
+  },
+  {
+    "text": "want to hard code that so we want the",
+    "duration": 6540,
+    "offset": 747660,
+    "lang": "en"
+  },
+  {
+    "text": "ability to repurpose our llm prompt for",
+    "duration": 6000,
+    "offset": 749760,
+    "lang": "en"
+  },
+  {
+    "text": "different kind of animals and different",
+    "duration": 4259,
+    "offset": 754200,
+    "lang": "en"
+  },
+  {
+    "text": "kind of colors and the way we can do",
+    "duration": 5759,
+    "offset": 755760,
+    "lang": "en"
+  },
+  {
+    "text": "that is by using prompt templates so",
+    "duration": 6301,
+    "offset": 758459,
+    "lang": "en"
+  },
+  {
+    "text": "prompt template name let's just call it",
+    "duration": 5581,
+    "offset": 761519,
+    "lang": "en"
+  },
+  {
+    "text": "that and in Lang chain it's called",
+    "duration": 5639,
+    "offset": 764760,
+    "lang": "en"
+  },
+  {
+    "text": "prompt template and we will also have to",
+    "duration": 5760,
+    "offset": 767100,
+    "lang": "en"
+  },
+  {
+    "text": "import it from Lang change so going to",
+    "duration": 5281,
+    "offset": 770399,
+    "lang": "en"
+  },
+  {
+    "text": "the top let's import prompt templates",
+    "duration": 5099,
+    "offset": 772860,
+    "lang": "en"
+  },
+  {
+    "text": "okay so you're using Lang chin prompts",
+    "duration": 4260,
+    "offset": 775680,
+    "lang": "en"
+  },
+  {
+    "text": "and importing prompt template now you",
+    "duration": 4620,
+    "offset": 777959,
+    "lang": "en"
+  },
+  {
+    "text": "can see the squiggly line underneath it",
+    "duration": 5519,
+    "offset": 779940,
+    "lang": "en"
+  },
+  {
+    "text": "has gone so let's give it to let's give",
+    "duration": 5940,
+    "offset": 782579,
+    "lang": "en"
+  },
+  {
+    "text": "it an input variables so",
+    "duration": 6180,
+    "offset": 785459,
+    "lang": "en"
+  },
+  {
+    "text": "input variables are the parameters that",
+    "duration": 5880,
+    "offset": 788519,
+    "lang": "en"
+  },
+  {
+    "text": "can be dynamic so in our case it will be",
+    "duration": 5700,
+    "offset": 791639,
+    "lang": "en"
+  },
+  {
+    "text": "animal type right so animal underscore",
+    "duration": 6060,
+    "offset": 794399,
+    "lang": "en"
+  },
+  {
+    "text": "type and now we'll also have to add that",
+    "duration": 5401,
+    "offset": 797339,
+    "lang": "en"
+  },
+  {
+    "text": "as a parameter to our python function",
+    "duration": 5161,
+    "offset": 800459,
+    "lang": "en"
+  },
+  {
+    "text": "there we go so animal type is the input",
+    "duration": 6060,
+    "offset": 802740,
+    "lang": "en"
+  },
+  {
+    "text": "variable and the template that our",
+    "duration": 6480,
+    "offset": 805620,
+    "lang": "en"
+  },
+  {
+    "text": "prompt has is same as this so I'll copy",
+    "duration": 7800,
+    "offset": 808800,
+    "lang": "en"
+  },
+  {
+    "text": "this and instead of a dog pet I will use",
+    "duration": 6739,
+    "offset": 812100,
+    "lang": "en"
+  },
+  {
+    "text": "the input variable here which is animal",
+    "duration": 4739,
+    "offset": 816600,
+    "lang": "en"
+  },
+  {
+    "text": "underscore type so now you can imagine",
+    "duration": 6281,
+    "offset": 818839,
+    "lang": "en"
+  },
+  {
+    "text": "you can say hey I have a cat and some",
+    "duration": 6361,
+    "offset": 821339,
+    "lang": "en"
+  },
+  {
+    "text": "other person comes and says hey I have a",
+    "duration": 4860,
+    "offset": 825120,
+    "lang": "en"
+  },
+  {
+    "text": "cow pet and I want a cool name for it",
+    "duration": 4560,
+    "offset": 827700,
+    "lang": "en"
+  },
+  {
+    "text": "suggest me five cool names so that is",
+    "duration": 4080,
+    "offset": 829980,
+    "lang": "en"
+  },
+  {
+    "text": "what prompt templates allows you to do",
+    "duration": 4800,
+    "offset": 832260,
+    "lang": "en"
+  },
+  {
+    "text": "and now we'll have to also get rid of",
+    "duration": 6480,
+    "offset": 834060,
+    "lang": "en"
+  },
+  {
+    "text": "this and use chains as a concept so",
+    "duration": 6779,
+    "offset": 837060,
+    "lang": "en"
+  },
+  {
+    "text": "that's import chain from Lang chain from",
+    "duration": 8220,
+    "offset": 840540,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain dot chains import llm chain",
+    "duration": 8101,
+    "offset": 843839,
+    "lang": "en"
+  },
+  {
+    "text": "what llm chain allows us to do is put",
+    "duration": 5519,
+    "offset": 848760,
+    "lang": "en"
+  },
+  {
+    "text": "these individual components of Lang",
+    "duration": 5040,
+    "offset": 851940,
+    "lang": "en"
+  },
+  {
+    "text": "chain together so llm and Prime template",
+    "duration": 6360,
+    "offset": 854279,
+    "lang": "en"
+  },
+  {
+    "text": "in our case so llm chain llm is equal to",
+    "duration": 6479,
+    "offset": 856980,
+    "lang": "en"
+  },
+  {
+    "text": "llm in our case because we named it and",
+    "duration": 5880,
+    "offset": 860639,
+    "lang": "en"
+  },
+  {
+    "text": "prompt is equal to prompt template so",
+    "duration": 5281,
+    "offset": 863459,
+    "lang": "en"
+  },
+  {
+    "text": "I'll just copy this so prompt template",
+    "duration": 5101,
+    "offset": 866519,
+    "lang": "en"
+  },
+  {
+    "text": "name and instead of name let's call this",
+    "duration": 5940,
+    "offset": 868740,
+    "lang": "en"
+  },
+  {
+    "text": "name chain right since this is an llm",
+    "duration": 4980,
+    "offset": 871620,
+    "lang": "en"
+  },
+  {
+    "text": "chain and instead of returning name",
+    "duration": 5519,
+    "offset": 874680,
+    "lang": "en"
+  },
+  {
+    "text": "let's create a response here",
+    "duration": 6539,
+    "offset": 876600,
+    "lang": "en"
+  },
+  {
+    "text": "and that response basically will be name",
+    "duration": 6000,
+    "offset": 880199,
+    "lang": "en"
+  },
+  {
+    "text": "underscore chain and we'll be using the",
+    "duration": 5640,
+    "offset": 883139,
+    "lang": "en"
+  },
+  {
+    "text": "animal type parameter here right which",
+    "duration": 5601,
+    "offset": 886199,
+    "lang": "en"
+  },
+  {
+    "text": "is basically whatever the animal type",
+    "duration": 6240,
+    "offset": 888779,
+    "lang": "en"
+  },
+  {
+    "text": "the person specifies and will be",
+    "duration": 7180,
+    "offset": 891800,
+    "lang": "en"
+  },
+  {
+    "text": "returning the response here so response",
+    "duration": 6421,
+    "offset": 895019,
+    "lang": "en"
+  },
+  {
+    "text": "will be whatever this chain gives us the",
+    "duration": 6120,
+    "offset": 898980,
+    "lang": "en"
+  },
+  {
+    "text": "output has right now let's try instead",
+    "duration": 6180,
+    "offset": 901440,
+    "lang": "en"
+  },
+  {
+    "text": "of dog let's try cat right so we are",
+    "duration": 6359,
+    "offset": 905100,
+    "lang": "en"
+  },
+  {
+    "text": "using parameters to print five cool pet",
+    "duration": 6480,
+    "offset": 907620,
+    "lang": "en"
+  },
+  {
+    "text": "names using our name underscore chain",
+    "duration": 7081,
+    "offset": 911459,
+    "lang": "en"
+  },
+  {
+    "text": "which is the llm chain using openai and",
+    "duration": 7260,
+    "offset": 914100,
+    "lang": "en"
+  },
+  {
+    "text": "using this prompt template hit Ctrl s",
+    "duration": 5940,
+    "offset": 918540,
+    "lang": "en"
+  },
+  {
+    "text": "and going back to my terminal here",
+    "duration": 6479,
+    "offset": 921360,
+    "lang": "en"
+  },
+  {
+    "text": "let's run python main.py",
+    "duration": 6180,
+    "offset": 924480,
+    "lang": "en"
+  },
+  {
+    "text": "so now you can see we are getting a Json",
+    "duration": 6300,
+    "offset": 927839,
+    "lang": "en"
+  },
+  {
+    "text": "response with animal type which is cat",
+    "duration": 7320,
+    "offset": 930660,
+    "lang": "en"
+  },
+  {
+    "text": "and the text that we got is so these are",
+    "duration": 6301,
+    "offset": 934139,
+    "lang": "en"
+  },
+  {
+    "text": "the names that we got one is mochi or",
+    "duration": 8159,
+    "offset": 937980,
+    "lang": "en"
+  },
+  {
+    "text": "Moki nacho Pebbles tiger and whiskers so",
+    "duration": 7860,
+    "offset": 940440,
+    "lang": "en"
+  },
+  {
+    "text": "we got five names for our animal type",
+    "duration": 6241,
+    "offset": 946139,
+    "lang": "en"
+  },
+  {
+    "text": "cat similarly you can try cow here hit",
+    "duration": 7320,
+    "offset": 948300,
+    "lang": "en"
+  },
+  {
+    "text": "Ctrl s and run the python file again",
+    "duration": 6420,
+    "offset": 952380,
+    "lang": "en"
+  },
+  {
+    "text": "now it says animal type was cow and the",
+    "duration": 6659,
+    "offset": 955620,
+    "lang": "en"
+  },
+  {
+    "text": "text response is where our cow pet names",
+    "duration": 7200,
+    "offset": 958800,
+    "lang": "en"
+  },
+  {
+    "text": "are so one is hambone Daisy moo Moody",
+    "duration": 7441,
+    "offset": 962279,
+    "lang": "en"
+  },
+  {
+    "text": "Milky Way and give her hugs awesome so",
+    "duration": 5579,
+    "offset": 966000,
+    "lang": "en"
+  },
+  {
+    "text": "the other parameter that I want to add",
+    "duration": 6179,
+    "offset": 969720,
+    "lang": "en"
+  },
+  {
+    "text": "to our pet's name generator is the pet",
+    "duration": 6361,
+    "offset": 971579,
+    "lang": "en"
+  },
+  {
+    "text": "color because I think that is an",
+    "duration": 4680,
+    "offset": 975899,
+    "lang": "en"
+  },
+  {
+    "text": "important aspect when you name your pet",
+    "duration": 5459,
+    "offset": 977940,
+    "lang": "en"
+  },
+  {
+    "text": "right so pet color and so we'll add pet",
+    "duration": 5161,
+    "offset": 980579,
+    "lang": "en"
+  },
+  {
+    "text": "color as a parameter to our generate pet",
+    "duration": 4560,
+    "offset": 983399,
+    "lang": "en"
+  },
+  {
+    "text": "names function but also we'll have to",
+    "duration": 4680,
+    "offset": 985740,
+    "lang": "en"
+  },
+  {
+    "text": "add it as an input variable in our",
+    "duration": 5041,
+    "offset": 987959,
+    "lang": "en"
+  },
+  {
+    "text": "prompt template so let's add fat color",
+    "duration": 5820,
+    "offset": 990420,
+    "lang": "en"
+  },
+  {
+    "text": "over here there we go and now we'll also",
+    "duration": 6060,
+    "offset": 993000,
+    "lang": "en"
+  },
+  {
+    "text": "have to change the template itself so I",
+    "duration": 6180,
+    "offset": 996240,
+    "lang": "en"
+  },
+  {
+    "text": "have an animal type pet and I want a",
+    "duration": 5279,
+    "offset": 999060,
+    "lang": "en"
+  },
+  {
+    "text": "cool name for it and let's add it is",
+    "duration": 4620,
+    "offset": 1002420,
+    "lang": "en"
+  },
+  {
+    "text": "whatever the color is so pet color",
+    "duration": 6120,
+    "offset": 1004339,
+    "lang": "en"
+  },
+  {
+    "text": "so maybe it's black in color suggest me",
+    "duration": 6419,
+    "offset": 1007040,
+    "lang": "en"
+  },
+  {
+    "text": "five cool names for my pet there we go",
+    "duration": 5581,
+    "offset": 1010459,
+    "lang": "en"
+  },
+  {
+    "text": "so that is our new prompt",
+    "duration": 5401,
+    "offset": 1013459,
+    "lang": "en"
+  },
+  {
+    "text": "hit control s and in the name chain",
+    "duration": 5340,
+    "offset": 1016040,
+    "lang": "en"
+  },
+  {
+    "text": "we'll also have to add the pet color",
+    "duration": 6599,
+    "offset": 1018860,
+    "lang": "en"
+  },
+  {
+    "text": "here so pet underscore color and that",
+    "duration": 6120,
+    "offset": 1021380,
+    "lang": "en"
+  },
+  {
+    "text": "will be equal to whatever the pad color",
+    "duration": 7201,
+    "offset": 1025459,
+    "lang": "en"
+  },
+  {
+    "text": "the person picks or says so now we can",
+    "duration": 8459,
+    "offset": 1027500,
+    "lang": "en"
+  },
+  {
+    "text": "run this by saying cow and our cow color",
+    "duration": 6000,
+    "offset": 1032660,
+    "lang": "en"
+  },
+  {
+    "text": "is black so let's let's try that out",
+    "duration": 4980,
+    "offset": 1035959,
+    "lang": "en"
+  },
+  {
+    "text": "toggle back my terminal here and type in",
+    "duration": 6060,
+    "offset": 1038660,
+    "lang": "en"
+  },
+  {
+    "text": "Python main.pi and you can see so we got",
+    "duration": 7260,
+    "offset": 1040939,
+    "lang": "en"
+  },
+  {
+    "text": "animal type cow pet color is black and",
+    "duration": 5760,
+    "offset": 1044720,
+    "lang": "en"
+  },
+  {
+    "text": "we received text response with those",
+    "duration": 5100,
+    "offset": 1048199,
+    "lang": "en"
+  },
+  {
+    "text": "five names so one is Shadow second is",
+    "duration": 6180,
+    "offset": 1050480,
+    "lang": "en"
+  },
+  {
+    "text": "midnight uh Starlight and we have Raven",
+    "duration": 6781,
+    "offset": 1053299,
+    "lang": "en"
+  },
+  {
+    "text": "awesome so our pet's name generator is",
+    "duration": 6000,
+    "offset": 1056660,
+    "lang": "en"
+  },
+  {
+    "text": "working as expected maybe I want to",
+    "duration": 5459,
+    "offset": 1060080,
+    "lang": "en"
+  },
+  {
+    "text": "publish this as web app later right and",
+    "duration": 4320,
+    "offset": 1062660,
+    "lang": "en"
+  },
+  {
+    "text": "that's where streamlib comes in",
+    "duration": 4140,
+    "offset": 1065539,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit will build us a web interface",
+    "duration": 5579,
+    "offset": 1066980,
+    "lang": "en"
+  },
+  {
+    "text": "and we don't have to do much we can use",
+    "duration": 5581,
+    "offset": 1069679,
+    "lang": "en"
+  },
+  {
+    "text": "our python file here to build that",
+    "duration": 5761,
+    "offset": 1072559,
+    "lang": "en"
+  },
+  {
+    "text": "beautiful interface and then people can",
+    "duration": 5640,
+    "offset": 1075260,
+    "lang": "en"
+  },
+  {
+    "text": "come in and select whatever pet kind",
+    "duration": 5760,
+    "offset": 1078320,
+    "lang": "en"
+  },
+  {
+    "text": "they have and whatever pet color they",
+    "duration": 5279,
+    "offset": 1080900,
+    "lang": "en"
+  },
+  {
+    "text": "have and it would output those five",
+    "duration": 4860,
+    "offset": 1084080,
+    "lang": "en"
+  },
+  {
+    "text": "names utilizing the Lang chin app we",
+    "duration": 5701,
+    "offset": 1086179,
+    "lang": "en"
+  },
+  {
+    "text": "built so in order to do that what I I",
+    "duration": 6000,
+    "offset": 1088940,
+    "lang": "en"
+  },
+  {
+    "text": "want to do is instead of having all of",
+    "duration": 6240,
+    "offset": 1091880,
+    "lang": "en"
+  },
+  {
+    "text": "this code in main.pi I want to create",
+    "duration": 5820,
+    "offset": 1094940,
+    "lang": "en"
+  },
+  {
+    "text": "another file called Lang chain",
+    "duration": 6120,
+    "offset": 1098120,
+    "lang": "en"
+  },
+  {
+    "text": "underscore Helper and this is where all",
+    "duration": 6600,
+    "offset": 1100760,
+    "lang": "en"
+  },
+  {
+    "text": "our Lang chain code will go so I'm going",
+    "duration": 6840,
+    "offset": 1104240,
+    "lang": "en"
+  },
+  {
+    "text": "to go into main.pi Ctrl a to select all",
+    "duration": 7020,
+    "offset": 1107360,
+    "lang": "en"
+  },
+  {
+    "text": "the code and paste it in the langchin",
+    "duration": 6120,
+    "offset": 1111080,
+    "lang": "en"
+  },
+  {
+    "text": "helper file here and then we can clear",
+    "duration": 6539,
+    "offset": 1114380,
+    "lang": "en"
+  },
+  {
+    "text": "the main.pi so our main.pi is blank and",
+    "duration": 5940,
+    "offset": 1117200,
+    "lang": "en"
+  },
+  {
+    "text": "I have moved all my code to Lang chain",
+    "duration": 5640,
+    "offset": 1120919,
+    "lang": "en"
+  },
+  {
+    "text": "underscore helper.py hit Ctrl s so make",
+    "duration": 6659,
+    "offset": 1123140,
+    "lang": "en"
+  },
+  {
+    "text": "sure you have saved that and in main.pi",
+    "duration": 6240,
+    "offset": 1126559,
+    "lang": "en"
+  },
+  {
+    "text": "what I want to do is input our Lang",
+    "duration": 5880,
+    "offset": 1129799,
+    "lang": "en"
+  },
+  {
+    "text": "chain helper Library so we can do that",
+    "duration": 5401,
+    "offset": 1132799,
+    "lang": "en"
+  },
+  {
+    "text": "by doing Simple import statement on the",
+    "duration": 4620,
+    "offset": 1135679,
+    "lang": "en"
+  },
+  {
+    "text": "top so I'm importing Lang chain helper",
+    "duration": 6120,
+    "offset": 1138200,
+    "lang": "en"
+  },
+  {
+    "text": "as lch just short form so that I'll be",
+    "duration": 6781,
+    "offset": 1140299,
+    "lang": "en"
+  },
+  {
+    "text": "able to call our generate pet name",
+    "duration": 6359,
+    "offset": 1144320,
+    "lang": "en"
+  },
+  {
+    "text": "function by just using lch dot right",
+    "duration": 5940,
+    "offset": 1147080,
+    "lang": "en"
+  },
+  {
+    "text": "also remember we did pip install",
+    "duration": 4860,
+    "offset": 1150679,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit in the beginning so we'll be",
+    "duration": 5279,
+    "offset": 1153020,
+    "lang": "en"
+  },
+  {
+    "text": "using that here too and I'll be calling",
+    "duration": 5401,
+    "offset": 1155539,
+    "lang": "en"
+  },
+  {
+    "text": "it throughout the python code AS SD",
+    "duration": 4861,
+    "offset": 1158299,
+    "lang": "en"
+  },
+  {
+    "text": "which is just short for streamlit so in",
+    "duration": 4380,
+    "offset": 1160940,
+    "lang": "en"
+  },
+  {
+    "text": "order to create our streamlit app you",
+    "duration": 5940,
+    "offset": 1163160,
+    "lang": "en"
+  },
+  {
+    "text": "can use different text types and you can",
+    "duration": 6239,
+    "offset": 1165320,
+    "lang": "en"
+  },
+  {
+    "text": "also use markdown which streamlit will",
+    "duration": 5640,
+    "offset": 1169100,
+    "lang": "en"
+  },
+  {
+    "text": "render but one of the main things is",
+    "duration": 5941,
+    "offset": 1171559,
+    "lang": "en"
+  },
+  {
+    "text": "having a title for our web interface and",
+    "duration": 5760,
+    "offset": 1174740,
+    "lang": "en"
+  },
+  {
+    "text": "you can do that by doing St dot title",
+    "duration": 6440,
+    "offset": 1177500,
+    "lang": "en"
+  },
+  {
+    "text": "and we'll call this pet's name",
+    "duration": 5100,
+    "offset": 1180500,
+    "lang": "en"
+  },
+  {
+    "text": "generator",
+    "duration": 4720,
+    "offset": 1183940,
+    "lang": "en"
+  },
+  {
+    "text": "right hit save and now I'll just show",
+    "duration": 5100,
+    "offset": 1185600,
+    "lang": "en"
+  },
+  {
+    "text": "you how to run a streamlined app where",
+    "duration": 4379,
+    "offset": 1188660,
+    "lang": "en"
+  },
+  {
+    "text": "you can do that is open the terminal and",
+    "duration": 6060,
+    "offset": 1190700,
+    "lang": "en"
+  },
+  {
+    "text": "type in streamlit run main.py hit enter",
+    "duration": 9481,
+    "offset": 1193039,
+    "lang": "en"
+  },
+  {
+    "text": "and let me open my browser on Port 8501",
+    "duration": 5760,
+    "offset": 1196760,
+    "lang": "en"
+  },
+  {
+    "text": "there we go so as you can see",
+    "duration": 4320,
+    "offset": 1202880,
+    "lang": "en"
+  },
+  {
+    "text": "right out of the box we have this",
+    "duration": 4260,
+    "offset": 1205220,
+    "lang": "en"
+  },
+  {
+    "text": "interface that was built using streamlit",
+    "duration": 3780,
+    "offset": 1207200,
+    "lang": "en"
+  },
+  {
+    "text": "and again if you haven't heard about",
+    "duration": 4319,
+    "offset": 1209480,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit it's an amazing tool you can",
+    "duration": 5939,
+    "offset": 1210980,
+    "lang": "en"
+  },
+  {
+    "text": "go to streamlit.io and go through their",
+    "duration": 6421,
+    "offset": 1213799,
+    "lang": "en"
+  },
+  {
+    "text": "documentation on how to even make your",
+    "duration": 6000,
+    "offset": 1216919,
+    "lang": "en"
+  },
+  {
+    "text": "web app better since I'll be using some",
+    "duration": 5220,
+    "offset": 1220220,
+    "lang": "en"
+  },
+  {
+    "text": "basic components from streamlit to",
+    "duration": 4741,
+    "offset": 1222919,
+    "lang": "en"
+  },
+  {
+    "text": "display our pet's name generator",
+    "duration": 5580,
+    "offset": 1225440,
+    "lang": "en"
+  },
+  {
+    "text": "beautifully so let's get back to our app",
+    "duration": 6420,
+    "offset": 1227660,
+    "lang": "en"
+  },
+  {
+    "text": "here so back in our code editor I'll hit",
+    "duration": 5820,
+    "offset": 1231020,
+    "lang": "en"
+  },
+  {
+    "text": "Ctrl C in my terminal to stop the",
+    "duration": 5400,
+    "offset": 1234080,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit app and bring my terminal down",
+    "duration": 6420,
+    "offset": 1236840,
+    "lang": "en"
+  },
+  {
+    "text": "and now we need some variables and Logic",
+    "duration": 6720,
+    "offset": 1239480,
+    "lang": "en"
+  },
+  {
+    "text": "for the ability for users to pick their",
+    "duration": 6720,
+    "offset": 1243260,
+    "lang": "en"
+  },
+  {
+    "text": "pets and the pet color so one of them is",
+    "duration": 5700,
+    "offset": 1246200,
+    "lang": "en"
+  },
+  {
+    "text": "the animal type right whether it's dog",
+    "duration": 4860,
+    "offset": 1249980,
+    "lang": "en"
+  },
+  {
+    "text": "cat or a cow will give a sidebar",
+    "duration": 6420,
+    "offset": 1251900,
+    "lang": "en"
+  },
+  {
+    "text": "selection for our users so SD dot",
+    "duration": 6839,
+    "offset": 1254840,
+    "lang": "en"
+  },
+  {
+    "text": "sidebar dot select box will allow you to",
+    "duration": 6300,
+    "offset": 1258320,
+    "lang": "en"
+  },
+  {
+    "text": "do that and you can input what the",
+    "duration": 7561,
+    "offset": 1261679,
+    "lang": "en"
+  },
+  {
+    "text": "question is so what is your pet question",
+    "duration": 7320,
+    "offset": 1264620,
+    "lang": "en"
+  },
+  {
+    "text": "mark and then you can include the",
+    "duration": 6179,
+    "offset": 1269240,
+    "lang": "en"
+  },
+  {
+    "text": "options so it will be a drop down where",
+    "duration": 7080,
+    "offset": 1271940,
+    "lang": "en"
+  },
+  {
+    "text": "people can select cat right dog and cow",
+    "duration": 6721,
+    "offset": 1275419,
+    "lang": "en"
+  },
+  {
+    "text": "and maybe a hen right so think of all",
+    "duration": 5039,
+    "offset": 1279020,
+    "lang": "en"
+  },
+  {
+    "text": "the pets then people that people can",
+    "duration": 4380,
+    "offset": 1282140,
+    "lang": "en"
+  },
+  {
+    "text": "have maybe hamster is more popular I",
+    "duration": 5161,
+    "offset": 1284059,
+    "lang": "en"
+  },
+  {
+    "text": "guess so cat dog cow hamster and then",
+    "duration": 4680,
+    "offset": 1286520,
+    "lang": "en"
+  },
+  {
+    "text": "you can just keep going so that is the",
+    "duration": 3780,
+    "offset": 1289220,
+    "lang": "en"
+  },
+  {
+    "text": "animal type and I can show you how this",
+    "duration": 4440,
+    "offset": 1291200,
+    "lang": "en"
+  },
+  {
+    "text": "looks on our streamlit apps so streamlit",
+    "duration": 5940,
+    "offset": 1293000,
+    "lang": "en"
+  },
+  {
+    "text": "space run space",
+    "duration": 6180,
+    "offset": 1295640,
+    "lang": "en"
+  },
+  {
+    "text": "so you can see that and I can zoom in a",
+    "duration": 4739,
+    "offset": 1298940,
+    "lang": "en"
+  },
+  {
+    "text": "little bit on the left hand side we have",
+    "duration": 4920,
+    "offset": 1301820,
+    "lang": "en"
+  },
+  {
+    "text": "a sidebar now and you can select what",
+    "duration": 5161,
+    "offset": 1303679,
+    "lang": "en"
+  },
+  {
+    "text": "kind of pet you have so what is your pet",
+    "duration": 4799,
+    "offset": 1306740,
+    "lang": "en"
+  },
+  {
+    "text": "the next logic that I want to build is",
+    "duration": 5880,
+    "offset": 1308840,
+    "lang": "en"
+  },
+  {
+    "text": "another option to select the color of",
+    "duration": 5401,
+    "offset": 1311539,
+    "lang": "en"
+  },
+  {
+    "text": "your pet but I want it in a way that",
+    "duration": 5100,
+    "offset": 1314720,
+    "lang": "en"
+  },
+  {
+    "text": "once you have selected the pad type so",
+    "duration": 5460,
+    "offset": 1316940,
+    "lang": "en"
+  },
+  {
+    "text": "animal type right if it's cat it should",
+    "duration": 5040,
+    "offset": 1319820,
+    "lang": "en"
+  },
+  {
+    "text": "say what color is your cat and we can do",
+    "duration": 5120,
+    "offset": 1322400,
+    "lang": "en"
+  },
+  {
+    "text": "that by if statements so if animal",
+    "duration": 6960,
+    "offset": 1324860,
+    "lang": "en"
+  },
+  {
+    "text": "underscore type is cat right I want pet",
+    "duration": 6940,
+    "offset": 1327520,
+    "lang": "en"
+  },
+  {
+    "text": "color which is another variable we pass",
+    "duration": 6300,
+    "offset": 1331820,
+    "lang": "en"
+  },
+  {
+    "text": "to our generate pet name function here",
+    "duration": 6660,
+    "offset": 1334460,
+    "lang": "en"
+  },
+  {
+    "text": "you can say pet color is equal to and",
+    "duration": 5939,
+    "offset": 1338120,
+    "lang": "en"
+  },
+  {
+    "text": "then we use the select box component",
+    "duration": 8160,
+    "offset": 1341120,
+    "lang": "en"
+  },
+  {
+    "text": "from streamlit to ask what color is your",
+    "duration": 8041,
+    "offset": 1344059,
+    "lang": "en"
+  },
+  {
+    "text": "cap now I feel like there can be",
+    "duration": 5700,
+    "offset": 1349280,
+    "lang": "en"
+  },
+  {
+    "text": "different variations so you can't just",
+    "duration": 6900,
+    "offset": 1352100,
+    "lang": "en"
+  },
+  {
+    "text": "put in black blue white orange",
+    "duration": 7020,
+    "offset": 1354980,
+    "lang": "en"
+  },
+  {
+    "text": "you know since with cows and even cats",
+    "duration": 5580,
+    "offset": 1359000,
+    "lang": "en"
+  },
+  {
+    "text": "and dogs you can have multiple colored",
+    "duration": 5820,
+    "offset": 1362000,
+    "lang": "en"
+  },
+  {
+    "text": "pets right like a white dog with black",
+    "duration": 5579,
+    "offset": 1364580,
+    "lang": "en"
+  },
+  {
+    "text": "spots on it so we can't have a select",
+    "duration": 4800,
+    "offset": 1367820,
+    "lang": "en"
+  },
+  {
+    "text": "box let's just keep this as a text to",
+    "duration": 5461,
+    "offset": 1370159,
+    "lang": "en"
+  },
+  {
+    "text": "you and I just thought of that as I was",
+    "duration": 5640,
+    "offset": 1372620,
+    "lang": "en"
+  },
+  {
+    "text": "building this right so instead of a",
+    "duration": 5340,
+    "offset": 1375620,
+    "lang": "en"
+  },
+  {
+    "text": "select box we have a sidebar with a text",
+    "duration": 6480,
+    "offset": 1378260,
+    "lang": "en"
+  },
+  {
+    "text": "area that asks for what color is your",
+    "duration": 7260,
+    "offset": 1380960,
+    "lang": "en"
+  },
+  {
+    "text": "cat and I also want to maybe have a",
+    "duration": 6120,
+    "offset": 1384740,
+    "lang": "en"
+  },
+  {
+    "text": "limit of Maximum characters that people",
+    "duration": 4920,
+    "offset": 1388220,
+    "lang": "en"
+  },
+  {
+    "text": "can put into this because remember we",
+    "duration": 5040,
+    "offset": 1390860,
+    "lang": "en"
+  },
+  {
+    "text": "are calling the open AI API and the API",
+    "duration": 4680,
+    "offset": 1393140,
+    "lang": "en"
+  },
+  {
+    "text": "calls depend on the amount of",
+    "duration": 3720,
+    "offset": 1395900,
+    "lang": "en"
+  },
+  {
+    "text": "information you are sending in the",
+    "duration": 4260,
+    "offset": 1397820,
+    "lang": "en"
+  },
+  {
+    "text": "prompt template so if our prompt gets",
+    "duration": 5400,
+    "offset": 1399620,
+    "lang": "en"
+  },
+  {
+    "text": "bigger we'll be charged more so in order",
+    "duration": 6000,
+    "offset": 1402080,
+    "lang": "en"
+  },
+  {
+    "text": "to limit that let's have a Max character",
+    "duration": 5940,
+    "offset": 1405020,
+    "lang": "en"
+  },
+  {
+    "text": "property here again this is available on",
+    "duration": 6180,
+    "offset": 1408080,
+    "lang": "en"
+  },
+  {
+    "text": "Shameless documentation and we'll use",
+    "duration": 5640,
+    "offset": 1410960,
+    "lang": "en"
+  },
+  {
+    "text": "the label ER so the label is what color",
+    "duration": 4320,
+    "offset": 1414260,
+    "lang": "en"
+  },
+  {
+    "text": "is your cat and the maximum characters",
+    "duration": 4319,
+    "offset": 1416600,
+    "lang": "en"
+  },
+  {
+    "text": "that users will be allowed to put in is",
+    "duration": 4800,
+    "offset": 1418580,
+    "lang": "en"
+  },
+  {
+    "text": "15 and we can hit save what you can do",
+    "duration": 7260,
+    "offset": 1420919,
+    "lang": "en"
+  },
+  {
+    "text": "is copy this over for dog cow so I'll",
+    "duration": 7679,
+    "offset": 1423380,
+    "lang": "en"
+  },
+  {
+    "text": "put dog here and what color is your dog",
+    "duration": 6120,
+    "offset": 1428179,
+    "lang": "en"
+  },
+  {
+    "text": "or dog for cow it will be what color is",
+    "duration": 5581,
+    "offset": 1431059,
+    "lang": "en"
+  },
+  {
+    "text": "your cow and then I think we're left",
+    "duration": 5641,
+    "offset": 1434299,
+    "lang": "en"
+  },
+  {
+    "text": "with one which is for hamster again I'll",
+    "duration": 7700,
+    "offset": 1436640,
+    "lang": "en"
+  },
+  {
+    "text": "just copy this and paste for hamster",
+    "duration": 4400,
+    "offset": 1439940,
+    "lang": "en"
+  },
+  {
+    "text": "okay there is an efficient way to do",
+    "duration": 4560,
+    "offset": 1444380,
+    "lang": "en"
+  },
+  {
+    "text": "this but I'm just gonna copy the code",
+    "duration": 4561,
+    "offset": 1446419,
+    "lang": "en"
+  },
+  {
+    "text": "that I already have go back to my",
+    "duration": 4800,
+    "offset": 1448940,
+    "lang": "en"
+  },
+  {
+    "text": "browser here refresh my streamlit page",
+    "duration": 5579,
+    "offset": 1450980,
+    "lang": "en"
+  },
+  {
+    "text": "and now you can see if we select dog it",
+    "duration": 4439,
+    "offset": 1453740,
+    "lang": "en"
+  },
+  {
+    "text": "will say what color is your dog and you",
+    "duration": 3961,
+    "offset": 1456559,
+    "lang": "en"
+  },
+  {
+    "text": "see the text area which has a limit of",
+    "duration": 4740,
+    "offset": 1458179,
+    "lang": "en"
+  },
+  {
+    "text": "15 characters similarly if you select",
+    "duration": 5880,
+    "offset": 1460520,
+    "lang": "en"
+  },
+  {
+    "text": "the cow you can see it asks",
+    "duration": 5760,
+    "offset": 1462919,
+    "lang": "en"
+  },
+  {
+    "text": "what color is your cup so both of the",
+    "duration": 5639,
+    "offset": 1466400,
+    "lang": "en"
+  },
+  {
+    "text": "parameters have been set right now what",
+    "duration": 7321,
+    "offset": 1468679,
+    "lang": "en"
+  },
+  {
+    "text": "I want to do is send this information to",
+    "duration": 6721,
+    "offset": 1472039,
+    "lang": "en"
+  },
+  {
+    "text": "our Lang chain helper right because this",
+    "duration": 5159,
+    "offset": 1476000,
+    "lang": "en"
+  },
+  {
+    "text": "is where it will generate those names",
+    "duration": 5700,
+    "offset": 1478760,
+    "lang": "en"
+  },
+  {
+    "text": "and give it back to us so let's do that",
+    "duration": 6361,
+    "offset": 1481159,
+    "lang": "en"
+  },
+  {
+    "text": "so after we have set the pet color",
+    "duration": 5219,
+    "offset": 1484460,
+    "lang": "en"
+  },
+  {
+    "text": "right because that's the last question",
+    "duration": 6480,
+    "offset": 1487520,
+    "lang": "en"
+  },
+  {
+    "text": "we ask our users what we want to do is",
+    "duration": 7201,
+    "offset": 1489679,
+    "lang": "en"
+  },
+  {
+    "text": "have a variable here called response",
+    "duration": 6179,
+    "offset": 1494000,
+    "lang": "en"
+  },
+  {
+    "text": "and response is equal to LC Edge which",
+    "duration": 5700,
+    "offset": 1496880,
+    "lang": "en"
+  },
+  {
+    "text": "stands which is just short for Lang",
+    "duration": 6181,
+    "offset": 1500179,
+    "lang": "en"
+  },
+  {
+    "text": "chain helper here and the function",
+    "duration": 6060,
+    "offset": 1502580,
+    "lang": "en"
+  },
+  {
+    "text": "in the Lang chain helper is generate pet",
+    "duration": 3120,
+    "offset": 1506360,
+    "lang": "en"
+  },
+  {
+    "text": "name",
+    "duration": 4200,
+    "offset": 1508640,
+    "lang": "en"
+  },
+  {
+    "text": "so I'll copy that over so you do lch dot",
+    "duration": 6120,
+    "offset": 1509480,
+    "lang": "en"
+  },
+  {
+    "text": "generate pet name so we are accessing",
+    "duration": 5640,
+    "offset": 1512840,
+    "lang": "en"
+  },
+  {
+    "text": "that function animal type was the first",
+    "duration": 5760,
+    "offset": 1515600,
+    "lang": "en"
+  },
+  {
+    "text": "parameter that we need again I'm using",
+    "duration": 6179,
+    "offset": 1518480,
+    "lang": "en"
+  },
+  {
+    "text": "animal type as a variable here maybe we",
+    "duration": 4140,
+    "offset": 1521360,
+    "lang": "en"
+  },
+  {
+    "text": "can",
+    "duration": 3061,
+    "offset": 1524659,
+    "lang": "en"
+  },
+  {
+    "text": "say user",
+    "duration": 6059,
+    "offset": 1525500,
+    "lang": "en"
+  },
+  {
+    "text": "underscore animal type and I'll have to",
+    "duration": 6059,
+    "offset": 1527720,
+    "lang": "en"
+  },
+  {
+    "text": "change that over here",
+    "duration": 6301,
+    "offset": 1531559,
+    "lang": "en"
+  },
+  {
+    "text": "over here over here and over here again",
+    "duration": 6841,
+    "offset": 1533779,
+    "lang": "en"
+  },
+  {
+    "text": "just so that you're not confused so",
+    "duration": 4919,
+    "offset": 1537860,
+    "lang": "en"
+  },
+  {
+    "text": "two parameters animal type and pet color",
+    "duration": 4500,
+    "offset": 1540620,
+    "lang": "en"
+  },
+  {
+    "text": "and then I'm using the user animal type",
+    "duration": 5821,
+    "offset": 1542779,
+    "lang": "en"
+  },
+  {
+    "text": "as a variable on our main.pi so user",
+    "duration": 5700,
+    "offset": 1545120,
+    "lang": "en"
+  },
+  {
+    "text": "underscore animal underscore type and",
+    "duration": 5220,
+    "offset": 1548600,
+    "lang": "en"
+  },
+  {
+    "text": "the second parameter is pet color again",
+    "duration": 5339,
+    "offset": 1550820,
+    "lang": "en"
+  },
+  {
+    "text": "you can do the same here so user",
+    "duration": 4620,
+    "offset": 1553820,
+    "lang": "en"
+  },
+  {
+    "text": "underscore pet underscore color and",
+    "duration": 4260,
+    "offset": 1556159,
+    "lang": "en"
+  },
+  {
+    "text": "you'll have to update all of these here",
+    "duration": 4680,
+    "offset": 1558440,
+    "lang": "en"
+  },
+  {
+    "text": "just to avoid confusion so we are",
+    "duration": 5821,
+    "offset": 1560419,
+    "lang": "en"
+  },
+  {
+    "text": "passing these variables that the user",
+    "duration": 6120,
+    "offset": 1563120,
+    "lang": "en"
+  },
+  {
+    "text": "said so user will say I have a dog and",
+    "duration": 6539,
+    "offset": 1566240,
+    "lang": "en"
+  },
+  {
+    "text": "its pet color is white and we are",
+    "duration": 7020,
+    "offset": 1569240,
+    "lang": "en"
+  },
+  {
+    "text": "passing those to our generate pet name",
+    "duration": 6361,
+    "offset": 1572779,
+    "lang": "en"
+  },
+  {
+    "text": "function and then we'll just write that",
+    "duration": 6480,
+    "offset": 1576260,
+    "lang": "en"
+  },
+  {
+    "text": "as a text field so our text Will field",
+    "duration": 6720,
+    "offset": 1579140,
+    "lang": "en"
+  },
+  {
+    "text": "will just reply with response so let's",
+    "duration": 4500,
+    "offset": 1582740,
+    "lang": "en"
+  },
+  {
+    "text": "save that",
+    "duration": 4380,
+    "offset": 1585860,
+    "lang": "en"
+  },
+  {
+    "text": "now let's go back to our browser here",
+    "duration": 4620,
+    "offset": 1587240,
+    "lang": "en"
+  },
+  {
+    "text": "hit refresh",
+    "duration": 5280,
+    "offset": 1590240,
+    "lang": "en"
+  },
+  {
+    "text": "now let's select dog and type in the",
+    "duration": 6120,
+    "offset": 1591860,
+    "lang": "en"
+  },
+  {
+    "text": "color black",
+    "duration": 4740,
+    "offset": 1595520,
+    "lang": "en"
+  },
+  {
+    "text": "and you can hit Control Plus enter to",
+    "duration": 4579,
+    "offset": 1597980,
+    "lang": "en"
+  },
+  {
+    "text": "apply",
+    "duration": 2299,
+    "offset": 1600260,
+    "lang": "en"
+  },
+  {
+    "text": "and you can see we got a response",
+    "duration": 7260,
+    "offset": 1602659,
+    "lang": "en"
+  },
+  {
+    "text": "with the five pet names right",
+    "duration": 6419,
+    "offset": 1605240,
+    "lang": "en"
+  },
+  {
+    "text": "and",
+    "duration": 3781,
+    "offset": 1609919,
+    "lang": "en"
+  },
+  {
+    "text": "what you can do to display this",
+    "duration": 3481,
+    "offset": 1611659,
+    "lang": "en"
+  },
+  {
+    "text": "beautifully",
+    "duration": 5820,
+    "offset": 1613700,
+    "lang": "en"
+  },
+  {
+    "text": "is set an output key right",
+    "duration": 6240,
+    "offset": 1615140,
+    "lang": "en"
+  },
+  {
+    "text": "so let's go back to our Lang chain",
+    "duration": 4680,
+    "offset": 1619520,
+    "lang": "en"
+  },
+  {
+    "text": "helper here and in the name underscore",
+    "duration": 5520,
+    "offset": 1621380,
+    "lang": "en"
+  },
+  {
+    "text": "chain We'll add a third property called",
+    "duration": 6060,
+    "offset": 1624200,
+    "lang": "en"
+  },
+  {
+    "text": "output key right and the output key is",
+    "duration": 6659,
+    "offset": 1626900,
+    "lang": "en"
+  },
+  {
+    "text": "pet underscore name so basically instead",
+    "duration": 5760,
+    "offset": 1630260,
+    "lang": "en"
+  },
+  {
+    "text": "of giving us a text output it will",
+    "duration": 5281,
+    "offset": 1633559,
+    "lang": "en"
+  },
+  {
+    "text": "associate those five names that it",
+    "duration": 5519,
+    "offset": 1636020,
+    "lang": "en"
+  },
+  {
+    "text": "generated to this output key and we can",
+    "duration": 6360,
+    "offset": 1638840,
+    "lang": "en"
+  },
+  {
+    "text": "access this in our main.pi so instead of",
+    "duration": 6120,
+    "offset": 1641539,
+    "lang": "en"
+  },
+  {
+    "text": "just returning the entire response so",
+    "duration": 5099,
+    "offset": 1645200,
+    "lang": "en"
+  },
+  {
+    "text": "the whole text here see how it looks",
+    "duration": 6000,
+    "offset": 1647659,
+    "lang": "en"
+  },
+  {
+    "text": "weird we'll just we'll just access the",
+    "duration": 5701,
+    "offset": 1650299,
+    "lang": "en"
+  },
+  {
+    "text": "names that it generated and we can do",
+    "duration": 4801,
+    "offset": 1653659,
+    "lang": "en"
+  },
+  {
+    "text": "that by doing response and then",
+    "duration": 4919,
+    "offset": 1656000,
+    "lang": "en"
+  },
+  {
+    "text": "accessing that",
+    "duration": 6000,
+    "offset": 1658460,
+    "lang": "en"
+  },
+  {
+    "text": "underscore name which was the Kiwi set",
+    "duration": 6181,
+    "offset": 1660919,
+    "lang": "en"
+  },
+  {
+    "text": "so hit Ctrl s go back to our browser",
+    "duration": 5339,
+    "offset": 1664460,
+    "lang": "en"
+  },
+  {
+    "text": "window and click refresh this time let's",
+    "duration": 4980,
+    "offset": 1667100,
+    "lang": "en"
+  },
+  {
+    "text": "go with the cat which is white hit",
+    "duration": 4620,
+    "offset": 1669799,
+    "lang": "en"
+  },
+  {
+    "text": "Control Plus enter to apply",
+    "duration": 6479,
+    "offset": 1672080,
+    "lang": "en"
+  },
+  {
+    "text": "and you can see it displays the text now",
+    "duration": 7441,
+    "offset": 1674419,
+    "lang": "en"
+  },
+  {
+    "text": "better right it looks beautiful and we",
+    "duration": 5941,
+    "offset": 1678559,
+    "lang": "en"
+  },
+  {
+    "text": "have the recommendations here as snowy",
+    "duration": 5939,
+    "offset": 1681860,
+    "lang": "en"
+  },
+  {
+    "text": "marshmallow cotton pull blizzard let's",
+    "duration": 6299,
+    "offset": 1684500,
+    "lang": "en"
+  },
+  {
+    "text": "go over the brown hamster so hamster",
+    "duration": 7141,
+    "offset": 1687799,
+    "lang": "en"
+  },
+  {
+    "text": "and brown Coco mocha Chestnut caramel",
+    "duration": 5641,
+    "offset": 1690799,
+    "lang": "en"
+  },
+  {
+    "text": "biscuit",
+    "duration": 4020,
+    "offset": 1694940,
+    "lang": "en"
+  },
+  {
+    "text": "love those names so now",
+    "duration": 4979,
+    "offset": 1696440,
+    "lang": "en"
+  },
+  {
+    "text": "as you can see we have a streamlit app",
+    "duration": 4980,
+    "offset": 1698960,
+    "lang": "en"
+  },
+  {
+    "text": "and we are using Lang chain to generate",
+    "duration": 6061,
+    "offset": 1701419,
+    "lang": "en"
+  },
+  {
+    "text": "five cool pet names for the pets that we",
+    "duration": 6900,
+    "offset": 1703940,
+    "lang": "en"
+  },
+  {
+    "text": "might have and we saw how you can use",
+    "duration": 7319,
+    "offset": 1707480,
+    "lang": "en"
+  },
+  {
+    "text": "another lamp prom templates and the",
+    "duration": 7199,
+    "offset": 1710840,
+    "lang": "en"
+  },
+  {
+    "text": "chain which are three main components of",
+    "duration": 6301,
+    "offset": 1714799,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain but now the important one",
+    "duration": 7020,
+    "offset": 1718039,
+    "lang": "en"
+  },
+  {
+    "text": "that's left is Agents right so agents",
+    "duration": 6959,
+    "offset": 1721100,
+    "lang": "en"
+  },
+  {
+    "text": "allow llms to interact with the",
+    "duration": 6240,
+    "offset": 1725059,
+    "lang": "en"
+  },
+  {
+    "text": "environment so think of apis or things",
+    "duration": 5641,
+    "offset": 1728059,
+    "lang": "en"
+  },
+  {
+    "text": "you want to do after Gathering the",
+    "duration": 4860,
+    "offset": 1731299,
+    "lang": "en"
+  },
+  {
+    "text": "information so going over the Lang chain",
+    "duration": 5160,
+    "offset": 1733700,
+    "lang": "en"
+  },
+  {
+    "text": "documentation about agents the core idea",
+    "duration": 6481,
+    "offset": 1736159,
+    "lang": "en"
+  },
+  {
+    "text": "of Agents is to use an llm to choose a",
+    "duration": 7080,
+    "offset": 1738860,
+    "lang": "en"
+  },
+  {
+    "text": "sequence of actions to take in Chains a",
+    "duration": 6300,
+    "offset": 1742640,
+    "lang": "en"
+  },
+  {
+    "text": "sequence of actions is hard coded in",
+    "duration": 3839,
+    "offset": 1745940,
+    "lang": "en"
+  },
+  {
+    "text": "code",
+    "duration": 3599,
+    "offset": 1748940,
+    "lang": "en"
+  },
+  {
+    "text": "whereas in agents a language model is",
+    "duration": 5400,
+    "offset": 1749779,
+    "lang": "en"
+  },
+  {
+    "text": "used as a reasoning engine to determine",
+    "duration": 6360,
+    "offset": 1752539,
+    "lang": "en"
+  },
+  {
+    "text": "which actions to take and in which order",
+    "duration": 5641,
+    "offset": 1755179,
+    "lang": "en"
+  },
+  {
+    "text": "and there are several key components",
+    "duration": 4380,
+    "offset": 1758899,
+    "lang": "en"
+  },
+  {
+    "text": "Langton provides a few different types",
+    "duration": 4920,
+    "offset": 1760820,
+    "lang": "en"
+  },
+  {
+    "text": "of agents to get started even then you",
+    "duration": 4321,
+    "offset": 1763279,
+    "lang": "en"
+  },
+  {
+    "text": "will likely want to customize those",
+    "duration": 4319,
+    "offset": 1765740,
+    "lang": "en"
+  },
+  {
+    "text": "agents depending on the personality of",
+    "duration": 4740,
+    "offset": 1767600,
+    "lang": "en"
+  },
+  {
+    "text": "the agent and the background context you",
+    "duration": 4620,
+    "offset": 1770059,
+    "lang": "en"
+  },
+  {
+    "text": "are giving to the agent and then there",
+    "duration": 5520,
+    "offset": 1772340,
+    "lang": "en"
+  },
+  {
+    "text": "are tools so tools are functions that an",
+    "duration": 5401,
+    "offset": 1774679,
+    "lang": "en"
+  },
+  {
+    "text": "agent calls there are two important",
+    "duration": 4980,
+    "offset": 1777860,
+    "lang": "en"
+  },
+  {
+    "text": "considerations giving the agent access",
+    "duration": 5280,
+    "offset": 1780080,
+    "lang": "en"
+  },
+  {
+    "text": "to the right tools and describing the",
+    "duration": 5459,
+    "offset": 1782840,
+    "lang": "en"
+  },
+  {
+    "text": "tools in a way that is most helpful to",
+    "duration": 6840,
+    "offset": 1785360,
+    "lang": "en"
+  },
+  {
+    "text": "the agent so let's test it out so we",
+    "duration": 7321,
+    "offset": 1788299,
+    "lang": "en"
+  },
+  {
+    "text": "already have a pet's name generator",
+    "duration": 5640,
+    "offset": 1792200,
+    "lang": "en"
+  },
+  {
+    "text": "thing that's working for us right gives",
+    "duration": 4439,
+    "offset": 1795620,
+    "lang": "en"
+  },
+  {
+    "text": "us a name for our pet",
+    "duration": 5400,
+    "offset": 1797840,
+    "lang": "en"
+  },
+  {
+    "text": "now let me create another function here",
+    "duration": 6600,
+    "offset": 1800059,
+    "lang": "en"
+  },
+  {
+    "text": "which will name Lang chain underscore",
+    "duration": 7140,
+    "offset": 1803240,
+    "lang": "en"
+  },
+  {
+    "text": "agent and before we can interact with",
+    "duration": 6361,
+    "offset": 1806659,
+    "lang": "en"
+  },
+  {
+    "text": "the agent we have to import the Lang",
+    "duration": 5340,
+    "offset": 1810380,
+    "lang": "en"
+  },
+  {
+    "text": "chain Agents from the framework so you",
+    "duration": 5279,
+    "offset": 1813020,
+    "lang": "en"
+  },
+  {
+    "text": "can do that by adding these three import",
+    "duration": 5100,
+    "offset": 1815720,
+    "lang": "en"
+  },
+  {
+    "text": "statements on top so we are importing",
+    "duration": 5641,
+    "offset": 1818299,
+    "lang": "en"
+  },
+  {
+    "text": "tools we are also importing the",
+    "duration": 5760,
+    "offset": 1820820,
+    "lang": "en"
+  },
+  {
+    "text": "initialization of the agent and the",
+    "duration": 4380,
+    "offset": 1823940,
+    "lang": "en"
+  },
+  {
+    "text": "agent type so coming back to our",
+    "duration": 4079,
+    "offset": 1826580,
+    "lang": "en"
+  },
+  {
+    "text": "function here so first we'll Define the",
+    "duration": 4739,
+    "offset": 1828320,
+    "lang": "en"
+  },
+  {
+    "text": "llm that we want to use and I still want",
+    "duration": 5281,
+    "offset": 1830659,
+    "lang": "en"
+  },
+  {
+    "text": "to use the openai llm and the",
+    "duration": 6541,
+    "offset": 1833059,
+    "lang": "en"
+  },
+  {
+    "text": "temperature will set it to 0.5 here and",
+    "duration": 6479,
+    "offset": 1835940,
+    "lang": "en"
+  },
+  {
+    "text": "then we can load some tools",
+    "duration": 6079,
+    "offset": 1839600,
+    "lang": "en"
+  },
+  {
+    "text": "that will perform the given action so",
+    "duration": 6120,
+    "offset": 1842419,
+    "lang": "en"
+  },
+  {
+    "text": "there are various tools that are",
+    "duration": 4901,
+    "offset": 1845679,
+    "lang": "en"
+  },
+  {
+    "text": "available and again you can go through",
+    "duration": 4921,
+    "offset": 1848539,
+    "lang": "en"
+  },
+  {
+    "text": "the availability of tools or the list of",
+    "duration": 5300,
+    "offset": 1850580,
+    "lang": "en"
+  },
+  {
+    "text": "tools on the link chain documentation",
+    "duration": 5760,
+    "offset": 1853460,
+    "lang": "en"
+  },
+  {
+    "text": "but I'll be using Wikipedia which will",
+    "duration": 5620,
+    "offset": 1855880,
+    "lang": "en"
+  },
+  {
+    "text": "be the first tool I want to use and I'll",
+    "duration": 4020,
+    "offset": 1859220,
+    "lang": "en"
+  },
+  {
+    "text": "get to it why I want to use Wikipedia",
+    "duration": 4500,
+    "offset": 1861500,
+    "lang": "en"
+  },
+  {
+    "text": "and the other one is llm matte because I",
+    "duration": 4740,
+    "offset": 1863240,
+    "lang": "en"
+  },
+  {
+    "text": "want to perform some matte and this is",
+    "duration": 4500,
+    "offset": 1866000,
+    "lang": "en"
+  },
+  {
+    "text": "to just showcase what agents can do",
+    "duration": 6299,
+    "offset": 1867980,
+    "lang": "en"
+  },
+  {
+    "text": "right and then the llm that we'll be",
+    "duration": 6179,
+    "offset": 1870500,
+    "lang": "en"
+  },
+  {
+    "text": "using is defined here which is the open",
+    "duration": 6301,
+    "offset": 1874279,
+    "lang": "en"
+  },
+  {
+    "text": "AI so llm is equal to llm right and now",
+    "duration": 6901,
+    "offset": 1876679,
+    "lang": "en"
+  },
+  {
+    "text": "we'll have to initiate the agent so",
+    "duration": 6479,
+    "offset": 1880580,
+    "lang": "en"
+  },
+  {
+    "text": "agent and to initialize its initialize",
+    "duration": 5160,
+    "offset": 1883580,
+    "lang": "en"
+  },
+  {
+    "text": "underscore agent",
+    "duration": 5340,
+    "offset": 1887059,
+    "lang": "en"
+  },
+  {
+    "text": "and here you specify the tools that will",
+    "duration": 6840,
+    "offset": 1888740,
+    "lang": "en"
+  },
+  {
+    "text": "be providing it which is stored right",
+    "duration": 6000,
+    "offset": 1892399,
+    "lang": "en"
+  },
+  {
+    "text": "here which is Wikipedia and lmat the llm",
+    "duration": 4380,
+    "offset": 1895580,
+    "lang": "en"
+  },
+  {
+    "text": "we want to use right",
+    "duration": 5280,
+    "offset": 1898399,
+    "lang": "en"
+  },
+  {
+    "text": "and the agent type so one of the agent",
+    "duration": 6180,
+    "offset": 1899960,
+    "lang": "en"
+  },
+  {
+    "text": "types that's available in the quick",
+    "duration": 5521,
+    "offset": 1903679,
+    "lang": "en"
+  },
+  {
+    "text": "start guide for langchain is the react",
+    "duration": 5820,
+    "offset": 1906140,
+    "lang": "en"
+  },
+  {
+    "text": "and you can go to the agent types",
+    "duration": 6359,
+    "offset": 1909200,
+    "lang": "en"
+  },
+  {
+    "text": "documentation here so zero shot react is",
+    "duration": 6060,
+    "offset": 1911960,
+    "lang": "en"
+  },
+  {
+    "text": "the one that I'll be using decision uses",
+    "duration": 5220,
+    "offset": 1915559,
+    "lang": "en"
+  },
+  {
+    "text": "react framework to determine which tool",
+    "duration": 5879,
+    "offset": 1918020,
+    "lang": "en"
+  },
+  {
+    "text": "to use based solely on the tools",
+    "duration": 5421,
+    "offset": 1920779,
+    "lang": "en"
+  },
+  {
+    "text": "description so heading over to our code",
+    "duration": 5121,
+    "offset": 1923899,
+    "lang": "en"
+  },
+  {
+    "text": "and the way you define that agent type",
+    "duration": 7599,
+    "offset": 1926200,
+    "lang": "en"
+  },
+  {
+    "text": "is by setting it here and we'll set the",
+    "duration": 7720,
+    "offset": 1929020,
+    "lang": "en"
+  },
+  {
+    "text": "verbose flag to True which means it'll",
+    "duration": 5880,
+    "offset": 1933799,
+    "lang": "en"
+  },
+  {
+    "text": "show us the reasoning that'll happen in",
+    "duration": 6059,
+    "offset": 1936740,
+    "lang": "en"
+  },
+  {
+    "text": "our console so that's the agent we want",
+    "duration": 6781,
+    "offset": 1939679,
+    "lang": "en"
+  },
+  {
+    "text": "and we'll create a result here where we",
+    "duration": 6600,
+    "offset": 1942799,
+    "lang": "en"
+  },
+  {
+    "text": "run the agent and now you can specify",
+    "duration": 5579,
+    "offset": 1946460,
+    "lang": "en"
+  },
+  {
+    "text": "the tasks so you want to perform through",
+    "duration": 5760,
+    "offset": 1949399,
+    "lang": "en"
+  },
+  {
+    "text": "this agent so since our app is solely",
+    "duration": 6240,
+    "offset": 1952039,
+    "lang": "en"
+  },
+  {
+    "text": "based on pets let's ask it what is the",
+    "duration": 5281,
+    "offset": 1955159,
+    "lang": "en"
+  },
+  {
+    "text": "average age",
+    "duration": 6061,
+    "offset": 1958279,
+    "lang": "en"
+  },
+  {
+    "text": "of a dog and I'll ask it to do some math",
+    "duration": 6300,
+    "offset": 1960440,
+    "lang": "en"
+  },
+  {
+    "text": "and that is the reason why I loaded the",
+    "duration": 6059,
+    "offset": 1964340,
+    "lang": "en"
+  },
+  {
+    "text": "llm math tool here multiply the age by",
+    "duration": 5580,
+    "offset": 1966740,
+    "lang": "en"
+  },
+  {
+    "text": "three and at the end we'll print result",
+    "duration": 5520,
+    "offset": 1970399,
+    "lang": "en"
+  },
+  {
+    "text": "so that looks good and I will change",
+    "duration": 6660,
+    "offset": 1972320,
+    "lang": "en"
+  },
+  {
+    "text": "this so I'll comment this out instead",
+    "duration": 5581,
+    "offset": 1975919,
+    "lang": "en"
+  },
+  {
+    "text": "we'll print whatever this generates so",
+    "duration": 5880,
+    "offset": 1978980,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain agent right hit save and now",
+    "duration": 5820,
+    "offset": 1981500,
+    "lang": "en"
+  },
+  {
+    "text": "we can run this and just to demonstrate",
+    "duration": 4199,
+    "offset": 1984860,
+    "lang": "en"
+  },
+  {
+    "text": "it I'll not be",
+    "duration": 4440,
+    "offset": 1987320,
+    "lang": "en"
+  },
+  {
+    "text": "linking this to our streamlit app which",
+    "duration": 5460,
+    "offset": 1989059,
+    "lang": "en"
+  },
+  {
+    "text": "was the web interface I'll just run the",
+    "duration": 6000,
+    "offset": 1991760,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain underscore helper python file",
+    "duration": 5880,
+    "offset": 1994519,
+    "lang": "en"
+  },
+  {
+    "text": "just to Showcase you how agent works so",
+    "duration": 4560,
+    "offset": 1997760,
+    "lang": "en"
+  },
+  {
+    "text": "before I do that I have to make sure",
+    "duration": 5160,
+    "offset": 2000399,
+    "lang": "en"
+  },
+  {
+    "text": "that Wikipedia is installed through pip",
+    "duration": 5459,
+    "offset": 2002320,
+    "lang": "en"
+  },
+  {
+    "text": "so pip install Wikipedia will install",
+    "duration": 6181,
+    "offset": 2005559,
+    "lang": "en"
+  },
+  {
+    "text": "that python Library so now if I run the",
+    "duration": 7201,
+    "offset": 2007779,
+    "lang": "en"
+  },
+  {
+    "text": "langchin helper file we'll see the agent",
+    "duration": 6659,
+    "offset": 2011740,
+    "lang": "en"
+  },
+  {
+    "text": "in action okay so you'll see that it",
+    "duration": 5699,
+    "offset": 2014980,
+    "lang": "en"
+  },
+  {
+    "text": "finished the chain and the answer was",
+    "duration": 5221,
+    "offset": 2018399,
+    "lang": "en"
+  },
+  {
+    "text": "the average of a dog is 45 years when",
+    "duration": 5401,
+    "offset": 2020679,
+    "lang": "en"
+  },
+  {
+    "text": "multiplied by three but the final answer",
+    "duration": 5580,
+    "offset": 2023620,
+    "lang": "en"
+  },
+  {
+    "text": "that it got was 15 right so the average",
+    "duration": 6060,
+    "offset": 2026080,
+    "lang": "en"
+  },
+  {
+    "text": "age of the dog is 15 and then it",
+    "duration": 6359,
+    "offset": 2029200,
+    "lang": "en"
+  },
+  {
+    "text": "multiplied by 3 which is 45. so you can",
+    "duration": 6360,
+    "offset": 2032140,
+    "lang": "en"
+  },
+  {
+    "text": "see that it was able to grab the",
+    "duration": 5881,
+    "offset": 2035559,
+    "lang": "en"
+  },
+  {
+    "text": "information from Wikipedia which is 15",
+    "duration": 6720,
+    "offset": 2038500,
+    "lang": "en"
+  },
+  {
+    "text": "as the average age of a dog and it was",
+    "duration": 6840,
+    "offset": 2041440,
+    "lang": "en"
+  },
+  {
+    "text": "also able to perform the math and get to",
+    "duration": 6119,
+    "offset": 2045220,
+    "lang": "en"
+  },
+  {
+    "text": "this right and now since we set the",
+    "duration": 5579,
+    "offset": 2048280,
+    "lang": "en"
+  },
+  {
+    "text": "verbose flag to true you can see the",
+    "duration": 4621,
+    "offset": 2051339,
+    "lang": "en"
+  },
+  {
+    "text": "reasoning that went into it right and",
+    "duration": 4800,
+    "offset": 2053859,
+    "lang": "en"
+  },
+  {
+    "text": "I'll increase my terminal and with no",
+    "duration": 5219,
+    "offset": 2055960,
+    "lang": "en"
+  },
+  {
+    "text": "size here and get rid of the file",
+    "duration": 5161,
+    "offset": 2058659,
+    "lang": "en"
+  },
+  {
+    "text": "explorer on the right so you can see",
+    "duration": 5761,
+    "offset": 2061179,
+    "lang": "en"
+  },
+  {
+    "text": "I need to find out the average age of a",
+    "duration": 6240,
+    "offset": 2063820,
+    "lang": "en"
+  },
+  {
+    "text": "dog action is Wikipedia action input is",
+    "duration": 5280,
+    "offset": 2066940,
+    "lang": "en"
+  },
+  {
+    "text": "averages of talk and this is the",
+    "duration": 5700,
+    "offset": 2070060,
+    "lang": "en"
+  },
+  {
+    "text": "observation that it found right so it",
+    "duration": 6659,
+    "offset": 2072220,
+    "lang": "en"
+  },
+  {
+    "text": "did scan few pages on Wikipedia",
+    "duration": 5639,
+    "offset": 2075760,
+    "lang": "en"
+  },
+  {
+    "text": "thought I now know the average age of a",
+    "duration": 4500,
+    "offset": 2078879,
+    "lang": "en"
+  },
+  {
+    "text": "dog and the age of the oldest dog right",
+    "duration": 4861,
+    "offset": 2081399,
+    "lang": "en"
+  },
+  {
+    "text": "and then action is calculator where it's",
+    "duration": 5460,
+    "offset": 2083379,
+    "lang": "en"
+  },
+  {
+    "text": "trying to multiply 15 which is the",
+    "duration": 4680,
+    "offset": 2086260,
+    "lang": "en"
+  },
+  {
+    "text": "average age by three because that's what",
+    "duration": 4681,
+    "offset": 2088839,
+    "lang": "en"
+  },
+  {
+    "text": "we asked it to do awesome so that's how",
+    "duration": 6000,
+    "offset": 2090940,
+    "lang": "en"
+  },
+  {
+    "text": "the agents work and I believe we have",
+    "duration": 6360,
+    "offset": 2093520,
+    "lang": "en"
+  },
+  {
+    "text": "kind of covered almost all components",
+    "duration": 5040,
+    "offset": 2096940,
+    "lang": "en"
+  },
+  {
+    "text": "within the langchin framework the only",
+    "duration": 5820,
+    "offset": 2099880,
+    "lang": "en"
+  },
+  {
+    "text": "thing that's left is indexes right so",
+    "duration": 6600,
+    "offset": 2101980,
+    "lang": "en"
+  },
+  {
+    "text": "what are indexes basically as you can",
+    "duration": 6720,
+    "offset": 2105700,
+    "lang": "en"
+  },
+  {
+    "text": "see we are still working with the open",
+    "duration": 7019,
+    "offset": 2108580,
+    "lang": "en"
+  },
+  {
+    "text": "AI llm but we are also not providing any",
+    "duration": 6000,
+    "offset": 2112420,
+    "lang": "en"
+  },
+  {
+    "text": "of the custom knowledge right so we are",
+    "duration": 6000,
+    "offset": 2115599,
+    "lang": "en"
+  },
+  {
+    "text": "still relying on open Ai and the",
+    "duration": 5520,
+    "offset": 2118420,
+    "lang": "en"
+  },
+  {
+    "text": "information that they have gathered but",
+    "duration": 4740,
+    "offset": 2121599,
+    "lang": "en"
+  },
+  {
+    "text": "with langchain you can also provide your",
+    "duration": 4919,
+    "offset": 2123940,
+    "lang": "en"
+  },
+  {
+    "text": "own knowledge or knowledge base on which",
+    "duration": 5881,
+    "offset": 2126339,
+    "lang": "en"
+  },
+  {
+    "text": "you can ask llm to do certain actions so",
+    "duration": 7260,
+    "offset": 2128859,
+    "lang": "en"
+  },
+  {
+    "text": "think of a PDF file or even URLs that",
+    "duration": 7859,
+    "offset": 2132220,
+    "lang": "en"
+  },
+  {
+    "text": "you can script or maybe you have a large",
+    "duration": 6720,
+    "offset": 2136119,
+    "lang": "en"
+  },
+  {
+    "text": "PDF file with a lot of text and maybe",
+    "duration": 6181,
+    "offset": 2140079,
+    "lang": "en"
+  },
+  {
+    "text": "you want to run an llm AI chat bot for",
+    "duration": 5461,
+    "offset": 2142839,
+    "lang": "en"
+  },
+  {
+    "text": "your own document so you can do that",
+    "duration": 4079,
+    "offset": 2146260,
+    "lang": "en"
+  },
+  {
+    "text": "with the help of language in the next",
+    "duration": 4440,
+    "offset": 2148300,
+    "lang": "en"
+  },
+  {
+    "text": "project that I want to showcase you will",
+    "duration": 5280,
+    "offset": 2150339,
+    "lang": "en"
+  },
+  {
+    "text": "exactly do that will take a long YouTube",
+    "duration": 5460,
+    "offset": 2152740,
+    "lang": "en"
+  },
+  {
+    "text": "video so think of a podcast which is",
+    "duration": 5821,
+    "offset": 2155619,
+    "lang": "en"
+  },
+  {
+    "text": "hours long or a long YouTube video right",
+    "duration": 5960,
+    "offset": 2158200,
+    "lang": "en"
+  },
+  {
+    "text": "so what I have here is",
+    "duration": 5580,
+    "offset": 2161440,
+    "lang": "en"
+  },
+  {
+    "text": "the Microsoft CEO certain dealer full",
+    "duration": 5560,
+    "offset": 2164160,
+    "lang": "en"
+  },
+  {
+    "text": "interview on recode but it's 51 minutes",
+    "duration": 5099,
+    "offset": 2167020,
+    "lang": "en"
+  },
+  {
+    "text": "long and what I want to do with Lang",
+    "duration": 6420,
+    "offset": 2169720,
+    "lang": "en"
+  },
+  {
+    "text": "chain is the ability to ask questions to",
+    "duration": 7681,
+    "offset": 2172119,
+    "lang": "en"
+  },
+  {
+    "text": "this video so the context that the llm",
+    "duration": 6780,
+    "offset": 2176140,
+    "lang": "en"
+  },
+  {
+    "text": "would have is strictly of that video and",
+    "duration": 5819,
+    "offset": 2179800,
+    "lang": "en"
+  },
+  {
+    "text": "I'll be using few libraries like YouTube",
+    "duration": 5760,
+    "offset": 2182920,
+    "lang": "en"
+  },
+  {
+    "text": "transcript which basically converts",
+    "duration": 5281,
+    "offset": 2185619,
+    "lang": "en"
+  },
+  {
+    "text": "whatever URL we provide for a YouTube",
+    "duration": 5220,
+    "offset": 2188680,
+    "lang": "en"
+  },
+  {
+    "text": "video and gets its transcript right so",
+    "duration": 5340,
+    "offset": 2190900,
+    "lang": "en"
+  },
+  {
+    "text": "let's build this YouTube assistant now",
+    "duration": 4020,
+    "offset": 2193900,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to show you how you can create",
+    "duration": 4080,
+    "offset": 2196240,
+    "lang": "en"
+  },
+  {
+    "text": "this assistant that can answer questions",
+    "duration": 5820,
+    "offset": 2197920,
+    "lang": "en"
+  },
+  {
+    "text": "about a specific YouTube video so coming",
+    "duration": 6900,
+    "offset": 2200320,
+    "lang": "en"
+  },
+  {
+    "text": "back to the concept of indexes I touched",
+    "duration": 5700,
+    "offset": 2203740,
+    "lang": "en"
+  },
+  {
+    "text": "briefly on it but we also saw it in the",
+    "duration": 4440,
+    "offset": 2207220,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain diagram but we know that",
+    "duration": 4560,
+    "offset": 2209440,
+    "lang": "en"
+  },
+  {
+    "text": "these large language models become",
+    "duration": 4080,
+    "offset": 2211660,
+    "lang": "en"
+  },
+  {
+    "text": "really powerful when you combine them",
+    "duration": 4260,
+    "offset": 2214000,
+    "lang": "en"
+  },
+  {
+    "text": "with your own data and your own data in",
+    "duration": 4440,
+    "offset": 2215740,
+    "lang": "en"
+  },
+  {
+    "text": "this scenario will be the YouTube",
+    "duration": 4260,
+    "offset": 2218260,
+    "lang": "en"
+  },
+  {
+    "text": "transcript that we are going to download",
+    "duration": 4679,
+    "offset": 2220180,
+    "lang": "en"
+  },
+  {
+    "text": "automatically but you can basically",
+    "duration": 5099,
+    "offset": 2222520,
+    "lang": "en"
+  },
+  {
+    "text": "replace that transcript with any",
+    "duration": 4740,
+    "offset": 2224859,
+    "lang": "en"
+  },
+  {
+    "text": "information in this approach so it could",
+    "duration": 5581,
+    "offset": 2227619,
+    "lang": "en"
+  },
+  {
+    "text": "be a PDF it could be blog post URL right",
+    "duration": 6901,
+    "offset": 2229599,
+    "lang": "en"
+  },
+  {
+    "text": "so what Langton offers is document",
+    "duration": 4580,
+    "offset": 2233200,
+    "lang": "en"
+  },
+  {
+    "text": "loaders",
+    "duration": 4619,
+    "offset": 2236500,
+    "lang": "en"
+  },
+  {
+    "text": "and I can quickly show you the YouTube",
+    "duration": 6160,
+    "offset": 2237780,
+    "lang": "en"
+  },
+  {
+    "text": "transcript one so this is the YouTube",
+    "duration": 5161,
+    "offset": 2241119,
+    "lang": "en"
+  },
+  {
+    "text": "transcript and basically it allows you",
+    "duration": 5040,
+    "offset": 2243940,
+    "lang": "en"
+  },
+  {
+    "text": "to get the transcript which will be the",
+    "duration": 5040,
+    "offset": 2246280,
+    "lang": "en"
+  },
+  {
+    "text": "text version of the YouTube video right",
+    "duration": 4619,
+    "offset": 2248980,
+    "lang": "en"
+  },
+  {
+    "text": "but there are several other document",
+    "duration": 4500,
+    "offset": 2251320,
+    "lang": "en"
+  },
+  {
+    "text": "loaders that you can see on the left",
+    "duration": 5221,
+    "offset": 2253599,
+    "lang": "en"
+  },
+  {
+    "text": "hand side right so you can bring in an",
+    "duration": 5759,
+    "offset": 2255820,
+    "lang": "en"
+  },
+  {
+    "text": "S3 file you could bring an Azure blob",
+    "duration": 5420,
+    "offset": 2258820,
+    "lang": "en"
+  },
+  {
+    "text": "storage file you could do Hacker News",
+    "duration": 6721,
+    "offset": 2261579,
+    "lang": "en"
+  },
+  {
+    "text": "posts or articles right so these are",
+    "duration": 5920,
+    "offset": 2264240,
+    "lang": "en"
+  },
+  {
+    "text": "some of the document loaders that are",
+    "duration": 4680,
+    "offset": 2268300,
+    "lang": "en"
+  },
+  {
+    "text": "supported by linkchin as of now and",
+    "duration": 5100,
+    "offset": 2270160,
+    "lang": "en"
+  },
+  {
+    "text": "we'll be using text Splitters and Vector",
+    "duration": 4619,
+    "offset": 2272980,
+    "lang": "en"
+  },
+  {
+    "text": "stores so we are going to use these",
+    "duration": 4500,
+    "offset": 2275260,
+    "lang": "en"
+  },
+  {
+    "text": "three components to load our YouTube",
+    "duration": 4740,
+    "offset": 2277599,
+    "lang": "en"
+  },
+  {
+    "text": "video transcript split it into smaller",
+    "duration": 4980,
+    "offset": 2279760,
+    "lang": "en"
+  },
+  {
+    "text": "chunks and then store it as Vector",
+    "duration": 4441,
+    "offset": 2282339,
+    "lang": "en"
+  },
+  {
+    "text": "stores so you can think of these as",
+    "duration": 4859,
+    "offset": 2284740,
+    "lang": "en"
+  },
+  {
+    "text": "little helper tools that will make it",
+    "duration": 5940,
+    "offset": 2286780,
+    "lang": "en"
+  },
+  {
+    "text": "easy for us to load the transcript which",
+    "duration": 6661,
+    "offset": 2289599,
+    "lang": "en"
+  },
+  {
+    "text": "might be thousands of lines of text so",
+    "duration": 6060,
+    "offset": 2292720,
+    "lang": "en"
+  },
+  {
+    "text": "to get us started what I have already",
+    "duration": 5339,
+    "offset": 2296260,
+    "lang": "en"
+  },
+  {
+    "text": "done is created a YouTube assistant",
+    "duration": 5700,
+    "offset": 2298780,
+    "lang": "en"
+  },
+  {
+    "text": "directory so not be using the pets",
+    "duration": 5041,
+    "offset": 2301599,
+    "lang": "en"
+  },
+  {
+    "text": "generator directory that we had and what",
+    "duration": 4320,
+    "offset": 2304480,
+    "lang": "en"
+  },
+  {
+    "text": "I have done is pretty similar to the",
+    "duration": 4020,
+    "offset": 2306640,
+    "lang": "en"
+  },
+  {
+    "text": "pet's name generator right so I have",
+    "duration": 4260,
+    "offset": 2308800,
+    "lang": "en"
+  },
+  {
+    "text": "main.pi which will hold our streamlit",
+    "duration": 4620,
+    "offset": 2310660,
+    "lang": "en"
+  },
+  {
+    "text": "interface and then the langchin helper",
+    "duration": 5940,
+    "offset": 2313060,
+    "lang": "en"
+  },
+  {
+    "text": "will have the length chain components",
+    "duration": 6420,
+    "offset": 2315280,
+    "lang": "en"
+  },
+  {
+    "text": "and I've also created a virtual",
+    "duration": 5640,
+    "offset": 2319000,
+    "lang": "en"
+  },
+  {
+    "text": "environment and installed all the",
+    "duration": 5100,
+    "offset": 2321700,
+    "lang": "en"
+  },
+  {
+    "text": "necessary packages which is link chain",
+    "duration": 5699,
+    "offset": 2324640,
+    "lang": "en"
+  },
+  {
+    "text": "openai YouTube transcript also I've I",
+    "duration": 5880,
+    "offset": 2326800,
+    "lang": "en"
+  },
+  {
+    "text": "went ahead and created dot EnV file",
+    "duration": 5941,
+    "offset": 2330339,
+    "lang": "en"
+  },
+  {
+    "text": "which holds my openai API key so pretty",
+    "duration": 6240,
+    "offset": 2332680,
+    "lang": "en"
+  },
+  {
+    "text": "similar to the pet's name generator and",
+    "duration": 5160,
+    "offset": 2336280,
+    "lang": "en"
+  },
+  {
+    "text": "now we can start with the lag chain",
+    "duration": 4919,
+    "offset": 2338920,
+    "lang": "en"
+  },
+  {
+    "text": "helper first so the first thing that we",
+    "duration": 4440,
+    "offset": 2341440,
+    "lang": "en"
+  },
+  {
+    "text": "are going to import is the YouTube",
+    "duration": 5161,
+    "offset": 2343839,
+    "lang": "en"
+  },
+  {
+    "text": "loader that we saw right which is a",
+    "duration": 5459,
+    "offset": 2345880,
+    "lang": "en"
+  },
+  {
+    "text": "document loader so from langtin dot",
+    "duration": 3780,
+    "offset": 2349000,
+    "lang": "en"
+  },
+  {
+    "text": "document loaders we are importing that",
+    "duration": 4621,
+    "offset": 2351339,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube loader and the second important",
+    "duration": 6900,
+    "offset": 2352780,
+    "lang": "en"
+  },
+  {
+    "text": "thing we need is the text splitter so as",
+    "duration": 5940,
+    "offset": 2355960,
+    "lang": "en"
+  },
+  {
+    "text": "I showcased that the video that I have",
+    "duration": 5700,
+    "offset": 2359680,
+    "lang": "en"
+  },
+  {
+    "text": "is 51 minutes long you could also pick",
+    "duration": 7500,
+    "offset": 2361900,
+    "lang": "en"
+  },
+  {
+    "text": "up a podcast like Lex and they have",
+    "duration": 7020,
+    "offset": 2365380,
+    "lang": "en"
+  },
+  {
+    "text": "podcasts that are three hours long and",
+    "duration": 5939,
+    "offset": 2369400,
+    "lang": "en"
+  },
+  {
+    "text": "which means you'll have thousands of",
+    "duration": 5100,
+    "offset": 2372400,
+    "lang": "en"
+  },
+  {
+    "text": "lines and that is where we'll use the",
+    "duration": 5701,
+    "offset": 2375339,
+    "lang": "en"
+  },
+  {
+    "text": "the text splitter to break down those",
+    "duration": 6119,
+    "offset": 2377500,
+    "lang": "en"
+  },
+  {
+    "text": "huge transcripts into smaller chunks and",
+    "duration": 4860,
+    "offset": 2381040,
+    "lang": "en"
+  },
+  {
+    "text": "I'll show you how and for the rest of",
+    "duration": 6061,
+    "offset": 2383619,
+    "lang": "en"
+  },
+  {
+    "text": "the inputs we are gonna input the lag",
+    "duration": 6060,
+    "offset": 2385900,
+    "lang": "en"
+  },
+  {
+    "text": "chain components like the llm which will",
+    "duration": 5220,
+    "offset": 2389680,
+    "lang": "en"
+  },
+  {
+    "text": "be open AI prompt template and llm chain",
+    "duration": 5220,
+    "offset": 2391960,
+    "lang": "en"
+  },
+  {
+    "text": "the other thing",
+    "duration": 4679,
+    "offset": 2394900,
+    "lang": "en"
+  },
+  {
+    "text": "coming back to indexes we'll be using",
+    "duration": 4919,
+    "offset": 2397180,
+    "lang": "en"
+  },
+  {
+    "text": "Vector stores so I'll be using the phase",
+    "duration": 4741,
+    "offset": 2399579,
+    "lang": "en"
+  },
+  {
+    "text": "library and",
+    "duration": 4681,
+    "offset": 2402099,
+    "lang": "en"
+  },
+  {
+    "text": "I'll quickly show you what the face",
+    "duration": 7080,
+    "offset": 2404320,
+    "lang": "en"
+  },
+  {
+    "text": "library is phase is a library by meta or",
+    "duration": 7559,
+    "offset": 2406780,
+    "lang": "en"
+  },
+  {
+    "text": "Facebook for efficient similarity search",
+    "duration": 6480,
+    "offset": 2411400,
+    "lang": "en"
+  },
+  {
+    "text": "and you might have heard of other Vector",
+    "duration": 7500,
+    "offset": 2414339,
+    "lang": "en"
+  },
+  {
+    "text": "stores or databases like Pinecone or vv8",
+    "duration": 7199,
+    "offset": 2417880,
+    "lang": "en"
+  },
+  {
+    "text": "right but I'll be using phase for this",
+    "duration": 6301,
+    "offset": 2421839,
+    "lang": "en"
+  },
+  {
+    "text": "project so let's start with writing some",
+    "duration": 5520,
+    "offset": 2425079,
+    "lang": "en"
+  },
+  {
+    "text": "code so I've done all the necessary",
+    "duration": 5939,
+    "offset": 2428140,
+    "lang": "en"
+  },
+  {
+    "text": "inputs here the only input that's left",
+    "duration": 7020,
+    "offset": 2430599,
+    "lang": "en"
+  },
+  {
+    "text": "is the dot EnV which will load our",
+    "duration": 6780,
+    "offset": 2434079,
+    "lang": "en"
+  },
+  {
+    "text": "environment variables and I'll initiate",
+    "duration": 7321,
+    "offset": 2437619,
+    "lang": "en"
+  },
+  {
+    "text": "dot EnV here also since I'll be using",
+    "duration": 6961,
+    "offset": 2440859,
+    "lang": "en"
+  },
+  {
+    "text": "openai embeddings so we'll initiate that",
+    "duration": 6600,
+    "offset": 2444940,
+    "lang": "en"
+  },
+  {
+    "text": "to here and I forgot to import those so",
+    "duration": 6779,
+    "offset": 2447820,
+    "lang": "en"
+  },
+  {
+    "text": "I'll import the open aim bearings and",
+    "duration": 6240,
+    "offset": 2451540,
+    "lang": "en"
+  },
+  {
+    "text": "now we can create our first function to",
+    "duration": 5760,
+    "offset": 2454599,
+    "lang": "en"
+  },
+  {
+    "text": "create a function we know that in Python",
+    "duration": 5160,
+    "offset": 2457780,
+    "lang": "en"
+  },
+  {
+    "text": "it's deaf and let's name this function",
+    "duration": 7681,
+    "offset": 2460359,
+    "lang": "en"
+  },
+  {
+    "text": "that will be be creating a vector DB",
+    "duration": 8460,
+    "offset": 2462940,
+    "lang": "en"
+  },
+  {
+    "text": "create Vector DB from YouTube so that's",
+    "duration": 6299,
+    "offset": 2468040,
+    "lang": "en"
+  },
+  {
+    "text": "a pretty big function name right but I",
+    "duration": 5580,
+    "offset": 2471400,
+    "lang": "en"
+  },
+  {
+    "text": "want to specify what we are doing and",
+    "duration": 5881,
+    "offset": 2474339,
+    "lang": "en"
+  },
+  {
+    "text": "we'll be using phase here also for the",
+    "duration": 5820,
+    "offset": 2476980,
+    "lang": "en"
+  },
+  {
+    "text": "parameter let's give this a required",
+    "duration": 5040,
+    "offset": 2480220,
+    "lang": "en"
+  },
+  {
+    "text": "parameter which is the video URL right",
+    "duration": 5700,
+    "offset": 2482800,
+    "lang": "en"
+  },
+  {
+    "text": "so we'll be pasting this video URL in",
+    "duration": 5280,
+    "offset": 2485260,
+    "lang": "en"
+  },
+  {
+    "text": "our streamlit interface and that's what",
+    "duration": 4859,
+    "offset": 2488500,
+    "lang": "en"
+  },
+  {
+    "text": "we'll be using and this will be a string",
+    "duration": 5400,
+    "offset": 2490540,
+    "lang": "en"
+  },
+  {
+    "text": "right so the first thing we want to do",
+    "duration": 6901,
+    "offset": 2493359,
+    "lang": "en"
+  },
+  {
+    "text": "is load the YouTube video from the URL",
+    "duration": 6540,
+    "offset": 2495940,
+    "lang": "en"
+  },
+  {
+    "text": "right so we'll use loader which we",
+    "duration": 5880,
+    "offset": 2500260,
+    "lang": "en"
+  },
+  {
+    "text": "imported on the top so YouTube loader",
+    "duration": 7740,
+    "offset": 2502480,
+    "lang": "en"
+  },
+  {
+    "text": "Dot from YouTube URL and we'll pass the",
+    "duration": 6840,
+    "offset": 2506140,
+    "lang": "en"
+  },
+  {
+    "text": "video URL parameter here after we have",
+    "duration": 5040,
+    "offset": 2510220,
+    "lang": "en"
+  },
+  {
+    "text": "loaded the YouTube video I want to save",
+    "duration": 5400,
+    "offset": 2512980,
+    "lang": "en"
+  },
+  {
+    "text": "this into the transcript variable so",
+    "duration": 5339,
+    "offset": 2515260,
+    "lang": "en"
+  },
+  {
+    "text": "we'll create transcript here and we'll",
+    "duration": 5880,
+    "offset": 2518380,
+    "lang": "en"
+  },
+  {
+    "text": "just do loader dot load and this should",
+    "duration": 6421,
+    "offset": 2520599,
+    "lang": "en"
+  },
+  {
+    "text": "give us the transcript now we'll be",
+    "duration": 4380,
+    "offset": 2524260,
+    "lang": "en"
+  },
+  {
+    "text": "using text splitter and I'll",
+    "duration": 5180,
+    "offset": 2527020,
+    "lang": "en"
+  },
+  {
+    "text": "specifically tell you why so text",
+    "duration": 7140,
+    "offset": 2528640,
+    "lang": "en"
+  },
+  {
+    "text": "splitter and we imported it here as",
+    "duration": 5860,
+    "offset": 2532200,
+    "lang": "en"
+  },
+  {
+    "text": "recursive character text splitter you",
+    "duration": 4799,
+    "offset": 2535780,
+    "lang": "en"
+  },
+  {
+    "text": "can specify few parameters",
+    "duration": 4740,
+    "offset": 2538060,
+    "lang": "en"
+  },
+  {
+    "text": "when using this so the first one is",
+    "duration": 3601,
+    "offset": 2540579,
+    "lang": "en"
+  },
+  {
+    "text": "chunk size",
+    "duration": 4920,
+    "offset": 2542800,
+    "lang": "en"
+  },
+  {
+    "text": "which will set to 1000 and chunk overlap",
+    "duration": 7140,
+    "offset": 2544180,
+    "lang": "en"
+  },
+  {
+    "text": "so chunk size is how much each chunk",
+    "duration": 6780,
+    "offset": 2547720,
+    "lang": "en"
+  },
+  {
+    "text": "will contain so for me it will be 1000",
+    "duration": 6299,
+    "offset": 2551320,
+    "lang": "en"
+  },
+  {
+    "text": "right and then overlap is once it has",
+    "duration": 5760,
+    "offset": 2554500,
+    "lang": "en"
+  },
+  {
+    "text": "created those individual docs from the",
+    "duration": 5521,
+    "offset": 2557619,
+    "lang": "en"
+  },
+  {
+    "text": "long transcript it'll have an overlap in",
+    "duration": 5640,
+    "offset": 2560260,
+    "lang": "en"
+  },
+  {
+    "text": "every document so document one the last",
+    "duration": 5340,
+    "offset": 2563140,
+    "lang": "en"
+  },
+  {
+    "text": "hundred words would also be included in",
+    "duration": 4620,
+    "offset": 2565900,
+    "lang": "en"
+  },
+  {
+    "text": "the document twos first hundred words",
+    "duration": 4680,
+    "offset": 2568480,
+    "lang": "en"
+  },
+  {
+    "text": "right so that is what overlap is",
+    "duration": 6059,
+    "offset": 2570520,
+    "lang": "en"
+  },
+  {
+    "text": "and now we'll save them into a docs",
+    "duration": 6300,
+    "offset": 2573160,
+    "lang": "en"
+  },
+  {
+    "text": "variable so text underscore splitter not",
+    "duration": 6721,
+    "offset": 2576579,
+    "lang": "en"
+  },
+  {
+    "text": "split documents as the function and",
+    "duration": 6840,
+    "offset": 2579460,
+    "lang": "en"
+  },
+  {
+    "text": "we'll provide the transcript that we had",
+    "duration": 5580,
+    "offset": 2583300,
+    "lang": "en"
+  },
+  {
+    "text": "loaded from the YouTube url there we go",
+    "duration": 3900,
+    "offset": 2586300,
+    "lang": "en"
+  },
+  {
+    "text": "okay",
+    "duration": 5699,
+    "offset": 2588880,
+    "lang": "en"
+  },
+  {
+    "text": "now let's also initiate the phase so",
+    "duration": 8940,
+    "offset": 2590200,
+    "lang": "en"
+  },
+  {
+    "text": "phase Dot from documents and we will be",
+    "duration": 8221,
+    "offset": 2594579,
+    "lang": "en"
+  },
+  {
+    "text": "using docs which we stored here right",
+    "duration": 6840,
+    "offset": 2599140,
+    "lang": "en"
+  },
+  {
+    "text": "docs and we'll be using the open Ai",
+    "duration": 6539,
+    "offset": 2602800,
+    "lang": "en"
+  },
+  {
+    "text": "embeddings and we'll return this DB",
+    "duration": 4379,
+    "offset": 2605980,
+    "lang": "en"
+  },
+  {
+    "text": "okay",
+    "duration": 3961,
+    "offset": 2609339,
+    "lang": "en"
+  },
+  {
+    "text": "so now on to the explanation why we have",
+    "duration": 7081,
+    "offset": 2610359,
+    "lang": "en"
+  },
+  {
+    "text": "to split the text so basically what we",
+    "duration": 6840,
+    "offset": 2613300,
+    "lang": "en"
+  },
+  {
+    "text": "are doing at the text splitter is we",
+    "duration": 6540,
+    "offset": 2617440,
+    "lang": "en"
+  },
+  {
+    "text": "have taken over thousands of lines and",
+    "duration": 6840,
+    "offset": 2620140,
+    "lang": "en"
+  },
+  {
+    "text": "split up the documents so it has taken",
+    "duration": 5220,
+    "offset": 2623980,
+    "lang": "en"
+  },
+  {
+    "text": "very large transcript over and split it",
+    "duration": 4560,
+    "offset": 2626980,
+    "lang": "en"
+  },
+  {
+    "text": "up into chunks of 1000 so that is the",
+    "duration": 4619,
+    "offset": 2629200,
+    "lang": "en"
+  },
+  {
+    "text": "first step now you might wonder right so",
+    "duration": 6180,
+    "offset": 2631540,
+    "lang": "en"
+  },
+  {
+    "text": "we can't just provide thousand lines to",
+    "duration": 6721,
+    "offset": 2633819,
+    "lang": "en"
+  },
+  {
+    "text": "the open AI API remember there is a",
+    "duration": 6300,
+    "offset": 2637720,
+    "lang": "en"
+  },
+  {
+    "text": "token size or a limit on how much",
+    "duration": 6539,
+    "offset": 2640540,
+    "lang": "en"
+  },
+  {
+    "text": "information you can send to open AIS API",
+    "duration": 6360,
+    "offset": 2644020,
+    "lang": "en"
+  },
+  {
+    "text": "and that is why we have split the amount",
+    "duration": 6121,
+    "offset": 2647079,
+    "lang": "en"
+  },
+  {
+    "text": "of context we'll be sending for for a",
+    "duration": 4920,
+    "offset": 2650380,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube transcript right because the",
+    "duration": 5100,
+    "offset": 2653200,
+    "lang": "en"
+  },
+  {
+    "text": "model that I'll be using is the text",
+    "duration": 7319,
+    "offset": 2655300,
+    "lang": "en"
+  },
+  {
+    "text": "DaVinci 003 and as you can see it can",
+    "duration": 6080,
+    "offset": 2658300,
+    "lang": "en"
+  },
+  {
+    "text": "only take",
+    "duration": 5941,
+    "offset": 2662619,
+    "lang": "en"
+  },
+  {
+    "text": "4097 tokens so I cannot send the entire",
+    "duration": 7660,
+    "offset": 2664380,
+    "lang": "en"
+  },
+  {
+    "text": "transcript to open aiz Ai and that is",
+    "duration": 6539,
+    "offset": 2668560,
+    "lang": "en"
+  },
+  {
+    "text": "why we'll be splitting it and storing it",
+    "duration": 4799,
+    "offset": 2672040,
+    "lang": "en"
+  },
+  {
+    "text": "into Vector stores",
+    "duration": 5041,
+    "offset": 2675099,
+    "lang": "en"
+  },
+  {
+    "text": "again this is quite technical I'll not",
+    "duration": 6121,
+    "offset": 2676839,
+    "lang": "en"
+  },
+  {
+    "text": "go into much detail but vectors",
+    "duration": 5219,
+    "offset": 2680140,
+    "lang": "en"
+  },
+  {
+    "text": "basically are a numerical representation",
+    "duration": 5820,
+    "offset": 2682960,
+    "lang": "en"
+  },
+  {
+    "text": "of the text we just created here right",
+    "duration": 6901,
+    "offset": 2685359,
+    "lang": "en"
+  },
+  {
+    "text": "so the core responsibility of this",
+    "duration": 6240,
+    "offset": 2688780,
+    "lang": "en"
+  },
+  {
+    "text": "function is to load the transcript right",
+    "duration": 5040,
+    "offset": 2692260,
+    "lang": "en"
+  },
+  {
+    "text": "take all the text that's in the",
+    "duration": 5040,
+    "offset": 2695020,
+    "lang": "en"
+  },
+  {
+    "text": "transcript split it into smaller chunks",
+    "duration": 5940,
+    "offset": 2697300,
+    "lang": "en"
+  },
+  {
+    "text": "and then save those chunks as Vector",
+    "duration": 6420,
+    "offset": 2700060,
+    "lang": "en"
+  },
+  {
+    "text": "stores again we can't just provide all",
+    "duration": 5099,
+    "offset": 2703240,
+    "lang": "en"
+  },
+  {
+    "text": "of these Vector stores to the open AI",
+    "duration": 5339,
+    "offset": 2706480,
+    "lang": "en"
+  },
+  {
+    "text": "right we can't just send over the 10 000",
+    "duration": 6661,
+    "offset": 2708339,
+    "lang": "en"
+  },
+  {
+    "text": "or maybe even 50 chunks that we have",
+    "duration": 5401,
+    "offset": 2711819,
+    "lang": "en"
+  },
+  {
+    "text": "created of smaller text that's where",
+    "duration": 5460,
+    "offset": 2715000,
+    "lang": "en"
+  },
+  {
+    "text": "we'll use phase to do a similarity",
+    "duration": 5820,
+    "offset": 2717220,
+    "lang": "en"
+  },
+  {
+    "text": "search right and that's what the next",
+    "duration": 5340,
+    "offset": 2720460,
+    "lang": "en"
+  },
+  {
+    "text": "function will be and before I write that",
+    "duration": 6240,
+    "offset": 2723040,
+    "lang": "en"
+  },
+  {
+    "text": "next function we'll see if this works so",
+    "duration": 6240,
+    "offset": 2725800,
+    "lang": "en"
+  },
+  {
+    "text": "video underscore URL so I'm gonna hard",
+    "duration": 5819,
+    "offset": 2729280,
+    "lang": "en"
+  },
+  {
+    "text": "code the video URL that we have for the",
+    "duration": 7860,
+    "offset": 2732040,
+    "lang": "en"
+  },
+  {
+    "text": "podcast and see if we get the smaller",
+    "duration": 7801,
+    "offset": 2735099,
+    "lang": "en"
+  },
+  {
+    "text": "chunk documents right so let's print",
+    "duration": 6980,
+    "offset": 2739900,
+    "lang": "en"
+  },
+  {
+    "text": "this function at the end",
+    "duration": 3980,
+    "offset": 2742900,
+    "lang": "en"
+  },
+  {
+    "text": "hit save and we'll open the terminal",
+    "duration": 5219,
+    "offset": 2747880,
+    "lang": "en"
+  },
+  {
+    "text": "make sure your virtual environment is",
+    "duration": 5401,
+    "offset": 2750819,
+    "lang": "en"
+  },
+  {
+    "text": "activated and you have installed the",
+    "duration": 5581,
+    "offset": 2753099,
+    "lang": "en"
+  },
+  {
+    "text": "required packages again all of this will",
+    "duration": 4800,
+    "offset": 2756220,
+    "lang": "en"
+  },
+  {
+    "text": "be available on GitHub for reference",
+    "duration": 4800,
+    "offset": 2758680,
+    "lang": "en"
+  },
+  {
+    "text": "later but let's run the line chain",
+    "duration": 5280,
+    "offset": 2761020,
+    "lang": "en"
+  },
+  {
+    "text": "helper python file again it'll take some",
+    "duration": 5280,
+    "offset": 2763480,
+    "lang": "en"
+  },
+  {
+    "text": "time to do the computation",
+    "duration": 6420,
+    "offset": 2766300,
+    "lang": "en"
+  },
+  {
+    "text": "I missed to write print so we'll have to",
+    "duration": 6480,
+    "offset": 2768760,
+    "lang": "en"
+  },
+  {
+    "text": "print this whatever this function",
+    "duration": 4500,
+    "offset": 2772720,
+    "lang": "en"
+  },
+  {
+    "text": "returns which should be the database",
+    "duration": 4800,
+    "offset": 2775240,
+    "lang": "en"
+  },
+  {
+    "text": "that we created right so let's run it",
+    "duration": 5940,
+    "offset": 2777220,
+    "lang": "en"
+  },
+  {
+    "text": "again and this time we should get the",
+    "duration": 5940,
+    "offset": 2780040,
+    "lang": "en"
+  },
+  {
+    "text": "vector stores that were created and so",
+    "duration": 6240,
+    "offset": 2783160,
+    "lang": "en"
+  },
+  {
+    "text": "instead of DB if I return docs you'll",
+    "duration": 6500,
+    "offset": 2785980,
+    "lang": "en"
+  },
+  {
+    "text": "see those chunks",
+    "duration": 3080,
+    "offset": 2789400,
+    "lang": "en"
+  },
+  {
+    "text": "so if I expand my terminal here you can",
+    "duration": 7381,
+    "offset": 2792579,
+    "lang": "en"
+  },
+  {
+    "text": "see we have quite a few text here but",
+    "duration": 7140,
+    "offset": 2796420,
+    "lang": "en"
+  },
+  {
+    "text": "here are the docs right so you can see",
+    "duration": 6240,
+    "offset": 2799960,
+    "lang": "en"
+  },
+  {
+    "text": "that there's a document and then it",
+    "duration": 5400,
+    "offset": 2803560,
+    "lang": "en"
+  },
+  {
+    "text": "starts with the content and you'll see",
+    "duration": 5460,
+    "offset": 2806200,
+    "lang": "en"
+  },
+  {
+    "text": "multiple document chunks so these are",
+    "duration": 4680,
+    "offset": 2808960,
+    "lang": "en"
+  },
+  {
+    "text": "the chunks that we created from the",
+    "duration": 4740,
+    "offset": 2811660,
+    "lang": "en"
+  },
+  {
+    "text": "larger transcript so this is one right",
+    "duration": 5100,
+    "offset": 2813640,
+    "lang": "en"
+  },
+  {
+    "text": "this is the second one",
+    "duration": 5040,
+    "offset": 2816400,
+    "lang": "en"
+  },
+  {
+    "text": "and so on I know the formatting is weird",
+    "duration": 5640,
+    "offset": 2818740,
+    "lang": "en"
+  },
+  {
+    "text": "so you can't really tell where the new",
+    "duration": 5399,
+    "offset": 2821440,
+    "lang": "en"
+  },
+  {
+    "text": "document starts but yeah this is all the",
+    "duration": 5040,
+    "offset": 2824380,
+    "lang": "en"
+  },
+  {
+    "text": "chunks that we have awesome so our",
+    "duration": 4801,
+    "offset": 2826839,
+    "lang": "en"
+  },
+  {
+    "text": "function to create the vector DB from",
+    "duration": 5159,
+    "offset": 2829420,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube url is working as expected so",
+    "duration": 5820,
+    "offset": 2831640,
+    "lang": "en"
+  },
+  {
+    "text": "I'll get rid of this print statement and",
+    "duration": 5341,
+    "offset": 2834579,
+    "lang": "en"
+  },
+  {
+    "text": "full return DB here now for the next",
+    "duration": 5399,
+    "offset": 2837460,
+    "lang": "en"
+  },
+  {
+    "text": "function which is going to be getting",
+    "duration": 6960,
+    "offset": 2839920,
+    "lang": "en"
+  },
+  {
+    "text": "off the response on our query we have to",
+    "duration": 7201,
+    "offset": 2842859,
+    "lang": "en"
+  },
+  {
+    "text": "ask this YouTube video right so let's",
+    "duration": 5640,
+    "offset": 2846880,
+    "lang": "en"
+  },
+  {
+    "text": "create that function we'll name it get",
+    "duration": 6240,
+    "offset": 2850060,
+    "lang": "en"
+  },
+  {
+    "text": "underscore response from query again",
+    "duration": 7380,
+    "offset": 2852520,
+    "lang": "en"
+  },
+  {
+    "text": "pretty self-explanatory name for the",
+    "duration": 5640,
+    "offset": 2856300,
+    "lang": "en"
+  },
+  {
+    "text": "function itself and we'll pass few",
+    "duration": 4260,
+    "offset": 2859900,
+    "lang": "en"
+  },
+  {
+    "text": "parameters to this function one is DB",
+    "duration": 5399,
+    "offset": 2861940,
+    "lang": "en"
+  },
+  {
+    "text": "the important one will be query which",
+    "duration": 5459,
+    "offset": 2864160,
+    "lang": "en"
+  },
+  {
+    "text": "will be the question that the user asks",
+    "duration": 5280,
+    "offset": 2867339,
+    "lang": "en"
+  },
+  {
+    "text": "and K which is another argument that",
+    "duration": 5101,
+    "offset": 2869619,
+    "lang": "en"
+  },
+  {
+    "text": "I'll go over this is used for the",
+    "duration": 4200,
+    "offset": 2872619,
+    "lang": "en"
+  },
+  {
+    "text": "similarity search that will do so keep",
+    "duration": 6119,
+    "offset": 2874720,
+    "lang": "en"
+  },
+  {
+    "text": "in mind the amount of tokens that the",
+    "duration": 7081,
+    "offset": 2876819,
+    "lang": "en"
+  },
+  {
+    "text": "text DaVinci 3 Model can take right so",
+    "duration": 6121,
+    "offset": 2880839,
+    "lang": "en"
+  },
+  {
+    "text": "keep that in mind it's 4097 so I'll just",
+    "duration": 6780,
+    "offset": 2883900,
+    "lang": "en"
+  },
+  {
+    "text": "add a comment here saying text DaVinci",
+    "duration": 8340,
+    "offset": 2886960,
+    "lang": "en"
+  },
+  {
+    "text": "can handle 2097 tokens right now in",
+    "duration": 6960,
+    "offset": 2890680,
+    "lang": "en"
+  },
+  {
+    "text": "order to do a similarity search we'll",
+    "duration": 4740,
+    "offset": 2895300,
+    "lang": "en"
+  },
+  {
+    "text": "save that into a docs variable within",
+    "duration": 4979,
+    "offset": 2897640,
+    "lang": "en"
+  },
+  {
+    "text": "this function so DB",
+    "duration": 4860,
+    "offset": 2900040,
+    "lang": "en"
+  },
+  {
+    "text": "is what we'll use we'll perform a",
+    "duration": 4980,
+    "offset": 2902619,
+    "lang": "en"
+  },
+  {
+    "text": "similarity search on the DB which is the",
+    "duration": 4320,
+    "offset": 2904900,
+    "lang": "en"
+  },
+  {
+    "text": "database we created in the previous",
+    "duration": 4621,
+    "offset": 2907599,
+    "lang": "en"
+  },
+  {
+    "text": "function so gb.similarity underscore",
+    "duration": 5820,
+    "offset": 2909220,
+    "lang": "en"
+  },
+  {
+    "text": "search and the search will be basically",
+    "duration": 5220,
+    "offset": 2912220,
+    "lang": "en"
+  },
+  {
+    "text": "the query so the first thing I want to",
+    "duration": 4260,
+    "offset": 2915040,
+    "lang": "en"
+  },
+  {
+    "text": "do with this function is basically",
+    "duration": 5100,
+    "offset": 2917440,
+    "lang": "en"
+  },
+  {
+    "text": "search the query relevant documents so",
+    "duration": 5880,
+    "offset": 2919300,
+    "lang": "en"
+  },
+  {
+    "text": "let's say in this podcast they talk",
+    "duration": 5700,
+    "offset": 2922540,
+    "lang": "en"
+  },
+  {
+    "text": "about a ransomware somewhere so right",
+    "duration": 4860,
+    "offset": 2925180,
+    "lang": "en"
+  },
+  {
+    "text": "here they talk about ransomware right",
+    "duration": 4859,
+    "offset": 2928240,
+    "lang": "en"
+  },
+  {
+    "text": "and if I want to ask a question saying",
+    "duration": 4920,
+    "offset": 2930040,
+    "lang": "en"
+  },
+  {
+    "text": "what did they talk about ransomware so",
+    "duration": 4921,
+    "offset": 2933099,
+    "lang": "en"
+  },
+  {
+    "text": "my query is just about ransomware that",
+    "duration": 5580,
+    "offset": 2934960,
+    "lang": "en"
+  },
+  {
+    "text": "that they talked about in the podcast so",
+    "duration": 5040,
+    "offset": 2938020,
+    "lang": "en"
+  },
+  {
+    "text": "it will only search the document that",
+    "duration": 6180,
+    "offset": 2940540,
+    "lang": "en"
+  },
+  {
+    "text": "has details about ransomware so we'll",
+    "duration": 6360,
+    "offset": 2943060,
+    "lang": "en"
+  },
+  {
+    "text": "not send the entire documents that were",
+    "duration": 5700,
+    "offset": 2946720,
+    "lang": "en"
+  },
+  {
+    "text": "created but just the one that is",
+    "duration": 5340,
+    "offset": 2949420,
+    "lang": "en"
+  },
+  {
+    "text": "relevant to the query that the user made",
+    "duration": 5399,
+    "offset": 2952420,
+    "lang": "en"
+  },
+  {
+    "text": "I hope that makes sense and this is also",
+    "duration": 6120,
+    "offset": 2954760,
+    "lang": "en"
+  },
+  {
+    "text": "where we'll pass the K as argument and",
+    "duration": 7381,
+    "offset": 2957819,
+    "lang": "en"
+  },
+  {
+    "text": "I'll tell you what K is so remember that",
+    "duration": 5540,
+    "offset": 2960880,
+    "lang": "en"
+  },
+  {
+    "text": "we can have",
+    "duration": 6480,
+    "offset": 2965200,
+    "lang": "en"
+  },
+  {
+    "text": "4097 tokens but our chunk size is 1000.",
+    "duration": 9280,
+    "offset": 2966420,
+    "lang": "en"
+  },
+  {
+    "text": "so that means we can kind of send four",
+    "duration": 7500,
+    "offset": 2971680,
+    "lang": "en"
+  },
+  {
+    "text": "documents right because each document is",
+    "duration": 6119,
+    "offset": 2975700,
+    "lang": "en"
+  },
+  {
+    "text": "a size of thousand so let's set that",
+    "duration": 5100,
+    "offset": 2979180,
+    "lang": "en"
+  },
+  {
+    "text": "value to four okay so we'll be sending",
+    "duration": 5701,
+    "offset": 2981819,
+    "lang": "en"
+  },
+  {
+    "text": "four relevant docs based on the query",
+    "duration": 4860,
+    "offset": 2984280,
+    "lang": "en"
+  },
+  {
+    "text": "that the user made now I'll create",
+    "duration": 3780,
+    "offset": 2987520,
+    "lang": "en"
+  },
+  {
+    "text": "another variable called docs page",
+    "duration": 3240,
+    "offset": 2989140,
+    "lang": "en"
+  },
+  {
+    "text": "content",
+    "duration": 4200,
+    "offset": 2991300,
+    "lang": "en"
+  },
+  {
+    "text": "and what we'll basically do is join",
+    "duration": 7760,
+    "offset": 2992380,
+    "lang": "en"
+  },
+  {
+    "text": "those four docs that we'll be sending",
+    "duration": 4640,
+    "offset": 2995500,
+    "lang": "en"
+  },
+  {
+    "text": "okay so we got those four docs and we",
+    "duration": 5160,
+    "offset": 3003060,
+    "lang": "en"
+  },
+  {
+    "text": "are joining them to create one dock",
+    "duration": 5640,
+    "offset": 3006420,
+    "lang": "en"
+  },
+  {
+    "text": "because the Toca limit is 4097 and here",
+    "duration": 6899,
+    "offset": 3008220,
+    "lang": "en"
+  },
+  {
+    "text": "we'll almost have 4 000 tokens being",
+    "duration": 6240,
+    "offset": 3012060,
+    "lang": "en"
+  },
+  {
+    "text": "sent to the text DaVinci 3 mod awesome",
+    "duration": 8101,
+    "offset": 3015119,
+    "lang": "en"
+  },
+  {
+    "text": "now let's work with the llm right so",
+    "duration": 7080,
+    "offset": 3018300,
+    "lang": "en"
+  },
+  {
+    "text": "pretty similar to what we did with the",
+    "duration": 4859,
+    "offset": 3023220,
+    "lang": "en"
+  },
+  {
+    "text": "pet's name generator we'll initiate the",
+    "duration": 5640,
+    "offset": 3025380,
+    "lang": "en"
+  },
+  {
+    "text": "llm to be open Ai and",
+    "duration": 5221,
+    "offset": 3028079,
+    "lang": "en"
+  },
+  {
+    "text": "as I said the model that I'll be using",
+    "duration": 6660,
+    "offset": 3031020,
+    "lang": "en"
+  },
+  {
+    "text": "is text DaVinci 3 so let me go to the",
+    "duration": 7200,
+    "offset": 3033300,
+    "lang": "en"
+  },
+  {
+    "text": "open AIS documentation copy this model",
+    "duration": 5280,
+    "offset": 3037680,
+    "lang": "en"
+  },
+  {
+    "text": "name come back here and paste it and",
+    "duration": 4500,
+    "offset": 3040500,
+    "lang": "en"
+  },
+  {
+    "text": "there is some white space at the end so",
+    "duration": 3840,
+    "offset": 3042960,
+    "lang": "en"
+  },
+  {
+    "text": "we'll get rid of that and the second",
+    "duration": 3119,
+    "offset": 3045000,
+    "lang": "en"
+  },
+  {
+    "text": "thing we did with the pets name",
+    "duration": 3660,
+    "offset": 3046800,
+    "lang": "en"
+  },
+  {
+    "text": "generator was prompt right so prompt",
+    "duration": 5521,
+    "offset": 3048119,
+    "lang": "en"
+  },
+  {
+    "text": "templates is the is another main",
+    "duration": 4980,
+    "offset": 3050460,
+    "lang": "en"
+  },
+  {
+    "text": "component of Lang chain so we'll use",
+    "duration": 4800,
+    "offset": 3053640,
+    "lang": "en"
+  },
+  {
+    "text": "that and this is variable define what",
+    "duration": 6840,
+    "offset": 3055440,
+    "lang": "en"
+  },
+  {
+    "text": "the prompt should be for the open AI llm",
+    "duration": 7260,
+    "offset": 3058440,
+    "lang": "en"
+  },
+  {
+    "text": "so the first thing would be to specify",
+    "duration": 5819,
+    "offset": 3062280,
+    "lang": "en"
+  },
+  {
+    "text": "the input variables right so the first",
+    "duration": 5639,
+    "offset": 3065700,
+    "lang": "en"
+  },
+  {
+    "text": "one is question or query right so",
+    "duration": 6181,
+    "offset": 3068099,
+    "lang": "en"
+  },
+  {
+    "text": "whatever the question is being asked by",
+    "duration": 5341,
+    "offset": 3071339,
+    "lang": "en"
+  },
+  {
+    "text": "the user in Docs",
+    "duration": 5220,
+    "offset": 3074280,
+    "lang": "en"
+  },
+  {
+    "text": "so docs is basically the similarity",
+    "duration": 4860,
+    "offset": 3076680,
+    "lang": "en"
+  },
+  {
+    "text": "search we did there we go now the",
+    "duration": 6000,
+    "offset": 3079500,
+    "lang": "en"
+  },
+  {
+    "text": "template that we'll be using is a prompt",
+    "duration": 6720,
+    "offset": 3081540,
+    "lang": "en"
+  },
+  {
+    "text": "that I've created here so I'm gonna copy",
+    "duration": 4859,
+    "offset": 3085500,
+    "lang": "en"
+  },
+  {
+    "text": "this really quick since it's a long",
+    "duration": 4680,
+    "offset": 3088260,
+    "lang": "en"
+  },
+  {
+    "text": "prompt okay so I've copied the prompt",
+    "duration": 4381,
+    "offset": 3090359,
+    "lang": "en"
+  },
+  {
+    "text": "basically it says you're a helpful",
+    "duration": 3419,
+    "offset": 3092940,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube assistant that can answer",
+    "duration": 5099,
+    "offset": 3094740,
+    "lang": "en"
+  },
+  {
+    "text": "questions about videos based on the",
+    "duration": 6181,
+    "offset": 3096359,
+    "lang": "en"
+  },
+  {
+    "text": "videos transcript right",
+    "duration": 4980,
+    "offset": 3099839,
+    "lang": "en"
+  },
+  {
+    "text": "answer the following question and this",
+    "duration": 3900,
+    "offset": 3102540,
+    "lang": "en"
+  },
+  {
+    "text": "is where the input variable goes",
+    "duration": 4020,
+    "offset": 3104819,
+    "lang": "en"
+  },
+  {
+    "text": "whatever the question the user is asking",
+    "duration": 4679,
+    "offset": 3106440,
+    "lang": "en"
+  },
+  {
+    "text": "by searching the following video",
+    "duration": 4441,
+    "offset": 3108839,
+    "lang": "en"
+  },
+  {
+    "text": "transcript which is the docs right so",
+    "duration": 3781,
+    "offset": 3111119,
+    "lang": "en"
+  },
+  {
+    "text": "docs is basically the similarity search",
+    "duration": 2700,
+    "offset": 3113280,
+    "lang": "en"
+  },
+  {
+    "text": "we did",
+    "duration": 3659,
+    "offset": 3114900,
+    "lang": "en"
+  },
+  {
+    "text": "only use factual information from the",
+    "duration": 4619,
+    "offset": 3115980,
+    "lang": "en"
+  },
+  {
+    "text": "transcript to answer the question if you",
+    "duration": 3181,
+    "offset": 3118559,
+    "lang": "en"
+  },
+  {
+    "text": "feel like you don't have enough",
+    "duration": 3960,
+    "offset": 3120599,
+    "lang": "en"
+  },
+  {
+    "text": "information simply say I don't know",
+    "duration": 5640,
+    "offset": 3121740,
+    "lang": "en"
+  },
+  {
+    "text": "right because we don't want the AI or",
+    "duration": 4681,
+    "offset": 3124559,
+    "lang": "en"
+  },
+  {
+    "text": "the llm to hallucinate your answer",
+    "duration": 4020,
+    "offset": 3127380,
+    "lang": "en"
+  },
+  {
+    "text": "should be needed so that is basically",
+    "duration": 5400,
+    "offset": 3129240,
+    "lang": "en"
+  },
+  {
+    "text": "the prompt that we'll be using to answer",
+    "duration": 6060,
+    "offset": 3131400,
+    "lang": "en"
+  },
+  {
+    "text": "questions and now we'll be using another",
+    "duration": 5640,
+    "offset": 3134640,
+    "lang": "en"
+  },
+  {
+    "text": "main component which is chain within the",
+    "duration": 6119,
+    "offset": 3137460,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain so let's create an llm chain",
+    "duration": 7680,
+    "offset": 3140280,
+    "lang": "en"
+  },
+  {
+    "text": "where llm is equal to llm because we",
+    "duration": 6240,
+    "offset": 3143579,
+    "lang": "en"
+  },
+  {
+    "text": "specified it here that will be using",
+    "duration": 5580,
+    "offset": 3147960,
+    "lang": "en"
+  },
+  {
+    "text": "openai model text DaVinci 3 and prompt",
+    "duration": 6901,
+    "offset": 3149819,
+    "lang": "en"
+  },
+  {
+    "text": "is equal to prompt which we specified",
+    "duration": 6960,
+    "offset": 3153540,
+    "lang": "en"
+  },
+  {
+    "text": "here using prompt template okay now",
+    "duration": 6839,
+    "offset": 3156720,
+    "lang": "en"
+  },
+  {
+    "text": "we just have to learn the response so",
+    "duration": 5160,
+    "offset": 3160500,
+    "lang": "en"
+  },
+  {
+    "text": "I'll create a variable call response it",
+    "duration": 3780,
+    "offset": 3163559,
+    "lang": "en"
+  },
+  {
+    "text": "will do chain dot run which will",
+    "duration": 4140,
+    "offset": 3165660,
+    "lang": "en"
+  },
+  {
+    "text": "basically run our chain since we had",
+    "duration": 5041,
+    "offset": 3167339,
+    "lang": "en"
+  },
+  {
+    "text": "question as the input variable here",
+    "duration": 6900,
+    "offset": 3169800,
+    "lang": "en"
+  },
+  {
+    "text": "we'll say that question is equal to",
+    "duration": 5699,
+    "offset": 3172380,
+    "lang": "en"
+  },
+  {
+    "text": "query",
+    "duration": 4080,
+    "offset": 3176700,
+    "lang": "en"
+  },
+  {
+    "text": "because that's what we were referring to",
+    "duration": 5881,
+    "offset": 3178079,
+    "lang": "en"
+  },
+  {
+    "text": "it on the previous function and",
+    "duration": 4799,
+    "offset": 3180780,
+    "lang": "en"
+  },
+  {
+    "text": "Docs",
+    "duration": 5460,
+    "offset": 3183960,
+    "lang": "en"
+  },
+  {
+    "text": "is equal to docs page underscore content",
+    "duration": 8461,
+    "offset": 3185579,
+    "lang": "en"
+  },
+  {
+    "text": "remember because we joined all the",
+    "duration": 7980,
+    "offset": 3189420,
+    "lang": "en"
+  },
+  {
+    "text": "four documents because K is set to 4 to",
+    "duration": 6360,
+    "offset": 3194040,
+    "lang": "en"
+  },
+  {
+    "text": "be one doc because we can we have the",
+    "duration": 5219,
+    "offset": 3197400,
+    "lang": "en"
+  },
+  {
+    "text": "ability to send four thousand tokens and",
+    "duration": 6179,
+    "offset": 3200400,
+    "lang": "en"
+  },
+  {
+    "text": "then response is equal to response",
+    "duration": 7081,
+    "offset": 3202619,
+    "lang": "en"
+  },
+  {
+    "text": "dot replace and this is just some",
+    "duration": 5361,
+    "offset": 3206579,
+    "lang": "en"
+  },
+  {
+    "text": "formatting that we have to do because",
+    "duration": 4379,
+    "offset": 3209700,
+    "lang": "en"
+  },
+  {
+    "text": "if you remember in the pet's name",
+    "duration": 3820,
+    "offset": 3211940,
+    "lang": "en"
+  },
+  {
+    "text": "generated to the response we were",
+    "duration": 2641,
+    "offset": 3214079,
+    "lang": "en"
+  },
+  {
+    "text": "getting",
+    "duration": 4260,
+    "offset": 3215760,
+    "lang": "en"
+  },
+  {
+    "text": "was in one line and it included new line",
+    "duration": 6060,
+    "offset": 3216720,
+    "lang": "en"
+  },
+  {
+    "text": "characters so we'll replace that with",
+    "duration": 6140,
+    "offset": 3220020,
+    "lang": "en"
+  },
+  {
+    "text": "some white space and we'll return",
+    "duration": 8160,
+    "offset": 3222780,
+    "lang": "en"
+  },
+  {
+    "text": "response okay so now we can test this",
+    "duration": 7600,
+    "offset": 3226160,
+    "lang": "en"
+  },
+  {
+    "text": "out as it is in the console by hard",
+    "duration": 5580,
+    "offset": 3230940,
+    "lang": "en"
+  },
+  {
+    "text": "coding the question and the URL which we",
+    "duration": 4500,
+    "offset": 3233760,
+    "lang": "en"
+  },
+  {
+    "text": "already did so let's get ready for that",
+    "duration": 3780,
+    "offset": 3236520,
+    "lang": "en"
+  },
+  {
+    "text": "but also build the interface because",
+    "duration": 4740,
+    "offset": 3238260,
+    "lang": "en"
+  },
+  {
+    "text": "it'll be really quick with streamlit so",
+    "duration": 6000,
+    "offset": 3240300,
+    "lang": "en"
+  },
+  {
+    "text": "coming over to our main dot Pi let's do",
+    "duration": 5880,
+    "offset": 3243000,
+    "lang": "en"
+  },
+  {
+    "text": "some inputs on the top so pretty similar",
+    "duration": 4620,
+    "offset": 3246300,
+    "lang": "en"
+  },
+  {
+    "text": "to what we did in our pets named",
+    "duration": 4679,
+    "offset": 3248880,
+    "lang": "en"
+  },
+  {
+    "text": "generator so streamlit I'm importing it",
+    "duration": 6240,
+    "offset": 3250920,
+    "lang": "en"
+  },
+  {
+    "text": "as St and the langchain helper where are",
+    "duration": 6121,
+    "offset": 3253559,
+    "lang": "en"
+  },
+  {
+    "text": "all of the Lang chain code is and I'm",
+    "duration": 5340,
+    "offset": 3257160,
+    "lang": "en"
+  },
+  {
+    "text": "also importing text wrap basically it",
+    "duration": 5159,
+    "offset": 3259680,
+    "lang": "en"
+  },
+  {
+    "text": "gives you the ability to wrap text so",
+    "duration": 4200,
+    "offset": 3262500,
+    "lang": "en"
+  },
+  {
+    "text": "that you're not you don't have to scroll",
+    "duration": 6780,
+    "offset": 3264839,
+    "lang": "en"
+  },
+  {
+    "text": "the page the title of this page will be",
+    "duration": 7500,
+    "offset": 3266700,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube assistant right so YouTube",
+    "duration": 4740,
+    "offset": 3271619,
+    "lang": "en"
+  },
+  {
+    "text": "assistant",
+    "duration": 5280,
+    "offset": 3274200,
+    "lang": "en"
+  },
+  {
+    "text": "and now on the sidebar we can have those",
+    "duration": 5460,
+    "offset": 3276359,
+    "lang": "en"
+  },
+  {
+    "text": "parameters that we need from the user",
+    "duration": 5579,
+    "offset": 3279480,
+    "lang": "en"
+  },
+  {
+    "text": "with sidebar I want to create a farm so",
+    "duration": 7221,
+    "offset": 3281819,
+    "lang": "en"
+  },
+  {
+    "text": "we have a submit button at the end so SD",
+    "duration": 7020,
+    "offset": 3285059,
+    "lang": "en"
+  },
+  {
+    "text": "dot form is how you do that",
+    "duration": 6400,
+    "offset": 3289040,
+    "lang": "en"
+  },
+  {
+    "text": "and you also have to specify a key so",
+    "duration": 7081,
+    "offset": 3292079,
+    "lang": "en"
+  },
+  {
+    "text": "key is my form again this is all",
+    "duration": 5580,
+    "offset": 3295440,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit stuff and let me know in the",
+    "duration": 3780,
+    "offset": 3299160,
+    "lang": "en"
+  },
+  {
+    "text": "comments if I should create a course on",
+    "duration": 4140,
+    "offset": 3301020,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit on how to build you know cool",
+    "duration": 4560,
+    "offset": 3302940,
+    "lang": "en"
+  },
+  {
+    "text": "python interfaces I love this tool",
+    "duration": 4220,
+    "offset": 3305160,
+    "lang": "en"
+  },
+  {
+    "text": "because I don't have to care about",
+    "duration": 4619,
+    "offset": 3307500,
+    "lang": "en"
+  },
+  {
+    "text": "building a front end and the first",
+    "duration": 5820,
+    "offset": 3309380,
+    "lang": "en"
+  },
+  {
+    "text": "parameter we had in our length chain",
+    "duration": 6541,
+    "offset": 3312119,
+    "lang": "en"
+  },
+  {
+    "text": "helper was the YouTube url right so",
+    "duration": 6340,
+    "offset": 3315200,
+    "lang": "en"
+  },
+  {
+    "text": "we'll save that as video URL so YouTube",
+    "duration": 4679,
+    "offset": 3318660,
+    "lang": "en"
+  },
+  {
+    "text": "url",
+    "duration": 6000,
+    "offset": 3321540,
+    "lang": "en"
+  },
+  {
+    "text": "is equal to SD dot sidebar text",
+    "duration": 7081,
+    "offset": 3323339,
+    "lang": "en"
+  },
+  {
+    "text": "as we used in the pet's name and we'll",
+    "duration": 7200,
+    "offset": 3327540,
+    "lang": "en"
+  },
+  {
+    "text": "just say that the label is what is the",
+    "duration": 6600,
+    "offset": 3330420,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube video URL and we'll give a Max",
+    "duration": 4680,
+    "offset": 3334740,
+    "lang": "en"
+  },
+  {
+    "text": "to maximum character limit of 50 because",
+    "duration": 5039,
+    "offset": 3337020,
+    "lang": "en"
+  },
+  {
+    "text": "I don't think a video URL can exceed 50",
+    "duration": 5580,
+    "offset": 3339420,
+    "lang": "en"
+  },
+  {
+    "text": "characters uh the other parameter we had",
+    "duration": 4981,
+    "offset": 3342059,
+    "lang": "en"
+  },
+  {
+    "text": "was the question that the user can ask",
+    "duration": 4740,
+    "offset": 3345000,
+    "lang": "en"
+  },
+  {
+    "text": "and we'll save it as query here so St",
+    "duration": 6840,
+    "offset": 3347040,
+    "lang": "en"
+  },
+  {
+    "text": "dot sidebar dot text underscore area",
+    "duration": 7740,
+    "offset": 3349740,
+    "lang": "en"
+  },
+  {
+    "text": "right and then the label will be asked",
+    "duration": 7199,
+    "offset": 3353880,
+    "lang": "en"
+  },
+  {
+    "text": "me about the video so again you can have",
+    "duration": 8339,
+    "offset": 3357480,
+    "lang": "en"
+  },
+  {
+    "text": "a limit here right so maybe you can only",
+    "duration": 7561,
+    "offset": 3361079,
+    "lang": "en"
+  },
+  {
+    "text": "ask questions that are not long enough",
+    "duration": 5661,
+    "offset": 3365819,
+    "lang": "en"
+  },
+  {
+    "text": "so we'll set max characters 50 here too",
+    "duration": 7080,
+    "offset": 3368640,
+    "lang": "en"
+  },
+  {
+    "text": "and also set the key to query here okay",
+    "duration": 7180,
+    "offset": 3371480,
+    "lang": "en"
+  },
+  {
+    "text": "and at the last since I created this as",
+    "duration": 6060,
+    "offset": 3375720,
+    "lang": "en"
+  },
+  {
+    "text": "a form we'll give it a submit button and",
+    "duration": 6720,
+    "offset": 3378660,
+    "lang": "en"
+  },
+  {
+    "text": "the label here will be submit now",
+    "duration": 6360,
+    "offset": 3381780,
+    "lang": "en"
+  },
+  {
+    "text": "so if Kiri which is the question the",
+    "duration": 7320,
+    "offset": 3385380,
+    "lang": "en"
+  },
+  {
+    "text": "user can ask and YouTube url exist right",
+    "duration": 8640,
+    "offset": 3388140,
+    "lang": "en"
+  },
+  {
+    "text": "what I want to do is basically run this",
+    "duration": 7919,
+    "offset": 3392700,
+    "lang": "en"
+  },
+  {
+    "text": "function to give us the answer right so",
+    "duration": 6420,
+    "offset": 3396780,
+    "lang": "en"
+  },
+  {
+    "text": "we'll be as we are already importing the",
+    "duration": 5401,
+    "offset": 3400619,
+    "lang": "en"
+  },
+  {
+    "text": "link chain helper on the top as LS lch",
+    "duration": 6000,
+    "offset": 3403200,
+    "lang": "en"
+  },
+  {
+    "text": "so that's what we'll be using here so DB",
+    "duration": 7140,
+    "offset": 3406020,
+    "lang": "en"
+  },
+  {
+    "text": "which is the database will be equal to",
+    "duration": 6899,
+    "offset": 3409200,
+    "lang": "en"
+  },
+  {
+    "text": "so remember we have to pass the video",
+    "duration": 6120,
+    "offset": 3413160,
+    "lang": "en"
+  },
+  {
+    "text": "URL uh to the create Vector DB function",
+    "duration": 7020,
+    "offset": 3416099,
+    "lang": "en"
+  },
+  {
+    "text": "to create a new Vector database based on",
+    "duration": 6539,
+    "offset": 3419280,
+    "lang": "en"
+  },
+  {
+    "text": "the transcript that we got so DB is",
+    "duration": 5341,
+    "offset": 3423119,
+    "lang": "en"
+  },
+  {
+    "text": "equal to lch which helps which is",
+    "duration": 4561,
+    "offset": 3425819,
+    "lang": "en"
+  },
+  {
+    "text": "basically that we are accessing this",
+    "duration": 4440,
+    "offset": 3428460,
+    "lang": "en"
+  },
+  {
+    "text": "python file and then the create Vector",
+    "duration": 4860,
+    "offset": 3430380,
+    "lang": "en"
+  },
+  {
+    "text": "DB from YouTube url function and we'll",
+    "duration": 4560,
+    "offset": 3432900,
+    "lang": "en"
+  },
+  {
+    "text": "pass the YouTube url",
+    "duration": 4379,
+    "offset": 3435240,
+    "lang": "en"
+  },
+  {
+    "text": "as the parameter because remember we",
+    "duration": 6359,
+    "offset": 3437460,
+    "lang": "en"
+  },
+  {
+    "text": "just need the video URL here response",
+    "duration": 8401,
+    "offset": 3439619,
+    "lang": "en"
+  },
+  {
+    "text": "comma docs is equal to and now we'll get",
+    "duration": 8040,
+    "offset": 3443819,
+    "lang": "en"
+  },
+  {
+    "text": "a response which we can do by running",
+    "duration": 5819,
+    "offset": 3448020,
+    "lang": "en"
+  },
+  {
+    "text": "this function which is get response from",
+    "duration": 4681,
+    "offset": 3451859,
+    "lang": "en"
+  },
+  {
+    "text": "query and remember the parameters that",
+    "duration": 6181,
+    "offset": 3453839,
+    "lang": "en"
+  },
+  {
+    "text": "will be passing so lch dot getresponse",
+    "duration": 6180,
+    "offset": 3456540,
+    "lang": "en"
+  },
+  {
+    "text": "from query the first one is DB which we",
+    "duration": 6780,
+    "offset": 3460020,
+    "lang": "en"
+  },
+  {
+    "text": "just created right and query is the",
+    "duration": 6540,
+    "offset": 3462720,
+    "lang": "en"
+  },
+  {
+    "text": "question that I will be asking so",
+    "duration": 4559,
+    "offset": 3466800,
+    "lang": "en"
+  },
+  {
+    "text": "um right here whatever the user asks",
+    "duration": 4319,
+    "offset": 3469260,
+    "lang": "en"
+  },
+  {
+    "text": "will be the query",
+    "duration": 5101,
+    "offset": 3471359,
+    "lang": "en"
+  },
+  {
+    "text": "so I am missing a comma here as I'm",
+    "duration": 4681,
+    "offset": 3473579,
+    "lang": "en"
+  },
+  {
+    "text": "going through my code so I'll add that",
+    "duration": 6119,
+    "offset": 3476460,
+    "lang": "en"
+  },
+  {
+    "text": "and now we'll save that response in our",
+    "duration": 6960,
+    "offset": 3478260,
+    "lang": "en"
+  },
+  {
+    "text": "interface with streamlit so let me",
+    "duration": 4861,
+    "offset": 3482579,
+    "lang": "en"
+  },
+  {
+    "text": "create a sub header here which will say",
+    "duration": 5280,
+    "offset": 3485220,
+    "lang": "en"
+  },
+  {
+    "text": "answer right and below that we'll have",
+    "duration": 6119,
+    "offset": 3487440,
+    "lang": "en"
+  },
+  {
+    "text": "St dot text",
+    "duration": 5160,
+    "offset": 3490500,
+    "lang": "en"
+  },
+  {
+    "text": "and we'll wrap that text",
+    "duration": 4201,
+    "offset": 3493559,
+    "lang": "en"
+  },
+  {
+    "text": "and this is where the text wrap library",
+    "duration": 4620,
+    "offset": 3495660,
+    "lang": "en"
+  },
+  {
+    "text": "is being used you'll you'll see this in",
+    "duration": 4980,
+    "offset": 3497760,
+    "lang": "en"
+  },
+  {
+    "text": "the interface once I run it so text wrap",
+    "duration": 5220,
+    "offset": 3500280,
+    "lang": "en"
+  },
+  {
+    "text": "dot fill and whatever the response we",
+    "duration": 7339,
+    "offset": 3502740,
+    "lang": "en"
+  },
+  {
+    "text": "get from the length chain function",
+    "duration": 4579,
+    "offset": 3505500,
+    "lang": "en"
+  },
+  {
+    "text": "you can also set the width of this text",
+    "duration": 6660,
+    "offset": 3510240,
+    "lang": "en"
+  },
+  {
+    "text": "area to be 80 let's go with 80 and see",
+    "duration": 5220,
+    "offset": 3512940,
+    "lang": "en"
+  },
+  {
+    "text": "how that looks",
+    "duration": 4140,
+    "offset": 3516900,
+    "lang": "en"
+  },
+  {
+    "text": "and that is basically it so two",
+    "duration": 4679,
+    "offset": 3518160,
+    "lang": "en"
+  },
+  {
+    "text": "parameters for necessary one is the",
+    "duration": 3660,
+    "offset": 3521040,
+    "lang": "en"
+  },
+  {
+    "text": "YouTube video URL and the question that",
+    "duration": 3901,
+    "offset": 3522839,
+    "lang": "en"
+  },
+  {
+    "text": "the user asks right and we are passing",
+    "duration": 5099,
+    "offset": 3524700,
+    "lang": "en"
+  },
+  {
+    "text": "so if the both of those parameters exist",
+    "duration": 5579,
+    "offset": 3526740,
+    "lang": "en"
+  },
+  {
+    "text": "first we are creating the database from",
+    "duration": 4861,
+    "offset": 3529799,
+    "lang": "en"
+  },
+  {
+    "text": "the YouTube video URL and then we're",
+    "duration": 4441,
+    "offset": 3532319,
+    "lang": "en"
+  },
+  {
+    "text": "getting the response based on the",
+    "duration": 5220,
+    "offset": 3534660,
+    "lang": "en"
+  },
+  {
+    "text": "question that the user asked using the",
+    "duration": 5940,
+    "offset": 3536760,
+    "lang": "en"
+  },
+  {
+    "text": "llm so now we can run our streamlit app",
+    "duration": 5100,
+    "offset": 3539880,
+    "lang": "en"
+  },
+  {
+    "text": "after saving the file so if I scroll",
+    "duration": 5060,
+    "offset": 3542700,
+    "lang": "en"
+  },
+  {
+    "text": "down to the bottom here for my terminal",
+    "duration": 6660,
+    "offset": 3544980,
+    "lang": "en"
+  },
+  {
+    "text": "expand this and run stream lit run",
+    "duration": 5980,
+    "offset": 3547760,
+    "lang": "en"
+  },
+  {
+    "text": "main.pi",
+    "duration": 4020,
+    "offset": 3551640,
+    "lang": "en"
+  },
+  {
+    "text": "hit enter",
+    "duration": 5220,
+    "offset": 3553740,
+    "lang": "en"
+  },
+  {
+    "text": "it should load our web interface for our",
+    "duration": 5760,
+    "offset": 3555660,
+    "lang": "en"
+  },
+  {
+    "text": "streamlit app awesome",
+    "duration": 4379,
+    "offset": 3558960,
+    "lang": "en"
+  },
+  {
+    "text": "on the left hand side you can see we",
+    "duration": 5280,
+    "offset": 3561420,
+    "lang": "en"
+  },
+  {
+    "text": "need to provide a YouTube video URL so",
+    "duration": 5881,
+    "offset": 3563339,
+    "lang": "en"
+  },
+  {
+    "text": "I'll just go ahead copy this interview",
+    "duration": 6000,
+    "offset": 3566700,
+    "lang": "en"
+  },
+  {
+    "text": "video URL paste it here",
+    "duration": 8099,
+    "offset": 3569220,
+    "lang": "en"
+  },
+  {
+    "text": "ask me about the video so let's say what",
+    "duration": 9899,
+    "offset": 3572700,
+    "lang": "en"
+  },
+  {
+    "text": "did they talk about rent somewhere is",
+    "duration": 6780,
+    "offset": 3577319,
+    "lang": "en"
+  },
+  {
+    "text": "what I want to know",
+    "duration": 4681,
+    "offset": 3582599,
+    "lang": "en"
+  },
+  {
+    "text": "and hit submit okay so we have got some",
+    "duration": 7260,
+    "offset": 3584099,
+    "lang": "en"
+  },
+  {
+    "text": "errors saying input variables let's go",
+    "duration": 6480,
+    "offset": 3587280,
+    "lang": "en"
+  },
+  {
+    "text": "to our terminal and see if we have any",
+    "duration": 4940,
+    "offset": 3591359,
+    "lang": "en"
+  },
+  {
+    "text": "logging",
+    "duration": 2539,
+    "offset": 3593760,
+    "lang": "en"
+  },
+  {
+    "text": "okay so I found the error I was just",
+    "duration": 6500,
+    "offset": 3596339,
+    "lang": "en"
+  },
+  {
+    "text": "missing S I thought I typed it right",
+    "duration": 6360,
+    "offset": 3599520,
+    "lang": "en"
+  },
+  {
+    "text": "so instead of input variable it needs to",
+    "duration": 7181,
+    "offset": 3602839,
+    "lang": "en"
+  },
+  {
+    "text": "be input variables and we'll Ctrl C to",
+    "duration": 7199,
+    "offset": 3605880,
+    "lang": "en"
+  },
+  {
+    "text": "stop our streamlit app and do streamlit",
+    "duration": 6539,
+    "offset": 3610020,
+    "lang": "en"
+  },
+  {
+    "text": "run run main.pi again so after adding",
+    "duration": 7141,
+    "offset": 3613079,
+    "lang": "en"
+  },
+  {
+    "text": "the S hit enter and now",
+    "duration": 6361,
+    "offset": 3616559,
+    "lang": "en"
+  },
+  {
+    "text": "we need the same exact information so",
+    "duration": 5160,
+    "offset": 3620220,
+    "lang": "en"
+  },
+  {
+    "text": "copy this",
+    "duration": 5520,
+    "offset": 3622920,
+    "lang": "en"
+  },
+  {
+    "text": "and copy the question so the YouTube",
+    "duration": 6000,
+    "offset": 3625380,
+    "lang": "en"
+  },
+  {
+    "text": "video URL and what did they talk about",
+    "duration": 6440,
+    "offset": 3628440,
+    "lang": "en"
+  },
+  {
+    "text": "ransomware hit submit",
+    "duration": 3500,
+    "offset": 3631380,
+    "lang": "en"
+  },
+  {
+    "text": "there we go we got our answer so it says",
+    "duration": 5459,
+    "offset": 3635880,
+    "lang": "en"
+  },
+  {
+    "text": "they discussed how ransomware is",
+    "duration": 4020,
+    "offset": 3639480,
+    "lang": "en"
+  },
+  {
+    "text": "difficult to track due to zero day",
+    "duration": 4381,
+    "offset": 3641339,
+    "lang": "en"
+  },
+  {
+    "text": "exploits and how Microsoft is making it",
+    "duration": 4079,
+    "offset": 3643500,
+    "lang": "en"
+  },
+  {
+    "text": "a mission to help with secure cloud",
+    "duration": 4320,
+    "offset": 3645720,
+    "lang": "en"
+  },
+  {
+    "text": "backup for Enterprises better tracking",
+    "duration": 4441,
+    "offset": 3647579,
+    "lang": "en"
+  },
+  {
+    "text": "of zero day exploits and helping with",
+    "duration": 4079,
+    "offset": 3650040,
+    "lang": "en"
+  },
+  {
+    "text": "enforcements they also discussed the",
+    "duration": 3299,
+    "offset": 3652020,
+    "lang": "en"
+  },
+  {
+    "text": "importance of public-private",
+    "duration": 3000,
+    "offset": 3654119,
+    "lang": "en"
+  },
+  {
+    "text": "Partnerships in order to prioritize",
+    "duration": 4020,
+    "offset": 3655319,
+    "lang": "en"
+  },
+  {
+    "text": "cyber security and create new standards",
+    "duration": 5220,
+    "offset": 3657119,
+    "lang": "en"
+  },
+  {
+    "text": "such as those for nist so",
+    "duration": 5460,
+    "offset": 3659339,
+    "lang": "en"
+  },
+  {
+    "text": "remember our prompt I asked it to be as",
+    "duration": 4621,
+    "offset": 3662339,
+    "lang": "en"
+  },
+  {
+    "text": "detailed as possible also say I don't",
+    "duration": 4560,
+    "offset": 3664799,
+    "lang": "en"
+  },
+  {
+    "text": "know if it doesn't know",
+    "duration": 4139,
+    "offset": 3666960,
+    "lang": "en"
+  },
+  {
+    "text": "what the answer is based on the",
+    "duration": 3960,
+    "offset": 3669359,
+    "lang": "en"
+  },
+  {
+    "text": "transcript we provided and not to",
+    "duration": 4381,
+    "offset": 3671099,
+    "lang": "en"
+  },
+  {
+    "text": "hallucinate so I think this is a pretty",
+    "duration": 3780,
+    "offset": 3673319,
+    "lang": "en"
+  },
+  {
+    "text": "good answer",
+    "duration": 5160,
+    "offset": 3675480,
+    "lang": "en"
+  },
+  {
+    "text": "um that we got out of this 52 minute",
+    "duration": 7020,
+    "offset": 3677099,
+    "lang": "en"
+  },
+  {
+    "text": "video again you can pick a longer video",
+    "duration": 6679,
+    "offset": 3680640,
+    "lang": "en"
+  },
+  {
+    "text": "and ask about anything specifically",
+    "duration": 6841,
+    "offset": 3684119,
+    "lang": "en"
+  },
+  {
+    "text": "longer from podcasts right maybe the",
+    "duration": 5621,
+    "offset": 3687319,
+    "lang": "en"
+  },
+  {
+    "text": "video is four to five hour Longs and you",
+    "duration": 4800,
+    "offset": 3690960,
+    "lang": "en"
+  },
+  {
+    "text": "need to know a specific detail I think",
+    "duration": 5399,
+    "offset": 3692940,
+    "lang": "en"
+  },
+  {
+    "text": "that's where this tool or the app we",
+    "duration": 4859,
+    "offset": 3695760,
+    "lang": "en"
+  },
+  {
+    "text": "build can be really handy",
+    "duration": 6601,
+    "offset": 3698339,
+    "lang": "en"
+  },
+  {
+    "text": "right but yeah so we learned a lot about",
+    "duration": 7500,
+    "offset": 3700619,
+    "lang": "en"
+  },
+  {
+    "text": "Lang chain today specifically the main",
+    "duration": 7740,
+    "offset": 3704940,
+    "lang": "en"
+  },
+  {
+    "text": "three main components which is llm so",
+    "duration": 6480,
+    "offset": 3708119,
+    "lang": "en"
+  },
+  {
+    "text": "any of the large language models that",
+    "duration": 4159,
+    "offset": 3712680,
+    "lang": "en"
+  },
+  {
+    "text": "you can use like open AI or hugging face",
+    "duration": 5161,
+    "offset": 3714599,
+    "lang": "en"
+  },
+  {
+    "text": "prompt templates right",
+    "duration": 6041,
+    "offset": 3716839,
+    "lang": "en"
+  },
+  {
+    "text": "and chains so how you can combine these",
+    "duration": 5400,
+    "offset": 3719760,
+    "lang": "en"
+  },
+  {
+    "text": "components into chains to perform the",
+    "duration": 5219,
+    "offset": 3722880,
+    "lang": "en"
+  },
+  {
+    "text": "required task and agents right remember",
+    "duration": 6060,
+    "offset": 3725160,
+    "lang": "en"
+  },
+  {
+    "text": "in the pets generator we talked a little",
+    "duration": 5220,
+    "offset": 3728099,
+    "lang": "en"
+  },
+  {
+    "text": "bit about agents",
+    "duration": 5339,
+    "offset": 3731220,
+    "lang": "en"
+  },
+  {
+    "text": "and how they have reasoning behind the",
+    "duration": 6240,
+    "offset": 3733319,
+    "lang": "en"
+  },
+  {
+    "text": "tasks that they perform because we try",
+    "duration": 5881,
+    "offset": 3736559,
+    "lang": "en"
+  },
+  {
+    "text": "to calculate average age of a dog and",
+    "duration": 4981,
+    "offset": 3739559,
+    "lang": "en"
+  },
+  {
+    "text": "also multiply it by three so it used",
+    "duration": 5159,
+    "offset": 3742440,
+    "lang": "en"
+  },
+  {
+    "text": "Wikipedia and llm math to get those",
+    "duration": 5940,
+    "offset": 3744540,
+    "lang": "en"
+  },
+  {
+    "text": "answers but also we learned a bit about",
+    "duration": 5760,
+    "offset": 3747599,
+    "lang": "en"
+  },
+  {
+    "text": "indexing and Vector stores so how you",
+    "duration": 4319,
+    "offset": 3750480,
+    "lang": "en"
+  },
+  {
+    "text": "can split large",
+    "duration": 4141,
+    "offset": 3753359,
+    "lang": "en"
+  },
+  {
+    "text": "documents into smaller chunks and store",
+    "duration": 4981,
+    "offset": 3754799,
+    "lang": "en"
+  },
+  {
+    "text": "it as Vector which is basically you know",
+    "duration": 5599,
+    "offset": 3757500,
+    "lang": "en"
+  },
+  {
+    "text": "numerical representation of the",
+    "duration": 6480,
+    "offset": 3759780,
+    "lang": "en"
+  },
+  {
+    "text": "documents that we created and then",
+    "duration": 6220,
+    "offset": 3763099,
+    "lang": "en"
+  },
+  {
+    "text": "passing those on to the llm since there",
+    "duration": 5760,
+    "offset": 3766260,
+    "lang": "en"
+  },
+  {
+    "text": "are certain limits of how much context",
+    "duration": 6841,
+    "offset": 3769319,
+    "lang": "en"
+  },
+  {
+    "text": "you can send to the API but yeah one",
+    "duration": 6599,
+    "offset": 3772020,
+    "lang": "en"
+  },
+  {
+    "text": "other thing I would like to mention is",
+    "duration": 6000,
+    "offset": 3776160,
+    "lang": "en"
+  },
+  {
+    "text": "if you are planning to make these apps",
+    "duration": 5641,
+    "offset": 3778619,
+    "lang": "en"
+  },
+  {
+    "text": "public remember we were storing our",
+    "duration": 4919,
+    "offset": 3782160,
+    "lang": "en"
+  },
+  {
+    "text": "environment variables in dot EnV file",
+    "duration": 5880,
+    "offset": 3784260,
+    "lang": "en"
+  },
+  {
+    "text": "and you might be wondering every ship I",
+    "duration": 6061,
+    "offset": 3787079,
+    "lang": "en"
+  },
+  {
+    "text": "also created an openai API key like how",
+    "duration": 6240,
+    "offset": 3790140,
+    "lang": "en"
+  },
+  {
+    "text": "much all of this is going to cost so",
+    "duration": 5459,
+    "offset": 3793140,
+    "lang": "en"
+  },
+  {
+    "text": "I'll go into my dashboard in into",
+    "duration": 5400,
+    "offset": 3796380,
+    "lang": "en"
+  },
+  {
+    "text": "billing to see how much did it cost me",
+    "duration": 5821,
+    "offset": 3798599,
+    "lang": "en"
+  },
+  {
+    "text": "to you know basically kind of build this",
+    "duration": 4980,
+    "offset": 3801780,
+    "lang": "en"
+  },
+  {
+    "text": "course out so you can see",
+    "duration": 3600,
+    "offset": 3804420,
+    "lang": "en"
+  },
+  {
+    "text": "um",
+    "duration": 7140,
+    "offset": 3806760,
+    "lang": "en"
+  },
+  {
+    "text": "10 cents and 30 cents so very close to",
+    "duration": 8039,
+    "offset": 3808020,
+    "lang": "en"
+  },
+  {
+    "text": "less than a dollar like half of a Dollar",
+    "duration": 5520,
+    "offset": 3813900,
+    "lang": "en"
+  },
+  {
+    "text": "close to 50 cents is what it costed me",
+    "duration": 6181,
+    "offset": 3816059,
+    "lang": "en"
+  },
+  {
+    "text": "to make all of these queries to the",
+    "duration": 5639,
+    "offset": 3819420,
+    "lang": "en"
+  },
+  {
+    "text": "openai llm the thing I was gonna",
+    "duration": 4619,
+    "offset": 3822240,
+    "lang": "en"
+  },
+  {
+    "text": "recommend if you want to publish this",
+    "duration": 4441,
+    "offset": 3825059,
+    "lang": "en"
+  },
+  {
+    "text": "app so that the public can use it",
+    "duration": 7260,
+    "offset": 3826859,
+    "lang": "en"
+  },
+  {
+    "text": "is to have a field here uh you know with",
+    "duration": 7680,
+    "offset": 3829500,
+    "lang": "en"
+  },
+  {
+    "text": "the sidebar saying open AI API key so",
+    "duration": 6781,
+    "offset": 3834119,
+    "lang": "en"
+  },
+  {
+    "text": "that the users have to submit their",
+    "duration": 6780,
+    "offset": 3837180,
+    "lang": "en"
+  },
+  {
+    "text": "openai API key with their app so you can",
+    "duration": 6000,
+    "offset": 3840900,
+    "lang": "en"
+  },
+  {
+    "text": "have a text field here saying hey what",
+    "duration": 5460,
+    "offset": 3843960,
+    "lang": "en"
+  },
+  {
+    "text": "is your open AI API key just so that you",
+    "duration": 4260,
+    "offset": 3846900,
+    "lang": "en"
+  },
+  {
+    "text": "know you are not being charged and you",
+    "duration": 4860,
+    "offset": 3849420,
+    "lang": "en"
+  },
+  {
+    "text": "can make that as a secret field so that",
+    "duration": 4980,
+    "offset": 3851160,
+    "lang": "en"
+  },
+  {
+    "text": "the key is not displayed in the",
+    "duration": 4740,
+    "offset": 3854280,
+    "lang": "en"
+  },
+  {
+    "text": "interface but you can use that key to",
+    "duration": 5760,
+    "offset": 3856140,
+    "lang": "en"
+  },
+  {
+    "text": "make these queries you will just have to",
+    "duration": 6480,
+    "offset": 3859020,
+    "lang": "en"
+  },
+  {
+    "text": "pass it in the Lang chain helper so",
+    "duration": 5640,
+    "offset": 3861900,
+    "lang": "en"
+  },
+  {
+    "text": "whatever the variable name you decide",
+    "duration": 6540,
+    "offset": 3865500,
+    "lang": "en"
+  },
+  {
+    "text": "maybe like open AI API key which you'll",
+    "duration": 6779,
+    "offset": 3867540,
+    "lang": "en"
+  },
+  {
+    "text": "get the value from our streamlit",
+    "duration": 5519,
+    "offset": 3872040,
+    "lang": "en"
+  },
+  {
+    "text": "interface you can pass that right here",
+    "duration": 5821,
+    "offset": 3874319,
+    "lang": "en"
+  },
+  {
+    "text": "when you initiate the large language",
+    "duration": 4500,
+    "offset": 3877559,
+    "lang": "en"
+  },
+  {
+    "text": "model so",
+    "duration": 5520,
+    "offset": 3880140,
+    "lang": "en"
+  },
+  {
+    "text": "you'll specify openai API key as a",
+    "duration": 6721,
+    "offset": 3882059,
+    "lang": "en"
+  },
+  {
+    "text": "parameter here and the value of that key",
+    "duration": 6060,
+    "offset": 3885660,
+    "lang": "en"
+  },
+  {
+    "text": "which will be the variable you decide so",
+    "duration": 5279,
+    "offset": 3888780,
+    "lang": "en"
+  },
+  {
+    "text": "yeah that's pretty much it for this",
+    "duration": 4500,
+    "offset": 3891720,
+    "lang": "en"
+  },
+  {
+    "text": "course again we learned quite a bit",
+    "duration": 4201,
+    "offset": 3894059,
+    "lang": "en"
+  },
+  {
+    "text": "about the langchin framework",
+    "duration": 4680,
+    "offset": 3896220,
+    "lang": "en"
+  },
+  {
+    "text": "specifically in Python uh you know the",
+    "duration": 5700,
+    "offset": 3898260,
+    "lang": "en"
+  },
+  {
+    "text": "models prompts indexes chains and agents",
+    "duration": 5820,
+    "offset": 3900900,
+    "lang": "en"
+  },
+  {
+    "text": "or the five main Concepts within nag",
+    "duration": 5580,
+    "offset": 3903960,
+    "lang": "en"
+  },
+  {
+    "text": "chain that I wanted to cover again I",
+    "duration": 4560,
+    "offset": 3906720,
+    "lang": "en"
+  },
+  {
+    "text": "hope this helps you understand the",
+    "duration": 4500,
+    "offset": 3909540,
+    "lang": "en"
+  },
+  {
+    "text": "framework itself and how you can utilize",
+    "duration": 4980,
+    "offset": 3911280,
+    "lang": "en"
+  },
+  {
+    "text": "this information to build something",
+    "duration": 5519,
+    "offset": 3914040,
+    "lang": "en"
+  },
+  {
+    "text": "really cool with the power of llms but",
+    "duration": 5579,
+    "offset": 3916260,
+    "lang": "en"
+  },
+  {
+    "text": "if you would like to see a streamlit",
+    "duration": 4141,
+    "offset": 3919559,
+    "lang": "en"
+  },
+  {
+    "text": "course again let me know in the comments",
+    "duration": 4321,
+    "offset": 3921839,
+    "lang": "en"
+  },
+  {
+    "text": "but I hope you find this course helpful",
+    "duration": 7200,
+    "offset": 3923700,
+    "lang": "en"
+  },
+  {
+    "text": "I'll see you in the next one peace",
+    "duration": 4740,
+    "offset": 3926160,
+    "lang": "en"
+  }
+]

@@ -1,0 +1,1064 @@
+[
+  {
+    "text": "hello good people and welcome to a",
+    "duration": 6180,
+    "offset": 240,
+    "lang": "en"
+  },
+  {
+    "text": "tutorial series on Lane chain in this",
+    "duration": 4439,
+    "offset": 3360,
+    "lang": "en"
+  },
+  {
+    "text": "introductory video we're going to talk",
+    "duration": 3480,
+    "offset": 6420,
+    "lang": "en"
+  },
+  {
+    "text": "about our goals for this series we're",
+    "duration": 3601,
+    "offset": 7799,
+    "lang": "en"
+  },
+  {
+    "text": "going to talk about what Lane chain is",
+    "duration": 3060,
+    "offset": 9900,
+    "lang": "en"
+  },
+  {
+    "text": "and we're going to talk about why I",
+    "duration": 4380,
+    "offset": 11400,
+    "lang": "en"
+  },
+  {
+    "text": "think it's a crucial investment to uh",
+    "duration": 4980,
+    "offset": 12960,
+    "lang": "en"
+  },
+  {
+    "text": "put energy into learning what Lane chain",
+    "duration": 4499,
+    "offset": 15780,
+    "lang": "en"
+  },
+  {
+    "text": "is and how you can use it now first off",
+    "duration": 4200,
+    "offset": 17940,
+    "lang": "en"
+  },
+  {
+    "text": "how the series is going to work we're",
+    "duration": 3121,
+    "offset": 20279,
+    "lang": "en"
+  },
+  {
+    "text": "going to run through the documentation",
+    "duration": 2940,
+    "offset": 22140,
+    "lang": "en"
+  },
+  {
+    "text": "that they've provided and I'm going to",
+    "duration": 3600,
+    "offset": 23400,
+    "lang": "en"
+  },
+  {
+    "text": "speak over the documentation and provide",
+    "duration": 4320,
+    "offset": 25080,
+    "lang": "en"
+  },
+  {
+    "text": "some real world code samples and extend",
+    "duration": 3660,
+    "offset": 27000,
+    "lang": "en"
+  },
+  {
+    "text": "them just a little bit so you can see",
+    "duration": 3600,
+    "offset": 29400,
+    "lang": "en"
+  },
+  {
+    "text": "some some functionality that you may",
+    "duration": 4079,
+    "offset": 30660,
+    "lang": "en"
+  },
+  {
+    "text": "find applicable in your business or your",
+    "duration": 4260,
+    "offset": 33000,
+    "lang": "en"
+  },
+  {
+    "text": "personal life now how is the series",
+    "duration": 4441,
+    "offset": 34739,
+    "lang": "en"
+  },
+  {
+    "text": "going to be going well it's mostly going",
+    "duration": 3660,
+    "offset": 37260,
+    "lang": "en"
+  },
+  {
+    "text": "to be around short tutorial videos",
+    "duration": 5580,
+    "offset": 39180,
+    "lang": "en"
+  },
+  {
+    "text": "however make it crazy and go say roaring",
+    "duration": 5639,
+    "offset": 40920,
+    "lang": "en"
+  },
+  {
+    "text": "kitty style and do some three hour",
+    "duration": 4020,
+    "offset": 44760,
+    "lang": "en"
+  },
+  {
+    "text": "videos but we will see",
+    "duration": 5701,
+    "offset": 46559,
+    "lang": "en"
+  },
+  {
+    "text": "now why is Lang chain important and what",
+    "duration": 5759,
+    "offset": 48780,
+    "lang": "en"
+  },
+  {
+    "text": "is it well first before I go and explain",
+    "duration": 3720,
+    "offset": 52260,
+    "lang": "en"
+  },
+  {
+    "text": "that I want to kind of set up what the",
+    "duration": 3241,
+    "offset": 54539,
+    "lang": "en"
+  },
+  {
+    "text": "problem is now what we're looking at",
+    "duration": 4380,
+    "offset": 55980,
+    "lang": "en"
+  },
+  {
+    "text": "here is we're looking at chat GPT and",
+    "duration": 4020,
+    "offset": 57780,
+    "lang": "en"
+  },
+  {
+    "text": "this is something that we all know and",
+    "duration": 3420,
+    "offset": 60360,
+    "lang": "en"
+  },
+  {
+    "text": "I'm going to first ask chat GPT what is",
+    "duration": 4980,
+    "offset": 61800,
+    "lang": "en"
+  },
+  {
+    "text": "LinkedIn uh what is lynching and we'll",
+    "duration": 4620,
+    "offset": 63780,
+    "lang": "en"
+  },
+  {
+    "text": "see what it says for us",
+    "duration": 3900,
+    "offset": 66780,
+    "lang": "en"
+  },
+  {
+    "text": "and says oh shoot I'm sorry but I'm not",
+    "duration": 4320,
+    "offset": 68400,
+    "lang": "en"
+  },
+  {
+    "text": "familiar with the term Lang chain now",
+    "duration": 4560,
+    "offset": 70680,
+    "lang": "en"
+  },
+  {
+    "text": "why could this be well it's because Lang",
+    "duration": 5219,
+    "offset": 72720,
+    "lang": "en"
+  },
+  {
+    "text": "chain is a more recent library that just",
+    "duration": 5100,
+    "offset": 75240,
+    "lang": "en"
+  },
+  {
+    "text": "came out I think I was just looking at",
+    "duration": 4381,
+    "offset": 77939,
+    "lang": "en"
+  },
+  {
+    "text": "uh or Harrison was speaking and he said",
+    "duration": 4380,
+    "offset": 80340,
+    "lang": "en"
+  },
+  {
+    "text": "he went full time on it three weeks ago",
+    "duration": 4140,
+    "offset": 82320,
+    "lang": "en"
+  },
+  {
+    "text": "so this is something like in January of",
+    "duration": 4020,
+    "offset": 84720,
+    "lang": "en"
+  },
+  {
+    "text": "23 he went full time on it that is one",
+    "duration": 4140,
+    "offset": 86460,
+    "lang": "en"
+  },
+  {
+    "text": "of the creators of line chain now this",
+    "duration": 5100,
+    "offset": 88740,
+    "lang": "en"
+  },
+  {
+    "text": "is new and chat gbt has not been trained",
+    "duration": 6600,
+    "offset": 90600,
+    "lang": "en"
+  },
+  {
+    "text": "on data more recent than I think 2021.",
+    "duration": 5459,
+    "offset": 93840,
+    "lang": "en"
+  },
+  {
+    "text": "now open AI is definitely going to get",
+    "duration": 3419,
+    "offset": 97200,
+    "lang": "en"
+  },
+  {
+    "text": "there eventually but they haven't done",
+    "duration": 2460,
+    "offset": 99299,
+    "lang": "en"
+  },
+  {
+    "text": "it yet so that's problem number one",
+    "duration": 4441,
+    "offset": 100619,
+    "lang": "en"
+  },
+  {
+    "text": "problem number two is how many Google",
+    "duration": 7021,
+    "offset": 101759,
+    "lang": "en"
+  },
+  {
+    "text": "Docs did I write last year now if I were",
+    "duration": 5699,
+    "offset": 105060,
+    "lang": "en"
+  },
+  {
+    "text": "to ask Chad DBT how many Google Docs did",
+    "duration": 3960,
+    "offset": 108780,
+    "lang": "en"
+  },
+  {
+    "text": "I write last year let's see what it says",
+    "duration": 4021,
+    "offset": 110759,
+    "lang": "en"
+  },
+  {
+    "text": "let's give it a second",
+    "duration": 5220,
+    "offset": 112740,
+    "lang": "en"
+  },
+  {
+    "text": "it's going a little bit slow",
+    "duration": 4680,
+    "offset": 114780,
+    "lang": "en"
+  },
+  {
+    "text": "I'm gonna pause it here just until it",
+    "duration": 2900,
+    "offset": 117960,
+    "lang": "en"
+  },
+  {
+    "text": "comes back for us",
+    "duration": 4080,
+    "offset": 119460,
+    "lang": "en"
+  },
+  {
+    "text": "and there it goes so it says I'm sorry",
+    "duration": 4840,
+    "offset": 120860,
+    "lang": "en"
+  },
+  {
+    "text": "but as an AI model I do not have access",
+    "duration": 4320,
+    "offset": 123540,
+    "lang": "en"
+  },
+  {
+    "text": "to your personal information which makes",
+    "duration": 5039,
+    "offset": 125700,
+    "lang": "en"
+  },
+  {
+    "text": "complete sense because I'm not linked my",
+    "duration": 4800,
+    "offset": 127860,
+    "lang": "en"
+  },
+  {
+    "text": "Google Drive to it and it has no",
+    "duration": 5881,
+    "offset": 130739,
+    "lang": "en"
+  },
+  {
+    "text": "understanding about who I am well not in",
+    "duration": 6540,
+    "offset": 132660,
+    "lang": "en"
+  },
+  {
+    "text": "the explicit sense and it can't do that",
+    "duration": 5400,
+    "offset": 136620,
+    "lang": "en"
+  },
+  {
+    "text": "for me so what's really cool is that",
+    "duration": 4740,
+    "offset": 139200,
+    "lang": "en"
+  },
+  {
+    "text": "that is where Lane chain likes to play",
+    "duration": 4079,
+    "offset": 142020,
+    "lang": "en"
+  },
+  {
+    "text": "now if I were to represent this in a",
+    "duration": 3360,
+    "offset": 143940,
+    "lang": "en"
+  },
+  {
+    "text": "different way rather than just questions",
+    "duration": 3901,
+    "offset": 146099,
+    "lang": "en"
+  },
+  {
+    "text": "what we're doing here is I'm this cool",
+    "duration": 4620,
+    "offset": 147300,
+    "lang": "en"
+  },
+  {
+    "text": "person with the sunglasses and I'm",
+    "duration": 5459,
+    "offset": 150000,
+    "lang": "en"
+  },
+  {
+    "text": "accessing the open AI AP uh uh the",
+    "duration": 5640,
+    "offset": 151920,
+    "lang": "en"
+  },
+  {
+    "text": "artificial intelligence models",
+    "duration": 3721,
+    "offset": 155459,
+    "lang": "en"
+  },
+  {
+    "text": "I just did it through my browser which",
+    "duration": 3240,
+    "offset": 157560,
+    "lang": "en"
+  },
+  {
+    "text": "is over here on the left but you could",
+    "duration": 3360,
+    "offset": 159180,
+    "lang": "en"
+  },
+  {
+    "text": "also do this through the API and they",
+    "duration": 3060,
+    "offset": 160800,
+    "lang": "en"
+  },
+  {
+    "text": "have an API that you can go in and",
+    "duration": 2760,
+    "offset": 162540,
+    "lang": "en"
+  },
+  {
+    "text": "there's plenty of tutorials about how to",
+    "duration": 4500,
+    "offset": 163860,
+    "lang": "en"
+  },
+  {
+    "text": "use that which is cool however it's not",
+    "duration": 4920,
+    "offset": 165300,
+    "lang": "en"
+  },
+  {
+    "text": "connected to my outside information and",
+    "duration": 3180,
+    "offset": 168360,
+    "lang": "en"
+  },
+  {
+    "text": "this is where Lang chain starts to come",
+    "duration": 3180,
+    "offset": 170220,
+    "lang": "en"
+  },
+  {
+    "text": "in let me move my",
+    "duration": 4380,
+    "offset": 171540,
+    "lang": "en"
+  },
+  {
+    "text": "little guy over here this is where Lane",
+    "duration": 4800,
+    "offset": 173400,
+    "lang": "en"
+  },
+  {
+    "text": "chain starts to come in so if I put",
+    "duration": 3860,
+    "offset": 175920,
+    "lang": "en"
+  },
+  {
+    "text": "myself right in the middle there",
+    "duration": 4259,
+    "offset": 178200,
+    "lang": "en"
+  },
+  {
+    "text": "what Lang chain does is it's going to",
+    "duration": 4780,
+    "offset": 179780,
+    "lang": "en"
+  },
+  {
+    "text": "connect your AI models that you want to",
+    "duration": 3721,
+    "offset": 182459,
+    "lang": "en"
+  },
+  {
+    "text": "use whether it's open AI or something on",
+    "duration": 4380,
+    "offset": 184560,
+    "lang": "en"
+  },
+  {
+    "text": "hugging face and it's going to connect",
+    "duration": 5040,
+    "offset": 186180,
+    "lang": "en"
+  },
+  {
+    "text": "to outside sources",
+    "duration": 3840,
+    "offset": 188940,
+    "lang": "en"
+  },
+  {
+    "text": "and it's going to do some really cool",
+    "duration": 3840,
+    "offset": 191220,
+    "lang": "en"
+  },
+  {
+    "text": "things without those outside sources so",
+    "duration": 3840,
+    "offset": 192780,
+    "lang": "en"
+  },
+  {
+    "text": "all of a sudden you can start to chain",
+    "duration": 3840,
+    "offset": 195060,
+    "lang": "en"
+  },
+  {
+    "text": "together commands which is the chain in",
+    "duration": 4560,
+    "offset": 196620,
+    "lang": "en"
+  },
+  {
+    "text": "link chain and you can say hey what is",
+    "duration": 4440,
+    "offset": 198900,
+    "lang": "en"
+  },
+  {
+    "text": "the weather today to open Ai and it is",
+    "duration": 3240,
+    "offset": 201180,
+    "lang": "en"
+  },
+  {
+    "text": "going to come back and those language",
+    "duration": 3000,
+    "offset": 203340,
+    "lang": "en"
+  },
+  {
+    "text": "models are going to understand what are",
+    "duration": 3899,
+    "offset": 204420,
+    "lang": "en"
+  },
+  {
+    "text": "the series of questions that it needs to",
+    "duration": 3780,
+    "offset": 206340,
+    "lang": "en"
+  },
+  {
+    "text": "do to understand how to get the",
+    "duration": 4200,
+    "offset": 208319,
+    "lang": "en"
+  },
+  {
+    "text": "information that you want now the",
+    "duration": 4560,
+    "offset": 210120,
+    "lang": "en"
+  },
+  {
+    "text": "applications of this are almost endless",
+    "duration": 3961,
+    "offset": 212519,
+    "lang": "en"
+  },
+  {
+    "text": "and they're building even more",
+    "duration": 3540,
+    "offset": 214680,
+    "lang": "en"
+  },
+  {
+    "text": "Integrations every single day if you",
+    "duration": 3360,
+    "offset": 216480,
+    "lang": "en"
+  },
+  {
+    "text": "follow them on Twitter or there are",
+    "duration": 3659,
+    "offset": 218220,
+    "lang": "en"
+  },
+  {
+    "text": "GitHub chains log you can see some",
+    "duration": 3420,
+    "offset": 219840,
+    "lang": "en"
+  },
+  {
+    "text": "really cool things that they're putting",
+    "duration": 3780,
+    "offset": 221879,
+    "lang": "en"
+  },
+  {
+    "text": "out so I think that this is an amazing",
+    "duration": 5039,
+    "offset": 223260,
+    "lang": "en"
+  },
+  {
+    "text": "place to start to learn because by",
+    "duration": 4201,
+    "offset": 225659,
+    "lang": "en"
+  },
+  {
+    "text": "learning this or by choosing to learn",
+    "duration": 4020,
+    "offset": 228299,
+    "lang": "en"
+  },
+  {
+    "text": "this you're betting that open Ai and",
+    "duration": 4320,
+    "offset": 229860,
+    "lang": "en"
+  },
+  {
+    "text": "hugging face are not going to build",
+    "duration": 4681,
+    "offset": 232319,
+    "lang": "en"
+  },
+  {
+    "text": "direct Integrations to the tools that",
+    "duration": 4440,
+    "offset": 234180,
+    "lang": "en"
+  },
+  {
+    "text": "you use every day",
+    "duration": 6599,
+    "offset": 237000,
+    "lang": "en"
+  },
+  {
+    "text": "now in my opinion open III open AI wants",
+    "duration": 8160,
+    "offset": 238620,
+    "lang": "en"
+  },
+  {
+    "text": "to remain on the API at the very bottom",
+    "duration": 5461,
+    "offset": 243599,
+    "lang": "en"
+  },
+  {
+    "text": "layer and just be an API for certain",
+    "duration": 4620,
+    "offset": 246780,
+    "lang": "en"
+  },
+  {
+    "text": "machine learning models they do not want",
+    "duration": 4140,
+    "offset": 249060,
+    "lang": "en"
+  },
+  {
+    "text": "to build direct Integrations into Google",
+    "duration": 4259,
+    "offset": 251400,
+    "lang": "en"
+  },
+  {
+    "text": "into notion into wolfen Alpha they want",
+    "duration": 5279,
+    "offset": 253200,
+    "lang": "en"
+  },
+  {
+    "text": "the community to do that so by Learning",
+    "duration": 6601,
+    "offset": 255659,
+    "lang": "en"
+  },
+  {
+    "text": "Land chain you're taking the bet that",
+    "duration": 5401,
+    "offset": 258479,
+    "lang": "en"
+  },
+  {
+    "text": "there's going to be a separation and",
+    "duration": 3480,
+    "offset": 262260,
+    "lang": "en"
+  },
+  {
+    "text": "different abstraction layers and this is",
+    "duration": 3240,
+    "offset": 263880,
+    "lang": "en"
+  },
+  {
+    "text": "the piece that is going to connect those",
+    "duration": 3780,
+    "offset": 265740,
+    "lang": "en"
+  },
+  {
+    "text": "different layers now is Lang chain going",
+    "duration": 3960,
+    "offset": 267120,
+    "lang": "en"
+  },
+  {
+    "text": "to be the library that wins it all and",
+    "duration": 4200,
+    "offset": 269520,
+    "lang": "en"
+  },
+  {
+    "text": "going to be very ubiquitous who knows I",
+    "duration": 4860,
+    "offset": 271080,
+    "lang": "en"
+  },
+  {
+    "text": "don't know but I guarantee that by",
+    "duration": 3840,
+    "offset": 273720,
+    "lang": "en"
+  },
+  {
+    "text": "learning the functionality in this",
+    "duration": 3780,
+    "offset": 275940,
+    "lang": "en"
+  },
+  {
+    "text": "Library whichever one does come around",
+    "duration": 4680,
+    "offset": 277560,
+    "lang": "en"
+  },
+  {
+    "text": "you're going to find extremely valuable",
+    "duration": 5100,
+    "offset": 279720,
+    "lang": "en"
+  },
+  {
+    "text": "now that's Lang chain and I encourage",
+    "duration": 4019,
+    "offset": 282240,
+    "lang": "en"
+  },
+  {
+    "text": "you to go check out their documentation",
+    "duration": 3840,
+    "offset": 284820,
+    "lang": "en"
+  },
+  {
+    "text": "now in fact what we're going to do in a",
+    "duration": 3901,
+    "offset": 286259,
+    "lang": "en"
+  },
+  {
+    "text": "lot of this tutorial series let me just",
+    "duration": 3539,
+    "offset": 288660,
+    "lang": "en"
+  },
+  {
+    "text": "make this a little smaller what we're",
+    "duration": 3539,
+    "offset": 290160,
+    "lang": "en"
+  },
+  {
+    "text": "going to do in this tutorial series is",
+    "duration": 2581,
+    "offset": 292199,
+    "lang": "en"
+  },
+  {
+    "text": "we're going to run through their",
+    "duration": 2701,
+    "offset": 293699,
+    "lang": "en"
+  },
+  {
+    "text": "documentation and I'm going to start to",
+    "duration": 3840,
+    "offset": 294780,
+    "lang": "en"
+  },
+  {
+    "text": "explain what you can do with it they",
+    "duration": 4079,
+    "offset": 296400,
+    "lang": "en"
+  },
+  {
+    "text": "have a lot of cool modules and they have",
+    "duration": 4380,
+    "offset": 298620,
+    "lang": "en"
+  },
+  {
+    "text": "a lot of cool use cases like starting to",
+    "duration": 4141,
+    "offset": 300479,
+    "lang": "en"
+  },
+  {
+    "text": "create agents that can do things off",
+    "duration": 3720,
+    "offset": 303000,
+    "lang": "en"
+  },
+  {
+    "text": "your on your behalf how to create chat",
+    "duration": 4139,
+    "offset": 304620,
+    "lang": "en"
+  },
+  {
+    "text": "Bots how to do some generations and",
+    "duration": 4080,
+    "offset": 306720,
+    "lang": "en"
+  },
+  {
+    "text": "question answering summarization we're",
+    "duration": 3681,
+    "offset": 308759,
+    "lang": "en"
+  },
+  {
+    "text": "going to do some really cool stuff here",
+    "duration": 5399,
+    "offset": 310800,
+    "lang": "en"
+  },
+  {
+    "text": "evaluation and etc etc now as more",
+    "duration": 5259,
+    "offset": 312440,
+    "lang": "en"
+  },
+  {
+    "text": "documentation comes out we'll do more",
+    "duration": 3961,
+    "offset": 316199,
+    "lang": "en"
+  },
+  {
+    "text": "videos but this is just a quick overview",
+    "duration": 4261,
+    "offset": 317699,
+    "lang": "en"
+  },
+  {
+    "text": "about how this is going to run I",
+    "duration": 3240,
+    "offset": 320160,
+    "lang": "en"
+  },
+  {
+    "text": "encourage you to subscribe to this",
+    "duration": 3000,
+    "offset": 321960,
+    "lang": "en"
+  },
+  {
+    "text": "channel to see when other videos come",
+    "duration": 3420,
+    "offset": 323400,
+    "lang": "en"
+  },
+  {
+    "text": "out or if you want to get them via email",
+    "duration": 5400,
+    "offset": 324960,
+    "lang": "en"
+  },
+  {
+    "text": "go to data independent.com which this",
+    "duration": 5219,
+    "offset": 326820,
+    "lang": "en"
+  },
+  {
+    "text": "channel is associated with and you can",
+    "duration": 3779,
+    "offset": 330360,
+    "lang": "en"
+  },
+  {
+    "text": "sign up for the email uh newsletter not",
+    "duration": 3660,
+    "offset": 332039,
+    "lang": "en"
+  },
+  {
+    "text": "a newsletter but just get updated when",
+    "duration": 4081,
+    "offset": 334139,
+    "lang": "en"
+  },
+  {
+    "text": "new videos come out there now I hope",
+    "duration": 4500,
+    "offset": 335699,
+    "lang": "en"
+  },
+  {
+    "text": "that you're having fun I hope you're",
+    "duration": 3360,
+    "offset": 338220,
+    "lang": "en"
+  },
+  {
+    "text": "going to enjoy this with me because I'm",
+    "duration": 3361,
+    "offset": 340199,
+    "lang": "en"
+  },
+  {
+    "text": "really excited to learn this alongside",
+    "duration": 4040,
+    "offset": 341580,
+    "lang": "en"
+  },
+  {
+    "text": "of you and build some really cool things",
+    "duration": 5220,
+    "offset": 343560,
+    "lang": "en"
+  },
+  {
+    "text": "the last thing that I will say is my",
+    "duration": 6940,
+    "offset": 345620,
+    "lang": "en"
+  },
+  {
+    "text": "emphasis as a instructor is always about",
+    "duration": 6120,
+    "offset": 348780,
+    "lang": "en"
+  },
+  {
+    "text": "real world applications I don't really",
+    "duration": 4260,
+    "offset": 352560,
+    "lang": "en"
+  },
+  {
+    "text": "care about Theory I'm not a hardcore",
+    "duration": 3780,
+    "offset": 354900,
+    "lang": "en"
+  },
+  {
+    "text": "machine learning stats person who's",
+    "duration": 3840,
+    "offset": 356820,
+    "lang": "en"
+  },
+  {
+    "text": "going to show you some academic papers I",
+    "duration": 4079,
+    "offset": 358680,
+    "lang": "en"
+  },
+  {
+    "text": "really care about having you make impact",
+    "duration": 4500,
+    "offset": 360660,
+    "lang": "en"
+  },
+  {
+    "text": "in the B2B environment or in your",
+    "duration": 4081,
+    "offset": 362759,
+    "lang": "en"
+  },
+  {
+    "text": "personal life because I believe that",
+    "duration": 4620,
+    "offset": 365160,
+    "lang": "en"
+  },
+  {
+    "text": "these tools can leverage up the amount",
+    "duration": 5040,
+    "offset": 366840,
+    "lang": "en"
+  },
+  {
+    "text": "of impact that we can have so that one",
+    "duration": 4380,
+    "offset": 369780,
+    "lang": "en"
+  },
+  {
+    "text": "person or a small team of people can",
+    "duration": 4920,
+    "offset": 371880,
+    "lang": "en"
+  },
+  {
+    "text": "create a lot more good in the world and",
+    "duration": 5220,
+    "offset": 374160,
+    "lang": "en"
+  },
+  {
+    "text": "impact on the world so I'll wrap up with",
+    "duration": 4080,
+    "offset": 376800,
+    "lang": "en"
+  },
+  {
+    "text": "that very excited to learn with you",
+    "duration": 4819,
+    "offset": 379380,
+    "lang": "en"
+  },
+  {
+    "text": "let's have some fun",
+    "duration": 3319,
+    "offset": 380880,
+    "lang": "en"
+  }
+]
