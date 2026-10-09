@@ -1,14 +1,40 @@
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 import { pipeline } from '@xenova/transformers';
 import MiniSearch from 'minisearch';
 
 const EXTRACTED_PAGES_FILE = 'data/extracted_pages.json';
+const GUIDE_DATA_FILE = 'src/data/guideData.json';
 const TRANSCRIPTS_DIR = 'data/transcripts';
 const PUBLIC_RAG_DIR = 'public/rag-index';
+const INGEST_CACHE_FILE = 'data/ingest_cache.json';
+const INGEST_REPORT_FILE = 'data/ingest_report.json';
 
 if (!fs.existsSync(PUBLIC_RAG_DIR)) {
   fs.mkdirSync(PUBLIC_RAG_DIR, { recursive: true });
+}
+
+function sha256(str) {
+  return crypto.createHash('sha256').update(str).digest('hex').slice(0, 16);
+}
+
+// Clean ligatures, repeated headers/footers, and PDF control chars
+function cleanPdfText(text) {
+  if (!text) return '';
+  return text
+    .replace(/\x0c/g, '\n')
+    .replace(/ﬁ/g, 'fi')
+    .replace(/ﬂ/g, 'fl')
+    .replace(/’/g, "'")
+    .replace(/“/g, '"')
+    .replace(/”/g, '"')
+    .replace(/–/g, '-')
+    .replace(/—/g, ' - ')
+    .replace(/AIoT Master Guide\s*\|\s*Page \d+/gi, '')
+    .replace(/Page \d+ of \d+/gi, '')
+    .replace(/[ \t]+/g, ' ')
+    .trim();
 }
 
 const VIDEO_META_MAP = {
@@ -80,11 +106,10 @@ function getPageContext(page) {
   if (page >= 79 && page <= 81) return { chapter: 'Appendix K: JLPT N4 Grammar Reference', projectId: 'sunday-3' };
   if (page >= 82 && page <= 83) return { chapter: 'Appendix L: Google Summer of Code (GSoC) Strategy', projectId: null };
   if (page >= 84 && page <= 86) return { chapter: 'Appendix M: Vizag Startup Planning Guide', projectId: null };
-  
-  // Volume 2
+
   if (page >= 88 && page <= 95) return { chapter: 'Volume 2 Section 1: Future AI & Demand Roadmap', projectId: null };
   if (page >= 96 && page <= 103) return { chapter: 'Volume 2 Section 2: AI Tools Guide', projectId: null };
-  
+
   // Section 2: 10 Projects
   if (page >= 104 && page <= 106) return { chapter: 'Project 1: Smart Temperature Monitor', projectId: 'hw-1' };
   if (page >= 107 && page <= 109) return { chapter: 'Project 2: MQTT Sensor Dashboard', projectId: 'hw-2' };
@@ -105,39 +130,68 @@ function getPageContext(page) {
   return { chapter: 'AIoT Master Guide', projectId: null };
 }
 
-// Semantic text chunker (~450 tokens ~1800 chars, overlap ~60 tokens ~240 chars)
-export function chunkText(text, maxChars = 1600, overlapChars = 240) {
-  const paragraphs = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
-  const chunks = [];
-  let currentChunk = '';
+// Structure-aware section splitter that preserves code blocks intact
+function splitIntoParagraphsRespectingCode(text) {
+  const lines = text.split('\n');
+  const blocks = [];
+  let currentBlock = [];
+  let inCode = false;
 
-  for (const para of paragraphs) {
-    if (currentChunk.length + para.length > maxChars && currentChunk.length > 0) {
-      chunks.push(currentChunk.trim());
-      // overlap
-      const overlap = currentChunk.length > overlapChars ? currentChunk.slice(-overlapChars) : currentChunk;
-      currentChunk = overlap.trim() + '\n\n' + para;
-    } else {
-      currentChunk = currentChunk ? currentChunk + '\n\n' + para : para;
+  for (const line of lines) {
+    if (line.trim().startsWith('```')) {
+      inCode = !inCode;
+      currentBlock.push(line);
+      continue;
+    }
+
+    if (inCode) {
+      currentBlock.push(line);
+      continue;
+    }
+
+    if (line.trim() === '' && currentBlock.length > 0) {
+      blocks.push(currentBlock.join('\n'));
+      currentBlock = [];
+    } else if (line.trim() !== '') {
+      currentBlock.push(line);
     }
   }
 
-  if (currentChunk.trim().length > 0) {
-    chunks.push(currentChunk.trim());
+  if (currentBlock.length > 0) {
+    blocks.push(currentBlock.join('\n'));
   }
 
-  return chunks;
+  return blocks;
 }
 
-// Video transcript chunker (~60s windows, adaptive for long videos)
+// Child chunker for parent text (~400 chars each for high precision search)
+function createChildChunks(parentText, parentId, maxChars = 450) {
+  const blocks = splitIntoParagraphsRespectingCode(parentText);
+  const childChunks = [];
+  let current = '';
+
+  for (const block of blocks) {
+    if (current.length + block.length > maxChars && current.length > 0) {
+      childChunks.push(current.trim());
+      current = block;
+    } else {
+      current = current ? current + '\n\n' + block : block;
+    }
+  }
+
+  if (current.trim().length > 0) {
+    childChunks.push(current.trim());
+  }
+
+  return childChunks.length > 0 ? childChunks : [parentText.slice(0, maxChars)];
+}
+
+// Video transcript chunker (~60s windows)
 export function chunkTranscript(segments, windowSeconds = 60, maxChunksPerVideo = 16) {
   if (!segments || segments.length === 0) return [];
 
-  // Calculate total duration
   const lastSeg = segments[segments.length - 1];
   const totalDuration = (lastSeg.offset || lastSeg.start || 0) + (lastSeg.duration || 0);
-
-  // If video is very long (e.g. 5-20 hours course), space windows across chapters/sections
   const stepInterval = Math.max(windowSeconds, Math.floor(totalDuration / maxChunksPerVideo));
 
   const chunks = [];
@@ -148,7 +202,7 @@ export function chunkTranscript(segments, windowSeconds = 60, maxChunksPerVideo 
 
   for (const seg of segments) {
     const offset = seg.offset || seg.start || 0;
-    const text = seg.text.replace(/&amp;/g, '&').replace(/&#39;/g, "'").trim();
+    const text = seg.text.replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/[ \t]+/g, ' ').trim();
     if (!text) continue;
 
     if (offset >= targetNextOffset) {
@@ -157,7 +211,6 @@ export function chunkTranscript(segments, windowSeconds = 60, maxChunksPerVideo 
       }
       currentText.push(text);
 
-      // Collect 60s of text from this interval
       if (offset - windowStart >= 60 || currentText.join(' ').length >= 600) {
         chunks.push({
           start: Math.floor(windowStart),
@@ -191,45 +244,163 @@ function formatTimestamp(seconds) {
 }
 
 async function runIngestion() {
-  console.log("=== AIoT Master Guide Ingestion Engine ===");
+  console.log("=== Upgraded Structure-Aware Ingestion Pipeline ===");
 
   const allChunks = [];
-  let chunkId = 1;
+  let chunkCount = 1;
+  const sectionCounts = { hardware: 0, wiring: 0, steps: 0, code: 0, video: 0, general: 0 };
 
-  // 1. Process Extracted Pages
+  // 1. Ingest Structured Hardware Projects from guideData.json
+  if (fs.existsSync(GUIDE_DATA_FILE)) {
+    console.log(`Loading structured projects from ${GUIDE_DATA_FILE}...`);
+    const guideData = JSON.parse(fs.readFileSync(GUIDE_DATA_FILE, 'utf-8'));
+    const hwProjects = guideData.hardwareProjects || [];
+
+    for (const proj of hwProjects) {
+      const pId = proj.id;
+      const pTitle = proj.title;
+
+      // 1a. Hardware / BOM section
+      if (proj.hardware && proj.hardware.length > 0) {
+        const parentId = `parent-${pId}-hardware`;
+        const parentText = `Hardware Requirements for ${pTitle}:\n` + proj.hardware.map(h => `- ${h}`).join('\n') +
+          (proj.software ? '\n\nSoftware Packages:\n' + proj.software.map(s => `- ${s}`).join('\n') : '');
+        
+        allChunks.push({
+          id: `chunk-${chunkCount++}`,
+          parentId,
+          source: 'AIoT_Master_Guide_FINAL_v2.pdf',
+          type: 'pdf',
+          chapter: pTitle,
+          projectId: pId,
+          section: 'hardware',
+          page: proj.startPage,
+          title: `${pTitle} — Hardware & BOM`,
+          text: parentText,
+          parentText,
+          contentHash: sha256(parentText)
+        });
+        sectionCounts.hardware++;
+      }
+
+      // 1b. Wiring & Pinout section
+      if (proj.wiring) {
+        const parentId = `parent-${pId}-wiring`;
+        const parentText = `Wiring Connections and Pinouts for ${pTitle}:\n${proj.wiring}`;
+        
+        allChunks.push({
+          id: `chunk-${chunkCount++}`,
+          parentId,
+          source: 'AIoT_Master_Guide_FINAL_v2.pdf',
+          type: 'pdf',
+          chapter: pTitle,
+          projectId: pId,
+          section: 'wiring',
+          page: proj.startPage,
+          title: `${pTitle} — Wiring & Pinouts`,
+          text: parentText,
+          parentText,
+          contentHash: sha256(parentText)
+        });
+        sectionCounts.wiring++;
+      }
+
+      // 1c. Steps Implementation section
+      if (proj.steps && proj.steps.length > 0) {
+        const parentId = `parent-${pId}-steps`;
+        const parentText = `Implementation Steps for ${pTitle}:\n` + proj.steps.join('\n\n');
+        const children = createChildChunks(parentText, parentId, 450);
+
+        for (let idx = 0; idx < children.length; idx++) {
+          const childText = children[idx];
+          allChunks.push({
+            id: `chunk-${chunkCount++}`,
+            parentId,
+            source: 'AIoT_Master_Guide_FINAL_v2.pdf',
+            type: 'pdf',
+            chapter: pTitle,
+            projectId: pId,
+            section: 'steps',
+            page: proj.startPage + 1,
+            title: `${pTitle} — Steps (Part ${idx + 1})`,
+            text: childText,
+            parentText,
+            contentHash: sha256(childText)
+          });
+          sectionCounts.steps++;
+        }
+      }
+
+      // 1d. Code section (NEVER SPLIT full code, index semantic child)
+      if (proj.code) {
+        const parentId = `parent-${pId}-code`;
+        const parentText = `Production Code for ${pTitle}:\n\`\`\`python\n${proj.code}\n\`\`\``;
+        // Search child captures code comments, function names, and imports
+        const codeSummary = `Python code implementation for ${pTitle}. Includes setup, imports, hardware reads, and exception handling:\n` +
+          proj.code.split('\n').filter(l => l.startsWith('#') || l.startsWith('def ') || l.startsWith('import ') || l.startsWith('from ')).slice(0, 15).join('\n');
+        
+        allChunks.push({
+          id: `chunk-${chunkCount++}`,
+          parentId,
+          source: 'AIoT_Master_Guide_FINAL_v2.pdf',
+          type: 'pdf',
+          chapter: pTitle,
+          projectId: pId,
+          section: 'code',
+          page: proj.startPage + 2,
+          title: `${pTitle} — Core Python Code`,
+          text: codeSummary,
+          parentText,
+          contentHash: sha256(parentText)
+        });
+        sectionCounts.code++;
+      }
+    }
+    console.log(`Generated structured project chunks across BOM, wiring, steps, and code.`);
+  }
+
+  // 2. Ingest Extracted PDF Pages (Chapters 1-12, Appendices A-M)
   if (fs.existsSync(EXTRACTED_PAGES_FILE)) {
     console.log(`Loading PDF pages from ${EXTRACTED_PAGES_FILE}...`);
     const pages = JSON.parse(fs.readFileSync(EXTRACTED_PAGES_FILE, 'utf-8'));
 
-    // Group pages by 1-2 pages or section to chunk naturally
     for (const pageObj of pages) {
-      const pageText = pageObj.text.trim();
-      if (!pageText || pageText.length < 50) continue;
+      const rawText = cleanPdfText(pageObj.text);
+      if (!rawText || rawText.length < 80) continue;
 
       const pageNum = pageObj.page;
-      const ctx = getPageContext(pageNum);
-      const textChunks = chunkText(pageText, 1600, 240);
+      // Skip hardware project pages already handled with high fidelity
+      if (pageNum >= 104 && pageNum <= 135) continue;
 
-      for (const tc of textChunks) {
+      const ctx = getPageContext(pageNum);
+      const parentId = `parent-page-${pageNum}`;
+      const childTexts = createChildChunks(rawText, parentId, 500);
+
+      for (let idx = 0; idx < childTexts.length; idx++) {
+        const ct = childTexts[idx];
         allChunks.push({
-          id: `chunk-pdf-${chunkId++}`,
+          id: `chunk-${chunkCount++}`,
+          parentId,
           source: 'AIoT_Master_Guide_FINAL_v2.pdf',
           type: 'pdf',
-          page: pageNum,
           chapter: ctx.chapter,
           projectId: ctx.projectId,
-          title: `${ctx.chapter} (Page ${pageNum})`,
-          text: tc
+          section: 'general',
+          page: pageNum,
+          title: `${ctx.chapter} (Page ${pageNum}${childTexts.length > 1 ? `.${idx + 1}` : ''})`,
+          text: ct,
+          parentText: rawText,
+          contentHash: sha256(ct)
         });
+        sectionCounts.general++;
       }
     }
-    console.log(`Generated ${allChunks.length} chunks from PDF pages.`);
   }
 
-  // 2. Process Video Transcripts
+  // 3. Ingest YouTube Video Transcripts
   if (fs.existsSync(TRANSCRIPTS_DIR)) {
     const transcriptFiles = fs.readdirSync(TRANSCRIPTS_DIR).filter(f => f.endsWith('.json'));
-    console.log(`Processing ${transcriptFiles.length} YouTube transcripts from ${TRANSCRIPTS_DIR}...`);
+    console.log(`Processing ${transcriptFiles.length} YouTube transcripts...`);
 
     for (const file of transcriptFiles) {
       const videoId = path.basename(file, '.json');
@@ -245,8 +416,10 @@ async function runIngestion() {
 
         for (const vc of vChunks) {
           const tsStr = formatTimestamp(vc.start);
+          const parentId = `parent-vid-${videoId}-${vc.start}`;
           allChunks.push({
-            id: `chunk-vid-${chunkId++}`,
+            id: `chunk-${chunkCount++}`,
+            parentId,
             source: `https://www.youtube.com/watch?v=${videoId}`,
             type: 'video',
             videoId,
@@ -254,9 +427,13 @@ async function runIngestion() {
             timeFormatted: tsStr,
             chapter: meta.chapter,
             projectId: meta.projectId,
+            section: 'video',
             title: `${meta.title} [${tsStr}]`,
-            text: vc.text
+            text: vc.text,
+            parentText: vc.text,
+            contentHash: sha256(vc.text)
           });
+          sectionCounts.video++;
         }
       } catch (e) {
         console.warn(`Error reading transcript ${file}: ${e.message}`);
@@ -264,13 +441,14 @@ async function runIngestion() {
     }
   }
 
-  console.log(`Total chunks across PDF & Videos: ${allChunks.length}`);
+  console.log(`Total Chunks: ${allChunks.length}`);
+  console.log(`Breakdown: Hardware=${sectionCounts.hardware}, Wiring=${sectionCounts.wiring}, Steps=${sectionCounts.steps}, Code=${sectionCounts.code}, Video=${sectionCounts.video}, General=${sectionCounts.general}`);
 
-  // 3. Build Inverted MiniSearch Index
-  console.log("Building MiniSearch keyword index...");
+  // 4. Build MiniSearch Inverted Index
+  console.log("Building MiniSearch keyword index with structure fields...");
   const miniSearch = new MiniSearch({
-    fields: ['title', 'chapter', 'text'],
-    storeFields: ['id', 'title', 'type', 'chapter', 'projectId', 'page', 'videoId', 'timestamp', 'timeFormatted']
+    fields: ['title', 'chapter', 'section', 'text'],
+    storeFields: ['id', 'parentId', 'title', 'type', 'chapter', 'projectId', 'section', 'page', 'videoId', 'timestamp', 'timeFormatted', 'parentText']
   });
 
   miniSearch.addAll(allChunks);
@@ -278,41 +456,87 @@ async function runIngestion() {
   fs.writeFileSync(path.join(PUBLIC_RAG_DIR, 'minisearch-index.json'), miniSearchJson);
   console.log(`✓ Saved minisearch-index.json (${(miniSearchJson.length / 1024).toFixed(1)} KB)`);
 
-  // 4. Generate Embeddings using all-MiniLM-L6-v2
-  console.log("Loading all-MiniLM-L6-v2 model via Transformers.js...");
+  // 5. Generate Dense Vector Embeddings (with incremental caching)
+  console.log("Loading all-MiniLM-L6-v2 model...");
   const extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', { quantized: true });
 
-  console.log(`Generating 384-d dense embeddings for ${allChunks.length} chunks...`);
   const embeddingDim = 384;
   const embeddingsBuffer = new Float32Array(allChunks.length * embeddingDim);
 
-  const batchSize = 16;
-  for (let i = 0; i < allChunks.length; i += batchSize) {
-    const batch = allChunks.slice(i, i + batchSize);
-    for (let j = 0; j < batch.length; j++) {
-      const chunk = batch[j];
-      const textToEmbed = `${chunk.title}: ${chunk.text.slice(0, 500)}`;
-      const output = await extractor(textToEmbed, { pooling: 'mean', normalize: true });
-      const vector = output.data;
-      embeddingsBuffer.set(vector, (i + j) * embeddingDim);
-    }
-    if ((i + batchSize) % 64 === 0 || i + batchSize >= allChunks.length) {
-      console.log(`Embedded ${Math.min(i + batchSize, allChunks.length)} / ${allChunks.length} chunks...`);
+  // Load existing cache if present
+  let existingCache = {};
+  if (fs.existsSync(INGEST_CACHE_FILE)) {
+    try {
+      existingCache = JSON.parse(fs.readFileSync(INGEST_CACHE_FILE, 'utf-8'));
+    } catch {
+      existingCache = {};
     }
   }
+
+  const updatedCache = {};
+  let newlyEmbedded = 0;
+  let cacheHits = 0;
+
+  console.log(`Generating 384-d dense embeddings for ${allChunks.length} chunks...`);
+  for (let i = 0; i < allChunks.length; i++) {
+    const chunk = allChunks[i];
+    const hash = chunk.contentHash;
+
+    if (existingCache[hash] && existingCache[hash].length === embeddingDim) {
+      embeddingsBuffer.set(new Float32Array(existingCache[hash]), i * embeddingDim);
+      updatedCache[hash] = existingCache[hash];
+      cacheHits++;
+    } else {
+      const textToEmbed = `${chunk.title}: ${chunk.text.slice(0, 500)}`;
+      const output = await extractor(textToEmbed, { pooling: 'mean', normalize: true });
+      const vector = Array.from(output.data);
+      embeddingsBuffer.set(new Float32Array(vector), i * embeddingDim);
+      updatedCache[hash] = vector;
+      newlyEmbedded++;
+    }
+
+    if ((i + 1) % 100 === 0 || i === allChunks.length - 1) {
+      console.log(`Processed ${i + 1} / ${allChunks.length} chunks (New: ${newlyEmbedded}, Cached: ${cacheHits})...`);
+    }
+  }
+
+  // Persist embedding cache
+  fs.writeFileSync(INGEST_CACHE_FILE, JSON.stringify(updatedCache));
+  console.log(`✓ Updated cache in ${INGEST_CACHE_FILE}`);
 
   // Save compact binary embeddings buffer
   fs.writeFileSync(path.join(PUBLIC_RAG_DIR, 'embeddings.bin'), Buffer.from(embeddingsBuffer.buffer));
   console.log(`✓ Saved embeddings.bin (${(embeddingsBuffer.byteLength / 1024).toFixed(1)} KB)`);
 
-  // Save chunks metadata and text
+  // Save chunks metadata
   fs.writeFileSync(path.join(PUBLIC_RAG_DIR, 'chunks.json'), JSON.stringify(allChunks, null, 2));
   console.log(`✓ Saved chunks.json (${allChunks.length} items)`);
 
-  console.log("\nIngestion pipeline successfully completed!");
+  // 6. Generate Index Version Manifest & Ingest Report
+  const versionHash = sha256(JSON.stringify(allChunks.map(c => c.contentHash)));
+  const manifest = {
+    version: versionHash,
+    chunkCount: allChunks.length,
+    embeddingDim,
+    generatedAt: new Date().toISOString(),
+    model: 'Xenova/all-MiniLM-L6-v2'
+  };
+  fs.writeFileSync(path.join(PUBLIC_RAG_DIR, 'manifest.json'), JSON.stringify(manifest, null, 2));
+
+  const report = {
+    version: versionHash,
+    totalChunks: allChunks.length,
+    newlyEmbedded,
+    cacheHits,
+    sections: sectionCounts,
+    generatedAt: new Date().toISOString()
+  };
+  fs.writeFileSync(INGEST_REPORT_FILE, JSON.stringify(report, null, 2));
+  console.log(`✓ Saved manifest.json and ingest_report.json (Version: ${versionHash})`);
+
+  console.log("\nStructure-aware ingestion successfully completed!");
 }
 
-// Allow direct run
 if (process.argv[1] && path.basename(process.argv[1]) === 'ingest.mjs') {
   runIngestion().catch(err => {
     console.error("Ingestion failed:", err);
