@@ -3,6 +3,13 @@ import { motion } from 'framer-motion';
 import { useSensory } from '../context/useSensory';
 import { webLLM } from '../utils/webllm';
 import {
+  getOrCreateThread,
+  loadThreadMessages,
+  saveChatMessage,
+  recordMessageFeedback,
+  type StoredChatMessage
+} from '../utils/db';
+import {
   MessageSquareQuote,
   Sparkles,
   Play,
@@ -11,7 +18,13 @@ import {
   Bot,
   X,
   Cpu,
-  Loader2
+  Loader2,
+  ThumbsUp,
+  ThumbsDown,
+  HelpCircle,
+  Wrench,
+  Square,
+  RefreshCw
 } from 'lucide-react';
 
 interface AskPageProps {
@@ -41,14 +54,6 @@ interface SearchResultItem {
   similarity: number;
 }
 
-interface ChatMessage {
-  id: string;
-  role: 'user' | 'assistant';
-  content: string;
-  results?: SearchResultItem[];
-  isDeepAnswer?: boolean;
-}
-
 export const AskPage: React.FC<AskPageProps> = ({
   initialQuery = '',
   scopedProjectId,
@@ -57,11 +62,13 @@ export const AskPage: React.FC<AskPageProps> = ({
 }) => {
   const { playFeedback } = useSensory();
   const [query, setQuery] = useState(initialQuery);
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
+  const [messages, setMessages] = useState<StoredChatMessage[]>([]);
+  const [threadId, setThreadId] = useState<string>('');
   const [isSearching, setIsSearching] = useState(false);
   const [deepMode, setDeepMode] = useState(false);
   const [webGpuSupported, setWebGpuSupported] = useState(false);
   const [llmLoading, setLlmLoading] = useState(false);
+  const [isGenerating, setIsGenerating] = useState(false);
   const [llmProgress, setLlmProgress] = useState<{ text: string; progress: number } | null>(null);
   const [workerStatus, setWorkerStatus] = useState<string>('Initializing RAG worker...');
   
@@ -70,6 +77,24 @@ export const AskPage: React.FC<AskPageProps> = ({
 
   const workerRef = useRef<Worker | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const lastSubmittedQueryRef = useRef<string>('');
+  const handleSearchResultsRef = useRef<(results: SearchResultItem[], searchQ?: string, isAbstaining?: boolean, suggestedProjects?: { id: string; title: string }[]) => void>(() => {});
+
+  // Load persistent thread on mount or when scopedProjectId changes
+  useEffect(() => {
+    let active = true;
+    getOrCreateThread(scopedProjectId || null).then(thread => {
+      if (active) {
+        setThreadId(thread.id);
+        loadThreadMessages(thread.id).then(stored => {
+          if (active && stored.length > 0) {
+            setMessages(stored);
+          }
+        });
+      }
+    });
+    return () => { active = false; };
+  }, [scopedProjectId]);
 
   // Suggested Prompts
   const suggestions = scopedProjectId
@@ -85,9 +110,6 @@ export const AskPage: React.FC<AskPageProps> = ({
         'How do I configure .cursorrules for Raspberry Pi?',
         'What are the rules for Japanese business email etiquette?'
       ];
-
-  const lastSubmittedQueryRef = useRef<string>('');
-  const handleSearchResultsRef = useRef<(results: SearchResultItem[], searchQ?: string, isAbstaining?: boolean, suggestedProjects?: { id: string; title: string }[]) => void>(() => {});
 
   const handleSearchResults = useCallback(async (
     results: SearchResultItem[],
@@ -105,21 +127,24 @@ export const AskPage: React.FC<AskPageProps> = ({
           suggestedProjects.map(p => `• ${p.title}`).join('\n')
         : '';
 
-      setMessages(prev => [
-        ...prev,
-        {
-          id: `msg-${Date.now()}`,
-          role: 'assistant',
-          content: `Not found in the guide or videos.${suggestionsText}`,
-          results: [],
-          isDeepAnswer: false
-        }
-      ]);
+      const assistantMsg: StoredChatMessage = {
+        id: `msg-${Date.now()}`,
+        threadId: threadId || 'default',
+        role: 'assistant',
+        content: `Not found in the guide or videos.${suggestionsText}`,
+        results: [],
+        isDeepAnswer: false,
+        createdAt: Date.now()
+      };
+
+      setMessages(prev => [...prev, assistantMsg]);
+      saveChatMessage(assistantMsg);
       return;
     }
 
     if (deepMode && webGpuSupported && results.length > 0) {
       setLlmLoading(true);
+      setIsGenerating(true);
       playFeedback('step-done', 'tap');
 
       try {
@@ -128,39 +153,49 @@ export const AskPage: React.FC<AskPageProps> = ({
         });
         setLlmLoading(false);
 
-        const passages = results.map(r => `${r.chunk.title}: ${r.chunk.parentText || r.chunk.text}`);
+        const passages = results.map(r => ({
+          title: r.chunk.title,
+          text: r.chunk.parentText || r.chunk.text
+        }));
         const assistantMsgId = `msg-${Date.now()}`;
 
-        setMessages(prev => [
-          ...prev,
-          {
-            id: assistantMsgId,
-            role: 'assistant',
-            content: '',
-            results,
-            isDeepAnswer: true
-          }
-        ]);
+        const initialMsg: StoredChatMessage = {
+          id: assistantMsgId,
+          threadId: threadId || 'default',
+          role: 'assistant',
+          content: '',
+          results,
+          isDeepAnswer: true,
+          createdAt: Date.now()
+        };
 
-        await webLLM.generateAnswer(activeQ, passages, (token) => {
+        setMessages(prev => [...prev, initialMsg]);
+
+        let accumulatedAnswer = '';
+        await webLLM.generateAnswer(activeQ, passages, 'concise', (token) => {
+          accumulatedAnswer += token;
           setMessages(prev =>
             prev.map(m => (m.id === assistantMsgId ? { ...m, content: m.content + token } : m))
           );
         });
 
+        setIsGenerating(false);
+        saveChatMessage({ ...initialMsg, content: accumulatedAnswer });
         playFeedback('project-done', 'step-done');
       } catch (err: any) {
         setLlmLoading(false);
-        setMessages(prev => [
-          ...prev,
-          {
-            id: `msg-${Date.now()}`,
-            role: 'assistant',
-            content: `Deep answer fallback: ${err.message}. Showing retrieved passages below:`,
-            results,
-            isDeepAnswer: false
-          }
-        ]);
+        setIsGenerating(false);
+        const fallbackMsg: StoredChatMessage = {
+          id: `msg-${Date.now()}`,
+          threadId: threadId || 'default',
+          role: 'assistant',
+          content: `Deep answer notice: ${err.message}. Showing retrieved passages from the guide below:`,
+          results,
+          isDeepAnswer: false,
+          createdAt: Date.now()
+        };
+        setMessages(prev => [...prev, fallbackMsg]);
+        saveChatMessage(fallbackMsg);
       }
     } else {
       playFeedback('step-done', 'step-done');
@@ -168,18 +203,20 @@ export const AskPage: React.FC<AskPageProps> = ({
         ? `I found ${results.length} relevant reference passages in the master guide and video transcripts:`
         : "Not found in the guide or videos.";
 
-      setMessages(prev => [
-        ...prev,
-        {
-          id: `msg-${Date.now()}`,
-          role: 'assistant',
-          content: textSummary,
-          results,
-          isDeepAnswer: false
-        }
-      ]);
+      const assistantMsg: StoredChatMessage = {
+        id: `msg-${Date.now()}`,
+        threadId: threadId || 'default',
+        role: 'assistant',
+        content: textSummary,
+        results,
+        isDeepAnswer: false,
+        createdAt: Date.now()
+      };
+
+      setMessages(prev => [...prev, assistantMsg]);
+      saveChatMessage(assistantMsg);
     }
-  }, [deepMode, webGpuSupported, playFeedback, query]);
+  }, [deepMode, webGpuSupported, playFeedback, query, threadId]);
 
   // Keep ref up to date with latest handleSearchResults
   useEffect(() => {
@@ -191,13 +228,16 @@ export const AskPage: React.FC<AskPageProps> = ({
     playFeedback('tap', 'tap');
     lastSubmittedQueryRef.current = searchQuery;
 
-    const userMsg: ChatMessage = {
+    const userMsg: StoredChatMessage = {
       id: `user-${Date.now()}`,
+      threadId: threadId || 'default',
       role: 'user',
-      content: searchQuery
+      content: searchQuery,
+      createdAt: Date.now()
     };
 
     setMessages(prev => [...prev, userMsg]);
+    saveChatMessage(userMsg);
     setIsSearching(true);
 
     workerRef.current?.postMessage({
@@ -208,13 +248,43 @@ export const AskPage: React.FC<AskPageProps> = ({
     });
 
     setQuery('');
-  }, [isSearching, playFeedback, scopedProjectId]);
+  }, [isSearching, playFeedback, scopedProjectId, threadId]);
 
-  // Initialize Web Worker and check WebGPU safely once on mount
+  // Handle assistant action buttons
+  const triggerAction = (type: 'quiz' | 'troubleshoot') => {
+    if (!scopedProjectId && !scopedProjectTitle) {
+      handleSearch(type === 'quiz' ? 'Quiz me on AIoT architecture and protocols' : 'Troubleshoot my I2C and GPIO wiring');
+      return;
+    }
+
+    if (type === 'quiz') {
+      handleSearch(`Quiz me on ${scopedProjectTitle}: test my understanding of its sensors, wiring, and code.`);
+    } else {
+      handleSearch(`Troubleshoot my wiring for ${scopedProjectTitle}: what are common connection errors, wrong pins, or resistor mistakes?`);
+    }
+  };
+
+  // Stop active generation
+  const handleStopGeneration = () => {
+    webLLM.stopGeneration();
+    setIsGenerating(false);
+    setLlmLoading(false);
+    playFeedback('tap', 'tap');
+  };
+
+  // Feedback up/down
+  const handleFeedback = (msgId: string, type: 'up' | 'down') => {
+    playFeedback('tap', 'tap');
+    setMessages(prev =>
+      prev.map(m => (m.id === msgId ? { ...m, feedback: m.feedback === type ? null : type } : m))
+    );
+    recordMessageFeedback(msgId, type);
+  };
+
+  // Initialize Web Worker safely on mount
   useEffect(() => {
     webLLM.checkWebGPUSupport().then(setWebGpuSupported);
 
-    // Instantiate RAG Worker
     const worker = new Worker(new URL('../workers/rag.worker.ts', import.meta.url), {
       type: 'module'
     });
@@ -231,13 +301,16 @@ export const AskPage: React.FC<AskPageProps> = ({
       } else if (type === 'ERROR') {
         setIsSearching(false);
         setLlmLoading(false);
+        setIsGenerating(false);
         playFeedback('error', 'error');
         setMessages(prev => [
           ...prev,
           {
             id: `err-${Date.now()}`,
+            threadId: 'default',
             role: 'assistant',
-            content: `Error: ${message}`
+            content: `Error: ${message}`,
+            createdAt: Date.now()
           }
         ]);
       }
@@ -264,7 +337,7 @@ export const AskPage: React.FC<AskPageProps> = ({
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, isSearching, llmLoading]);
+  }, [messages, isSearching, llmLoading, isGenerating]);
 
   const seekVideo = (videoId: string, seconds: number) => {
     playFeedback('tap', 'tap');
@@ -281,22 +354,28 @@ export const AskPage: React.FC<AskPageProps> = ({
             <h1 className="text-base font-bold text-white">Browser RAG Assistant</h1>
           </div>
 
-          {/* Deep Answer Toggle */}
+          {/* Deep Answer Toggle with WebGPU Feature Detection */}
           <div className="flex items-center gap-2">
             <button
               onClick={() => {
                 playFeedback('tap', 'tap');
+                if (!webGpuSupported) {
+                  return;
+                }
                 setDeepMode(!deepMode);
               }}
+              disabled={!webGpuSupported}
               className={`flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-xs font-semibold border transition-all ${
-                deepMode
+                !webGpuSupported
+                  ? 'bg-slate-900/60 text-slate-500 border-slate-800 cursor-not-allowed opacity-60'
+                  : deepMode
                   ? 'bg-purple-500/20 text-purple-300 border-purple-500/40 shadow-[0_0_10px_rgba(168,85,247,0.2)]'
-                  : 'bg-slate-900 text-slate-400 border-slate-800'
+                  : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white'
               }`}
-              title={webGpuSupported ? 'WebGPU Available' : 'WebGPU not detected'}
+              title={webGpuSupported ? 'Toggle in-browser WebLLM' : 'WebGPU not detected on this device'}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Deep LLM (WebGPU)</span>
+              <span>{webGpuSupported ? 'Deep LLM (WebGPU)' : 'WebGPU Unavailable'}</span>
             </button>
           </div>
         </div>
@@ -320,11 +399,43 @@ export const AskPage: React.FC<AskPageProps> = ({
             )}
           </div>
         ) : (
-          <div className="text-[11px] text-slate-400 flex items-center gap-1.5">
-            <span className={`w-2 h-2 rounded-full ${workerStatus === 'Ready' ? 'bg-emerald-400' : 'bg-cyan-400 animate-pulse'}`} />
-            <span>{workerStatus === 'Ready' ? 'Searching 163 pages + 41 video transcripts client-side in Web Worker' : workerStatus}</span>
+          <div className="text-[11px] text-slate-400 flex items-center justify-between">
+            <div className="flex items-center gap-1.5">
+              <span className={`w-2 h-2 rounded-full ${workerStatus === 'Ready' ? 'bg-emerald-400' : 'bg-cyan-400 animate-pulse'}`} />
+              <span>{workerStatus === 'Ready' ? 'RRF Hybrid Search over 163 pages & 41 videos' : workerStatus}</span>
+            </div>
+            {messages.length > 0 && (
+              <button
+                onClick={() => {
+                  setMessages([]);
+                  playFeedback('tap', 'tap');
+                }}
+                className="text-[10px] text-slate-500 hover:text-slate-300 flex items-center gap-1"
+              >
+                <RefreshCw className="w-2.5 h-2.5" />
+                <span>Clear</span>
+              </button>
+            )}
           </div>
         )}
+
+        {/* Quick Assistant Action Cards */}
+        <div className="flex items-center gap-2 mt-2 pt-2 border-t border-slate-800/60">
+          <button
+            onClick={() => triggerAction('quiz')}
+            className="flex-1 py-1 px-2 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-[11px] text-cyan-300 flex items-center justify-center gap-1.5 transition-colors"
+          >
+            <HelpCircle className="w-3 h-3 text-cyan-400" />
+            <span>Quiz Me</span>
+          </button>
+          <button
+            onClick={() => triggerAction('troubleshoot')}
+            className="flex-1 py-1 px-2 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-[11px] text-amber-300 flex items-center justify-center gap-1.5 transition-colors"
+          >
+            <Wrench className="w-3 h-3 text-amber-400" />
+            <span>Troubleshoot Wiring</span>
+          </button>
+        </div>
       </div>
 
       {/* Embedded Video Modal/Overlay if a timestamp is selected */}
@@ -335,15 +446,27 @@ export const AskPage: React.FC<AskPageProps> = ({
               <Video className="w-4 h-4 text-cyan-400" />
               <span>Playing at {Math.floor(activeVideo.timestamp / 60)}:{(activeVideo.timestamp % 60).toString().padStart(2, '0')}</span>
             </div>
-            <button
-              onClick={() => setActiveVideo(null)}
-              className="p-1 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-white"
-            >
-              <X className="w-4 h-4" />
-            </button>
+            <div className="flex items-center gap-2">
+              <a
+                href={`https://youtu.be/${activeVideo.videoId}?t=${activeVideo.timestamp}`}
+                target="_blank"
+                rel="noreferrer"
+                className="text-[10px] text-rose-300 underline"
+              >
+                Open in YouTube App
+              </a>
+              <button
+                onClick={() => setActiveVideo(null)}
+                className="p-1 rounded-lg hover:bg-slate-800 text-slate-400 hover:text-white"
+                aria-label="Close video"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
           </div>
           <div className="rounded-xl overflow-hidden aspect-video bg-black border border-slate-800">
             <iframe
+              key={`${activeVideo.videoId}-${activeVideo.timestamp}`}
               src={`https://www.youtube.com/embed/${activeVideo.videoId}?start=${activeVideo.timestamp}&autoplay=1`}
               title="YouTube Player"
               className="w-full h-full border-0"
@@ -364,7 +487,7 @@ export const AskPage: React.FC<AskPageProps> = ({
             <div>
               <h2 className="text-base font-bold text-white">Ask the AIoT Knowledge Base</h2>
               <p className="text-xs text-slate-400 mt-1 max-w-sm mx-auto">
-                Instant hybrid search over all 12 chapters, hardware project schematics, Python code samples, and video timestamps.
+                Instant hybrid RRF search over all 12 chapters, hardware project schematics, Python code samples, and video timestamps.
               </p>
             </div>
 
@@ -402,9 +525,29 @@ export const AskPage: React.FC<AskPageProps> = ({
               }`}
             >
               {m.role === 'assistant' && (
-                <div className="flex items-center gap-1.5 mb-1.5 text-cyan-400 font-semibold text-[11px]">
-                  <Bot className="w-3.5 h-3.5" />
-                  <span>{m.isDeepAnswer ? 'Deep Answer (WebLLM)' : 'Retrieved Knowledge'}</span>
+                <div className="flex items-center justify-between mb-1.5 text-cyan-400 font-semibold text-[11px]">
+                  <div className="flex items-center gap-1.5">
+                    <Bot className="w-3.5 h-3.5" />
+                    <span>{m.isDeepAnswer ? 'Deep Answer (WebLLM)' : 'Retrieved Knowledge'}</span>
+                  </div>
+
+                  {/* Feedback Up/Down Buttons */}
+                  <div className="flex items-center gap-1 text-slate-500">
+                    <button
+                      onClick={() => handleFeedback(m.id, 'up')}
+                      className={`p-1 rounded hover:text-cyan-400 ${m.feedback === 'up' ? 'text-cyan-400' : ''}`}
+                      aria-label="Helpful"
+                    >
+                      <ThumbsUp className="w-3 h-3" />
+                    </button>
+                    <button
+                      onClick={() => handleFeedback(m.id, 'down')}
+                      className={`p-1 rounded hover:text-rose-400 ${m.feedback === 'down' ? 'text-rose-400' : ''}`}
+                      aria-label="Unhelpful"
+                    >
+                      <ThumbsDown className="w-3 h-3" />
+                    </button>
+                  </div>
                 </div>
               )}
 
@@ -427,12 +570,15 @@ export const AskPage: React.FC<AskPageProps> = ({
                       >
                         <div className="flex items-center justify-between gap-2">
                           <span className="font-semibold text-slate-100 flex items-center gap-1.5 text-[11px]">
+                            <span className="w-4 h-4 rounded bg-cyan-950 text-cyan-400 text-[10px] flex items-center justify-center font-mono shrink-0">
+                              [{i + 1}]
+                            </span>
                             {isVideo ? (
                               <Video className="w-3.5 h-3.5 text-rose-400 shrink-0" />
                             ) : (
                               <BookOpen className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
                             )}
-                            <span className="truncate max-w-[200px]">{chunk.title}</span>
+                            <span className="truncate max-w-[180px]">{chunk.title}</span>
                           </span>
 
                           {/* Action Button: Page link or Seek Video */}
@@ -451,9 +597,9 @@ export const AskPage: React.FC<AskPageProps> = ({
                           ) : null}
                         </div>
 
-                        {/* Passage snippet */}
-                        <p className="text-[11px] text-slate-300 line-clamp-3 leading-relaxed">
-                          {chunk.text}
+                        {/* Passage snippet (Full parent text when available) */}
+                        <p className="text-[11px] text-slate-300 line-clamp-4 leading-relaxed font-sans whitespace-pre-line">
+                          {chunk.parentText || chunk.text}
                         </p>
                       </div>
                     );
@@ -469,17 +615,16 @@ export const AskPage: React.FC<AskPageProps> = ({
           <div className="glass-panel p-4 rounded-2xl border border-slate-800 space-y-2 max-w-sm">
             <div className="flex items-center gap-2 text-cyan-400 text-xs font-semibold">
               <Loader2 className="w-4 h-4 animate-spin" />
-              <span>Embedding query & searching index...</span>
+              <span>Searching knowledge index...</span>
             </div>
             <div className="space-y-1.5">
               <div className="w-3/4 h-2.5 bg-slate-800 rounded animate-pulse" />
               <div className="w-full h-2.5 bg-slate-800 rounded animate-pulse" />
-              <div className="w-1/2 h-2.5 bg-slate-800 rounded animate-pulse" />
             </div>
           </div>
         )}
 
-        {/* WebLLM downloading indicator */}
+        {/* WebLLM downloading indicator & streaming controls */}
         {llmLoading && (
           <div className="glass-panel p-4 rounded-2xl border border-purple-500/30 space-y-2.5 max-w-sm">
             <div className="flex items-center justify-between text-xs">
@@ -495,7 +640,29 @@ export const AskPage: React.FC<AskPageProps> = ({
                 style={{ width: `${llmProgress?.progress || 10}%` }}
               />
             </div>
-            <p className="text-[10px] text-slate-400">{llmProgress?.text || 'Loading weights into WebGPU...'}</p>
+            <div className="flex items-center justify-between">
+              <p className="text-[10px] text-slate-400">{llmProgress?.text || 'Loading weights into WebGPU...'}</p>
+              <button
+                onClick={handleStopGeneration}
+                className="text-[10px] text-rose-400 hover:text-rose-300 flex items-center gap-1"
+              >
+                <Square className="w-2.5 h-2.5 fill-rose-400" />
+                <span>Cancel</span>
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Active streaming stop button */}
+        {isGenerating && !llmLoading && (
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handleStopGeneration}
+              className="px-3 py-1 rounded-xl bg-rose-950/80 border border-rose-500/40 text-rose-300 text-xs font-semibold flex items-center gap-1.5 hover:bg-rose-900 transition-colors shadow-lg"
+            >
+              <Square className="w-3 h-3 fill-rose-300" />
+              <span>Stop Generating</span>
+            </button>
           </div>
         )}
 
